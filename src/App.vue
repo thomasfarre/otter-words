@@ -1,18 +1,19 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <span class="text-red-500 text-5xl">
-    TOTO
-  </span>
+  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <TwitchLogin />
+
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import TwitchLogin from './components/TwitchLogin.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    TwitchLogin
   }
 }
 </script>

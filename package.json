@@ -10,6 +10,7 @@
   "dependencies": {
     "autoprefixer": "^10.4.19",
     "core-js": "^3.8.3",
+    "dotenv": "^16.4.5",
     "firebase": "^10.11.1",
     "postcss": "^8.4.38",
     "vue": "^3.2.13",
