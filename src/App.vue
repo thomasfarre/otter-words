@@ -1,15 +1,20 @@
 <template>
   <span>Hello</span>
   <TwitchLogin />
+  <TwitchChat />
+
 </template>
 
 <script>
 import TwitchLogin from './components/TwitchLogin.vue'
+import TwitchChat from './components/TwitchChat.vue'
+
 
 export default {
   name: 'App',
   components: {
-    TwitchLogin
+    TwitchLogin,
+    TwitchChat
   }
 }
 </script>

@@ -3,16 +3,6 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 import { getAuth } from "firebase/auth";
 
-// console.log(
-//   "API Key:",
-//   process.env.VUE_APP_FIREBASE_API_KEY,
-//   process.env.VUE_APP_FIREBASE_AUTH_DOMAIN,
-//   process.env.VUE_APP_FIREBASE_PROJECT_ID,
-//   process.env.VUE_APP_FIREBASE_STORAGE_BUCKET,
-//   process.env.VUE_APP_FIREBASE_MESSAGING_SENDER_ID,
-//   process.env.VUE_APP_FIREBASE_APP_ID
-// );
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: process.env.VUE_APP_FIREBASE_API_KEY,
