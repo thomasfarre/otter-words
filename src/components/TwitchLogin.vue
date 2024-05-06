@@ -11,11 +11,17 @@ export default {
   name: 'TwitchLogin',
   methods: {
     loginWithTwitch() {
-      signInWithTwitch();
+      signInWithTwitch().catch(error => {
+        console.error('Failed to sign in with Twitch:', error);
+        alert('Authentication failed. Check console for details.');
+      });
     }
   },
   mounted() {
-    handleRedirect();
+    handleRedirect().catch(error => {
+      console.error('Error handling redirect:', error);
+      alert('Error processing login data. Check console for details.');
+    });
   }
 }
 </script>

@@ -1,8 +1,8 @@
 import { getAuth, signInWithRedirect, getRedirectResult, OAuthProvider } from "firebase/auth";
-import { app } from "../firebase/init"; // Import only the necessary named export 'app'
+import { app } from "../firebase/init";
 
-const auth = getAuth(app); // Correct the reference to 'app' instead of a non-existing 'firebaseApp'
-const provider = new OAuthProvider("twitch.tv");
+const auth = getAuth(app);
+const provider = new OAuthProvider("oidc.twitch");
 
 export const signInWithTwitch = () => {
   signInWithRedirect(auth, provider);
