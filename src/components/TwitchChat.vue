@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Twitch Chat for {{ twitchChannelName }}</h1>
+    <h1>Twitch Chat for {{ channelName }}</h1>
     <ul>
       <li v-for="message in messages" :key="message.id">
         {{ message.username }}: {{ message.text }}
@@ -14,22 +14,15 @@ import tmi from 'tmi.js';
 
 export default {
   name: 'TwitchChat',
-
   data() {
     return {
       client: null,
-      messages: []
+      messages: [],
+      channelName: 'LaLoutreBurlesque'  // Hardcoded channel name
     };
   },
-  watch: {
-    twitchChannelName(newChannel, oldChannel) {
-      if (newChannel !== oldChannel) {
-        this.connectChat(newChannel);
-      }
-    }
-  },
   created() {
-    this.connectChat(this.twitchChannelName);
+    this.connectChat(this.channelName);
   },
   methods: {
     connectChat(channel) {
@@ -50,7 +43,7 @@ export default {
       this.client.on('message', (channel, tags, message, self) => {
         if (self) return;
         this.messages.push({
-          id: this.messages.length,
+          id: this.messages.length + 1, // updated to avoid duplication in keys
           username: tags['display-name'],
           text: message
         });
