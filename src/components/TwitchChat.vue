@@ -1,11 +1,13 @@
 <template>
-  <div>
-    <h1 class="text-red-500">Twitch Chat for {{ channelName }}</h1>
-    <ul>
-      <li v-for="message in messages" :key="message.id">
-        {{ message.username }}: {{ message.text }}
-      </li>
-    </ul>
+  <div class="pt-6">
+    <div class="bg-white p-6 rounded-md max-h-96 max-w-prose overflow-auto">
+      <h2 class="">Twitch Chat de {{ channelName }}</h2>
+      <ul>
+        <li v-for="message in messages" :key="message.id">
+          {{ message.username }}: {{ message.text }}
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 

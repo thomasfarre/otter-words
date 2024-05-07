@@ -1,14 +1,14 @@
+// router/index.js
 import { createRouter, createWebHistory } from "vue-router";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import WordsGame from "../components/WordsGame.vue";
 import HomePage from "../components/HomePage.vue";
 
-
 const routes = [
   {
     path: "/",
     name: "Home",
-    component: HomePage
+    component: HomePage,
   },
   {
     path: "/game",
@@ -26,22 +26,15 @@ const router = createRouter({
 const auth = getAuth();
 
 router.beforeEach((to, from, next) => {
-  // Check if the route requires authentication
-  if (to.matched.some((record) => record.meta.requiresAuth)) {
-    // Using Firebase to check user authentication state
-    onAuthStateChanged(auth, (user) => {
-      if (!user && to.path !== "/login") {
-        next({
-          path: "/login",
-          query: { redirect: to.fullPath },
-        });
-      } else {
-        next(); // If authenticated, or going to login, proceed
-      }
-    });
-  } else {
-    next(); // If no authentication needed, proceed
-  }
+  const requiresAuth = to.matched.some((record) => record.meta.requiresAuth);
+  onAuthStateChanged(auth, (user) => {
+    if (requiresAuth && !user) {
+      // If user tries to access a guarded route without being logged in, redirect to home to trigger login
+      next("/");
+    } else {
+      next();
+    }
+  });
 });
 
 export default router;
