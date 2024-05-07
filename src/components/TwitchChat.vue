@@ -11,13 +11,10 @@
 
 <script>
 import tmi from 'tmi.js';
-import { mapGetters } from 'vuex';
 
 export default {
   name: 'TwitchChat',
-  computed: {
-    ...mapGetters(['twitchChannelName'])
-  },
+
   data() {
     return {
       client: null,
