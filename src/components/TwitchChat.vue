@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Twitch Chat for {{ channelName }}</h1>
+    <h1 class="text-red-500">Twitch Chat for {{ channelName }}</h1>
     <ul>
       <li v-for="message in messages" :key="message.id">
         {{ message.username }}: {{ message.text }}
@@ -18,10 +18,11 @@ export default {
     return {
       client: null,
       messages: [],
-      channelName: 'LaLoutreBurlesque'  // Hardcoded channel name
+      channelName: '' // Initialize channelName as empty
     };
   },
   created() {
+    this.channelName = sessionStorage.getItem("twitchChannelName");
     this.connectChat(this.channelName);
   },
   methods: {

@@ -24,7 +24,9 @@ export const handleRedirect = async () => {
       const accessToken = credential.accessToken;
 
       const channelName = await fetchTwitchChannelName(accessToken);
-      console.log("Twitch Channel Name:", channelName);
+
+      // Store channel name in session storage
+      sessionStorage.setItem("twitchChannelName", channelName);
     }
   } catch (error) {
     console.error("Error during sign-in:", error);

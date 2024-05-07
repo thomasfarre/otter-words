@@ -1,21 +1,11 @@
 <template>
-  <span>Hello</span>
-  <TwitchLogin />
-  <TwitchChat />
-
+  <router-view />
 </template>
 
 <script>
-import TwitchLogin from './components/TwitchLogin.vue'
-import TwitchChat from './components/TwitchChat.vue'
-
 
 export default {
   name: 'App',
-  components: {
-    TwitchLogin,
-    TwitchChat
-  }
 }
 </script>
 
