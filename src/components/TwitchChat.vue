@@ -22,7 +22,7 @@ export default {
     return {
       client: null,
       messages: [],
-      channelName: '' // Initialize channelName as empty
+      channelName: ''
     };
   },
   created() {

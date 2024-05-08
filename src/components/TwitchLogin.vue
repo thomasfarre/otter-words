@@ -1,6 +1,8 @@
 <template>
   <div class="pt-8">
-    <button class="bg-amber-700 text-emerald-50 p-3 rounded-md text-sm font-semibold tracking-wider font-['Poppins'] uppercase" @click="handleLoginOrRedirect">Jouer</button>
+    <button
+      class="bg-amber-700 text-emerald-50 p-3 rounded-md text-sm font-semibold tracking-wider font-['Poppins'] uppercase"
+      @click="handleLoginOrRedirect">Jouer</button>
   </div>
 </template>
 
@@ -22,7 +24,11 @@ export default {
           alert('Authentication failed. Check console for details.');
         });
       } else {
-        router.push('/game');
+        // Redirect to game page with user ID
+        router.push({
+          name: 'WordsGame',
+          params: { userId: auth.currentUser.uid }
+        });
       }
     }
   },
@@ -30,7 +36,11 @@ export default {
     handleRedirect().then(() => {
       const auth = getAuth();
       if (auth.currentUser) {
-        router.push('/game');
+        // Redirect to game page with user ID
+        router.push({
+          name: 'WordsGame',
+          params: { userId: auth.currentUser.uid }
+        });
       }
     }).catch(error => {
       console.error('Error handling redirect:', error);

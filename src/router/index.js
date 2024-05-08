@@ -11,7 +11,7 @@ const routes = [
     component: HomePage,
   },
   {
-    path: "/game",
+    path: "/game/:userId",
     name: "WordsGame",
     component: WordsGame,
     meta: { requiresAuth: true },
@@ -31,8 +31,15 @@ router.beforeEach((to, from, next) => {
     if (requiresAuth && !user) {
       // If user tries to access a guarded route without being logged in, redirect to home to trigger login
       next("/");
+    } else if (requiresAuth && user) {
+      // Verify the user ID in the route matches the logged-in user's ID
+      if (to.params.userId !== user.uid) {
+        next(false); // Stop the navigation if the IDs do not match
+      } else {
+        next(); // Proceed if the IDs match
+      }
     } else {
-      next();
+      next(); // Proceed normally for non-guarded routes
     }
   });
 });
