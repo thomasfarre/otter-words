@@ -5,9 +5,12 @@ import {
   OAuthProvider,
 } from "firebase/auth";
 import { app } from "../firebase/init";
+import { initializeFirestore, doc, setDoc } from "firebase/firestore";
 
 const auth = getAuth(app);
 const provider = new OAuthProvider("oidc.twitch");
+const db = initializeFirestore(app, {}); // Initialize Firestore
+
 
 export const signInWithTwitch = () => {
   signInWithRedirect(auth, provider);
@@ -19,14 +22,14 @@ export const handleRedirect = async () => {
     if (result) {
       console.log("User signed in:", result.user);
 
-      // Access the OAuth access token correctly
       const credential = OAuthProvider.credentialFromResult(result);
       const accessToken = credential.accessToken;
 
       const channelName = await fetchTwitchChannelName(accessToken);
 
-      // Store channel name in session storage
-      sessionStorage.setItem("twitchChannelName", channelName);
+      // Store channel name in Firestore
+      const userDoc = doc(db, "users", result.user.uid); // Use user UID as document ID
+      await setDoc(userDoc, { twitchChannelName: channelName });
     }
   } catch (error) {
     console.error("Error during sign-in:", error);

@@ -12,6 +12,8 @@
 </template>
 
 <script>
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 import tmi from 'tmi.js';
 
 export default {
@@ -24,10 +26,26 @@ export default {
     };
   },
   created() {
-    this.channelName = sessionStorage.getItem("twitchChannelName");
-    this.connectChat(this.channelName);
+    this.fetchChannelNameAndConnect();
   },
   methods: {
+    async fetchChannelNameAndConnect() {
+      const auth = getAuth();
+      const db = getFirestore();
+      const user = auth.currentUser;
+
+      if (user) {
+        const userDoc = doc(db, "users", user.uid);
+        const docSnap = await getDoc(userDoc);
+
+        if (docSnap.exists()) {
+          this.channelName = docSnap.data().twitchChannelName;
+          this.connectChat(this.channelName);
+        } else {
+          console.log("No such document!");
+        }
+      }
+    },
     connectChat(channel) {
       if (this.client) {
         this.client.disconnect(); // Disconnect if already connected
