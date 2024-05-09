@@ -1,17 +1,22 @@
 <template>
   <div class="pt-6">
     <div class="bg-white p-6 rounded-md max-h-96 max-w-prose overflow-auto">
-      <h2 class="">Twitch Chat de {{ channelName }}</h2>
-      <ul>
+      <h2 class="text-gray-700">Twitch Chat de <span class="font-bold text-gray-900">{{ channelName }}</span></h2>
+      <ul class="pt-4 space-y-2">
         <li v-for="message in messages" :key="message.id">
           {{ message.username }}: {{ message.text }}
         </li>
       </ul>
+      <div class="mt-4">
+        <p class="text-lg">Random Word: <strong>{{ randomWord }}</strong></p>
+        <p>Definition: <em>{{ definition }}</em></p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import tmi from 'tmi.js';
@@ -22,11 +27,14 @@ export default {
     return {
       client: null,
       messages: [],
-      channelName: ''
+      channelName: '',
+      randomWord: '',
+      definition: ''
     };
   },
   created() {
     this.fetchChannelNameAndConnect();
+    this.fetchRandomWord();
   },
   methods: {
     async fetchChannelNameAndConnect() {
@@ -71,6 +79,36 @@ export default {
       });
 
       this.client.connect().catch(console.error);
+    },
+    async fetchRandomWord() {
+      try {
+        const response = await axios.get('https://fr.wiktionary.org/w/api.php', {
+          params: {
+            action: 'query',
+            format: 'json',
+            list: 'random',
+            rnnamespace: 0,
+            rnlimit: 1
+          }
+        });
+        const title = response.data.query.random[0].title;
+        this.randomWord = title;
+
+        // Fetching the definition
+        const details = await axios.get('https://fr.wiktionary.org/w/api.php', {
+          params: {
+            action: 'query',
+            format: 'json',
+            prop: 'extracts',
+            titles: title
+          }
+        });
+        const page = details.data.query.pages;
+        const pageId = Object.keys(page)[0];
+        this.definition = page[pageId].extract;
+      } catch (error) {
+        console.error('Error fetching random word:', error);
+      }
     }
   },
   beforeUnmount() {
