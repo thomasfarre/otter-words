@@ -82,7 +82,7 @@ export default {
     },
     async fetchRandomWord() {
       try {
-        const response = await axios.get('https://fr.wiktionary.org/w/api.php', {
+        const response = await axios.get('/api', {
           params: {
             action: 'query',
             format: 'json',
@@ -95,7 +95,7 @@ export default {
         this.randomWord = title;
 
         // Fetching the definition
-        const details = await axios.get('https://fr.wiktionary.org/w/api.php', {
+        const details = await axios.get('/api', {
           params: {
             action: 'query',
             format: 'json',
