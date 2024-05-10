@@ -19,14 +19,20 @@ exports.handler = async function (event, context) {
         format: "json",
         prop: "extracts",
         titles: title,
+        explaintext: true, // This parameter strips HTML if supported, otherwise do it manually below
       },
     });
+
     const page = details.data.query.pages;
     const pageId = Object.keys(page)[0];
+    let definition = page[pageId].extract;
+
+    // Remove HTML tags using a simple regex (if explaintext is not enough)
+    definition = definition.replace(/<\/?[^>]+(>|$)/g, "");
 
     return {
       statusCode: 200,
-      body: JSON.stringify({ word: title, definition: page[pageId].extract }),
+      body: JSON.stringify({ word: title, definition }),
     };
   } catch (error) {
     return { statusCode: 500, body: error.toString() };
