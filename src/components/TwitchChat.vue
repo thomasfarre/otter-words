@@ -82,30 +82,10 @@ export default {
     },
     async fetchRandomWord() {
       try {
-        const response = await axios.get('/api', {
-          params: {
-            action: 'query',
-            format: 'json',
-            list: 'random',
-            rnnamespace: 0,
-            rnlimit: 1
-          }
-        });
-        const title = response.data.query.random[0].title;
-        this.randomWord = title;
-
-        // Fetching the definition
-        const details = await axios.get('/api', {
-          params: {
-            action: 'query',
-            format: 'json',
-            prop: 'extracts',
-            titles: title
-          }
-        });
-        const page = details.data.query.pages;
-        const pageId = Object.keys(page)[0];
-        this.definition = page[pageId].extract;
+        const response = await axios.get('/.netlify/functions/fetchRandomWord');
+        const data = response.data;
+        this.randomWord = data.word;
+        this.definition = data.definition;
       } catch (error) {
         console.error('Error fetching random word:', error);
       }
