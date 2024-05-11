@@ -2,6 +2,8 @@
   <div class="round bg-white p-6">
     <div v-if="timeLeft > 0">
       <p>Time left: {{ timeLeft }} seconds</p>
+      <p>Definition: {{ definition }}</p>
+
     </div>
     <div v-else>
       <h4>Round ended!</h4>
@@ -62,7 +64,7 @@ export default {
     async fetchWordAndDefinition() {
       const wordList = ['dog', 'cat', 'bird']; // Simplified example
       this.word = wordList[Math.floor(Math.random() * wordList.length)];
-      const url = `/.netlify/functions/fetch-definition?word=${this.word}`;
+      const url = `/.netlify/functions/fetchDefinition?word=${this.word}`;
       try {
         const response = await axios.get(url);
         const data = response.data;
@@ -81,10 +83,25 @@ export default {
         }
       }, 1000);
     },
-    checkGuess(guess) {
-      if (guess.toLowerCase() === this.word.toLowerCase()) {
-        this.correctGuess = true;
-        this.fetchWordAndDefinition(); // Fetch the next word and definition
+    checkGuess(message, username) {
+      if (message.trim().toLowerCase() === this.word.toLowerCase()) {
+        const correctMessage = {
+          id: this.messages.length + 1,
+          username: username,
+          text: message,
+          correct: true // Highlight the correct guess
+        };
+        this.messages.push(correctMessage);
+        setTimeout(() => {
+          this.fetchWordAndDefinition(); // Fetch the next word and definition after a brief pause
+        }, 2000); // Delay before moving to the next word
+      } else {
+        this.messages.push({
+          id: this.messages.length + 1,
+          username: username,
+          text: message,
+          correct: false
+        });
       }
     },
     endRound() {

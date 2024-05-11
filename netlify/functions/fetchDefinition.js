@@ -1,4 +1,3 @@
-// netlify/functions/fetch-definition.js
 const axios = require("axios");
 
 exports.handler = async function (event, context) {
