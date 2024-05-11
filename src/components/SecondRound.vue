@@ -62,15 +62,16 @@ export default {
       }
     },
     async fetchWordAndDefinition() {
-      const wordList = ['dog', 'cat', 'bird']; // Simplified example
+      const wordList = ['chien', 'loutre', 'truite']; // Simplified example
       this.word = wordList[Math.floor(Math.random() * wordList.length)];
-      const url = `/.netlify/functions/fetchDefinition?word=${this.word}`;
+      const url = `/.netlify/functions/fetch-definition?word=${this.word}`;
       try {
         const response = await axios.get(url);
         const data = response.data;
-        this.definition = data.definition; // Make sure to handle JSON parsing if necessary
+        this.definition = data.definition; // Received clean definition
       } catch (error) {
         console.error('Failed to fetch definition:', error);
+        this.definition = 'Failed to load definition.';
       }
     },
     startTimer() {

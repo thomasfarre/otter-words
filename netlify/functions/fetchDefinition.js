@@ -18,9 +18,11 @@ exports.handler = async function (event, context) {
     const response = await axios.get(url);
     const pages = response.data.query.pages;
     if (pages.length > 0 && pages[0].revisions) {
+      const content = pages[0].revisions[0].content;
+      const definition = extractDefinition(content);
       return {
         statusCode: 200,
-        body: JSON.stringify({ definition: pages[0].revisions[0].content }),
+        body: JSON.stringify({ definition }),
       };
     }
     return {
@@ -34,3 +36,19 @@ exports.handler = async function (event, context) {
     };
   }
 };
+
+// Function to extract a simple definition from the complex wiki markup
+function extractDefinition(text) {
+  // This is a basic regex and might need to be adjusted based on actual content patterns
+  const match = text.match(/#\s*(.*)/);
+  return match
+    ? match[1]
+        .replace(/{{.*?}}/g, "")
+        .replace(/\[\[(.*?)\]\]/g, (match, p1) => {
+          // This removes links and retains the label part of the link if any
+          const parts = p1.split("|");
+          return parts[parts.length - 1];
+        })
+        .trim()
+    : "Definition not available";
+}
