@@ -42,6 +42,7 @@ export default {
     };
   },
   created() {
+    this.fetchChannelNameAndConnect();
     this.fetchWordAndDefinition();
     this.startTimer();
   },
