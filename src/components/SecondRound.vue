@@ -64,7 +64,7 @@ export default {
     async fetchWordAndDefinition() {
       const wordList = ['chien', 'loutre', 'truite']; // Simplified example
       this.word = wordList[Math.floor(Math.random() * wordList.length)];
-      const url = `/.netlify/functions/fetch-definition?word=${this.word}`;
+      const url = `/.netlify/functions/fetchDefinition?word=${this.word}`;
       try {
         const response = await axios.get(url);
         const data = response.data;
