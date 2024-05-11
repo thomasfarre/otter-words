@@ -7,16 +7,11 @@
           {{ message.username }}: {{ message.text }}
         </li>
       </ul>
-      <div class="mt-4">
-        <p class="text-lg">Random Word: <strong>{{ randomWord }}</strong></p>
-        <p>Definition: <em>{{ definition }}</em></p>
-      </div>
     </div>
   </div>
 </template>
 
 <script>
-import axios from 'axios';
 import { getFirestore, doc, getDoc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import tmi from 'tmi.js';
@@ -34,7 +29,6 @@ export default {
   },
   created() {
     this.fetchChannelNameAndConnect();
-    this.fetchRandomWord();
   },
   methods: {
     async fetchChannelNameAndConnect() {
@@ -80,16 +74,6 @@ export default {
 
       this.client.connect().catch(console.error);
     },
-    async fetchRandomWord() {
-      try {
-        const response = await axios.get('/.netlify/functions/fetchRandomWord');
-        const data = response.data;
-        this.randomWord = data.word;
-        this.definition = data.definition;
-      } catch (error) {
-        console.error('Error fetching random word:', error);
-      }
-    }
   },
   beforeUnmount() {
     if (this.client) {
