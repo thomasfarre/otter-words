@@ -1,33 +1,46 @@
 <template>
-  <div class="round bg-white p-6">
-    <div v-if="timeLeft > 0">
-      <p>Time left: {{ timeLeft }} seconds</p>
-      <p>Definition: {{ definition }}</p>
-    </div>
-    <div v-else>
-      <h4>Round ended!</h4>
-      <button @click="endRound">Show Results</button>
-    </div>
+  <div class="max-w-xl mx-auto">
+
     <div>
-      <h4>Scores:</h4>
-      <span>Total score: {{ totalScore }}</span>
-      <ul>
-        <li v-for="(score, username) in scores" :key="username">
-          {{ username }}: {{ score }}
-        </li>
-      </ul>
+      <span class="text-white font-bold text-3xl font-['Poppins']">
+        Trouve le mot associer à cette définition ! ({{ word }})
+      </span>
+      <div v-if="timeLeft > 0" class="mt-6 p-6 bg-white rounded-md">
+        <div class="">
+          <span class="font-['Roboto'] font-bold text-2xl">{{ timeLeft }}s</span>
+        </div>
+        <div class="pt-4">
+          <span class="text-xl">{{ definition }}</span>
+        </div>
+      </div>
+      <div v-else>
+        <h4>Round ended!</h4>
+        <button @click="endRound">Show Results</button>
+      </div>
     </div>
-    <div>
-      <span>Word to found: {{ word }}</span>
-      <div>
-        <span>Correct Answers:</span>
-        <li v-for="message in correctGuess" :key="message.id">
-          {{ message.text }} ({{ message.username }})
-        </li>
+
+    <div class="mt-6 p-6 bg-white rounded-md">
+      <div class="flex space-x-4 justify-start">
+        <div class="w-1/2">
+          <div class="text-center">
+            <span class="font-bold text-xl">Mots trouvés</span>
+            <li v-for="message in correctGuess" :key="message.id">
+              {{ message.text }} <span class="text-xs">({{ message.username }})</span>
+            </li>
+          </div>
+        </div>
+        <div class="w-1/2 space-y-6">
+          <li v-for="(score, username) in scores" :key="username">
+            {{ username }}: {{ score }}
+          </li>
+          <div class="">
+            <span class="font-bold text-xl">Total score: {{ totalScore }}</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="bg-white p-6 mt-12 max-w-xl">
+  <div class="bg-white p-6 mt-28 w-screen">
     <span>La Rivière des fausses réponses</span>
     <ul class="pt-4 flex space-x-4 overflow-x-auto whitespace-nowrap">
       <li v-for="message in incorrectGuess" :key="message.id">
