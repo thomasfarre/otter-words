@@ -87,11 +87,10 @@ export default {
       try {
         const response = await axios.get('/words.json'); // Adjust the path if necessary
         const words = response.data.words;
-        this.word = words[Math.floor(Math.random() * words.length)];
-
-        const url = `/.netlify/functions/fetchDefinition?word=${this.word}`;
-        const definitionResponse = await axios.get(url);
-        this.definition = definitionResponse.data.definition; // Received clean definition
+        const keys = Object.keys(words); // Extract keys from the words object
+        const randomKey = keys[Math.floor(Math.random() * keys.length)]; // Select a random key
+        this.word = randomKey;
+        this.definition = words[randomKey]; // Directly access the definition using the key
       } catch (error) {
         console.error('Failed to fetch data:', error);
         this.definition = 'Failed to load definition.';
