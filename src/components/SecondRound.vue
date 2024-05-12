@@ -9,6 +9,15 @@
       <button @click="endRound">Show Results</button>
     </div>
     <div>
+      <h4>Scores:</h4>
+      <span>Total score: {{ totalScore }}</span>
+      <ul>
+        <li v-for="(score, username) in scores" :key="username">
+          {{ username }}: {{ score }}
+        </li>
+      </ul>
+    </div>
+    <div>
       <span>Word to found: {{ word }}</span>
       <div>
         <span>Correct Answers:</span>
@@ -49,7 +58,8 @@ export default {
       messages: [],
       word: '',
       definition: '',
-      scores: {}
+      scores: {},
+      totalScore: 0
     };
   },
   created() {
@@ -74,15 +84,16 @@ export default {
       }
     },
     async fetchWordAndDefinition() {
-      const wordList = ['chien', 'loutre', 'truite']; // Simplified example
-      this.word = wordList[Math.floor(Math.random() * wordList.length)];
-      const url = `/.netlify/functions/fetchDefinition?word=${this.word}`;
       try {
-        const response = await axios.get(url);
-        const data = response.data;
-        this.definition = data.definition; // Received clean definition
+        const response = await axios.get('/words.json'); // Adjust the path if necessary
+        const words = response.data.words;
+        this.word = words[Math.floor(Math.random() * words.length)];
+
+        const url = `/.netlify/functions/fetchDefinition?word=${this.word}`;
+        const definitionResponse = await axios.get(url);
+        this.definition = definitionResponse.data.definition; // Received clean definition
       } catch (error) {
-        console.error('Failed to fetch definition:', error);
+        console.error('Failed to fetch data:', error);
         this.definition = 'Failed to load definition.';
       }
     },
@@ -105,6 +116,11 @@ export default {
           text: message,
           correct: true
         };
+        if (!this.scores[username]) {
+          this.scores[username] = 0;
+        }
+        this.scores[username] += 10; // Increment user's score by 10 for a correct guess
+        this.totalScore += 10; // Increment global score
         this.correctGuess.push(correctGuess);
         this.fetchWordAndDefinition();
       } else {
@@ -118,7 +134,6 @@ export default {
       }
     },
     endRound() {
-      clearInterval(this.categoryTimer); // Clear the category changing timer
       this.$emit('round-ended', this.foundWords.length);
     },
     connectChat(channel) {
@@ -150,6 +165,7 @@ export default {
       this.client.disconnect();
     }
     clearInterval(this.timer);
+    this.$emit('round-ended', this.totalScore);
   }
 };
 </script>
