@@ -9,7 +9,7 @@
         <span class=" text-white font-['Roboto']">des loutres, des mots et des truites bien sûr</span>
       </div>
       <div>
-        <button @click="startGame" class="">Start New Game</button>
+        <button @click="startGame" class="bg-white p-2 rounded-full">Start New Game</button>
         <FirstRound v-if="gameStarted && currentRound === 1" @round-ended="handleRoundEnded" :key="'first-' + roundKey" />
         <SecondRound v-if="gameStarted && currentRound === 2" @round-ended="handleRoundEnded" :key="'second-' + roundKey" />
 

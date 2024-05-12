@@ -3,17 +3,25 @@
     <div v-if="timeLeft > 0">
       <p>Time left: {{ timeLeft }} seconds</p>
       <p>Definition: {{ definition }}</p>
-
     </div>
     <div v-else>
       <h4>Round ended!</h4>
       <button @click="endRound">Show Results</button>
     </div>
+    <div>
+      <span>Word to found: {{ word }}</span>
+      <div>
+        <span>Correct Answers:</span>
+        <li v-for="message in correctGuess" :key="message.id">
+          {{ message.text }} ({{ message.username }})
+        </li>
+      </div>
+    </div>
   </div>
   <div class="bg-white p-6 mt-12 max-w-xl">
-    <span>La Rivière</span>
-    <ul class="pt-4 space-y-2 flex space-x-4 overflow-x-auto whitespace-nowrap">
-      <li v-for="message in messages" :key="message.id">
+    <span>La Rivière des fausses réponses</span>
+    <ul class="pt-4 flex space-x-4 overflow-x-auto whitespace-nowrap">
+      <li v-for="message in incorrectGuess" :key="message.id">
         {{ message.text }} ~
       </li>
     </ul>
@@ -34,10 +42,13 @@ export default {
       client: null,
       timeLeft: 120,
       timer: null,
-      messages: [],
       channelName: '',
       guesses: [],
-      correctGuess: false,
+      correctGuess: [],
+      incorrectGuess: [],
+      messages: [],
+      word: '',
+      definition: '',
       scores: {}
     };
   },
@@ -87,23 +98,23 @@ export default {
     },
     checkGuess(message, username) {
       if (message.trim().toLowerCase() === this.word.toLowerCase()) {
-        const correctMessage = {
-          id: this.messages.length + 1,
+        console.log(username)
+        const correctGuess = {
+          id: this.correctMessages,
           username: username,
           text: message,
-          correct: true // Highlight the correct guess
+          correct: true
         };
-        this.messages.push(correctMessage);
-        setTimeout(() => {
-          this.fetchWordAndDefinition(); // Fetch the next word and definition after a brief pause
-        }, 2000); // Delay before moving to the next word
+        this.correctGuess.push(correctGuess);
+        this.fetchWordAndDefinition();
       } else {
-        this.messages.push({
-          id: this.messages.length + 1,
+        const incorrectGuess = {
+          id: this.incorectGuess,
           username: username,
           text: message,
           correct: false
-        });
+        };
+        this.incorrectGuess.push(incorrectGuess);
       }
     },
     endRound() {
@@ -129,7 +140,7 @@ export default {
           username: tags['display-name'],
           text: message
         });
-        this.checkWord(message);
+        this.checkGuess(message, tags['display-name']);
       });
       this.client.connect().catch(console.error);
     },
