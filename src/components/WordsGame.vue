@@ -68,6 +68,8 @@
       <FirstRound v-if="gameStarted && currentRound === 1" @round-ended="handleRoundEnded" :key="'first-' + roundKey" />
       <SecondRound v-if="gameStarted && currentRound === 2" @round-ended="handleRoundEnded"
         :key="'second-' + roundKey" />
+      <ThirdRound v-if="gameStarted && currentRound === 3" @round-ended="handleRoundEnded"
+        :key="'third-' + roundKey" />
     </div>
 
     <div v-if="gameEnded" class="absolute left-1/2 top-20 transform -translate-x-1/2 bg-white z-20 p-1 rounded-md">
@@ -111,6 +113,8 @@
 <script>
 import FirstRound from "./FirstRound.vue";
 import SecondRound from "./SecondRound.vue";
+import ThirdRound from "./ThirdRound.vue";
+
 
 import iconImage from "@/assets/images/trout.png";
 import bgImage from "@/assets/images/bg-loutre-2.jpg";
@@ -120,6 +124,7 @@ export default {
   components: {
     FirstRound,
     SecondRound,
+    ThirdRound,
   },
   data() {
     return {
@@ -147,7 +152,7 @@ export default {
       this.gameStarted = true;
       this.gameEnded = false;
       this.finalScore = 0;
-      this.currentRound = 2;
+      this.currentRound = 1;
       this.playing
         ? this.$refs.backgroundMusic.play()
         : this.$refs.backgroundMusic.pause();
@@ -156,6 +161,8 @@ export default {
     handleRoundEnded(data) {
       if (this.currentRound === 1) {
         this.currentRound = 2;
+      } else if (this.currentRound === 2) {
+        this.currentRound = 3;
       } else {
         this.gameStarted = false;
         this.gameEnded = true; // End the game after the second round

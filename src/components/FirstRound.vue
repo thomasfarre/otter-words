@@ -3,10 +3,10 @@
     <div class="max-w-prose mx-auto">
       <div>
         <span class="text-white font-bold text-3xl font-poppins">
-          Trouve les <span class="text-amber-500">{{ selectedCategory }}</span> <br> qui commence par <span
+          Trouve des <span class="text-amber-500">{{ selectedCategory }}</span> <br> qui commence par <span
             class="text-amber-500">{{ startLetter }}</span>
         </span>
-        <div class="mt-6 p-6 bg-emerald-50 rounded-md">
+        <div class="mt-6 p-6 bg-emerald-50 rounded-md relative">
           <div class="bg-emerald-400 h-2 absolute top-0 inset-0 rounded-md"
             :style="{ width: progressBarWidth, transition: 'width 0.5s linear' }"></div>
 
@@ -133,7 +133,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 180,
+      timeLeft: 120,
       timer: null,
       categoryTimer: null,
       messages: [],
@@ -153,7 +153,7 @@ export default {
   },
   computed: {
     progressBarWidth() {
-      const initialTime = 180;
+      const initialTime = 120;
       return `${(this.timeLeft / initialTime) * 100}%`;
     }
   },
