@@ -7,6 +7,9 @@
             class="text-amber-500">{{ startLetter }}</span>
         </span>
         <div class="mt-6 p-6 bg-emerald-50 rounded-md">
+          <div class="bg-emerald-400 h-2 absolute top-0 inset-0 rounded-md"
+            :style="{ width: progressBarWidth, transition: 'width 0.5s linear' }"></div>
+
           <div>
             <span class="font-poppins font-black text-2xl text-gray-900">{{ timeLeft }}s</span>
           </div>
@@ -141,8 +144,18 @@ export default {
       selectedCategory: '',
       startLetter: '',
       scores: {},
-      totalScore: 0
+      totalScore: 0,
+      sounds: [
+        new Audio('/sounds/fish.wav'),
+        new Audio('/sounds/fishing.wav'),
+      ]
     };
+  },
+  computed: {
+    progressBarWidth() {
+      const initialTime = 180;
+      return `${(this.timeLeft / initialTime) * 100}%`;
+    }
   },
   created() {
     this.fetchChannelNameAndConnect();
@@ -176,6 +189,7 @@ export default {
     },
     async fetchValidWords() {
       try {
+        this.sounds[1].play();
         const response = await axios.get(`/${this.selectedCategory}.json`);
         const wordsByLetter = response.data[this.startLetter] || [];
         this.foundWords = wordsByLetter;
@@ -193,6 +207,7 @@ export default {
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }
+        this.sounds[0].play();
         this.scores[username] += 2;
         this.totalScore += 2;
         this.foundWords = this.foundWords.filter(word => word.toLowerCase() !== normalizedMessage);

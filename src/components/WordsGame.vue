@@ -159,7 +159,6 @@ export default {
       } else {
         this.gameStarted = false;
         this.gameEnded = true; // End the game after the second round
-        console.log("Game ended. Final score:", this.finalScore);
       }
       if (this.gameStarted) {
         this.finalScore += data.total;

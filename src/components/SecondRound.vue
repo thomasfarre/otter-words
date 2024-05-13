@@ -4,10 +4,11 @@
       <div>
         <span class="text-white font-bold text-3xl font-poppins">
           Trouve le <span class="text-amber-500">mot</span> associé à cette <span
-            class="text-amber-500">définition</span> ! <span class="text-sm italic">({{ word }})</span>
+            class="text-amber-500">définition</span> !
         </span>
-        <div class="mt-6 px-6 pt-6 pb-2 bg-emerald-50 rounded-md">
-          <div class="">
+        <div class="mt-6 px-6 pt-6 pb-2 bg-emerald-50 rounded-md relative">
+          <div class="bg-emerald-400 h-2 absolute top-0 inset-0 rounded-md" :style="{ width: progressBarWidth, transition: 'width 0.5s linear' }"></div>
+          <div>
             <span class="font-poppins font-black text-2xl text-gray-900">{{ timeLeft }}s</span>
           </div>
           <div class="pt-4">
@@ -148,6 +149,12 @@ export default {
         new Audio('/sounds/fishing.wav'),
       ]
     };
+  },
+  computed: {
+    progressBarWidth() {
+      const initialTime = 180;
+      return `${(this.timeLeft / initialTime) * 100}%`;
+    }
   },
   created() {
     this.fetchChannelNameAndConnect();
