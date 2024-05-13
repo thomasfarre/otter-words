@@ -13,16 +13,18 @@
         <source src="/sounds/river.wav" type="audio/mpeg" />
       </audio>
     </div>
-    <div class="pt-12 mx-auto text-center">
-      <div v-if="!gameStarted" class="pt-12">
+    <div class="pt-10 mx-auto text-center">
+      <div v-if="!gameStarted" class="pt-20">
         <div>
-          <h1 class="text-white font-bold text-5xl font-poppins">Le Jeu trop cool</h1>
+          <h1 class="text-white font-bold text-5xl font-poppins">
+            Le Jeu trop cool
+          </h1>
         </div>
         <div class="pt-2">
-          <span class=" text-white">des loutres, des mots et des truites bien sûr</span>
+          <span class="text-white">des loutres, des mots et des truites bien sûr</span>
         </div>
         <div class="pt-10">
-          <button @click="startGameModal=true;"
+          <button @click="startGameModal = true"
             class="rounded-xl bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-900 shadow-sm hover:bg-emerald-200 transition ease-out duration-300">
             Nouvelle partie
           </button>
@@ -35,23 +37,30 @@
             </div>
             <div class="pt-10">
               <p class="">
-                Bonjour Loutre et loutrons, virtuoses de la langue française! <br><br>
-                Quelques explications avant de lancer la partie, tout d'abord le jeu est vraiment pas terminé ! Vous
-                allez certainement tomber sur des bugs.
-                D'ailleurs en parlant de ça, afin de réaliser le meilleur jeu possible pour vous je suis très friands
-                de vos suggestions en tout genre <br><br>
-                Concernant le jeu ! C'est une suite de plusieurs round (mini-jeux), à chaque fois un chrono et des mots
-                à trouver : <br><br>
-                - Premier round: Une lettre et une catégorie au hasard à respecter ! <br>
-                - Deuxième: La définition du mot est affiché, à vous de retrouver le mot ! <br><br>
-                Vous pouvez taper directement les réponses dans le chat Twitch, si elles sont incorrects, elles
-                s'échoueront dans la Rivière. Si elle sont bonne par contre, vous marquerez des points, vous ainsi que
-                votre équipe! Bonne chance!
+                Bonjour Loutre et loutrons, virtuoses de la langue française!
+                <br /><br />
+                Quelques explications avant de lancer la partie, tout d'abord le
+                jeu est vraiment pas terminé ! Vous allez certainement tomber
+                sur des bugs. D'ailleurs en parlant de ça, afin de réaliser le
+                meilleur jeu possible pour vous je suis très friands de vos
+                suggestions en tout genre <br /><br />
+                Concernant le jeu ! C'est une suite de plusieurs round
+                (mini-jeux), à chaque fois un chrono et des mots à trouver :
+                <br /><br />
+                - Premier round: Une lettre et une catégorie au hasard à
+                respecter ! <br />
+                - Deuxième: La définition du mot est affiché, à vous de
+                retrouver le mot ! <br /><br />
+                Vous pouvez taper directement les réponses dans le chat Twitch,
+                si elles sont incorrects, elles s'échoueront dans la Rivière. Si
+                elle sont bonne par contre, vous marquerez des points, vous
+                ainsi que votre équipe! Bonne chance!
               </p>
             </div>
             <div class="pt-6">
-              <button @click="startGame" class="btn border-2 border-emerald-700">Lancer
-                la partie!</button>
+              <button @click="startGame" class="btn border-2 border-emerald-700">
+                Lancer la partie!
+              </button>
             </div>
           </div>
         </div>
@@ -64,28 +73,33 @@
     <div v-if="gameEnded" class="absolute left-1/2 top-20 transform -translate-x-1/2 bg-white z-20 p-1 rounded-md">
       <div class="p-6 border border-gray-300 rounded-md text-center">
         <div>
-          <span class="font-poppins font-bold text-2xl text-gray-900">Fin du jeu!</span>
+          <span class="font-poppins font-bold text-2xl text-gray-900">
+            Fin du jeu!
+          </span>
         </div>
         <div class="pt-6">
-          Vous avez marqué un total de {{ finalScore }}, c'est vraiment un score digne des loutrons!
+          Vous avez marqué un total de <span class="font-bold text-xl">{{ finalScore }}</span>, c'est vraiment un score
+          digne des loutrons!
         </div>
         <div class="pt-10">
-          <span>
-            Classement des participants:
-          </span>
+          <span> Classement des participants: </span>
           <li v-for="(score, username) in scores" :key="username">
             {{ username }}: {{ score }}
           </li>
         </div>
         <div class="pt-6">
-          <button @click="startGameModal = true; this.gameEnded = false;"
-            class="btn border-2 border-emerald-700">Nouvelle partie</button>
+          <button @click="
+              startGameModal = true;
+              this.gameEnded = false;
+            " class="btn border-2 border-emerald-700">
+            Nouvelle partie
+          </button>
         </div>
       </div>
     </div>
     <div v-if="!gameStarted" class="absolute bottom-6 left-1/2 transform -translate-x-1/2">
       <div class="flex flex-col items-center justify-center space-y-1">
-        <img class="w-10 h-10 opacity-80" :src="iconImage" alt="">
+        <img class="w-10 h-10 opacity-80" :src="iconImage" alt="" />
         <div>
           <span class="text-xs text-white italic">by Omar for las Truitas \tʁɥi.tas\</span>
         </div>
@@ -95,18 +109,17 @@
 </template>
 
 <script>
-import FirstRound from './FirstRound.vue'
-import SecondRound from './SecondRound.vue'
+import FirstRound from "./FirstRound.vue";
+import SecondRound from "./SecondRound.vue";
 
-import iconImage from '@/assets/images/trout.png';
-import bgImage from '@/assets/images/bg-loutre-2.jpg';
-
+import iconImage from "@/assets/images/trout.png";
+import bgImage from "@/assets/images/bg-loutre-2.jpg";
 
 export default {
-  name: 'WordsGame',
+  name: "WordsGame",
   components: {
     FirstRound,
-    SecondRound
+    SecondRound,
   },
   data() {
     return {
@@ -119,14 +132,15 @@ export default {
       detailedScores: {},
       bgImage,
       iconImage,
-      playing: true
-
+      playing: true,
     };
   },
   methods: {
     toggleMusic() {
       this.playing = !this.playing;
-      this.playing ? this.$refs.backgroundMusic.play() : this.$refs.backgroundMusic.pause();
+      this.playing
+        ? this.$refs.backgroundMusic.play()
+        : this.$refs.backgroundMusic.pause();
     },
     startGame() {
       this.startGameModal = false;
@@ -134,7 +148,9 @@ export default {
       this.gameEnded = false;
       this.finalScore = 0;
       this.currentRound = 2;
-      this.playing ? this.$refs.backgroundMusic.play() : this.$refs.backgroundMusic.pause();
+      this.playing
+        ? this.$refs.backgroundMusic.play()
+        : this.$refs.backgroundMusic.pause();
       this.roundKey++;
     },
     handleRoundEnded(data) {
@@ -143,13 +159,13 @@ export default {
       } else {
         this.gameStarted = false;
         this.gameEnded = true; // End the game after the second round
-        console.log('Game ended. Final score:', this.finalScore);
+        console.log("Game ended. Final score:", this.finalScore);
       }
       if (this.gameStarted) {
         this.finalScore += data.total;
         if (Object.keys(data.scores).length > 0) {
           // Iterate over each username in the scores object
-          Object.keys(data.scores).forEach(username => {
+          Object.keys(data.scores).forEach((username) => {
             // Initialize the user's score in detailedScores if it doesn't exist
             if (!this.detailedScores[username]) {
               this.detailedScores[username] = 0;
@@ -159,7 +175,7 @@ export default {
           });
         }
       }
-    }
-  }
+    },
+  },
 };
 </script>

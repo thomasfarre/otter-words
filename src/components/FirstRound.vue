@@ -52,7 +52,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-16">
+    <div class="mt-12">
       <span class="text-white font-bold text-xl font-poppins">La Rivière des espoirs déchûs</span>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
         <defs>
@@ -66,12 +66,20 @@
           style="transform:translate(0,0);opacity:1" />
       </svg>
     </div>
-    <div class="bg-emerald-100 p-6 w-screen">
-      <ul class="pt-4 flex space-x-4 overflow-x-auto whitespace-nowrap">
-        <li v-for="message in incorrectGuess" :key="message.id">
-          {{ message.text }} ~
-        </li>
-      </ul>
+    <div class="bg-emerald-100 p-6 w-screen -mt-px">
+      <div class="flex space-x-4 overflow-x-auto whitespace-nowrap">
+        <span class="text-emerald-900 text-sm" v-for="message in incorrectGuess" :key="message.id">
+          {{ message.text }}
+          <svg class="max-w-12 max-h-12 opacity-60" xmlns="http://www.w3.org/2000/svg" fill="none"
+            viewBox="0 -0.5 25 25">
+            <path stroke="#047857" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M5.505 9.895a.673.673 0 0 1 1.086-.378l1.344.9a.707.707 0 0 0 1.015-.327c2.504-5.03 8.75-3.527 10.513 1.687a.7.7 0 0 1 0 .446C17.7 17.437 11.454 18.941 8.95 13.91a.707.707 0 0 0-1.016-.325l-1.344.9a.673.673 0 0 1-1.085-.38.483.483 0 0 1 .03-.25l.564-1.604a.76.76 0 0 0 0-.5l-.563-1.6a.483.483 0 0 1-.03-.256Z"
+              clip-rule="evenodd" />
+            <path stroke="#047857" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+              d="M16.5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" clip-rule="evenodd" />
+          </svg>
+        </span>
+      </div>
     </div>
     <div class="-mt-px">
       <svg xmlns="http://www.w3.org/2000/svg" class="transform rotate-180" viewBox="0 0 1440 100">
