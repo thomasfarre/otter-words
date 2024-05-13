@@ -55,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div class="mt-16">
+    <div class="mt-12">
       <span class="text-white font-bold text-xl font-poppins">La Rivière des espoirs déchûs</span>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
         <defs>
@@ -134,7 +134,11 @@ export default {
       word: '',
       definition: '',
       scores: {},
-      totalScore: 0
+      totalScore: 0,
+      sounds: [
+        new Audio('/sounds/fish.wav'),
+        new Audio('/sounds/fishing.wav'),
+      ]
     };
   },
   created() {
@@ -160,6 +164,7 @@ export default {
     },
     async fetchWordAndDefinition() {
       try {
+        this.sounds[1].play();
         const response = await axios.get('/words.json'); // Adjust the path if necessary
         const words = response.data.words;
         const keys = Object.keys(words); // Extract keys from the words object
@@ -191,6 +196,7 @@ export default {
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }
+        this.sounds[0].play();
         this.scores[username] += 10; // Increment user's score by 10 for a correct guess
         this.totalScore += 10; // Increment global score
         this.correctGuess.push(correctGuess);
