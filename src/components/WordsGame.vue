@@ -85,7 +85,7 @@
         </div>
         <div class="pt-10">
           <span> Classement des participants: </span>
-          <li v-for="(score, username) in scores" :key="username">
+          <li v-for="(score, username) in detailedScores" :key="username">
             {{ username }}: {{ score }}
           </li>
         </div>
@@ -165,21 +165,16 @@ export default {
         this.currentRound = 3;
       } else {
         this.gameStarted = false;
-        this.gameEnded = true; // End the game after the second round
+        this.gameEnded = true;
       }
-      if (this.gameStarted) {
-        this.finalScore += data.total;
-        if (Object.keys(data.scores).length > 0) {
-          // Iterate over each username in the scores object
-          Object.keys(data.scores).forEach((username) => {
-            // Initialize the user's score in detailedScores if it doesn't exist
-            if (!this.detailedScores[username]) {
-              this.detailedScores[username] = 0;
-            }
-            // Add the score from the current round to the user's total score
-            this.detailedScores[username] += data.scores[username];
-          });
-        }
+      this.finalScore += data.total;
+      if (Object.keys(data.scores).length > 0) {
+        Object.keys(data.scores).forEach((username) => {
+          if (!this.detailedScores[username]) {
+            this.detailedScores[username] = 0;
+          }
+          this.detailedScores[username] += data.scores[username];
+        });
       }
     },
   },

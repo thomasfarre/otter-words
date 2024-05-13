@@ -258,7 +258,6 @@ export default {
       this.client.disconnect();
     }
     clearInterval(this.timer);
-    this.$emit('round-ended', this.totalScore);
   }
 };
 </script>

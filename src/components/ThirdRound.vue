@@ -290,7 +290,6 @@ export default {
     }
     clearInterval(this.timer);
     clearInterval(this.revealTimer);
-    this.$emit('round-ended', this.totalScore);
   }
 };
 </script>
