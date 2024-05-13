@@ -1,15 +1,15 @@
 <template>
-  <div>
+  <div class="min-h-screen bg-cover" :style="{ backgroundImage: 'url(' + bgImage + ')' }">
 
-    <div class="absolute z-10 left-1/2 top-20 transform -translate-x-1/2">
+    <div class="pt-24 mx-auto text-center">
       <div v-if="!gameStarted">
         <div>
-          <h1 class="text-white font-bold text-5xl font-['Poppins'] whitespace-nowrap">Le Jeux trop cool</h1>
+          <h1 class="text-white font-bold text-5xl font-poppins whitespace-nowrap">Le Jeux trop cool</h1>
         </div>
         <div class="pt-2">
-          <span class=" text-white font-['Roboto']">des loutres, des mots et des truites bien sûr</span>
+          <span class=" text-white">des loutres, des mots et des truites bien sûr</span>
         </div>
-        <div class="pt-4">
+        <div class="pt-10">
           <button @click="startGame"
             class="rounded-xl bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-900 shadow-sm hover:bg-emerald-200 transition ease-out duration-300">
             Nouvelle partie
@@ -20,7 +20,6 @@
       <SecondRound v-if="gameStarted && currentRound === 2" @round-ended="handleRoundEnded"
         :key="'second-' + roundKey" />
     </div>
-    <img class="absolute inset-0 w-full h-full bg-cover" :src="bgImage" alt="Background Otter" />
   </div>
 </template>
 
