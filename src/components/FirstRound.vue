@@ -1,30 +1,119 @@
 <template>
-  <div class="round bg-white p-6">
-    <h3>Round: Find {{ selectedCategory }} starting with "{{ startLetter }}"</h3>
-    <div v-if="timeLeft > 0">
-      <p>Time left: {{ timeLeft }} seconds</p>
-      <ul>
-        <li v-for="wordObj in foundWords" :key="wordObj.word">{{ wordObj.word }} (Found by: {{ wordObj.foundBy }})</li>
+  <div v-if="timeLeft > 0">
+    <div class="max-w-prose mx-auto">
+      <div>
+        <span class="text-white font-bold text-3xl font-poppins">
+          Trouve les <span class="text-amber-500">{{ selectedCategory }}</span> <br> qui commence par <span
+            class="text-amber-500">{{ startLetter }}</span>
+        </span>
+        <div class="mt-6 p-6 bg-emerald-50 rounded-md">
+          <div>
+            <span class="font-poppins font-black text-2xl text-gray-900">{{ timeLeft }}s</span>
+          </div>
+          <div class="mt-6 flex flex-col justify-center items-center">
+            <button @click="selectRandomCategoryAndLetter"
+              class="hover:bg-white rounded-full transition ease-out duration-300 p-2 group">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                class="text-gray-800 group-hover:text-gray-600 w-5 h-5 transition ease-out duration-300">
+                <path fill-rule="evenodd"
+                  d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
+                  clip-rule="evenodd" />
+              </svg>
+            </button>
+            <span class="text-xs italic">
+              O secours c tro dur
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-6 p-6 bg-emerald-50 rounded-md">
+        <div class="flex space-x-4 justify-start">
+          <div class="w-1/2 space-y-2">
+            <div class="text-left">
+              <span class="font-bold text-xl text-gray-800">Mots trouvés</span>
+            </div>
+            <div class="flex flex-col justify-start items-start space-y-2">
+              <span class="text-sm" v-for="message in correctGuess" :key="message.id">
+                {{ message.text }} <span class="text-xs">({{ message.username }})</span>
+              </span>
+            </div>
+          </div>
+          <div class="w-1/2 space-y-2">
+            <div class="text-right">
+              <span class="font-bold text-xl text-gray-800">Score: {{ totalScore }}</span>
+            </div>
+            <div class="flex flex-col justify-end items-end space-y-2">
+              <span class="text-sm" v-for="(score, username) in scores" :key="username">
+                {{ username }}: {{ score }}
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-16">
+      <span class="text-white font-bold text-xl font-poppins">La Rivière des espoirs déchûs</span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+        <defs>
+          <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="0%" stop-color="rgb(209, 250, 229, 1)" />
+            <stop offset="100%" stop-color="#6ee7b7" />
+          </linearGradient>
+        </defs>
+        <path fill="url(#a)"
+          d="m0 60 21.8-10C43.6 40 87 20 131 21.7 174.5 23 218 47 262 58.3c43.5 11.7 87 11.7 131 15 43.4 3.7 87 9.7 131 10 43.3-.3 87-6.3 131-20C698.2 50 742 30 785 31.7c44.1 1.3 88 25.3 131 25 44 .3 88-23.7 131-23.4 43.9-.3 88 23.7 131 23.4 43.8.3 87-23.7 131-23.4 43.7-.3 87 23.7 131 30 43.6 6.7 87-3.3 131-5 43.5-1.3 87 4.7 131 0 43.5-5.3 87-21.3 131-18.3 43.4 3 87 27 131 25 43.3-2 87-28 131-43.3 43.2-14.7 87-18.7 130-10 44.1 8.3 88 28.3 131 41.6 44 13.7 88 19.7 131 23.4 43.9 3.3 88 3.3 131 0 43.8-3.7 87-9.7 131-23.4 43.7-13.3 87-33.3 131-30 43.6 3.7 87 29.7 131 40 43.5 9.7 87 3.7 109 0l21.8-3.3v40H0Z"
+          style="transform:translate(0,0);opacity:1" />
+      </svg>
+    </div>
+    <div class="bg-emerald-100 p-6 w-screen">
+      <ul class="pt-4 flex space-x-4 overflow-x-auto whitespace-nowrap">
+        <li v-for="message in incorrectGuess" :key="message.id">
+          {{ message.text }} ~
+        </li>
       </ul>
     </div>
-    <div v-else>
-      <h4>Round ended!</h4>
-      <button @click="endRound">Show Results</button>
+    <div class="-mt-px">
+      <svg xmlns="http://www.w3.org/2000/svg" class="transform rotate-180" viewBox="0 0 1440 100">
+        <defs>
+          <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
+            <stop offset="0%" stop-color="rgba(236, 253, 245, 1)" />
+            <stop offset="100%" stop-color="rgba(167, 243, 208, 1)" />
+          </linearGradient>
+        </defs>
+        <path fill="url(#a)"
+          d="m0 60 21.8-10C43.6 40 87 20 131 21.7 174.5 23 218 47 262 58.3c43.5 11.7 87 11.7 131 15 43.4 3.7 87 9.7 131 10 43.3-.3 87-6.3 131-20C698.2 50 742 30 785 31.7c44.1 1.3 88 25.3 131 25 44 .3 88-23.7 131-23.4 43.9-.3 88 23.7 131 23.4 43.8.3 87-23.7 131-23.4 43.7-.3 87 23.7 131 30 43.6 6.7 87-3.3 131-5 43.5-1.3 87 4.7 131 0 43.5-5.3 87-21.3 131-18.3 43.4 3 87 27 131 25 43.3-2 87-28 131-43.3 43.2-14.7 87-18.7 130-10 44.1 8.3 88 28.3 131 41.6 44 13.7 88 19.7 131 23.4 43.9 3.3 88 3.3 131 0 43.8-3.7 87-9.7 131-23.4 43.7-13.3 87-33.3 131-30 43.6 3.7 87 29.7 131 40 43.5 9.7 87 3.7 109 0l21.8-3.3v40H0Z"
+          style="transform:translate(0,0);opacity:1" />
+      </svg>
     </div>
   </div>
-  <div class="bg-white p-6 mt-12 max-w-xl">
-    <span>La Rivière</span>
-    <ul class="pt-4 space-y-2 flex space-x-4 overflow-x-auto whitespace-nowrap">
-      <li v-for="message in messages" :key="message.id">
-        {{ message.text }} ~
-      </li>
-    </ul>
+  <div v-else class="absolute left-1/2 top-20 transform -translate-x-1/2 bg-white z-20 p-2 rounded-md">
+    <div class="p-6 border border-gray-300 rounded-md">
+      <div>
+        <span class="font-poppins font-bold text-2xl text-gray-900">Fin du round!</span>
+      </div>
+      <div>
+        Vous avez marqué un total de {{ totalScore }}
+      </div>
+      <div class="pt-10">
+        <span>
+          Classement des participants:
+        </span>
+        <li v-for="(score, username) in scores" :key="username">
+          {{ username }}: {{ score }}
+        </li>
+      </div>
+      <div class="pt-6">
+        <button @click="endRound" class="btn border-2 border-emerald-700">Vite, la suite!</button>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import { getFirestore, collection, query, where, getDocs, doc, getDoc } from 'firebase/firestore';
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
+import axios from 'axios';
 import tmi from 'tmi.js';
 
 export default {
@@ -33,16 +122,18 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 180,
       timer: null,
       categoryTimer: null,
       messages: [],
       channelName: '',
+      correctGuess: [],
+      incorrectGuess: [],
       foundWords: [],
-      validWords: new Map(),  // Changed from Set to Map for easier lookup with categories
       selectedCategory: '',
       startLetter: '',
-      scores: {}
+      scores: {},
+      totalScore: 0
     };
   },
   created() {
@@ -50,8 +141,8 @@ export default {
     this.selectRandomCategoryAndLetter();
     this.startTimer();
     this.categoryTimer = setInterval(() => {
-      this.selectRandomCategoryAndLetter(); // Reselect category and letter every 30 seconds
-    }, 30000);
+      this.selectRandomCategoryAndLetter();
+    }, 60000);
   },
   methods: {
     async fetchChannelNameAndConnect() {
@@ -70,34 +161,36 @@ export default {
       }
     },
     async selectRandomCategoryAndLetter() {
-      const db = getFirestore();
-      const categoriesRef = collection(db, "words");
-      const categoriesSnapshot = await getDocs(query(categoriesRef, where("category", "==", "animals"))); // Should be generalized if you have more categories
-      const categories = categoriesSnapshot.docs.map(doc => doc.data().category);
-
-      // Select a random category (if more than one category, adjust logic here)
+      const categories = ["animaux","metiers","prenoms","pays"];
       this.selectedCategory = categories[Math.floor(Math.random() * categories.length)];
-      this.startLetter = String.fromCharCode(65 + Math.floor(Math.random() * 25)); // Random letter A-Z
+      this.startLetter = String.fromCharCode(65 + Math.floor(Math.random() * 25));
       this.fetchValidWords();
     },
     async fetchValidWords() {
-      const db = getFirestore();
-      const wordsRef = collection(db, "words");
-      const q = query(wordsRef, where("category", "==", this.selectedCategory), where("firstLetter", "==", this.startLetter));
-      const snapshot = await getDocs(q);
-      snapshot.docs.forEach(doc => {
-        this.validWords.set(doc.data().word.toLowerCase(), doc.data().word); // Store original casing for display
-      });
-    },
-    checkWord(message, username) {
-      const cleanMessage = message.trim().toLowerCase();
-      if (this.validWords.has(cleanMessage) && !this.foundWords.some(w => w.word === this.validWords.get(cleanMessage))) {
-        this.foundWords.push({ word: this.validWords.get(cleanMessage), foundBy: username });
-        this.scores[username] = (this.scores[username] || 0) + 10; // Increment score for user
-        console.log("Valid word found:", this.validWords.get(cleanMessage));
-        return true;
+      try {
+        const response = await axios.get(`/${this.selectedCategory}.json`);
+        const wordsByLetter = response.data[this.startLetter] || [];
+        this.foundWords = wordsByLetter;
+      } catch (error) {
+        console.error('Failed to fetch data:', error);
+        this.definition = 'Failed to load definition.';
       }
-      return false;
+    },
+    checkGuess(message, username) {
+      const normalizedMessage = message.trim().toLowerCase();
+      const lowerCaseFoundWords = this.foundWords.map(word => word.toLowerCase());
+      console.log(lowerCaseFoundWords, normalizedMessage)
+      if (lowerCaseFoundWords.includes(normalizedMessage) && !this.correctGuess.some(msg => msg.text.toLowerCase() === normalizedMessage)) {
+        this.correctGuess.push({ text: message, username });
+        if (!this.scores[username]) {
+          this.scores[username] = 0;
+        }
+        this.scores[username] += 2;
+        this.totalScore += 2;
+        this.foundWords = this.foundWords.filter(word => word.toLowerCase() !== normalizedMessage);
+      } else {
+        this.incorrectGuess.push({ text: message, id: this.incorrectGuess.length + 1 });
+      }
     },
     startTimer() {
       this.timer = setInterval(() => {
@@ -105,13 +198,12 @@ export default {
           this.timeLeft--;
         } else {
           clearInterval(this.timer);
-          this.endRound();
         }
       }, 1000);
     },
     endRound() {
-      clearInterval(this.categoryTimer); // Clear the category changing timer
-      this.$emit('round-ended', this.foundWords.length);
+      clearInterval(this.categoryTimer);
+      this.$emit('round-ended', { total: this.totalScore, scores: this.scores });
     },
     connectChat(channel) {
       if (this.client) {
@@ -132,7 +224,7 @@ export default {
           username: tags['display-name'],
           text: message
         });
-        this.checkWord(message);
+        this.checkGuess(message, tags['display-name']);
       });
       this.client.connect().catch(console.error);
     },
