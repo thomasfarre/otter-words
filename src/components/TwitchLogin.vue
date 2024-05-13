@@ -1,8 +1,8 @@
 <template>
   <div class="pt-8">
     <button
-      class="bg-amber-700 text-emerald-50 p-3 rounded-md text-sm font-semibold tracking-wider font-['Poppins'] uppercase"
-      @click="handleLoginOrRedirect">Jouer</button>
+      class="btn"
+      @click="handleLoginOrRedirect">Lancer une partie</button>
   </div>
 </template>
 

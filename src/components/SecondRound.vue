@@ -72,7 +72,7 @@
     <div class="bg-emerald-100 p-6 w-screen">
       <ul class="pt-4 flex space-x-4 overflow-x-auto whitespace-nowrap">
         <li v-for="message in incorrectGuess" :key="message.id">
-          {{ message.text }} ~
+          {{ message.text }}
         </li>
       </ul>
     </div>
