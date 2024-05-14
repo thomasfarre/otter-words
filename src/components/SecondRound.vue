@@ -1,17 +1,13 @@
 <template>
-  <div v-if="timeLeft > 0">
-    <div
-      class="max-w-2xl mx-auto"
-    >
+  <div v-if="timeLeft > 0" class="text-center">
+    <div class="max-w-2xl mx-auto">
       <div>
         <span class="text-3xl font-bold text-white font-poppins">
-          Trouve le <span class="text-amber-500">mot</span> associé à cette <span class="text-amber-500">définition</span> !
+          Trouve le <span class="text-amber-500">mot</span> associé à cette <span
+            class="text-amber-500">définition</span> !
         </span>
-        <div
-          class="relative px-6 pt-6 pb-2 mt-6 rounded-md bg-emerald-50"
-        >
-          <div
-            class="absolute inset-0 top-0 h-2 rounded-md bg-emerald-400"
+        <div class="relative px-6 pt-6 pb-2 mt-6 rounded-md bg-emerald-50">
+          <div class="absolute inset-0 top-0 h-2 rounded-md bg-emerald-400"
             :style="{ width: progressBarWidth, transition: 'width 0.5s linear' }">
           </div>
           <div>
@@ -19,78 +15,49 @@
               {{ timeLeft }}s
             </span>
           </div>
-          <div
-            class="pt-4"
-          >
+          <div class="pt-4">
             <span class="text-xl text-gray-700">
               {{ definition }}
             </span>
           </div>
-          <div
-            class="flex flex-col items-center justify-center mt-2"
-          >
-            <button
-              @click="fetchWordAndDefinition"
-              class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group"
-            >
+          <div class="flex flex-col items-center justify-center mt-2">
+            <button @click="fetchWordAndDefinition"
+              class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-
                 class="w-5 h-5 text-gray-800 transition duration-300 ease-out group-hover:text-gray-600">
                 <path fill-rule="evenodd"
                   d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
                   clip-rule="evenodd" />
               </svg>
             </button>
-            <span
-              class="text-xs italic"
-            >
+            <span class="text-xs italic">
               O secours c tro dur
             </span>
           </div>
         </div>
       </div>
 
-      <div
-        class="p-6 mt-6 overflow-y-auto rounded-md bg-emerald-50 max-h-72"
-      >
-        <div
-          class="flex justify-start space-x-4"
-        >
-          <div
-            class="w-1/2 space-y-2"
-          >
-            <div
-              class="text-left"
-            >
-              <span
-                class="text-xl font-bold text-gray-800"
-              >
+      <div class="p-6 mt-6 overflow-y-auto rounded-md bg-emerald-50 max-h-72">
+        <div class="flex justify-start space-x-4">
+          <div class="w-1/2 space-y-2">
+            <div class="text-left">
+              <span class="text-xl font-bold text-gray-800">
                 Mots trouvés
               </span>
             </div>
-            <div
-              class="flex flex-col items-start justify-start space-y-2"
-            >
-              <span
-                class="text-sm" v-for="message in correctGuess" :key="message.id"
-              >
+            <div class="flex flex-col items-start justify-start space-y-2">
+              <span class="text-sm" v-for="message in correctGuess" :key="message.id">
                 {{ message.text }} <span class="text-xs">({{ message.username }})</span>
               </span>
             </div>
           </div>
-          <div
-            class="w-1/2 space-y-2"
-          >
-            <div
-              class="text-right"
-            >
+          <div class="w-1/2 space-y-2">
+            <div class="text-right">
               <span class="text-xl font-bold text-gray-800">
                 Score: {{ totalScore }}
               </span>
             </div>
-            <div
-              class="flex flex-col items-end justify-end space-y-2"
-            >
+            <div class="flex flex-col items-end justify-end space-y-2">
               <span class="text-sm" v-for="(score, username) in scores" :key="username">
                 {{ username }}: {{ score }}
               </span>
@@ -99,9 +66,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="mt-12"
-    >
+    <div class="mt-12">
       <span class="text-xl font-bold text-white font-poppins">
         La Rivière des espoirs déchûs
       </span>
@@ -117,20 +82,11 @@
           style="transform:translate(0,0);opacity:1" />
       </svg>
     </div>
-    <div
-      class="w-screen p-6 -mt-px bg-emerald-100"
-    >
-      <div
-        class="flex space-x-4 overflow-x-auto whitespace-nowrap"
-      >
-        <span
-          class="text-sm text-emerald-900"
-          v-for="message in incorrectGuess"
-          :key="message.id"
-        >
+    <div class="w-screen p-6 -mt-px bg-emerald-100">
+      <div class="flex space-x-4 overflow-x-auto whitespace-nowrap">
+        <span class="text-sm text-emerald-900" v-for="message in incorrectGuess" :key="message.id">
           {{ message.text }}
-          <svg
-            class="max-w-12 max-h-12 opacity-60" xmlns="http://www.w3.org/2000/svg" fill="none"
+          <svg class="max-w-12 max-h-12 opacity-60" xmlns="http://www.w3.org/2000/svg" fill="none"
             viewBox="0 -0.5 25 25">
             <path stroke="#047857" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
               d="M5.505 9.895a.673.673 0 0 1 1.086-.378l1.344.9a.707.707 0 0 0 1.015-.327c2.504-5.03 8.75-3.527 10.513 1.687a.7.7 0 0 1 0 .446C17.7 17.437 11.454 18.941 8.95 13.91a.707.707 0 0 0-1.016-.325l-1.344.9a.673.673 0 0 1-1.085-.38.483.483 0 0 1 .03-.25l.564-1.604a.76.76 0 0 0 0-.5l-.563-1.6a.483.483 0 0 1-.03-.256Z"
@@ -141,11 +97,8 @@
         </span>
       </div>
     </div>
-    <div
-      class="-mt-px"
-    >
-      <svg xmlns="http://www.w3.org/2000/svg"
-        class="transform rotate-180" viewBox="0 0 1440 100">
+    <div class="-mt-px">
+      <svg xmlns="http://www.w3.org/2000/svg" class="transform rotate-180" viewBox="0 0 1440 100">
         <defs>
           <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
             <stop offset="0%" stop-color="rgba(236, 253, 245, 1)" />
@@ -158,13 +111,8 @@
       </svg>
     </div>
   </div>
-  <div
-    v-else
-    class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20"
-  >
-    <div
-      class="p-6 border border-gray-300 rounded-md"
-    >
+  <div v-else class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20">
+    <div class="p-6 border border-gray-300 rounded-md">
       <div>
         <span class="text-2xl font-bold text-gray-900 font-poppins">
           Fin du round!
@@ -173,23 +121,16 @@
       <div>
         Vous avez marqué un total de {{ totalScore }}
       </div>
-      <div
-        class="pt-10"
-      >
+      <div class="pt-10">
         <span>
-            Classement des participants:
+          Classement des participants:
         </span>
         <li v-for="(score, username) in scores" :key="username">
           {{ username }}: {{ score }}
         </li>
       </div>
-      <div
-        class="pt-6"
-      >
-        <button
-          @click="endRound"
-          class="border-2 btn border-emerald-700"
-        >
+      <div class="pt-6">
+        <button @click="endRound" class="border-2 btn border-emerald-700">
           Vite, la suite!
         </button>
       </div>

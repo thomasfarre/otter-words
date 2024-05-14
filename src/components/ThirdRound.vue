@@ -1,36 +1,23 @@
 <template>
-  <div
-    v-if="timeLeft > 0"
-  >
-    <div
-      class="max-w-2xl mx-auto"
-    >
+  <div v-if="timeLeft > 0" class="text-center">
+    <div class="max-w-2xl mx-auto">
       <div>
         <span class="text-3xl font-bold text-white font-poppins">
           Des <span class="text-amber-500">lettres</span> manques, trouve le <span class="text-amber-500">mot</span> !
         </span>
-        <div
-          class="relative px-6 pt-6 pb-2 mt-6 rounded-md bg-emerald-50"
-        >
-          <div
-            class="absolute inset-0 top-0 h-2 rounded-md bg-emerald-400"
-            :style="{ width: progressBarWidth, transition: 'width 0.5s linear' }"
-          ></div>
+        <div class="relative px-6 pt-6 pb-2 mt-6 rounded-md bg-emerald-50">
+          <div class="absolute inset-0 top-0 h-2 rounded-md bg-emerald-400"
+            :style="{ width: progressBarWidth, transition: 'width 0.5s linear' }"></div>
           <div>
             <span class="text-2xl font-black text-gray-900 font-poppins">{{ timeLeft }}s</span>
           </div>
-          <div
-            class="pt-4"
-          >
-            <span class="text-xl text-gray-700">{{ revealedWord }} <span class="text-sm text-gray-500">({{ revealedWord.length }} lettres)</span></span>
+          <div class="pt-4">
+            <span class="text-xl tracking-widest text-gray-700">{{ revealedWord }} <span
+                class="text-sm text-gray-500">({{ revealedWord.length }} lettres)</span></span>
           </div>
-          <div
-            class="flex flex-col items-center justify-center mt-2"
-          >
-            <button
-              @click="fetchWordAndDefinition"
-              class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group"
-            >
+          <div class="flex flex-col items-center justify-center mt-2">
+            <button @click="fetchWordAndDefinition"
+              class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
                 class="w-5 h-5 text-gray-800 transition duration-300 ease-out group-hover:text-gray-600">
                 <path fill-rule="evenodd"
@@ -45,52 +32,28 @@
         </div>
       </div>
 
-      <div
-        class="p-6 mt-6 overflow-y-auto rounded-md bg-emerald-50 max-h-72"
-      >
-        <div
-          class="flex justify-start space-x-4"
-        >
-          <div
-            class="w-1/2 space-y-2"
-          >
-            <div
-              class="text-left"
-            >
+      <div class="p-6 mt-6 overflow-y-auto rounded-md bg-emerald-50 max-h-72">
+        <div class="flex justify-start space-x-4">
+          <div class="w-1/2 space-y-2">
+            <div class="text-left">
               <span class="text-xl font-bold text-gray-800">
                 Mots trouvés
               </span>
             </div>
-            <div
-              class="flex flex-col items-start justify-start space-y-2"
-            >
-              <span
-                class="text-sm"
-                v-for="message in correctGuess"
-                :key="message.id"
-              >
+            <div class="flex flex-col items-start justify-start space-y-2">
+              <span class="text-sm" v-for="message in correctGuess" :key="message.id">
                 {{ message.text }} <span class="text-xs">({{ message.username }})</span>
               </span>
             </div>
           </div>
-          <div
-            class="w-1/2 space-y-2"
-          >
-            <div
-              class="text-right"
-            >
+          <div class="w-1/2 space-y-2">
+            <div class="text-right">
               <span class="text-xl font-bold text-gray-800">
                 Score: {{ totalScore }}
               </span>
             </div>
-            <div
-              class="flex flex-col items-end justify-end space-y-2"
-            >
-              <span
-                class="text-sm"
-                v-for="(score, username) in scores"
-                :key="username"
-              >
+            <div class="flex flex-col items-end justify-end space-y-2">
+              <span class="text-sm" v-for="(score, username) in scores" :key="username">
                 {{ username }}: {{ score }}
               </span>
             </div>
@@ -98,9 +61,7 @@
         </div>
       </div>
     </div>
-    <div
-      class="mt-12"
-    >
+    <div class="mt-12">
       <span class="text-xl font-bold text-white font-poppins">
         La Rivière des espoirs déchûs
       </span>
@@ -116,12 +77,8 @@
           style="transform:translate(0,0);opacity:1" />
       </svg>
     </div>
-    <div
-      class="w-screen p-6 -mt-px bg-emerald-100"
-    >
-      <div
-        class="flex space-x-4 overflow-x-auto whitespace-nowrap"
-      >
+    <div class="w-screen p-6 -mt-px bg-emerald-100">
+      <div class="flex space-x-4 overflow-x-auto whitespace-nowrap">
         <span class="text-sm text-emerald-900" v-for="message in incorrectGuess" :key="message.id">
           {{ message.text }}
           <svg class="max-w-12 max-h-12 opacity-60" xmlns="http://www.w3.org/2000/svg" fill="none"
@@ -135,9 +92,7 @@
         </span>
       </div>
     </div>
-    <div
-      class="-mt-px"
-    >
+    <div class="-mt-px">
       <svg xmlns="http://www.w3.org/2000/svg" class="transform rotate-180" viewBox="0 0 1440 100">
         <defs>
           <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
@@ -151,13 +106,8 @@
       </svg>
     </div>
   </div>
-  <div
-    v-else
-    class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20"
-  >
-    <div
-      class="p-6 border border-gray-300 rounded-md"
-    >
+  <div v-else class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20">
+    <div class="p-6 border border-gray-300 rounded-md">
       <div>
         <span class="text-2xl font-bold text-gray-900 font-poppins">
           Fin du round!
@@ -166,9 +116,7 @@
       <div>
         Vous avez marqué un total de {{ totalScore }}
       </div>
-      <div
-        class="pt-10"
-      >
+      <div class="pt-10">
         <span>
           Classement des participants:
         </span>
@@ -176,13 +124,8 @@
           {{ username }}: {{ score }}
         </li>
       </div>
-      <div
-        class="pt-6"
-      >
-        <button
-          @click="endRound"
-          class="border-2 btn border-emerald-700"
-        >
+      <div class="pt-6">
+        <button @click="endRound" class="border-2 btn border-emerald-700">
           Vite, la suite!
         </button>
       </div>
@@ -202,7 +145,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 10,
       timer: null,
       channelName: '',
       correctGuess: [],

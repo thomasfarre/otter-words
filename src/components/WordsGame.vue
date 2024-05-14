@@ -1,29 +1,31 @@
 <template>
   <div class="min-h-screen bg-cover" :style="{ backgroundImage: 'url(' + bgImage + ')' }">
-    <div class="pt-10 mx-auto text-center">
+    <div class="pt-10 mx-auto">
       <div v-if="!gameStarted" class="pt-20">
-        <div>
-          <h1 class="text-5xl font-bold text-white font-poppins">
-            Le Jeu trop cool
-          </h1>
-        </div>
-        <div class="pt-2">
-          <span class="text-white">des loutres, des mots et des truites bien sûr</span>
-        </div>
-        <div class="pt-10">
-          <button @click="startGameModal = true"
-            class="rounded-xl bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-900 shadow-sm hover:bg-emerald-200 transition ease-out duration-300">
-            Nouvelle partie
-          </button>
+        <div class="text-center">
+          <div>
+            <h1 class="text-5xl font-bold text-white font-poppins">
+              Le Jeu trop cool
+            </h1>
+          </div>
+          <div class="pt-2">
+            <span class="text-white">des loutres, des mots et des truites bien sûr</span>
+          </div>
+          <div class="pt-10">
+            <button @click="startGameModal = true"
+              class="rounded-xl bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-900 shadow-sm hover:bg-emerald-200 transition ease-out duration-300">
+              Nouvelle partie
+            </button>
+          </div>
         </div>
         <div v-if="startGameModal"
-          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20 xl:w-auto">
+          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-12 xl:max-w-prose">
           <div class="p-6 border border-gray-300 rounded-md">
             <div>
               <span class="text-2xl font-bold text-gray-900 font-poppins">Explication du jeu super!</span>
             </div>
-            <div class="pt-10">
-              <p class="">
+            <div class="pt-4">
+              <p class="text-gray-800">
                 Bonjour Loutre et loutrons, virtuoses de la langue française!
                 <br /><br />
                 Quelques explications avant de lancer la partie, tout d'abord le
@@ -34,15 +36,40 @@
                 Concernant le jeu ! C'est une suite de plusieurs round
                 (mini-jeux), à chaque fois un chrono et des mots à trouver :
                 <br /><br />
-                - Premier round: Une lettre et une catégorie au hasard à
+                - <strong>Premier round</strong>: Une lettre et une catégorie au hasard à
                 respecter ! <br />
-                - Deuxième: La définition du mot est affiché, à vous de
-                retrouver le mot ! <br /><br />
+                - <strong>Deuxième round</strong>: La définition du mot est affiché, à vous de
+                retrouver le mot ! <br />
+                - <strong>Troisième round</strong>: Il manque des lettres qui apparaissent au fûr et à mesure, trouvez
+                le mot le plus
+                vite
+                possible!
+                <br /><br />
                 Vous pouvez taper directement les réponses dans le chat Twitch,
                 si elles sont incorrects, elles s'échoueront dans la Rivière. Si
                 elle sont bonne par contre, vous marquerez des points, vous
                 ainsi que votre équipe! Bonne chance!
               </p>
+            </div>
+            <div class="pt-10">
+              <span>
+                Choix des mini-jeux présents
+              </span>
+              <div class="pt-2 space-y-4">
+                <div v-for="round in availableRounds" :key="round.id" class="flex items-center">
+                  <div class="flex items-center space-x-2">
+                    <button type="button" :id="'round-' + round.id" @click="toggleRound(round.id)" :class="['relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer w-11 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2',
+      selectedRounds.includes(round.id) ? 'bg-emerald-600' : 'bg-gray-200']" role="switch"
+                      :aria-checked="selectedRounds.includes(round.id)" aria-labelledby="'label-' + round.id">
+                      <span aria-hidden="true" :class="['inline-block w-5 h-5 transition duration-200 ease-in-out transform bg-white rounded-full shadow pointer-events-none',
+      selectedRounds.includes(round.id) ? 'translate-x-5' : 'translate-x-0']"></span>
+                    </button>
+                    <span class="ml-3 text-sm" :id="'label-' + round.id" @click="toggleRound(round.id)">
+                      {{ round.name }}
+                    </span>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="pt-6">
               <button @click="startGame" class="border-2 btn border-emerald-700">
@@ -55,12 +82,11 @@
       <FirstRound v-if="gameStarted && currentRound === 1" @round-ended="handleRoundEnded" :key="'first-' + roundKey" />
       <SecondRound v-if="gameStarted && currentRound === 2" @round-ended="handleRoundEnded"
         :key="'second-' + roundKey" />
-      <ThirdRound v-if="gameStarted && currentRound === 3" @round-ended="handleRoundEnded"
-        :key="'third-' + roundKey" />
+      <ThirdRound v-if="gameStarted && currentRound === 3" @round-ended="handleRoundEnded" :key="'third-' + roundKey" />
     </div>
 
     <div v-if="gameEnded" class="absolute z-20 p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20">
-      <div class="p-6 text-center border border-gray-300 rounded-md">
+      <div class="p-6 border border-gray-300 rounded-md">
         <div>
           <span class="text-2xl font-bold text-gray-900 font-poppins">
             Fin du jeu!
@@ -71,16 +97,33 @@
           digne des loutrons!
         </div>
         <div class="pt-10">
-          <span> Classement des participants: </span>
+          <span class="font-bold"> Classement des participants: </span>
           <li v-for="(score, username) in detailedScores" :key="username">
             {{ username }}: {{ score }}
           </li>
         </div>
-        <div class="pt-6">
-          <button @click="
-              startGameModal = true;
-              this.gameEnded = false;
-            " class="border-2 btn border-emerald-700">
+        <div class="pt-10">
+          <span class="font-bold">
+            Choix des mini-jeux présents
+          </span>
+          <div class="pt-2 space-y-4">
+            <div v-for="round in availableRounds" :key="round.id" class="flex items-center">
+              <div class="flex items-center space-x-2">
+                <button type="button" :id="'round-' + round.id" @click="toggleRound(round.id)" :class="['relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer w-11 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2',
+    selectedRounds.includes(round.id) ? 'bg-emerald-600' : 'bg-gray-200']" role="switch"
+                  :aria-checked="selectedRounds.includes(round.id)" aria-labelledby="'label-' + round.id">
+                  <span aria-hidden="true" :class="['inline-block w-5 h-5 transition duration-200 ease-in-out transform bg-white rounded-full shadow pointer-events-none',
+    selectedRounds.includes(round.id) ? 'translate-x-5' : 'translate-x-0']"></span>
+                </button>
+                <span class="ml-3 text-sm" :id="'label-' + round.id" @click="toggleRound(round.id)">
+                  {{ round.name }}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-6 text-center">
+          <button @click="startGameModal = true; this.gameEnded = false;" class="border-2 btn border-emerald-700">
             Nouvelle partie
           </button>
         </div>
@@ -124,36 +167,51 @@ export default {
       detailedScores: {},
       bgImage,
       iconImage,
+      availableRounds: [
+        { id: 1, name: 'Lettre + Catégorie', component: 'FirstRound' },
+        { id: 2, name: 'Définitions', component: 'SecondRound' },
+        { id: 3, name: 'Pendu', component: 'ThirdRound' }
+      ],
+      selectedRounds: [1, 2, 3]
     };
   },
   methods: {
+    toggleRound(roundId) {
+      const index = this.selectedRounds.indexOf(roundId);
+      if (index === -1) {
+        this.selectedRounds.push(roundId);
+      } else {
+        this.selectedRounds.splice(index, 1);
+      }
+    },
     startGame() {
       this.startGameModal = false;
       this.gameStarted = true;
       this.gameEnded = false;
       this.finalScore = 0;
-      this.currentRound = 1;
+      this.currentRound = this.selectedRounds.sort((a, b) => a - b)[0] || 0;
       this.roundKey++;
     },
     handleRoundEnded(data) {
-      if (this.currentRound === 1) {
-        this.currentRound = 2;
-      } else if (this.currentRound === 2) {
-        this.currentRound = 3;
+      let sortedSelectedRounds = this.selectedRounds.sort((a, b) => a - b);
+      let currentIndex = sortedSelectedRounds.indexOf(this.currentRound);
+      if (currentIndex < sortedSelectedRounds.length - 1) {
+        this.currentRound = sortedSelectedRounds[currentIndex + 1];
       } else {
         this.gameStarted = false;
         this.gameEnded = true;
       }
       this.finalScore += data.total;
-      if (Object.keys(data.scores).length > 0) {
-        Object.keys(data.scores).forEach((username) => {
-          if (!this.detailedScores[username]) {
-            this.detailedScores[username] = 0;
-          }
-          this.detailedScores[username] += data.scores[username];
-        });
-      }
+      this.updateScores(data.scores);
     },
-  },
+    updateScores(newScores) {
+      Object.keys(newScores).forEach(username => {
+        if (!this.detailedScores[username]) {
+          this.detailedScores[username] = 0;
+        }
+        this.detailedScores[username] += newScores[username];
+      });
+    },
+  }
 };
 </script>
