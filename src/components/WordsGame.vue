@@ -104,7 +104,7 @@ import ThirdRound from "./ThirdRound.vue";
 
 
 import iconImage from "@/assets/images/trout.png";
-import bgImage from "@/assets/images/bg-loutre-2.jpg";
+import bgImage from "/public/images/bg-loutre-2.jpg";
 
 export default {
   name: "WordsGame",
