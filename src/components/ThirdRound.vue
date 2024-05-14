@@ -3,8 +3,7 @@
     <div class="max-w-2xl mx-auto">
       <div>
         <span class="text-white font-bold text-3xl font-poppins">
-          Des <span class="text-amber-500">lettres</span> manques, trouve le <span
-            class="text-amber-500">mot</span> !
+          Des <span class="text-amber-500">lettres</span> manques, trouve le <span class="text-amber-500">mot</span> !
         </span>
         <div class="mt-6 px-6 pt-6 pb-2 bg-emerald-50 rounded-md relative">
           <div class="bg-emerald-400 h-2 absolute top-0 inset-0 rounded-md"
@@ -13,7 +12,7 @@
             <span class="font-poppins font-black text-2xl text-gray-900">{{ timeLeft }}s</span>
           </div>
           <div class="pt-4">
-            <span class="text-xl text-gray-700">{{ revealedWord }}</span>
+            <span class="text-xl text-gray-700">{{ revealedWord }} <span class="text-sm text-gray-500">({{ revealedWord.length }} lettres)</span></span>
           </div>
           <div class="mt-2 flex flex-col justify-center items-center">
             <button @click="fetchWordAndDefinition"
@@ -143,7 +142,7 @@ export default {
       messages: [],
       word: '',
       revealedWord: '',
-      revealInterval: 12,
+      revealInterval: 6,
       scores: {},
       totalScore: 0,
       sounds: [
@@ -188,7 +187,7 @@ export default {
         const randomKey = keys[Math.floor(Math.random() * keys.length)]; // Select a random key
         this.word = randomKey;
         console.log(this.word)
-        this.revealedWord = this.word[0] + ' _ '.repeat(this.word.length - 1); // Reveal only the first letter
+        this.revealedWord = this.word[0] + '_'.repeat(this.word.length - 1); // Reveal only the first letter
         this.startRevealTimer();
       } catch (error) {
         console.error('Failed to fetch data:', error);
@@ -201,7 +200,7 @@ export default {
         let unrevealedIndices = [];
         // Collect indices of all still hidden letters except the first letter
         for (let i = 1; i < this.word.length; i++) {
-          if (this.revealedWord[i] === ' _ ') {
+          if (this.revealedWord[i] === '_') {
             unrevealedIndices.push(i);
           }
         }
@@ -214,7 +213,7 @@ export default {
           this.revealedWord = revealed.join('');
 
           // Check if all letters are revealed
-          if (!this.revealedWord.includes(' _ ')) {
+          if (!this.revealedWord.includes('_')) {
             clearInterval(this.revealTimer);
           }
         } else {
