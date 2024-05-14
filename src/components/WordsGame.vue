@@ -1,22 +1,9 @@
 <template>
   <div class="min-h-screen bg-cover" :style="{ backgroundImage: 'url(' + bgImage + ')' }">
-    <div class="absolute right-12 top-4">
-      <!-- Background music controls -->
-      <button @click="toggleMusic">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-          class="w-6 h-6 text-white">
-          <path stroke-linecap="round" stroke-linejoin="round"
-            d="M21 7.5V18M15 7.5V18M3 16.811V8.69c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061A1.125 1.125 0 0 1 3 16.811Z" />
-        </svg>
-      </button>
-      <audio ref="backgroundMusic" loop="true">
-        <source src="/sounds/river.wav" type="audio/mpeg" />
-      </audio>
-    </div>
     <div class="pt-10 mx-auto text-center">
       <div v-if="!gameStarted" class="pt-20">
         <div>
-          <h1 class="text-white font-bold text-5xl font-poppins">
+          <h1 class="text-5xl font-bold text-white font-poppins">
             Le Jeu trop cool
           </h1>
         </div>
@@ -30,10 +17,10 @@
           </button>
         </div>
         <div v-if="startGameModal"
-          class="absolute w-full left-1/2 top-20 transform -translate-x-1/2 bg-white z-20 p-1 rounded-md xl:w-auto">
+          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20 xl:w-auto">
           <div class="p-6 border border-gray-300 rounded-md">
             <div>
-              <span class="font-poppins font-bold text-2xl text-gray-900">Explication du jeu super!</span>
+              <span class="text-2xl font-bold text-gray-900 font-poppins">Explication du jeu super!</span>
             </div>
             <div class="pt-10">
               <p class="">
@@ -58,7 +45,7 @@
               </p>
             </div>
             <div class="pt-6">
-              <button @click="startGame" class="btn border-2 border-emerald-700">
+              <button @click="startGame" class="border-2 btn border-emerald-700">
                 Lancer la partie!
               </button>
             </div>
@@ -72,15 +59,15 @@
         :key="'third-' + roundKey" />
     </div>
 
-    <div v-if="gameEnded" class="absolute left-1/2 top-20 transform -translate-x-1/2 bg-white z-20 p-1 rounded-md">
-      <div class="p-6 border border-gray-300 rounded-md text-center">
+    <div v-if="gameEnded" class="absolute z-20 p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20">
+      <div class="p-6 text-center border border-gray-300 rounded-md">
         <div>
-          <span class="font-poppins font-bold text-2xl text-gray-900">
+          <span class="text-2xl font-bold text-gray-900 font-poppins">
             Fin du jeu!
           </span>
         </div>
         <div class="pt-6">
-          Vous avez marqué un total de <span class="font-bold text-xl">{{ finalScore }}</span>, c'est vraiment un score
+          Vous avez marqué un total de <span class="text-xl font-bold">{{ finalScore }}</span>, c'est vraiment un score
           digne des loutrons!
         </div>
         <div class="pt-10">
@@ -93,17 +80,17 @@
           <button @click="
               startGameModal = true;
               this.gameEnded = false;
-            " class="btn border-2 border-emerald-700">
+            " class="border-2 btn border-emerald-700">
             Nouvelle partie
           </button>
         </div>
       </div>
     </div>
-    <div v-if="!gameStarted" class="absolute bottom-6 left-1/2 transform -translate-x-1/2">
+    <div v-if="!gameStarted" class="absolute transform -translate-x-1/2 bottom-6 left-1/2">
       <div class="flex flex-col items-center justify-center space-y-1">
         <img class="w-10 h-10 opacity-80" :src="iconImage" alt="" />
         <div>
-          <span class="text-xs text-white italic">by Omar for las Truitas \tʁɥi.tas\</span>
+          <span class="text-xs italic text-white">by Omar for las Truitas \tʁɥi.tas\</span>
         </div>
       </div>
     </div>
@@ -137,25 +124,15 @@ export default {
       detailedScores: {},
       bgImage,
       iconImage,
-      playing: true,
     };
   },
   methods: {
-    toggleMusic() {
-      this.playing = !this.playing;
-      this.playing
-        ? this.$refs.backgroundMusic.play()
-        : this.$refs.backgroundMusic.pause();
-    },
     startGame() {
       this.startGameModal = false;
       this.gameStarted = true;
       this.gameEnded = false;
       this.finalScore = 0;
       this.currentRound = 1;
-      this.playing
-        ? this.$refs.backgroundMusic.play()
-        : this.$refs.backgroundMusic.pause();
       this.roundKey++;
     },
     handleRoundEnded(data) {
