@@ -3,10 +3,14 @@
     <div class="mx-auto max-w-prose">
       <div>
         <span class="text-3xl font-bold text-white font-poppins">
-          Trouve des <span class=" text-amber-500">{{ selectedCategory }}</span>
-          <br>
+          Trouve des
+          <transition name="slide-fade" mode="out-in">
+            <span class="text-amber-500" :key="selectedCategory">{{ selectedCategory }}</span>
+          </transition>
           qui commence par
-          <span class="text-amber-500">{{ startLetter }}</span>
+          <transition name="slide-fade" mode="out-in">
+            <span class="text-amber-500" :key="startLetter">{{ startLetter }}</span>
+          </transition>
         </span>
         <div class="relative p-6 mt-6 rounded-md bg-emerald-50">
           <div class="absolute inset-0 top-0 h-2 rounded-md bg-emerald-400"
@@ -159,7 +163,7 @@ export default {
       scores: {},
       totalScore: 0,
       sounds: [
-        new Audio('/sounds/fish.wav'),
+        new Audio('/sounds/pole.wav'),
         new Audio('/sounds/fishing.wav'),
       ]
     };
@@ -175,8 +179,13 @@ export default {
     this.selectRandomCategoryAndLetter();
     this.startTimer();
     this.categoryTimer = setInterval(() => {
-      this.selectRandomCategoryAndLetter();
-    }, 60000);
+      if (this.timeLeft % 30 === 4) {
+        this.sounds[0].play();
+      }
+      if (this.timeLeft % 30 === 0) {
+        this.selectRandomCategoryAndLetter();
+      }
+    }, 1000); // Check every second
   },
   methods: {
     async fetchChannelNameAndConnect() {
@@ -220,7 +229,6 @@ export default {
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }
-        this.sounds[0].play();
         this.scores[username] += 2;
         this.totalScore += 2;
         this.foundWords = this.foundWords.filter(word => word.toLowerCase() !== normalizedMessage);
@@ -270,6 +278,21 @@ export default {
       this.client.disconnect();
     }
     clearInterval(this.timer);
+    clearInterval(this.categoryTimer);
   }
 };
 </script>
+
+
+<style>
+.slide-fade-enter-active,
+.slide-fade-leave-active {
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.slide-fade-enter,
+.slide-fade-leave-to {
+  opacity: 0;
+  transform: translateY(60px);
+}
+</style>

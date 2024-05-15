@@ -13,7 +13,7 @@
           </div>
           <div class="pt-4">
             <span class="text-xl tracking-widest text-gray-700">{{ revealedWord }} <span
-                class="text-sm text-gray-500">({{ revealedWord.length }} lettres)</span></span>
+                class="text-sm tracking-normal text-gray-500">({{ revealedWord.length }} lettres)</span></span>
           </div>
           <div class="flex flex-col items-center justify-center mt-2">
             <button @click="fetchWordAndDefinition"
@@ -26,7 +26,12 @@
               </svg>
             </button>
             <span class="text-xs italic">
-              O secours c tro dur
+              <template v-if="previousWord">
+                le mot précédent était: <span class="font-bold">{{ previousWord }}</span>
+              </template>
+              <template v-else>
+                O secours c tro dur
+              </template>
             </span>
           </div>
         </div>
@@ -152,6 +157,7 @@ export default {
       incorrectGuess: [],
       messages: [],
       word: '',
+      previousWord: '',
       revealedWord: '',
       revealInterval: 6,
       scores: {},
@@ -159,6 +165,7 @@ export default {
       sounds: [
         new Audio('/sounds/fish.wav'),
         new Audio('/sounds/fishing.wav'),
+        new Audio('/sounds/pole.wav'),
       ]
     };
   },
@@ -191,6 +198,7 @@ export default {
     },
     async fetchWordAndDefinition() {
       try {
+        this.previousWord = this.word;
         this.sounds[1].play();
         const response = await axios.get('/words.json'); // Adjust the path if necessary
         const words = response.data.words;
@@ -236,6 +244,9 @@ export default {
       this.timer = setInterval(() => {
         if (this.timeLeft > 0) {
           this.timeLeft--;
+          if (this.timeLeft === 3) {
+            this.sounds[2].play();
+          }
         } else {
           clearInterval(this.timer);
         }

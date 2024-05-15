@@ -31,7 +31,12 @@
               </svg>
             </button>
             <span class="text-xs italic">
-              O secours c tro dur
+              <template v-if="previousWord">
+                le mot précédent était: <span class="font-bold">{{ previousWord }}</span>
+              </template>
+              <template v-else>
+                O secours c tro dur
+              </template>
             </span>
           </div>
         </div>
@@ -158,11 +163,13 @@ export default {
       messages: [],
       word: '',
       definition: '',
+      previousWord: '',
       scores: {},
       totalScore: 0,
       sounds: [
         new Audio('/sounds/fish.wav'),
         new Audio('/sounds/fishing.wav'),
+        new Audio('/sounds/pole.wav'),
       ]
     };
   },
@@ -195,6 +202,7 @@ export default {
     },
     async fetchWordAndDefinition() {
       try {
+        this.previousWord = this.word;
         this.sounds[1].play();
         const response = await axios.get('/words.json'); // Adjust the path if necessary
         const words = response.data.words;
@@ -211,6 +219,9 @@ export default {
       this.timer = setInterval(() => {
         if (this.timeLeft > 0) {
           this.timeLeft--;
+          if (this.timeLeft === 3) {
+            this.sounds[2].play();
+          }
         } else {
           clearInterval(this.timer);
         }

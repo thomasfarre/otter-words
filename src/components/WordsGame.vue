@@ -71,7 +71,7 @@
                 </div>
               </div>
             </div>
-            <div class="pt-6">
+            <div class="pt-6 text-center">
               <button @click="startGame" class="border-2 btn border-emerald-700">
                 Lancer la partie!
               </button>
