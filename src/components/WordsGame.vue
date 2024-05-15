@@ -123,7 +123,7 @@
           </div>
         </div>
         <div class="pt-6 text-center">
-          <button @click="startGameModal = true; this.gameEnded = false;" class="border-2 btn border-emerald-700">
+          <button @click="startGame" class="border-2 btn border-emerald-700">
             Nouvelle partie
           </button>
         </div>
