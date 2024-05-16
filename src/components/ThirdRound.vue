@@ -1,7 +1,7 @@
 <template>
   <div v-if="timeLeft > 0" class="text-center">
     <div class="mx-auto max-w-prose">
-      <div class="border-2 rounded-md shadow-md border-emerald-800 bg-emerald-50">
+      <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="p-6">
           <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
             Des <span class="text-amber-600">lettres</span> manques, trouve le <span class="text-amber-600">mot</span> !
@@ -42,7 +42,7 @@
         </div>
       </div>
 
-      <div class="p-6 mt-2 overflow-y-auto rounded-md bg-emerald-50 max-h-72">
+      <div class="p-6 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
         <div class="flex justify-start space-x-4">
           <div class="w-1/2 space-y-2">
             <div class="text-left">
@@ -164,7 +164,7 @@ export default {
       word: '',
       previousWord: '',
       revealedWord: '',
-      revealInterval: 6,
+      revealInterval: 5,
       scores: {},
       totalScore: 0,
       sounds: [
@@ -249,7 +249,7 @@ export default {
       this.timer = setInterval(() => {
         if (this.timeLeft > 0) {
           this.timeLeft--;
-          if (this.timeLeft === 3) {
+          if (this.timeLeft === 4) {
             this.sounds[2].play();
           }
         } else {

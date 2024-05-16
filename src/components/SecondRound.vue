@@ -1,7 +1,7 @@
 <template>
   <div v-if="timeLeft > 0" class="text-center">
     <div class="mx-auto max-w-prose">
-      <div class="border-2 rounded-md shadow-md border-emerald-800 bg-emerald-50">
+      <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="p-6">
           <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
             Trouve le <span class="text-amber-600">mot</span> associé à cette <span
@@ -45,7 +45,7 @@
         </div>
       </div>
 
-      <div class="p-6 mt-2 overflow-y-auto rounded-md bg-emerald-50 max-h-72">
+      <div class="p-6 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
         <div class="flex justify-start space-x-4">
           <div class="w-1/2 space-y-2">
             <div class="text-left">
@@ -207,12 +207,12 @@ export default {
       try {
         this.previousWord = this.word;
         this.sounds[1].play();
-        const response = await axios.get('/words.json'); // Adjust the path if necessary
+        const response = await axios.get('/words.json');
         const words = response.data.words;
-        const keys = Object.keys(words); // Extract keys from the words object
-        const randomKey = keys[Math.floor(Math.random() * keys.length)]; // Select a random key
+        const keys = Object.keys(words);
+        const randomKey = keys[Math.floor(Math.random() * keys.length)];
         this.word = randomKey;
-        this.definition = words[randomKey]; // Directly access the definition using the key
+        this.definition = words[randomKey];
       } catch (error) {
         console.error('Failed to fetch data:', error);
         this.definition = 'Failed to load definition.';
@@ -222,7 +222,7 @@ export default {
       this.timer = setInterval(() => {
         if (this.timeLeft > 0) {
           this.timeLeft--;
-          if (this.timeLeft === 3) {
+          if (this.timeLeft === 4) {
             this.sounds[2].play();
           }
         } else {
@@ -242,8 +242,8 @@ export default {
           this.scores[username] = 0;
         }
         this.sounds[0].play();
-        this.scores[username] += 10; // Increment user's score by 10 for a correct guess
-        this.totalScore += 10; // Increment global score
+        this.scores[username] += 10;
+        this.totalScore += 10;
         this.correctGuess.push(correctGuess);
         this.fetchWordAndDefinition();
       } else {
@@ -272,7 +272,7 @@ export default {
       };
       this.client = new tmi.Client(opts);
       this.client.on('message', (channel, tags, message, self) => {
-        if (self) return;  // Ignore messages from the bot itself
+        if (self) return;
         this.messages.push({
           id: this.messages.length + 1,
           username: tags['display-name'],
