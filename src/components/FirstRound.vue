@@ -1,20 +1,24 @@
 <template>
   <div v-if="timeLeft > 0" class="text-center">
     <div class="mx-auto max-w-prose">
-      <div>
-        <span class="text-3xl font-bold text-white font-poppins">
-          Trouve des
-          <transition name="slide-fade" mode="out-in">
-            <span class="text-amber-500" :key="selectedCategory">{{ selectedCategory }}</span>
-          </transition>
-          qui commence par
-          <transition name="slide-fade" mode="out-in">
-            <span class="text-amber-500" :key="startLetter">{{ startLetter }}</span>
-          </transition>
-        </span>
-        <div class="relative p-6 mt-6 rounded-md bg-emerald-50">
-          <div class="absolute inset-0 top-0 h-2 rounded-md bg-emerald-400"
-            :style="{ width: progressBarWidth, transition: 'width 0.5s linear' }"></div>
+      <div class="border-2 rounded-md shadow-md border-emerald-800 bg-emerald-50">
+        <div class="p-6">
+          <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
+            Trouve des
+            <transition name="slide-fade" mode="out-in">
+              <span class=" text-amber-600" :key="selectedCategory">{{ selectedCategory }}</span>
+            </transition>
+            qui commence par
+            <transition name="slide-fade" mode="out-in">
+              <span class=" text-amber-600" :key="startLetter">{{ startLetter }}</span>
+            </transition>
+          </span>
+        </div>
+        <div class="relative px-6 pt-6 pb-2">
+          <div class="absolute inset-0 top-0 z-10 h-2 bg-emerald-400"
+            :style="{ width: progressBarWidth, transition: 'width 1s linear' }">
+          </div>
+          <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
           <div>
             <span class="text-2xl font-black text-gray-900 font-poppins">
               {{ timeLeft }}s
@@ -37,11 +41,11 @@
         </div>
       </div>
 
-      <div class="p-6 mt-6 overflow-y-auto rounded-md bg-emerald-50 max-h-72">
+      <div class="p-6 mt-2 overflow-y-auto rounded-md bg-emerald-50 max-h-72">
         <div class="flex justify-start space-x-4">
           <div class="w-1/2 space-y-2">
             <div class="text-left">
-              <span class="text-xl font-bold text-gray-800">
+              <span class="text-xl font-bold text-gray-700">
                 Mots trouvés
               </span>
             </div>
@@ -53,7 +57,7 @@
           </div>
           <div class="w-1/2 space-y-2">
             <div class="text-right">
-              <span class="text-xl font-bold text-gray-800">
+              <span class="text-xl font-bold text-gray-700">
                 Score: {{ totalScore }}
               </span>
             </div>
@@ -67,7 +71,7 @@
       </div>
     </div>
     <div class="mt-12">
-      <span class="text-xl font-bold text-white font-poppins">
+      <span class="text-xl italic font-bold text-emerald-50 font-poppins">
         La Rivière des espoirs déchûs
       </span>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
@@ -181,9 +185,6 @@ export default {
     this.categoryTimer = setInterval(() => {
       if (this.timeLeft % 30 === 4) {
         this.sounds[0].play();
-      }
-      if (this.timeLeft % 30 === 0) {
-        this.selectRandomCategoryAndLetter();
       }
     }, 1000); // Check every second
   },

@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-cover" :style="{ backgroundImage: 'url(' + bgImage + ')' }">
-    <div class="pt-10 mx-auto">
+    <div class="pt-6 mx-auto">
       <div v-if="!gameStarted" class="pt-20">
         <div class="text-center">
           <div>

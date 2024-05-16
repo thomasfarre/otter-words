@@ -1,15 +1,20 @@
 <template>
   <div v-if="timeLeft > 0" class="text-center">
-    <div class="max-w-2xl mx-auto">
-      <div>
-        <span class="text-3xl font-bold text-white font-poppins">
-          Des <span class="text-amber-500">lettres</span> manques, trouve le <span class="text-amber-500">mot</span> !
-        </span>
-        <div class="relative px-6 pt-6 pb-2 mt-6 rounded-md bg-emerald-50">
-          <div class="absolute inset-0 top-0 h-2 rounded-md bg-emerald-400"
-            :style="{ width: progressBarWidth, transition: 'width 0.5s linear' }"></div>
+    <div class="mx-auto max-w-prose">
+      <div class="border-2 rounded-md shadow-md border-emerald-800 bg-emerald-50">
+        <div class="p-6">
+          <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
+            Des <span class="text-amber-600">lettres</span> manques, trouve le <span class="text-amber-600">mot</span> !
+          </span>
+        </div>
+        <div class="relative px-6 pt-6 pb-2">
+          <div class="absolute inset-0 top-0 z-10 h-2 bg-emerald-400"
+            :style="{ width: progressBarWidth, transition: 'width 1s linear' }"></div>
+          <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
           <div>
-            <span class="text-2xl font-black text-gray-900 font-poppins">{{ timeLeft }}s</span>
+            <span class="text-2xl font-black text-gray-900 font-poppins">
+              {{ timeLeft }}s
+            </span>
           </div>
           <div class="pt-4">
             <span class="text-xl tracking-widest text-gray-700">{{ revealedWord }} <span
@@ -37,11 +42,11 @@
         </div>
       </div>
 
-      <div class="p-6 mt-6 overflow-y-auto rounded-md bg-emerald-50 max-h-72">
+      <div class="p-6 mt-2 overflow-y-auto rounded-md bg-emerald-50 max-h-72">
         <div class="flex justify-start space-x-4">
           <div class="w-1/2 space-y-2">
             <div class="text-left">
-              <span class="text-xl font-bold text-gray-800">
+              <span class="text-xl font-bold text-gray-700">
                 Mots trouvés
               </span>
             </div>
@@ -53,7 +58,7 @@
           </div>
           <div class="w-1/2 space-y-2">
             <div class="text-right">
-              <span class="text-xl font-bold text-gray-800">
+              <span class="text-xl font-bold text-gray-700">
                 Score: {{ totalScore }}
               </span>
             </div>
