@@ -186,6 +186,9 @@ export default {
       if (this.timeLeft % 30 === 4) {
         this.sounds[0].play();
       }
+      if (this.timeLeft % 30 === 0) {
+        this.selectRandomCategoryAndLetter();
+      }
     }, 1000); // Check every second
   },
   methods: {
@@ -243,6 +246,7 @@ export default {
           this.timeLeft--;
         } else {
           clearInterval(this.timer);
+          clearInterval(this.categoryTimer);
         }
       }, 1000);
     },
