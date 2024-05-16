@@ -15,14 +15,21 @@
           </span>
         </div>
         <div class="relative px-6 pt-6 pb-2">
-          <div class="absolute inset-0 top-0 z-10 h-2 bg-emerald-400"
+          <div class="absolute inset-0 top-0 z-10 h-2 bg-emerald-200"
             :style="{ width: progressBarWidth, transition: 'width 1s linear' }">
           </div>
           <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
-          <div>
-            <span class="text-2xl font-black text-gray-900 font-poppins">
-              {{ timeLeft }}s
-            </span>
+          <div class="relative w-16 h-16 mx-auto border-2 border-gray-400 rounded-full bg-emerald-500">
+            <div class="absolute -mt-1 transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
+              <span class="text-2xl font-bold text-emerald-50 font-poppins">
+                {{ timeLeft }}
+              </span>
+            </div>
+            <div class="absolute transform -translate-x-1/2 bottom-2 left-1/2">
+              <span class="text-xs tracking-tighter text-emerald-50">
+                secondes
+              </span>
+            </div>
           </div>
           <div class="flex flex-col items-center justify-center mt-6">
             <button @click="selectRandomCategoryAndLetter"
@@ -205,7 +212,7 @@ export default {
       }
     },
     async selectRandomCategoryAndLetter() {
-      const categories = ["animaux","metiers","prenoms","pays"];
+      const categories = ["animaux", "metiers", "prenoms", "pays"];
       this.selectedCategory = categories[Math.floor(Math.random() * categories.length)];
       this.startLetter = String.fromCharCode(65 + Math.floor(Math.random() * 25));
       this.fetchValidWords();
