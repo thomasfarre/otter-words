@@ -213,6 +213,7 @@ export default {
         const randomKey = keys[Math.floor(Math.random() * keys.length)];
         this.word = randomKey;
         this.definition = words[randomKey];
+        console.log(this.word)
       } catch (error) {
         console.error('Failed to fetch data:', error);
         this.definition = 'Failed to load definition.';
@@ -230,8 +231,14 @@ export default {
         }
       }, 1000);
     },
+    normalizeText(text) {
+      return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    },
+
     checkGuess(message, username) {
-      if (message.trim().toLowerCase() === this.word.toLowerCase()) {
+      const normalizedMessage = this.normalizeText(message);
+      const normalizedWord = this.normalizeText(this.word);
+      if (normalizedMessage === normalizedWord) {
         const correctGuess = {
           id: this.correctMessages,
           username: username,
