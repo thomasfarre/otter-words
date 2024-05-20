@@ -19,7 +19,7 @@
           </div>
         </div>
         <div v-if="startGameModal"
-          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-12 xl:max-w-prose">
+          class="absolute z-20 w-full p-1 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-md left-1/2 top-1/2 xl:max-w-prose">
           <div class="p-6 border border-gray-300 rounded-md">
             <div>
               <span class="text-2xl font-bold text-gray-900 font-poppins">Explication du jeu super!</span>
