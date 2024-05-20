@@ -55,14 +55,16 @@
                 </svg>
               </button>
             </div>
-            <span class="text-xs italic">
-              <template v-if="previousWord">
-                le mot précédent était: <span class="font-bold">{{ previousWord }}</span>
-              </template>
-              <template v-else>
-                O secours c tro dur
-              </template>
-            </span>
+            <div class="pt-1">
+              <span class="text-xs italic">
+                <template v-if="previousWord">
+                  le mot précédent était: <span class="font-bold">{{ previousWord }}</span>
+                </template>
+                <template v-else>
+                  O secours c tro dur
+                </template>
+              </span>
+            </div>
           </div>
         </div>
       </div>

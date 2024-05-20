@@ -54,10 +54,10 @@
                 <div v-for="round in availableRounds" :key="round.id" class="flex items-center">
                   <div class="flex items-center space-x-2">
                     <button type="button" :id="'round-' + round.id" @click="toggleRound(round.id)" :class="['relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer w-11 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2',
-      selectedRounds.includes(round.id) ? 'bg-emerald-600' : 'bg-gray-200']" role="switch"
+    selectedRounds.includes(round.id) ? 'bg-emerald-600' : 'bg-gray-200']" role="switch"
                       :aria-checked="selectedRounds.includes(round.id)" aria-labelledby="'label-' + round.id">
                       <span aria-hidden="true" :class="['inline-block w-5 h-5 transition duration-200 ease-in-out transform bg-white rounded-full shadow pointer-events-none',
-      selectedRounds.includes(round.id) ? 'translate-x-5' : 'translate-x-0']"></span>
+    selectedRounds.includes(round.id) ? 'translate-x-5' : 'translate-x-0']"></span>
                     </button>
                     <span class="ml-3 text-sm" :id="'label-' + round.id" @click="toggleRound(round.id)">
                       {{ round.name }}
@@ -93,9 +93,11 @@
         </div>
         <div class="pt-10">
           <span class="font-bold"> Classement des participants: </span>
-          <li v-for="(score, username) in detailedScores" :key="username">
-            {{ username }}: {{ score }}
-          </li>
+          <ul>
+            <li v-for="user in detailedScores" :key="user.username">
+              {{ user.username }}: {{ user.score }}
+            </li>
+          </ul>
         </div>
         <div class="pt-10">
           <span class="font-bold">
@@ -140,7 +142,6 @@ import FirstRound from "./FirstRound.vue";
 import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
 
-
 import iconImage from "@/assets/images/trout.png";
 import bgImage from "/public/images/bg-loutre-2.jpg";
 
@@ -159,7 +160,7 @@ export default {
       currentRound: 0,
       roundKey: 0,
       finalScore: 0,
-      detailedScores: {},
+      detailedScores: [],
       bgImage,
       iconImage,
       availableRounds: [
@@ -201,11 +202,14 @@ export default {
     },
     updateScores(newScores) {
       Object.keys(newScores).forEach(username => {
-        if (!this.detailedScores[username]) {
-          this.detailedScores[username] = 0;
+        let existingUser = this.detailedScores.find(user => user.username === username);
+        if (existingUser) {
+          existingUser.score += newScores[username];
+        } else {
+          this.detailedScores.push({ username: username, score: newScores[username] });
         }
-        this.detailedScores[username] += newScores[username];
       });
+      this.detailedScores.sort((a, b) => b.score - a.score);
     },
   }
 };
