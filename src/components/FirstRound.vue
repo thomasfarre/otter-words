@@ -2,7 +2,7 @@
   <div v-if="timeLeft > 0" class="text-center">
     <div class="mx-auto max-w-prose">
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
-        <div class="p-6">
+        <div class="px-6 py-4">
           <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
             Trouve des
             <transition name="slide-fade" mode="out-in">
@@ -228,7 +228,6 @@ export default {
     checkGuess(message, username) {
       const normalizedMessage = message.trim().toLowerCase();
       const lowerCaseFoundWords = this.foundWords.map(word => word.toLowerCase());
-      console.log(lowerCaseFoundWords, normalizedMessage)
       if (lowerCaseFoundWords.includes(normalizedMessage) && !this.correctGuess.some(msg => msg.text.toLowerCase() === normalizedMessage)) {
         this.correctGuess.push({ text: message, username });
         this.sounds[2].play();

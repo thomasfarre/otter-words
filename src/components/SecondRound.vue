@@ -2,13 +2,18 @@
   <div v-if="timeLeft > 0" class="text-center">
     <div class="mx-auto max-w-prose">
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
-        <div class="p-6">
+        <div class="px-6 py-4">
           <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
             Trouve le <span class="text-amber-600">mot</span> associé à cette <span
               class="text-amber-600">définition</span> !
           </span>
         </div>
         <div class="relative px-6 pt-6 pb-2">
+          <div class="flex flex-col items-center justify-center pb-2">
+            <span v-if="shuffledWord" class="text-xl tracking-widest text-gray-800 uppercase">
+              {{ shuffledWord }}
+            </span>
+          </div>
           <div class="absolute inset-0 top-0 z-10 h-2 bg-emerald-400"
             :style="{ width: progressBarWidth, transition: 'width 1s linear' }">
           </div>
@@ -23,16 +28,33 @@
               {{ definition }}
             </span>
           </div>
-          <div class="flex flex-col items-center justify-center mt-2">
-            <button @click="fetchWordAndDefinition"
-              class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                class="w-5 h-5 text-gray-800 transition duration-300 ease-out group-hover:text-gray-600">
-                <path fill-rule="evenodd"
-                  d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
-                  clip-rule="evenodd" />
-              </svg>
-            </button>
+          <div class="flex flex-col items-center justify-center mt-6">
+            <div class="flex items-center space-x-4">
+              <div>
+                <button @click="revealShuffledWord" :disabled="hintsUsed >= 3"
+                  class="relative p-2 transition duration-300 ease-out rounded-full bg-amber-200 hover:bg-amber-300 group disabled:bg-white">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-5 h-5 transition duration-300 ease-out text-amber-700 group-hover:text-amber-900 group-disabled:text-gray-400">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                      d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z" />
+                  </svg>
+                  <span
+                    class="absolute px-1 py-px text-xs font-bold text-white rounded-full -top-1 -right-1 bg-amber-500">
+                    {{ 3 - hintsUsed }}
+                  </span>
+                </button>
+              </div>
+              <button @click="fetchWordAndDefinition"
+                class="p-2 transition duration-300 ease-out rounded-full bg-amber-200 hover:bg-amber-300 group">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                  class="w-5 h-5 transition duration-300 ease-out text-amber-700 group-hover:text-amber-900">
+                  <path fill-rule="evenodd"
+                    d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </button>
+            </div>
             <span class="text-xs italic">
               <template v-if="previousWord">
                 le mot précédent était: <span class="font-bold">{{ previousWord }}</span>
@@ -169,6 +191,8 @@ export default {
       previousWord: '',
       scores: {},
       totalScore: 0,
+      hintsUsed: 0,
+      shuffledWord: '',
       sounds: [
         new Audio('/sounds/fish.wav'),
         new Audio('/sounds/fishing.wav'),
@@ -213,7 +237,7 @@ export default {
         const randomKey = keys[Math.floor(Math.random() * keys.length)];
         this.word = randomKey;
         this.definition = words[randomKey];
-        console.log(this.word)
+        this.shuffledWord = '';
       } catch (error) {
         console.error('Failed to fetch data:', error);
         this.definition = 'Failed to load definition.';
@@ -234,7 +258,15 @@ export default {
     normalizeText(text) {
       return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     },
-
+    shuffleWord(word) {
+      return word.split('').sort(() => Math.random() - 0.5).join('');
+    },
+    revealShuffledWord() {
+      if (this.hintsUsed < 3) {
+        this.shuffledWord = this.shuffleWord(this.word);
+        this.hintsUsed++;
+      }
+    },
     checkGuess(message, username) {
       const normalizedMessage = this.normalizeText(message);
       const normalizedWord = this.normalizeText(this.word);
