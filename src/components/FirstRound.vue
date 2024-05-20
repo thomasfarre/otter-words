@@ -169,6 +169,7 @@ export default {
       sounds: [
         new Audio('/sounds/pole.wav'),
         new Audio('/sounds/fishing.wav'),
+        new Audio('/sounds/fish.wav'),
       ]
     };
   },
@@ -230,6 +231,7 @@ export default {
       console.log(lowerCaseFoundWords, normalizedMessage)
       if (lowerCaseFoundWords.includes(normalizedMessage) && !this.correctGuess.some(msg => msg.text.toLowerCase() === normalizedMessage)) {
         this.correctGuess.push({ text: message, username });
+        this.sounds[2].play();
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }
