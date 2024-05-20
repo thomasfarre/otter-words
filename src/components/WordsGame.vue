@@ -26,29 +26,24 @@
             </div>
             <div class="pt-4">
               <p class="text-gray-800">
-                Bonjour Loutre et loutrons, virtuoses de la langue française!
+                Loutrons et Loutrones de l’Empire sacré de la Rivière, Bienvenue !
                 <br /><br />
-                Quelques explications avant de lancer la partie, tout d'abord le
-                jeu est vraiment pas terminé ! Vous allez certainement tomber
-                sur des bugs. D'ailleurs en parlant de ça, afin de réaliser le
-                meilleur jeu possible pour vous je suis très friands de vos
-                suggestions en tout genre <br /><br />
-                Concernant le jeu ! C'est une suite de plusieurs round
-                (mini-jeux), à chaque fois un chrono et des mots à trouver :
+                Voici la toute première version du jeu créé spécialement pour vous, virtuoses de la langue française !
+                Vous allez certainement tomber sur des bugs. N’hésitez pas à faire remontrer vos remarques et vos
+                suggestions à la Loutre, afin que notre Homard puisse améliorer le gameplay à chaque mise à jour.
+                Cette première version se compose de trois mini-jeux chronométrés.
                 <br /><br />
-                - <strong>Premier round</strong>: Une lettre et une catégorie au hasard à
-                respecter ! <br />
-                - <strong>Deuxième round</strong>: La définition du mot est affiché, à vous de
+                - <strong>Round 1</strong> Le petit bac : Une lettre et une catégorie s’affichent, à vous de trouver le
+                plus de mot possible (exemples : les animaux en L, les pays en T…). Toutes les 30 secondes, la lettre et
+                la catégorie changent.<br />
+                - <strong>Round 2</strong>: La définition est affichée, à vous de retrouver le mot !
                 retrouver le mot ! <br />
-                - <strong>Troisième round</strong>: Il manque des lettres qui apparaissent au fûr et à mesure, trouvez
-                le mot le plus
-                vite
-                possible!
+                - <strong>Round 3</strong>: Le pendu : Les lettres s’affichent au fur et à mesure du temps, à vous de
+                retrouver le mot complet le plus vite possible !
                 <br /><br />
-                Vous pouvez taper directement les réponses dans le chat Twitch,
-                si elles sont incorrects, elles s'échoueront dans la Rivière. Si
-                elle sont bonne par contre, vous marquerez des points, vous
-                ainsi que votre équipe! Bonne chance!
+                Vous pouvez taper directement les réponses dans le chat Twitch. Si elles sont correctes, elles
+                s’afficheront dans la liste, avec votre pseudo et votre score. Si elles sont incorrectes, elles
+                échoueront dans la rivière, juste en dessous.
               </p>
             </div>
             <div class="pt-10">
