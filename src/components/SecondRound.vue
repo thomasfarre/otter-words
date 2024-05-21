@@ -8,7 +8,7 @@
               class="text-amber-600">définition</span> !
           </span>
         </div>
-        <div class="relative px-6 pt-6 pb-2">
+        <div class="relative px-6 pt-4 pb-2">
           <div class="flex flex-col items-center justify-center pb-2">
             <span v-if="shuffledWord" class="text-xl tracking-widest text-gray-800 uppercase">
               {{ shuffledWord }}
@@ -23,7 +23,13 @@
               {{ timeLeft }}s
             </span>
           </div>
-          <div class="pt-4">
+          <div class="flex flex-col pt-2 space-y-4">
+            <div class="px-2 mx-auto rounded-md bg-amber-100 w-fit">
+              <span class="text-xs font-bold text-gray-800 uppercase ">
+                {{ catGram }}
+              </span>
+            </div>
+
             <span class="text-xl text-gray-700">
               {{ definition }}
             </span>
@@ -69,7 +75,7 @@
         </div>
       </div>
 
-      <div class="p-6 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
+      <div class="px-6 pt-2 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
         <div class="flex justify-start space-x-4">
           <div class="w-1/2 space-y-2">
             <div class="text-left">
@@ -190,6 +196,7 @@ export default {
       messages: [],
       word: '',
       definition: '',
+      catGram: '',
       previousWord: '',
       scores: {},
       totalScore: 0,
@@ -238,7 +245,8 @@ export default {
         const keys = Object.keys(words);
         const randomKey = keys[Math.floor(Math.random() * keys.length)];
         this.word = randomKey;
-        this.definition = words[randomKey];
+        this.definition = words[randomKey].def;
+        this.catGram = words[randomKey].catGram;  // Assuming you want to display or use the grammatical category as well
         this.shuffledWord = '';
       } catch (error) {
         console.error('Failed to fetch data:', error);
