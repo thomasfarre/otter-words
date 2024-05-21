@@ -3,15 +3,9 @@
     <div class="mx-auto max-w-prose">
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="px-6 py-4">
-          <span class="text-3xl font-bold tracking-tight text-gray-700 font-poppins">
-            Trouve des
-            <transition name="slide-fade" mode="out-in">
-              <span class="tracking-normal  text-amber-600" :key="selectedCategory">{{ formatCategories(this.selectedCategory) }}</span>
-            </transition>
-            qui commence par
-            <transition name="slide-fade" mode="out-in">
-              <span class="tracking-normal  text-amber-600" :key="startLetter">{{ startLetter }}</span>
-            </transition>
+          <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
+            Trouve des <span class="text-amber-600">mots</span> associé à cette <span
+              class="text-amber-600">catégorie</span> débutant par cette <span class="text-amber-600">lettre</span>
           </span>
         </div>
         <div class="relative px-6 pt-6 pb-2">
@@ -23,6 +17,21 @@
             <span class="text-2xl font-black text-gray-900 font-poppins">
               {{ timeLeft }}s
             </span>
+          </div>
+          <div class="flex flex-col items-center justify-center pt-6 space-y-4">
+            <div class="px-2 rounded-md bg-amber-100 w-fit">
+              <transition name="slide-fade" mode="out-in">
+                <span class="text-xl font-bold text-gray-800 uppercase " :key="startLetter">{{
+                  startLetter }}</span>
+              </transition>
+            </div>
+            <div>
+              <transition name="slide-fade" mode="out-in">
+                <span class="text-2xl font-bold text-gray-800 uppercase" :key="selectedCategory">{{
+                  formatCategories(this.selectedCategory) }}</span>
+              </transition>
+            </div>
+
           </div>
           <div class="flex flex-col items-center justify-center mt-6">
             <button @click="selectRandomCategoryAndLetter"
@@ -41,7 +50,7 @@
         </div>
       </div>
 
-      <div class="p-6 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
+      <div class="px-6 pt-2 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
         <div class="flex justify-start space-x-4">
           <div class="w-1/2 space-y-2">
             <div class="text-left">
@@ -283,31 +292,31 @@ export default {
     formatCategories(selectedCategory) {
       console.log(selectedCategory)
       if (selectedCategory === "animaux") {
-        return "Animaux"
+        return "animaux"
       }
       if (selectedCategory === "anatomie") {
-        return "Anatomie"
+        return "parties du corps"
       }
       if (selectedCategory === "fromages") {
-        return "Fromages"
+        return "fromages"
       }
       if (selectedCategory === "prenoms") {
-        return "Prénoms"
+        return "prénoms"
       }
       if (selectedCategory === "metiers") {
-        return "Métiers"
+        return "métiers"
       }
       if (selectedCategory === "pays") {
-        return "Pays"
+        return "pays"
       }
       if (selectedCategory === "vegetaux") {
-        return "Vegetaux"
+        return "vegetaux"
       }
       if (selectedCategory === "qualitedefaut") {
-        return "Qualitées & Défauts"
+        return "qualitées & défauts"
       }
       if (selectedCategory === "adverbes") {
-        return "Adverbes en -ment"
+        return "adverbes en -ment"
       }
     }
   },

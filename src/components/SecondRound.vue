@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-prose">
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="px-6 py-4">
-          <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
+          <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
             Trouve le <span class="text-amber-600">mot</span> associé à cette <span
               class="text-amber-600">définition</span> !
           </span>
@@ -30,7 +30,7 @@
               </span>
             </div>
 
-            <span class="text-xl text-gray-700">
+            <span class="text-xl font-medium text-gray-700">
               {{ definition }}
             </span>
           </div>

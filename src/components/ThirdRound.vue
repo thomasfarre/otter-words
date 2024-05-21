@@ -3,7 +3,7 @@
     <div class="mx-auto max-w-prose">
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="px-6 py-4">
-          <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
+          <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
             Des <span class="text-amber-600">lettres</span> manques, trouve le <span class="text-amber-600">mot</span> !
           </span>
         </div>
@@ -17,7 +17,7 @@
             </span>
           </div>
           <div class="pt-4">
-            <span class="text-xl tracking-widest text-gray-700">{{ revealedWord }} <span
+            <span class="text-xl tracking-widest text-gray-700 uppercase">{{ revealedWord }} <span
                 class="text-sm tracking-normal text-gray-500">({{ revealedWord.length }} lettres)</span></span>
           </div>
           <div class="flex flex-col items-center justify-center mt-2">
