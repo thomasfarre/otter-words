@@ -3,14 +3,14 @@
     <div class="mx-auto max-w-prose">
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="px-6 py-4">
-          <span class="text-3xl font-bold tracking-tighter text-gray-700 font-poppins">
+          <span class="text-3xl font-bold tracking-tight text-gray-700 font-poppins">
             Trouve des
             <transition name="slide-fade" mode="out-in">
-              <span class=" text-amber-600" :key="selectedCategory">{{ selectedCategory }}</span>
+              <span class="tracking-normal  text-amber-600" :key="selectedCategory">{{ formatCategories(this.selectedCategory) }}</span>
             </transition>
             qui commence par
             <transition name="slide-fade" mode="out-in">
-              <span class=" text-amber-600" :key="startLetter">{{ startLetter }}</span>
+              <span class="tracking-normal  text-amber-600" :key="startLetter">{{ startLetter }}</span>
             </transition>
           </span>
         </div>
@@ -279,6 +279,37 @@ export default {
       });
       this.client.connect().catch(console.error);
     },
+    // Need to change this function
+    formatCategories(selectedCategory) {
+      console.log(selectedCategory)
+      if (selectedCategory === "animaux") {
+        return "Animaux"
+      }
+      if (selectedCategory === "anatomie") {
+        return "Anatomie"
+      }
+      if (selectedCategory === "fromages") {
+        return "Fromages"
+      }
+      if (selectedCategory === "prenoms") {
+        return "Prénoms"
+      }
+      if (selectedCategory === "metiers") {
+        return "Métiers"
+      }
+      if (selectedCategory === "pays") {
+        return "Pays"
+      }
+      if (selectedCategory === "vegetaux") {
+        return "Vegetaux"
+      }
+      if (selectedCategory === "qualitedefaut") {
+        return "Qualitées & Défauts"
+      }
+      if (selectedCategory === "adverbes") {
+        return "Adverbes en -ment"
+      }
+    }
   },
   beforeUnmount() {
     if (this.client) {
