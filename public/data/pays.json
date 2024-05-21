@@ -1,4 +1,16 @@
 {
+  "Letters": [
+    "A",
+    "B",
+    "C",
+    "G",
+    "E",
+    "M",
+    "N",
+    "P",
+    "S",
+    "T"
+  ],
   "A": [
     "Afghanistan",
     "Afrique du Sud",
@@ -61,16 +73,14 @@
     "Djibouti",
     "Dominique"
   ],
-  "É": [
+  "E": [
     "Égypte",
     "Émirats Arabes Unis",
     "Équateur",
     "Érythrée",
     "États Fédérés de Micronésie",
     "États-Unis",
-    "Éthiopie"
-  ],
-  "E": [
+    "Éthiopie",
     "Espagne",
     "Estonie"
   ],
@@ -94,9 +104,7 @@
     "Guatemala",
     "Guinée",
     "Guinée Équatoriale",
-    "Guinée-Bissau",
-    "Guyana",
-    "Guyane Française"
+    "Guinée-Bissau"
   ],
   "H": [
     "Haïti",

@@ -209,15 +209,16 @@ export default {
       }
     },
     async selectRandomCategoryAndLetter() {
-      const categories = ["animaux","metiers","prenoms","pays"];
+      const categories = ["animaux","metiers","prenoms","pays","adverbes","anatomie","fromages","qualitedefaut","vegetaux"];
       this.selectedCategory = categories[Math.floor(Math.random() * categories.length)];
-      this.startLetter = String.fromCharCode(65 + Math.floor(Math.random() * 25));
       this.fetchValidWords();
     },
     async fetchValidWords() {
       try {
         this.sounds[1].play();
-        const response = await axios.get(`/${this.selectedCategory}.json`);
+        const response = await axios.get(`/data/${this.selectedCategory}.json`);
+        const categoryLetters = response.data["Letters"];
+        this.startLetter = categoryLetters[Math.floor(Math.random() * categoryLetters.length)]
         const wordsByLetter = response.data[this.startLetter] || [];
         this.foundWords = wordsByLetter;
       } catch (error) {

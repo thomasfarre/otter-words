@@ -12,12 +12,38 @@
             <span class="text-white">des loutres, des mots et des truites bien sûr</span>
           </div>
           <div class="pt-10">
-            <button @click="startGameModal = true"
+            <button @click="startTwitchModal = true"
               class="rounded-xl bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-900 shadow-sm hover:bg-emerald-200 transition ease-out duration-300">
               Nouvelle partie
             </button>
           </div>
         </div>
+        <div v-if="startTwitchModal"
+          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-24 xl:max-w-prose">
+          <div class="p-6 border border-gray-300 rounded-md">
+            <div>
+              <span class="text-2xl font-bold text-gray-900 font-poppins">Important! As-tu pensé à ouvrir ton chat
+                Twitch?</span>
+            </div>
+            <div class="pt-4">
+              <p class="text-gray-800">
+                Pour jouer il est nécessaire d'entrer les réponses dans ton chat. <br> <strong>Ouvre le</strong> si ce n'est
+                pas déjà fait,
+                sinon lance la partie !
+              </p>
+            </div>
+            <div class="flex justify-center pt-6 space-x-4">
+              <a :href="'https://www.twitch.tv/' + channelName" target="_blank" class="rounded-xl bg-purple-50 px-2.5 py-1.5 text-sm font-semibold text-purple-900 shadow-sm
+                hover:bg-purple-200 transition ease-out duration-300 border-purple-700 border-2">
+                Ouvrir mon chat
+              </a>
+              <button @click="startGameModal = true" class="border-2 btn border-emerald-700">
+                Lancer la partie
+              </button>
+            </div>
+          </div>
+        </div>
+
         <div v-if="startGameModal"
           class="absolute z-20 w-full p-1 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-md left-1/2 top-1/2 xl:max-w-prose">
           <div class="p-6 border border-gray-300 rounded-md">
@@ -138,6 +164,8 @@
 </template>
 
 <script>
+import { getFirestore, doc, getDoc } from 'firebase/firestore';
+import { getAuth } from 'firebase/auth';
 import FirstRound from "./FirstRound.vue";
 import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
@@ -154,7 +182,9 @@ export default {
   },
   data() {
     return {
+      channelName: '',
       startGameModal: false,
+      startTwitchModal: false,
       gameStarted: false,
       gameEnded: false,
       currentRound: 0,
@@ -171,7 +201,24 @@ export default {
       selectedRounds: [1, 2, 3]
     };
   },
+  created() {
+    this.fetchChannelNameAndConnect();
+  },
   methods: {
+    async fetchChannelNameAndConnect() {
+      const auth = getAuth();
+      const db = getFirestore();
+      const user = auth.currentUser;
+      if (user) {
+        const userDoc = doc(db, "users", user.uid);
+        const docSnap = await getDoc(userDoc);
+        if (docSnap.exists()) {
+          this.channelName = docSnap.data().twitchChannelName;
+        } else {
+          console.log("No such document!");
+        }
+      }
+    },
     toggleRound(roundId) {
       const index = this.selectedRounds.indexOf(roundId);
       if (index === -1) {

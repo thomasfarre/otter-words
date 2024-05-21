@@ -23,7 +23,6 @@ export default {
   },
   data() {
     return {
-      // Make the imported image available in the template
       bgImage
     };
   }
