@@ -153,7 +153,7 @@
     <div class="p-6 border border-gray-300 rounded-md">
       <div>
         <span class="text-2xl font-bold text-gray-900 font-poppins">
-          Fin du round!
+          Fin du round! le dernier mot était {{ previousWord }}
         </span>
       </div>
       <div>

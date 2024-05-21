@@ -16,7 +16,12 @@
               {{ timeLeft }}s
             </span>
           </div>
-          <div class="pt-4">
+          <div class="flex flex-col pt-2 space-y-4">
+            <div class="px-2 mx-auto rounded-md bg-amber-100 w-fit">
+              <span class="text-xs font-bold text-gray-800 uppercase ">
+                {{ catGram }}
+              </span>
+            </div>
             <span class="text-xl tracking-widest text-gray-700 uppercase">{{ revealedWord }} <span
                 class="text-sm tracking-normal text-gray-500">({{ revealedWord.length }} lettres)</span></span>
           </div>
@@ -120,7 +125,7 @@
     <div class="p-6 border border-gray-300 rounded-md">
       <div>
         <span class="text-2xl font-bold text-gray-900 font-poppins">
-          Fin du round!
+          Fin du round! le dernier mot était {{ previousWord }}
         </span>
       </div>
       <div>
@@ -162,6 +167,7 @@ export default {
       incorrectGuess: [],
       messages: [],
       word: '',
+      catGram: '',
       previousWord: '',
       revealedWord: '',
       revealInterval: 5,
@@ -205,12 +211,13 @@ export default {
       try {
         this.previousWord = this.word;
         this.sounds[1].play();
-        const response = await axios.get('/words.json'); // Adjust the path if necessary
+        const response = await axios.get('/words.json');
         const words = response.data.words;
-        const keys = Object.keys(words).filter(key => key.length >= 8); // Filter words by length
-        const randomKey = keys[Math.floor(Math.random() * keys.length)]; // Select a random key
+        const keys = Object.keys(words).filter(key => key.length >= 8);
+        const randomKey = keys[Math.floor(Math.random() * keys.length)];
         this.word = randomKey;
-        this.revealedWord = this.word[0] + '_'.repeat(this.word.length - 1); // Reveal only the first letter
+        this.catGram = words[randomKey].catGram;
+        this.revealedWord = this.word[0] + '_'.repeat(this.word.length - 1);
         this.startRevealTimer();
       } catch (error) {
         console.error('Failed to fetch data:', error);
