@@ -188,7 +188,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 10,
       timer: null,
       channelName: '',
       correctGuess: [],
@@ -270,6 +270,7 @@ export default {
             this.sounds[2].play();
           }
         } else {
+          this.previousWord = this.word;
           clearInterval(this.timer);
         }
       }, 1000);

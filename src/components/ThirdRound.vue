@@ -271,6 +271,7 @@ export default {
             this.sounds[2].play();
           }
         } else {
+          this.previousWord = this.word;
           clearInterval(this.revealTimer);
           clearInterval(this.timer);
         }

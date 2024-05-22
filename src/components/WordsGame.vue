@@ -382,32 +382,38 @@ export default {
     },
 
     async updatePlayerScores(newScores) {
-      const db = getFirestore();
-      const playersCollection = collection(db, "Players");
+      try {
+        const db = getFirestore();
+        const playersCollection = collection(db, "Players");
 
-      for (const [username, score] of Object.entries(newScores)) {
-        const playerQuery = query(playersCollection, where("displayName", "==", username));
-        const querySnapshot = await getDocs(playerQuery);
+        for (const [username, score] of Object.entries(newScores)) {
+          const playerQuery = query(playersCollection, where("displayName", "==", username));
+          const querySnapshot = await getDocs(playerQuery);
 
-        if (querySnapshot.empty) {
-          // Create a new player document if it doesn't exist
-          await addDoc(playersCollection, {
-            displayName: username,
-            bestScore: score
-          });
-          console.log(`New player document created for ${username} with score ${score}`);
-        } else {
-          querySnapshot.forEach(async (playerDoc) => {
-            const playerData = playerDoc.data();
-            if (score > playerData.bestScore) {
-              // Update the best score if the new score is higher
-              await updateDoc(playerDoc.ref, {
-                bestScore: score
-              });
-              console.log(`Player ${username}'s best score updated to ${score}`);
-            }
-          });
+          if (querySnapshot.empty) {
+            // Create a new player document if it doesn't exist
+            await addDoc(playersCollection, {
+              displayName: username,
+              bestScore: score
+            });
+            console.log(`New player document created for ${username} with score ${score}`);
+          } else {
+            querySnapshot.forEach(async (playerDoc) => {
+              const playerData = playerDoc.data();
+              if (score > playerData.bestScore) {
+                // Update the best score if the new score is higher
+                await updateDoc(playerDoc.ref, {
+                  bestScore: score
+                });
+                console.log(`Player ${username}'s best score updated to ${score}`);
+              } else {
+                console.log(`Player ${username} already has a higher or equal score (${playerData.bestScore}) compared to the new score (${score})`);
+              }
+            });
+          }
         }
+      } catch (error) {
+        console.error("Error updating player scores:", error);
       }
     }
 
