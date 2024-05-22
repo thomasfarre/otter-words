@@ -4,7 +4,7 @@
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="px-6 py-4">
           <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
-            Trouve le <span class="text-amber-600">mot</span> associé à cette <span
+            Trouve le <span class="text-amber-600">mot</span> associés à cette <span
               class="text-amber-600">définition</span> !
           </span>
         </div>
@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <div class="px-6 pt-2 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
+      <div class="px-6 py-2 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
         <div class="flex justify-start space-x-4">
           <div class="w-1/2 space-y-2">
             <div class="text-left">
@@ -188,7 +188,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 30,
       timer: null,
       channelName: '',
       correctGuess: [],
