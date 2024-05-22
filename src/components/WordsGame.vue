@@ -17,6 +17,13 @@
               Nouvelle partie
             </button>
           </div>
+          <div class="pt-6 mx-auto">
+            <button @click="showDashboard = true"
+              class="rounded-xl bg-blue-50 px-2.5 py-1.5 text-sm font-semibold text-blue-900 shadow-sm hover:bg-blue-200 transition ease-out duration-300">
+              Show Dashboard
+            </button>
+          </div>
+          <ScoreDashboard v-if="showDashboard" @close="showDashboard = false" />
         </div>
         <div v-if="startTwitchModal"
           class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-24 xl:max-w-prose">
@@ -27,7 +34,8 @@
             </div>
             <div class="pt-4">
               <p class="text-gray-800">
-                Pour jouer il est nécessaire d'entrer les réponses dans ton chat. <br> <strong>Ouvre le</strong> si ce n'est
+                Pour jouer il est nécessaire d'entrer les réponses dans ton chat. <br> <strong>Ouvre le</strong> si ce
+                n'est
                 pas déjà fait,
                 sinon lance la partie !
               </p>
@@ -92,7 +100,10 @@
                 </div>
               </div>
             </div>
-            <div class="pt-6 text-center">
+            <div class="flex flex-col items-center justify-center pt-6 mx-auto space-y-2 w-fit">
+              <input v-if="!teamExists" v-model="teamName" type="text" name="teamName" id="teamName"
+                class="block rounded-md w-72 border-0 px-4 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-amber-600 placeholder:text-gray-600 hover:ring-amber-500 hover:ring-2 focus:ring-2 focus:ring-inset focus:ring-amber-500 transition ease-out duration-300 focus-visible:outline-none"
+                placeholder="Choisis ton nom d'équipe">
               <button @click="startGame" class="border-2 btn border-emerald-700">
                 Lancer la partie!
               </button>
@@ -164,11 +175,13 @@
 </template>
 
 <script>
-import { getFirestore, doc, getDoc } from 'firebase/firestore';
+import { getFirestore, doc, setDoc, getDoc, updateDoc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import FirstRound from "./FirstRound.vue";
 import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
+import ScoreDashboard from "./ScoreDashboard.vue";
+
 
 import iconImage from "@/assets/images/trout.png";
 import bgImage from "/public/images/bg-loutre-2.jpg";
@@ -179,10 +192,13 @@ export default {
     FirstRound,
     SecondRound,
     ThirdRound,
+    ScoreDashboard
   },
   data() {
     return {
       channelName: '',
+      teamName: '',
+      teamExists: false,
       startGameModal: false,
       startTwitchModal: false,
       gameStarted: false,
@@ -198,13 +214,44 @@ export default {
         { id: 2, name: 'Définitions', component: 'SecondRound' },
         { id: 3, name: 'Pendu', component: 'ThirdRound' }
       ],
-      selectedRounds: [1, 2, 3]
+      selectedRounds: [1, 2, 3],
+      showDashboard: false
     };
   },
   created() {
     this.fetchChannelNameAndConnect();
   },
   methods: {
+    async createOrUpdateTeam() {
+      const db = getFirestore();
+      const auth = getAuth();
+      const user = auth.currentUser;
+      if (!user) {
+        console.log("No user is logged in.");
+        return;
+      }
+
+      const teamRef = doc(db, "Teams", this.teamName); // Use teamName as the document key
+      const teamSnap = await getDoc(teamRef);
+
+      if (!teamSnap.exists()) {
+        await setDoc(teamRef, {
+          bestGlobalScore: 0, // Initialize with 0 or an appropriate value
+          displayName: this.teamName
+        });
+        console.log("Team created with name:", this.teamName);
+
+        // Update the user's document to link to the new team
+        const userRef = doc(db, "users", user.uid);
+        await updateDoc(userRef, {
+          teamId: teamRef // Link the team to the user
+        });
+        console.log("User's teamId updated.");
+      } else {
+        // Update the team if needed or handle accordingly
+        console.log("Team already exists, ready to update if needed.");
+      }
+    },
     async fetchChannelNameAndConnect() {
       const auth = getAuth();
       const db = getFirestore();
@@ -214,8 +261,21 @@ export default {
         const docSnap = await getDoc(userDoc);
         if (docSnap.exists()) {
           this.channelName = docSnap.data().twitchChannelName;
+          const teamRef = docSnap.data().teamId;
+          if (teamRef) {
+            const teamSnap = await getDoc(teamRef);
+            if (teamSnap.exists()) {
+              this.teamExists = true;
+              this.teamName = teamSnap.data().displayName;
+            } else {
+              this.teamExists = false;
+            }
+          } else {
+            this.teamExists = false;
+          }
         } else {
           console.log("No such document!");
+          this.teamExists = false;
         }
       }
     },
@@ -227,25 +287,61 @@ export default {
         this.selectedRounds.splice(index, 1);
       }
     },
-    startGame() {
+    async startGame() {
+      if (this.teamName.trim() === '') {
+        alert('Please enter a team name before starting the game.');
+        return;
+      }
+      await this.createOrUpdateTeam();
       this.startGameModal = false;
+      this.startTwitchModal = false;
       this.gameStarted = true;
       this.gameEnded = false;
       this.finalScore = 0;
       this.currentRound = this.selectedRounds.sort((a, b) => a - b)[0] || 0;
       this.roundKey++;
     },
-    handleRoundEnded(data) {
+    async handleRoundEnded(data) {
       let sortedSelectedRounds = this.selectedRounds.sort((a, b) => a - b);
       let currentIndex = sortedSelectedRounds.indexOf(this.currentRound);
       if (currentIndex < sortedSelectedRounds.length - 1) {
+        this.finalScore += data.total;
+        this.updateScores(data.scores);
         this.currentRound = sortedSelectedRounds[currentIndex + 1];
       } else {
+        this.finalScore += data.total;
+        this.updateScores(data.scores);
         this.gameStarted = false;
         this.gameEnded = true;
+        await this.updateBestGlobalScore();
       }
-      this.finalScore += data.total;
-      this.updateScores(data.scores);
+    },
+    async updateBestGlobalScore() {
+      const auth = getAuth();
+      const db = getFirestore();
+      const user = auth.currentUser;
+      if (!user) {
+        console.log("No user is logged in.");
+        return;
+      }
+
+      const userDoc = doc(db, "users", user.uid);
+      const userSnap = await getDoc(userDoc);
+      if (userSnap.exists()) {
+        const teamRef = userSnap.data().teamId;
+        if (teamRef) {
+          const teamDoc = await getDoc(teamRef);
+          if (teamDoc.exists()) {
+            const currentBestScore = teamDoc.data().bestGlobalScore || 0;
+            if (this.finalScore > currentBestScore) {
+              await updateDoc(teamRef, {
+                bestGlobalScore: this.finalScore
+              });
+              console.log("Best global score updated.");
+            }
+          }
+        }
+      }
     },
     updateScores(newScores) {
       Object.keys(newScores).forEach(username => {

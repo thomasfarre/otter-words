@@ -75,7 +75,7 @@
         </div>
       </div>
 
-      <div class="px-6 pt-2 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
+      <div class="px-6 py-2 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
         <div class="flex justify-start space-x-4">
           <div class="w-1/2 space-y-2">
             <div class="text-left">
