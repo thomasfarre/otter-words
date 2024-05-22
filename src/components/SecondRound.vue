@@ -4,7 +4,7 @@
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="px-6 py-4">
           <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
-            Trouve le <span class="text-amber-600">mot</span> associé à cette <span
+            Trouve le <span class="text-amber-600">mot</span> associés à cette <span
               class="text-amber-600">définition</span> !
           </span>
         </div>
@@ -188,7 +188,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 30,
       timer: null,
       channelName: '',
       correctGuess: [],

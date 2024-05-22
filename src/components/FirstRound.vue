@@ -4,7 +4,7 @@
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
         <div class="px-6 py-4">
           <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
-            Trouve des <span class="text-amber-600">mots</span> associé à cette <span
+            Trouve des <span class="text-amber-600">mots</span> associés à cette <span
               class="text-amber-600">catégorie</span> débutant par cette <span class="text-amber-600">lettre</span>
           </span>
         </div>
@@ -163,7 +163,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 30,
       timer: null,
       categoryTimer: null,
       messages: [],

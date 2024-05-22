@@ -5,12 +5,11 @@ import {
   OAuthProvider,
 } from "firebase/auth";
 import { app } from "../firebase/init";
-import { initializeFirestore, doc, setDoc } from "firebase/firestore";
+import { initializeFirestore, doc, setDoc, getDoc } from "firebase/firestore";
 
 const auth = getAuth(app);
 const provider = new OAuthProvider("oidc.twitch");
-const db = initializeFirestore(app, {}); // Initialize Firestore
-
+const db = initializeFirestore(app, {});
 
 export const signInWithTwitch = () => {
   signInWithRedirect(auth, provider);
@@ -27,9 +26,22 @@ export const handleRedirect = async () => {
 
       const channelName = await fetchTwitchChannelName(accessToken);
 
-      // Store channel name in Firestore
-      const userDoc = doc(db, "users", result.user.uid); // Use user UID as document ID
-      await setDoc(userDoc, { twitchChannelName: channelName });
+      // Store channel name and initialize team info if not existing in Firestore
+      const userDocRef = doc(db, "users", result.user.uid);
+      const userSnap = await getDoc(userDocRef);
+
+      if (!userSnap.exists()) {
+        await setDoc(userDocRef, {
+          twitchChannelName: channelName,
+          teamId: null,
+        });
+      } else {
+        await setDoc(
+          userDocRef,
+          { twitchChannelName: channelName },
+          { merge: true }
+        );
+      }
     }
   } catch (error) {
     console.error("Error during sign-in:", error);

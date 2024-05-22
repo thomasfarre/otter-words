@@ -11,22 +11,30 @@
           <div class="pt-2">
             <span class="text-white">des loutres, des mots et des truites bien sûr</span>
           </div>
-          <div class="pt-10">
-            <button @click="startTwitchModal = true"
-              class="rounded-xl bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-900 shadow-sm hover:bg-emerald-200 transition ease-out duration-300">
-              Nouvelle partie
-            </button>
-          </div>
-          <div class="pt-6 mx-auto">
-            <button @click="showDashboard = true"
-              class="rounded-xl bg-blue-50 px-2.5 py-1.5 text-sm font-semibold text-blue-900 shadow-sm hover:bg-blue-200 transition ease-out duration-300">
-              Show Dashboard
-            </button>
+          <div class="flex items-center justify-center pt-10 space-x-6">
+            <div>
+              <button @click="startTwitchModal = true"
+                class="rounded-xl bg-emerald-50 px-2.5 py-1.5 text-sm font-semibold text-emerald-900 shadow-sm hover:bg-emerald-200 transition ease-out duration-300">
+                Nouvelle partie
+              </button>
+            </div>
+            <div>
+              <button @click="showDashboard = true"
+                class="rounded-xl bg-amber-50 px-2.5 py-1.5 text-sm font-semibold text-amber-900 shadow-sm hover:bg-amber-200 transition ease-out duration-300">
+                Classements
+              </button>
+            </div>
           </div>
           <ScoreDashboard v-if="showDashboard" @close="showDashboard = false" />
         </div>
         <div v-if="startTwitchModal"
           class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-24 xl:max-w-prose">
+          <button @click.stop="startTwitchModal = false" class="absolute top-4 right-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
           <div class="p-6 border border-gray-300 rounded-md">
             <div>
               <span class="text-2xl font-bold text-gray-900 font-poppins">Important! As-tu pensé à ouvrir ton chat
@@ -45,7 +53,7 @@
                 hover:bg-purple-200 transition ease-out duration-300 border-purple-700 border-2">
                 Ouvrir mon chat
               </a>
-              <button @click="startGameModal = true" class="border-2 btn border-emerald-700">
+              <button @click="startGameModal = true; startTwitchModal = false" class="border-2 btn border-emerald-700">
                 Lancer la partie
               </button>
             </div>
@@ -54,6 +62,12 @@
 
         <div v-if="startGameModal"
           class="absolute z-20 w-full p-1 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-md left-1/2 top-1/2 xl:max-w-prose">
+          <button @click.stop="startGameModal = false" class="absolute top-4 right-4">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+              stroke="currentColor" class="w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+          </button>
           <div class="p-6 border border-gray-300 rounded-md">
             <div>
               <span class="text-2xl font-bold text-gray-900 font-poppins">Explication du jeu super!</span>
@@ -117,7 +131,8 @@
       <ThirdRound v-if="gameStarted && currentRound === 3" @round-ended="handleRoundEnded" :key="'third-' + roundKey" />
     </div>
 
-    <div v-if="gameEnded" class="absolute z-20 p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20">
+    <div v-if="gameEnded && endGameModal"
+      class="absolute z-20 p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20">
       <div class="p-6 border border-gray-300 rounded-md">
         <div>
           <span class="text-2xl font-bold text-gray-900 font-poppins">
@@ -156,10 +171,18 @@
             </div>
           </div>
         </div>
-        <div class="pt-6 text-center">
-          <button @click="startGame" class="border-2 btn border-emerald-700">
-            Nouvelle partie
-          </button>
+        <div class="flex items-center justify-center pt-10 space-x-6">
+          <div>
+            <button @click="startGame" class="border-2 btn border-emerald-700">
+              Nouvelle partie
+            </button>
+          </div>
+          <div>
+            <button @click="showDashboard = true;"
+              class="rounded-xl bg-amber-50 px-2.5 py-1.5 text-sm font-semibold text-amber-900 shadow-sm hover:bg-amber-200 transition ease-out duration-300 border-amber-700 border-2">
+              Classements
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -175,7 +198,7 @@
 </template>
 
 <script>
-import { getFirestore, doc, setDoc, getDoc, updateDoc } from 'firebase/firestore';
+import { getFirestore, collection, query, where, getDocs, addDoc, updateDoc, doc, getDoc, setDoc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import FirstRound from "./FirstRound.vue";
 import SecondRound from "./SecondRound.vue";
@@ -201,6 +224,7 @@ export default {
       teamExists: false,
       startGameModal: false,
       startTwitchModal: false,
+      endGameModal: true,
       gameStarted: false,
       gameEnded: false,
       currentRound: 0,
@@ -231,26 +255,23 @@ export default {
         return;
       }
 
-      const teamRef = doc(db, "Teams", this.teamName); // Use teamName as the document key
+      const teamRef = doc(db, "Teams", this.teamName);
       const teamSnap = await getDoc(teamRef);
 
       if (!teamSnap.exists()) {
         await setDoc(teamRef, {
-          bestGlobalScore: 0, // Initialize with 0 or an appropriate value
+          bestGlobalScore: 0,
           displayName: this.teamName
         });
         console.log("Team created with name:", this.teamName);
-
-        // Update the user's document to link to the new team
-        const userRef = doc(db, "users", user.uid);
-        await updateDoc(userRef, {
-          teamId: teamRef // Link the team to the user
-        });
-        console.log("User's teamId updated.");
-      } else {
-        // Update the team if needed or handle accordingly
-        console.log("Team already exists, ready to update if needed.");
       }
+
+      // Update the user's document to link to the new team
+      const userRef = doc(db, "users", user.uid);
+      await updateDoc(userRef, {
+        teamId: teamRef
+      });
+      console.log("User's teamId updated.");
     },
     async fetchChannelNameAndConnect() {
       const auth = getAuth();
@@ -298,23 +319,9 @@ export default {
       this.gameStarted = true;
       this.gameEnded = false;
       this.finalScore = 0;
+      this.detailedScores = [];
       this.currentRound = this.selectedRounds.sort((a, b) => a - b)[0] || 0;
       this.roundKey++;
-    },
-    async handleRoundEnded(data) {
-      let sortedSelectedRounds = this.selectedRounds.sort((a, b) => a - b);
-      let currentIndex = sortedSelectedRounds.indexOf(this.currentRound);
-      if (currentIndex < sortedSelectedRounds.length - 1) {
-        this.finalScore += data.total;
-        this.updateScores(data.scores);
-        this.currentRound = sortedSelectedRounds[currentIndex + 1];
-      } else {
-        this.finalScore += data.total;
-        this.updateScores(data.scores);
-        this.gameStarted = false;
-        this.gameEnded = true;
-        await this.updateBestGlobalScore();
-      }
     },
     async updateBestGlobalScore() {
       const auth = getAuth();
@@ -343,6 +350,25 @@ export default {
         }
       }
     },
+    async handleRoundEnded(data) {
+      let sortedSelectedRounds = this.selectedRounds.sort((a, b) => a - b);
+      let currentIndex = sortedSelectedRounds.indexOf(this.currentRound);
+      if (currentIndex < sortedSelectedRounds.length - 1) {
+        this.finalScore += data.total;
+        this.updateScores(data.scores);
+        this.currentRound = sortedSelectedRounds[currentIndex + 1];
+      } else {
+        this.finalScore += data.total;
+        this.gameStarted = false;
+        this.gameEnded = true;
+        this.endGameModal = true;
+
+        this.updateScores(data.scores);
+        await this.updatePlayerScores(data.scores); // Update player scores here
+        await this.updateBestGlobalScore();
+      }
+    },
+
     updateScores(newScores) {
       Object.keys(newScores).forEach(username => {
         let existingUser = this.detailedScores.find(user => user.username === username);
@@ -354,6 +380,37 @@ export default {
       });
       this.detailedScores.sort((a, b) => b.score - a.score);
     },
+
+    async updatePlayerScores(newScores) {
+      const db = getFirestore();
+      const playersCollection = collection(db, "Players");
+
+      for (const [username, score] of Object.entries(newScores)) {
+        const playerQuery = query(playersCollection, where("displayName", "==", username));
+        const querySnapshot = await getDocs(playerQuery);
+
+        if (querySnapshot.empty) {
+          // Create a new player document if it doesn't exist
+          await addDoc(playersCollection, {
+            displayName: username,
+            bestScore: score
+          });
+          console.log(`New player document created for ${username} with score ${score}`);
+        } else {
+          querySnapshot.forEach(async (playerDoc) => {
+            const playerData = playerDoc.data();
+            if (score > playerData.bestScore) {
+              // Update the best score if the new score is higher
+              await updateDoc(playerDoc.ref, {
+                bestScore: score
+              });
+              console.log(`Player ${username}'s best score updated to ${score}`);
+            }
+          });
+        }
+      }
+    }
+
   }
 };
 </script>
