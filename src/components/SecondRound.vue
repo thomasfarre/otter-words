@@ -163,8 +163,8 @@
         <span>
           Classement des participants:
         </span>
-        <li v-for="(score, username) in scores" :key="username">
-          {{ username }}: {{ score }}
+        <li v-for="score in sortedScores" :key="score.username">
+          {{ score.username }}: {{ score.score }}
         </li>
       </div>
       <div class="pt-6">
@@ -210,6 +210,14 @@ export default {
     };
   },
   computed: {
+    sortedScores() {
+      const scoresArray = Object.keys(this.scores).map(username => ({
+        username,
+        score: this.scores[username]
+      }));
+      scoresArray.sort((a, b) => b.score - a.score);
+      return scoresArray;
+    },
     progressBarWidth() {
       const initialTime = 120;
       return `${(this.timeLeft / initialTime) * 100}%`;

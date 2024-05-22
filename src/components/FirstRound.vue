@@ -19,9 +19,9 @@
             </span>
           </div>
           <div class="flex flex-col items-center justify-center pt-6 space-y-4">
-            <div class="px-2 rounded-md bg-amber-100 w-fit">
+            <div class="px-2 rounded-md bg-amber-400 w-fit">
               <transition name="slide-fade" mode="out-in">
-                <span class="text-xl font-bold text-gray-800 uppercase " :key="startLetter">{{
+                <span class="text-xl font-bold text-gray-900 uppercase " :key="startLetter">{{
                   startLetter }}</span>
               </transition>
             </div>
@@ -138,8 +138,8 @@
         <span>
           Classement des participants:
         </span>
-        <li v-for="(score, username) in scores" :key="username">
-          {{ username }}: {{ score }}
+        <li v-for="score in sortedScores" :key="score.username">
+          {{ score.username }}: {{ score.score }}
         </li>
       </div>
       <div class="pt-6">
@@ -183,6 +183,14 @@ export default {
     };
   },
   computed: {
+    sortedScores() {
+      const scoresArray = Object.keys(this.scores).map(username => ({
+        username,
+        score: this.scores[username]
+      }));
+      scoresArray.sort((a, b) => b.score - a.score);
+      return scoresArray;
+    },
     progressBarWidth() {
       const initialTime = 120;
       return `${(this.timeLeft / initialTime) * 100}%`;
@@ -235,10 +243,13 @@ export default {
         this.definition = 'Failed to load definition.';
       }
     },
+    normalizeText(text) {
+      return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    },
     checkGuess(message, username) {
-      const normalizedMessage = message.trim().toLowerCase();
-      const lowerCaseFoundWords = this.foundWords.map(word => word.toLowerCase());
-      if (lowerCaseFoundWords.includes(normalizedMessage) && !this.correctGuess.some(msg => msg.text.toLowerCase() === normalizedMessage)) {
+      const normalizedMessage = this.normalizeText(message);
+      const lowerCaseFoundWords = this.foundWords.map(word => this.normalizeText(word));
+      if (lowerCaseFoundWords.includes(normalizedMessage) && !this.correctGuess.some(msg => this.normalizeText(msg.text) === normalizedMessage)) {
         this.correctGuess.push({ text: message, username });
         this.sounds[2].play();
         if (!this.scores[username]) {
@@ -246,7 +257,7 @@ export default {
         }
         this.scores[username] += 2;
         this.totalScore += 2;
-        this.foundWords = this.foundWords.filter(word => word.toLowerCase() !== normalizedMessage);
+        this.foundWords = this.foundWords.filter(word => this.normalizeText(word) !== normalizedMessage);
       } else {
         this.incorrectGuess.push({ text: message, id: this.incorrectGuess.length + 1 });
       }

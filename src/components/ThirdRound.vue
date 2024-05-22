@@ -135,8 +135,8 @@
         <span>
           Classement des participants:
         </span>
-        <li v-for="(score, username) in scores" :key="username">
-          {{ username }}: {{ score }}
+        <li v-for="score in sortedScores" :key="score.username">
+          {{ score.username }}: {{ score.score }}
         </li>
       </div>
       <div class="pt-6">
@@ -181,6 +181,14 @@ export default {
     };
   },
   computed: {
+    sortedScores() {
+      const scoresArray = Object.keys(this.scores).map(username => ({
+        username,
+        score: this.scores[username]
+      }));
+      scoresArray.sort((a, b) => b.score - a.score);
+      return scoresArray;
+    },
     progressBarWidth() {
       const initialTime = 120;
       return `${(this.timeLeft / initialTime) * 100}%`;
@@ -233,10 +241,12 @@ export default {
         for (let i = 1; i < this.word.length; i++) {
           if (this.revealedWord[i] === '_') {
             unrevealedIndices.push(i);
+            this.sounds[0].play();
           }
         }
 
         if (unrevealedIndices.length > 0) {
+
           // Pick a random unrevealed index to reveal
           const revealIndex = unrevealedIndices[Math.floor(Math.random() * unrevealedIndices.length)];
           let revealed = this.revealedWord.split('');
@@ -260,14 +270,19 @@ export default {
             this.sounds[2].play();
           }
         } else {
+          clearInterval(this.revealTimer);
           clearInterval(this.timer);
         }
       }, 1000);
     },
+    normalizeText(text) {
+      return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+    },
     checkGuess(message, username) {
-      if (message.trim().toLowerCase() === this.word.toLowerCase()) {
+      const normalizedMessage = this.normalizeText(message);
+      if (normalizedMessage === this.normalizeText(this.word)) {
         const correctGuess = {
-          id: this.correctMessages,
+          id: this.correctGuess.length + 1,
           username: username,
           text: message,
           correct: true
@@ -275,14 +290,13 @@ export default {
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }
-        this.sounds[0].play();
-        this.scores[username] += 10; // Increment user's score by 10 for a correct guess
-        this.totalScore += 10; // Increment global score
+        this.scores[username] += 3;
+        this.totalScore += 3;
         this.correctGuess.push(correctGuess);
         this.fetchWordAndDefinition();
       } else {
         const incorrectGuess = {
-          id: this.incorectGuess,
+          id: this.incorrectGuess.length + 1,
           username: username,
           text: message,
           correct: false
@@ -291,6 +305,7 @@ export default {
       }
     },
     endRound() {
+      clearInterval(this.revealTimer);
       this.$emit('round-ended', { total: this.totalScore, scores: this.scores });
     },
     connectChat(channel) {
