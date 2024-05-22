@@ -175,6 +175,7 @@ export default {
       startLetter: '',
       scores: {},
       totalScore: 0,
+      lock: false,
       sounds: [
         new Audio('/sounds/pole.wav'),
         new Audio('/sounds/fishing.wav'),
@@ -246,10 +247,12 @@ export default {
     normalizeText(text) {
       return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     },
-    checkGuess(message, username) {
+    async checkGuess(message, username) {
+      if (this.lock) return;
+      this.lock = true;
       const normalizedMessage = this.normalizeText(message);
       const lowerCaseFoundWords = this.foundWords.map(word => this.normalizeText(word));
-      if (lowerCaseFoundWords.includes(normalizedMessage) && !this.correctGuess.some(msg => this.normalizeText(msg.text) === normalizedMessage)) {
+      if (lowerCaseFoundWords.includes(normalizedMessage)) {
         this.correctGuess.push({ text: message, username });
         this.sounds[2].play();
         if (!this.scores[username]) {
@@ -261,6 +264,7 @@ export default {
       } else {
         this.incorrectGuess.push({ text: message, id: this.incorrectGuess.length + 1 });
       }
+      this.lock = false; // Release the lock
     },
     startTimer() {
       this.timer = setInterval(() => {

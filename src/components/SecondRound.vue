@@ -200,6 +200,7 @@ export default {
       previousWord: '',
       scores: {},
       totalScore: 0,
+      lock: false,
       hintsUsed: 0,
       shuffledWord: '',
       sounds: [
@@ -285,7 +286,9 @@ export default {
         this.hintsUsed++;
       }
     },
-    checkGuess(message, username) {
+    async checkGuess(message, username) {
+      if (this.lock) return;
+      this.lock = true;
       const normalizedMessage = this.normalizeText(message);
       const normalizedWord = this.normalizeText(this.word);
       if (normalizedMessage === normalizedWord) {
@@ -312,6 +315,7 @@ export default {
         };
         this.incorrectGuess.push(incorrectGuess);
       }
+      this.lock = false;
     },
     endRound() {
       this.$emit('round-ended', { total: this.totalScore, scores: this.scores });

@@ -173,6 +173,7 @@ export default {
       revealInterval: 5,
       scores: {},
       totalScore: 0,
+      lock: false,
       sounds: [
         new Audio('/sounds/fish.wav'),
         new Audio('/sounds/fishing.wav'),
@@ -278,7 +279,9 @@ export default {
     normalizeText(text) {
       return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     },
-    checkGuess(message, username) {
+    async checkGuess(message, username) {
+      if (this.lock) return;
+      this.lock = true;
       const normalizedMessage = this.normalizeText(message);
       if (normalizedMessage === this.normalizeText(this.word)) {
         const correctGuess = {
@@ -303,6 +306,7 @@ export default {
         };
         this.incorrectGuess.push(incorrectGuess);
       }
+      this.lock = false;
     },
     endRound() {
       clearInterval(this.revealTimer);
