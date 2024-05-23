@@ -188,7 +188,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 30,
       timer: null,
       channelName: '',
       correctGuess: [],

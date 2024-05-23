@@ -205,7 +205,6 @@ import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
 import ScoreDashboard from "./ScoreDashboard.vue";
 
-
 import iconImage from "@/assets/images/trout.png";
 import bgImage from "/public/images/bg-loutre-2.jpg";
 
@@ -353,18 +352,15 @@ export default {
     async handleRoundEnded(data) {
       let sortedSelectedRounds = this.selectedRounds.sort((a, b) => a - b);
       let currentIndex = sortedSelectedRounds.indexOf(this.currentRound);
-      if (currentIndex < sortedSelectedRounds.length - 1) {
         this.finalScore += data.total;
-        this.updateScores(data.scores);
+        this.updateScores(data.scores); // Update cumulative scores
+      if (currentIndex < sortedSelectedRounds.length - 1) {
         this.currentRound = sortedSelectedRounds[currentIndex + 1];
       } else {
-        this.finalScore += data.total;
         this.gameStarted = false;
         this.gameEnded = true;
         this.endGameModal = true;
-
-        this.updateScores(data.scores);
-        await this.updatePlayerScores(data.scores); // Update player scores here
+        await this.updatePlayerScores(); // Update player scores here
         await this.updateBestGlobalScore();
       }
     },
@@ -381,12 +377,12 @@ export default {
       this.detailedScores.sort((a, b) => b.score - a.score);
     },
 
-    async updatePlayerScores(newScores) {
+    async updatePlayerScores() {
       try {
         const db = getFirestore();
         const playersCollection = collection(db, "Players");
 
-        for (const [username, score] of Object.entries(newScores)) {
+        for (const { username, score } of this.detailedScores) {
           const playerQuery = query(playersCollection, where("displayName", "==", username));
           const querySnapshot = await getDocs(playerQuery);
 

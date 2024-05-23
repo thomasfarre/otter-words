@@ -160,7 +160,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 20,
       timer: null,
       channelName: '',
       correctGuess: [],
