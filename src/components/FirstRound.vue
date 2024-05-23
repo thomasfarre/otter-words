@@ -2,12 +2,12 @@
   <div v-if="timeLeft > 0" class="text-center">
     <div class="mx-auto max-w-prose">
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
-        <div class="px-6 py-4">
+        <!-- <div class="px-6 py-4">
           <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
             Trouve des <span class="text-amber-600">mots</span> associés à cette <span
               class="text-amber-600">catégorie</span> débutant par cette <span class="text-amber-600">lettre</span>
           </span>
-        </div>
+        </div> -->
         <div class="relative px-6 pt-6 pb-2">
           <div class="absolute z-30 -top-4 -left-4">
             <img class="w-10 h-10" :src="otterImage" alt="">

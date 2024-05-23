@@ -2,12 +2,12 @@
   <div v-if="timeLeft > 0" class="text-center">
     <div class="mx-auto max-w-prose">
       <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
-        <div class="px-6 py-4">
+        <!-- <div class="px-6 py-4">
           <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
             Trouve le <span class="text-amber-600">mot</span> associés à cette <span
               class="text-amber-600">définition</span> !
           </span>
-        </div>
+        </div> -->
         <div class="relative px-6 pt-4 pb-2">
           <div class="flex flex-col items-center justify-center pb-2">
             <span v-if="shuffledWord" class="text-xl tracking-widest text-gray-800 uppercase">
