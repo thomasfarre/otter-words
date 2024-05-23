@@ -8,6 +8,13 @@
           </span>
         </div>
         <div class="relative px-6 pt-6 pb-2">
+          <div class="absolute z-30 -top-4 -left-4">
+            <img class="w-10 h-10" :src="otterImage" alt="">
+          </div>
+          <div class="absolute z-20 w-6 h-6 transform -translate-x-1/2 -top-2"
+            :style="{ left: progressBarWidth, transition: 'all 1s linear' }">
+            <img class="w-full h-full" :src="cartoonTroutImage" alt="">
+          </div>
           <div class="absolute inset-0 top-0 z-10 h-2 bg-emerald-400"
             :style="{ width: progressBarWidth, transition: 'width 1s linear' }"></div>
           <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
@@ -16,7 +23,15 @@
               {{ timeLeft }}s
             </span>
           </div>
-          <div class="flex flex-col pt-2 space-y-4">
+          <div>
+            <span class="font-bold text-gray-700">Lettres non révélées:</span>
+            <div class="flex flex-wrap justify-center gap-2">
+              <span class="px-2 py-1 uppercase bg-gray-200 rounded" v-for="letter in unrevealedLetters" :key="letter">{{
+                letter
+                }}</span>
+            </div>
+          </div>
+          <div class="flex flex-col pt-4 space-y-4">
             <div class="px-2 mx-auto rounded-md bg-amber-100 w-fit">
               <span class="text-xs font-bold text-gray-800 uppercase ">
                 {{ catGram }}
@@ -154,13 +169,16 @@ import { getAuth } from 'firebase/auth';
 import axios from 'axios';
 import tmi from 'tmi.js';
 
+import otterImage from "/public/images/otter.webp";
+import cartoonTroutImage from "/public/images/cartoon_trout.webp";
+
 export default {
   emits: ['round-ended'],
   name: 'ThirdRound',
   data() {
     return {
       client: null,
-      timeLeft: 20,
+      timeLeft: 120,
       timer: null,
       channelName: '',
       correctGuess: [],
@@ -174,6 +192,8 @@ export default {
       scores: {},
       totalScore: 0,
       lock: false,
+      otterImage,
+      cartoonTroutImage,
       sounds: [
         new Audio('/sounds/fish.wav'),
         new Audio('/sounds/fishing.wav'),
@@ -193,6 +213,15 @@ export default {
     progressBarWidth() {
       const initialTime = 120;
       return `${(this.timeLeft / initialTime) * 100}%`;
+    },
+    unrevealedLetters() {
+      const unrevealed = [];
+      for (let i = 1; i < this.word.length; i++) {
+        if (this.revealedWord[i] === '_') {
+          unrevealed.push(this.word[i]);
+        }
+      }
+      return this.shuffleArray(unrevealed);
     }
   },
   created() {
@@ -201,6 +230,13 @@ export default {
     this.startTimer();
   },
   methods: {
+    shuffleArray(array) {
+      for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+      }
+      return array;
+    },
     async fetchChannelNameAndConnect() {
       const auth = getAuth();
       const db = getFirestore();
@@ -238,7 +274,6 @@ export default {
       if (this.revealTimer) clearInterval(this.revealTimer);
       this.revealTimer = setInterval(() => {
         let unrevealedIndices = [];
-        // Collect indices of all still hidden letters except the first letter
         for (let i = 1; i < this.word.length; i++) {
           if (this.revealedWord[i] === '_') {
             unrevealedIndices.push(i);
@@ -247,14 +282,11 @@ export default {
         }
 
         if (unrevealedIndices.length > 0) {
-
-          // Pick a random unrevealed index to reveal
           const revealIndex = unrevealedIndices[Math.floor(Math.random() * unrevealedIndices.length)];
           let revealed = this.revealedWord.split('');
           revealed[revealIndex] = this.word[revealIndex];
           this.revealedWord = revealed.join('');
 
-          // Check if all letters are revealed
           if (!this.revealedWord.includes('_')) {
             clearInterval(this.revealTimer);
           }
@@ -326,7 +358,7 @@ export default {
       };
       this.client = new tmi.Client(opts);
       this.client.on('message', (channel, tags, message, self) => {
-        if (self) return;  // Ignore messages from the bot itself
+        if (self) return;
         this.messages.push({
           id: this.messages.length + 1,
           username: tags['display-name'],
