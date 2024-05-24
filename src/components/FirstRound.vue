@@ -1,87 +1,106 @@
 <template>
   <div v-if="timeLeft > 0" class="text-center">
-    <div class="mx-auto max-w-prose">
-      <div class="bg-white border-2 rounded-md shadow-md border-emerald-800">
-        <!-- <div class="px-6 py-4">
-          <span class="text-2xl font-semibold tracking-tight text-gray-700 font-poppins">
-            Trouve des <span class="text-amber-600">mots</span> associés à cette <span
-              class="text-amber-600">catégorie</span> débutant par cette <span class="text-amber-600">lettre</span>
-          </span>
-        </div> -->
-        <div class="relative px-6 pt-6 pb-2">
-          <div class="absolute z-30 -top-4 -left-4">
-            <img class="w-10 h-10" :src="otterImage" alt="">
-          </div>
-          <div class="absolute z-20 w-6 h-6 transform -translate-x-1/2 -top-2" :style="{ left: progressBarWidth, transition: 'all 1s linear' }">
-            <img class="w-full h-full" :src="cartoonTroutImage" alt="">
-          </div>
-          <div class="absolute inset-0 top-0 z-10 h-2 bg-emerald-400"
-            :style="{ width: progressBarWidth, transition: 'width 1s linear' }">
-          </div>
-          <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
-          <div>
-            <span class="text-2xl font-black text-gray-900 font-poppins">
-              {{ timeLeft }}s
-            </span>
-          </div>
-          <div class="flex flex-col items-center justify-center pt-6 space-y-4">
-            <div class="px-2 rounded-md bg-amber-400 w-fit">
-              <transition name="slide-fade" mode="out-in">
-                <span class="text-xl font-bold text-gray-900 uppercase " :key="startLetter">{{
-                  startLetter }}</span>
-              </transition>
+    <div class="">
+      <div>
+        <div class="mx-auto bg-white border-2 shadow-md rounded-xl border-emerald-800 max-w-prose">
+          <div class="relative px-6 pt-2 pb-4">
+            <div class="absolute z-30 -top-4 -left-4">
+              <img class="w-10 h-10" :src="otterImage" alt="">
             </div>
-            <div>
-              <transition name="slide-fade" mode="out-in">
-                <span class="text-2xl font-bold text-gray-800 uppercase" :key="selectedCategory">{{
-                  formatCategories(this.selectedCategory) }}</span>
-              </transition>
+            <div class="absolute z-20 w-6 h-6 transform -translate-x-1/2 -top-2"
+              :style="{ left: progressBarWidth, transition: 'all 1s linear' }">
+              <img class="w-full h-full" :src="cartoonTroutImage" alt="">
             </div>
+            <div class="absolute inset-0 top-0 z-10 h-2 bg-emerald-400"
+              :style="{ width: progressBarWidth, transition: 'width 1s linear' }">
+            </div>
+            <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
+            <!-- <div>
+              <span class="text-2xl font-black text-gray-900 font-poppins">
+                {{ timeLeft }}s
+              </span>
+            </div> -->
+            <div class="flex flex-col items-center justify-center pt-6 space-y-4">
+              <div class="px-2 rounded-md bg-amber-400 w-fit">
+                <transition name="slide-fade" mode="out-in">
+                  <span class="text-xl font-bold text-gray-700 uppercase " :key="startLetter">{{
+                    startLetter }}</span>
+                </transition>
+              </div>
+              <div>
+                <transition name="slide-fade" mode="out-in">
+                  <span class="text-2xl font-bold text-gray-700 uppercase" :key="selectedCategory">{{
+                    formatCategories(this.selectedCategory) }}</span>
+                </transition>
+              </div>
 
-          </div>
-          <div class="flex flex-col items-center justify-center mt-6">
-            <button @click="selectRandomCategoryAndLetter"
-              class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
-                class="w-5 h-5 text-gray-800 transition duration-300 ease-out group-hover:text-gray-600">
-                <path fill-rule="evenodd"
-                  d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
-                  clip-rule="evenodd" />
-              </svg>
-            </button>
-            <span class="text-xs italic">
-              O secours c tro dur
-            </span>
+            </div>
+            <div class="flex flex-col items-center justify-center mt-4">
+              <button @click="selectRandomCategoryAndLetter"
+                class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                  class="w-5 h-5 text-gray-800 transition duration-300 ease-out group-hover:text-gray-600">
+                  <path fill-rule="evenodd"
+                    d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
+                    clip-rule="evenodd" />
+                </svg>
+              </button>
+              <span class="text-xs italic">
+                O secours c tro dur
+              </span>
+            </div>
+            <div
+              class="absolute top-0 w-64 h-64 pt-2 space-y-2 overflow-y-auto translate-x-full bg-white border-2 shadow-md -right-8 rounded-xl border-emerald-800">
+              <div class="flex justify-between w-full px-4 text-left ">
+                <span class="text-lg font-medium text-gray-700">
+                  Score d'équipe
+                </span>
+                <span class="text-lg font-light text-gray-700">
+                  {{ totalScore }} pts
+                </span>
+              </div>
+              <div class="flex flex-col items-start justify-start px-4 space-y-2 divide-y divide-gray-200 ">
+                <div v-for="(score, username, index) in scores" :key="username"
+                  class="flex justify-between w-full first:text-yellow-400 [&:nth-last-child(2)]:text-slate-500 [&:nth-last-child(3)]:text-amber-600">
+                  <div class="flex space-x-2">
+                    <span class="text-sm font-bold">
+                      {{ index + 1 }}.
+                    </span>
+                    <span class="text-sm font-medium text-gray-800 capitalize">
+                      {{ username }}
+                    </span>
+                  </div>
+                  <span class="text-sm font-light text-gray-700">
+                    {{ score }} pts
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="px-6 py-2 mt-2 overflow-y-auto bg-white rounded-md max-h-72">
-        <div class="flex justify-start space-x-4">
-          <div class="w-1/2 space-y-2">
-            <div class="text-left">
-              <span class="text-xl font-bold text-gray-700">
+      <div class="py-8 mx-auto mt-2 overflow-y-auto bg-white rounded-lg max-h-96 max-w-prose">
+        <div>
+          <div class="pt-2 space-y-2">
+            <div class="px-4 text-left">
+              <span class="text-lg font-medium text-gray-700">
                 Mots trouvés
               </span>
             </div>
-            <div class="flex flex-col items-start justify-start space-y-2">
-              <span class="text-sm" v-for="message in correctGuess" :key="message.id">
-                {{ message.text }} <span class="text-xs">({{ message.username }})</span>
-              </span>
+            <div class="grid grid-cols-3 gap-2 px-4">
+              <div v-for="message in correctGuess" :key="message.id"
+                class="py-1 truncate border border-gray-200 rounded-lg shadow-md bg-amber-50">
+                <span class="text-sm text-gray-800">
+                  {{ message.text }}
+                </span>
+                <span class="text-sm text-gray-700">
+                  ({{ message.username }})
+                </span>
+              </div>
             </div>
           </div>
-          <div class="w-1/2 space-y-2">
-            <div class="text-right">
-              <span class="text-xl font-bold text-gray-700">
-                Score: {{ totalScore }}
-              </span>
-            </div>
-            <div class="flex flex-col items-end justify-end space-y-2">
-              <span class="text-sm" v-for="(score, username) in scores" :key="username">
-                {{ username }}: {{ score }}
-              </span>
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
@@ -173,7 +192,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 1200,
       timer: null,
       categoryTimer: null,
       messages: [],
@@ -205,7 +224,7 @@ export default {
       return scoresArray;
     },
     progressBarWidth() {
-      const initialTime = 120;
+      const initialTime = 1200;
       return `${(this.timeLeft / initialTime) * 100}%`;
     }
   },
@@ -215,7 +234,7 @@ export default {
     this.startTimer();
     this.categoryTimer = setInterval(() => {
       if (this.timeLeft % 30 === 4) {
-        this.sounds[0].play();
+        // this.sounds[0].play();
       }
       if (this.timeLeft % 30 === 0) {
         this.selectRandomCategoryAndLetter();
@@ -245,7 +264,7 @@ export default {
     },
     async fetchValidWords() {
       try {
-        this.sounds[1].play();
+        // this.sounds[1].play();
         const response = await axios.get(`/data/${this.selectedCategory}.json`);
         const categoryLetters = response.data["Letters"];
         this.startLetter = categoryLetters[Math.floor(Math.random() * categoryLetters.length)]
@@ -266,7 +285,7 @@ export default {
       const lowerCaseFoundWords = this.foundWords.map(word => this.normalizeText(word));
       if (lowerCaseFoundWords.includes(normalizedMessage)) {
         this.correctGuess.push({ text: message, username });
-        this.sounds[2].play();
+        // this.sounds[2].play();
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }
