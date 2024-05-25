@@ -28,7 +28,7 @@
           <ScoreDashboard v-if="showDashboard" @close="showDashboard = false" />
         </div>
         <div v-if="startTwitchModal"
-          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-24 xl:max-w-prose">
+          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-24 max-w-prose">
           <button @click.stop="startTwitchModal = false" class="absolute top-4 right-4">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
               stroke="currentColor" class="w-6 h-6">
@@ -61,7 +61,7 @@
         </div>
 
         <div v-if="startGameModal"
-          class="absolute z-20 w-full p-1 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-md left-1/2 top-1/2 xl:max-w-prose">
+          class="absolute z-20 w-full max-h-[95vh] p-1 overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-md left-1/2 top-1/2 max-w-prose">
           <button @click.stop="startGameModal = false" class="absolute top-4 right-4">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
               stroke="currentColor" class="w-6 h-6">
