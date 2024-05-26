@@ -3,12 +3,13 @@
     <div>
       <div>
         <div
-          class="mx-auto bg-white border-2 shadow-md rounded-xl border-emerald-800 max-w-prose"
+          class="mx-auto bg-white shadow-inner border-in rounded-xl border-emerald-800 max-w-prose"
         >
           <div class="relative px-6 pt-2 pb-2">
             <div class="absolute z-30 -top-4 -left-4">
               <img class="w-10 h-10" :src="otterImage" alt="" />
             </div>
+
             <div
               class="absolute z-20 w-6 h-6 transform -translate-x-1/2 -top-2"
               :style="{ left: progressBarWidth, transition: 'all 1s linear' }"
@@ -23,24 +24,30 @@
               }"
             ></div>
             <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
-            <div class="pt-4">
+            <div class="pt-2 text-left">
+              <span class="text-sm italic text-gray-800"> Trouve le mot </span>
+            </div>
+            <div class="">
               <span class="text-2xl font-black text-gray-900 font-poppins">
                 {{ timeLeft }}s
               </span>
             </div>
+
             <div
-              class="flex flex-col items-center justify-center pt-4 space-y-2"
+              class="flex flex-col items-center justify-center pt-4 space-y-1"
             >
+              <span class="text-xs italic text-gray-700"> commençant par </span>
               <div class="px-2 rounded-md bg-amber-400 w-fit">
                 <transition name="slide-fade" mode="out-in">
                   <span
-                    class="text-xl font-bold text-gray-700 uppercase"
+                    class="text-xl font-bold text-gray-800 uppercase"
                     :key="startLetter"
                     >{{ startLetter }}</span
                   >
                 </transition>
               </div>
-              <div>
+              <div class="flex flex-col items-center justify-center pt-6">
+                <span class="text-xs italic text-gray-700"> de la catégorie </span>
                 <transition name="slide-fade" mode="out-in">
                   <span
                     class="text-2xl font-bold text-gray-800 uppercase"
@@ -215,9 +222,22 @@
       <div>Vous avez marqué un total de {{ totalScore }}</div>
       <div class="pt-10">
         <span> Classement des participants: </span>
-        <li v-for="score in sortedScores" :key="score.username">
-          {{ score.username }}: {{ score.score }}
-        </li>
+        <table class="min-w-full mt-4 divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+              <tr>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
+              </tr>
+            </thead>
+            <tbody class="min-w-full bg-white divide-y divide-gray-200">
+                <tr  v-for="(score, index) in sortedScores" :key="score.username" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
+                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ index + 1 }}.</td>
+                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ score.username }}</td>
+                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ score.score }}</td>
+                </tr>
+            </tbody>
+        </table>
       </div>
       <div class="pt-6">
         <button @click="endRound" class="border-2 btn border-emerald-700">
@@ -285,7 +305,7 @@ export default {
     this.startTimer();
     this.categoryTimer = setInterval(() => {
       if (this.timeLeft % 30 === 4) {
-        // this.sounds[0].play();
+        this.sounds[0].play();
       }
       if (this.timeLeft % 30 === 0) {
         this.selectRandomCategoryAndLetter();
@@ -326,7 +346,7 @@ export default {
     },
     async fetchValidWords() {
       try {
-        // this.sounds[1].play();
+        this.sounds[1].play();
         const response = await axios.get(`/data/${this.selectedCategory}.json`);
         const categoryLetters = response.data["Letters"];
         this.startLetter =
@@ -353,7 +373,7 @@ export default {
       );
       if (lowerCaseFoundWords.includes(normalizedMessage)) {
         this.correctGuess.push({ text: message, username });
-        // this.sounds[2].play();
+        this.sounds[2].play();
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }

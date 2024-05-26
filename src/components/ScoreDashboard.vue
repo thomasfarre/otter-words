@@ -8,24 +8,45 @@
       </svg>
     </button>
     <div class="p-6 overflow-auto border border-gray-300 rounded-md h-[30rem] max-h-[30rem] min-w-[720px]">
-      <span class="text-2xl font-bold"> Tableau des meilleurs scores </span>
-      <div class="flex pt-12 space-x-12">
+      <span class="text-2xl font-bold"> Tableau des meilleurs scores</span>
+      <div class="flex pt-12 space-x-12 text-left">
         <div class="w-1/2">
           <span class="font-bold">Équipes</span>
-
-          <ul class="pt-4">
-            <li v-for="team in teams" :key="team.id">
-              {{ team.displayName }}: {{ team.bestGlobalScore }}
-            </li>
-          </ul>
+          <table class="min-w-full mt-4 divide-y divide-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
+                </tr>
+              </thead>
+              <tbody class="min-w-full bg-white divide-y divide-gray-200">
+                  <tr  v-for="(team, index) in teams" :key="team.id" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ index + 1 }}.</td>
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ team.displayName }}</td>
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ team.bestGlobalScore }}</td>
+                  </tr>
+              </tbody>
+          </table>
         </div>
         <div class="w-1/2">
           <span class="font-bold">Joueurs</span>
-          <ul class="pt-4">
-            <li v-for="player in players" :key="player.id">
-              {{ player.displayName }}: {{ player.bestScore }}
-            </li>
-          </ul>
+          <table class="min-w-full mt-4 divide-y divide-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
+                </tr>
+              </thead>
+              <tbody class="min-w-full bg-white divide-y divide-gray-200">
+                  <tr  v-for="(player, index) in players" :key="player.id" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ index + 1 }}.</td>
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ player.displayName }}</td>
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ player.bestScore }}</td>
+                  </tr>
+              </tbody>
+          </table>
         </div>
       </div>
     </div>

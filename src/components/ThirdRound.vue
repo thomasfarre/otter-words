@@ -27,8 +27,13 @@
           <div>
             <span class="text-gray-700">Lettres non révélées:</span>
             <div class="flex flex-wrap justify-center gap-2 pt-1">
-  <span class="px-2 py-1 uppercase bg-gray-200 rounded" v-for="(letter, index) in unrevealedLetters" :key="index">{{ letter }}</span>
-</div>
+              <span
+                class="px-2 py-1 uppercase bg-gray-200 rounded"
+                v-for="(letter, index) in unrevealedLetters"
+                :key="index"
+                >{{ letter }}</span
+              >
+            </div>
           </div>
           <div class="flex flex-col pt-4 space-y-4">
             <div class="px-2 mx-auto rounded-md bg-amber-100 w-fit">
@@ -214,9 +219,22 @@
       <div>Vous avez marqué un total de {{ totalScore }}</div>
       <div class="pt-10">
         <span> Classement des participants: </span>
-        <li v-for="score in sortedScores" :key="score.username">
-          {{ score.username }}: {{ score.score }}
-        </li>
+        <table class="min-w-full mt-4 divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+              <tr>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
+              </tr>
+            </thead>
+            <tbody class="min-w-full bg-white divide-y divide-gray-200">
+                <tr  v-for="(score, index) in sortedScores" :key="score.username" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
+                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ index + 1 }}.</td>
+                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ score.username }}</td>
+                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ score.score }}</td>
+                </tr>
+            </tbody>
+        </table>
       </div>
       <div class="pt-6">
         <button @click="endRound" class="border-2 btn border-emerald-700">
@@ -279,15 +297,15 @@ export default {
       return `${(this.timeLeft / initialTime) * 100}%`;
     },
     unrevealedLetters() {
-    const unrevealed = [];
-    for (let i = 1; i < this.word.length; i++) {
-      if (this.revealedWord[i] === '_') {
-        unrevealed.push(this.word[i]);
+      const unrevealed = [];
+      for (let i = 1; i < this.word.length; i++) {
+        if (this.revealedWord[i] === "_") {
+          unrevealed.push(this.word[i]);
+        }
       }
-    }
-    console.log('Unrevealed letters:', unrevealed);
-    return unrevealed;
-  }
+      console.log("Unrevealed letters:", unrevealed);
+      return unrevealed;
+    },
   },
   created() {
     this.fetchChannelNameAndConnect();
@@ -335,38 +353,44 @@ export default {
       }
     },
     startRevealTimer() {
-    if (this.revealTimer) clearInterval(this.revealTimer);
+      if (this.revealTimer) clearInterval(this.revealTimer);
 
-    this.revealTimer = setInterval(() => {
-      let unrevealedIndices = [];
-      for (let i = 1; i < this.word.length; i++) {
-        if (this.revealedWord[i] === '_') {
-          unrevealedIndices.push(i);
-        }
-      }
-
-      const lettersToReveal = 2; // Number of letters to reveal at each interval
-      if (unrevealedIndices.length > 0) {
-        for (let j = 0; j < lettersToReveal && unrevealedIndices.length > 0; j++) {
-          const randomIndex = Math.floor(Math.random() * unrevealedIndices.length);
-          const revealIndex = unrevealedIndices[randomIndex];
-
-          let revealed = this.revealedWord.split('');
-          revealed[revealIndex] = this.word[revealIndex];
-          this.revealedWord = revealed.join('');
-
-          // Remove revealed index from the array to avoid revealing it again
-          unrevealedIndices.splice(randomIndex, 1);
+      this.revealTimer = setInterval(() => {
+        let unrevealedIndices = [];
+        for (let i = 1; i < this.word.length; i++) {
+          if (this.revealedWord[i] === "_") {
+            unrevealedIndices.push(i);
+          }
         }
 
-        if (!this.revealedWord.includes('_')) {
+        const lettersToReveal = 2; // Number of letters to reveal at each interval
+        if (unrevealedIndices.length > 0) {
+          for (
+            let j = 0;
+            j < lettersToReveal && unrevealedIndices.length > 0;
+            j++
+          ) {
+            const randomIndex = Math.floor(
+              Math.random() * unrevealedIndices.length
+            );
+            const revealIndex = unrevealedIndices[randomIndex];
+
+            let revealed = this.revealedWord.split("");
+            revealed[revealIndex] = this.word[revealIndex];
+            this.revealedWord = revealed.join("");
+
+            // Remove revealed index from the array to avoid revealing it again
+            unrevealedIndices.splice(randomIndex, 1);
+          }
+
+          if (!this.revealedWord.includes("_")) {
+            clearInterval(this.revealTimer);
+          }
+        } else {
           clearInterval(this.revealTimer);
         }
-      } else {
-        clearInterval(this.revealTimer);
-      }
-    }, this.revealInterval * 1000);
-  },
+      }, this.revealInterval * 1000);
+    },
 
     startTimer() {
       this.timer = setInterval(() => {
