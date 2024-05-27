@@ -211,7 +211,7 @@
   </div>
   <div
     v-else
-    class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20"
+    class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20 min-w-[720px]"
   >
     <div class="p-6 border border-gray-300 rounded-md">
       <div>

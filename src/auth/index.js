@@ -1,13 +1,42 @@
+import { initializeApp } from "firebase/app";
 import {
   getAuth,
   signInWithRedirect,
   getRedirectResult,
   OAuthProvider,
+  indexedDBLocalPersistence,
+  initializeAuth,
 } from "firebase/auth";
-import { app } from "../firebase/init";
 import { initializeFirestore, doc, setDoc, getDoc } from "firebase/firestore";
+import { getApps } from "firebase/app";
 
-const auth = getAuth(app);
+// Ensure Firebase is initialized only once
+const firebaseConfig = {
+  apiKey: process.env.VUE_APP_FIREBASE_API_KEY,
+  authDomain: process.env.VUE_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.VUE_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.VUE_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.VUE_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.VUE_APP_FIREBASE_APP_ID,
+};
+
+let app;
+if (!getApps().length) {
+  app = initializeApp(firebaseConfig);
+} else {
+  app = getApps()[0];
+}
+
+const auth = (() => {
+  try {
+    return getAuth(app);
+  } catch (e) {
+    return initializeAuth(app, {
+      persistence: indexedDBLocalPersistence,
+    });
+  }
+})();
+
 const provider = new OAuthProvider("oidc.twitch");
 const db = initializeFirestore(app, {});
 
@@ -26,7 +55,6 @@ export const handleRedirect = async () => {
 
       const channelName = await fetchTwitchChannelName(accessToken);
 
-      // Store channel name and initialize team info if not existing in Firestore
       const userDocRef = doc(db, "users", result.user.uid);
       const userSnap = await getDoc(userDocRef);
 
@@ -48,7 +76,6 @@ export const handleRedirect = async () => {
   }
 };
 
-// Function to fetch Twitch channel name using accessToken
 const fetchTwitchChannelName = async (accessToken) => {
   try {
     const response = await fetch("https://api.twitch.tv/helix/users", {

@@ -16,15 +16,12 @@ export default {
   methods: {
     handleLoginOrRedirect() {
       const auth = getAuth();
-      // Check if the user is already logged in
       if (!auth.currentUser) {
-        // Not logged in, initiate login
         signInWithTwitch().catch(error => {
           console.error('Failed to sign in with Twitch:', error);
           alert('Authentication failed. Check console for details.');
         });
       } else {
-        // Redirect to game page with user ID
         router.push({
           name: 'WordsGame',
           params: { userId: auth.currentUser.uid }
@@ -36,7 +33,6 @@ export default {
     handleRedirect().then(() => {
       const auth = getAuth();
       if (auth.currentUser) {
-        // Redirect to game page with user ID
         router.push({
           name: 'WordsGame',
           params: { userId: auth.currentUser.uid }
