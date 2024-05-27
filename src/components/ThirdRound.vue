@@ -2,9 +2,9 @@
   <div v-if="timeLeft > 0" class="text-center">
     <div>
       <div
-        class="mx-auto bg-white border-2 rounded-md shadow-md max-w-prose border-emerald-800"
+        class="mx-auto bg-white rounded-md shadow-md max-w-prose"
       >
-        <div class="relative px-6 pt-6 pb-2">
+        <div class="relative px-6 pt-3 pb-2">
           <div class="absolute z-30 -top-4 -left-4">
             <img class="w-10 h-10" :src="otterImage" alt="" />
           </div>
@@ -19,13 +19,16 @@
             :style="{ width: progressBarWidth, transition: 'width 1s linear' }"
           ></div>
           <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
-          <div>
+          <div class="pt-2 text-left">
+            <span class="text-sm italic text-gray-500">Trouve le mot</span>
+          </div>
+          <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
             <span class="text-2xl font-black text-gray-900 font-poppins">
               {{ timeLeft }}s
             </span>
           </div>
-          <div>
-            <span class="text-gray-700">Lettres non révélées:</span>
+          <div class="pt-6">
+            <span class="text-xs italic text-gray-500">Lettres non révélées</span>
             <div class="flex flex-wrap justify-center gap-2 pt-1">
               <span
                 class="px-2 py-1 uppercase bg-gray-200 rounded"
@@ -35,29 +38,29 @@
               >
             </div>
           </div>
-          <div class="flex flex-col pt-4 space-y-4">
+          <div class="flex flex-col pt-6 space-y-4">
             <div class="px-2 mx-auto rounded-md bg-amber-100 w-fit">
               <span class="text-xs font-bold text-gray-800 uppercase">
                 {{ catGram }}
-                <span class="text-xs font-medium text-gray-700"
-                  >({{ revealedWord.length }} lettres)</span
-                >
+              </span>
+              <span class="text-xs font-medium text-gray-700">
+                ({{ revealedWord.length }} lettres)
               </span>
             </div>
             <span class="text-xl tracking-widest text-gray-700 uppercase"
               >{{ revealedWord }}
             </span>
           </div>
-          <div class="flex flex-col items-center justify-center mt-2">
+          <div class="flex flex-col items-center justify-center mt-6">
             <button
               @click="fetchWordAndDefinition"
-              class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group"
+              class="p-2 transition duration-300 ease-out rounded-full bg-amber-200 hover:bg-amber-300 group"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 20 20"
                 fill="currentColor"
-                class="w-5 h-5 text-gray-800 transition duration-300 ease-out group-hover:text-gray-600"
+                class="w-5 h-5 transition duration-300 ease-out text-amber-700 group-hover:text-amber-900"
               >
                 <path
                   fill-rule="evenodd"
@@ -66,13 +69,7 @@
                 />
               </svg>
             </button>
-            <span class="text-xs italic">
-              <template v-if="previousWord">
-                le mot précédent était:
-                <span class="font-bold">{{ previousWord }}</span>
-              </template>
-              <template v-else> O secours c tro dur </template>
-            </span>
+            <span class="text-xs italic text-gray-500"> O secours c tro dur </span>
           </div>
           <div
             class="top-0 hidden w-64 h-64 pt-2 space-y-2 overflow-y-auto translate-x-full bg-white border-2 shadow-md md:absolute md:block -right-8 rounded-xl border-emerald-800"
@@ -426,8 +423,8 @@ export default {
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }
-        this.scores[username] += 5;
-        this.totalScore += 5;
+        this.scores[username] += 8;
+        this.totalScore += 8;
         this.correctGuess.push(correctGuess);
         this.fetchWordAndDefinition();
       } else {

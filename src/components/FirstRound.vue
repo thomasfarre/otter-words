@@ -3,9 +3,9 @@
     <div>
       <div>
         <div
-          class="mx-auto bg-white shadow-inner border-in rounded-xl border-emerald-800 max-w-prose"
+          class="mx-auto bg-white rounded-xl max-w-prose"
         >
-          <div class="relative px-6 pt-2 pb-2">
+          <div class="relative px-6 pt-3 pb-2">
             <div class="absolute z-30 -top-4 -left-4">
               <img class="w-10 h-10" :src="otterImage" alt="" />
             </div>
@@ -25,29 +25,29 @@
             ></div>
             <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
             <div class="pt-2 text-left">
-              <span class="text-sm italic text-gray-800"> Trouve le mot </span>
+              <span class="text-sm italic text-gray-500"> Trouve des mots </span>
             </div>
-            <div class="">
+            <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
               <span class="text-2xl font-black text-gray-900 font-poppins">
                 {{ timeLeft }}s
               </span>
             </div>
 
             <div
-              class="flex flex-col items-center justify-center pt-4 space-y-1"
+              class="flex flex-col items-center justify-center pt-8 space-y-1"
             >
-              <span class="text-xs italic text-gray-700"> commençant par </span>
+              <span class="text-xs italic text-gray-500"> commençant par </span>
               <div class="px-2 rounded-md bg-amber-400 w-fit">
                 <transition name="slide-fade" mode="out-in">
                   <span
-                    class="text-xl font-bold text-gray-800 uppercase"
+                    class="text-2xl font-bold text-gray-800 uppercase"
                     :key="startLetter"
                     >{{ startLetter }}</span
                   >
                 </transition>
               </div>
               <div class="flex flex-col items-center justify-center pt-6">
-                <span class="text-xs italic text-gray-700"> de la catégorie </span>
+                <span class="text-xs italic text-gray-500"> de la catégorie </span>
                 <transition name="slide-fade" mode="out-in">
                   <span
                     class="text-2xl font-bold text-gray-800 uppercase"
@@ -57,16 +57,16 @@
                 </transition>
               </div>
             </div>
-            <div class="flex flex-col items-center justify-center mt-2">
+            <div class="flex flex-col items-center justify-center mt-6">
               <button
                 @click="selectRandomCategoryAndLetter"
-                class="p-2 transition duration-300 ease-out rounded-full hover:bg-white group"
+                class="p-2 transition duration-300 ease-out rounded-full bg-amber-200 hover:bg-amber-300 group"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5 text-gray-800 transition duration-300 ease-out group-hover:text-gray-600"
+                  class="w-5 h-5 transition duration-300 ease-out text-amber-700 group-hover:text-amber-900"
                 >
                   <path
                     fill-rule="evenodd"
@@ -75,7 +75,7 @@
                   />
                 </svg>
               </button>
-              <span class="text-xs italic"> O secours c tro dur </span>
+              <span class="text-xs italic text-gray-500"> O secours c tro dur </span>
             </div>
             <div
               class="top-0 hidden w-64 h-64 pt-2 space-y-2 overflow-y-auto translate-x-full bg-white border-2 shadow-md md:absolute md:block -right-8 rounded-xl border-emerald-800"
@@ -219,7 +219,7 @@
           Fin du round!
         </span>
       </div>
-      <div>Vous avez marqué un total de {{ totalScore }}</div>
+      <div>Vous avez marqué un total de <span class="text-xl font-bold">{{ totalScore }}</span></div>
       <div class="pt-10">
         <span> Classement des participants: </span>
         <table class="min-w-full mt-4 divide-y divide-gray-200">
@@ -481,6 +481,6 @@ export default {
 .slide-fade-enter,
 .slide-fade-leave-to {
   opacity: 0;
-  transform: translateY(60px);
+  transform: translateX(100%);
 }
 </style>

@@ -4,8 +4,8 @@
       <div
         class="mx-auto bg-white border-2 rounded-md shadow-md border-emerald-800 max-w-prose"
       >
-        <div class="relative px-10 pt-2 pb-2">
-          <div class="flex flex-col items-center justify-center pb-2">
+        <div class="relative px-4 pt-3 pb-2">
+          <div class="flex flex-col items-center justify-center">
             <span
               v-if="shuffledWord"
               class="text-xl tracking-widest text-gray-800 uppercase"
@@ -27,12 +27,15 @@
             :style="{ width: progressBarWidth, transition: 'width 1s linear' }"
           ></div>
           <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
-          <div>
+          <div class="pt-2 text-left">
+            <span class="text-sm italic text-gray-500"> Trouve le mot associé à la définition</span>
+          </div>
+          <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
             <span class="text-2xl font-black text-gray-900 font-poppins">
               {{ timeLeft }}s
             </span>
           </div>
-          <div class="flex flex-col pt-2 space-y-4">
+          <div class="flex flex-col px-6 pt-12 space-y-4">
             <div class="px-2 mx-auto rounded-md bg-amber-100 w-fit">
               <span class="text-xs font-bold text-gray-800 uppercase">
                 {{ catGram }}
