@@ -111,31 +111,7 @@
           </div>
         </div>
       </div>
-      <div
-        class="py-8 mx-auto mt-2 overflow-y-auto bg-white rounded-lg max-h-96 max-w-prose"
-      >
-        <div class="pt-2 space-y-2">
-          <div class="px-4 text-left">
-            <span class="text-lg font-medium text-gray-700">
-              Mots trouvés
-            </span>
-          </div>
-          <div class="grid grid-cols-3 gap-2 px-4">
-            <div
-              v-for="message in correctGuess"
-              :key="message.id"
-              class="py-1 pl-1 truncate border border-gray-200 rounded-lg shadow-md bg-amber-50"
-            >
-              <span class="text-sm text-gray-800">
-                {{ message.text }}
-              </span>
-              <span class="text-sm text-gray-700">
-                ({{ message.username }})
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <FoundWords :correctGuess="correctGuess" />
     </div>
     <div class="mt-12">
       <span class="text-xl italic font-bold text-emerald-50 font-poppins">
@@ -224,6 +200,7 @@ import { getAuth } from "firebase/auth";
 import axios from "axios";
 import tmi from "tmi.js";
 
+import FoundWords from './common/FoundWords.vue';
 import EndOfRound from './common/EndOfRound.vue';
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
@@ -233,6 +210,7 @@ export default {
   name: "FirstRound",
   components: {
     EndOfRound,
+    FoundWords,
   },
   data() {
     return {
