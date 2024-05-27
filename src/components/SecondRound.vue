@@ -5,14 +5,7 @@
         class="mx-auto bg-white border-2 rounded-md shadow-md border-emerald-800 max-w-prose"
       >
         <div class="relative px-4 pt-3 pb-2">
-          <div class="flex flex-col items-center justify-center">
-            <span
-              v-if="shuffledWord"
-              class="text-xl tracking-widest text-gray-800 uppercase"
-            >
-              {{ shuffledWord }}
-            </span>
-          </div>
+
           <div class="absolute z-30 -top-4 -left-4">
             <img class="w-10 h-10" :src="otterImage" alt="" />
           </div>
@@ -36,6 +29,14 @@
             </span>
           </div>
           <div class="flex flex-col px-6 pt-12 space-y-4">
+            <div class="flex flex-col items-center justify-center">
+              <span
+                v-if="shuffledWord"
+                class="text-xl tracking-widest text-gray-800 uppercase"
+              >
+                {{ shuffledWord }}
+              </span>
+            </div>
             <div class="px-2 mx-auto rounded-md bg-amber-100 w-fit">
               <span class="text-xs font-bold text-gray-800 uppercase">
                 {{ catGram }}
@@ -163,7 +164,7 @@
             <div
               v-for="message in correctGuess"
               :key="message.id"
-              class="py-1 truncate border border-gray-200 rounded-lg shadow-md bg-amber-50"
+              class="py-1 pl-1 truncate border border-gray-200 rounded-lg shadow-md bg-amber-50"
             >
               <span class="text-sm text-gray-800">
                 {{ message.text }}
@@ -248,42 +249,12 @@
       </svg>
     </div>
   </div>
-  <div
-    v-else
-    class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20 min-w-[720px]"
-  >
-    <div class="p-6 border border-gray-300 rounded-md">
-      <div>
-        <span class="text-2xl font-bold text-gray-900 font-poppins">
-          Fin du round! le dernier mot était {{ previousWord }}
-        </span>
-      </div>
-      <div>Vous avez marqué un total de {{ totalScore }}</div>
-      <div class="pt-10">
-        <span> Classement des participants: </span>
-        <table class="min-w-full mt-4 divide-y divide-gray-200">
-            <thead class="bg-gray-50">
-              <tr>
-                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
-                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
-                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
-              </tr>
-            </thead>
-            <tbody class="min-w-full bg-white divide-y divide-gray-200">
-                <tr  v-for="(score, index) in sortedScores" :key="score.username" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
-                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ index + 1 }}.</td>
-                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ score.username }}</td>
-                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ score.score }}</td>
-                </tr>
-            </tbody>
-        </table>
-      </div>
-      <div class="pt-6">
-        <button @click="endRound" class="border-2 btn border-emerald-700">
-          Vite, la suite!
-        </button>
-      </div>
-    </div>
+  <div v-else>
+    <EndOfRound
+      :totalScore="totalScore"
+      :sortedScores="sortedScores"
+      @end-round="endRound"
+    />
   </div>
 </template>
 
@@ -293,12 +264,16 @@ import { getAuth } from "firebase/auth";
 import axios from "axios";
 import tmi from "tmi.js";
 
+import EndOfRound from './common/EndOfRound.vue';
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
 
 export default {
   emits: ["round-ended"],
   name: "SecondRound",
+  components: {
+    EndOfRound,
+  },
   data() {
     return {
       client: null,

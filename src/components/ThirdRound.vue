@@ -1,9 +1,7 @@
 <template>
   <div v-if="timeLeft > 0" class="text-center">
     <div>
-      <div
-        class="mx-auto bg-white rounded-md shadow-md max-w-prose"
-      >
+      <div class="mx-auto bg-white rounded-md shadow-md max-w-prose">
         <div class="relative px-6 pt-3 pb-2">
           <div class="absolute z-30 -top-4 -left-4">
             <img class="w-10 h-10" :src="otterImage" alt="" />
@@ -28,7 +26,9 @@
             </span>
           </div>
           <div class="pt-6">
-            <span class="text-xs italic text-gray-500">Lettres non révélées</span>
+            <span class="text-xs italic text-gray-500"
+              >Lettres non révélées</span
+            >
             <div class="flex flex-wrap justify-center gap-2 pt-1">
               <span
                 class="px-2 py-1 uppercase bg-gray-200 rounded"
@@ -47,7 +47,7 @@
                 ({{ revealedWord.length }} lettres)
               </span>
             </div>
-            <span class="text-xl tracking-widest text-gray-700 uppercase"
+            <span class="text-xl tracking-[0.4em] text-gray-700 uppercase"
               >{{ revealedWord }}
             </span>
           </div>
@@ -69,7 +69,9 @@
                 />
               </svg>
             </button>
-            <span class="text-xs italic text-gray-500"> O secours c tro dur </span>
+            <span class="text-xs italic text-gray-500">
+              O secours c tro dur
+            </span>
           </div>
           <div
             class="top-0 hidden w-64 h-64 pt-2 space-y-2 overflow-y-auto translate-x-full bg-white border-2 shadow-md md:absolute md:block -right-8 rounded-xl border-emerald-800"
@@ -118,7 +120,7 @@
             <div
               v-for="message in correctGuess"
               :key="message.id"
-              class="py-1 truncate border border-gray-200 rounded-lg shadow-md bg-amber-50"
+              class="py-1 pl-1 truncate border border-gray-200 rounded-lg shadow-md bg-amber-50"
             >
               <span class="text-sm text-gray-800">
                 {{ message.text }}
@@ -203,42 +205,12 @@
       </svg>
     </div>
   </div>
-  <div
-    v-else
-    class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20 min-w-[720px]"
-  >
-    <div class="p-6 border border-gray-300 rounded-md">
-      <div>
-        <span class="text-2xl font-bold text-gray-900 font-poppins">
-          Fin du round! le dernier mot était {{ previousWord }}
-        </span>
-      </div>
-      <div>Vous avez marqué un total de {{ totalScore }}</div>
-      <div class="pt-10">
-        <span> Classement des participants: </span>
-        <table class="min-w-full mt-4 divide-y divide-gray-200">
-            <thead class="bg-gray-50">
-              <tr>
-                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
-                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
-                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
-              </tr>
-            </thead>
-            <tbody class="min-w-full bg-white divide-y divide-gray-200">
-                <tr  v-for="(score, index) in sortedScores" :key="score.username" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
-                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ index + 1 }}.</td>
-                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ score.username }}</td>
-                  <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ score.score }}</td>
-                </tr>
-            </tbody>
-        </table>
-      </div>
-      <div class="pt-6">
-        <button @click="endRound" class="border-2 btn border-emerald-700">
-          Vite, la suite!
-        </button>
-      </div>
-    </div>
+  <div v-else>
+    <EndOfRound
+      :totalScore="totalScore"
+      :sortedScores="sortedScores"
+      @end-round="endRound"
+    />
   </div>
 </template>
 
@@ -248,12 +220,16 @@ import { getAuth } from "firebase/auth";
 import axios from "axios";
 import tmi from "tmi.js";
 
+import EndOfRound from "./common/EndOfRound.vue";
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
 
 export default {
   emits: ["round-ended"],
   name: "ThirdRound",
+  components: {
+    EndOfRound,
+  },
   data() {
     return {
       client: null,
@@ -300,8 +276,7 @@ export default {
           unrevealed.push(this.word[i]);
         }
       }
-      console.log("Unrevealed letters:", unrevealed);
-      return unrevealed;
+      return this.shuffleArray(unrevealed);
     },
   },
   created() {
@@ -360,7 +335,7 @@ export default {
           }
         }
 
-        const lettersToReveal = 2; // Number of letters to reveal at each interval
+        const lettersToReveal = 1;
         if (unrevealedIndices.length > 0) {
           for (
             let j = 0;
