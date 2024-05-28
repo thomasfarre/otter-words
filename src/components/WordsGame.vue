@@ -144,12 +144,23 @@
           digne des loutrons!
         </div>
         <div class="pt-10">
-          <span class="font-bold"> Classement des participants: </span>
-          <ul>
-            <li v-for="user in detailedScores" :key="user.username">
-              {{ user.username }}: {{ user.score }}
-            </li>
-          </ul>
+          <span> Classement des participants: </span>
+          <table class="min-w-full mt-4 divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+              <tr>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
+              </tr>
+            </thead>
+            <tbody class="min-w-full bg-white divide-y divide-gray-200">
+              <tr v-for="(score, index) in detailedScores" :key="score.username" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
+                <td class="px-2 py-3 text-sm whitespace-nowrap">{{ index + 1 }}.</td>
+                <td class="px-2 py-3 text-sm whitespace-nowrap">{{ score.username }}</td>
+                <td class="px-2 py-3 text-sm whitespace-nowrap">{{ score.score }}</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
         <div class="pt-10">
           <span class="font-bold">

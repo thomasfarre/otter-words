@@ -5,6 +5,9 @@
         <span class="text-2xl font-bold text-gray-900 font-poppins">
           Fin du round!
         </span>
+        <span v-if="previousWord" class="text-xl text-gray-900 font-poppins" >
+          Le mot précédent était : <strong>{{ previousWord }}</strong>
+        </span>
       </div>
       <div>Vous avez marqué un total de <span class="text-xl font-bold">{{ totalScore }}</span></div>
       <div class="pt-10">
@@ -46,6 +49,10 @@ export default {
       type: Array,
       required: true,
     },
+    previousWord: {
+      type: String,
+      required: false,
+    }
   },
   methods: {
     endRound() {

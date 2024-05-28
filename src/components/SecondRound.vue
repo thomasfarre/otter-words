@@ -228,6 +228,7 @@
     <EndOfRound
       :totalScore="totalScore"
       :sortedScores="sortedScores"
+      :previousWord="previousWord"
       @end-round="endRound"
     />
   </div>
@@ -254,7 +255,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 120,
+      timeLeft: 12,
       timer: null,
       channelName: "",
       correctGuess: [],

@@ -7,7 +7,7 @@
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
       </svg>
     </button>
-    <div class="p-6 overflow-auto border border-gray-300 rounded-md h-[30rem] max-h-[30rem] min-w-[720px]">
+    <div class="p-6 overflow-auto border border-gray-300 rounded-md  max-h-[54rem] min-w-[720px]">
       <span class="text-2xl font-bold"> Tableau des meilleurs scores</span>
       <div class="flex pt-12 space-x-12 text-left">
         <div class="w-1/2">
