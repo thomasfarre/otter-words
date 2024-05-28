@@ -34,7 +34,7 @@
             </div>
 
             <div
-              class="flex flex-col items-center justify-center pt-8 space-y-1"
+              class="flex flex-col items-center justify-center pt-4 space-y-1"
             >
               <span class="text-xs italic text-gray-500"> commençant par </span>
               <div class="px-2 rounded-md bg-amber-400 w-fit">
@@ -113,10 +113,19 @@
       </div>
       <FoundWords :correctGuess="correctGuess" />
     </div>
-    <div class="mt-12">
+    <div class="mt-8">
       <span class="text-xl italic font-bold text-emerald-50 font-poppins">
         La Rivière des espoirs déchûs
       </span>
+      <div class="flex items-center justify-center mt-2">
+        <input
+          v-model="userMessage"
+          @keyup.enter="handleUserMessage"
+          type="text"
+          placeholder="Entrez votre réponse ici..."
+          class="p-2 text-gray-700 border rounded-md bg-amber-50 placeholder:text-gray-500"
+        />
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
         <defs>
           <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
@@ -235,6 +244,7 @@ export default {
         new Audio("/sounds/fishing.wav"),
         new Audio("/sounds/fish.wav"),
       ],
+      userMessage: '',
     };
   },
   computed: {
@@ -341,6 +351,18 @@ export default {
         });
       }
       this.lock = false;
+    },
+    handleUserMessage() {
+      if (this.userMessage.trim() !== "") {
+        const username = this.channelName;
+        this.messages.push({
+          id: this.messages.length + 1,
+          username: username,
+          text: this.userMessage,
+        });
+        this.checkGuess(this.userMessage, username);
+        this.userMessage = "";
+      }
     },
     startTimer() {
       this.timer = setInterval(() => {

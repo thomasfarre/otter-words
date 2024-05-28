@@ -108,10 +108,19 @@
       </div>
       <FoundWords :correctGuess="correctGuess" />
     </div>
-    <div class="mt-12">
+    <div class="mt-8">
       <span class="text-xl font-bold text-white font-poppins">
         La Rivière des espoirs déchûs
       </span>
+      <div class="flex items-center justify-center mt-2">
+        <input
+          v-model="userMessage"
+          @keyup.enter="handleUserMessage"
+          type="text"
+          placeholder="Entrez votre réponse ici..."
+          class="p-2 text-gray-700 border rounded-md bg-amber-50 placeholder:text-gray-500"
+        />
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
         <defs>
           <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
@@ -328,8 +337,6 @@ export default {
             let revealed = this.revealedWord.split("");
             revealed[revealIndex] = this.word[revealIndex];
             this.revealedWord = revealed.join("");
-
-            // Remove revealed index from the array to avoid revealing it again
             unrevealedIndices.splice(randomIndex, 1);
           }
 
@@ -341,7 +348,18 @@ export default {
         }
       }, this.revealInterval * 1000);
     },
-
+    handleUserMessage() {
+      if (this.userMessage.trim() !== "") {
+        const username = this.channelName;
+        this.messages.push({
+          id: this.messages.length + 1,
+          username: username,
+          text: this.userMessage,
+        });
+        this.checkGuess(this.userMessage, username);
+        this.userMessage = "";
+      }
+    },
     startTimer() {
       this.timer = setInterval(() => {
         if (this.timeLeft > 0) {

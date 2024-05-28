@@ -152,10 +152,19 @@
       </div>
       <FoundWords :correctGuess="correctGuess" />
     </div>
-    <div class="mt-12">
+    <div class="mt-8">
       <span class="text-xl italic font-bold text-emerald-50 font-poppins">
         La Rivière des espoirs déchûs
       </span>
+      <div class="flex items-center justify-center mt-2">
+        <input
+          v-model="userMessage"
+          @keyup.enter="handleUserMessage"
+          type="text"
+          placeholder="Entrez votre réponse ici..."
+          class="p-2 text-gray-700 border rounded-md bg-amber-50 placeholder:text-gray-500"
+        />
+      </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
         <defs>
           <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
@@ -324,11 +333,23 @@ export default {
         const randomKey = keys[Math.floor(Math.random() * keys.length)];
         this.word = randomKey;
         this.definition = words[randomKey].def;
-        this.catGram = words[randomKey].catGram; // Assuming you want to display or use the grammatical category as well
+        this.catGram = words[randomKey].catGram;
         this.shuffledWord = "";
       } catch (error) {
         console.error("Failed to fetch data:", error);
         this.definition = "Failed to load definition.";
+      }
+    },
+    handleUserMessage() {
+      if (this.userMessage.trim() !== "") {
+        const username = this.channelName;
+        this.messages.push({
+          id: this.messages.length + 1,
+          username: username,
+          text: this.userMessage,
+        });
+        this.checkGuess(this.userMessage, username);
+        this.userMessage = "";
       }
     },
     startTimer() {
