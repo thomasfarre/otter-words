@@ -112,7 +112,7 @@
       <div class="flex space-x-4 overflow-x-auto whitespace-nowrap">
         <span
           class="text-sm text-emerald-900"
-          v-for="message in incorrectGuess"
+          v-for="message in reversedIncorrectGuess"
           :key="message.id"
         >
           {{ message.text }}
@@ -236,6 +236,9 @@ export default {
     },
     reversedCorrectGuess() {
       return [...this.correctGuess].reverse();
+    },
+    reversedIncorrectGuess() {
+      return [...this.incorrectGuess].reverse();
     },
     unrevealedLetters() {
       const unrevealed = [];
