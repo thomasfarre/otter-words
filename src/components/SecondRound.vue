@@ -20,7 +20,7 @@
             :style="{ width: progressBarWidth, transition: 'width 1s linear' }"
           ></div>
           <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
-          <div class="pt-2 text-left">
+          <div class="pt-2 text-left max-w-36 xl:max-w-full">
             <span class="text-sm italic text-gray-500"> Trouve le mot associé à la définition</span>
           </div>
           <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
@@ -264,7 +264,7 @@ export default {
   data() {
     return {
       client: null,
-      timeLeft: 12,
+      timeLeft: 120,
       timer: null,
       channelName: "",
       correctGuess: [],
