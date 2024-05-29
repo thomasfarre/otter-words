@@ -108,7 +108,7 @@
         />
       </svg>
     </div>
-    <div class="w-screen p-6 -mt-px bg-emerald-100">
+    <div class="w-screen px-6 py-2 -mt-px bg-emerald-100">
       <div class="flex space-x-4 overflow-x-auto whitespace-nowrap">
         <span
           class="text-sm text-emerald-900"
