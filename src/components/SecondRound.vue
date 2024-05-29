@@ -109,7 +109,7 @@
               </span>
             </div>
           </div>
-          <LiveRoundScore :totalScore="totalScore" :scores="scores" />
+          <LiveRoundScore :totalScore="totalScore" :sortedScores="sortedScores" />
         </div>
       </div>
       <div class="flex items-center justify-center mt-1 xl:hidden">
@@ -274,7 +274,7 @@ export default {
       return scoresArray;
     },
     progressBarWidth() {
-      const initialTime = 120;
+      const initialTime = 240;
       return `${(this.timeLeft / initialTime) * 100}%`;
     },
     reversedCorrectGuess() {
