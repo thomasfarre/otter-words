@@ -6,24 +6,11 @@
           class="mx-auto bg-white rounded-xl max-w-prose"
         >
           <div class="relative px-6 pt-3 pb-2">
-            <div class="absolute z-30 -top-4 -left-4">
-              <img class="w-10 h-10" :src="otterImage" alt="" />
-            </div>
-
-            <div
-              class="absolute z-20 w-6 h-6 transform -translate-x-1/2 -top-2"
-              :style="{ left: progressBarWidth, transition: 'all 1s linear' }"
-            >
-              <img class="w-full h-full" :src="cartoonTroutImage" alt="" />
-            </div>
-            <div
-              class="absolute inset-0 top-0 z-10 h-2 bg-emerald-400"
-              :style="{
-                width: progressBarWidth,
-                transition: 'width 1s linear',
-              }"
-            ></div>
-            <div class="absolute inset-0 top-0 h-2 bg-gray-300"></div>
+            <ProgressBar
+              :progressBarWidth="progressBarWidth"
+              :otterImage="otterImage"
+              :cartoonTroutImage="cartoonTroutImage"
+            />
             <div class="pt-2 text-left">
               <span class="text-sm italic text-gray-500"> Trouve des mots </span>
             </div>
@@ -220,6 +207,8 @@ import tmi from "tmi.js";
 
 import FoundWords from './common/FoundWords.vue';
 import EndOfRound from './common/EndOfRound.vue';
+import ProgressBar from './common/ProgressBar.vue';
+
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
 
@@ -229,6 +218,7 @@ export default {
   components: {
     EndOfRound,
     FoundWords,
+    ProgressBar,
   },
   data() {
     return {
