@@ -5,14 +5,15 @@
         class="mx-auto bg-white border-2 rounded-md shadow-md border-emerald-800 max-w-prose"
       >
         <div class="relative px-4 pt-3 pb-2">
-
           <ProgressBar
             :progressBarWidth="progressBarWidth"
             :otterImage="otterImage"
             :cartoonTroutImage="cartoonTroutImage"
           />
           <div class="pt-2 text-left max-w-36 xl:max-w-full">
-            <span class="text-sm italic text-gray-500"> Trouve le mot associé à la définition</span>
+            <span class="text-sm italic text-gray-500">
+              Trouve le mot associé à la définition</span
+            >
           </div>
           <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
             <span class="text-2xl font-black text-gray-900 font-poppins">
@@ -108,37 +109,7 @@
               </span>
             </div>
           </div>
-          <div
-            class="top-0 hidden w-64 h-64 pt-2 space-y-2 overflow-y-auto translate-x-full bg-white border-2 shadow-md md:absolute md:block -right-8 rounded-xl border-emerald-800"
-          >
-            <div class="flex justify-between w-full px-4 text-left">
-              <span class="text-lg font-medium text-gray-700">
-                Score d'équipe
-              </span>
-              <span class="text-lg font-light text-gray-700">
-                {{ totalScore }} pts
-              </span>
-            </div>
-            <div
-              class="flex flex-col items-start justify-start divide-y divide-gray-200"
-            >
-              <div
-                v-for="(score, username, index) in scores"
-                :key="username"
-                class="flex px-4 py-2 justify-between w-full first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40"
-              >
-                <div class="flex space-x-2">
-                  <span class="text-sm font-bold"> {{ index + 1 }}. </span>
-                  <span class="text-sm font-medium text-gray-800 capitalize">
-                    {{ username }}
-                  </span>
-                </div>
-                <span class="text-sm font-light text-gray-700">
-                  {{ score }} pts
-                </span>
-              </div>
-            </div>
-          </div>
+          <LiveRoundScore :totalScore="totalScore" :scores="scores" />
         </div>
       </div>
       <div class="flex items-center justify-center mt-1 xl:hidden">
@@ -249,9 +220,10 @@ import { getAuth } from "firebase/auth";
 import axios from "axios";
 import tmi from "tmi.js";
 
-import FoundWords from './common/FoundWords.vue';
-import EndOfRound from './common/EndOfRound.vue';
-import ProgressBar from './common/ProgressBar.vue';
+import FoundWords from "./common/FoundWords.vue";
+import EndOfRound from "./common/EndOfRound.vue";
+import ProgressBar from "./common/ProgressBar.vue";
+import LiveRoundScore from "./common/LiveRoundScore.vue";
 
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
@@ -263,6 +235,7 @@ export default {
     EndOfRound,
     FoundWords,
     ProgressBar,
+    LiveRoundScore,
   },
   data() {
     return {

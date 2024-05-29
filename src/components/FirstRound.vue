@@ -64,37 +64,10 @@
               </button>
               <span class="text-xs italic text-gray-500"> O secours c tro dur </span>
             </div>
-            <div
-              class="top-0 hidden w-64 h-64 pt-2 space-y-2 overflow-y-auto translate-x-full bg-white border-2 shadow-md md:absolute md:block -right-8 rounded-xl border-emerald-800"
-            >
-              <div class="flex justify-between w-full px-4 text-left">
-                <span class="text-lg font-medium text-gray-700">
-                  Score d'équipe
-                </span>
-                <span class="text-lg font-light text-gray-700">
-                  {{ totalScore }} pts
-                </span>
-              </div>
-              <div
-                class="flex flex-col items-start justify-start space-y-2 divide-y divide-gray-200"
-              >
-                <div
-                  v-for="(score, username, index) in scores"
-                  :key="username"
-                  class="flex px-4 py-2 justify-between w-full first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40"
-                >
-                  <div class="flex space-x-2">
-                    <span class="text-sm font-bold"> {{ index + 1 }}. </span>
-                    <span class="text-sm font-medium text-gray-800 capitalize">
-                      {{ username }}
-                    </span>
-                  </div>
-                  <span class="text-sm font-light text-gray-700">
-                    {{ score }} pts
-                  </span>
-                </div>
-              </div>
-            </div>
+            <LiveRoundScore
+              :totalScore="totalScore"
+              :scores="scores"
+            />
           </div>
         </div>
       </div>
@@ -208,6 +181,8 @@ import tmi from "tmi.js";
 import FoundWords from './common/FoundWords.vue';
 import EndOfRound from './common/EndOfRound.vue';
 import ProgressBar from './common/ProgressBar.vue';
+import LiveRoundScore from './common/LiveRoundScore.vue';
+
 
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
@@ -219,6 +194,7 @@ export default {
     EndOfRound,
     FoundWords,
     ProgressBar,
+    LiveRoundScore
   },
   data() {
     return {
