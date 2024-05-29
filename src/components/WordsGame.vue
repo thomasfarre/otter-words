@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen bg-cover" :style="{ backgroundImage: 'url(' + bgImage + ')' }">
-    <div class="pt-6 mx-auto">
+    <div class="pt-2 mx-auto xl:pt-6">
       <div v-if="!gameStarted" class="pt-20">
         <div class="text-center">
           <div>
@@ -197,9 +197,15 @@
         </div>
       </div>
     </div>
+
+
+
     <div v-if="!gameStarted" class="absolute transform -translate-x-1/2 bottom-6 left-1/2">
       <div class="flex flex-col items-center justify-center space-y-1">
-        <img class="w-10 h-10 opacity-80" :src="iconImage" alt="" />
+        <a class="flex items-center px-2 py-1 space-x-1 transition duration-300 ease-out bg-blue-50 rounded-xl hover:bg-blue-200" href="https://www.buymeacoffee.com/omarleomar" target="_blank">
+          <img class="w-5 h-5" :src="iconImage" alt="" />
+          <span class="text-sm font-medium text-blue-900">Buy me trouts</span>
+        </a>
         <div>
           <span class="text-xs italic text-white">by Omar for las Truitas \tʁɥi.tas\</span>
         </div>
@@ -216,7 +222,7 @@ import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
 import ScoreDashboard from "./ScoreDashboard.vue";
 
-import iconImage from "@/assets/images/trout.png";
+import iconImage from "/public/images/cartoon_trout.webp";
 import bgImage from "/public/images/bg-loutre-2.jpg";
 
 export default {
