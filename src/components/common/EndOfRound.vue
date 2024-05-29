@@ -1,6 +1,6 @@
 <template>
-  <div class="absolute z-20 p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20">
-    <div class="p-6 border border-gray-300 rounded-md">
+  <div class="absolute z-20 w-full h-[95vh] p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-1/2 -translate-y-1/2 overflow-y-auto md:w-1/2 xl:w-1/3">
+    <div class="p-6">
       <div>
         <span class="text-2xl font-bold text-gray-900 font-poppins">
           Fin du round!

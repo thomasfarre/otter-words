@@ -28,7 +28,7 @@
           <ScoreDashboard v-if="showDashboard" @close="showDashboard = false" />
         </div>
         <div v-if="startTwitchModal"
-          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-24 max-w-prose">
+          class="absolute z-20 w-full p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20 max-w-prose">
           <button @click.stop="startTwitchModal = false" class="absolute top-4 right-4">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
               stroke="currentColor" class="w-6 h-6">
@@ -42,9 +42,8 @@
             </div>
             <div class="pt-4">
               <p class="text-gray-800">
-                Pour jouer il est nécessaire d'entrer les réponses dans ton chat. <br> <strong>Ouvre le</strong> si ce
-                n'est
-                pas déjà fait,
+                Pour jouer à plusieurs il est nécessaire d'utiliser ton chat Twitch. <br> <strong>Ouvre le</strong> si ce
+                n'est pas déjà fait,
                 sinon lance la partie !
               </p>
             </div>
@@ -132,8 +131,8 @@
     </div>
 
     <div v-if="gameEnded && endGameModal"
-      class="absolute z-20 p-1 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-20">
-      <div class="p-6 border border-gray-300 rounded-md">
+      class="absolute z-20 w-full h-[95vh] p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-1/2 -translate-y-1/2 overflow-y-auto md:w-1/2 xl:w-1/3">
+      <div class="p-6 ">
         <div>
           <span class="text-2xl font-bold text-gray-900 font-poppins">
             Fin du jeu!

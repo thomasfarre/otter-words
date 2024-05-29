@@ -150,13 +150,22 @@
           </div>
         </div>
       </div>
-      <FoundWords :correctGuess="correctGuess" />
+      <div class="flex items-center justify-center mt-1 xl:hidden">
+        <input
+          v-model="userMessage"
+          @keyup.enter="handleUserMessage"
+          type="text"
+          placeholder="Entrez votre réponse ici..."
+          class="p-2 text-gray-700 border rounded-md bg-amber-50 placeholder:text-gray-500"
+        />
+      </div>
+      <FoundWords :correctGuess="reversedCorrectGuess" />
     </div>
     <div class="mt-8">
       <span class="text-xl italic font-bold text-emerald-50 font-poppins">
         La Rivière des espoirs déchûs
       </span>
-      <div class="flex items-center justify-center mt-2">
+      <div class="hidden xl:flex xl:items-center xl:justify-center xl:mt-2">
         <input
           v-model="userMessage"
           @keyup.enter="handleUserMessage"
@@ -300,6 +309,9 @@ export default {
     progressBarWidth() {
       const initialTime = 120;
       return `${(this.timeLeft / initialTime) * 100}%`;
+    },
+    reversedCorrectGuess() {
+      return [...this.correctGuess].reverse();
     },
   },
   created() {

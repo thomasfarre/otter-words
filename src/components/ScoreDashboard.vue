@@ -1,16 +1,16 @@
 <template>
   <div @click.stop="$emit('close')" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
-  <div class="absolute z-30 p-1 overflow-auto transform -translate-x-1/2 bg-white rounded-md top-8 left-1/2 xl:top-20">
+  <div class="absolute z-30 w-full h-[95vh] p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-1/2 -translate-y-1/2 overflow-y-auto md:w-2/3">
     <button @click.stop="$emit('close')" class="absolute top-4 right-4">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
         class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
       </svg>
     </button>
-    <div class="p-6 overflow-auto border border-gray-300 rounded-md  max-h-[54rem]">
+    <div class="p-6">
       <span class="text-2xl font-bold"> Tableau des meilleurs scores</span>
-      <div class="flex flex-col pt-12 space-y-4 text-left xl:space-y-0 xl:space-x-12 xl:flex-wrap">
-        <div class="w-1/2">
+      <div class="flex flex-col pt-12 space-y-4 text-left xl:space-y-0 xl:space-x-12 xl:flex-row">
+        <div class="xl:w-1/2">
           <span class="font-bold">Équipes</span>
           <table class="min-w-full mt-4 divide-y divide-gray-200">
               <thead class="bg-gray-50">
@@ -29,7 +29,7 @@
               </tbody>
           </table>
         </div>
-        <div class="w-1/2">
+        <div class="xl:w-1/2">
           <span class="font-bold">Joueurs</span>
           <table class="min-w-full mt-4 divide-y divide-gray-200">
               <thead class="bg-gray-50">

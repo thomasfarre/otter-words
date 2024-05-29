@@ -1,5 +1,5 @@
 <template>
-  <div class="py-4 mx-auto mt-2 overflow-y-auto bg-white rounded-lg max-h-96 max-w-prose">
+  <div class="py-2 mx-auto mt-1 overflow-y-auto bg-white rounded-lg max-h-96 max-w-prose xl:py-4 xl:mt-2">
     <div class="pt-2 space-y-2">
       <div class="px-4 text-left">
         <span class="text-lg font-medium text-gray-700">

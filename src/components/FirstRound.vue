@@ -111,7 +111,7 @@
           </div>
         </div>
       </div>
-      <div class="flex items-center justify-center mt-2 xl:hidden">
+      <div class="flex items-center justify-center mt-1 xl:hidden">
         <input
           v-model="userMessage"
           @keyup.enter="handleUserMessage"
@@ -120,7 +120,7 @@
           class="p-2 text-gray-700 border rounded-md bg-amber-50 placeholder:text-gray-500"
         />
       </div>
-      <FoundWords :correctGuess="correctGuess" />
+      <FoundWords :correctGuess="reversedCorrectGuess" />
     </div>
     <div class="mt-8">
       <span class="text-xl italic font-bold text-emerald-50 font-poppins">
@@ -268,6 +268,9 @@ export default {
     progressBarWidth() {
       const initialTime = 120;
       return `${(this.timeLeft / initialTime) * 100}%`;
+    },
+    reversedCorrectGuess() {
+      return [...this.correctGuess].reverse();
     },
   },
   created() {
