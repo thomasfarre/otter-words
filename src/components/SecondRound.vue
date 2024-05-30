@@ -243,6 +243,7 @@ export default {
       timeLeft: 240,
       timer: null,
       channelName: "",
+      accessToken: "",
       correctGuess: [],
       incorrectGuess: [],
       messages: [],
@@ -257,6 +258,7 @@ export default {
       shuffledWord: "",
       otterImage,
       cartoonTroutImage,
+      userMessage: "",
       sounds: [
         new Audio("/sounds/fish.wav"),
         new Audio("/sounds/fishing.wav"),
@@ -299,10 +301,16 @@ export default {
         const docSnap = await getDoc(userDoc);
         if (docSnap.exists()) {
           this.channelName = docSnap.data().twitchChannelName;
-          this.connectChat(this.channelName);
+          this.accessToken = docSnap.data().twitchAccessToken; // Retrieve the token
+          this.connectChat(this.channelName, this.accessToken);
         } else {
           console.log("No such document!");
         }
+      }
+    },
+    sendMessageToTwitchChat(message) {
+      if (this.client && this.channelName) {
+        this.client.say(this.channelName, message);
       }
     },
     async fetchWordAndDefinition() {
@@ -317,6 +325,7 @@ export default {
         this.definition = words[randomKey].def;
         this.catGram = words[randomKey].catGram;
         this.shuffledWord = "";
+        this.sendMessageToTwitchChat(`catGram: ${this.catGram}, Définition: ${this.definition}`);
       } catch (error) {
         console.error("Failed to fetch data:", error);
         this.definition = "Failed to load definition.";
@@ -402,7 +411,7 @@ export default {
         scores: this.scores,
       });
     },
-    connectChat(channel) {
+    connectChat(channel, accessToken) {
       if (this.client) {
         this.client.disconnect();
       }
@@ -410,6 +419,10 @@ export default {
         connection: {
           secure: true,
           reconnect: true,
+        },
+        identity: {
+          username: channel,
+          password: `oauth:${accessToken}`, // Use the OAuth token
         },
         channels: [channel],
       };

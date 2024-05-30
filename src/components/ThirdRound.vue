@@ -214,6 +214,7 @@ export default {
       lock: false,
       otterImage,
       cartoonTroutImage,
+      userMessage: "",
       sounds: [
         new Audio("/sounds/fish.wav"),
         new Audio("/sounds/fishing.wav"),
