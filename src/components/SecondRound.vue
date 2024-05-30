@@ -310,7 +310,9 @@ export default {
     },
     sendMessageToTwitchChat(message) {
       if (this.client && this.channelName) {
-        this.client.say(this.channelName, message);
+        setTimeout(() => {
+          this.client.say(this.channelName, message);
+        }, 3000); // 3000 milliseconds = 3 seconds
       }
     },
     async fetchWordAndDefinition() {
