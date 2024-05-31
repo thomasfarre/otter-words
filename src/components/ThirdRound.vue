@@ -25,7 +25,7 @@
             >
             <div class="flex flex-wrap justify-center gap-2 pt-1">
               <span
-                class="px-2 py-1 uppercase bg-gray-200 rounded"
+                class="px-2 py-1 text-2xl font-medium text-gray-800 uppercase rounded bg-amber-200"
                 v-for="(letter, index) in unrevealedLetters"
                 :key="index"
                 >{{ letter }}</span
@@ -33,15 +33,15 @@
             </div>
           </div>
           <div class="flex flex-col pt-6 space-y-4">
-            <div class="px-2 mx-auto rounded-md bg-amber-100 w-fit">
-              <span class="text-xs font-bold text-gray-800 uppercase">
+            <div class="px-2 mx-auto rounded-md bg-amber-50 w-fit">
+              <span class="text-xs font-bold text-gray-700 uppercase">
                 {{ catGram }}
               </span>
               <span class="text-xs font-medium text-gray-700">
                 ({{ revealedWord.length }} lettres)
               </span>
             </div>
-            <span class="text-xl tracking-[0.4em] text-gray-700 uppercase"
+            <span class="text-2xl tracking-[0.4em] text-gray-700 uppercase"
               >{{ revealedWord }}
             </span>
           </div>
@@ -173,8 +173,7 @@
 </template>
 
 <script>
-import { getFirestore, doc, getDoc } from "firebase/firestore";
-import { getAuth } from "firebase/auth";
+import { useGameLogic } from './useGameLogic.js';
 import axios from "axios";
 import tmi from "tmi.js";
 
@@ -195,52 +194,53 @@ export default {
     ProgressBar,
     LiveRoundScore,
   },
+  setup() {
+    const {
+      channelName,
+      accessToken,
+      timeLeft,
+      sortedScores,
+      progressBarWidth,
+      reversedCorrectGuess,
+      reversedIncorrectGuess,
+      correctGuess,
+      incorrectGuess,
+      scores,
+      sounds,
+    } = useGameLogic();
+
+    return {
+      channelName,
+      accessToken,
+      timeLeft,
+      sortedScores,
+      progressBarWidth,
+      reversedCorrectGuess,
+      reversedIncorrectGuess,
+      correctGuess,
+      incorrectGuess,
+      scores,
+      sounds
+    };
+  },
   data() {
     return {
       client: null,
-      timeLeft: 240,
       timer: null,
-      channelName: "",
-      correctGuess: [],
-      incorrectGuess: [],
       messages: [],
       word: "",
       catGram: "",
       previousWord: "",
       revealedWord: "",
       revealInterval: 5,
-      scores: {},
       totalScore: 0,
       lock: false,
       otterImage,
       cartoonTroutImage,
       userMessage: "",
-      sounds: [
-        new Audio("/sounds/fish.wav"),
-        new Audio("/sounds/fishing.wav"),
-        new Audio("/sounds/pole.wav"),
-      ],
     };
   },
   computed: {
-    sortedScores() {
-      const scoresArray = Object.keys(this.scores).map((username) => ({
-        username,
-        score: this.scores[username],
-      }));
-      scoresArray.sort((a, b) => b.score - a.score);
-      return scoresArray;
-    },
-    progressBarWidth() {
-      const initialTime = 240;
-      return `${(this.timeLeft / initialTime) * 100}%`;
-    },
-    reversedCorrectGuess() {
-      return [...this.correctGuess].reverse();
-    },
-    reversedIncorrectGuess() {
-      return [...this.incorrectGuess].reverse();
-    },
     unrevealedLetters() {
       const unrevealed = [];
       for (let i = 1; i < this.word.length; i++) {
@@ -249,7 +249,7 @@ export default {
         }
       }
       return this.shuffleArray(unrevealed);
-    },
+    }
   },
   created() {
     this.fetchChannelNameAndConnect();
@@ -265,19 +265,7 @@ export default {
       return array;
     },
     async fetchChannelNameAndConnect() {
-      const auth = getAuth();
-      const db = getFirestore();
-      const user = auth.currentUser;
-      if (user) {
-        const userDoc = doc(db, "users", user.uid);
-        const docSnap = await getDoc(userDoc);
-        if (docSnap.exists()) {
-          this.channelName = docSnap.data().twitchChannelName;
-          this.connectChat(this.channelName);
-        } else {
-          console.log("No such document!");
-        }
-      }
+      this.connectChat(this.channelName, this.accessToken);
     },
     async fetchWordAndDefinition() {
       try {
@@ -350,7 +338,7 @@ export default {
         if (this.timeLeft > 0) {
           this.timeLeft--;
           if (this.timeLeft === 4) {
-            this.sounds[2].play();
+            this.sounds[0].play();
           }
         } else {
           this.previousWord = this.word;

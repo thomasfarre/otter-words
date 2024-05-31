@@ -215,8 +215,7 @@
 </template>
 
 <script>
-import { getFirestore, doc, getDoc } from "firebase/firestore";
-import { getAuth } from "firebase/auth";
+import { useGameLogic } from './useGameLogic.js';
 import axios from "axios";
 import tmi from "tmi.js";
 
@@ -237,21 +236,44 @@ export default {
     ProgressBar,
     LiveRoundScore,
   },
+  setup() {
+    const {
+      channelName,
+      accessToken,
+      timeLeft,
+      sortedScores,
+      progressBarWidth,
+      reversedCorrectGuess,
+      reversedIncorrectGuess,
+      correctGuess,
+      incorrectGuess,
+      scores,
+      sounds,
+    } = useGameLogic();
+
+    return {
+      channelName,
+      accessToken,
+      timeLeft,
+      sortedScores,
+      progressBarWidth,
+      reversedCorrectGuess,
+      reversedIncorrectGuess,
+      correctGuess,
+      incorrectGuess,
+      scores,
+      sounds
+    };
+  },
   data() {
     return {
       client: null,
-      timeLeft: 240,
       timer: null,
-      channelName: "",
-      accessToken: "",
-      correctGuess: [],
-      incorrectGuess: [],
       messages: [],
       word: "",
       definition: "",
       catGram: "",
       previousWord: "",
-      scores: {},
       totalScore: 0,
       lock: false,
       hintsUsed: 0,
@@ -259,32 +281,7 @@ export default {
       otterImage,
       cartoonTroutImage,
       userMessage: "",
-      sounds: [
-        new Audio("/sounds/fish.wav"),
-        new Audio("/sounds/fishing.wav"),
-        new Audio("/sounds/pole.wav"),
-      ],
     };
-  },
-  computed: {
-    sortedScores() {
-      const scoresArray = Object.keys(this.scores).map((username) => ({
-        username,
-        score: this.scores[username],
-      }));
-      scoresArray.sort((a, b) => b.score - a.score);
-      return scoresArray;
-    },
-    progressBarWidth() {
-      const initialTime = 240;
-      return `${(this.timeLeft / initialTime) * 100}%`;
-    },
-    reversedCorrectGuess() {
-      return [...this.correctGuess].reverse();
-    },
-    reversedIncorrectGuess() {
-      return [...this.incorrectGuess].reverse();
-    },
   },
   created() {
     this.fetchChannelNameAndConnect();
@@ -293,26 +290,13 @@ export default {
   },
   methods: {
     async fetchChannelNameAndConnect() {
-      const auth = getAuth();
-      const db = getFirestore();
-      const user = auth.currentUser;
-      if (user) {
-        const userDoc = doc(db, "users", user.uid);
-        const docSnap = await getDoc(userDoc);
-        if (docSnap.exists()) {
-          this.channelName = docSnap.data().twitchChannelName;
-          this.accessToken = docSnap.data().twitchAccessToken; // Retrieve the token
-          this.connectChat(this.channelName, this.accessToken);
-        } else {
-          console.log("No such document!");
-        }
-      }
+      this.connectChat(this.channelName, this.accessToken);
     },
     sendMessageToTwitchChat(message) {
       if (this.client && this.channelName) {
         setTimeout(() => {
           this.client.say(this.channelName, message);
-        }, 3000); // 3000 milliseconds = 3 seconds
+        }, 3000);
       }
     },
     async fetchWordAndDefinition() {
@@ -350,7 +334,7 @@ export default {
         if (this.timeLeft > 0) {
           this.timeLeft--;
           if (this.timeLeft === 4) {
-            this.sounds[2].play();
+            this.sounds[0].play();
           }
         } else {
           this.previousWord = this.word;
@@ -391,7 +375,7 @@ export default {
         if (!this.scores[username]) {
           this.scores[username] = 0;
         }
-        this.sounds[0].play();
+        this.sounds[2].play();
         this.scores[username] += 10;
         this.totalScore += 10;
         this.correctGuess.push(correctGuess);
