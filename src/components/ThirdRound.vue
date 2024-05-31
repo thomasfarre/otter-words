@@ -276,6 +276,7 @@ export default {
         const keys = Object.keys(words).filter((key) => key.length >= 8);
         const randomKey = keys[Math.floor(Math.random() * keys.length)];
         this.word = randomKey;
+        console.log(this.word);
         this.catGram = words[randomKey].catGram;
         this.revealedWord = this.word[0] + "_".repeat(this.word.length - 1);
         this.startRevealTimer();

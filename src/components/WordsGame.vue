@@ -110,7 +110,7 @@
               <span>
                 Choix des mini-jeux présents
               </span>
-              <div class="pt-2 space-y-4">
+              <div class="grid grid-cols-2 gap-2 pt-2">
                 <div v-for="round in availableRounds" :key="round.id" class="flex items-center">
                   <div class="flex items-center space-x-2">
                     <button type="button" :id="'round-' + round.id" @click="toggleRound(round.id)" :class="['relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer w-11 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:ring-offset-2',
@@ -141,6 +141,7 @@
       <SecondRound v-if="gameStarted && currentRound === 2" @round-ended="handleRoundEnded"
         :key="'second-' + roundKey" />
       <ThirdRound v-if="gameStarted && currentRound === 3" @round-ended="handleRoundEnded" :key="'third-' + roundKey" />
+      <FourthRound v-if="gameStarted && currentRound === 4" @round-ended="handleRoundEnded" :key="'fourth-' + roundKey" />
     </div>
 
     <div v-if="gameEnded && endGameModal"
@@ -234,6 +235,8 @@ import { useStore } from '../store/useStore';
 import FirstRound from "./FirstRound.vue";
 import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
+import FourthRound from "./FourthRound.vue";
+
 import ScoreDashboard from "./ScoreDashboard.vue";
 
 import iconImage from "/public/images/cartoon_trout.webp";
@@ -247,6 +250,7 @@ export default {
     FirstRound,
     SecondRound,
     ThirdRound,
+    FourthRound,
     ScoreDashboard
   },
   data() {
@@ -270,9 +274,11 @@ export default {
       availableRounds: [
         { id: 1, name: 'Lettre + Catégorie', component: 'FirstRound' },
         { id: 2, name: 'Définitions', component: 'SecondRound' },
-        { id: 3, name: 'Pendu', component: 'ThirdRound' }
+        { id: 3, name: 'Pendu', component: 'ThirdRound' },
+        { id: 4, name: 'Synonyme', component: 'FourthRound' }
+
       ],
-      selectedRounds: [1, 2, 3],
+      selectedRounds: [1, 2, 3, 4],
       showDashboard: false
     };
   },

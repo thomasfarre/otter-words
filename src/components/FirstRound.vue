@@ -277,6 +277,7 @@ export default {
           categoryLetters[Math.floor(Math.random() * categoryLetters.length)];
         const wordsByLetter = response.data[this.startLetter] || [];
         this.foundWords = wordsByLetter;
+        console.log(this.foundWords)
       } catch (error) {
         console.error("Failed to fetch data:", error);
         this.definition = "Failed to load definition.";
