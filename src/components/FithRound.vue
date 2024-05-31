@@ -48,7 +48,7 @@
                   />
                 </svg>
               </button>
-              <span class="text-xs italic text-gray-500"> Change Letters </span>
+              <span class="text-xs italic text-gray-500"> O secours c tro dur </span>
             </div>
             <LiveRoundScore
               :totalScore="totalScore"
