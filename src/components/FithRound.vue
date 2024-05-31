@@ -319,7 +319,6 @@ export default {
         } else {
           clearInterval(this.timer);
           clearInterval(this.letterTimer);
-          this.endRound();
         }
       }, 1000);
     },

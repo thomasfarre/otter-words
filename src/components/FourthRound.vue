@@ -312,7 +312,6 @@ export default {
         } else {
           clearInterval(this.timer);
           clearInterval(this.categoryTimer);
-          this.endRound();
         }
       }, 1000);
     },
