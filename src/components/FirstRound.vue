@@ -2,9 +2,7 @@
   <div v-if="timeLeft > 0" class="text-center">
     <div>
       <div>
-        <div
-          class="mx-auto bg-white rounded-xl max-w-prose"
-        >
+        <div class="mx-auto bg-white rounded-xl max-w-prose">
           <div class="relative px-6 pt-3 pb-2">
             <ProgressBar
               :progressBarWidth="progressBarWidth"
@@ -20,9 +18,7 @@
               </span>
             </div>
 
-            <div
-              class="flex flex-col items-center justify-center pt-4 space-y-1"
-            >
+            <div class="flex flex-col items-center justify-center pt-4 space-y-1">
               <span class="text-xs italic text-gray-500"> commençant par </span>
               <div class="px-2 rounded-md bg-amber-400 w-fit">
                 <transition name="slide-fade" mode="out-in">
@@ -80,7 +76,7 @@
           class="p-2 text-gray-700 border rounded-md bg-amber-50 placeholder:text-gray-500"
         />
       </div>
-      <FoundWords :correctGuess="reversedCorrectGuess" />
+      <FoundWords :correct-guess="reversedCorrectGuess" />
     </div>
     <div class="mt-8">
       <span class="text-xl italic font-bold text-emerald-50 font-poppins">
@@ -173,8 +169,7 @@
 </template>
 
 <script>
-import { getFirestore, doc, getDoc } from "firebase/firestore";
-import { getAuth } from "firebase/auth";
+import { useGameLogic } from './useGameLogic.js';
 import axios from "axios";
 import tmi from "tmi.js";
 
@@ -182,7 +177,6 @@ import FoundWords from './common/FoundWords.vue';
 import EndOfRound from './common/EndOfRound.vue';
 import ProgressBar from './common/ProgressBar.vue';
 import LiveRoundScore from './common/LiveRoundScore.vue';
-
 
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
@@ -196,51 +190,50 @@ export default {
     ProgressBar,
     LiveRoundScore
   },
+  setup() {
+    const {
+      channelName,
+      accessToken,
+      timeLeft,
+      sortedScores,
+      progressBarWidth,
+      reversedCorrectGuess,
+      reversedIncorrectGuess,
+      correctGuess,
+      incorrectGuess,
+      scores,
+      sounds,
+    } = useGameLogic();
+
+    return {
+      channelName,
+      accessToken,
+      timeLeft,
+      sortedScores,
+      progressBarWidth,
+      reversedCorrectGuess,
+      reversedIncorrectGuess,
+      correctGuess,
+      incorrectGuess,
+      scores,
+      sounds
+    };
+  },
   data() {
     return {
       client: null,
-      timeLeft: 240,
       timer: null,
       categoryTimer: null,
       messages: [],
-      channelName: "",
-      correctGuess: [],
-      incorrectGuess: [],
       foundWords: [],
       selectedCategory: "",
       startLetter: "",
-      scores: {},
       totalScore: 0,
       lock: false,
-      otterImage,
-      cartoonTroutImage,
-      sounds: [
-        new Audio("/sounds/pole.wav"),
-        new Audio("/sounds/fishing.wav"),
-        new Audio("/sounds/fish.wav"),
-      ],
       userMessage: '',
+      cartoonTroutImage,
+      otterImage,
     };
-  },
-  computed: {
-    sortedScores() {
-      const scoresArray = Object.keys(this.scores).map((username) => ({
-        username,
-        score: this.scores[username],
-      }));
-      scoresArray.sort((a, b) => b.score - a.score);
-      return scoresArray;
-    },
-    progressBarWidth() {
-      const initialTime = 240;
-      return `${(this.timeLeft / initialTime) * 100}%`;
-    },
-    reversedCorrectGuess() {
-      return [...this.correctGuess].reverse();
-    },
-    reversedIncorrectGuess() {
-      return [...this.incorrectGuess].reverse();
-    },
   },
   created() {
     this.fetchChannelNameAndConnect();
@@ -253,23 +246,11 @@ export default {
       if (this.timeLeft % 30 === 0) {
         this.selectRandomCategoryAndLetter();
       }
-    }, 1000); // Check every second
+    }, 1000);
   },
   methods: {
     async fetchChannelNameAndConnect() {
-      const auth = getAuth();
-      const db = getFirestore();
-      const user = auth.currentUser;
-      if (user) {
-        const userDoc = doc(db, "users", user.uid);
-        const docSnap = await getDoc(userDoc);
-        if (docSnap.exists()) {
-          this.channelName = docSnap.data().twitchChannelName;
-          this.connectChat(this.channelName);
-        } else {
-          console.log("No such document!");
-        }
-      }
+      this.connectChat(this.channelName, this.accessToken);
     },
     async selectRandomCategoryAndLetter() {
       const categories = [
@@ -302,18 +283,13 @@ export default {
       }
     },
     normalizeText(text) {
-      return text
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase();
+      return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
     },
     async checkGuess(message, username) {
       if (this.lock) return;
       this.lock = true;
       const normalizedMessage = this.normalizeText(message);
-      const lowerCaseFoundWords = this.foundWords.map((word) =>
-        this.normalizeText(word)
-      );
+      const lowerCaseFoundWords = this.foundWords.map(word => this.normalizeText(word));
       if (lowerCaseFoundWords.includes(normalizedMessage)) {
         this.correctGuess.push({ text: message, username });
         this.sounds[2].play();
@@ -322,14 +298,9 @@ export default {
         }
         this.scores[username] += 5;
         this.totalScore += 5;
-        this.foundWords = this.foundWords.filter(
-          (word) => this.normalizeText(word) !== normalizedMessage
-        );
+        this.foundWords = this.foundWords.filter(word => this.normalizeText(word) !== normalizedMessage);
       } else {
-        this.incorrectGuess.push({
-          text: message,
-          id: this.incorrectGuess.length + 1,
-        });
+        this.incorrectGuess.push({ text: message, id: this.incorrectGuess.length + 1 });
       }
       this.lock = false;
     },
@@ -352,17 +323,22 @@ export default {
         } else {
           clearInterval(this.timer);
           clearInterval(this.categoryTimer);
+          this.endRound();
         }
       }, 1000);
     },
     endRound() {
+      if (this.client) {
+        this.client.disconnect();
+      }
+      clearInterval(this.timer);
       clearInterval(this.categoryTimer);
       this.$emit("round-ended", {
         total: this.totalScore,
         scores: this.scores,
       });
     },
-    connectChat(channel) {
+    connectChat(channel, accessToken) {
       if (this.client) {
         this.client.disconnect();
       }
@@ -371,11 +347,15 @@ export default {
           secure: true,
           reconnect: true,
         },
+        identity: {
+          username: channel,
+          password: `oauth:${accessToken}`, // Use the OAuth token
+        },
         channels: [channel],
       };
       this.client = new tmi.Client(opts);
       this.client.on("message", (channel, tags, message, self) => {
-        if (self) return; // Ignore messages from the bot itself
+        if (self) return;
         this.messages.push({
           id: this.messages.length + 1,
           username: tags["display-name"],
@@ -385,36 +365,19 @@ export default {
       });
       this.client.connect().catch(console.error);
     },
-    // Need to change this function
     formatCategories(selectedCategory) {
-      console.log(selectedCategory);
-      if (selectedCategory === "animaux") {
-        return "animaux";
-      }
-      if (selectedCategory === "anatomie") {
-        return "parties du corps";
-      }
-      if (selectedCategory === "fromages") {
-        return "fromages";
-      }
-      if (selectedCategory === "prenoms") {
-        return "prénoms";
-      }
-      if (selectedCategory === "metiers") {
-        return "métiers";
-      }
-      if (selectedCategory === "pays") {
-        return "pays";
-      }
-      if (selectedCategory === "vegetaux") {
-        return "vegetaux";
-      }
-      if (selectedCategory === "qualitedefaut") {
-        return "qualitées & défauts";
-      }
-      if (selectedCategory === "adverbes") {
-        return "adverbes en -ment";
-      }
+      const categoryMap = {
+        animaux: "animaux",
+        anatomie: "parties du corps",
+        fromages: "fromages",
+        prenoms: "prénoms",
+        metiers: "métiers",
+        pays: "pays",
+        vegetaux: "végétaux",
+        qualitedefaut: "qualités & défauts",
+        adverbes: "adverbes en -ment",
+      };
+      return categoryMap[selectedCategory] || selectedCategory;
     },
   },
   beforeUnmount() {
@@ -426,6 +389,7 @@ export default {
   },
 };
 </script>
+
 
 <style>
 .slide-fade-enter-active,

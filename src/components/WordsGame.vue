@@ -229,6 +229,8 @@
 <script>
 import { getFirestore, collection, query, where, getDocs, addDoc, updateDoc, doc, getDoc, setDoc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
+import { useStore } from '../store/useStore';
+
 import FirstRound from "./FirstRound.vue";
 import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
@@ -320,6 +322,11 @@ export default {
         const docSnap = await getDoc(userDoc);
         if (docSnap.exists()) {
           this.channelName = docSnap.data().twitchChannelName;
+          const { setChannelName } = useStore();
+          setChannelName(this.channelName);
+          this.accessToken = docSnap.data().twitchAccessToken;
+          const { setAccessToken } = useStore();
+          setAccessToken(this.accessToken);
           const teamRef = docSnap.data().teamId;
           if (teamRef) {
             const teamSnap = await getDoc(teamRef);
