@@ -142,6 +142,7 @@
         :key="'second-' + roundKey" />
       <ThirdRound v-if="gameStarted && currentRound === 3" @round-ended="handleRoundEnded" :key="'third-' + roundKey" />
       <FourthRound v-if="gameStarted && currentRound === 4" @round-ended="handleRoundEnded" :key="'fourth-' + roundKey" />
+      <FithRound v-if="gameStarted && currentRound === 5" @round-ended="handleRoundEnded" :key="'fith-' + roundKey" />
     </div>
 
     <div v-if="gameEnded && endGameModal"
@@ -236,6 +237,8 @@ import FirstRound from "./FirstRound.vue";
 import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
 import FourthRound from "./FourthRound.vue";
+import FithRound from "./FithRound.vue";
+
 
 import ScoreDashboard from "./ScoreDashboard.vue";
 
@@ -251,6 +254,7 @@ export default {
     SecondRound,
     ThirdRound,
     FourthRound,
+    FithRound,
     ScoreDashboard
   },
   data() {
@@ -275,10 +279,11 @@ export default {
         { id: 1, name: 'Lettre + Catégorie', component: 'FirstRound' },
         { id: 2, name: 'Définitions', component: 'SecondRound' },
         { id: 3, name: 'Pendu', component: 'ThirdRound' },
-        { id: 4, name: 'Synonyme', component: 'FourthRound' }
+        { id: 4, name: 'Synonyme', component: 'FourthRound' },
+        { id: 5, name: 'Scrabble', component: 'FithRound' }
 
       ],
-      selectedRounds: [1, 2, 3, 4],
+      selectedRounds: [1, 2, 3, 4, 5],
       showDashboard: false
     };
   },
@@ -297,7 +302,6 @@ export default {
       const auth = getAuth();
       const user = auth.currentUser;
       if (!user) {
-        console.log("No user is logged in.");
         return;
       }
 
@@ -309,15 +313,12 @@ export default {
           bestGlobalScore: 0,
           displayName: this.teamName
         });
-        console.log("Team created with name:", this.teamName);
       }
 
-      // Update the user's document to link to the new team
       const userRef = doc(db, "users", user.uid);
       await updateDoc(userRef, {
         teamId: teamRef
       });
-      console.log("User's teamId updated.");
     },
     async fetchChannelNameAndConnect() {
       const auth = getAuth();
@@ -398,7 +399,6 @@ export default {
               await updateDoc(teamRef, {
                 bestGlobalScore: this.finalScore
               });
-              console.log("Best global score updated.");
             }
           }
         }
@@ -408,14 +408,14 @@ export default {
       let sortedSelectedRounds = this.selectedRounds.sort((a, b) => a - b);
       let currentIndex = sortedSelectedRounds.indexOf(this.currentRound);
         this.finalScore += data.total;
-        this.updateScores(data.scores); // Update cumulative scores
+        this.updateScores(data.scores);
       if (currentIndex < sortedSelectedRounds.length - 1) {
         this.currentRound = sortedSelectedRounds[currentIndex + 1];
       } else {
         this.gameStarted = false;
         this.gameEnded = true;
         this.endGameModal = true;
-        await this.updatePlayerScores(); // Update player scores here
+        await this.updatePlayerScores();
         await this.updateBestGlobalScore();
       }
     },
@@ -442,7 +442,6 @@ export default {
           const querySnapshot = await getDocs(playerQuery);
 
           if (querySnapshot.empty) {
-            // Create a new player document if it doesn't exist
             await addDoc(playersCollection, {
               displayName: username,
               bestScore: score
@@ -452,13 +451,9 @@ export default {
             querySnapshot.forEach(async (playerDoc) => {
               const playerData = playerDoc.data();
               if (score > playerData.bestScore) {
-                // Update the best score if the new score is higher
                 await updateDoc(playerDoc.ref, {
                   bestScore: score
                 });
-                console.log(`Player ${username}'s best score updated to ${score}`);
-              } else {
-                console.log(`Player ${username} already has a higher or equal score (${playerData.bestScore}) compared to the new score (${score})`);
               }
             });
           }
