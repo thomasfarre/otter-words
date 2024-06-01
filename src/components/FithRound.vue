@@ -242,8 +242,18 @@ export default {
       this.connectChat(this.channelName, this.accessToken);
     },
     selectRandomLetters() {
-      const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-      this.randomLetters = Array.from({ length: 12 }, () => letters[Math.floor(Math.random() * letters.length)]);
+      const consonants = "BCDFGHJKLMNPQRSTVWXYZ";
+      const vowels = "AEIOU";
+      const letters = [];
+      const totalLetters = 13;
+      const numVowels = Math.floor(totalLetters / 3);
+      for (let i = 0; i < numVowels; i++) {
+        letters.push(vowels[Math.floor(Math.random() * vowels.length)]);
+      }
+      for (let i = 0; i < totalLetters - numVowels; i++) {
+        letters.push(consonants[Math.floor(Math.random() * consonants.length)]);
+      }
+      this.randomLetters = letters.sort(() => Math.random() - 0.5);
       this.fetchValidWords();
     },
     async fetchValidWords() {
