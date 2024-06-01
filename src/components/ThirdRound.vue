@@ -197,7 +197,6 @@ export default {
   setup() {
     const {
       channelName,
-      accessToken,
       timeLeft,
       sortedScores,
       progressBarWidth,
@@ -211,7 +210,6 @@ export default {
 
     return {
       channelName,
-      accessToken,
       timeLeft,
       sortedScores,
       progressBarWidth,
@@ -265,7 +263,7 @@ export default {
       return array;
     },
     async fetchChannelNameAndConnect() {
-      this.connectChat(this.channelName, this.accessToken);
+      this.connectChat(this.channelName);
     },
     async fetchWordAndDefinition() {
       try {

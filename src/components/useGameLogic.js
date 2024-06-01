@@ -41,7 +41,6 @@ export function useGameLogic() {
 
   return {
     channelName: computed(() => state.channelName),
-    accessToken: computed(() => state.accessToken),
     timeLeft,
     sortedScores,
     progressBarWidth,

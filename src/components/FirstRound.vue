@@ -194,7 +194,6 @@ export default {
   setup() {
     const {
       channelName,
-      accessToken,
       timeLeft,
       sortedScores,
       progressBarWidth,
@@ -208,7 +207,6 @@ export default {
 
     return {
       channelName,
-      accessToken,
       timeLeft,
       sortedScores,
       progressBarWidth,
@@ -258,7 +256,7 @@ export default {
   },
   methods: {
     async fetchChannelNameAndConnect() {
-      this.connectChat(this.channelName, this.accessToken);
+      this.connectChat(this.channelName);
     },
     async selectRandomCategoryAndLetter() {
       const categories = [
@@ -364,7 +362,7 @@ export default {
         },
       });
     },
-    connectChat(channel, accessToken) {
+    connectChat(channel) {
       if (this.client) {
         this.client.disconnect();
       }
@@ -372,10 +370,6 @@ export default {
         connection: {
           secure: true,
           reconnect: true,
-        },
-        identity: {
-          username: channel,
-          password: `oauth:${accessToken}`, // Use the OAuth token
         },
         channels: [channel],
       };

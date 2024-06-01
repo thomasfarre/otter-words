@@ -331,9 +331,6 @@ export default {
           this.channelName = docSnap.data().twitchChannelName;
           const { setChannelName } = useStore();
           setChannelName(this.channelName);
-          this.accessToken = docSnap.data().twitchAccessToken;
-          const { setAccessToken } = useStore();
-          setAccessToken(this.accessToken);
           const teamRef = docSnap.data().teamId;
           if (teamRef) {
             const teamSnap = await getDoc(teamRef);

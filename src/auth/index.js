@@ -40,8 +40,6 @@ const auth = (() => {
 })();
 
 const provider = new OAuthProvider("oidc.twitch");
-provider.addScope("chat:edit");
-provider.addScope("chat:read");
 const db = initializeFirestore(app, {});
 
 export const signInWithTwitch = () => {
@@ -65,13 +63,12 @@ export const handleRedirect = async () => {
       if (!userSnap.exists()) {
         await setDoc(userDocRef, {
           twitchChannelName: channelName,
-          twitchAccessToken: accessToken, // Store the token
           teamId: null,
         });
       } else {
         await setDoc(
           userDocRef,
-          { twitchChannelName: channelName, twitchAccessToken: accessToken },
+          { twitchChannelName: channelName },
           { merge: true }
         );
       }

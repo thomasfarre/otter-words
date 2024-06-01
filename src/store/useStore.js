@@ -3,7 +3,6 @@ import { reactive, readonly } from "vue";
 
 const state = reactive({
   channelName: "",
-  accessToken: ""
 });
 
 export function useStore() {
@@ -12,9 +11,6 @@ export function useStore() {
 
     setChannelName(name) {
       state.channelName = name;
-    },
-    setAccessToken(token) {
-      state.accessToken = token;
     },
   };
 }
