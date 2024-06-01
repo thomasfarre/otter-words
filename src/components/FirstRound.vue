@@ -163,6 +163,7 @@
     <EndOfRound
       :totalScore="totalScore"
       :sortedScores="sortedScores"
+      :summary="summary"
       @end-round="endRound"
     />
   </div>
@@ -233,6 +234,11 @@ export default {
       userMessage: '',
       cartoonTroutImage,
       otterImage,
+      summary: {
+        startingLetters: [],
+        categories: [],
+        incorrectGuesses: [],
+      },
     };
   },
   created() {
@@ -240,11 +246,13 @@ export default {
     this.selectRandomCategoryAndLetter();
     this.startTimer();
     this.categoryTimer = setInterval(() => {
-      if (this.timeLeft % 30 === 4) {
-        this.sounds[0].play();
-      }
-      if (this.timeLeft % 30 === 0) {
-        this.selectRandomCategoryAndLetter();
+      if (this.timeLeft > 0) {
+        if (this.timeLeft % 30 === 4) {
+          this.sounds[0].play();
+        }
+        if (this.timeLeft % 30 === 0) {
+          this.selectRandomCategoryAndLetter();
+        }
       }
     }, 1000);
   },
@@ -266,6 +274,7 @@ export default {
       ];
       this.selectedCategory =
         categories[Math.floor(Math.random() * categories.length)];
+      this.summary.categories.push(this.selectedCategory);
       this.fetchValidWords();
     },
     async fetchValidWords() {
@@ -275,6 +284,12 @@ export default {
         const categoryLetters = response.data["Letters"];
         this.startLetter =
           categoryLetters[Math.floor(Math.random() * categoryLetters.length)];
+        this.summary.startingLetters.push(this.startLetter);
+        this.summary.incorrectGuesses.push({
+          category: this.selectedCategory,
+          letter: this.startLetter,
+          guesses: []
+        });
         const wordsByLetter = response.data[this.startLetter] || [];
         this.foundWords = wordsByLetter;
         console.log(this.foundWords)
@@ -302,6 +317,12 @@ export default {
         this.foundWords = this.foundWords.filter(word => this.normalizeText(word) !== normalizedMessage);
       } else {
         this.incorrectGuess.push({ text: message, id: this.incorrectGuess.length + 1 });
+        const currentGroup = this.summary.incorrectGuesses.find(
+          group => group.category === this.selectedCategory && group.letter === this.startLetter
+        );
+        if (currentGroup) {
+          currentGroup.guesses.push(message);
+        }
       }
       this.lock = false;
     },
@@ -322,8 +343,8 @@ export default {
         if (this.timeLeft > 0) {
           this.timeLeft--;
         } else {
-          clearInterval(this.timer);
           clearInterval(this.categoryTimer);
+          clearInterval(this.timer);
         }
       }, 1000);
     },
@@ -331,11 +352,16 @@ export default {
       if (this.client) {
         this.client.disconnect();
       }
-      clearInterval(this.timer);
       clearInterval(this.categoryTimer);
+      clearInterval(this.timer);
       this.$emit("round-ended", {
         total: this.totalScore,
         scores: this.scores,
+        summary: {
+          startingLetters: this.summary.startingLetters,
+          categories: this.summary.categories,
+          incorrectGuesses: this.summary.incorrectGuesses,
+        },
       });
     },
     connectChat(channel, accessToken) {
@@ -384,8 +410,8 @@ export default {
     if (this.client) {
       this.client.disconnect();
     }
-    clearInterval(this.timer);
     clearInterval(this.categoryTimer);
+    clearInterval(this.timer);
   },
 };
 </script>
