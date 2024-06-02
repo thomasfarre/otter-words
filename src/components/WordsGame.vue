@@ -1,7 +1,6 @@
 <template>
-  <div class="min-h-screen bg-cover" :style="{ backgroundImage: 'url(' + bgImage + ')' }">
+  <div class="min-h-screen bg-cover" :style="{ backgroundImage: `url(${bgImage})` }">
     <div class="absolute right-12 top-4">
-      <!-- Background music controls -->
       <button @click="toggleMusic">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
           class="w-6 h-6 text-white">
@@ -9,7 +8,7 @@
             d="M21 7.5V18M15 7.5V18M3 16.811V8.69c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 0 1 0 1.954l-7.108 4.061A1.125 1.125 0 0 1 3 16.811Z" />
         </svg>
       </button>
-      <audio ref="backgroundMusic" loop="true">
+      <audio ref="backgroundMusic" loop>
         <source :src="gameLoop" type="audio/mpeg" />
       </audio>
     </div>
@@ -212,8 +211,6 @@
       </div>
     </div>
 
-
-
     <div v-if="!gameStarted" class="absolute transform -translate-x-1/2 bottom-6 left-1/2">
       <div class="flex flex-col items-center justify-center space-y-1">
         <a class="flex items-center px-2 py-1 space-x-1 transition duration-300 ease-out bg-blue-50 rounded-xl hover:bg-blue-200" href="https://www.buymeacoffee.com/omarleomar" target="_blank">
@@ -228,7 +225,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, onMounted } from 'vue';
 import { getFirestore, collection, query, where, getDocs, addDoc, updateDoc, doc, getDoc, setDoc } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 import { useStore } from '../store/useStore';
@@ -238,228 +236,212 @@ import SecondRound from "./SecondRound.vue";
 import ThirdRound from "./ThirdRound.vue";
 import FourthRound from "./FourthRound.vue";
 import FithRound from "./FithRound.vue";
-
-
 import ScoreDashboard from "./ScoreDashboard.vue";
 
 import iconImage from "/public/images/cartoon_trout.webp";
 import bgImage from "/public/images/bg-loutre-2.jpg";
 import gameLoop from "/public/sounds/gameLoop.mp3";
 
+const channelName = ref('');
+const teamName = ref('');
+const teamExists = ref(false);
+const startGameModal = ref(false);
+const startTwitchModal = ref(false);
+const endGameModal = ref(true);
+const gameStarted = ref(false);
+const gameEnded = ref(false);
+const currentRound = ref(0);
+const roundKey = ref(0);
+const finalScore = ref(0);
+const detailedScores = ref([]);
+const playing = ref(true);
+const availableRounds = ref([
+  { id: 1, name: 'Lettre + Catégorie', component: 'FirstRound' },
+  { id: 2, name: 'Définitions', component: 'SecondRound' },
+  { id: 3, name: 'Pendu', component: 'ThirdRound' },
+  { id: 4, name: 'Synonyme', component: 'FourthRound' },
+  { id: 5, name: 'Scrabble', component: 'FithRound' }
+]);
+const selectedRounds = ref([1, 2, 3, 4, 5]);
+const showDashboard = ref(false);
+const backgroundMusic = ref(null);
 
-export default {
-  name: "WordsGame",
-  components: {
-    FirstRound,
-    SecondRound,
-    ThirdRound,
-    FourthRound,
-    FithRound,
-    ScoreDashboard
-  },
-  data() {
-    return {
-      channelName: '',
-      teamName: '',
-      teamExists: false,
-      startGameModal: false,
-      startTwitchModal: false,
-      endGameModal: true,
-      gameStarted: false,
-      gameEnded: false,
-      currentRound: 0,
-      roundKey: 0,
-      finalScore: 0,
-      detailedScores: [],
-      bgImage,
-      iconImage,
-      gameLoop,
-      playing: true,
-      availableRounds: [
-        { id: 1, name: 'Lettre + Catégorie', component: 'FirstRound' },
-        { id: 2, name: 'Définitions', component: 'SecondRound' },
-        { id: 3, name: 'Pendu', component: 'ThirdRound' },
-        { id: 4, name: 'Synonyme', component: 'FourthRound' },
-        { id: 5, name: 'Scrabble', component: 'FithRound' }
-
-      ],
-      selectedRounds: [1, 2, 3, 4, 5],
-      showDashboard: false
-    };
-  },
-  created() {
-    this.fetchChannelNameAndConnect();
-  },
-  methods: {
-    toggleMusic() {
-      this.playing = !this.playing;
-      this.playing
-        ? this.$refs.backgroundMusic.play()
-        : this.$refs.backgroundMusic.pause();
-    },
-    async createOrUpdateTeam() {
-      const db = getFirestore();
-      const auth = getAuth();
-      const user = auth.currentUser;
-      if (!user) {
-        return;
-      }
-
-      const teamRef = doc(db, "Teams", this.teamName);
-      const teamSnap = await getDoc(teamRef);
-
-      if (!teamSnap.exists()) {
-        await setDoc(teamRef, {
-          bestGlobalScore: 0,
-          displayName: this.teamName
-        });
-      }
-
-      const userRef = doc(db, "users", user.uid);
-      await updateDoc(userRef, {
-        teamId: teamRef
-      });
-    },
-    async fetchChannelNameAndConnect() {
-      const auth = getAuth();
-      const db = getFirestore();
-      const user = auth.currentUser;
-      if (user) {
-        const userDoc = doc(db, "users", user.uid);
-        const docSnap = await getDoc(userDoc);
-        if (docSnap.exists()) {
-          this.channelName = docSnap.data().twitchChannelName;
-          const { setChannelName } = useStore();
-          setChannelName(this.channelName);
-          const teamRef = docSnap.data().teamId;
-          if (teamRef) {
-            const teamSnap = await getDoc(teamRef);
-            if (teamSnap.exists()) {
-              this.teamExists = true;
-              this.teamName = teamSnap.data().displayName;
-            } else {
-              this.teamExists = false;
-            }
-          } else {
-            this.teamExists = false;
-          }
-        } else {
-          console.log("No such document!");
-          this.teamExists = false;
-        }
-      }
-    },
-    toggleRound(roundId) {
-      const index = this.selectedRounds.indexOf(roundId);
-      if (index === -1) {
-        this.selectedRounds.push(roundId);
-      } else {
-        this.selectedRounds.splice(index, 1);
-      }
-    },
-    async startGame() {
-      if (this.teamName.trim() === '') {
-        alert('Please enter a team name before starting the game.');
-        return;
-      }
-      await this.createOrUpdateTeam();
-      this.startGameModal = false;
-      this.startTwitchModal = false;
-      this.gameStarted = true;
-      this.gameEnded = false;
-      this.finalScore = 0;
-      this.playing
-        ? this.$refs.backgroundMusic.play()
-        : this.$refs.backgroundMusic.pause();
-      this.detailedScores = [];
-      this.currentRound = this.selectedRounds.sort((a, b) => a - b)[0] || 0;
-      this.roundKey++;
-    },
-    async updateBestGlobalScore() {
-      const auth = getAuth();
-      const db = getFirestore();
-      const user = auth.currentUser;
-      if (!user) {
-        console.log("No user is logged in.");
-        return;
-      }
-
-      const userDoc = doc(db, "users", user.uid);
-      const userSnap = await getDoc(userDoc);
-      if (userSnap.exists()) {
-        const teamRef = userSnap.data().teamId;
-        if (teamRef) {
-          const teamDoc = await getDoc(teamRef);
-          if (teamDoc.exists()) {
-            const currentBestScore = teamDoc.data().bestGlobalScore || 0;
-            if (this.finalScore > currentBestScore) {
-              await updateDoc(teamRef, {
-                bestGlobalScore: this.finalScore
-              });
-            }
-          }
-        }
-      }
-    },
-    async handleRoundEnded(data) {
-      let sortedSelectedRounds = this.selectedRounds.sort((a, b) => a - b);
-      let currentIndex = sortedSelectedRounds.indexOf(this.currentRound);
-        this.finalScore += data.total;
-        this.updateScores(data.scores);
-      if (currentIndex < sortedSelectedRounds.length - 1) {
-        this.currentRound = sortedSelectedRounds[currentIndex + 1];
-      } else {
-        this.gameStarted = false;
-        this.gameEnded = true;
-        this.endGameModal = true;
-        await this.updatePlayerScores();
-        await this.updateBestGlobalScore();
-      }
-    },
-
-    updateScores(newScores) {
-      Object.keys(newScores).forEach(username => {
-        let existingUser = this.detailedScores.find(user => user.username === username);
-        if (existingUser) {
-          existingUser.score += newScores[username];
-        } else {
-          this.detailedScores.push({ username: username, score: newScores[username] });
-        }
-      });
-      this.detailedScores.sort((a, b) => b.score - a.score);
-    },
-
-    async updatePlayerScores() {
-      try {
-        const db = getFirestore();
-        const playersCollection = collection(db, "Players");
-
-        for (const { username, score } of this.detailedScores) {
-          const playerQuery = query(playersCollection, where("displayName", "==", username));
-          const querySnapshot = await getDocs(playerQuery);
-
-          if (querySnapshot.empty) {
-            await addDoc(playersCollection, {
-              displayName: username,
-              bestScore: score
-            });
-            console.log(`New player document created for ${username} with score ${score}`);
-          } else {
-            querySnapshot.forEach(async (playerDoc) => {
-              const playerData = playerDoc.data();
-              if (score > playerData.bestScore) {
-                await updateDoc(playerDoc.ref, {
-                  bestScore: score
-                });
-              }
-            });
-          }
-        }
-      } catch (error) {
-        console.error("Error updating player scores:", error);
-      }
-    }
-
+const toggleMusic = () => {
+  playing.value = !playing.value;
+  if (playing.value) {
+    backgroundMusic.value.play();
+  } else {
+    backgroundMusic.value.pause();
   }
 };
+
+const createOrUpdateTeam = async () => {
+  const db = getFirestore();
+  const auth = getAuth();
+  const user = auth.currentUser;
+  if (!user) return;
+
+  const teamRef = doc(db, "Teams", teamName.value);
+  const teamSnap = await getDoc(teamRef);
+
+  if (!teamSnap.exists()) {
+    await setDoc(teamRef, {
+      bestGlobalScore: 0,
+      displayName: teamName.value
+    });
+  }
+
+  const userRef = doc(db, "users", user.uid);
+  await updateDoc(userRef, {
+    teamId: teamRef
+  });
+};
+
+const fetchChannelNameAndConnect = async () => {
+  const auth = getAuth();
+  const db = getFirestore();
+  const user = auth.currentUser;
+  if (user) {
+    const userDoc = doc(db, "users", user.uid);
+    const docSnap = await getDoc(userDoc);
+    if (docSnap.exists()) {
+      channelName.value = docSnap.data().twitchChannelName;
+      const { setChannelName } = useStore();
+      setChannelName(channelName.value);
+      const teamRef = docSnap.data().teamId;
+      if (teamRef) {
+        const teamSnap = await getDoc(teamRef);
+        if (teamSnap.exists()) {
+          teamExists.value = true;
+          teamName.value = teamSnap.data().displayName;
+        } else {
+          teamExists.value = false;
+        }
+      } else {
+        teamExists.value = false;
+      }
+    } else {
+      console.log("No such document!");
+      teamExists.value = false;
+    }
+  }
+};
+
+const toggleRound = (roundId) => {
+  const index = selectedRounds.value.indexOf(roundId);
+  if (index === -1) {
+    selectedRounds.value.push(roundId);
+  } else {
+    selectedRounds.value.splice(index, 1);
+  }
+};
+
+const startGame = async () => {
+  if (teamName.value.trim() === '') {
+    alert('Please enter a team name before starting the game.');
+    return;
+  }
+  await createOrUpdateTeam();
+  startGameModal.value = false;
+  startTwitchModal.value = false;
+  gameStarted.value = true;
+  gameEnded.value = false;
+  finalScore.value = 0;
+  if (playing.value) {
+    backgroundMusic.value.play();
+  } else {
+    backgroundMusic.value.pause();
+  }
+  detailedScores.value = [];
+  currentRound.value = selectedRounds.value.sort((a, b) => a - b)[0] || 0;
+  roundKey.value++;
+};
+
+const updateBestGlobalScore = async () => {
+  const auth = getAuth();
+  const db = getFirestore();
+  const user = auth.currentUser;
+  if (!user) {
+    console.log("No user is logged in.");
+    return;
+  }
+
+  const userDoc = doc(db, "users", user.uid);
+  const userSnap = await getDoc(userDoc);
+  if (userSnap.exists()) {
+    const teamRef = userSnap.data().teamId;
+    if (teamRef) {
+      const teamDoc = await getDoc(teamRef);
+      if (teamDoc.exists()) {
+        const currentBestScore = teamDoc.data().bestGlobalScore || 0;
+        if (finalScore.value > currentBestScore) {
+          await updateDoc(teamRef, {
+            bestGlobalScore: finalScore.value
+          });
+        }
+      }
+    }
+  }
+};
+
+const handleRoundEnded = async (data) => {
+  const sortedSelectedRounds = selectedRounds.value.sort((a, b) => a - b);
+  const currentIndex = sortedSelectedRounds.indexOf(currentRound.value);
+  finalScore.value += data.total;
+  updateScores(data.scores);
+  if (currentIndex < sortedSelectedRounds.length - 1) {
+    currentRound.value = sortedSelectedRounds[currentIndex + 1];
+  } else {
+    gameStarted.value = false;
+    gameEnded.value = true;
+    endGameModal.value = true;
+    await updatePlayerScores();
+    await updateBestGlobalScore();
+  }
+};
+
+const updateScores = (newScores) => {
+  Object.keys(newScores).forEach(username => {
+    let existingUser = detailedScores.value.find(user => user.username === username);
+    if (existingUser) {
+      existingUser.score += newScores[username];
+    } else {
+      detailedScores.value.push({ username, score: newScores[username] });
+    }
+  });
+  detailedScores.value.sort((a, b) => b.score - a.score);
+};
+
+const updatePlayerScores = async () => {
+  try {
+    const db = getFirestore();
+    const playersCollection = collection(db, "Players");
+
+    for (const { username, score } of detailedScores.value) {
+      const playerQuery = query(playersCollection, where("displayName", "==", username));
+      const querySnapshot = await getDocs(playerQuery);
+
+      if (querySnapshot.empty) {
+        await addDoc(playersCollection, {
+          displayName: username,
+          bestScore: score
+        });
+        console.log(`New player document created for ${username} with score ${score}`);
+      } else {
+        querySnapshot.forEach(async (playerDoc) => {
+          const playerData = playerDoc.data();
+          if (score > playerData.bestScore) {
+            await updateDoc(playerDoc.ref, {
+              bestScore: score
+            });
+          }
+        });
+      }
+    }
+  } catch (error) {
+    console.error("Error updating player scores:", error);
+  }
+};
+
+onMounted(fetchChannelNameAndConnect);
 </script>
