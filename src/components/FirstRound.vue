@@ -181,7 +181,6 @@ import LiveRoundScore from './common/LiveRoundScore.vue';
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
 
-// Define emits
 const emit = defineEmits(['round-ended']);
 
 const {
