@@ -35,7 +35,7 @@
                   <span
                     class="text-2xl font-bold text-gray-800 uppercase"
                     :key="selectedCategory"
-                    >{{ formatCategories(this.selectedCategory) }}</span
+                    >{{ formatCategories(selectedCategory) }}</span
                   >
                 </transition>
               </div>
@@ -101,7 +101,6 @@
         <path
           fill="url(#a)"
           d="m0 60 21.8-10C43.6 40 87 20 131 21.7 174.5 23 218 47 262 58.3c43.5 11.7 87 11.7 131 15 43.4 3.7 87 9.7 131 10 43.3-.3 87-6.3 131-20C698.2 50 742 30 785 31.7c44.1 1.3 88 25.3 131 25 44 .3 88-23.7 131-23.4 43.9-.3 88 23.7 131 23.4 43.8.3 87-23.7 131-23.4 43.7-.3 87 23.7 131 30 43.6 6.7 87-3.3 131-5 43.5-1.3 87 4.7 131 0 43.5-5.3 87-21.3 131-18.3 43.4 3 87 27 131 25 43.3-2 87-28 131-43.3 43.2-14.7 87-18.7 130-10 44.1 8.3 88 28.3 131 41.6 44 13.7 88 19.7 131 23.4 43.9 3.3 88 3.3 131 0 43.8-3.7 87-9.7 131-23.4 43.7-13.3 87-33.3 131-30 43.6 3.7 87 29.7 131 40 43.5 9.7 87 3.7 109 0l21.8-3.3v40H0Z"
-          style="transform: translate(0, 0); opacity: 1"
         />
       </svg>
     </div>
@@ -154,7 +153,6 @@
         <path
           fill="url(#a)"
           d="m0 60 21.8-10C43.6 40 87 20 131 21.7 174.5 23 218 47 262 58.3c43.5 11.7 87 11.7 131 15 43.4 3.7 87 9.7 131 10 43.3-.3 87-6.3 131-20C698.2 50 742 30 785 31.7c44.1 1.3 88 25.3 131 25 44 .3 88-23.7 131-23.4 43.9-.3 88 23.7 131 23.4 43.8.3 87-23.7 131-23.4 43.7-.3 87 23.7 131 30 43.6 6.7 87-3.3 131-5 43.5-1.3 87 4.7 131 0 43.5-5.3 87-21.3 131-18.3 43.4 3 87 27 131 25 43.3-2 87-28 131-43.3 43.2-14.7 87-18.7 130-10 44.1 8.3 88 28.3 131 41.6 44 13.7 88 19.7 131 23.4 43.9 3.3 88 3.3 131 0 43.8-3.7 87-9.7 131-23.4 43.7-13.3 87-33.3 131-30 43.6 3.7 87 29.7 131 40 43.5 9.7 87 3.7 109 0l21.8-3.3v40H0Z"
-          style="transform: translate(0, 0); opacity: 1"
         />
       </svg>
     </div>
@@ -169,7 +167,8 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, onMounted, onBeforeUnmount, defineEmits } from 'vue';
 import { useGameLogic } from './useGameLogic.js';
 import axios from "axios";
 import tmi from "tmi.js";
@@ -182,233 +181,214 @@ import LiveRoundScore from './common/LiveRoundScore.vue';
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
 
-export default {
-  emits: ["round-ended"],
-  name: "FirstRound",
-  components: {
-    EndOfRound,
-    FoundWords,
-    ProgressBar,
-    LiveRoundScore
-  },
-  setup() {
-    const {
-      channelName,
-      timeLeft,
-      sortedScores,
-      progressBarWidth,
-      reversedCorrectGuess,
-      reversedIncorrectGuess,
-      correctGuess,
-      incorrectGuess,
-      scores,
-      sounds,
-    } = useGameLogic();
+// Define emits
+const emit = defineEmits(['round-ended']);
 
-    return {
-      channelName,
-      timeLeft,
-      sortedScores,
-      progressBarWidth,
-      reversedCorrectGuess,
-      reversedIncorrectGuess,
-      correctGuess,
-      incorrectGuess,
-      scores,
-      sounds
-    };
-  },
-  data() {
-    return {
-      client: null,
-      timer: null,
-      categoryTimer: null,
-      messages: [],
-      foundWords: [],
-      selectedCategory: "",
-      startLetter: "",
-      totalScore: 0,
-      lock: false,
-      userMessage: '',
-      cartoonTroutImage,
-      otterImage,
-      summary: {
-        startingLetters: [],
-        categories: [],
-        incorrectGuesses: [],
-      },
-    };
-  },
-  created() {
-    this.fetchChannelNameAndConnect();
-    this.selectRandomCategoryAndLetter();
-    this.startTimer();
-    this.categoryTimer = setInterval(() => {
-      if (this.timeLeft > 0) {
-        if (this.timeLeft % 30 === 4) {
-          this.sounds[0].play();
-        }
-        if (this.timeLeft % 30 === 0) {
-          this.selectRandomCategoryAndLetter();
-        }
-      }
-    }, 1000);
-  },
-  methods: {
-    async fetchChannelNameAndConnect() {
-      this.connectChat(this.channelName);
-    },
-    async selectRandomCategoryAndLetter() {
-      const categories = [
-        "animaux",
-        "metiers",
-        "prenoms",
-        "pays",
-        "adverbes",
-        "anatomie",
-        "fromages",
-        "qualitedefaut",
-        "vegetaux",
-      ];
-      this.selectedCategory =
-        categories[Math.floor(Math.random() * categories.length)];
-      this.summary.categories.push(this.selectedCategory);
-      this.fetchValidWords();
-    },
-    async fetchValidWords() {
-      try {
-        this.sounds[1].play();
-        const response = await axios.get(`/data/${this.selectedCategory}.json`);
-        const categoryLetters = response.data["Letters"];
-        this.startLetter =
-          categoryLetters[Math.floor(Math.random() * categoryLetters.length)];
-        this.summary.startingLetters.push(this.startLetter);
-        this.summary.incorrectGuesses.push({
-          category: this.selectedCategory,
-          letter: this.startLetter,
-          guesses: []
-        });
-        const wordsByLetter = response.data[this.startLetter] || [];
-        this.foundWords = wordsByLetter;
-        console.log(this.foundWords)
-      } catch (error) {
-        console.error("Failed to fetch data:", error);
-        this.definition = "Failed to load definition.";
-      }
-    },
-    normalizeText(text) {
-      return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
-    },
-    async checkGuess(message, username) {
-      if (this.lock) return;
-      this.lock = true;
-      const normalizedMessage = this.normalizeText(message);
-      const lowerCaseFoundWords = this.foundWords.map(word => this.normalizeText(word));
-      if (lowerCaseFoundWords.includes(normalizedMessage)) {
-        this.correctGuess.push({ text: message, username });
-        this.sounds[2].play();
-        if (!this.scores[username]) {
-          this.scores[username] = 0;
-        }
-        this.scores[username] += 5;
-        this.totalScore += 5;
-        this.foundWords = this.foundWords.filter(word => this.normalizeText(word) !== normalizedMessage);
-      } else {
-        this.incorrectGuess.push({ text: message, id: this.incorrectGuess.length + 1 });
-        const currentGroup = this.summary.incorrectGuesses.find(
-          group => group.category === this.selectedCategory && group.letter === this.startLetter
-        );
-        if (currentGroup) {
-          currentGroup.guesses.push(message);
-        }
-      }
-      this.lock = false;
-    },
-    handleUserMessage() {
-      if (this.userMessage.trim() !== "") {
-        const username = this.channelName;
-        this.messages.push({
-          id: this.messages.length + 1,
-          username: username,
-          text: this.userMessage,
-        });
-        this.checkGuess(this.userMessage, username);
-        this.userMessage = "";
-      }
-    },
-    startTimer() {
-      this.timer = setInterval(() => {
-        if (this.timeLeft > 0) {
-          this.timeLeft--;
-        } else {
-          clearInterval(this.categoryTimer);
-          clearInterval(this.timer);
-        }
-      }, 1000);
-    },
-    endRound() {
-      if (this.client) {
-        this.client.disconnect();
-      }
-      clearInterval(this.categoryTimer);
-      clearInterval(this.timer);
-      this.$emit("round-ended", {
-        total: this.totalScore,
-        scores: this.scores,
-        summary: {
-          startingLetters: this.summary.startingLetters,
-          categories: this.summary.categories,
-          incorrectGuesses: this.summary.incorrectGuesses,
-        },
-      });
-    },
-    connectChat(channel) {
-      if (this.client) {
-        this.client.disconnect();
-      }
-      const opts = {
-        connection: {
-          secure: true,
-          reconnect: true,
-        },
-        channels: [channel],
-      };
-      this.client = new tmi.Client(opts);
-      this.client.on("message", (channel, tags, message, self) => {
-        if (self) return;
-        this.messages.push({
-          id: this.messages.length + 1,
-          username: tags["display-name"],
-          text: message,
-        });
-        this.checkGuess(message, tags["display-name"]);
-      });
-      this.client.connect().catch(console.error);
-    },
-    formatCategories(selectedCategory) {
-      const categoryMap = {
-        animaux: "animaux",
-        anatomie: "parties du corps",
-        fromages: "fromages",
-        prenoms: "prénoms",
-        metiers: "métiers",
-        pays: "pays",
-        vegetaux: "végétaux",
-        qualitedefaut: "qualités & défauts",
-        adverbes: "adverbes en -ment",
-      };
-      return categoryMap[selectedCategory] || selectedCategory;
-    },
-  },
-  beforeUnmount() {
-    if (this.client) {
-      this.client.disconnect();
-    }
-    clearInterval(this.categoryTimer);
-    clearInterval(this.timer);
-  },
+const {
+  channelName,
+  timeLeft,
+  sortedScores,
+  progressBarWidth,
+  reversedCorrectGuess,
+  reversedIncorrectGuess,
+  correctGuess,
+  incorrectGuess,
+  scores,
+  sounds,
+} = useGameLogic();
+
+const client = ref(null);
+const timer = ref(null);
+const categoryTimer = ref(null);
+const messages = ref([]);
+const foundWords = ref([]);
+const selectedCategory = ref("");
+const startLetter = ref("");
+const totalScore = ref(0);
+const lock = ref(false);
+const userMessage = ref('');
+const summary = ref({
+  startingLetters: [],
+  categories: [],
+  incorrectGuesses: [],
+});
+
+const fetchChannelNameAndConnect = async () => {
+  connectChat(channelName.value);
 };
+
+const selectRandomCategoryAndLetter = async () => {
+  const categories = [
+    "animaux",
+    "metiers",
+    "prenoms",
+    "pays",
+    "adverbes",
+    "anatomie",
+    "fromages",
+    "qualitedefaut",
+    "vegetaux",
+  ];
+  selectedCategory.value = categories[Math.floor(Math.random() * categories.length)];
+  summary.value.categories.push(selectedCategory.value);
+  fetchValidWords();
+};
+
+const fetchValidWords = async () => {
+  try {
+    sounds.value[1]?.play();
+    const response = await axios.get(`/data/${selectedCategory.value}.json`);
+    const categoryLetters = response.data["Letters"];
+    startLetter.value = categoryLetters[Math.floor(Math.random() * categoryLetters.length)];
+    summary.value.startingLetters.push(startLetter.value);
+    summary.value.incorrectGuesses.push({
+      category: selectedCategory.value,
+      letter: startLetter.value,
+      guesses: []
+    });
+    const wordsByLetter = response.data[startLetter.value] || [];
+    foundWords.value = wordsByLetter;
+    console.log(foundWords.value);
+  } catch (error) {
+    console.error("Failed to fetch data:", error);
+  }
+};
+
+const normalizeText = (text) => {
+  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+};
+
+const checkGuess = async (message, username) => {
+  if (lock.value) return;
+  lock.value = true;
+  const normalizedMessage = normalizeText(message);
+  const lowerCaseFoundWords = foundWords.value.map(word => normalizeText(word));
+  if (lowerCaseFoundWords.includes(normalizedMessage)) {
+    correctGuess.value.push({ text: message, username });
+    sounds.value[2]?.play();
+    if (!scores.value[username]) {
+      scores.value[username] = 0;
+    }
+    scores.value[username] += 5;
+    totalScore.value += 5;
+    foundWords.value = foundWords.value.filter(word => normalizeText(word) !== normalizedMessage);
+  } else {
+    incorrectGuess.value.push({ text: message, id: incorrectGuess.value.length + 1 });
+    const currentGroup = summary.value.incorrectGuesses.find(
+      group => group.category === selectedCategory.value && group.letter === startLetter.value
+    );
+    if (currentGroup) {
+      currentGroup.guesses.push(message);
+    }
+  }
+  lock.value = false;
+};
+
+const handleUserMessage = () => {
+  if (userMessage.value.trim() !== "") {
+    const username = channelName.value;
+    messages.value.push({
+      id: messages.value.length + 1,
+      username: username,
+      text: userMessage.value,
+    });
+    checkGuess(userMessage.value, username);
+    userMessage.value = "";
+  }
+};
+
+const startTimer = () => {
+  timer.value = setInterval(() => {
+    if (timeLeft.value > 0) {
+      timeLeft.value--;
+    } else {
+      clearInterval(categoryTimer.value);
+      clearInterval(timer.value);
+    }
+  }, 1000);
+};
+
+const endRound = () => {
+  if (client.value) {
+    client.value.disconnect();
+  }
+  clearInterval(categoryTimer.value);
+  clearInterval(timer.value);
+  emit("round-ended", {
+    total: totalScore.value,
+    scores: scores.value,
+    summary: {
+      startingLetters: summary.value.startingLetters,
+      categories: summary.value.categories,
+      incorrectGuesses: summary.value.incorrectGuesses,
+    },
+  });
+};
+
+const connectChat = (channel) => {
+  if (client.value) {
+    client.value.disconnect();
+  }
+  const opts = {
+    connection: {
+      secure: true,
+      reconnect: true,
+    },
+    channels: [channel],
+  };
+  client.value = new tmi.Client(opts);
+  client.value.on("message", (channel, tags, message, self) => {
+    if (self) return;
+    messages.value.push({
+      id: messages.value.length + 1,
+      username: tags["display-name"],
+      text: message,
+    });
+    checkGuess(message, tags["display-name"]);
+  });
+  client.value.connect().catch(console.error);
+};
+
+const formatCategories = (selectedCategory) => {
+  const categoryMap = {
+    animaux: "animaux",
+    anatomie: "parties du corps",
+    fromages: "fromages",
+    prenoms: "prénoms",
+    metiers: "métiers",
+    pays: "pays",
+    vegetaux: "végétaux",
+    qualitedefaut: "qualités & défauts",
+    adverbes: "adverbes en -ment",
+  };
+  return categoryMap[selectedCategory] || selectedCategory;
+};
+
+onMounted(() => {
+  fetchChannelNameAndConnect();
+  selectRandomCategoryAndLetter();
+  startTimer();
+  categoryTimer.value = setInterval(() => {
+    if (timeLeft.value > 0) {
+      if (timeLeft.value % 30 === 4) {
+        sounds.value[0]?.play();
+      }
+      if (timeLeft.value % 30 === 0) {
+        selectRandomCategoryAndLetter();
+      }
+    }
+  }, 1000);
+});
+
+onBeforeUnmount(() => {
+  if (client.value) {
+    client.value.disconnect();
+  }
+  clearInterval(categoryTimer.value);
+  clearInterval(timer.value);
+});
 </script>
+
 
 
 <style>

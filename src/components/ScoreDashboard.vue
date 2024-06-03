@@ -1,7 +1,7 @@
 <template>
-  <div @click.stop="$emit('close')" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
+  <div @click.stop="emitClose" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
   <div class="absolute z-30 w-full h-[95vh] p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-1/2 -translate-y-1/2 overflow-y-auto md:w-2/3">
-    <button @click.stop="$emit('close')" class="absolute top-4 right-4">
+    <button @click.stop="emitClose" class="absolute top-4 right-4">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
         class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -53,40 +53,41 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { ref, onMounted, defineEmits } from 'vue';
 import { getFirestore, collection, getDocs } from 'firebase/firestore';
 
-export default {
-  name: 'ScoreDashboard',
-  data() {
-    return {
-      teams: [],
-      players: []
-    };
-  },
-  async created() {
-    await this.fetchTeams();
-    await this.fetchPlayers();
-  },
-  methods: {
-    async fetchTeams() {
-      const db = getFirestore();
-      const teamsCollection = collection(db, 'Teams');
-      const teamsSnapshot = await getDocs(teamsCollection);
-      this.teams = teamsSnapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      })).sort((a, b) => b.bestGlobalScore - a.bestGlobalScore); // Sort by bestGlobalScore in descending order
-    },
-    async fetchPlayers() {
-      const db = getFirestore();
-      const playersCollection = collection(db, 'Players');
-      const playerSnapshot = await getDocs(playersCollection);
-      this.players = playerSnapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      })).sort((a, b) => b.bestScore - a.bestScore); // Sort by bestScore in descending order
-    }
-  }
+const emit = defineEmits(['close']);
+
+const teams = ref([]);
+const players = ref([]);
+
+const emitClose = () => {
+  emit('close');
 };
+
+const fetchTeams = async () => {
+  const db = getFirestore();
+  const teamsCollection = collection(db, 'Teams');
+  const teamsSnapshot = await getDocs(teamsCollection);
+  teams.value = teamsSnapshot.docs.map(doc => ({
+    id: doc.id,
+    ...doc.data()
+  })).sort((a, b) => b.bestGlobalScore - a.bestGlobalScore);
+};
+
+const fetchPlayers = async () => {
+  const db = getFirestore();
+  const playersCollection = collection(db, 'Players');
+  const playerSnapshot = await getDocs(playersCollection);
+  players.value = playerSnapshot.docs.map(doc => ({
+    id: doc.id,
+    ...doc.data()
+  })).sort((a, b) => b.bestScore - a.bestScore);
+};
+
+onMounted(async () => {
+  await fetchTeams();
+  await fetchPlayers();
+});
 </script>
