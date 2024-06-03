@@ -220,10 +220,6 @@ const totalScore = ref(0);
 const lock = ref(false);
 const userMessage = ref("");
 const nextLetterType = ref(null);
-const roundSounds = ref([
-  new Audio("/sounds/consonne.mp3"),
-  new Audio("/sounds/voyelle.mp3"),
-]);
 
 const fetchChannelNameAndConnect = async () => {
   connectChat(channelName.value);
@@ -233,7 +229,7 @@ const selectRandomLetters = () => {
   const consonants = "BCDFGHJKLMNPQRSTVWXYZ";
   const vowels = "AEIOU";
   const letters = [];
-  const totalLetters = 6;
+  const totalLetters = 5;
   const numVowels = Math.floor(totalLetters / 3);
   for (let i = 0; i < numVowels; i++) {
     letters.push(vowels[Math.floor(Math.random() * vowels.length)]);
@@ -380,10 +376,8 @@ const addLetter = () => {
   let letter;
 
   if (nextLetterType.value === "consonant") {
-    roundSounds.value[0].play();
     letter = consonants[Math.floor(Math.random() * consonants.length)];
   } else if (nextLetterType.value === "vowel") {
-    roundSounds.value[1].play();
     letter = vowels[Math.floor(Math.random() * vowels.length)];
   } else {
     const type = Math.random() > 0.5 ? "consonant" : "vowel";
@@ -391,12 +385,6 @@ const addLetter = () => {
       type === "consonant"
         ? consonants[Math.floor(Math.random() * consonants.length)]
         : vowels[Math.floor(Math.random() * vowels.length)];
-    if (type === 'consonant') {
-      roundSounds.value[0].play();
-    } else {
-      roundSounds.value[1].play();
-    }
-
   }
 
   randomLetters.value.push(letter);
@@ -408,7 +396,7 @@ onMounted(() => {
   selectRandomLetters();
   startTimer();
   letterTimer.value = setInterval(() => {
-    if (timeLeft.value % 7 === 0) {
+    if (timeLeft.value % 8 === 0) {
       addLetter();
     }
     if (timeLeft.value % 60 === 0) {
