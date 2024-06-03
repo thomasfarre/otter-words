@@ -7,17 +7,16 @@
             Fin du round!
           </span>
           <span v-if="previousWord" class="text-xl text-gray-900 font-poppins">
-            Le mot précédent était : <strong>{{ previousWord }}</strong>
+            Le mot précédent était : <strong>{{ props.previousWord }}</strong>
           </span>
         </div>
-        <div>Vous avez marqué un total de <span class="text-xl font-bold">{{ totalScore }}</span></div>
+        <div>Vous avez marqué un total de <span class="text-xl font-bold">{{ props.totalScore }}</span></div>
 
-        <!-- Tabs Navigation -->
         <div class="pt-10">
           <button @click="activeTab = 'classement'" :class="{ 'font-bold': activeTab === 'classement' }" class="px-4 py-2">
             Classement des participants
           </button>
-          <button @click="activeTab = 'resume'" :class="{ 'font-bold': activeTab === 'resume' }" class="px-4 py-2 ml-4">
+          <button v-if="props.summary" @click="activeTab = 'resume'" :class="{ 'font-bold': activeTab === 'resume' }" class="px-4 py-2 ml-4">
             Résumé du round
           </button>
         </div>
@@ -33,7 +32,7 @@
               </tr>
             </thead>
             <tbody class="min-w-full bg-white divide-y divide-gray-200">
-              <tr v-for="(score, index) in sortedScores" :key="score.username" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
+              <tr v-for="(score, index) in props.sortedScores" :key="score.username" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
                 <td class="px-2 py-3 text-sm whitespace-nowrap">{{ index + 1 }}.</td>
                 <td class="px-2 py-3 text-sm whitespace-nowrap">{{ score.username }}</td>
                 <td class="px-2 py-3 text-sm whitespace-nowrap">{{ score.score }}</td>
@@ -53,7 +52,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr v-for="(group, index) in summary.incorrectGuesses" :key="index">
+              <tr v-for="(group, index) in props.summary.incorrectGuesses" :key="index">
                 <td class="px-2 py-3 text-sm whitespace-nowrap">{{ formatCategories(group.category) }}</td>
                 <td class="px-2 py-3 text-sm whitespace-nowrap">{{ group.letter }}</td>
                 <td class="px-2 py-3 text-sm">
@@ -76,49 +75,37 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    totalScore: Number,
-    sortedScores: Array,
-    summary: Object,
-    previousWord: String
-  },
-  data() {
-    return {
-      activeTab: 'classement'
-    };
-  },
-  methods: {
-    formatCategories(selectedCategory) {
-      const categoryMap = {
-        animaux: "animaux",
-        anatomie: "parties du corps",
-        fromages: "fromages",
-        prenoms: "prénoms",
-        metiers: "métiers",
-        pays: "pays",
-        vegetaux: "végétaux",
-        qualitedefaut: "qualités & défauts",
-        adverbes: "adverbes en -ment",
-      };
-      return categoryMap[selectedCategory] || selectedCategory;
-    },
-    endRound() {
-      this.$emit('end-round');
-    },
-  }
+<script setup>
+import { ref } from 'vue';
+import { defineProps, defineEmits } from 'vue';
+
+const props = defineProps({
+  totalScore: Number,
+  sortedScores: Array,
+  summary: Object,
+  previousWord: String
+});
+
+const emit = defineEmits(['end-round']);
+
+const activeTab = ref('classement');
+
+const formatCategories = (selectedCategory) => {
+  const categoryMap = {
+    animaux: "animaux",
+    anatomie: "parties du corps",
+    fromages: "fromages",
+    prenoms: "prénoms",
+    metiers: "métiers",
+    pays: "pays",
+    vegetaux: "végétaux",
+    qualitedefaut: "qualités & défauts",
+    adverbes: "adverbes en -ment",
+  };
+  return categoryMap[selectedCategory] || selectedCategory;
+};
+
+const endRound = () => {
+  emit('end-round');
 };
 </script>
-
-<style scoped>
-.button {
-  cursor: pointer;
-}
-.button:focus {
-  outline: none;
-}
-.font-bold {
-  font-weight: bold;
-}
-</style>

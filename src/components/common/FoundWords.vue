@@ -8,7 +8,7 @@
       </div>
       <div class="grid grid-cols-3 gap-2 px-4">
         <div
-          v-for="message in correctGuess"
+          v-for="message in props.correctGuess"
           :key="message.id"
           class="py-1 pl-1 truncate border border-gray-200 rounded-lg shadow-md bg-amber-50"
         >
@@ -24,13 +24,16 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    correctGuess: {
-      type: Array,
-      required: true,
-    },
+<script setup>
+import { defineProps } from 'vue';
+
+const props = defineProps({
+  correctGuess: {
+    type: Array,
+    required: true,
   },
-};
+});
 </script>
+
+<style scoped>
+</style>
