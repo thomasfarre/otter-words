@@ -12,7 +12,7 @@
         <source :src="gameLoop" type="audio/mpeg" />
       </audio>
     </div>
-    <div class="pt-2 mx-auto xl:pt-6">
+    <div class="pt-2 mx-auto xl:pt-12">
       <div v-if="!gameStarted" class="pt-20">
         <div class="text-center">
           <div>
@@ -60,7 +60,7 @@
               </p>
             </div>
             <div class="flex justify-center pt-6 space-x-4">
-              <a :href="'https://www.twitch.tv/' + channelName" target="_blank" class="rounded-xl bg-purple-50 px-2.5 py-1.5 text-sm font-semibold text-purple-900 shadow-sm
+              <a :href="'https://www.twitch.tv/' + channelName" target="_blank" class="rounded-xl bg-purple-50 px-2.5 py-1.5 text-base font-semibold text-purple-900 shadow-sm
                 hover:bg-purple-200 transition ease-out duration-300 border-purple-700 border-2">
                 Ouvrir mon chat
               </a>

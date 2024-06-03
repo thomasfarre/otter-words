@@ -13,10 +13,10 @@
         <div>Vous avez marqué un total de <span class="text-xl font-bold">{{ props.totalScore }}</span></div>
 
         <div class="pt-10">
-          <button @click="activeTab = 'classement'" :class="{ 'font-bold bg-gray-100': activeTab === 'classement' }" class="p-2 text-sm rounded-xl ">
+          <button @click="activeTab = 'classement'" :class="{ 'font-bold bg-gray-100': activeTab === 'classement' }" class="p-2 text-base rounded-xl ">
             Classement des participants
           </button>
-          <button v-if="props.summary" @click="activeTab = 'resume'" :class="{ 'font-bold bg-gray-100': activeTab === 'resume' }" class="p-2 ml-2 text-sm rounded-xl">
+          <button v-if="props.summary" @click="activeTab = 'resume'" :class="{ 'font-bold bg-gray-100': activeTab === 'resume' }" class="p-2 ml-2 text-base rounded-xl">
             Résumé du round
           </button>
         </div>
@@ -32,9 +32,9 @@
             </thead>
             <tbody class="min-w-full bg-white divide-y divide-gray-200">
               <tr v-for="(score, index) in props.sortedScores" :key="score.username" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
-                <td class="px-2 py-3 text-sm whitespace-nowrap">{{ index + 1 }}.</td>
-                <td class="px-2 py-3 text-sm whitespace-nowrap">{{ score.username }}</td>
-                <td class="px-2 py-3 text-sm whitespace-nowrap">{{ score.score }}</td>
+                <td class="px-2 py-3 text-base whitespace-nowrap">{{ index + 1 }}.</td>
+                <td class="px-2 py-3 text-base whitespace-nowrap">{{ score.username }}</td>
+                <td class="px-2 py-3 text-base whitespace-nowrap">{{ score.score }}</td>
               </tr>
             </tbody>
           </table>
@@ -51,9 +51,9 @@
             </thead>
             <tbody>
               <tr v-for="(group, index) in props.summary.incorrectGuesses" :key="index">
-                <td class="px-2 py-3 text-sm whitespace-nowrap">{{ formatCategories(group.category) }}</td>
-                <td class="px-2 py-3 text-sm whitespace-nowrap">{{ group.letter }}</td>
-                <td class="px-2 py-3 text-sm">
+                <td class="px-2 py-3 text-base whitespace-nowrap">{{ formatCategories(group.category) }}</td>
+                <td class="px-2 py-3 text-base whitespace-nowrap">{{ group.letter }}</td>
+                <td class="px-2 py-3 text-base">
                   <ul>
                     <li v-for="(guess, idx) in group.guesses" :key="idx">{{ guess }}</li>
                   </ul>
