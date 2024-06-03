@@ -1,58 +1,53 @@
 <template>
   <div v-if="timeLeft > 0" class="text-center">
     <div>
-      <div>
-        <div class="mx-auto bg-white rounded-xl max-w-prose">
-          <div class="relative px-6 pt-3 pb-2">
-            <ProgressBar
-              :progressBarWidth="progressBarWidth"
-              :otterImage="otterImage"
-              :cartoonTroutImage="cartoonTroutImage"
-            />
-            <div class="pt-2 text-left">
-              <span class="text-sm italic text-gray-500">
-                Trouve des synonymes
-              </span>
-            </div>
-            <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
-              <span class="text-2xl font-black text-gray-900 font-poppins">
-                {{ timeLeft }}s
-              </span>
-            </div>
-            <div class="flex flex-col px-6 pt-12 space-y-4">
-              <div class="relative mx-auto w-fit">
-                <span class="text-xl font-medium text-gray-700 uppercase">
-                  {{ randomWord }}
-                </span>
-              </div>
-            </div>
-            <div class="flex flex-col items-center justify-center mt-6">
-              <button
-                @click="fetchWordAndByWords"
-                class="p-2 transition duration-300 ease-out rounded-full bg-amber-200 hover:bg-amber-300 group"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-5 h-5 transition duration-300 ease-out text-amber-700 group-hover:text-amber-900"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </button>
-              <span class="text-xs italic text-gray-500">
-                O secours c tro dur
-              </span>
-            </div>
-            <LiveRoundScore
-              :totalScore="totalScore"
-              :sortedScores="sortedScores"
-            />
+      <div class="mx-auto bg-white rounded-xl max-w-prose">
+        <div class="relative px-6 pt-3 pb-2">
+          <ProgressBar
+            :progressBarWidth="progressBarWidth"
+            :otterImage="otterImage"
+            :cartoonTroutImage="cartoonTroutImage"
+          />
+          <div class="pt-2 text-left">
+            <span class="text-sm italic text-gray-500">
+              Trouve des synonymes
+            </span>
           </div>
+          <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
+            <span class="text-2xl font-black text-gray-900 font-poppins">
+              {{ timeLeft }}s
+            </span>
+          </div>
+          <div class="flex flex-col px-6 pt-12 space-y-4">
+            <div class="relative mx-auto w-fit">
+              <span class="text-xl font-medium text-gray-700 uppercase">
+                {{ randomWord }}
+              </span>
+            </div>
+          </div>
+          <div class="flex flex-col items-center justify-center mt-6">
+            <button
+              @click="fetchWordAndByWords"
+              class="p-2 transition duration-300 ease-out rounded-full bg-amber-200 hover:bg-amber-300 group"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                class="w-5 h-5 transition duration-300 ease-out text-amber-700 group-hover:text-amber-900"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+            </button>
+            <span class="text-xs italic text-gray-500">
+              O secours c tro dur
+            </span>
+          </div>
+          <LiveRoundScore :totalScore="totalScore" :sortedScores="sortedScores" />
         </div>
       </div>
       <div class="flex items-center justify-center mt-1 xl:hidden">
@@ -141,23 +136,18 @@
         </defs>
         <path
           fill="url(#a)"
-          d="m0 60 21.8-10C43.6 40 87 20 131 21.7 174.5 23 218 47 262 58.3c43.5 11.7 87 11.7 131 15 43.4 3.7 87 9.7 131 10 43.3-.3 87-6.3 131-20C698.2 50 742 30 785 31.7c44.1 1.3 88 25.3 131 25 44 .3 88-23.7 131-23.4 43.9-.3 88 23.7 131 23.4 43.8.3 87-23.7 131-23.4 43.7-.3 87 23.7 131 30 43.6 6.7 87-3.3 131-5 43.5-1.3 87 4.7 131 0 43.5-5.3 87-21.3 131-18.3 43.4 3 87 27 131 25 43.3-2 87-28 131-43.3 43.2-14.7 87-18.7 130-10 44.1 8.3 88 28.3 131 41.6 44 13.7 88 19.7 131 23.4 43.9 3.3 88 3.3 131 0 43.8-3.7 87-9.7 131-23.4 43.7-13.3 87-33.3 131-30 43.6 3.7 87 29.7 131 40 43.5 9.7 87 3.7 109 0l21.8-3.3v40H0Z"
-          style="transform: translate(0, 0); opacity: 1"
-        />
+          d="m0 60 21.8-10C43.6 40 87 20 131 21.7 174.5 23 218 47 262 58.3c43.5 11.7 87 11.7 131 15 43.4 3.7 87 9.7 131 10 43.3-.3 87-6.3 131-20C698.2 50 742 30 785 31.7c44.1 1.3 88 25.3 131 25 44 .3 88-23.7 131-23.4 43.9-.3 88 23.7 131 23.4 43.8.3 87-23.7 131-23.4 43.7-.3 87 23.7 131 30 43.6 6.7 87-3.3 131-5 43.5-1.3 87 4.7 131 0 43.5-5.3 87-21.3 131-18.3 43.4 3 87 27 131 25 43.3-2 87-28 131-43.3 43.2-14.7 87-18.7 130-10 44.1 8.3 88 28.3 131 41.6 44 13.7 88 19.7 131 23.4 43.9 3.3 88 3.3 131 0 43.8-3.7 87-9.7 131-23.4 43.7-13.3 87-33.3 131-30 43.6 3.7 87 29.7 131 40 43.5 9.7 87 3.7 109 0l21.8-3.3v40H0Z" />
       </svg>
     </div>
   </div>
   <div v-else>
-    <EndOfRound
-      :totalScore="totalScore"
-      :sortedScores="sortedScores"
-      @end-round="endRound"
-    />
+    <EndOfRound :totalScore="totalScore" :sortedScores="sortedScores" @end-round="endRound" />
   </div>
 </template>
 
-<script>
-import { useGameLogic } from "./useGameLogic.js";
+<script setup>
+import { ref, onMounted, onBeforeUnmount, defineEmits } from 'vue';
+import { useGameLogic } from './useGameLogic.js';
 import axios from "axios";
 import tmi from "tmi.js";
 
@@ -169,207 +159,164 @@ import LiveRoundScore from "./common/LiveRoundScore.vue";
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
 
-export default {
-  emits: ["round-ended"],
-  name: "FourthRound",
-  components: {
-    EndOfRound,
-    FoundWords,
-    ProgressBar,
-    LiveRoundScore,
-  },
-  setup() {
-    const {
-      channelName,
-      timeLeft,
-      sortedScores,
-      progressBarWidth,
-      reversedCorrectGuess,
-      reversedIncorrectGuess,
-      correctGuess,
-      incorrectGuess,
-      scores,
-      sounds,
-    } = useGameLogic();
+const emit = defineEmits(['round-ended']);
 
-    return {
-      channelName,
-      timeLeft,
-      sortedScores,
-      progressBarWidth,
-      reversedCorrectGuess,
-      reversedIncorrectGuess,
-      correctGuess,
-      incorrectGuess,
-      scores,
-      sounds,
-    };
-  },
-  data() {
-    return {
-      client: null,
-      timer: null,
-      categoryTimer: null,
-      messages: [],
-      foundWords: [],
-      randomWord: "",
-      synonyms: [],
-      totalScore: 0,
-      lock: false,
-      userMessage: "",
-      cartoonTroutImage,
-      otterImage,
-    };
-  },
-  created() {
-    this.fetchChannelNameAndConnect();
-    this.fetchWordAndByWords();
-    this.startTimer();
-    this.categoryTimer = setInterval(() => {
-      if (this.timeLeft % 30 === 4) {
-        this.sounds[0].play();
-      }
-      if (this.timeLeft % 30 === 0) {
-        this.fetchWordAndByWords();
-      }
-    }, 1000);
-  },
-  methods: {
-    async fetchChannelNameAndConnect() {
-      this.connectChat(this.channelName);
-    },
-    async fetchWordAndByWords() {
-      try {
-        this.sounds[1].play();
-        const response = await axios.get(`/data/synonyme.json`);
 
-        if (response.data && Object.keys(response.data).length > 0) {
-          const data = response.data;
-          const keys = Object.keys(data);
-          const randomKey = keys[Math.floor(Math.random() * keys.length)];
-          const synonyms = data[randomKey];
-          this.randomWord = randomKey;
-          this.foundWords = synonyms;
-          console.log(this.foundWords);
-        } else {
-          this.definition = "No data available.";
-        }
-      } catch (error) {
-        console.error("Failed to fetch data:", error);
-        this.definition = "Failed to load definition.";
-      }
-    },
-    normalizeText(text) {
-      return text
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase();
-    },
-    async checkGuess(message, username) {
-      if (this.lock) return;
-      this.lock = true;
-      const normalizedMessage = this.normalizeText(message);
-      const lowerCaseFoundWords = this.foundWords.map((word) =>
-        this.normalizeText(word)
-      );
-      if (lowerCaseFoundWords.includes(normalizedMessage)) {
-        this.correctGuess.push({ text: message, username });
-        this.sounds[2].play();
-        if (!this.scores[username]) {
-          this.scores[username] = 0;
-        }
-        this.scores[username] += 5;
-        this.totalScore += 5;
-        this.foundWords = this.foundWords.filter(
-          (word) => this.normalizeText(word) !== normalizedMessage
-        );
-      } else {
-        this.incorrectGuess.push({
-          text: message,
-          id: this.incorrectGuess.length + 1,
-        });
-      }
-      this.lock = false;
-    },
-    handleUserMessage() {
-      if (this.userMessage.trim() !== "") {
-        const username = this.channelName;
-        this.messages.push({
-          id: this.messages.length + 1,
-          username: username,
-          text: this.userMessage,
-        });
-        this.checkGuess(this.userMessage, username);
-        this.userMessage = "";
-      }
-    },
-    startTimer() {
-      this.timer = setInterval(() => {
-        if (this.timeLeft > 0) {
-          this.timeLeft--;
-        } else {
-          clearInterval(this.timer);
-          clearInterval(this.categoryTimer);
-        }
-      }, 1000);
-    },
-    endRound() {
-      if (this.client) {
-        this.client.disconnect();
-      }
-      clearInterval(this.timer);
-      clearInterval(this.categoryTimer);
-      this.$emit("round-ended", {
-        total: this.totalScore,
-        scores: this.scores,
-      });
-    },
-    connectChat(channel) {
-      if (this.client) {
-        this.client.disconnect();
-      }
-      const opts = {
-        connection: {
-          secure: true,
-          reconnect: true,
-        },
-        channels: [channel],
-      };
-      this.client = new tmi.Client(opts);
-      this.client.on("message", (channel, tags, message, self) => {
-        if (self) return;
-        this.messages.push({
-          id: this.messages.length + 1,
-          username: tags["display-name"],
-          text: message,
-        });
-        this.checkGuess(message, tags["display-name"]);
-      });
-      this.client.connect().catch(console.error);
-    },
-    formatCategories(selectedCategory) {
-      const categoryMap = {
-        animaux: "animaux",
-        anatomie: "parties du corps",
-        fromages: "fromages",
-        prenoms: "prénoms",
-        metiers: "métiers",
-        pays: "pays",
-        vegetaux: "végétaux",
-        qualitedefaut: "qualités & défauts",
-        adverbes: "adverbes en -ment",
-      };
-      return categoryMap[selectedCategory] || selectedCategory;
-    },
-  },
-  beforeUnmount() {
-    if (this.client) {
-      this.client.disconnect();
-    }
-    clearInterval(this.timer);
-    clearInterval(this.categoryTimer);
-  },
+const {
+  channelName,
+  timeLeft,
+  sortedScores,
+  progressBarWidth,
+  reversedCorrectGuess,
+  reversedIncorrectGuess,
+  correctGuess,
+  incorrectGuess,
+  scores,
+  sounds,
+} = useGameLogic();
+
+const client = ref(null);
+const timer = ref(null);
+const categoryTimer = ref(null);
+const messages = ref([]);
+const foundWords = ref([]);
+const randomWord = ref("");
+const totalScore = ref(0);
+const lock = ref(false);
+const userMessage = ref("");
+const definition = ref("");
+
+const fetchChannelNameAndConnect = async () => {
+  connectChat(channelName.value);
 };
+
+const fetchWordAndByWords = async () => {
+  try {
+    sounds.value[1]?.play();
+    const response = await axios.get(`/data/synonyme.json`);
+
+    if (response.data && Object.keys(response.data).length > 0) {
+      const data = response.data;
+      const keys = Object.keys(data);
+      const randomKey = keys[Math.floor(Math.random() * keys.length)];
+      const synonymsData = data[randomKey];
+      randomWord.value = randomKey;
+      foundWords.value = synonymsData;
+      console.log(foundWords.value);
+    } else {
+      definition.value = "No data available.";
+    }
+  } catch (error) {
+    console.error("Failed to fetch data:", error);
+    definition.value = "Failed to load definition.";
+  }
+};
+
+const normalizeText = (text) => {
+  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+};
+
+const checkGuess = async (message, username) => {
+  if (lock.value) return;
+  lock.value = true;
+  const normalizedMessage = normalizeText(message);
+  const lowerCaseFoundWords = foundWords.value.map(word => normalizeText(word));
+  if (lowerCaseFoundWords.includes(normalizedMessage)) {
+    correctGuess.value.push({ text: message, username });
+    sounds.value[2]?.play();
+    if (!scores.value[username]) {
+      scores.value[username] = 0;
+    }
+    scores.value[username] += 5;
+    totalScore.value += 5;
+    foundWords.value = foundWords.value.filter(word => normalizeText(word) !== normalizedMessage);
+  } else {
+    incorrectGuess.value.push({ text: message, id: incorrectGuess.value.length + 1 });
+  }
+  lock.value = false;
+};
+
+const handleUserMessage = () => {
+  if (userMessage.value.trim() !== "") {
+    const username = channelName.value;
+    messages.value.push({
+      id: messages.value.length + 1,
+      username: username,
+      text: userMessage.value,
+    });
+    checkGuess(userMessage.value, username);
+    userMessage.value = "";
+  }
+};
+
+const startTimer = () => {
+  timer.value = setInterval(() => {
+    if (timeLeft.value > 0) {
+      timeLeft.value--;
+    } else {
+      clearInterval(timer.value);
+      clearInterval(categoryTimer.value);
+    }
+  }, 1000);
+};
+
+const endRound = () => {
+  if (client.value) {
+    client.value.disconnect();
+  }
+  clearInterval(timer.value);
+  clearInterval(categoryTimer.value);
+  emit('round-ended', {
+    total: totalScore.value,
+    scores: scores.value,
+  });
+};
+
+const connectChat = (channel) => {
+  if (client.value) {
+    client.value.disconnect();
+  }
+  const opts = {
+    connection: {
+      secure: true,
+      reconnect: true,
+    },
+    channels: [channel],
+  };
+  client.value = new tmi.Client(opts);
+  client.value.on("message", (channel, tags, message, self) => {
+    if (self) return;
+    messages.value.push({
+      id: messages.value.length + 1,
+      username: tags["display-name"],
+      text: message,
+    });
+    checkGuess(message, tags["display-name"]);
+  });
+  client.value.connect().catch(console.error);
+};
+
+onMounted(() => {
+  fetchChannelNameAndConnect();
+  fetchWordAndByWords();
+  startTimer();
+  categoryTimer.value = setInterval(() => {
+    if (timeLeft.value % 30 === 4) {
+      sounds.value[0]?.play();
+    }
+    if (timeLeft.value % 30 === 0) {
+      fetchWordAndByWords();
+    }
+  }, 1000);
+});
+
+onBeforeUnmount(() => {
+  if (client.value) {
+    client.value.disconnect();
+  }
+  clearInterval(timer.value);
+  clearInterval(categoryTimer.value);
+});
 </script>
 
 <style>

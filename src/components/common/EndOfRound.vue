@@ -13,16 +13,15 @@
         <div>Vous avez marqué un total de <span class="text-xl font-bold">{{ props.totalScore }}</span></div>
 
         <div class="pt-10">
-          <button @click="activeTab = 'classement'" :class="{ 'font-bold': activeTab === 'classement' }" class="px-4 py-2">
+          <button @click="activeTab = 'classement'" :class="{ 'font-bold bg-gray-100': activeTab === 'classement' }" class="p-2 text-sm rounded-xl ">
             Classement des participants
           </button>
-          <button v-if="props.summary" @click="activeTab = 'resume'" :class="{ 'font-bold': activeTab === 'resume' }" class="px-4 py-2 ml-4">
+          <button v-if="props.summary" @click="activeTab = 'resume'" :class="{ 'font-bold bg-gray-100': activeTab === 'resume' }" class="p-2 ml-2 text-sm rounded-xl">
             Résumé du round
           </button>
         </div>
 
-        <div v-if="activeTab === 'classement'" class="pt-10">
-          <span>Classement des participants:</span>
+        <div v-if="activeTab === 'classement'">
           <table class="min-w-full mt-4 divide-y divide-gray-200">
             <thead class="bg-gray-50">
               <tr>
@@ -41,8 +40,7 @@
           </table>
         </div>
 
-        <div v-if="activeTab === 'resume'" class="pt-10">
-          <span>Résumé du Round</span>
+        <div v-if="activeTab === 'resume'">
           <table class="min-w-full mt-4 divide-y divide-gray-200">
             <thead class="bg-gray-50">
               <tr>

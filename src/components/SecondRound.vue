@@ -14,7 +14,7 @@
           <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
             <span class="text-2xl font-black text-gray-900 font-poppins">{{ timeLeft }}s</span>
           </div>
-          <div class="flex flex-col px-6 pt-12 space-y-4">
+          <div class="flex flex-col px-6 pt-8 space-y-4">
             <div class="flex flex-col items-center justify-center">
               <span v-if="shuffledWord" class="text-xl tracking-widest text-gray-800 uppercase">{{ shuffledWord }}</span>
             </div>
