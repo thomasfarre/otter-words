@@ -408,7 +408,7 @@ onMounted(() => {
   selectRandomLetters();
   startTimer();
   letterTimer.value = setInterval(() => {
-    if (timeLeft.value % 6 === 0) {
+    if (timeLeft.value % 7 === 0) {
       addLetter();
     }
     if (timeLeft.value % 60 === 0) {
