@@ -290,13 +290,6 @@ export default {
     async fetchChannelNameAndConnect() {
       this.connectChat(this.channelName);
     },
-    sendMessageToTwitchChat(message) {
-      if (this.client && this.channelName) {
-        setTimeout(() => {
-          this.client.say(this.channelName, message);
-        }, 3000);
-      }
-    },
     async fetchWordAndDefinition() {
       try {
         this.previousWord = this.word;
