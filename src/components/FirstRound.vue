@@ -1,9 +1,9 @@
 <template>
   <div v-if="timeLeft > 0">
     <div class="max-w-[1100px] mx-auto">
-      <div class="grid grid-cols-9 grid-rows-3 gap-4">
+      <div class="space-y-4 md:space-y-0 md:grid-cols-9 md:grid-rows-3 md:gap-4 md:grid">
         <div
-          class="col-span-6 px-16 py-8 space-y-4 text-center bg-white rounded-card"
+          class="flex-col items-center justify-center hidden col-span-6 px-16 py-8 space-y-4 text-center bg-white md:flex rounded-card"
         >
           <div class="title text-brown">
             <span> Round 1 : Le petit bac </span>
@@ -17,7 +17,7 @@
           </div>
         </div>
         <div
-          class="relative col-span-3 px-16 py-8 space-y-4 bg-green rounded-card"
+          class="relative flex-col justify-center hidden col-span-3 px-16 py-8 space-y-4 md:flex bg-green rounded-card"
         >
           <div>
             <span class="text-white subtitle"> Le score de ton équipe </span>
@@ -31,8 +31,8 @@
           </div>
         </div>
 
-        <div class="h-full col-span-5 row-span-2 px-16 py-4 text-center bg-white rounded-card">
-          <div class="grid-flow-row">
+        <div class="h-full col-span-5 row-span-2 pt-4 text-center bg-white rounded-card">
+          <div class="px-16">
             <div class="flex items-center justify-center space-x-4">
               <div>
                 <svg
@@ -50,12 +50,15 @@
               </div>
               <span class="subtitle text-brown"> Les mots à trouver </span>
             </div>
-            <div class="pt-8">
+            <div class="pt-4 md:pt-16">
               <span class="text-lg font-bold text-brown">
                 Un
-                <span class="text-green">{{
-                  formatCategories(selectedCategory)
-                }}</span>
+                <transition name="slide-fade" mode="out-in">
+                  <span class="text-green">{{
+                    formatCategories(selectedCategory)
+                  }}</span>
+
+                </transition>
                 commençant par :
               </span>
             </div>
@@ -74,7 +77,7 @@
               />
             </div>
           </div>
-          <div class="py-4 mt-8">
+          <div class="py-12 mt-8 bg-gray-200 rounded-b-card">
             <div class="flex items-center justify-center space-x-4">
               <button
                 @click="selectRandomCategoryAndLetter"
@@ -156,7 +159,7 @@
 
         <div class="relative col-span-9 row-span-1 overflow-hidden text-center bg-white rounded-card">
           <div class="px-8 py-8">
-            <span class="subtitle">
+            <span class="subtitle text-brown">
               La rivière des espoirs déchus
             </span>
           </div>

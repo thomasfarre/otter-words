@@ -1,7 +1,7 @@
 <template>
   <div @click.stop="emitClose" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
   <div class="absolute z-20 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[54rem]">
-    <button @click.stop="emitClose" class="absolute transition duration-300 ease-out top-8 right-8 text-brown hover:text-brown-hover">
+    <button @click.stop="emitClose" class="absolute transition duration-300 ease-out top-2 right-2 text-brown hover:text-brown-hover md:top-8 md:right-8">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
         stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -63,7 +63,7 @@
         <span class="subtitle text-brown">
           Choix des mini-jeux présents
         </span>
-        <div class="flex items-center justify-center pt-2 space-x-4">
+        <div class="grid grid-cols-2 gap-4 pt-2 md:gap-0 md:space-x-4 md:flex md:items-center md:justify-center">
           <div v-for="round in props.availableRounds" :key="round.id" class="flex items-center">
             <div class="flex items-center space-x-2">
               <button type="button" :id="'round-' + round.id" @click="$emit('toggle-round', round.id)" :class="['relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer w-11 focus:outline-none focus:ring-2 focus:ring-green focus:ring-offset-2',

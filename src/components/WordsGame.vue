@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="pt-4 mx-auto xl:pt-12">
+    <div class="px-4 pt-12 pb-4 mx-auto">
       <!-- Lobby Section -->
       <div v-if="!gameStarted" class="pt-20">
         <div class="flex justify-center">
@@ -36,7 +36,7 @@
               >des loutres, des mots et des truites bien sûr</span
             >
           </div>
-          <div class="flex items-center justify-center pt-10 space-x-6">
+          <div class="flex flex-col items-center justify-center pt-10 space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
             <div>
               <button @click="startGameModal = true" class="btn-white">
                 Nouvelle partie
