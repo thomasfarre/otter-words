@@ -1,7 +1,7 @@
 <template>
   <div @click.stop="emitClose" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
-  <div class="absolute z-30 w-full h-[95vh] p-2 transform -translate-x-1/2 bg-white rounded-md left-1/2 top-1/2 -translate-y-1/2 overflow-y-auto md:w-2/3">
-    <button @click.stop="emitClose" class="absolute top-4 right-4">
+  <div class="absolute z-20 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[50rem]">
+    <button @click.stop="emitClose" class="absolute transition duration-300 ease-out top-8 right-8 text-brown hover:text-brown-hover">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
         class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />

@@ -4,9 +4,29 @@
 
 
 .btn {
-  @apply rounded-xl bg-emerald-50 px-2.5 py-1.5 text-base font-semibold text-emerald-900 shadow-sm hover:bg-emerald-200 transition ease-out duration-300;
+  @apply px-8 py-2 text-2xl font-extrabold transition duration-300 ease-out border shadow-sm rounded-btn text-brown hover:text-brown-hover border-brown hover:border-brown-hover;
 }
 
+.btn-white {
+  @apply bg-white btn;
+}
+
+.btn-yellow {
+  @apply btn bg-amber-100;
+}
+
+
+.title {
+  @apply font-extrabold text-title/10;
+}
+
+.subtitle {
+  @apply text-xl font-extrabold;
+}
+
+.text {
+  @apply text-brown;
+}
 
 /* ===== Scrollbar CSS ===== */
 /* Firefox */

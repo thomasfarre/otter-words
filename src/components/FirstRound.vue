@@ -1,55 +1,90 @@
 <template>
-  <div v-if="timeLeft > 0" class="text-center">
-    <div>
-      <div>
-        <div class="mx-auto bg-white rounded-xl max-w-prose">
-          <div class="relative px-6 pt-3 pb-2">
-            <ProgressBar
-              :progressBarWidth="progressBarWidth"
-              :otterImage="otterImage"
-              :cartoonTroutImage="cartoonTroutImage"
-            />
-            <div class="pt-2 text-left">
-              <span class="text-sm italic text-gray-500"> Trouve des mots </span>
+  <div v-if="timeLeft > 0">
+    <div class="max-w-[1100px] mx-auto">
+      <div class="grid grid-cols-9 grid-rows-3 gap-4">
+        <div
+          class="col-span-6 px-16 py-8 space-y-4 text-center bg-white rounded-card"
+        >
+          <div class="title text-brown">
+            <span> Round 1 : Le petit bac </span>
+          </div>
+          <div class="text-brown">
+            <span>
+              Une lettre et une catégorie s’affichent, à vous de trouver le plus
+              de mot possible (exemples : les animaux en L, les pays en T…).
+              Toutes les 30 secondes, la lettre et la catégorie changent.
+            </span>
+          </div>
+        </div>
+        <div
+          class="relative col-span-3 px-16 py-8 space-y-4 bg-green rounded-card"
+        >
+          <div>
+            <span class="text-white subtitle"> Le score de ton équipe </span>
+          </div>
+          <div class="flex flex-col">
+            <span class="text-white title"> {{ totalScore }} points </span>
+            <span class="font-bold text-white"> C'est super </span>
+          </div>
+          <div class="absolute bottom-0 right-0">
+            <img :src="scoreImage" alt="" />
+          </div>
+        </div>
+
+        <div class="h-full col-span-5 row-span-2 px-16 py-4 text-center bg-white rounded-card">
+          <div class="grid-flow-row">
+            <div class="flex items-center justify-center space-x-4">
+              <div>
+                <svg
+                  class="w-10 h-10"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 36 36"
+                >
+                  <rect width="36" height="36" fill="#481A1A" rx="18" />
+                  <path
+                    fill="#fff"
+                    d="M13.327 27.036c0-.875.267-1.59.8-2.144.555-.576 1.312-.864 2.272-.864.96 0 1.707.288 2.24.864.555.555.832 1.27.832 2.144 0 .875-.277 1.6-.832 2.176-.533.555-1.28.832-2.24.832-.96 0-1.717-.277-2.272-.832-.533-.576-.8-1.301-.8-2.176Zm1.056-4.192c-.362-.192-.704-.533-1.024-1.024-.32-.512-.48-1.11-.48-1.792 0-.661.17-1.152.512-1.472.363-.341.886-.597 1.568-.768l2.496-.608c1.067-.277 1.6-.79 1.6-1.536 0-.405-.202-.757-.608-1.056-.384-.299-1.056-.448-2.016-.448-.874 0-1.696.117-2.464.352-.768.213-1.386.47-1.856.768a4.107 4.107 0 0 1-.928-.992c-.256-.405-.384-.885-.384-1.44 0-.555.16-1.035.48-1.44.32-.427.758-.768 1.312-1.024.576-.277 1.248-.48 2.016-.608.79-.128 1.654-.192 2.592-.192 2.518 0 4.416.565 5.696 1.696 1.302 1.11 1.952 2.57 1.952 4.384 0 3.413-2.41 5.6-7.232 6.56l-3.232.64Z"
+                  />
+                </svg>
+              </div>
+              <span class="subtitle text-brown"> Les mots à trouver </span>
             </div>
-            <div class="absolute transform -translate-x-1/2 top-4 left-1/2">
-              <span class="text-2xl font-black text-gray-900 font-poppins">
-                {{ timeLeft }}s
+            <div class="pt-8">
+              <span class="text-lg font-bold text-brown">
+                Un
+                <span class="text-green">{{
+                  formatCategories(selectedCategory)
+                }}</span>
+                commençant par :
               </span>
             </div>
-
-            <div class="flex flex-col items-center justify-center pt-4 space-y-1">
-              <span class="text-xs italic text-gray-500"> commençant par </span>
-              <div class="px-2 rounded-md bg-amber-400 w-fit">
-                <transition name="slide-fade" mode="out-in">
-                  <span
-                    class="text-2xl font-bold text-gray-800 uppercase"
-                    :key="startLetter"
-                    >{{ startLetter }}</span
-                  >
-                </transition>
-              </div>
-              <div class="flex flex-col items-center justify-center pt-6">
-                <span class="text-xs italic text-gray-500"> de la catégorie </span>
-                <transition name="slide-fade" mode="out-in">
-                  <span
-                    class="text-2xl font-bold text-gray-800 uppercase"
-                    :key="selectedCategory"
-                    >{{ formatCategories(selectedCategory) }}</span
-                  >
-                </transition>
-              </div>
+            <div class="px-4 py-2 mx-auto mt-2 rounded-xl bg-green w-fit">
+              <span class="text-white title">
+                {{ startLetter }}
+              </span>
             </div>
-            <div class="flex flex-col items-center justify-center mt-6">
+            <div class="pt-4">
+              <input
+                v-model="userMessage"
+                @keyup.enter="handleUserMessage"
+                type="text"
+                placeholder="Votre réponse ici"
+                class="w-full p-2 text-lg text-gray-700 border border-green focus:ring-2 ring-green focus-visible:outline-none placeholder:text-gray-400 placeholder:italic placeholder:text-xl"
+              />
+            </div>
+          </div>
+          <div class="py-4 mt-8">
+            <div class="flex items-center justify-center space-x-4">
               <button
                 @click="selectRandomCategoryAndLetter"
-                class="p-2 transition duration-300 ease-out rounded-full bg-amber-200 hover:bg-amber-300 group"
+                class="flex items-center justify-center space-x-4 transition duration-300 ease-out rounded-full group"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5 transition duration-300 ease-out text-amber-700 group-hover:text-amber-900"
+                  class="w-8 h-8 transition duration-300 ease-out text-green group-hover:text-green-hover"
                 >
                   <path
                     fill-rule="evenodd"
@@ -57,105 +92,92 @@
                     clip-rule="evenodd"
                   />
                 </svg>
+                <span
+                  class="underline transition duration-300 ease-out text-brown group-hover:text-brown-hover"
+                >
+                  au secours, c'est trop dur, je passe</span
+                >
               </button>
-              <span class="text-xs italic text-gray-500"> O secours c tro dur </span>
             </div>
-            <LiveRoundScore
-              :totalScore="totalScore"
-              :sortedScores="sortedScores"
+          </div>
+        </div>
+        <div class="col-span-4 row-span-1 px-16 py-4 text-center bg-white rounded-card">
+          <div
+            class="flex items-center justify-center mx-auto max-w-72"
+          >
+            <div>
+              <svg
+                class="w-10 h-10"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 37 36"
+              >
+                <rect width="36" height="36" x=".5" fill="#481A1A" rx="18" />
+                <path
+                  fill="#fff"
+                  d="M19.5 19h2a1 1 0 0 1 0 2h-3a.997.997 0 0 1-1-1v-4a1 1 0 0 1 2 0v3Zm-7.13-4.139a1.5 1.5 0 1 1 2.077-1.76 7.98 7.98 0 0 1 1.126-.548A2.5 2.5 0 0 1 17 8h3a2.5 2.5 0 0 1 1.428 4.553c.39.154.767.337 1.127.548a1.5 1.5 0 1 1 2.076 1.76 8 8 0 1 1-12.261 0Zm6.13 11.14a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM17 10a.5.5 0 1 0 0 1h3a.5.5 0 1 0 0-1h-3Z"
+                />
+              </svg>
+            </div>
+            <span class="!leading-6 subtitle text-brown">
+              Trouve un maximum de mots dans les temps
+            </span>
+          </div>
+          <div class="relative mt-8">
+            <ProgressBar
+              :progressBarWidth="progressBarWidth"
+              :otterImage="otterImage"
+              :cartoonTroutImage="cartoonTroutImage"
             />
+          </div>
+          <div class="pt-16">
+            <span class="subtitle text-green">
+              {{ timeLeft }}
+            </span>
+            <span class="text-lg font-bold text-brown">
+              secondes restantes, dépêche-toi !
+            </span>
+          </div>
+        </div>
+
+        <div class="col-span-4 row-span-1 py-4 text-center bg-white rounded-card">
+          <div
+            class="flex items-center justify-center mx-auto space-x-4 max-w-72"
+          >
+            <div>
+              <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36"><g clip-path="url(#a)"><path fill="#481A1A" d="M36 18c0-9.941-8.059-18-18-18S0 8.059 0 18s8.059 18 18 18 18-8.059 18-18Z"/><path fill="#fff" stroke="#fff" stroke-width=".457" d="M30.857 14.406a6.186 6.186 0 0 0-6.179-6.18 6.189 6.189 0 0 0-6.088 5.12H5.534a.391.391 0 0 0-.39.392v1.336c0 .216.174.39.39.39H18.59c.053.303.127.597.221.882.008.029.707 2.84 1.733 5.612 1.448 3.913 2.8 5.815 4.13 5.815h.006c1.273-.006 2.584-1.847 4.008-5.63a59.463 59.463 0 0 0 1.707-5.393 6.146 6.146 0 0 0 .462-2.344Zm-6.179-5.397a5.403 5.403 0 0 1 5.397 5.397 5.403 5.403 0 0 1-5.397 5.396 5.402 5.402 0 0 1-5.396-5.396 5.402 5.402 0 0 1 5.396-5.397ZM5.926 14.13h3.631v.553H5.926v-.553Zm4.414.553v-.553h8.166a6.336 6.336 0 0 0 0 .553H10.34Zm17.614 7.19c-1.738 4.614-2.871 5.117-3.278 5.119h-.002c-.433 0-1.624-.52-3.394-5.3a52.543 52.543 0 0 1-.979-2.928 6.16 6.16 0 0 0 6.861 1.3l-1.957 4.835a.391.391 0 1 0 .726.294l2.328-5.753c.257-.184.5-.387.726-.607-.277.901-.63 1.974-1.031 3.04Zm-3.276-2.557a4.914 4.914 0 0 0 4.91-4.91 4.915 4.915 0 0 0-4.91-4.908 4.915 4.915 0 0 0-4.909 4.909 4.914 4.914 0 0 0 4.91 4.909Zm0-9.036c.826 0 1.595.245 2.241.665l-2.243 6.063a.391.391 0 1 0 .734.272l2.153-5.82a4.113 4.113 0 0 1 1.242 2.947 4.131 4.131 0 0 1-4.127 4.126 4.131 4.131 0 0 1-4.126-4.126 4.131 4.131 0 0 1 4.126-4.127Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h36v36H0z"/></clipPath></defs></svg>
+            </div>
+            <span class="subtitle text-brown">
+              Les mots trouvés
+            </span>
+          </div>
+          <FoundWords :correct-guess="reversedCorrectGuess" />
+        </div>
+
+        <div class="relative col-span-9 row-span-1 overflow-hidden text-center bg-white rounded-card">
+          <div class="px-8 py-8">
+            <span class="subtitle">
+              La rivière des espoirs déchus
+            </span>
+          </div>
+          <div class="relative overflow-x-auto h-40 bg-[url('/public/images/river.svg')] bg-bottom bg-cover">
+            <div class="">
+              <div class="flex pt-20 pl-4 space-x-4 whitespace-nowrap">
+                <span
+                  class="text-lg font-bold text-white"
+                  v-for="message in reversedIncorrectGuess"
+                  :key="message.id"
+                >
+                  {{ message.text }}
+                </span>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
-      <div class="flex items-center justify-center mt-1 xl:hidden">
-        <input
-          v-model="userMessage"
-          @keyup.enter="handleUserMessage"
-          type="text"
-          placeholder="Entrez votre réponse ici..."
-          class="p-2 text-gray-700 border rounded-md bg-amber-50 placeholder:text-gray-500"
-        />
-      </div>
-      <FoundWords :correct-guess="reversedCorrectGuess" />
     </div>
-    <div class="mt-8">
-      <span class="text-xl italic font-bold text-emerald-50 font-poppins">
-        La Rivière des espoirs déchûs
-      </span>
-      <div class="hidden xl:flex xl:items-center xl:justify-center xl:mt-2">
-        <input
-          v-model="userMessage"
-          @keyup.enter="handleUserMessage"
-          type="text"
-          placeholder="Entrez votre réponse ici..."
-          class="p-2 text-gray-700 border rounded-md bg-amber-50 placeholder:text-gray-500"
-        />
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
-        <defs>
-          <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
-            <stop offset="0%" stop-color="rgb(209, 250, 229, 1)" />
-            <stop offset="100%" stop-color="#6ee7b7" />
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#a)"
-          d="m0 60 21.8-10C43.6 40 87 20 131 21.7 174.5 23 218 47 262 58.3c43.5 11.7 87 11.7 131 15 43.4 3.7 87 9.7 131 10 43.3-.3 87-6.3 131-20C698.2 50 742 30 785 31.7c44.1 1.3 88 25.3 131 25 44 .3 88-23.7 131-23.4 43.9-.3 88 23.7 131 23.4 43.8.3 87-23.7 131-23.4 43.7-.3 87 23.7 131 30 43.6 6.7 87-3.3 131-5 43.5-1.3 87 4.7 131 0 43.5-5.3 87-21.3 131-18.3 43.4 3 87 27 131 25 43.3-2 87-28 131-43.3 43.2-14.7 87-18.7 130-10 44.1 8.3 88 28.3 131 41.6 44 13.7 88 19.7 131 23.4 43.9 3.3 88 3.3 131 0 43.8-3.7 87-9.7 131-23.4 43.7-13.3 87-33.3 131-30 43.6 3.7 87 29.7 131 40 43.5 9.7 87 3.7 109 0l21.8-3.3v40H0Z"
-        />
-      </svg>
-    </div>
-    <div class="w-screen px-6 py-2 -mt-px bg-emerald-100">
-      <div class="flex space-x-4 overflow-x-auto whitespace-nowrap">
-        <span
-          class="text-sm text-emerald-900"
-          v-for="message in reversedIncorrectGuess"
-          :key="message.id"
-        >
-          {{ message.text }}
-          <svg
-            class="max-w-12 max-h-12 opacity-60"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 -0.5 25 25"
-          >
-            <path
-              stroke="#047857"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.5"
-              d="M5.505 9.895a.673.673 0 0 1 1.086-.378l1.344.9a.707.707 0 0 0 1.015-.327c2.504-5.03 8.75-3.527 10.513 1.687a.7.7 0 0 1 0 .446C17.7 17.437 11.454 18.941 8.95 13.91a.707.707 0 0 0-1.016-.325l-1.344.9a.673.673 0 0 1-1.085-.38.483.483 0 0 1 .03-.25l.564-1.604a.76.76 0 0 0 0-.5l-.563-1.6a.483.483 0 0 1-.03-.256Z"
-              clip-rule="evenodd"
-            />
-            <path
-              stroke="#047857"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="1.5"
-              d="M16.5 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"
-              clip-rule="evenodd"
-            />
-          </svg>
-        </span>
-      </div>
-    </div>
-    <div class="-mt-px">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="transform rotate-180"
-        viewBox="0 0 1440 100"
-      >
-        <defs>
-          <linearGradient id="a" x1="0" x2="0" y1="1" y2="0">
-            <stop offset="0%" stop-color="rgba(236, 253, 245, 1)" />
-            <stop offset="100%" stop-color="rgba(167, 243, 208, 1)" />
-          </linearGradient>
-        </defs>
-        <path
-          fill="url(#a)"
-          d="m0 60 21.8-10C43.6 40 87 20 131 21.7 174.5 23 218 47 262 58.3c43.5 11.7 87 11.7 131 15 43.4 3.7 87 9.7 131 10 43.3-.3 87-6.3 131-20C698.2 50 742 30 785 31.7c44.1 1.3 88 25.3 131 25 44 .3 88-23.7 131-23.4 43.9-.3 88 23.7 131 23.4 43.8.3 87-23.7 131-23.4 43.7-.3 87 23.7 131 30 43.6 6.7 87-3.3 131-5 43.5-1.3 87 4.7 131 0 43.5-5.3 87-21.3 131-18.3 43.4 3 87 27 131 25 43.3-2 87-28 131-43.3 43.2-14.7 87-18.7 130-10 44.1 8.3 88 28.3 131 41.6 44 13.7 88 19.7 131 23.4 43.9 3.3 88 3.3 131 0 43.8-3.7 87-9.7 131-23.4 43.7-13.3 87-33.3 131-30 43.6 3.7 87 29.7 131 40 43.5 9.7 87 3.7 109 0l21.8-3.3v40H0Z"
-        />
-      </svg>
-    </div>
+
   </div>
   <div v-else>
     <EndOfRound
@@ -168,20 +190,20 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, defineEmits } from 'vue';
-import { useGameLogic } from './useGameLogic.js';
+import { ref, onMounted, onBeforeUnmount, defineEmits } from "vue";
+import { useGameLogic } from "./useGameLogic.js";
 import axios from "axios";
 import tmi from "tmi.js";
 
-import FoundWords from './common/FoundWords.vue';
-import EndOfRound from './common/EndOfRound.vue';
-import ProgressBar from './common/ProgressBar.vue';
-import LiveRoundScore from './common/LiveRoundScore.vue';
+import FoundWords from "./common/FoundWords.vue";
+import EndOfRound from "./common/EndOfRound.vue";
+import ProgressBar from "./common/ProgressBar.vue";
 
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
+import scoreImage from "/public/images/score-illustration.png";
 
-const emit = defineEmits(['round-ended']);
+const emit = defineEmits(["round-ended"]);
 
 const {
   channelName,
@@ -205,7 +227,7 @@ const selectedCategory = ref("");
 const startLetter = ref("");
 const totalScore = ref(0);
 const lock = ref(false);
-const userMessage = ref('');
+const userMessage = ref("");
 const summary = ref({
   startingLetters: [],
   categories: [],
@@ -228,7 +250,8 @@ const selectRandomCategoryAndLetter = async () => {
     "qualitedefaut",
     "vegetaux",
   ];
-  selectedCategory.value = categories[Math.floor(Math.random() * categories.length)];
+  selectedCategory.value =
+    categories[Math.floor(Math.random() * categories.length)];
   summary.value.categories.push(selectedCategory.value);
   fetchValidWords();
 };
@@ -238,12 +261,13 @@ const fetchValidWords = async () => {
     sounds.value[1]?.play();
     const response = await axios.get(`/data/${selectedCategory.value}.json`);
     const categoryLetters = response.data["Letters"];
-    startLetter.value = categoryLetters[Math.floor(Math.random() * categoryLetters.length)];
+    startLetter.value =
+      categoryLetters[Math.floor(Math.random() * categoryLetters.length)];
     summary.value.startingLetters.push(startLetter.value);
     summary.value.incorrectGuesses.push({
       category: selectedCategory.value,
       letter: startLetter.value,
-      guesses: []
+      guesses: [],
     });
     const wordsByLetter = response.data[startLetter.value] || [];
     foundWords.value = wordsByLetter;
@@ -254,14 +278,19 @@ const fetchValidWords = async () => {
 };
 
 const normalizeText = (text) => {
-  return text.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+  return text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 };
 
 const checkGuess = async (message, username) => {
   if (lock.value) return;
   lock.value = true;
   const normalizedMessage = normalizeText(message);
-  const lowerCaseFoundWords = foundWords.value.map(word => normalizeText(word));
+  const lowerCaseFoundWords = foundWords.value.map((word) =>
+    normalizeText(word)
+  );
   if (lowerCaseFoundWords.includes(normalizedMessage)) {
     correctGuess.value.push({ text: message, username });
     sounds.value[2]?.play();
@@ -270,11 +299,18 @@ const checkGuess = async (message, username) => {
     }
     scores.value[username] += 5;
     totalScore.value += 5;
-    foundWords.value = foundWords.value.filter(word => normalizeText(word) !== normalizedMessage);
+    foundWords.value = foundWords.value.filter(
+      (word) => normalizeText(word) !== normalizedMessage
+    );
   } else {
-    incorrectGuess.value.push({ text: message, id: incorrectGuess.value.length + 1 });
+    incorrectGuess.value.push({
+      text: message,
+      id: incorrectGuess.value.length + 1,
+    });
     const currentGroup = summary.value.incorrectGuesses.find(
-      group => group.category === selectedCategory.value && group.letter === startLetter.value
+      (group) =>
+        group.category === selectedCategory.value &&
+        group.letter === startLetter.value
     );
     if (currentGroup) {
       currentGroup.guesses.push(message);
@@ -387,8 +423,6 @@ onBeforeUnmount(() => {
   clearInterval(timer.value);
 });
 </script>
-
-
 
 <style>
 .slide-fade-enter-active,
