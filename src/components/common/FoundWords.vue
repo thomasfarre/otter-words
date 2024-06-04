@@ -1,7 +1,7 @@
 <template>
-  <div class="px-4 mt-4 overflow-y-auto max-h-36">
+  <div class="px-4 mt-4 overflow-y-auto rounded-b-card max-h-36">
     <div class="space-y-2">
-      <div class="grid grid-cols-3 gap-1">
+      <div class="grid grid-cols-3 gap-2 pt-1">
         <div
           v-for="message in props.correctGuess"
           :key="message.id"

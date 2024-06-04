@@ -2,9 +2,7 @@
   <div v-if="timeLeft > 0">
     <div class="max-w-[1100px] mx-auto">
       <div class="space-y-4 md:space-y-0 md:grid-cols-9 md:grid-rows-3 md:gap-4 md:grid">
-        <div
-          class="flex-col items-center justify-center hidden col-span-6 px-16 py-8 space-y-4 text-center bg-white md:flex rounded-card"
-        >
+        <div class="flex-col items-center justify-center hidden col-span-6 p-8 space-y-4 text-center bg-white md:flex rounded-card">
           <div class="title text-brown">
             <span> Round 1 : Le petit bac </span>
           </div>
@@ -31,7 +29,7 @@
           </div>
         </div>
 
-        <div class="h-full col-span-5 row-span-2 pt-4 text-center bg-white rounded-card">
+        <div class="h-full col-span-4 row-span-2 pt-4 text-center bg-white rounded-card">
           <div class="px-16">
             <div class="flex items-center justify-center space-x-4">
               <div>
@@ -77,7 +75,7 @@
               />
             </div>
           </div>
-          <div class="py-12 mt-8 bg-gray-200 rounded-b-card">
+          <div class="py-12 mt-12 bg-gray-200 rounded-b-card">
             <div class="flex items-center justify-center space-x-4">
               <button
                 @click="selectRandomCategoryAndLetter"
@@ -104,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-4 row-span-1 px-16 py-4 text-center bg-white rounded-card">
+        <div class="col-span-5 row-span-1 px-8 py-4 text-center bg-white rounded-card">
           <div
             class="flex items-center justify-center mx-auto max-w-72"
           >
@@ -133,7 +131,7 @@
               :cartoonTroutImage="cartoonTroutImage"
             />
           </div>
-          <div class="pt-16">
+          <div class="pt-12">
             <span class="subtitle text-green">
               {{ timeLeft }}
             </span>
@@ -143,9 +141,9 @@
           </div>
         </div>
 
-        <div class="col-span-4 row-span-1 py-4 text-center bg-white rounded-card">
+        <div class="col-span-5 row-span-1 text-center bg-white rounded-card bg-[url('/public/images/toto.png')] bg-bottom bg-cover h-full">
           <div
-            class="flex items-center justify-center mx-auto space-x-4 max-w-72"
+            class="flex items-center justify-center py-4 space-x-4 bg-white rounded-t-card"
           >
             <div>
               <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36"><g clip-path="url(#a)"><path fill="#481A1A" d="M36 18c0-9.941-8.059-18-18-18S0 8.059 0 18s8.059 18 18 18 18-8.059 18-18Z"/><path fill="#fff" stroke="#fff" stroke-width=".457" d="M30.857 14.406a6.186 6.186 0 0 0-6.179-6.18 6.189 6.189 0 0 0-6.088 5.12H5.534a.391.391 0 0 0-.39.392v1.336c0 .216.174.39.39.39H18.59c.053.303.127.597.221.882.008.029.707 2.84 1.733 5.612 1.448 3.913 2.8 5.815 4.13 5.815h.006c1.273-.006 2.584-1.847 4.008-5.63a59.463 59.463 0 0 0 1.707-5.393 6.146 6.146 0 0 0 .462-2.344Zm-6.179-5.397a5.403 5.403 0 0 1 5.397 5.397 5.403 5.403 0 0 1-5.397 5.396 5.402 5.402 0 0 1-5.396-5.396 5.402 5.402 0 0 1 5.396-5.397ZM5.926 14.13h3.631v.553H5.926v-.553Zm4.414.553v-.553h8.166a6.336 6.336 0 0 0 0 .553H10.34Zm17.614 7.19c-1.738 4.614-2.871 5.117-3.278 5.119h-.002c-.433 0-1.624-.52-3.394-5.3a52.543 52.543 0 0 1-.979-2.928 6.16 6.16 0 0 0 6.861 1.3l-1.957 4.835a.391.391 0 1 0 .726.294l2.328-5.753c.257-.184.5-.387.726-.607-.277.901-.63 1.974-1.031 3.04Zm-3.276-2.557a4.914 4.914 0 0 0 4.91-4.91 4.915 4.915 0 0 0-4.91-4.908 4.915 4.915 0 0 0-4.909 4.909 4.914 4.914 0 0 0 4.91 4.909Zm0-9.036c.826 0 1.595.245 2.241.665l-2.243 6.063a.391.391 0 1 0 .734.272l2.153-5.82a4.113 4.113 0 0 1 1.242 2.947 4.131 4.131 0 0 1-4.127 4.126 4.131 4.131 0 0 1-4.126-4.126 4.131 4.131 0 0 1 4.126-4.127Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h36v36H0z"/></clipPath></defs></svg>
@@ -158,7 +156,7 @@
         </div>
 
         <div class="relative col-span-9 row-span-1 overflow-hidden text-center bg-white rounded-card">
-          <div class="px-8 py-8">
+          <div class="px-8 pt-4">
             <span class="subtitle text-brown">
               La rivière des espoirs déchus
             </span>

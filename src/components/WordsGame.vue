@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="px-4 pt-12 pb-4 mx-auto">
+    <div class="px-4 pt-12 pb-4 mx-auto md:pt-4">
       <!-- Lobby Section -->
       <div v-if="!gameStarted" class="pt-20">
         <div class="flex justify-center">
