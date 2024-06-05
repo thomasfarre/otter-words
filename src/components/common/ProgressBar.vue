@@ -1,12 +1,12 @@
 <template>
-  <div class="absolute z-40 -top-6 -left-6">
+  <div class="absolute z-40 -top-7 -left-6">
     <img class="w-16 h-16" :src="props.otterImage" alt="" />
   </div>
   <div
-    class="absolute z-30 w-8 h-8 transform -translate-x-1/2 -top-2"
+    class="absolute z-30 w-8 h-8 transform -translate-x-1/2 -top-3"
     :style="{ left: props.progressBarWidth, transition: 'all 1s linear' }"
   >
-    <img class="w-full h-full" :src="props.cartoonTroutImage" alt="" />
+    <img class="w-full h-full transition-transform duration-300 animate-wiggle" :src="props.cartoonTroutImage" alt="" />
   </div>
   <div
     class="absolute inset-0 top-0 z-10 h-3 rounded-full bg-green"

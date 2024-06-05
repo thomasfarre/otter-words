@@ -105,18 +105,18 @@
       v-if="!gameStarted"
       class="absolute transform -translate-x-1/2 bottom-6 left-1/2"
     >
-      <div class="flex flex-col items-center justify-center space-y-1">
+      <div class="flex flex-col items-center justify-center">
         <a
-          class="flex items-center px-2 py-1 space-x-1 transition duration-300 ease-out bg-white rounded-xl opacity-60 hover:opacity-100"
+          class="flex items-center px-2 py-1 space-x-1 transition duration-300 ease-out group"
           href="https://www.buymeacoffee.com/omarleomar"
           target="_blank"
         >
-          <img class="w-5 h-5" :src="iconImage" alt="" />
-          <span class="text-sm font-medium text-black">Buy me trouts</span>
+          <img class="w-6 h-6 transition-transform duration-300 group-hover:animate-wiggle" :src="iconImage" alt="" />
+          <span class="text-sm font-medium text-gray-200 transition duration-300 ease-out group-hover:text-white">Buy me trouts</span>
         </a>
         <div>
           <span class="text-xs italic text-white"
-            >by Omar for las Truitas \tʁɥi.tas\</span
+            >by Omar and Julie for las Truitas \tʁɥi.tas\</span
           >
         </div>
       </div>
