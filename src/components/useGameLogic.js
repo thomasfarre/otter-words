@@ -5,7 +5,7 @@ import { useStore } from '../store/useStore';
 
 export function useGameLogic() {
   const { state } = useStore();
-  const timeLeft = ref(10);
+  const timeLeft = ref(180);
   const correctGuess = ref([]);
   const incorrectGuess = ref([]);
   const scores = ref({});
@@ -26,7 +26,7 @@ export function useGameLogic() {
   });
 
   const progressBarWidth = computed(() => {
-    const initialTime = 30;
+    const initialTime = 180;
     return `${(timeLeft.value / initialTime) * 100}%`;
   });
 
