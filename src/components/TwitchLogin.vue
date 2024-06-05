@@ -1,6 +1,6 @@
 <template>
   <div class="pt-8">
-    <button class="btn" @click="handleLoginOrRedirect">Lancer une partie</button>
+    <button class="btn-white" @click="handleLoginOrRedirect">Lancer une partie</button>
   </div>
 </template>
 
