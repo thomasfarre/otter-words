@@ -246,6 +246,7 @@ const fetchWordAndByWords = async () => {
 
       summary.value.randomWord.push(randomWord.value);
       summary.value.foundWords.push(foundWords.value);
+
       console.log(foundWords.value);
     } else {
       definition.value = "No data available.";

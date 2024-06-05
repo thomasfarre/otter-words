@@ -19,7 +19,10 @@
           <button @click="activeTab = 'classement'" :class="{ 'font-bold text-green': activeTab === 'classement' }" class="p-2 transition duration-300 ease-out text-brown hover:text-green">
             Classement des participants
           </button>
-          <button v-if="props.summary" @click="activeTab = 'resume'" :class="{ 'font-bold text-green': activeTab === 'resume' }" class="p-2 transition duration-300 ease-out text-brown hover:text-green">
+          <button v-if="props.summary.incorrectGuesses" @click="activeTab = 'resumeFirstRoundFirstRound'" :class="{ 'font-bold text-green': activeTab === 'resumeFirstRound' }" class="p-2 transition duration-300 ease-out text-brown hover:text-green">
+            Résumé du round
+          </button>
+          <button v-if="props.summary.foundWords" @click="activeTab = 'resumeFourthRound'" :class="{ 'font-bold text-green': activeTab === 'resumeFourthRound' }" class="p-2 transition duration-300 ease-out text-brown hover:text-green">
             Résumé du round
           </button>
         </div>
@@ -43,7 +46,7 @@
           </table>
         </div>
 
-        <div v-if="activeTab === 'resume'">
+        <div v-if="activeTab === 'resumeFirstRound'">
           <table class="min-w-full mt-4 divide-y divide-gray-200">
             <thead class="bg-gray-50">
               <tr>
@@ -59,6 +62,27 @@
                 <td class="px-2 py-3 text-lg text-brown">
                   <ul>
                     <li v-for="(guess, idx) in group.guesses" :key="idx">{{ guess }}</li>
+                  </ul>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+         <div v-if="activeTab === 'resumeFourthRound'">
+          <table class="min-w-full mt-4 divide-y divide-gray-200">
+            <thead class="bg-gray-50">
+              <tr>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Mot</th>
+                <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Synonymes</th>
+              </tr>
+            </thead>
+            <tbody class="min-w-full text-left bg-white divide-y divide-gray-200">
+              <tr v-for="(word, index) in props.summary.randomWord"  :key="index">
+                <td  class="px-2 py-3 text-lg text-brown whitespace-nowrap">{{ word }}</td>
+                <td class="px-2 py-3 text-lg text-brown whitespace-nowrap">
+                  <ul>
+                    <li v-for="(word, wordIndex) in props.summary.foundWords[index]" :key="wordIndex">{{ word }}</li>
                   </ul>
                 </td>
               </tr>
