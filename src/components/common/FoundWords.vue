@@ -17,14 +17,12 @@
           :key="message.text"
           class="py-1.5 pl-1 truncate border border-brown/30 bg-amber-50 rounded-lg shadow-md"
         >
-          <div>
             <span class="font-bold text-brown">
               {{ message.text }}
             </span>
             <span class="text-brown">
               ({{ message.username }})
             </span>
-          </div>
         </div>
       </transition-group>
     </div>

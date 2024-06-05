@@ -19,7 +19,7 @@
             <span class="text-white subtitle"> Le score de ton équipe </span>
           </div>
           <div class="flex flex-col">
-            <span class="text-white title"> {{ totalScore }} points </span>
+            <span class="text-white title"> {{ tweened.totalScore.toFixed(0) }} points </span>
             <span class="font-bold text-white"> C'est super </span>
           </div>
           <div class="absolute bottom-0 right-0">
@@ -183,8 +183,9 @@
 
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, defineEmits } from 'vue';
+import { ref, onMounted, onBeforeUnmount, defineEmits, reactive, watch } from "vue";
 import { useGameLogic } from './useGameLogic.js';
+import gsap from 'gsap'
 import axios from "axios";
 import tmi from "tmi.js";
 
@@ -226,6 +227,15 @@ const summary = ref({
   randomWord: [],
   foundWords: [],
 });
+
+const tweened = reactive({
+  totalScore: 0
+})
+
+watch(totalScore, (n) => {
+  gsap.to(tweened, { duration: 0.7, totalScore: Number(n) || 0 })
+})
+
 
 const fetchChannelNameAndConnect = async () => {
   connectChat(channelName.value);
