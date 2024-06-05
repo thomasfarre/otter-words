@@ -1,17 +1,17 @@
 <template>
   <div @click.stop="emitClose" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
-  <div class="absolute z-20 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[50rem]">
-    <button @click.stop="emitClose" class="absolute transition duration-300 ease-out top-8 right-8 text-brown hover:text-brown-hover">
+  <div class="absolute z-40 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[54rem]">
+    <button @click.stop="emitClose" class="absolute transition duration-300 ease-out top-6 right-6 text-brown hover:text-brown-hover">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
         class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
       </svg>
     </button>
     <div class="p-6">
-      <span class="text-2xl font-bold"> Tableau des meilleurs scores</span>
+      <span class="title text-brown"> Tableau des meilleurs scores</span>
       <div class="flex flex-col pt-12 space-y-4 text-left xl:space-y-0 xl:space-x-12 xl:flex-row">
         <div class="xl:w-1/2">
-          <span class="font-bold">Équipes</span>
+          <span class="subtitle text-brown">Équipes</span>
           <table class="min-w-full mt-4 divide-y divide-gray-200">
               <thead class="bg-gray-50">
                 <tr>
@@ -30,7 +30,7 @@
           </table>
         </div>
         <div class="xl:w-1/2">
-          <span class="font-bold">Joueurs</span>
+          <span class="subtitle text-brown">Joueurs</span>
           <table class="min-w-full mt-4 divide-y divide-gray-200">
               <thead class="bg-gray-50">
                 <tr>

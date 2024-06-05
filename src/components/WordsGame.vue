@@ -97,6 +97,7 @@
       :selectedRounds="selectedRounds"
       @toggle-round="toggleRound"
       @start-game="startGame"
+      @toggle-dashboard="showDashboard = true"
     />
 
 

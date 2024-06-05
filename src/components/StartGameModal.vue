@@ -72,7 +72,7 @@
                 <span aria-hidden="true" :class="['inline-block w-5 h-5 transition duration-200 ease-in-out transform bg-white rounded-full shadow pointer-events-none',
   props.selectedRounds.includes(round.id) ? 'translate-x-5' : 'translate-x-0']"></span>
               </button>
-              <span class="whitespace-nowrap text-brown" :id="'label-' + round.id" @click="toggleRound(round)">
+              <span class="cursor-pointer whitespace-nowrap text-brown" :id="'label-' + round.id" @click="toggleRound(round)">
                 {{ round.name }}
               </span>
             </div>

@@ -8,13 +8,12 @@
           </div>
           <div class="text-brown">
             <span>
-              La définition est affichée, à vous de retrouver le mot !
-              retrouver le mot !
+              Avec la définition et la catégorie grammaticale affichées, à vous de retrouver le mot !
             </span>
           </div>
         </div>
         <div
-          class="relative flex-col justify-center hidden col-span-3 px-16 py-8 space-y-4 md:flex bg-green rounded-card"
+          class="relative flex-col justify-center hidden col-span-3 p-8 space-y-4 md:flex bg-green rounded-card"
         >
           <div>
             <span class="text-white subtitle"> Le score de ton équipe </span>
@@ -52,17 +51,20 @@
                 <span class="text-sm font-bold text-white uppercase">{{ catGram }}</span>
               </div>
             </div>
-            <div class="relative mx-auto mt-6 w-fit">
+            <div class="relative mx-auto mt-6 w-fit min-h-20">
               <span class="text-lg font-bold text-brown">
                 {{ definition }}
               </span>
-              <svg class="absolute w-7 h-7 -top-4 -left-9 text-amber-600" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="absolute w-7 h-7 -top-4 -left-9 text-brown/70" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M21.042 9C10.026 16.776 2.25 29.52 2.25 43.56C2.25 55.008 9.162 61.704 17.154 61.704C24.714 61.704 30.33 55.656 30.33 48.528C30.33 41.4 25.362 36.216 18.882 36.216C17.586 36.216 15.858 36.432 15.426 36.648C16.506 29.304 23.418 20.664 30.33 16.344L21.042 9ZM58.194 9C47.394 16.776 39.618 29.52 39.618 43.56C39.618 55.008 46.53 61.704 54.522 61.704C61.866 61.704 67.698 55.656 67.698 48.528C67.698 41.4 62.514 36.216 56.034 36.216C54.738 36.216 53.226 36.432 52.794 36.648C53.874 29.304 60.57 20.664 67.482 16.344L58.194 9Z"
                   fill="currentColor"
                   fill-opacity="0.25"
                 />
               </svg>
+            </div>
+            <div class="py-2" v-if="shuffledWord">
+              <span  class="text-2xl font-bold tracking-widest uppercase text-green">{{ shuffledWord }}</span>
             </div>
             <div class="pt-4">
               <input
@@ -221,7 +223,6 @@
     <EndOfRound
       :totalScore="totalScore"
       :sortedScores="sortedScores"
-      :summary="summary"
       @end-round="endRound"
     />
   </div>
@@ -240,6 +241,8 @@ import ProgressBar from "./common/ProgressBar.vue";
 
 import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
+import scoreImage from "/public/images/score-illustration.png";
+
 
 const emit = defineEmits(["round-ended"]);
 

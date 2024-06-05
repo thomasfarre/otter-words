@@ -4,7 +4,7 @@
     class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"
   ></div>
   <div
-    class="absolute z-20 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[50rem]"
+    class="absolute z-20 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[54rem]"
   >
     <button
       @click.stop="emitClose"
@@ -25,7 +25,7 @@
         />
       </svg>
     </button>
-    <div class="py-8">
+    <div class="p-8">
       <div class="text-center">
         <div>
           <span class="title text-brown">Fin du jeu!</span>
@@ -36,10 +36,10 @@
       </div>
 
       <div class="pt-8">
-        <div class="text-center subtitle text-brown">
-          <span> Classement des participants: </span>
+        <div>
+          <span class="font-medium text-gray-500 "> Classement des participants </span>
         </div>
-        <table class="min-w-full mt-4 divide-y divide-gray-200">
+        <table class="min-w-full mt-2 divide-y divide-gray-200">
           <thead class="bg-gray-50">
             <tr>
               <th
@@ -68,24 +68,24 @@
               :key="score.username"
               class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40"
             >
-              <td class="px-2 py-3 text-sm whitespace-nowrap">
+              <td class="px-2 py-3 text-lg text-brown whitespace-nowrap">
                 {{ index + 1 }}.
               </td>
-              <td class="px-2 py-3 text-sm whitespace-nowrap">
+              <td class="px-2 py-3 text-lg text-brown whitespace-nowrap">
                 {{ score.username }}
               </td>
-              <td class="px-2 py-3 text-sm whitespace-nowrap">
+              <td class="px-2 py-3 text-lg font-bold text-brown whitespace-nowrap">
                 {{ score.score }}
               </td>
             </tr>
           </tbody>
         </table>
       </div>
-      <div class="px-16 pt-4 border-t border-brown">
+      <div class="px-16 pt-8 ">
         <span class="subtitle text-brown">
           Choix des mini-jeux présents
         </span>
-        <div class="flex items-center pt-2 space-x-4">
+        <div class="flex items-center pt-4 space-x-4">
           <div v-for="round in props.availableRounds" :key="round.id" class="flex items-center">
             <div class="flex items-center space-x-2">
               <button type="button" :id="'round-' + round.id" @click="$emit('toggle-round', round.id)" :class="['relative inline-flex flex-shrink-0 h-6 transition-colors duration-200 ease-in-out border-2 border-transparent rounded-full cursor-pointer w-11 focus:outline-none focus:ring-2 focus:ring-green focus:ring-offset-2',
@@ -94,7 +94,7 @@
                 <span aria-hidden="true" :class="['inline-block w-5 h-5 transition duration-200 ease-in-out transform bg-white rounded-full shadow pointer-events-none',
   props.selectedRounds.includes(round.id) ? 'translate-x-5' : 'translate-x-0']"></span>
               </button>
-              <span class="whitespace-nowrap text-brown" :id="'label-' + round.id" @click="toggleRound(round)">
+              <span class="cursor-pointer whitespace-nowrap text-brown" :id="'label-' + round.id" @click="toggleRound(round)">
                 {{ round.name }}
               </span>
             </div>
@@ -109,7 +109,7 @@
         </div>
         <div>
           <button
-            @click="showDashboard = true"
+            @click="toggleDashboard"
             class="btn btn-yellow"
           >
             Classements
@@ -144,5 +144,9 @@ const toggleRound = (round) => {
   emit("toggle-round", round.id);
 };
 
-const emit = defineEmits(["close", "toggle-round", "start-game"]);
+const toggleDashboard = () => {
+  emit("toggle-dashboard");
+};
+
+const emit = defineEmits(["close", "toggle-round", "start-game", "toggle-dashboard"]);
 </script>

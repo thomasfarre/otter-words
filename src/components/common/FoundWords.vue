@@ -1,11 +1,11 @@
 <template>
-  <div class="px-4 mt-4 overflow-y-auto rounded-b-card max-h-36">
+  <div class="px-4 mt-4 overflow-y-auto max-h-36">
     <div class="space-y-2">
       <div class="grid grid-cols-3 gap-2 pt-1">
         <div
           v-for="message in props.correctGuess"
           :key="message.id"
-          class="py-1.5 pl-1 truncate  border border-gray-200 bg-amber-50 rounded-lg shadow-md"
+          class="py-1.5 pl-1 truncate  border border-brown/30 bg-amber-50 rounded-lg shadow-md"
         >
           <span class="font-bold text-brown">
             {{ message.text }}
