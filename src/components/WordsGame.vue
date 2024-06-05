@@ -55,6 +55,7 @@
             :selectedRounds="selectedRounds"
             :teamExists="teamExists"
             :teamName="teamName"
+            @update:teamName="updateTeamName"
             @toggle-round="toggleRound"
             @start-game="startGame"
           />
@@ -189,6 +190,10 @@ const toggleMusic = () => {
   }
 };
 
+const updateTeamName = (newName) => {
+  teamName.value = newName;
+};
+
 const createOrUpdateTeam = async () => {
   const db = getFirestore();
   const auth = getAuth();
@@ -209,6 +214,27 @@ const createOrUpdateTeam = async () => {
   await updateDoc(userRef, {
     teamId: teamRef,
   });
+};
+
+
+const startGame = async () => {
+  if (teamName.value.trim() === "") {
+    alert("Please enter a team name before starting the game.");
+    return;
+  }
+  await createOrUpdateTeam(teamName.value);
+  startGameModal.value = false;
+  gameStarted.value = true;
+  gameEnded.value = false;
+  finalScore.value = 0;
+  if (playing.value) {
+    backgroundMusic.value.play();
+  } else {
+    backgroundMusic.value.pause();
+  }
+  detailedScores.value = [];
+  currentRound.value = selectedRounds.value.sort((a, b) => a - b)[0] || 0;
+  roundKey.value++;
 };
 
 const fetchChannelNameAndConnect = async () => {
@@ -248,27 +274,6 @@ const toggleRound = (roundId) => {
   } else {
     selectedRounds.value.splice(index, 1);
   }
-};
-
-const startGame = async () => {
-  if (teamName.value.trim() === "") {
-    alert("Please enter a team name before starting the game.");
-    return;
-  }
-  await createOrUpdateTeam();
-  startGameModal.value = false;
-  // startTwitchModal.value = false;
-  gameStarted.value = true;
-  gameEnded.value = false;
-  finalScore.value = 0;
-  if (playing.value) {
-    backgroundMusic.value.play();
-  } else {
-    backgroundMusic.value.pause();
-  }
-  detailedScores.value = [];
-  currentRound.value = selectedRounds.value.sort((a, b) => a - b)[0] || 0;
-  roundKey.value++;
 };
 
 const updateBestGlobalScore = async () => {
