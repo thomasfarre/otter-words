@@ -24,9 +24,14 @@ module.exports = {
           "0%, 100%": { transform: "rotate(-5deg)" },
           "50%": { transform: "rotate(5deg)" },
         },
+        fishmove: {
+          "0%, 100%": { left: "0" },
+          "50%": { left: "100%" },
+        },
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
+        fishmove: "fishmove 60s ease-in infinite",
       },
     },
   },

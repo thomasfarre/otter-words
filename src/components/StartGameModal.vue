@@ -28,8 +28,7 @@
             <span class="block subtitle">
               Round 1 : le petit bac
             </span>
-            Une lettre et une catégorie s’affichent, à vous de trouver le
-            plus de mot possible (exemples : les animaux en L, les pays en T…). Toutes les 30 secondes, la lettre et
+            Une lettre et une catégorie s’affichent, à vous de trouver le plus de mots possibles (exemples : les animaux en L, les pays en T…). Toutes les 30 secondes, la lettre et
             la catégorie changent.
             <br/>
             <br/>
@@ -49,13 +48,13 @@
             <span class="block subtitle">
               Round 4 : les synonymes
             </span>
-            Un mot est tiré au sort, à vous de retrouver tout ces synonymes le plus vite possible !
+            Un mot est tiré au sort, à vous de retrouver tous ses synonymes le plus vite possible !
             <br />
             <br/>
             <span class="block subtitle">
               Round 5 : le scrabble
             </span>
-            Plusieurs lettres s'affichent directement, d'autre arrivent au fur et à mesures, à vous de former un maximum de mots avec elles !
+            Plusieurs lettres s'affichent directement, d'autres arrivent au fur et à mesure, à vous de former un maximum de mots avec elles !
             <br /><br />
             Vous pouvez taper directement les réponses dans le chat Twitch. Si elles sont correctes, elles
             s’afficheront dans la liste, avec votre pseudo et votre score. Si elles sont incorrectes, elles
