@@ -223,6 +223,7 @@
     <EndOfRound
       :totalScore="totalScore"
       :sortedScores="sortedScores"
+      :previousWord="previousWord"
       @end-round="endRound"
     />
   </div>

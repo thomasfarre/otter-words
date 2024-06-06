@@ -400,8 +400,11 @@ onMounted(() => {
   selectRandomLetters();
   startTimer();
   letterTimer.value = setInterval(() => {
-    if (timeLeft.value % 10 === 0) {
+    if (timeLeft.value % 12 === 0) {
       addLetter();
+    }
+    if (timeLeft.value % 60 === 4) {
+      sounds.value[0]?.play();
     }
     if (timeLeft.value % 60 === 0) {
       selectRandomLetters();

@@ -216,6 +216,7 @@ const {
 const client = ref(null);
 const timer = ref(null);
 const categoryTimer = ref(null);
+const categoryTimeLeft = ref(30);
 const messages = ref([]);
 const foundWords = ref([]);
 const randomWord = ref("");
@@ -258,6 +259,7 @@ const fetchWordAndByWords = async () => {
       summary.value.foundWords.push(foundWords.value);
 
       console.log(foundWords.value);
+      categoryTimeLeft.value = 30;
     } else {
       definition.value = "No data available.";
     }
@@ -313,6 +315,18 @@ const startTimer = () => {
       clearInterval(categoryTimer.value);
     }
   }, 1000);
+
+  categoryTimer.value = setInterval(() => {
+    if (categoryTimeLeft.value > 0) {
+      categoryTimeLeft.value--;
+      if (categoryTimeLeft.value === 4) {
+        sounds.value[0]?.play();
+      }
+      if (categoryTimeLeft.value === 0) {
+        fetchWordAndByWords();
+      }
+    }
+  }, 1000);
 };
 
 const endRound = () => {
@@ -355,22 +369,14 @@ onMounted(() => {
   fetchChannelNameAndConnect();
   fetchWordAndByWords();
   startTimer();
-  categoryTimer.value = setInterval(() => {
-    if (timeLeft.value % 30 === 4) {
-      sounds.value[0]?.play();
-    }
-    if (timeLeft.value % 30 === 0) {
-      fetchWordAndByWords();
-    }
-  }, 1000);
 });
 
 onBeforeUnmount(() => {
   if (client.value) {
     client.value.disconnect();
   }
-  clearInterval(timer.value);
   clearInterval(categoryTimer.value);
+  clearInterval(timer.value);
 });
 </script>
 

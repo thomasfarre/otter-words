@@ -287,7 +287,8 @@ const {
 
 const client = ref(null);
 const timer = ref(null);
-const categoryTimer = ref(null);
+const categoryTimer = ref(null)
+const categoryTimeLeft = ref(30);
 const messages = ref([]);
 const foundWords = ref([]);
 const selectedCategory = ref("");
@@ -330,6 +331,7 @@ const selectRandomCategoryAndLetter = async () => {
     categories[Math.floor(Math.random() * categories.length)];
   summary.value.categories.push(selectedCategory.value);
   fetchValidWords();
+  categoryTimeLeft.value = 30;
 };
 
 const fetchValidWords = async () => {
@@ -413,8 +415,20 @@ const startTimer = () => {
     if (timeLeft.value > 0) {
       timeLeft.value--;
     } else {
-      clearInterval(categoryTimer.value);
       clearInterval(timer.value);
+      clearInterval(categoryTimer.value);
+    }
+  }, 1000);
+
+  categoryTimer.value = setInterval(() => {
+    if (categoryTimeLeft.value > 0) {
+      categoryTimeLeft.value--;
+      if (categoryTimeLeft.value === 4) {
+        sounds.value[0]?.play();
+      }
+      if (categoryTimeLeft.value === 0) {
+        selectRandomCategoryAndLetter();
+      }
     }
   }, 1000);
 };
@@ -423,7 +437,6 @@ const endRound = () => {
   if (client.value) {
     client.value.disconnect();
   }
-  clearInterval(categoryTimer.value);
   clearInterval(timer.value);
   emit("round-ended", {
     total: totalScore.value,
@@ -479,16 +492,6 @@ onMounted(() => {
   fetchChannelNameAndConnect();
   selectRandomCategoryAndLetter();
   startTimer();
-  categoryTimer.value = setInterval(() => {
-    if (timeLeft.value > 0) {
-      if (timeLeft.value % 30 === 4) {
-        sounds.value[0]?.play();
-      }
-      if (timeLeft.value % 30 === 0) {
-        selectRandomCategoryAndLetter();
-      }
-    }
-  }, 1000);
 });
 
 onBeforeUnmount(() => {

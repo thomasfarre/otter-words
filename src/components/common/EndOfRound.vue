@@ -20,7 +20,7 @@
             Classement des participants
           </button>
           <template v-if="props.summary">
-            <button v-if="props.summary.incorrectGuesses" @click="activeTab = 'resumeFirstRoundFirstRound'" :class="{ 'font-bold text-green': activeTab === 'resumeFirstRound' }" class="p-2 transition duration-300 ease-out text-brown hover:text-green">
+            <button v-if="props.summary.incorrectGuesses" @click="activeTab = 'resumeFirstRound'" :class="{ 'font-bold text-green': activeTab === 'resumeFirstRound' }" class="p-2 transition duration-300 ease-out text-brown hover:text-green">
               Résumé du round
             </button>
             <button v-if="props.summary.foundWords" @click="activeTab = 'resumeFourthRound'" :class="{ 'font-bold text-green': activeTab === 'resumeFourthRound' }" class="p-2 transition duration-300 ease-out text-brown hover:text-green">
