@@ -1,15 +1,24 @@
 <template>
   <div v-if="timeLeft > 0">
     <div class="max-w-[1100px] mx-auto">
-      <div class="space-y-4 md:space-y-0 md:grid-cols-9 md:grid-rows-3 md:gap-4 md:grid">
+      <div class="space-y-4 md:space-y-0 md:grid-cols-9 md:grid-rows-4 md:gap-4 md:grid">
         <div class="flex-col items-center justify-center hidden col-span-6 p-8 space-y-4 text-center bg-white md:flex rounded-card">
           <div class="title text-brown">
             <span> Round 3 : Le pendu </span>
           </div>
-          <div class="text-brown">
-            <span>
-              Les lettres s’affichent au fur et à mesure du temps, à vous de
-              retrouver le mot complet le plus vite possible !
+          <div class="relative mt-12 w-[32rem]">
+            <ProgressBar
+              :progressBarWidth="progressBarWidth"
+              :otterImage="otterImage"
+              :cartoonTroutImage="cartoonTroutImage"
+            />
+          </div>
+          <div class="pt-8">
+            <span class="subtitle text-green">
+              {{ timeLeft }}
+            </span>
+            <span class="text-lg font-bold text-brown">
+              secondes restantes, dépêche-toi !
             </span>
           </div>
         </div>
@@ -28,7 +37,7 @@
           </div>
         </div>
 
-        <div class="h-full col-span-4 row-span-2 pt-4 text-center bg-white rounded-card">
+        <div class="h-full col-span-5 row-span-2 pt-4 text-center bg-white rounded-card">
           <div class="px-8">
             <div class="flex items-center justify-center space-x-4">
               <div>
@@ -60,17 +69,17 @@
               </div>
               <span class="text-2xl tracking-[0.4em] text-brown uppercase">{{ revealedWord }}</span>
             </div>
-            <div class="px-8 pt-4">
+            <div class="px-8 pt-8">
               <input
                 v-model="userMessage"
                 @keyup.enter="handleUserMessage"
                 type="text"
                 placeholder="Votre réponse ici"
-                class="w-full p-2 text-lg text-gray-700 border border-green focus:ring-2 ring-green focus-visible:outline-none placeholder:text-gray-400 placeholder:italic placeholder:text-xl"
+                class="p-2 text-lg text-gray-700 border w-72 border-green focus:ring-2 ring-green focus-visible:outline-none placeholder:text-gray-400 placeholder:italic placeholder:text-xl"
               />
             </div>
           </div>
-          <div class="py-8 mt-12 bg-gray-200 rounded-b-card">
+          <div class="py-8 mt-4 bg-gray-200 rounded-b-card">
             <div class="flex items-center justify-center space-x-4">
               <button
                 @click="fetchWordAndDefinition"
@@ -97,46 +106,8 @@
             </div>
           </div>
         </div>
-        <div class="col-span-5 row-span-1 px-8 py-4 text-center bg-white rounded-card">
-          <div
-            class="flex items-center justify-center mx-auto max-w-72"
-          >
-            <div>
-              <svg
-                class="w-10 h-10"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 37 36"
-              >
-                <rect width="36" height="36" x=".5" fill="#481A1A" rx="18" />
-                <path
-                  fill="#fff"
-                  d="M19.5 19h2a1 1 0 0 1 0 2h-3a.997.997 0 0 1-1-1v-4a1 1 0 0 1 2 0v3Zm-7.13-4.139a1.5 1.5 0 1 1 2.077-1.76 7.98 7.98 0 0 1 1.126-.548A2.5 2.5 0 0 1 17 8h3a2.5 2.5 0 0 1 1.428 4.553c.39.154.767.337 1.127.548a1.5 1.5 0 1 1 2.076 1.76 8 8 0 1 1-12.261 0Zm6.13 11.14a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM17 10a.5.5 0 1 0 0 1h3a.5.5 0 1 0 0-1h-3Z"
-                />
-              </svg>
-            </div>
-            <span class="!leading-6 subtitle text-brown">
-              Trouve un maximum de mots dans les temps
-            </span>
-          </div>
-          <div class="relative mt-8">
-            <ProgressBar
-              :progressBarWidth="progressBarWidth"
-              :otterImage="otterImage"
-              :cartoonTroutImage="cartoonTroutImage"
-            />
-          </div>
-          <div class="pt-12">
-            <span class="subtitle text-green">
-              {{ timeLeft }}
-            </span>
-            <span class="text-lg font-bold text-brown">
-              secondes restantes, dépêche-toi !
-            </span>
-          </div>
-        </div>
 
-        <div class="col-span-5 row-span-1 text-center bg-white rounded-card bg-[url('/public/images/toto.png')] bg-bottom bg-cover h-full">
+        <div class="col-span-4 row-span-2 text-center rounded-card bg-[url('/public/images/basket.png')] bg-top h-full">
           <div
             class="flex items-center justify-center py-4 space-x-4 bg-white rounded-t-card"
           >
@@ -156,7 +127,7 @@
               La rivière des espoirs déchus
             </span>
           </div>
-          <div class="relative overflow-x-auto h-40 bg-[url('/public/images/river.svg')] bg-bottom bg-cover">
+          <div class="relative overflow-x-auto h-full bg-[url('/public/images/river.svg')] bg-bottom bg-cover">
             <div class="">
               <div class="flex pt-20 pl-4 space-x-4 whitespace-nowrap">
                 <span

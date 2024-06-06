@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 mt-4 overflow-y-auto max-h-36">
+  <div class="px-4 mt-4 overflow-y-auto max-h-[18rem]">
     <div class="space-y-2">
       <transition-group
         name="list"

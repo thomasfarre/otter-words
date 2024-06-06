@@ -5,12 +5,12 @@
   ></div>
     <div class="absolute mt-2 z-20 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/4 bg-white rounded-card left-1/2 top-1/4 max-w-[50rem]">
       <div class="p-8 text-center">
-        <div>
+        <div class="flex flex-col space-y-1">
           <span class="title text-brown">
             Fin du round!
           </span>
-          <span v-if="previousWord" class="subtitle text-brown">
-            Le mot précédent était : <strong>{{ props.previousWord }}</strong>
+          <span v-if="previousWord" class="text-sm italic text-gray-400">
+            (Le mot précédent était : <strong>{{ props.previousWord }}</strong>)
           </span>
         </div>
         <div class="subtitle text-brown">Vous avez marqué un total de <span class="text-2xl text-green">{{ props.totalScore }}</span> points</div>

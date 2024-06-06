@@ -1,14 +1,24 @@
 <template>
   <div v-if="timeLeft > 0">
     <div class="max-w-[1100px] mx-auto">
-      <div class="space-y-4 md:space-y-0 md:grid-cols-9 md:grid-rows-3 md:gap-4 md:grid">
-        <div class="flex-col items-center justify-center hidden col-span-6 p-8 space-y-4 text-center bg-white md:flex rounded-card">
+      <div class="space-y-4 md:space-y-0 md:grid-cols-9 md:grid-rows-4 md:gap-4 md:grid">
+        <div class="flex-col items-center justify-center hidden col-span-6 p-4 text-center bg-white md:flex rounded-card">
           <div class="title text-brown">
             <span> Round 2 : Le dico </span>
           </div>
-          <div class="text-brown">
-            <span>
-              Avec la définition et la catégorie grammaticale affichées, à vous de retrouver le mot !
+          <div class="relative mt-12 w-[32rem]">
+            <ProgressBar
+              :progressBarWidth="progressBarWidth"
+              :otterImage="otterImage"
+              :cartoonTroutImage="cartoonTroutImage"
+            />
+          </div>
+          <div class="pt-8">
+            <span class="subtitle text-green">
+              {{ timeLeft }}
+            </span>
+            <span class="text-lg font-bold text-brown">
+              secondes restantes, dépêche-toi !
             </span>
           </div>
         </div>
@@ -18,7 +28,7 @@
           <div>
             <span class="text-white subtitle"> Le score de ton équipe </span>
           </div>
-          <div class="flex flex-col">
+          <div class="flex flex-col space-y-2">
             <span class="text-white title"> {{ tweened.totalScore.toFixed(0) }} points </span>
             <span class="font-bold text-white"> C'est super </span>
           </div>
@@ -27,7 +37,7 @@
           </div>
         </div>
 
-        <div class="h-full col-span-4 row-span-2 pt-4 text-center bg-white rounded-card">
+        <div class="h-full col-span-5 row-span-2 pt-4 text-center bg-white rounded-card">
           <div class="px-16">
             <div class="flex items-center justify-center space-x-4">
               <div>
@@ -51,7 +61,7 @@
                 <span class="text-sm font-bold text-white uppercase">{{ catGram }}</span>
               </div>
             </div>
-            <div class="relative mx-auto mt-6 w-fit min-h-20">
+            <div class="relative mx-auto mt-4 w-fit">
               <span class="text-lg font-bold text-brown">
                 {{ definition }}
               </span>
@@ -66,17 +76,17 @@
             <div class="py-2" v-if="shuffledWord">
               <span  class="text-2xl font-bold tracking-widest uppercase text-green">{{ shuffledWord }}</span>
             </div>
-            <div class="pt-4">
+            <div class="pt-8">
               <input
                 v-model="userMessage"
                 @keyup.enter="handleUserMessage"
                 type="text"
                 placeholder="Votre réponse ici"
-                class="w-full p-2 text-lg text-gray-700 border border-green focus:ring-2 ring-green focus-visible:outline-none placeholder:text-gray-400 placeholder:italic placeholder:text-xl"
+                class="p-2 text-lg text-gray-700 border w-72 border-green focus:ring-2 ring-green focus-visible:outline-none placeholder:text-gray-400 placeholder:italic placeholder:text-xl"
               />
             </div>
           </div>
-          <div class="py-8 mt-10 bg-gray-200 rounded-b-card">
+          <div class="py-8 mt-4 bg-gray-200 rounded-b-card">
             <div class="grid grid-cols-1 gap-4 mx-auto max-w-80">
               <button @click="revealShuffledWord"
                   :disabled="hintsUsed >= 3" class="flex items-center justify-start space-x-4 transition duration-300 ease-out group">
@@ -102,7 +112,7 @@
                   </span>
                 </div>
                 <span
-                  class="underline transition duration-300 ease-out text-brown group-hover:text-brown-hover"
+                  class="underline transition duration-300 ease-out whitespace-nowrap text-brown group-hover:text-brown-hover"
                 >
                   les lettres dans le désordre, c'est parti</span
                 >
@@ -124,11 +134,26 @@
                   />
                 </svg>
                 <span
-                  class="underline transition duration-300 ease-out text-brown group-hover:text-brown-hover"
+                  class="underline transition duration-300 ease-out whitespace-nowrap text-brown group-hover:text-brown-hover"
                 >
                   au secours, c'est trop dur, je passe</span
                 >
               </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-span-4 row-span-2 text-center rounded-card bg-[url('/public/images/basket.png')] bg-top h-full">
+          <div
+            class="flex items-center justify-center py-4 space-x-4 bg-white rounded-t-card"
+          >
+            <div>
+              <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36"><g clip-path="url(#a)"><path fill="#481A1A" d="M36 18c0-9.941-8.059-18-18-18S0 8.059 0 18s8.059 18 18 18 18-8.059 18-18Z"/><path fill="#fff" stroke="#fff" stroke-width=".457" d="M30.857 14.406a6.186 6.186 0 0 0-6.179-6.18 6.189 6.189 0 0 0-6.088 5.12H5.534a.391.391 0 0 0-.39.392v1.336c0 .216.174.39.39.39H18.59c.053.303.127.597.221.882.008.029.707 2.84 1.733 5.612 1.448 3.913 2.8 5.815 4.13 5.815h.006c1.273-.006 2.584-1.847 4.008-5.63a59.463 59.463 0 0 0 1.707-5.393 6.146 6.146 0 0 0 .462-2.344Zm-6.179-5.397a5.403 5.403 0 0 1 5.397 5.397 5.403 5.403 0 0 1-5.397 5.396 5.402 5.402 0 0 1-5.396-5.396 5.402 5.402 0 0 1 5.396-5.397ZM5.926 14.13h3.631v.553H5.926v-.553Zm4.414.553v-.553h8.166a6.336 6.336 0 0 0 0 .553H10.34Zm17.614 7.19c-1.738 4.614-2.871 5.117-3.278 5.119h-.002c-.433 0-1.624-.52-3.394-5.3a52.543 52.543 0 0 1-.979-2.928 6.16 6.16 0 0 0 6.861 1.3l-1.957 4.835a.391.391 0 1 0 .726.294l2.328-5.753c.257-.184.5-.387.726-.607-.277.901-.63 1.974-1.031 3.04Zm-3.276-2.557a4.914 4.914 0 0 0 4.91-4.91 4.915 4.915 0 0 0-4.91-4.908 4.915 4.915 0 0 0-4.909 4.909 4.914 4.914 0 0 0 4.91 4.909Zm0-9.036c.826 0 1.595.245 2.241.665l-2.243 6.063a.391.391 0 1 0 .734.272l2.153-5.82a4.113 4.113 0 0 1 1.242 2.947 4.131 4.131 0 0 1-4.127 4.126 4.131 4.131 0 0 1-4.126-4.126 4.131 4.131 0 0 1 4.126-4.127Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h36v36H0z"/></clipPath></defs></svg>
+            </div>
+            <div class="flex flex-col items-start justify-start space-y-2">
+              <span class="subtitle text-brown">
+                Les mots trouvés
+              </span>
               <template v-if="previousWord">
                 <div class="flex items-center justify-center space-x-1">
                   <span class="italic text-brown">
@@ -140,57 +165,6 @@
               </template>
             </div>
           </div>
-        </div>
-        <div class="col-span-5 row-span-1 px-8 py-4 text-center bg-white rounded-card">
-          <div
-            class="flex items-center justify-center mx-auto max-w-72"
-          >
-            <div>
-              <svg
-                class="w-10 h-10"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 37 36"
-              >
-                <rect width="36" height="36" x=".5" fill="#481A1A" rx="18" />
-                <path
-                  fill="#fff"
-                  d="M19.5 19h2a1 1 0 0 1 0 2h-3a.997.997 0 0 1-1-1v-4a1 1 0 0 1 2 0v3Zm-7.13-4.139a1.5 1.5 0 1 1 2.077-1.76 7.98 7.98 0 0 1 1.126-.548A2.5 2.5 0 0 1 17 8h3a2.5 2.5 0 0 1 1.428 4.553c.39.154.767.337 1.127.548a1.5 1.5 0 1 1 2.076 1.76 8 8 0 1 1-12.261 0Zm6.13 11.14a6 6 0 1 0 0-12 6 6 0 0 0 0 12ZM17 10a.5.5 0 1 0 0 1h3a.5.5 0 1 0 0-1h-3Z"
-                />
-              </svg>
-            </div>
-            <span class="!leading-6 subtitle text-brown">
-              Trouve un maximum de mots dans les temps
-            </span>
-          </div>
-          <div class="relative mt-8">
-            <ProgressBar
-              :progressBarWidth="progressBarWidth"
-              :otterImage="otterImage"
-              :cartoonTroutImage="cartoonTroutImage"
-            />
-          </div>
-          <div class="pt-12">
-            <span class="subtitle text-green">
-              {{ timeLeft }}
-            </span>
-            <span class="text-lg font-bold text-brown">
-              secondes restantes, dépêche-toi !
-            </span>
-          </div>
-        </div>
-
-        <div class="col-span-5 row-span-1 text-center bg-white rounded-card bg-[url('/public/images/toto.png')] bg-bottom bg-cover h-full">
-          <div
-            class="flex items-center justify-center py-4 space-x-4 bg-white rounded-t-card"
-          >
-            <div>
-              <svg class="w-10 h-10" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 36 36"><g clip-path="url(#a)"><path fill="#481A1A" d="M36 18c0-9.941-8.059-18-18-18S0 8.059 0 18s8.059 18 18 18 18-8.059 18-18Z"/><path fill="#fff" stroke="#fff" stroke-width=".457" d="M30.857 14.406a6.186 6.186 0 0 0-6.179-6.18 6.189 6.189 0 0 0-6.088 5.12H5.534a.391.391 0 0 0-.39.392v1.336c0 .216.174.39.39.39H18.59c.053.303.127.597.221.882.008.029.707 2.84 1.733 5.612 1.448 3.913 2.8 5.815 4.13 5.815h.006c1.273-.006 2.584-1.847 4.008-5.63a59.463 59.463 0 0 0 1.707-5.393 6.146 6.146 0 0 0 .462-2.344Zm-6.179-5.397a5.403 5.403 0 0 1 5.397 5.397 5.403 5.403 0 0 1-5.397 5.396 5.402 5.402 0 0 1-5.396-5.396 5.402 5.402 0 0 1 5.396-5.397ZM5.926 14.13h3.631v.553H5.926v-.553Zm4.414.553v-.553h8.166a6.336 6.336 0 0 0 0 .553H10.34Zm17.614 7.19c-1.738 4.614-2.871 5.117-3.278 5.119h-.002c-.433 0-1.624-.52-3.394-5.3a52.543 52.543 0 0 1-.979-2.928 6.16 6.16 0 0 0 6.861 1.3l-1.957 4.835a.391.391 0 1 0 .726.294l2.328-5.753c.257-.184.5-.387.726-.607-.277.901-.63 1.974-1.031 3.04Zm-3.276-2.557a4.914 4.914 0 0 0 4.91-4.91 4.915 4.915 0 0 0-4.91-4.908 4.915 4.915 0 0 0-4.909 4.909 4.914 4.914 0 0 0 4.91 4.909Zm0-9.036c.826 0 1.595.245 2.241.665l-2.243 6.063a.391.391 0 1 0 .734.272l2.153-5.82a4.113 4.113 0 0 1 1.242 2.947 4.131 4.131 0 0 1-4.127 4.126 4.131 4.131 0 0 1-4.126-4.126 4.131 4.131 0 0 1 4.126-4.127Z"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0h36v36H0z"/></clipPath></defs></svg>
-            </div>
-            <span class="subtitle text-brown">
-              Les mots trouvés
-            </span>
-          </div>
           <FoundWords :correct-guess="reversedCorrectGuess" />
         </div>
 
@@ -200,7 +174,7 @@
               La rivière des espoirs déchus
             </span>
           </div>
-          <div class="relative overflow-x-auto h-40 bg-[url('/public/images/river.svg')] bg-bottom bg-cover">
+          <div class="relative overflow-x-auto h-full bg-[url('/public/images/river.svg')] bg-bottom bg-cover">
             <div class="">
               <div class="flex pt-20 pl-4 space-x-4 whitespace-nowrap">
                 <span
