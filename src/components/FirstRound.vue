@@ -227,6 +227,7 @@
 import { ref, onMounted, onBeforeUnmount, defineEmits, reactive, watch } from "vue";
 import { useGameLogic } from "./useGameLogic.js";
 import gsap from 'gsap'
+
 import axios from "axios";
 import tmi from "tmi.js";
 
