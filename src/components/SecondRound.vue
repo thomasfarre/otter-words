@@ -70,7 +70,7 @@
                 }}</span>
               </div>
             </div>
-            <div class="relative mx-auto mt-4 w-fit">
+            <div class="relative mx-auto mt-4 w-fit min-h-20">
               <span class="text-lg font-bold text-brown" ref="definitionText">
                 {{ definition }}
               </span>
@@ -93,7 +93,7 @@
                 >{{ shuffledWord }}</span
               >
             </div>
-            <div class="pt-8">
+            <div class="pt-4">
               <input
                 v-model="userMessage"
                 @keyup.enter="handleUserMessage"
