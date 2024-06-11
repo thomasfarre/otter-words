@@ -297,7 +297,6 @@ const shuffledWord = ref("");
 const totalScore = ref(0);
 const lock = ref(false);
 const userMessage = ref("");
-const definitionText = ref(null);
 
 const tweened = reactive({
   totalScore: 0,
@@ -311,26 +310,6 @@ const fetchChannelNameAndConnect = async () => {
   connectChat(channelName.value);
 };
 
-// Function to update the definition text with a new animation sequence
-const updateDefinitionText = (newText) => {
-  const tl = gsap.timeline();
-
-  tl.to(definitionText.value, {
-    duration: 1,
-    text: "",
-    onComplete: () => {
-      definition.value = newText;
-    },
-  });
-
-  tl.to(definitionText.value, {
-    duration: 1,
-    text: newText,
-    ease: "none",
-  });
-};
-
-// Fetch new word and definition
 const fetchWordAndDefinition = async () => {
   try {
     previousWord.value = word.value;
@@ -340,16 +319,14 @@ const fetchWordAndDefinition = async () => {
     const keys = Object.keys(words);
     const randomKey = keys[Math.floor(Math.random() * keys.length)];
     word.value = randomKey;
-    const newDefinition = words[randomKey].def;
+    console.log(word.value);
+    definition.value = words[randomKey].def;
     catGram.value = words[randomKey].catGram;
     shuffledWord.value = "";
-    // Update the definition text with the new animation sequence
-    updateDefinitionText(newDefinition);
   } catch (error) {
     console.error("Failed to fetch data:", error);
   }
 };
-
 
 const handleUserMessage = () => {
   if (userMessage.value.trim() !== "") {
