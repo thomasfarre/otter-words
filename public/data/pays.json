@@ -3,13 +3,20 @@
     "A",
     "B",
     "C",
-    "G",
+    "D",
     "E",
+    "G",
+    "H",
+    "I",
+    "K",
+    "L",
     "M",
     "N",
     "P",
+    "R",
     "S",
-    "T"
+    "T",
+    "V"
   ],
   "A": [
     "Afghanistan",
@@ -18,7 +25,6 @@
     "Algérie",
     "Allemagne",
     "Andorre",
-    "Angleterre",
     "Angola",
     "Anguilla",
     "Antigua-et-Barbuda",
@@ -29,7 +35,26 @@
     "Aruba",
     "Australie",
     "Autriche",
-    "Azerbaïdjan"
+    "Azerbaïdjan",
+    "Alger",
+    "Andorre-la-Vieille",
+    "Abu Dhabi",
+    "Asmara",
+    "Addis-Abeba",
+    "Accra",
+    "Athènes",
+    "Avarua",
+    "Adamstown",
+    "Amman",
+    "Astana",
+    "Antananarivo",
+    "Abuja",
+    "Alofi",
+    "Asuncion",
+    "Amsterdam",
+    "Apia",
+    "Achgabat",
+    "Ankara"
   ],
   "B": [
     "Bahamas",
@@ -42,7 +67,7 @@
     "Bermudes",
     "Bhoutan",
     "Biélorussie",
-    "Birmanie (Myanmar)",
+    "Birmanie",
     "Bolivie",
     "Bosnie-Herzégovine",
     "Botswana",
@@ -50,7 +75,33 @@
     "Brunei",
     "Bulgarie",
     "Burkina Faso",
-    "Burundi"
+    "Burundi",
+    "Berlin",
+    "Buenos Aires",
+    "Bakou",
+    "Bridgetown",
+    "Bruxelles",
+    "Belmopan",
+    "Brasilia",
+    "Bandar Seri Begawan",
+    "Bujumbura",
+    "Bogota",
+    "Banjul",
+    "Basse-Terre",
+    "Bissau",
+    "Budapest",
+    "Bagdad",
+    "Bishkek",
+    "Beyrouth",
+    "Bamako",
+    "Bangui",
+    "Brazzaville",
+    "Bucarest",
+    "Basseterre",
+    "Belgrade",
+    "Bratislava",
+    "Berne",
+    "Bangkok"
   ],
   "C": [
     "Cambodge",
@@ -67,12 +118,32 @@
     "Costa Rica",
     "Côte d’Ivoire",
     "Croatie",
-    "Cuba"
+    "Cuba",
+    "Canberra",
+    "Copenhague",
+    "Conakry",
+    "Cayenne",
+    "Cockburn Town",
+    "Charlotte Amalie",
+    "Chisinau",
+    "Castries",
+    "Colombo",
+    "Caracas"
   ],
   "D": [
     "Danemark",
     "Djibouti",
-    "Dominique"
+    "Dominique",
+    "Dacca",
+    "Djibouti",
+    "Douglas",
+    "Dublin",
+    "Doha",
+    "Dakar",
+    "Damas",
+    "Douchanbé",
+    "Dodoma",
+    "Dili"
   ],
   "E": [
     "Égypte",
@@ -88,13 +159,16 @@
   "F": [
     "Fidji",
     "Finlande",
-    "France"
+    "France",
+    "Flying Fish Cove",
+    "Fort-de-France",
+    "Freetown",
+    "Funafuti"
   ],
   "G": [
     "Gabon",
     "Gambie",
     "Géorgie",
-    "Géorgie du Sud et les Îles Sandwich du Sud",
     "Ghana",
     "Gibraltar",
     "Grèce",
@@ -105,13 +179,25 @@
     "Guatemala",
     "Guinée",
     "Guinée Équatoriale",
-    "Guinée-Bissau"
+    "Guinée-Bissau",
+    "Gaborone",
+    "Grytviken",
+    "Gibraltar",
+    "Guatemala",
+    "Georgetown"
   ],
   "H": [
     "Haïti",
     "Honduras",
     "Hong-Kong",
-    "Hongrie"
+    "Hongrie",
+    "Hamilton",
+    "Helsinki",
+    "Hagatna",
+    "Hong Kong",
+    "Honiara",
+    "Hanoï",
+    "Harare"
   ],
   "Î": [
     "Île Christmas",
@@ -139,19 +225,34 @@
     "Irlande",
     "Islande",
     "Israël",
-    "Italie"
+    "Italie",
+    "Islamabad"
   ],
   "J": [
     "Jamaïque",
     "Japon",
-    "Jordanie"
+    "Jordanie",
+    "Jakarta",
+    "Jérusalem",
+    "Jamestown"
   ],
   "K": [
     "Kazakhstan",
     "Kenya",
     "Kirghizistan",
     "Kiribati",
-    "Koweït"
+    "Koweït",
+    "Kabul",
+    "Kingston",
+    "Koweït",
+    "Kuala Lumpur",
+    "Katmandou",
+    "Kampala",
+    "Kinshasa",
+    "Kigali",
+    "Kingstown",
+    "Khartoum",
+    "Kiev"
   ],
   "L": [
     "Laos",
@@ -163,7 +264,22 @@
     "Libye",
     "Liechtenstein",
     "Lituanie",
-    "Luxembourg"
+    "Luxembourg",
+    "Luanda",
+    "La Havane",
+    "Le Caire",
+    "Libreville",
+    "Le Vatican",
+    "Luxembourg",
+    "Lilongwe",
+    "La Valette",
+    "Lima",
+    "Lisbonne",
+    "Londres",
+    "Ljubljana",
+    "Longyearbyen",
+    "Lomé",
+    "Lusaka"
   ],
   "M": [
     "Macao",
@@ -184,7 +300,31 @@
     "Mongolie",
     "Monténégro",
     "Montserrat",
-    "Mozambique"
+    "Mozambique",
+    "Manama",
+    "Minsk",
+    "Moroni",
+    "Madrid",
+    "Malabo",
+    "Mariehamn",
+    "Majuro",
+    "Maseru",
+    "Monrovia",
+    "Macao",
+    "Malé",
+    "Mamoudzou",
+    "Mexico",
+    "Monaco",
+    "Maputo",
+    "Managua",
+    "Mascate",
+    "Melekeok",
+    "Manille",
+    "Moscou",
+    "Mogadiscio",
+    "Mbabane",
+    "Montevideo",
+    "Mata-Utu"
   ],
   "N": [
     "Namibie",
@@ -196,12 +336,28 @@
     "Niué",
     "Norvège",
     "Nouvelle-Calédonie",
-    "Nouvelle-Zélande"
+    "Nouvelle-Zélande",
+    "Nassau",
+    "Naypyidaw",
+    "Nicosie",
+    "Nuuk",
+    "New Delhi",
+    "Nairobi",
+    "Nouakchott",
+    "Niamey",
+    "Nouméa",
+    "N'Djaména",
+    "Nuku'alofa"
   ],
   "O": [
     "Oman",
     "Ouganda",
-    "Ouzbékistan"
+    "Ouzbékistan",
+    "Oranjestad",
+    "Ouagadougou",
+    "Ottawa",
+    "Oulan-Bator",
+    "Oslo"
   ],
   "P": [
     "Pakistan",
@@ -215,10 +371,33 @@
     "Pologne",
     "Polynésie Française",
     "Porto Rico",
-    "Portugal"
+    "Portugal",
+    "Pretoria",
+    "Porto Novo",
+    "Phnom Penh",
+    "Praia",
+    "Pékin",
+    "Pyongyang",
+    "Palikir",
+    "Paris",
+    "Port-au-Prince",
+    "Port Stanley",
+    "Port-Louis",
+    "Podgorica",
+    "Plymouth",
+    "Panama",
+    "Port Moresby",
+    "Papeete",
+    "Prague",
+    "Pago Pago",
+    "Paramaribo",
+    "Port-aux-Français",
+    "Port-d'Espagne",
+    "Port-Vila"
   ],
   "Q": [
-    "Qatar"
+    "Qatar",
+    "Quito"
   ],
   "R": [
     "République Centrafricaine",
@@ -231,7 +410,15 @@
     "Roumanie",
     "Royaume-Uni",
     "Russie",
-    "Rwanda"
+    "Rwanda",
+    "Riyad",
+    "Roseau",
+    "Road Town",
+    "Reykjavik",
+    "Rome",
+    "Riga",
+    "Rabat",
+    "Ramallah"
   ],
   "S": [
     "Sahara Occidental",
@@ -260,7 +447,27 @@
     "Suriname",
     "Svalbard et Jan Mayen",
     "Swaziland",
-    "Syrie"
+    "Syrie",
+    "Saint John",
+    "Sucre",
+    "Sarajevo",
+    "Sofia",
+    "Santiago",
+    "Séoul",
+    "San José",
+    "Suva",
+    "Saint-Georges",
+    "Saipan",
+    "Skopje",
+    "San Juan",
+    "Saint-Domingue",
+    "Saint-Denis",
+    "Saint-Pierre",
+    "San Salvador",
+    "Sao Tomé",
+    "Singapour",
+    "Stockholm",
+    "Sanaa"
   ],
   "T": [
     "Tadjikistan",
@@ -276,7 +483,21 @@
     "Tunisie",
     "Turkménistan",
     "Turquie",
-    "Tuvalu"
+    "Tuvalu",
+    "Tirana",
+    "The Valley",
+    "Thimphu",
+    "Tallinn",
+    "Tbilisi",
+    "Tegucigalpa",
+    "Torshavn",
+    "Téhéran",
+    "Tokyo",
+    "Tarawa Sud",
+    "Tripoli",
+    "Tachkent",
+    "Taipei",
+    "Tunis"
   ],
   "U": [
     "Ukraine",
@@ -285,16 +506,33 @@
   "V": [
     "Vanuatu",
     "Venezuela",
-    "Viet Nam"
+    "Vietnam",
+    "Vienne",
+    "Vientiane",
+    "Vaduz",
+    "Vilnius",
+    "Varsovie",
+    "Ville de Saint-Marin",
+    "Victoria"
   ],
   "W": [
-    "Wallis et Futuna"
+    "Wallis et Futuna",
+    "Willemstad",
+    "Washington",
+    "West Island",
+    "Windhoek",
+    "Wellington"
   ],
   "Y": [
-    "Yémen"
+    "Yémen",
+    "Yerevan",
+    "Yaounde",
+    "Yamoussoukro",
+    "Yaren"
   ],
   "Z": [
     "Zambie",
-    "Zimbabwe"
+    "Zimbabwe",
+    "Zagreb"
   ]
 }

@@ -294,9 +294,10 @@ const selectRandomCategoryAndLetter = async () => {
     "pays",
     "adverbes",
     "anatomie",
-    "fromages",
+    "adjectifs",
     "qualitedefaut",
     "vegetaux",
+    "verbes"
   ];
   selectedCategory.value =
     categories[Math.floor(Math.random() * categories.length)];
@@ -448,13 +449,14 @@ const formatCategories = (selectedCategory) => {
   const categoryMap = {
     animaux: "animaux",
     anatomie: "parties du corps",
-    fromages: "fromages",
+    adjectifs: "adjectifs invariable en genre",
     prenoms: "prénoms",
     metiers: "métiers",
-    pays: "pays",
+    pays: "pays & capitales",
     vegetaux: "végétaux",
     qualitedefaut: "qualités & défauts",
     adverbes: "adverbes en -ment",
+    verbes: "verbes"
   };
   return categoryMap[selectedCategory] || selectedCategory;
 };
