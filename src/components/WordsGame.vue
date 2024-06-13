@@ -6,7 +6,7 @@
     <!-- Header -->
     <div class="absolute right-12">
       <div class="flex items-center px-4 py-2 space-x-6 bg-white rounded-b-3xl">
-        <a href="/" class="font-bold transition duration-300 ease-out text-brown hover:text-brown-hover">
+        <a href="/game" class="font-bold transition duration-300 ease-out text-brown hover:text-brown-hover">
           Revenir à l'accueil
         </a>
         <button @click="toggleMusic" class="-mt-1.5 font-bold transition duration-300 ease-out text-brown hover:text-brown-hover">
@@ -55,6 +55,7 @@
             :selectedRounds="selectedRounds"
             :teamExists="teamExists"
             :teamName="teamName"
+            :isLoggedIn="isLoggedIn"
             @update:teamName="updateTeamName"
             @toggle-round="toggleRound"
             @start-game="startGame"
@@ -65,26 +66,31 @@
       <FirstRound
         v-if="gameStarted && currentRound === 1"
         @round-ended="handleRoundEnded"
+        :isLoggedIn="isLoggedIn"
         :key="'first-' + roundKey"
       />
       <SecondRound
         v-if="gameStarted && currentRound === 2"
         @round-ended="handleRoundEnded"
+        :isLoggedIn="isLoggedIn"
         :key="'second-' + roundKey"
       />
       <ThirdRound
         v-if="gameStarted && currentRound === 3"
         @round-ended="handleRoundEnded"
+        :isLoggedIn="isLoggedIn"
         :key="'third-' + roundKey"
       />
       <FourthRound
         v-if="gameStarted && currentRound === 4"
         @round-ended="handleRoundEnded"
+        :isLoggedIn="isLoggedIn"
         :key="'fourth-' + roundKey"
       />
       <FithRound
         v-if="gameStarted && currentRound === 5"
         @round-ended="handleRoundEnded"
+        :isLoggedIn="isLoggedIn"
         :key="'fith-' + roundKey"
       />
     </div>
@@ -96,9 +102,11 @@
       :detailedScores="detailedScores"
       :availableRounds="availableRounds"
       :selectedRounds="selectedRounds"
+      :isLoggedIn="isLoggedIn"
       @toggle-round="toggleRound"
       @start-game="startGame"
       @toggle-dashboard="showDashboard = true"
+      @save-score="saveScore"
     />
 
 
@@ -159,6 +167,7 @@ import gameLoop from "/public/sounds/gameLoop.mp3";
 
 const channelName = ref("");
 const teamName = ref("");
+const isLoggedIn = ref(false);
 const teamExists = ref(false);
 const startGameModal = ref(false);
 // const startTwitchModal = ref(false);
@@ -218,11 +227,13 @@ const createOrUpdateTeam = async () => {
 
 
 const startGame = async () => {
-  if (teamName.value.trim() === "") {
-    alert("Please enter a team name before starting the game.");
-    return;
+  if (isLoggedIn.value) {
+    if (teamName.value.trim() === "") {
+      alert("Please enter a team name before starting the game.");
+      return;
+    }
+    await createOrUpdateTeam(teamName.value);
   }
-  await createOrUpdateTeam(teamName.value);
   startGameModal.value = false;
   gameStarted.value = true;
   gameEnded.value = false;
@@ -242,6 +253,7 @@ const fetchChannelNameAndConnect = async () => {
   const db = getFirestore();
   const user = auth.currentUser;
   if (user) {
+    isLoggedIn.value = true;
     const userDoc = doc(db, "users", user.uid);
     const docSnap = await getDoc(userDoc);
     if (docSnap.exists()) {
@@ -314,8 +326,11 @@ const handleRoundEnded = async (data) => {
     gameStarted.value = false;
     gameEnded.value = true;
     endGameModal.value = true;
-    await updatePlayerScores();
-    await updateBestGlobalScore();
+    const auth = getAuth();
+    if (auth.currentUser) {
+      await updatePlayerScores();
+      await updateBestGlobalScore();
+    }
   }
 };
 
@@ -331,6 +346,40 @@ const updateScores = (newScores) => {
     }
   });
   detailedScores.value.sort((a, b) => b.score - a.score);
+};
+
+const saveScore = async (userName) => {
+  try {
+    const db = getFirestore();
+    const playersCollection = collection(db, "Players");
+
+    const playerQuery = query(
+      playersCollection,
+      where("displayName", "==", userName)
+    );
+    const querySnapshot = await getDocs(playerQuery);
+
+    if (querySnapshot.empty) {
+      await addDoc(playersCollection, {
+        displayName: userName,
+        bestScore: finalScore.value,
+      });
+      console.log(
+        `New player document created for ${userName} with score ${finalScore.value}`
+      );
+    } else {
+      querySnapshot.forEach(async (playerDoc) => {
+        const playerData = playerDoc.data();
+        if (finalScore.value > playerData.bestScore) {
+          await updateDoc(playerDoc.ref, {
+            bestScore: finalScore.value,
+          });
+        }
+      });
+    }
+  } catch (error) {
+    console.error("Error updating player scores:", error);
+  }
 };
 
 const updatePlayerScores = async () => {

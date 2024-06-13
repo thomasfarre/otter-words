@@ -1,7 +1,5 @@
 <template>
-  <div class="pt-8">
-    <button class="btn-white" @click="handleLoginOrRedirect">Lancer une partie</button>
-  </div>
+  <button class="w-1/2 btn-white" @click="handleLoginOrRedirect">En équipe via Twitch</button>
 </template>
 
 <script setup>

@@ -35,9 +35,9 @@
         </div>
       </div>
 
-      <div class="pt-8">
+      <div v-if="!scoreSaved" class="pt-8">
         <div>
-          <span class="font-medium text-gray-500 "> Classement des participants </span>
+          <span class="font-medium text-gray-500"> Classement des participants </span>
         </div>
         <table class="min-w-full mt-2 divide-y divide-gray-200">
           <thead class="bg-gray-50">
@@ -81,7 +81,29 @@
           </tbody>
         </table>
       </div>
-      <div class="px-16 pt-8 ">
+
+      <div v-if="!props.isLoggedIn && !scoreSaved" class="pt-8">
+        <div>
+          <span class="font-medium text-gray-500"> Entrez votre nom pour enregistrer votre score </span>
+          <span class="block italic text-red-500">
+            Attention, Si vous quittez cette fenêtre le score sera perdu !
+          </span>
+        </div>
+        <div class="flex items-center pt-4 space-x-4">
+          <div class="w-1/2">
+            <input v-model="userName" type="text" placeholder="Votre nom" class="block w-full px-4 py-2.5 text-lg text-gray-700 border rounded-md border-green focus:ring-2 ring-green focus-visible:outline-none"/>
+          </div>
+          <div class="flex justify-center w-1/2">
+            <button @click="saveScore" class="w-full !rounded btn bg-emerald-100">Enregistrer</button>
+          </div>
+        </div>
+      </div>
+
+      <div v-if="scoreSaved" class="pt-8 text-center">
+        <span class="font-medium text-green">Votre score a été enregistré !</span>
+      </div>
+
+      <div class="px-16 pt-8">
         <span class="subtitle text-brown">
           Choix des mini-jeux présents
         </span>
@@ -101,6 +123,7 @@
           </div>
         </div>
       </div>
+
       <div class="flex items-center justify-center pt-10 space-x-6">
         <div>
           <button @click="startGame" class="btn btn-white">
@@ -121,7 +144,7 @@
 </template>
 
 <script setup>
-import { defineEmits, defineProps } from "vue";
+import { ref, defineEmits, defineProps } from "vue";
 
 const props = defineProps({
   availableRounds: Array,
@@ -130,7 +153,11 @@ const props = defineProps({
   detailedScores: Array,
   teamExists: Boolean,
   teamName: String,
+  isLoggedIn: Boolean,
 });
+
+const userName = ref('');
+const scoreSaved = ref(false);
 
 const startGame = () => {
   emit("start-game");
@@ -148,5 +175,14 @@ const toggleDashboard = () => {
   emit("toggle-dashboard");
 };
 
-const emit = defineEmits(["close", "toggle-round", "start-game", "toggle-dashboard"]);
+const saveScore = () => {
+  if (userName.value.trim() !== '') {
+    emit('save-score', userName.value);
+    scoreSaved.value = true;
+  } else {
+    alert("Veuillez entrer un nom valide.");
+  }
+};
+
+const emit = defineEmits(["close", "toggle-round", "start-game", "toggle-dashboard", "save-score"]);
 </script>

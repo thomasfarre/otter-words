@@ -11,10 +11,9 @@ const routes = [
     component: HomePage,
   },
   {
-    path: "/game/:userId",
+    path: "/game",
     name: "WordsGame",
     component: WordsGame,
-    meta: { requiresAuth: true },
   },
 ];
 
