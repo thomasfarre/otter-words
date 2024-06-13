@@ -38,7 +38,7 @@
             </div>
             <div class="flex flex-col items-center p-16 space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
               <TwitchLogin />
-              <button @click="startSoloGame" class="md:w-1/2 btn-yellow">
+              <button @click="startSoloGame" class="md:w-1/2 btn-yellow min-w-[19rem]">
                 En solo
               </button>
             </div>

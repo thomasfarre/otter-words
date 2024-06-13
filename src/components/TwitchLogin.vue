@@ -1,5 +1,5 @@
 <template>
-  <button class="md:w-1/2 btn-white" @click="handleLoginOrRedirect">En équipe via Twitch</button>
+  <button class="md:w-1/2 btn-white min-w-[19rem]" @click="handleLoginOrRedirect">En équipe via Twitch</button>
 </template>
 
 <script setup>
