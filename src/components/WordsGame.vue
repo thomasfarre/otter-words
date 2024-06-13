@@ -4,7 +4,7 @@
     :style="{ backgroundImage: `url(${bgImage})` }"
   >
     <!-- Header -->
-    <div class="absolute right-12">
+    <div class="absolute z-50 right-12">
       <div class="flex items-center px-4 py-2 space-x-6 bg-white rounded-b-3xl">
         <a href="/game" class="font-bold transition duration-300 ease-out text-brown hover:text-brown-hover">
           Revenir à l'accueil
@@ -123,7 +123,7 @@
           <img class="w-6 h-6 transition-transform duration-300 group-hover:animate-wiggle" :src="iconImage" alt="" />
           <span class="text-sm font-medium text-gray-200 transition duration-300 ease-out group-hover:text-white">Buy me trouts</span>
         </a>
-        <div>
+        <div class="text-center">
           <span class="text-xs italic text-white"
             >by Omar and Julie for las Truitas \tʁɥi.tas\</span
           >
