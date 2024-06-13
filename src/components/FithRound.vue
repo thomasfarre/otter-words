@@ -126,7 +126,7 @@
               La rivière des espoirs déchus
             </span>
           </div>
-          <div class="relative overflow-x-auto h-full bg-[url('/public/images/river.svg')] bg-bottom bg-cover">
+          <div class="relative overflow-x-auto -mt-px h-full bg-[url('/public/images/river.svg')] bg-bottom bg-cover">
             <div class="">
               <div class="flex pt-20 pl-4 space-x-4 whitespace-nowrap">
                 <span
