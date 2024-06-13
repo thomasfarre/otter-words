@@ -63,7 +63,7 @@
               <span class="subtitle text-brown"> Les mots à trouver </span>
             </div>
             <div class="pt-4 md:pt-16">
-              <div class="flex justify-center space-x-1 text-lg font-bold text-brown">
+              <div class="flex flex-wrap justify-center space-x-1 text-lg font-bold text-brown">
                 <span>
                   Des
                 </span>
@@ -146,7 +146,7 @@
         </div>
 
         <div
-          class="col-span-4 row-span-2 text-center rounded-card bg-[url('/public/images/basket.png')] bg-top h-full "
+          class="col-span-4 row-span-2 text-center rounded-card bg-[url('/public/images/basket.png')] bg-top h-full min-h-36 "
         >
           <div
             class="flex items-center justify-center py-4 space-x-4 bg-white rounded-t-card"

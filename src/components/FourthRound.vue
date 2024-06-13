@@ -104,7 +104,7 @@
           </div>
         </div>
 
-        <div class="col-span-4 row-span-2 text-cente rounded-card bg-[url('/public/images/basket.png')] bg-top h-full">
+        <div class="col-span-4 row-span-2 text-cente rounded-card bg-[url('/public/images/basket.png')] bg-top h-full min-h-36">
           <div
             class="flex items-center justify-center py-4 space-x-4 bg-white rounded-t-card"
           >
