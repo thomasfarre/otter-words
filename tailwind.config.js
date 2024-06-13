@@ -38,7 +38,7 @@ module.exports = {
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
-        fishmove: "fishmove 45s linear infinite",
+        fishmove: "fishmove 45s ease-in infinite",
         swim: "swim 2s linear infinite",
       },
     },
