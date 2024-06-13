@@ -82,7 +82,7 @@
           </div>
         </div>
         <div class="flex flex-col items-center justify-center pt-6 mx-auto space-y-2 w-fit">
-          <input v-if="!props.teamExists" v-model="localTeamName" type="text" name="teamName" id="teamName"
+          <input v-if="props.isLoggedIn && !props.teamExists" v-model="localTeamName" type="text" name="teamName" id="teamName"
             class="block rounded-md w-72 border-0 px-4 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-amber-600 placeholder:text-gray-600 hover:ring-amber-500 hover:ring-2 focus:ring-2 focus:ring-inset focus:ring-amber-500 transition ease-out duration-300 focus-visible:outline-none"
             placeholder="Choisis ton nom d'équipe">
           <button @click="emitStartGame" class="btn-white">
@@ -101,7 +101,8 @@ const props = defineProps({
   availableRounds: Array,
   selectedRounds: Array,
   teamExists: Boolean,
-  teamName: String
+  teamName: String,
+  isLoggedIn: Boolean
 });
 
 const emit = defineEmits(['close', 'toggle-round', 'start-game', 'update:teamName']);

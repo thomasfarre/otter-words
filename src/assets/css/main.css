@@ -15,6 +15,10 @@
   @apply btn bg-amber-100;
 }
 
+.btn-green {
+  @apply bg-green btn;
+}
+
 
 .title {
   @apply font-extrabold text-title/10;

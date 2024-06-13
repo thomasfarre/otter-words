@@ -16,15 +16,50 @@
             >des loutres, des mots et des truites bien sûr</span
           >
         </div>
-        <TwitchLogin />
+        <button @click="startModal = true" class="mt-16 btn-white">
+          Lancer une partie
+        </button>
+        <div v-show="startModal">
+          <div @click.stop="startModal = false" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
+          <div class="absolute z-20 w-full min-h-80 max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[54rem]">
+            <button @click.stop="startModal = false" class="absolute transition duration-300 ease-out top-2 right-2 text-brown hover:text-brown-hover md:top-8 md:right-8">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+              </svg>
+            </button>
+            <div class="py-12 text-center">
+              <span class="title text-brown">
+                Tu préfère jouer ?
+              </span>
+            </div>
+            <div>
+
+            </div>
+            <div class="flex items-center p-16 space-x-4">
+              <TwitchLogin />
+              <button @click="startSoloGame" class="w-1/2 btn-yellow">
+                En solo
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import { ref } from "vue";
+import { useRouter } from 'vue-router';
 import TwitchLogin from "./TwitchLogin.vue";
 import bgImage from "/public/images/bg-loutre-2.jpg";
 import logoImage from "/public/images/logo.png";
 
+const startModal = ref(false);
+
+const router = useRouter();
+const startSoloGame = () => {
+  router.push('/game');
+};
 </script>

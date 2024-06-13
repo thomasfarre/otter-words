@@ -224,7 +224,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, onBeforeUnmount, defineEmits, reactive, watch } from "vue";
+import { ref, onMounted, onBeforeUnmount, defineEmits, reactive, watch, defineProps } from "vue";
 import { useGameLogic } from "./useGameLogic.js";
 import gsap from 'gsap'
 
@@ -242,6 +242,10 @@ import scoreImage from "/public/images/score-illustration.png";
 
 
 const emit = defineEmits(["round-ended"]);
+
+const props = defineProps({
+  isLoggedIn: Boolean
+});
 
 const {
   channelName,
@@ -371,7 +375,7 @@ const checkGuess = async (message, username) => {
 
 const handleUserMessage = () => {
   if (userMessage.value.trim() !== "") {
-    const username = channelName.value;
+    const username = props.isLoggedIn ? channelName.value : "Anonymous";
     messages.value.push({
       id: messages.value.length + 1,
       username: username,
@@ -435,12 +439,14 @@ const connectChat = (channel) => {
   client.value = new tmi.Client(opts);
   client.value.on("message", (channel, tags, message, self) => {
     if (self) return;
+    console.log(props.isLoggedIn)
+    const username = props.isLoggedIn ? tags["display-name"] : "Anonymous";
     messages.value.push({
       id: messages.value.length + 1,
-      username: tags["display-name"],
+      username: username,
       text: message,
     });
-    checkGuess(message, tags["display-name"]);
+    checkGuess(message, username);
   });
   client.value.connect().catch(console.error);
 };
