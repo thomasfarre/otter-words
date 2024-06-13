@@ -118,15 +118,19 @@
           <FoundWords :correct-guess="reversedCorrectGuess" />
         </div>
 
-        <div class="relative col-span-9 row-span-1 overflow-hidden text-center bg-white rounded-card">
+        <div
+          class="relative col-span-9 row-span-1 overflow-hidden text-center bg-white rounded-card"
+        >
           <div class="px-8 pt-4">
             <span class="subtitle text-brown">
               La rivière des espoirs déchus
             </span>
           </div>
-          <div class="relative overflow-x-auto -mt-px h-full bg-[url('/public/images/river.svg')] bg-bottom bg-cover">
-            <div class="">
-              <div class="flex pt-20 pl-4 space-x-4 whitespace-nowrap">
+          <div
+            class="relative overflow-x-auto -mt-px h-full bg-[url('/public/images/river.svg')] bg-bottom bg-cover"
+          >
+            <div>
+              <div class="flex pt-16 pl-4 space-x-4 whitespace-nowrap">
                 <span
                   class="text-lg font-bold text-white"
                   v-for="message in reversedIncorrectGuess"
@@ -136,7 +140,18 @@
                 </span>
               </div>
             </div>
-
+            <div class="absolute overflow-visible transform -left-0 bottom-12 animate-fishmove">
+              <img class="object-cover w-8 overflow-visible opacity-50 animate-swim" style="animation-delay: 0.1s;" :src="cartoonTroutImage" alt="">
+            </div>
+            <div class="absolute transform -left-6 bottom-16 animate-fishmove">
+              <img class="object-cover w-8 overflow-visible opacity-50 animate-swim" style="animation-delay: 0.5s;" :src="cartoonTroutImage" alt="">
+            </div>
+            <div class="absolute transform -left-8 bottom-10 animate-fishmove">
+              <img class="object-cover w-8 overflow-visible opacity-50 animate-swim" style="animation-delay: 0.3s;" :src="cartoonTroutImage" alt="">
+            </div>
+            <div class="absolute transform -left-14 bottom-20 animate-fishmove">
+              <img class="object-cover w-8 overflow-visible opacity-50 animate-swim" style="animation-delay: 0.8s;" :src="cartoonTroutImage" alt="">
+            </div>
           </div>
         </div>
       </div>

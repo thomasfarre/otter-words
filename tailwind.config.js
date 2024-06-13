@@ -25,16 +25,23 @@ module.exports = {
           "50%": { transform: "rotate(5deg)" },
         },
         fishmove: {
-          "0%, 100%": { left: "0" },
-          "50%": { left: "100%" },
+          "0%": { transform: "translateX(-100%) scaleX(-1)" },
+          "49.9%": { transform: "translateX(100vw) scaleX(-1)" },
+          "50%": { transform: "translateX(100vw) scaleX(1)" },
+          "100%": { transform: "translateX(-100%) scaleX(1)" },
+        },
+        swim: {
+          "0%, 50%, 100%": { transform: "translateY(0)" },
+          "25%": { transform: "translateY(-5px)" },
+          "75%": { transform: "translateY(-3px)" },
         },
       },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
-        fishmove: "fishmove 45s ease-in infinite",
+        fishmove: "fishmove 45s linear infinite",
+        swim: "swim 2s linear infinite",
       },
     },
   },
   plugins: [],
 };
-
