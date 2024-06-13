@@ -5,7 +5,7 @@ import { useStore } from '../store/useStore';
 
 export function useGameLogic() {
   const { state } = useStore();
-  const timeLeft = ref(18);
+  const timeLeft = ref(180);
   const correctGuess = ref([]);
   const incorrectGuess = ref([]);
   const scores = ref({});
