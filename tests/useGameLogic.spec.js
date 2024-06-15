@@ -1,13 +1,8 @@
-import { setActivePinia, createPinia } from "pinia";
-import { describe, it, expect, beforeEach } from "vitest";
+import { describe, it, expect } from "vitest";
 import { useGameLogic } from "../src/components/useGameLogic";
 
 
 describe("useGameLogic", () => {
-  beforeEach(() => {
-    // Set up a fresh Pinia instance for each test
-    setActivePinia(createPinia());
-  });
 
   it("should initialize correctly", () => {
     const {
@@ -44,10 +39,10 @@ describe("useGameLogic", () => {
   it("should compute progressBarWidth correctly", () => {
     const { timeLeft, progressBarWidth } = useGameLogic();
 
-    timeLeft.value = 90; // Half the initial time
+    timeLeft.value = 90;
     expect(progressBarWidth.value).toBe("50%");
 
-    timeLeft.value = 0; // No time left
+    timeLeft.value = 0;
     expect(progressBarWidth.value).toBe("0%");
   });
 
