@@ -21,14 +21,14 @@
         </button>
         <div v-show="startModal">
           <div @click.stop="startModal = false" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
-          <div class="absolute z-20 w-full min-h-80 max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[54rem]">
+          <div class="absolute z-20 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[54rem]">
             <button @click.stop="startModal = false" class="absolute transition duration-300 ease-out top-2 right-2 text-brown hover:text-brown-hover md:top-8 md:right-8">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                 stroke="currentColor" class="w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
               </svg>
             </button>
-            <div class="py-12 text-center">
+            <div class="py-8 text-center">
               <span class="title text-brown">
                 Tu préfère jouer ?
               </span>
@@ -36,7 +36,7 @@
             <div>
 
             </div>
-            <div class="flex flex-col items-center p-16 space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
+            <div class="flex flex-col items-center px-16 py-8 space-y-4 md:space-y-0 md:space-x-4 md:flex-row">
               <TwitchLogin />
               <button @click="startSoloGame" class="md:w-1/2 btn-yellow min-w-[19rem]">
                 En solo

@@ -271,8 +271,6 @@ import {
 } from "vue";
 import { useGameLogic } from "./useGameLogic.js";
 import gsap from "gsap";
-import TextPlugin from "gsap/TextPlugin";
-gsap.registerPlugin(TextPlugin);
 
 import axios from "axios";
 import tmi from "tmi.js";

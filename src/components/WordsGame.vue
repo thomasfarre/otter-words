@@ -20,6 +20,7 @@
         </audio>
       </div>
     </div>
+    <DayChallenge v-if="showDayChallenge" @close="showDayChallenge = false" @game-started="gameStarted = $event" />
 
     <div class="px-4 pt-12 pb-4 mx-auto md:pt-4">
       <!-- Lobby Section -->
@@ -36,15 +37,20 @@
               >des loutres, des mots et des truites bien sûr</span
             >
           </div>
-          <div class="flex flex-col items-center justify-center pt-10 space-y-4 md:space-y-0 md:space-x-6 md:flex-row">
+          <div class="flex flex-col items-center justify-center pt-10 space-y-4">
             <div>
-              <button @click="startGameModal = true" class="btn-white">
+              <button @click="startGameModal = true" class="w-60 whitespace-nowrap btn-white">
                 Nouvelle partie
               </button>
             </div>
             <div>
-              <button @click="showDashboard = true" class="btn-yellow">
+              <button @click="showDashboard = true" class="w-60 whitespace-nowrap btn-yellow">
                 Classements
+              </button>
+            </div>
+            <div>
+              <button @click="showDayChallenge = true" class="w-60 whitespace-nowrap btn-white">
+                Défi du jour
               </button>
             </div>
           </div>
@@ -56,7 +62,6 @@
             :teamExists="teamExists"
             :teamName="teamName"
             :isLoggedIn="isLoggedIn"
-            @update:teamName="updateTeamName"
             @toggle-round="toggleRound"
             @start-game="startGame"
           />
@@ -99,14 +104,17 @@
       v-if="gameEnded && endGameModal"
       @close="endGameModal = false"
       :finalScore="finalScore"
+      :teamExists="teamExists"
       :detailedScores="detailedScores"
       :availableRounds="availableRounds"
       :selectedRounds="selectedRounds"
       :isLoggedIn="isLoggedIn"
+      :playedAlone="playedAlone"
       @toggle-round="toggleRound"
       @start-game="startGame"
       @toggle-dashboard="showDashboard = true"
       @save-score="saveScore"
+      @save-team="handleTeamSaved"
     />
 
 
@@ -158,6 +166,8 @@ import FithRound from "./FithRound.vue";
 import ScoreDashboard from "./ScoreDashboard.vue";
 import StartGameModal from "./StartGameModal.vue";
 import EndGameModal from "./EndGameModal.vue";
+import DayChallenge from "./DayChallenge.vue";
+
 
 
 import iconImage from "/public/images/cartoon_trout.webp";
@@ -189,6 +199,9 @@ const availableRounds = ref([
 const selectedRounds = ref([1, 2, 3, 4, 5]);
 const showDashboard = ref(false);
 const backgroundMusic = ref(null);
+const playedAlone = ref(false);
+const showDayChallenge = ref(false);
+
 
 const toggleMusic = () => {
   playing.value = !playing.value;
@@ -199,23 +212,19 @@ const toggleMusic = () => {
   }
 };
 
-const updateTeamName = (newName) => {
-  teamName.value = newName;
-};
-
-const createOrUpdateTeam = async () => {
+const createOrUpdateTeam = async (teamName) => {
   const db = getFirestore();
   const auth = getAuth();
   const user = auth.currentUser;
   if (!user) return;
 
-  const teamRef = doc(db, "Teams", teamName.value);
+  const teamRef = doc(db, "Teams", teamName);
   const teamSnap = await getDoc(teamRef);
 
   if (!teamSnap.exists()) {
     await setDoc(teamRef, {
       bestGlobalScore: 0,
-      displayName: teamName.value,
+      displayName: teamName,
     });
   }
 
@@ -227,13 +236,6 @@ const createOrUpdateTeam = async () => {
 
 
 const startGame = async () => {
-  if (isLoggedIn.value) {
-    if (teamName.value.trim() === "") {
-      alert("Please enter a team name before starting the game.");
-      return;
-    }
-    await createOrUpdateTeam(teamName.value);
-  }
   startGameModal.value = false;
   gameStarted.value = true;
   gameEnded.value = false;
@@ -288,7 +290,7 @@ const toggleRound = (roundId) => {
   }
 };
 
-const updateBestGlobalScore = async () => {
+const updateBestGlobalScore = async (teamName = null) => {
   const auth = getAuth();
   const db = getFirestore();
   const user = auth.currentUser;
@@ -300,7 +302,7 @@ const updateBestGlobalScore = async () => {
   const userDoc = doc(db, "users", user.uid);
   const userSnap = await getDoc(userDoc);
   if (userSnap.exists()) {
-    const teamRef = userSnap.data().teamId;
+    const teamRef = teamName ? doc(db, "Teams", teamName) : userSnap.data().teamId;
     if (teamRef) {
       const teamDoc = await getDoc(teamRef);
       if (teamDoc.exists()) {
@@ -315,11 +317,18 @@ const updateBestGlobalScore = async () => {
   }
 };
 
+const handleTeamSaved = async (teamName) => {
+  await createOrUpdateTeam(teamName);
+  await updateBestGlobalScore(teamName);
+  teamExists.value = true;
+};
+
 const handleRoundEnded = async (data) => {
   const sortedSelectedRounds = selectedRounds.value.sort((a, b) => a - b);
   const currentIndex = sortedSelectedRounds.indexOf(currentRound.value);
   finalScore.value += data.total;
   updateScores(data.scores);
+  playedAlone.value = detailedScores.value.length === 1;
   if (currentIndex < sortedSelectedRounds.length - 1) {
     currentRound.value = sortedSelectedRounds[currentIndex + 1];
   } else {

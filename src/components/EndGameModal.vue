@@ -82,6 +82,25 @@
         </table>
       </div>
 
+      <div v-if="props.isLoggedIn && !props.teamExists && !teamSaved && !props.playedAlone" class="pt-8">
+        <div>
+          <span class="font-medium text-gray-500"> Entrez votre nom d'équipe pour enregistrer votre score </span>
+          <span class="block italic text-red-500">
+            Attention, Si vous quittez cette fenêtre le score sera perdu !
+          </span>
+        </div>
+        <div class="flex items-center pt-4 space-x-4">
+          <div class="w-1/2">
+            <input  v-model="localTeamName" type="text" name="teamName" id="teamName"
+                  class="block w-full px-4 py-2.5 text-lg text-gray-700 border rounded-md border-green focus:ring-2 ring-green focus-visible:outline-none"
+                  placeholder="Choisis ton nom d'équipe">
+          </div>
+          <div class="flex justify-center w-1/2">
+            <button @click="saveTeam" class="w-full !rounded btn bg-emerald-100">Enregistrer</button>
+          </div>
+        </div>
+      </div>
+
       <div v-if="!props.isLoggedIn && !scoreSaved" class="pt-8">
         <div>
           <span class="font-medium text-gray-500"> Entrez votre nom pour enregistrer votre score </span>
@@ -101,6 +120,10 @@
 
       <div v-if="scoreSaved" class="pt-8 text-center">
         <span class="font-medium text-green">Votre score a été enregistré !</span>
+      </div>
+
+      <div v-if="teamSaved" class="pt-8 text-center">
+        <span class="font-medium text-green">Votre équipe a été enregistré !</span>
       </div>
 
       <div class="px-16 pt-8">
@@ -154,10 +177,15 @@ const props = defineProps({
   teamExists: Boolean,
   teamName: String,
   isLoggedIn: Boolean,
+  playedAlone: Boolean,
 });
 
+const localTeamName = ref('');
 const userName = ref('');
 const scoreSaved = ref(false);
+const teamSaved = ref(false);
+
+
 
 const startGame = () => {
   emit("start-game");
@@ -184,5 +212,14 @@ const saveScore = () => {
   }
 };
 
-const emit = defineEmits(["close", "toggle-round", "start-game", "toggle-dashboard", "save-score"]);
+const saveTeam = () => {
+  if (localTeamName.value.trim() !== '') {
+    emit('save-team', localTeamName.value);
+    teamSaved.value = true;
+  } else {
+    alert("Veuillez entrer un nom valide.");
+  }
+};
+
+const emit = defineEmits(["close", "toggle-round", "start-game", "toggle-dashboard", "save-score", 'save-team']);
 </script>
