@@ -59,18 +59,58 @@ export const handleRedirect = async () => {
 
       const userDocRef = doc(db, "users", result.user.uid);
       const userSnap = await getDoc(userDocRef);
+      console.log("Fetched user document snapshot:", userSnap.exists());
 
       if (!userSnap.exists()) {
         await setDoc(userDocRef, {
           twitchChannelName: channelName,
           teamId: null,
         });
+        console.log("Created user document");
+
+        const playerDocRef = doc(db, "Players", result.user.uid);
+        try {
+          await setDoc(playerDocRef, {
+            displayName: channelName,
+            userId: result.user.uid,
+          });
+          console.log("Created player document");
+        } catch (error) {
+          console.error("Error creating player document:", error);
+        }
       } else {
         await setDoc(
           userDocRef,
           { twitchChannelName: channelName },
           { merge: true }
         );
+        console.log("Updated user document");
+
+        const playerDocRef = doc(db, "Players", result.user.uid);
+        const playerSnap = await getDoc(playerDocRef);
+        console.log("Fetched player document snapshot:", playerSnap.exists());
+        if (!playerSnap.exists()) {
+          try {
+            await setDoc(playerDocRef, {
+              displayName: channelName,
+              userId: result.user.uid,
+            });
+            console.log("Created player document");
+          } catch (error) {
+            console.error("Error creating player document:", error);
+          }
+        } else {
+          try {
+            await setDoc(
+              playerDocRef,
+              { displayName: channelName },
+              { merge: true }
+            );
+            console.log("Updated player document");
+          } catch (error) {
+            console.error("Error updating player document:", error);
+          }
+        }
       }
     }
   } catch (error) {

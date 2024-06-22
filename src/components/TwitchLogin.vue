@@ -20,7 +20,6 @@ const handleLoginOrRedirect = async () => {
   } else {
     router.push({
       name: 'WordsGame',
-      params: { userId: auth.currentUser.uid }
     });
   }
 };
@@ -32,7 +31,6 @@ onMounted(async () => {
     if (auth.currentUser) {
       router.push({
         name: 'WordsGame',
-        params: { userId: auth.currentUser.uid }
       });
     }
   } catch (error) {
