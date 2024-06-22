@@ -21,26 +21,7 @@
     <div class="p-6">
       <span class="title text-brown"> Classement du jour</span>
       <div class="flex flex-col pt-12 space-y-4 text-left xl:space-y-0 xl:space-x-12 xl:flex-row">
-        <div class="xl:w-1/2">
-          <span class="subtitle text-brown">Équipes</span>
-          <table class="min-w-full mt-4 divide-y divide-gray-200">
-              <thead class="bg-gray-50">
-                <tr>
-                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
-                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
-                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
-                </tr>
-              </thead>
-              <tbody class="min-w-full bg-white divide-y divide-gray-200">
-                  <tr  v-for="(team, index) in teams" :key="team.id" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
-                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ index + 1 }}.</td>
-                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ team.displayName }}</td>
-                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ team.bestGlobalScore }}</td>
-                  </tr>
-              </tbody>
-          </table>
-        </div>
-        <div class="xl:w-1/2">
+        <div class="w-full">
           <span class="subtitle text-brown">Joueurs</span>
           <table class="min-w-full mt-4 divide-y divide-gray-200">
               <thead class="bg-gray-50">
@@ -60,7 +41,7 @@
           </table>
         </div>
       </div>
-      <div class="sticky bottom-0 left-0 right-0 w-full p-6 bg-white">
+      <div class="sticky bottom-0 left-0 right-0 w-full p-6 text-center bg-white">
         <button @click="startGame" class="btn-white">
           Jouer
         </button>
@@ -70,7 +51,7 @@
 
   <!-- Game starts content  -->
   <div v-if="gameStarted">
-    <div class="max-w-[1100px] mx-auto">
+    <div class="max-w-[1100px] mx-auto pt-8">
       <div
         class="space-y-4 md:space-y-0 md:grid-cols-9 md:grid-rows-4 md:gap-4 md:grid"
       >
@@ -84,11 +65,11 @@
             <p class="text-brown">trouve tous les mots en un minimum de temps</p>
           </div>
           <div class="pt-8">
-            <span class="subtitle text-green">
-              {{ elapsedSeconds.toFixed(2) }}
+            <span class="title text-green">
+              {{ elapsedSeconds.toFixed(1) }}
             </span>
             <span class="text-lg font-bold text-brown">
-              secondes, dépêche-toi !
+              secondes
             </span>
           </div>
         </div>
@@ -100,7 +81,10 @@
             <span class="text-white subtitle"> Plus que  </span>
           </div>
           <div class="flex flex-col space-y-2">
-            <span class="text-white title"> 0{{ tweened.questionsLeft.toFixed(0) }} </span>
+            <div class="flex items-baseline space-x-2">
+              <span class="text-white title"> 0{{ tweened.questionsLeft.toFixed(0) }} </span>
+              <span class="text-white subtitle">définitions</span>
+            </div>
             <span class="font-bold text-white"> C'est super </span>
           </div>
           <div class="absolute bottom-0 right-0">

@@ -48,10 +48,16 @@
                 Classements
               </button>
             </div>
-            <div>
+            <div v-if="!isLoggedIn">
+              <TwitchLogin buttonText="Défi du jour" />
+            </div>
+            <div v-else>
               <button @click="showDayChallenge = true" class="w-60 whitespace-nowrap btn-white">
                 Défi du jour
               </button>
+            </div>
+            <div v-if="!isLoggedIn" >
+              <TwitchLogin buttonText="En équipe via Twitch" />
             </div>
           </div>
           <StartGameModal
@@ -167,6 +173,7 @@ import ScoreDashboard from "./ScoreDashboard.vue";
 import StartGameModal from "./StartGameModal.vue";
 import EndGameModal from "./EndGameModal.vue";
 import DayChallenge from "./DayChallenge.vue";
+import TwitchLogin from "./TwitchLogin.vue";
 
 
 
