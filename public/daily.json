@@ -1,20 +1,20 @@
 {
     "daily_words": {
-        "accusation": {
-            "catGram": "nom féminin",
-            "def": "Action en justice par laquelle on accuse une personne d'un délit avec l’intention de la faire condamner."
+        "malaisément": {
+            "catGram": "adverbe",
+            "def": "D'une manière malaisée"
         },
-        "maquillage": {
+        "évêché": {
             "catGram": "nom masculin",
-            "def": "Action, manière de maquiller, de se maquiller"
+            "def": "Territoire ecclésiastique regroupant plusieurs paroisses et placé sous l'autorité d'un évêque."
         },
-        "circulation": {
+        "genèse": {
             "catGram": "nom féminin",
-            "def": "Mouvement d'un fluide, notamment dans un circuit fermé."
+            "def": "Création du monde."
         },
-        "âge": {
+        "roi": {
             "catGram": "nom masculin",
-            "def": "La vie humaine considérée dans toute sa durée."
+            "def": "Homme qui exerce le pouvoir dans une monarchie, généralement à vie."
         }
     }
 }
