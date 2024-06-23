@@ -1,5 +1,5 @@
 <template>
-  <button class="btn-white w-60 whitespace-nowrap" @click="handleLoginOrRedirect">{{ props.buttonText }}</button>
+  <button class="btn-white w-80" @click="handleLoginOrRedirect">{{ props.buttonText }}</button>
 </template>
 
 <script setup>

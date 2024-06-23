@@ -9,7 +9,7 @@ const words = Object.entries(data.words);
 
 // Select three random words
 const selectedWords = [];
-while (selectedWords.length < 3) {
+while (selectedWords.length < 4) {
   const randomIndex = Math.floor(Math.random() * words.length);
   if (!selectedWords.includes(words[randomIndex])) {
     selectedWords.push(words[randomIndex]);

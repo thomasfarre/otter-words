@@ -19,7 +19,9 @@
       </svg>
     </button>
     <div class="p-6">
-      <span class="title text-brown"> Classement du jour</span>
+      <div class="w-full text-center">
+        <span class="title text-brown"> Classement du jour</span>
+      </div>
       <div class="flex flex-col pt-12 space-y-4 text-left xl:space-y-0 xl:space-x-12 xl:flex-row">
         <div class="w-full">
           <span class="subtitle text-brown">Joueurs</span>
@@ -281,7 +283,6 @@ import scoreImage from "/public/images/score-illustration.png";
 const emit = defineEmits(['close', 'game-started']);
 const { state: storeState } = useStore();
 
-const teams = ref([]);
 const players = ref([]);
 const gameStarted = ref(false);
 const gameEnded = ref(false);
@@ -315,17 +316,6 @@ watch(questionsLeft, (newQuestion) => {
   gsap.to(tweened, { duration: 0.7, questionsLeft: Number(newQuestion) || 0 });
 });
 
-
-const fetchTeams = async () => {
-  const db = getFirestore();
-  const teamsCollection = collection(db, 'Teams');
-  const teamsSnapshot = await getDocs(teamsCollection);
-  teams.value = teamsSnapshot.docs.map(doc => ({
-    id: doc.id,
-    ...doc.data()
-  })).sort((a, b) => b.bestGlobalScore - a.bestGlobalScore);
-};
-
 const fetchPlayers = async () => {
   const db = getFirestore();
   const playersCollection = collection(db, 'Players');
@@ -348,11 +338,10 @@ const fetchWordsList = async () => {
   try {
     const response = await axios.get("/words.json");
     console.log("Response from server:", response.data);
-    // Transforming the response to an array of word objects
     wordsList.value = Object.keys(response.data.words).map(key => ({
       word: key,
       ...response.data.words[key]
-    })).slice(0, 5); // Adjusting to handle object properly
+    })).slice(0, 4);
     questionsLeft.value = wordsList.value.length;
     loadNextWord();
   } catch (error) {
@@ -375,7 +364,7 @@ const loadNextWord = () => {
 const startGame = async () => {
   gameStarted.value = true;
   gameEnded.value = false;
-  elapsedSeconds.value = 0; // Reset the timer
+  elapsedSeconds.value = 0;
   await fetchWordsList();
   emit('game-started', gameStarted.value);
   startTimer();
@@ -465,7 +454,6 @@ const saveUserScore = async () => {
 
 
 onMounted(async () => {
-  await fetchTeams();
   await fetchPlayers();
 });
 

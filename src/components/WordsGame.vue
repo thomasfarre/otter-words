@@ -6,7 +6,7 @@
     <!-- Header -->
     <div class="absolute z-50 right-12">
       <div class="flex items-center px-4 py-2 space-x-6 bg-white rounded-b-3xl">
-        <a href="/game" class="font-bold transition duration-300 ease-out text-brown hover:text-brown-hover">
+        <a href="/" class="font-bold transition duration-300 ease-out text-brown hover:text-brown-hover">
           Revenir à l'accueil
         </a>
         <button @click="toggleMusic" class="-mt-1.5 font-bold transition duration-300 ease-out text-brown hover:text-brown-hover">
@@ -39,12 +39,12 @@
           </div>
           <div class="flex flex-col items-center justify-center pt-10 space-y-4">
             <div>
-              <button @click="startGameModal = true" class="w-60 whitespace-nowrap btn-white">
+              <button @click="startGameModal = true" class="w-80 whitespace-nowrap btn-white">
                 Nouvelle partie
               </button>
             </div>
             <div>
-              <button @click="showDashboard = true" class="w-60 whitespace-nowrap btn-yellow">
+              <button @click="showDashboard = true" class="w-80 whitespace-nowrap btn-white">
                 Classements
               </button>
             </div>
@@ -52,7 +52,7 @@
               <TwitchLogin buttonText="Défi du jour" />
             </div>
             <div v-else>
-              <button @click="showDayChallenge = true" class="w-60 whitespace-nowrap btn-white">
+              <button @click="showDayChallenge = true" class="w-80 whitespace-nowrap btn-white">
                 Défi du jour
               </button>
             </div>
