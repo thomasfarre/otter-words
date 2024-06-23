@@ -432,26 +432,20 @@ const saveUserScore = async () => {
     const playerDoc = querySnapshot.docs[0];
     const playerData = playerDoc.data();
 
-    // Check if the user has already played today
-    if (playerData.lastPlayed !== today) {
-      await setDoc(playerDoc.ref, {
-        ...playerData,
-        todayScore: elapsedSeconds.value,
-        lastPlayed: today,
-      }, { merge: true });
-    }
+    await setDoc(playerDoc.ref, {
+      todayScore: elapsedSeconds.value,
+      lastPlayed: today,
+    }, { merge: true });
   } else {
-    // First time the user is playing
     await setDoc(doc(playersCollection), {
       displayName: channelName,
-      bestScore: Infinity, // or other logic to initialize
       todayScore: elapsedSeconds.value,
       lastPlayed: today,
     });
   }
+
   await fetchPlayers();
 };
-
 
 onMounted(async () => {
   await fetchPlayers();
