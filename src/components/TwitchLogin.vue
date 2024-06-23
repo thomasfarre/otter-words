@@ -1,12 +1,19 @@
 <template>
-  <button class="md:w-1/2 btn-white min-w-[19rem]" @click="handleLoginOrRedirect">En équipe via Twitch</button>
+  <button class="btn-white w-80" @click="handleLoginOrRedirect">{{ props.buttonText }}</button>
 </template>
 
 <script setup>
-import { onMounted } from 'vue';
+import { onMounted, defineProps } from 'vue';
 import { signInWithTwitch, handleRedirect } from '@/auth';
 import { getAuth } from "firebase/auth";
 import router from "@/router";
+
+const props = defineProps({
+  buttonText: {
+    type: String,
+    required: true
+  }
+});
 
 const handleLoginOrRedirect = async () => {
   const auth = getAuth();
@@ -20,7 +27,6 @@ const handleLoginOrRedirect = async () => {
   } else {
     router.push({
       name: 'WordsGame',
-      params: { userId: auth.currentUser.uid }
     });
   }
 };
@@ -32,7 +38,6 @@ onMounted(async () => {
     if (auth.currentUser) {
       router.push({
         name: 'WordsGame',
-        params: { userId: auth.currentUser.uid }
       });
     }
   } catch (error) {

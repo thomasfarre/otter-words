@@ -2,16 +2,11 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 import WordsGame from "../components/WordsGame.vue";
-import HomePage from "../components/HomePage.vue";
 
 const routes = [
+
   {
     path: "/",
-    name: "Home",
-    component: HomePage,
-  },
-  {
-    path: "/game",
     name: "WordsGame",
     component: WordsGame,
   },

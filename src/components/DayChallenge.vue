@@ -1,6 +1,59 @@
 <template>
-  <div v-if="timeLeft > 0">
-    <div class="max-w-[1100px] mx-auto">
+
+  <div v-if="showCongratsModal" @click.stop="closeCongratsModal" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
+  <div v-if="showCongratsModal" class="absolute z-40 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[30rem]">
+    <div class="p-6 text-center">
+      <span class="title text-brown">Félicitations!</span>
+      <p class="pt-4 text-lg text-brown">Tu as mis {{ formattedElapsedSeconds }} secondes</p>
+      <button @click="closeCongratsModal" class="mt-6 btn-white">OK</button>
+    </div>
+  </div>
+
+  <!-- Modal before game starts -->
+  <div v-if="!gameStarted && !showCongratsModal" @click.stop="emitClose" class="absolute inset-0 w-screen h-screen bg-gray-800 opacity-60"></div>
+  <div v-if="!gameStarted && !showCongratsModal" class="absolute z-40 w-full max-h-[95vh] overflow-y-auto transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-[3rem] left-1/2 top-1/2 max-w-[54rem]">
+    <button @click.stop="emitClose" class="absolute transition duration-300 ease-out top-6 right-6 text-brown hover:text-brown-hover">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"
+        class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+      </svg>
+    </button>
+    <div class="p-6">
+      <div class="w-full text-center">
+        <span class="title text-brown"> Classement du jour</span>
+      </div>
+      <div class="flex flex-col pt-12 space-y-4 text-left xl:space-y-0 xl:space-x-12 xl:flex-row">
+        <div class="w-full">
+          <span class="subtitle text-brown">Joueurs</span>
+          <table class="min-w-full mt-4 divide-y divide-gray-200">
+              <thead class="bg-gray-50">
+                <tr>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Position</th>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Nom</th>
+                  <th scope="col" class="px-2 py-3 text-xs font-medium tracking-wider text-left text-gray-500 uppercase">Score</th>
+                </tr>
+              </thead>
+              <tbody class="min-w-full bg-white divide-y divide-gray-200">
+                  <tr  v-for="(player, index) in players" :key="player.id" class="first:bg-yellow-100 [&:nth-child(2)]:bg-slate-200 [&:nth-child(3)]:bg-amber-400/40">
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ index + 1 }}.</td>
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ player.displayName }}</td>
+                    <td class="px-2 py-3 text-sm whitespace-nowrap"> {{ player.todayScore }} s</td>
+                  </tr>
+              </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="sticky bottom-0 left-0 right-0 w-full p-6 text-center bg-white">
+        <button @click="startGame" class="btn-white">
+          Jouer
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Game starts content  -->
+  <div v-if="gameStarted">
+    <div class="max-w-[1100px] mx-auto pt-8">
       <div
         class="space-y-4 md:space-y-0 md:grid-cols-9 md:grid-rows-4 md:gap-4 md:grid"
       >
@@ -8,40 +61,39 @@
           class="flex-col items-center justify-center hidden col-span-6 p-4 text-center bg-white md:flex rounded-card"
         >
           <div class="title text-brown">
-            <span> Round 2 : Le dico </span>
+            <span> Défi du jour !</span>
           </div>
-          <div class="relative mt-12 w-[32rem]">
-            <ProgressBar
-              :progressBarWidth="progressBarWidth"
-              :otterImage="otterImage"
-              :cartoonTroutImage="cartoonTroutImage"
-            />
+          <div class="pt-1">
+            <p class="text-brown">trouve tous les mots en un minimum de temps</p>
           </div>
           <div class="pt-8">
-            <span class="subtitle text-green">
-              {{ timeLeft }}
+            <span class="title text-green">
+              {{ elapsedSeconds.toFixed(1) }}
             </span>
             <span class="text-lg font-bold text-brown">
-              secondes restantes, dépêche-toi !
+              secondes
             </span>
           </div>
         </div>
+
         <div
           class="relative flex-col justify-center hidden col-span-3 p-8 space-y-4 md:flex bg-green rounded-card"
         >
           <div>
-            <span class="text-white subtitle"> Le score de ton équipe </span>
+            <span class="text-white subtitle"> Plus que  </span>
           </div>
           <div class="flex flex-col space-y-2">
-            <span class="text-white title">
-              {{ tweened.totalScore.toFixed(0) }} points
-            </span>
+            <div class="flex items-baseline space-x-2">
+              <span class="text-white title"> 0{{ tweened.questionsLeft.toFixed(0) }} </span>
+              <span class="text-white subtitle">définitions</span>
+            </div>
             <span class="font-bold text-white"> C'est super </span>
           </div>
           <div class="absolute bottom-0 right-0">
             <img :src="scoreImage" alt="" />
           </div>
         </div>
+
         <div
           class="h-full col-span-5 row-span-2 pt-4 text-center bg-white rounded-card"
         >
@@ -87,12 +139,7 @@
                 />
               </svg>
             </div>
-            <div class="py-2" v-if="shuffledWord">
-              <span
-                class="text-2xl font-bold tracking-widest uppercase text-green"
-                >{{ shuffledWord }}</span
-              >
-            </div>
+
             <div class="pt-4">
               <input
                 v-model="userMessage"
@@ -103,64 +150,8 @@
               />
             </div>
           </div>
-          <div class="py-8 mt-4 bg-gray-200 rounded-b-card">
-            <div class="grid grid-cols-1 gap-4 mx-auto max-w-80">
-              <button
-                @click="revealShuffledWord"
-                :disabled="hintsUsed >= 3"
-                class="flex items-center justify-start space-x-4 transition duration-300 ease-out group"
-              >
-                <div
-                  class="relative flex items-center justify-center space-x-4 transition duration-300 ease-out rounded-full group"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="w-8 h-8 transition duration-300 ease-out text-green group-hover:text-green-hover"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 0 0-2.456 2.456ZM16.894 20.567 16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394-1.183.394a2.25 2.25 0 0 0-1.423 1.423Z"
-                    />
-                  </svg>
-                  <span
-                    class="absolute px-1 text-sm font-bold border rounded-full -top-2 -right-2 text-brown bg-amber-50 border-brown"
-                    >{{ 3 - hintsUsed }}</span
-                  >
-                </div>
-                <span
-                  class="underline transition duration-300 ease-out whitespace-nowrap text-brown group-hover:text-brown-hover"
-                  >les lettres dans le désordre, c'est parti</span
-                >
-              </button>
-              <button
-                @click="fetchWordAndDefinition"
-                class="flex items-center justify-start space-x-4 transition duration-300 ease-out rounded-full group"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  class="w-8 h-8 transition duration-300 ease-out text-green group-hover:text-green-hover"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M15.312 11.424a5.5 5.5 0 0 1-9.201 2.466l-.312-.311h2.433a.75.75 0 0 0 0-1.5H3.989a.75.75 0 0 0-.75.75v4.242a.75.75 0 0 0 1.5 0v-2.43l.31.31a7 7 0 0 0 11.712-3.138.75.75 0 0 0-1.449-.39Zm1.23-3.723a.75.75 0 0 0 .219-.53V2.929a.75.75 0 0 0-1.5 0V5.36l-.31-.31A7 7 0 0 0 3.239 8.188a.75.75 0 1 0 1.448.389A5.5 5.5 0 0 1 13.89 6.11l.311.31h-2.432a.75.75 0 0 0 0 1.5h4.243a.75.75 0 0 0 .53-.219Z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-                <span
-                  class="underline transition duration-300 ease-out whitespace-nowrap text-brown group-hover:text-brown-hover"
-                  >au secours, c'est trop dur, je passe</span
-                >
-              </button>
-            </div>
-          </div>
         </div>
+
         <div
           class="col-span-4 row-span-2 text-center rounded-card bg-[url('/public/images/basket.png')] bg-top h-full min-h-36"
         >
@@ -206,8 +197,33 @@
               </template>
             </div>
           </div>
-          <FoundWords :correct-guess="reversedCorrectGuess" />
+          <div class="px-4 mt-4 overflow-y-auto max-h-[18rem]">
+            <div class="space-y-2">
+              <transition-group
+                name="list"
+                tag="div"
+                class="grid grid-cols-3 gap-2 pt-1"
+                enter-active-class="transition duration-300 ease-out"
+                enter-from-class="transform scale-50"
+                enter-to-class="transform scale-100"
+                leave-active-class="transition duration-300 ease-out"
+                leave-from-class="transform scale-100"
+                leave-to-class="transform scale-50"
+              >
+                <div
+                  v-for="message in correctGuess"
+                  :key="message.text"
+                  class="py-1.5 pl-1 truncate border border-brown/30 bg-amber-50 rounded-lg shadow-md"
+                >
+                    <span class="font-bold text-brown">
+                      {{ message.text }}
+                    </span>
+                </div>
+              </transition-group>
+            </div>
+          </div>
         </div>
+
         <div
           class="relative col-span-9 row-span-1 overflow-hidden text-center bg-white rounded-card"
         >
@@ -223,7 +239,7 @@
               <div class="flex pt-16 pl-4 space-x-4 whitespace-nowrap">
                 <span
                   class="text-lg font-bold text-white"
-                  v-for="message in reversedIncorrectGuess"
+                  v-for="message in incorrectGuess"
                   :key="message.id"
                 >
                   {{ message.text }}
@@ -246,127 +262,124 @@
             </div>
           </div>
         </div>
+
+
       </div>
     </div>
-  </div>
-  <div v-else>
-    <EndOfRound
-      :totalScore="totalScore"
-      :sortedScores="sortedScores"
-      :previousWord="previousWord"
-      @end-round="endRound"
-    />
   </div>
 </template>
 
 <script setup>
-import {
-  ref,
-  onMounted,
-  onBeforeUnmount,
-  defineEmits,
-  reactive,
-  watch,
-  defineProps
-} from "vue";
-import { useGameLogic } from "./useGameLogic.js";
+import { ref, onMounted, defineEmits, reactive, watch, computed  } from 'vue';
+import { getFirestore, collection, getDocs, doc, setDoc, query, where } from 'firebase/firestore';
+import axios from 'axios';
 import gsap from "gsap";
+import { useStore } from "../store/useStore";
 
-import axios from "axios";
-import tmi from "tmi.js";
 
-import FoundWords from "./common/FoundWords.vue";
-import EndOfRound from "./common/EndOfRound.vue";
-import ProgressBar from "./common/ProgressBar.vue";
-
-import otterImage from "/public/images/otter.webp";
 import cartoonTroutImage from "/public/images/cartoon_trout.webp";
 import scoreImage from "/public/images/score-illustration.png";
 
-const emit = defineEmits(["round-ended"]);
+const emit = defineEmits(['close', 'game-started']);
+const { state: storeState } = useStore();
 
-const props = defineProps({
-  isLoggedIn: Boolean
-});
-
-const {
-  channelName,
-  timeLeft,
-  sortedScores,
-  progressBarWidth,
-  reversedCorrectGuess,
-  reversedIncorrectGuess,
-  correctGuess,
-  incorrectGuess,
-  scores,
-  sounds,
-} = useGameLogic();
-
-const client = ref(null);
-const timer = ref(null);
-const messages = ref([]);
-const word = ref("");
+const players = ref([]);
+const gameStarted = ref(false);
+const gameEnded = ref(false);
+const wordsList = ref([]);
+const currentWordIndex = ref(0);
+const previousWord = ref("");
 const definition = ref("");
 const catGram = ref("");
-const previousWord = ref("");
-const hintsUsed = ref(0);
-const shuffledWord = ref("");
-const totalScore = ref(0);
-const lock = ref(false);
 const userMessage = ref("");
+const correctGuess = ref([]);
+const incorrectGuess = ref([]);
+const questionsLeft = ref(0);
+const elapsedSeconds = ref(0);
+let timer = null;
 
-const tweened = reactive({
-  totalScore: 0,
-});
+const showCongratsModal = ref(false);
 
-watch(totalScore, (newScore) => {
-  gsap.to(tweened, { duration: 0.7, totalScore: Number(newScore) || 0 });
-});
-
-const fetchChannelNameAndConnect = async () => {
-  connectChat(channelName.value);
+const emitClose = () => {
+  emit('close');
 };
 
-const fetchWordAndDefinition = async () => {
+const closeCongratsModal = () => {
+  showCongratsModal.value = false;
+};
+
+const tweened = reactive({
+  questionsLeft: 0,
+});
+
+watch(questionsLeft, (newQuestion) => {
+  gsap.to(tweened, { duration: 0.7, questionsLeft: Number(newQuestion) || 0 });
+});
+
+const fetchPlayers = async () => {
+  const db = getFirestore();
+  const playersCollection = collection(db, 'Players');
+  const playerSnapshot = await getDocs(playersCollection);
+  const today = new Date().toISOString().split('T')[0];
+
+  players.value = playerSnapshot.docs.map(doc => {
+    const playerData = doc.data();
+    return {
+      id: doc.id,
+      displayName: playerData.displayName,
+      todayScore: playerData.lastPlayed === today ? playerData.todayScore : null,
+      lastPlayed: playerData.lastPlayed
+    };
+  }).filter(player => player.todayScore !== null)
+    .sort((a, b) => a.todayScore - b.todayScore); // Sort by today's score
+};
+
+const fetchWordsList = async () => {
   try {
-    previousWord.value = word.value;
-    sounds.value[1]?.play();
     const response = await axios.get("/words.json");
-    const words = response.data.words;
-    const keys = Object.keys(words);
-    const randomKey = keys[Math.floor(Math.random() * keys.length)];
-    word.value = randomKey;
-    console.log(word.value);
-    definition.value = words[randomKey].def;
-    catGram.value = words[randomKey].catGram;
-    shuffledWord.value = "";
+    console.log("Response from server:", response.data);
+    wordsList.value = Object.keys(response.data.words).map(key => ({
+      word: key,
+      ...response.data.words[key]
+    })).slice(0, 4);
+    questionsLeft.value = wordsList.value.length;
+    loadNextWord();
   } catch (error) {
     console.error("Failed to fetch data:", error);
   }
 };
 
-const handleUserMessage = () => {
-  if (userMessage.value.trim() !== "") {
-    const username = props.isLoggedIn ? channelName.value : "Anonymous";
-    messages.value.push({
-      id: messages.value.length + 1,
-      username: username,
-      text: userMessage.value,
-    });
-    checkGuess(userMessage.value, username);
+const loadNextWord = () => {
+  if (currentWordIndex.value < wordsList.value.length) {
+    const currentWord = wordsList.value[currentWordIndex.value];
+    definition.value = currentWord.def;
+    catGram.value = currentWord.catGram;
+    previousWord.value = "";
     userMessage.value = "";
+  } else {
+    endRound();
   }
 };
 
+const startGame = async () => {
+  gameStarted.value = true;
+  gameEnded.value = false;
+  elapsedSeconds.value = 0;
+  await fetchWordsList();
+  emit('game-started', gameStarted.value);
+  startTimer();
+};
+
 const startTimer = () => {
-  timer.value = setInterval(() => {
-    if (timeLeft.value > 0) {
-      timeLeft.value--;
-    } else {
-      previousWord.value = word.value;
-      clearInterval(timer.value);
-    }
-  }, 1000);
+  const startTime = Date.now();
+  timer = setInterval(() => {
+    elapsedSeconds.value = (Date.now() - startTime) / 1000;
+  }, 10);
+};
+
+const stopTimer = () => {
+  clearInterval(timer);
+  timer = null;
 };
 
 const normalizeText = (text) => {
@@ -376,89 +389,76 @@ const normalizeText = (text) => {
     .toLowerCase();
 };
 
-const shuffleWord = (word) => {
-  return word
-    .split("")
-    .sort(() => Math.random() - 0.5)
-    .join("");
-};
-
-const revealShuffledWord = () => {
-  if (hintsUsed.value < 3) {
-    shuffledWord.value = shuffleWord(word.value);
-    hintsUsed.value++;
+const handleUserMessage = () => {
+  if (userMessage.value.trim() !== "") {
+    checkGuess(userMessage.value);
+    userMessage.value = "";
   }
 };
 
-const checkGuess = async (message, username) => {
-  if (lock.value) return;
-  lock.value = true;
+const checkGuess = (message) => {
   const normalizedMessage = normalizeText(message);
-  const normalizedWord = normalizeText(word.value);
+  const normalizedWord = normalizeText(wordsList.value[currentWordIndex.value].word);
   if (normalizedMessage === normalizedWord) {
-    correctGuess.value.push({ text: message, username });
-    if (!scores.value[username]) {
-      scores.value[username] = 0;
-    }
-    sounds.value[2]?.play();
-    scores.value[username] += 10;
-    totalScore.value += 10;
-    fetchWordAndDefinition();
+    correctGuess.value.push({ text: message });
+    previousWord.value = wordsList.value[currentWordIndex.value].word;
+    questionsLeft.value--;
+    currentWordIndex.value++;
+    loadNextWord();
   } else {
-    incorrectGuess.value.push({
-      text: message,
-      id: incorrectGuess.value.length + 1,
+    incorrectGuess.value.push({ text: message });
+  }
+};
+
+const endRound = async () => {
+  stopTimer();
+  gameStarted.value = false;
+  emit('game-started', gameStarted.value);
+  showCongratsModal.value = true;
+  await saveUserScore();
+};
+
+const saveUserScore = async () => {
+  const channelName = storeState.channelName;
+  const db = getFirestore();
+  const playersCollection = collection(db, 'Players');
+
+  const playerQuery = query(playersCollection, where("displayName", "==", channelName));
+  const querySnapshot = await getDocs(playerQuery);
+
+  const today = new Date().toISOString().split('T')[0];
+
+  if (!querySnapshot.empty) {
+    const playerDoc = querySnapshot.docs[0];
+    const playerData = playerDoc.data();
+
+    // Check if the user has already played today
+    if (playerData.lastPlayed !== today) {
+      await setDoc(playerDoc.ref, {
+        ...playerData,
+        todayScore: elapsedSeconds.value,
+        lastPlayed: today,
+      }, { merge: true });
+    }
+  } else {
+    // First time the user is playing
+    await setDoc(doc(playersCollection), {
+      displayName: channelName,
+      bestScore: Infinity, // or other logic to initialize
+      todayScore: elapsedSeconds.value,
+      lastPlayed: today,
     });
   }
-  lock.value = false;
+  await fetchPlayers();
 };
 
-const endRound = () => {
-  if (client.value) {
-    client.value.disconnect();
-  }
-  clearInterval(timer.value);
-  emit("round-ended", {
-    total: totalScore.value,
-    scores: scores.value,
-  });
-};
 
-const connectChat = (channel) => {
-  if (client.value) {
-    client.value.disconnect();
-  }
-  const opts = {
-    connection: {
-      secure: true,
-      reconnect: true,
-    },
-    channels: [channel],
-  };
-  client.value = new tmi.Client(opts);
-  client.value.on("message", (channel, tags, message, self) => {
-    if (self) return;
-    const username = props.isLoggedIn ? tags["display-name"] : "Anonymous";
-    messages.value.push({
-      id: messages.value.length + 1,
-      username: username,
-      text: message,
-    });
-    checkGuess(message, username);
-  });
-  client.value.connect().catch(console.error);
-};
-
-onMounted(() => {
-  fetchChannelNameAndConnect();
-  fetchWordAndDefinition();
-  startTimer();
+onMounted(async () => {
+  await fetchPlayers();
 });
 
-onBeforeUnmount(() => {
-  if (client.value) {
-    client.value.disconnect();
-  }
-  clearInterval(timer.value);
+const formattedElapsedSeconds = computed(() => {
+  return elapsedSeconds.value.toFixed(2);
 });
+
 </script>
