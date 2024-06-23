@@ -430,8 +430,6 @@ const saveUserScore = async () => {
 
   if (!querySnapshot.empty) {
     const playerDoc = querySnapshot.docs[0];
-    const playerData = playerDoc.data();
-
     await setDoc(playerDoc.ref, {
       todayScore: elapsedSeconds.value,
       lastPlayed: today,
