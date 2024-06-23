@@ -1,0 +1,20 @@
+{
+    "daily_words": {
+        "accusation": {
+            "catGram": "nom féminin",
+            "def": "Action en justice par laquelle on accuse une personne d'un délit avec l’intention de la faire condamner."
+        },
+        "maquillage": {
+            "catGram": "nom masculin",
+            "def": "Action, manière de maquiller, de se maquiller"
+        },
+        "circulation": {
+            "catGram": "nom féminin",
+            "def": "Mouvement d'un fluide, notamment dans un circuit fermé."
+        },
+        "âge": {
+            "catGram": "nom masculin",
+            "def": "La vie humaine considérée dans toute sa durée."
+        }
+    }
+}
