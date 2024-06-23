@@ -339,8 +339,8 @@ const fetchWordsList = async () => {
     const response = await axios.get("/daily.json");
     console.log("Response from server:", response.data);
     wordsList.value = Object.keys(response.data.words).map(key => ({
-      daily_words: key,
-      ...response.data.daily_words[key]
+      word: key,
+      ...response.data.words[key]
     })).slice(0, 4);
     questionsLeft.value = wordsList.value.length;
     loadNextWord();

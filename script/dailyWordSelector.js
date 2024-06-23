@@ -25,7 +25,7 @@ selectedWords.forEach(([word, details]) => {
 // Write the selected words to a new JSON file
 fs.writeFileSync(
   "public/daily.json",
-  JSON.stringify({ daily_words: selectedData }, null, 4),
+  JSON.stringify({ words: selectedData }, null, 4),
   "utf-8"
 );
 
