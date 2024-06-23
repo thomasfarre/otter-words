@@ -43,7 +43,7 @@
           </table>
         </div>
       </div>
-      <div class="sticky bottom-0 left-0 right-0 w-full p-6 text-center bg-white">
+      <div v-if="!hasPlayedToday" class="sticky bottom-0 left-0 right-0 w-full p-6 text-center bg-white">
         <button @click="startGame" class="btn-white">
           Jouer
         </button>
@@ -444,6 +444,11 @@ const saveUserScore = async () => {
 
   await fetchPlayers();
 };
+
+const hasPlayedToday = computed(() => {
+  const today = new Date().toISOString().split('T')[0];
+  return players.value.some(player => player.displayName === storeState.channelName && player.lastPlayed === today);
+});
 
 onMounted(async () => {
   await fetchPlayers();
