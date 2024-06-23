@@ -80,10 +80,14 @@ const fetchPlayers = async () => {
   const db = getFirestore();
   const playersCollection = collection(db, 'Players');
   const playerSnapshot = await getDocs(playersCollection);
-  players.value = playerSnapshot.docs.map(doc => ({
-    id: doc.id,
-    ...doc.data()
-  })).sort((a, b) => b.bestScore - a.bestScore);
+  players.value = playerSnapshot.docs.map(doc => {
+    const playerData = doc.data();
+    return {
+      id: doc.id,
+      ...playerData
+    };
+  }).filter(player => player.bestScore !== undefined && player.bestScore !== null)
+    .sort((a, b) => b.bestScore - a.bestScore);
 };
 
 onMounted(async () => {
