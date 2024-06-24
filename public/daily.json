@@ -1,20 +1,20 @@
 {
     "words": {
-        "malaisément": {
-            "catGram": "adverbe",
-            "def": "D'une manière malaisée"
+        "requérant": {
+            "catGram": "nom",
+            "def": "Personne qui requiert, qui forme une demande en justice."
         },
-        "évêché": {
-            "catGram": "nom masculin",
-            "def": "Territoire ecclésiastique regroupant plusieurs paroisses et placé sous l'autorité d'un évêque."
-        },
-        "genèse": {
+        "parure": {
             "catGram": "nom féminin",
-            "def": "Création du monde."
+            "def": "Action de parer qqn, de se parer"
         },
-        "roi": {
-            "catGram": "nom masculin",
-            "def": "Homme qui exerce le pouvoir dans une monarchie, généralement à vie."
+        "spécifiquement": {
+            "catGram": "adverbe",
+            "def": "De manière spécifique"
+        },
+        "rationalité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est rationnel, qui obéit à la raison."
         }
     }
 }
