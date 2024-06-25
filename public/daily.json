@@ -1,20 +1,20 @@
 {
     "words": {
-        "requérant": {
-            "catGram": "nom",
-            "def": "Personne qui requiert, qui forme une demande en justice."
-        },
-        "parure": {
+        "flexibilité": {
             "catGram": "nom féminin",
-            "def": "Action de parer qqn, de se parer"
+            "def": "Caractère, qualité de ce qui est flexible."
         },
-        "spécifiquement": {
-            "catGram": "adverbe",
-            "def": "De manière spécifique"
-        },
-        "rationalité": {
+        "paléographie": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est rationnel, qui obéit à la raison."
+            "def": "Étude scientifique des écritures anciennes."
+        },
+        "plagier": {
+            "catGram": "verbe",
+            "def": "Emprunter à un auteur des fragments de son œuvre, en s'en attribuant abusivement la paternité."
+        },
+        "varier": {
+            "catGram": "verbe",
+            "def": "Introduire de la diversité dans les réalisations, la présentation d'une chose."
         }
     }
 }
