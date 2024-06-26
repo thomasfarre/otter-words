@@ -1,20 +1,20 @@
 {
     "words": {
-        "flexibilité": {
-            "catGram": "nom féminin",
-            "def": "Caractère, qualité de ce qui est flexible."
+        "persistant": {
+            "catGram": "adjectif",
+            "def": "Qui persiste, qui subsiste de façon durable."
         },
-        "paléographie": {
-            "catGram": "nom féminin",
-            "def": "Étude scientifique des écritures anciennes."
+        "marquant": {
+            "catGram": "adjectif",
+            "def": "Qui marque, qui laisse une trace, un souvenir durable en raison de son caractère particulier ou remarquable."
         },
-        "plagier": {
+        "animer": {
             "catGram": "verbe",
-            "def": "Emprunter à un auteur des fragments de son œuvre, en s'en attribuant abusivement la paternité."
+            "def": "Donner vie, insuffler la vie."
         },
-        "varier": {
+        "joindre": {
             "catGram": "verbe",
-            "def": "Introduire de la diversité dans les réalisations, la présentation d'une chose."
+            "def": "Placer des choses de telle façon qu'elles se touchent, qu'elles soient en contact"
         }
     }
 }
