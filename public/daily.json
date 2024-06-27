@@ -1,20 +1,20 @@
 {
     "words": {
-        "persistant": {
+        "épuration": {
+            "catGram": "nom féminin",
+            "def": "Action d'épurer (un produit, une substance)"
+        },
+        "cannelé": {
             "catGram": "adjectif",
-            "def": "Qui persiste, qui subsiste de façon durable."
+            "def": "Orné de cannelures."
         },
-        "marquant": {
-            "catGram": "adjectif",
-            "def": "Qui marque, qui laisse une trace, un souvenir durable en raison de son caractère particulier ou remarquable."
+        "circonspection": {
+            "catGram": "nom féminin",
+            "def": "Réserve prudente que l’on observe dans ses actions, dans ses paroles."
         },
-        "animer": {
+        "agrandir": {
             "catGram": "verbe",
-            "def": "Donner vie, insuffler la vie."
-        },
-        "joindre": {
-            "catGram": "verbe",
-            "def": "Placer des choses de telle façon qu'elles se touchent, qu'elles soient en contact"
+            "def": "Rendre plus grand, plus étendu."
         }
     }
 }
