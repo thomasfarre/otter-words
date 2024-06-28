@@ -1,20 +1,20 @@
 {
     "words": {
-        "épuration": {
+        "partialité": {
             "catGram": "nom féminin",
-            "def": "Action d'épurer (un produit, une substance)"
+            "def": "Caractère de qqn ou de qqch. qui est partial."
         },
-        "cannelé": {
+        "conquis": {
             "catGram": "adjectif",
-            "def": "Orné de cannelures."
+            "def": "Qui est sous la domination d'une puissance militaire."
         },
-        "circonspection": {
-            "catGram": "nom féminin",
-            "def": "Réserve prudente que l’on observe dans ses actions, dans ses paroles."
-        },
-        "agrandir": {
+        "caviarder": {
             "catGram": "verbe",
-            "def": "Rendre plus grand, plus étendu."
+            "def": "Noircir les passages d'un texte afin de les supprimer, d’en interdire la diffusion."
+        },
+        "grillon": {
+            "catGram": "nom masculin",
+            "def": "Insecte sauteur, voisin de la sauterelle, mais à tête arrondie, à corps compact et aplati, généralement noir ou brun, pourvu au bout de l’abdomen de deux appendices sensoriels effilés et (chez la femelle) d’un long organe de ponte en forme d’aiguille, qui se tient généralement au sol où il se nourrit de végétaux et d’insectes morts, et dont le mâle produit des stridulations avec ses élytres."
         }
     }
 }
