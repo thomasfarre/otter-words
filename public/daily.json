@@ -1,20 +1,20 @@
 {
     "words": {
-        "partialité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de qqn ou de qqch. qui est partial."
-        },
-        "conquis": {
+        "étatique": {
             "catGram": "adjectif",
-            "def": "Qui est sous la domination d'une puissance militaire."
+            "def": "Relatif à l’État."
         },
-        "caviarder": {
-            "catGram": "verbe",
-            "def": "Noircir les passages d'un texte afin de les supprimer, d’en interdire la diffusion."
-        },
-        "grillon": {
+        "sacrement": {
             "catGram": "nom masculin",
-            "def": "Insecte sauteur, voisin de la sauterelle, mais à tête arrondie, à corps compact et aplati, généralement noir ou brun, pourvu au bout de l’abdomen de deux appendices sensoriels effilés et (chez la femelle) d’un long organe de ponte en forme d’aiguille, qui se tient généralement au sol où il se nourrit de végétaux et d’insectes morts, et dont le mâle produit des stridulations avec ses élytres."
+            "def": "Signe sacré institué par Jésus-Christ et actualisé dans l'Église, source par lui-même de la grâce divine à faire naître ou à augmenter."
+        },
+        "incommodité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui n’est pas commode, pas pratique."
+        },
+        "survêtement": {
+            "catGram": "nom masculin",
+            "def": "Pantalon ou blouson de sport molletonné, qu'on passe par-dessus sa tenue entre deux exercices."
         }
     }
 }
