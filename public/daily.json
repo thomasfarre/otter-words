@@ -1,20 +1,20 @@
 {
     "words": {
-        "étatique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l’État."
-        },
-        "sacrement": {
-            "catGram": "nom masculin",
-            "def": "Signe sacré institué par Jésus-Christ et actualisé dans l'Église, source par lui-même de la grâce divine à faire naître ou à augmenter."
-        },
-        "incommodité": {
+        "opposition": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui n’est pas commode, pas pratique."
+            "def": "Effet de contraste résultant de choses très différentes, placées face à face."
         },
-        "survêtement": {
+        "septentrional": {
+            "catGram": "adjectif",
+            "def": "Qui est situé au nord (ou le plus au nord par rapport à un point donné)"
+        },
+        "deuxième": {
+            "catGram": "adjectif",
+            "def": "Qui occupe le rang marqué par le nombre deux (2eou IIe)."
+        },
+        "noyau": {
             "catGram": "nom masculin",
-            "def": "Pantalon ou blouson de sport molletonné, qu'on passe par-dessus sa tenue entre deux exercices."
+            "def": "Enveloppe dure se trouvant au centre d'un fruit et renfermant une ou plusieurs graines."
         }
     }
 }
