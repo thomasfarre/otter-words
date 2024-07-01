@@ -1,20 +1,20 @@
 {
     "words": {
-        "opposition": {
+        "invraisemblable": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas vraisemblable, qui ne semble pas vrai."
+        },
+        "dualité": {
             "catGram": "nom féminin",
-            "def": "Effet de contraste résultant de choses très différentes, placées face à face."
+            "def": "Fait d'être constitué de deux composantes différentes (généralement opposées)."
         },
-        "septentrional": {
+        "nippon": {
             "catGram": "adjectif",
-            "def": "Qui est situé au nord (ou le plus au nord par rapport à un point donné)"
+            "def": "Du Japon."
         },
-        "deuxième": {
+        "démoniaque": {
             "catGram": "adjectif",
-            "def": "Qui occupe le rang marqué par le nombre deux (2eou IIe)."
-        },
-        "noyau": {
-            "catGram": "nom masculin",
-            "def": "Enveloppe dure se trouvant au centre d'un fruit et renfermant une ou plusieurs graines."
+            "def": "Possédé du démon."
         }
     }
 }
