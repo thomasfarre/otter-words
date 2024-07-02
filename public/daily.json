@@ -1,20 +1,20 @@
 {
     "words": {
-        "invraisemblable": {
-            "catGram": "adjectif",
-            "def": "Qui n'est pas vraisemblable, qui ne semble pas vrai."
+        "unanimement": {
+            "catGram": "adverbe",
+            "def": "D'une manière unanime, à l'unanimité."
         },
-        "dualité": {
-            "catGram": "nom féminin",
-            "def": "Fait d'être constitué de deux composantes différentes (généralement opposées)."
+        "caresser": {
+            "catGram": "verbe",
+            "def": "Faire des caresses à."
         },
-        "nippon": {
+        "diminutif": {
             "catGram": "adjectif",
-            "def": "Du Japon."
+            "def": "Qui donne une idée de petitesse, qui atténue, affaiblit le sens d’un mot."
         },
-        "démoniaque": {
+        "visionnaire": {
             "catGram": "adjectif",
-            "def": "Possédé du démon."
+            "def": "Qui a, croit avoir des visions surnaturelles"
         }
     }
 }
