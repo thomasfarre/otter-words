@@ -1,20 +1,20 @@
 {
     "words": {
-        "unanimement": {
-            "catGram": "adverbe",
-            "def": "D'une manière unanime, à l'unanimité."
+        "gêneur": {
+            "catGram": "nom",
+            "def": "Personne qui gêne les autres, qui leur apporte de l'embarras."
         },
-        "caresser": {
-            "catGram": "verbe",
-            "def": "Faire des caresses à."
-        },
-        "diminutif": {
+        "neutre": {
             "catGram": "adjectif",
-            "def": "Qui donne une idée de petitesse, qui atténue, affaiblit le sens d’un mot."
+            "def": "Qui s'abstient ou refuse de prendre position dans un débat, dans un conflit opposant plusieurs personnes, plusieurs thèses, plusieurs partis."
         },
-        "visionnaire": {
+        "révulsé": {
             "catGram": "adjectif",
-            "def": "Qui a, croit avoir des visions surnaturelles"
+            "def": "Qui est bouleversé, sous l'effet de la peur, de la colère, d'une maladie."
+        },
+        "palissade": {
+            "catGram": "nom féminin",
+            "def": "Clôture faite de planches ou de pieux contigus et plantés en terre."
         }
     }
 }
