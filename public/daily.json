@@ -1,20 +1,20 @@
 {
     "words": {
-        "gêneur": {
-            "catGram": "nom",
-            "def": "Personne qui gêne les autres, qui leur apporte de l'embarras."
-        },
-        "neutre": {
+        "meuble": {
             "catGram": "adjectif",
-            "def": "Qui s'abstient ou refuse de prendre position dans un débat, dans un conflit opposant plusieurs personnes, plusieurs thèses, plusieurs partis."
+            "def": "Qui peut être déplacé ou qui est réputé tel par la loi"
         },
-        "révulsé": {
-            "catGram": "adjectif",
-            "def": "Qui est bouleversé, sous l'effet de la peur, de la colère, d'une maladie."
+        "génome": {
+            "catGram": "nom masculin",
+            "def": "Ensemble des gènes contenus dans les chromosomes d'un organisme."
         },
-        "palissade": {
-            "catGram": "nom féminin",
-            "def": "Clôture faite de planches ou de pieux contigus et plantés en terre."
+        "déclamer": {
+            "catGram": "verbe",
+            "def": "Réciter en marquant le rythme et l'intonation."
+        },
+        "nonobstant": {
+            "catGram": "préposition",
+            "def": "Malgré."
         }
     }
 }
