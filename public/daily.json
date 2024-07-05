@@ -1,20 +1,20 @@
 {
     "words": {
-        "meuble": {
-            "catGram": "adjectif",
-            "def": "Qui peut être déplacé ou qui est réputé tel par la loi"
-        },
-        "génome": {
+        "propos": {
             "catGram": "nom masculin",
-            "def": "Ensemble des gènes contenus dans les chromosomes d'un organisme."
+            "def": "Ce que l'on se propose."
         },
-        "déclamer": {
+        "ronéo": {
+            "catGram": "nom féminin",
+            "def": "Machine servant à reproduire des textes ou des dessins au moyen de stencils."
+        },
+        "compléter": {
             "catGram": "verbe",
-            "def": "Réciter en marquant le rythme et l'intonation."
+            "def": "Rendre complet en ajoutant ce qui manque."
         },
-        "nonobstant": {
-            "catGram": "préposition",
-            "def": "Malgré."
+        "compulser": {
+            "catGram": "verbe",
+            "def": "Consulter, examiner."
         }
     }
 }
