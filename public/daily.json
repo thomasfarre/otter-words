@@ -1,20 +1,20 @@
 {
     "words": {
-        "propos": {
-            "catGram": "nom masculin",
-            "def": "Ce que l'on se propose."
+        "olympique": {
+            "catGram": "adjectif",
+            "def": "Relatif à Olympie."
         },
-        "ronéo": {
+        "supercherie": {
             "catGram": "nom féminin",
-            "def": "Machine servant à reproduire des textes ou des dessins au moyen de stencils."
+            "def": "Tromperie, plus ou moins habilement calculée et exécutée, impliquant généralement la substitution du faux au vrai."
         },
-        "compléter": {
-            "catGram": "verbe",
-            "def": "Rendre complet en ajoutant ce qui manque."
+        "implacable": {
+            "catGram": "adjectif",
+            "def": "Dont la dureté, la violence reste inflexible, ne peut être apaisée."
         },
-        "compulser": {
-            "catGram": "verbe",
-            "def": "Consulter, examiner."
+        "insensé": {
+            "catGram": "adjectif",
+            "def": "Dénué de bon sens"
         }
     }
 }
