@@ -1,20 +1,20 @@
 {
     "words": {
-        "olympique": {
-            "catGram": "adjectif",
-            "def": "Relatif à Olympie."
+        "talus": {
+            "catGram": "nom masculin",
+            "def": "Os de l’arrière du pied qui s’articule avec les os de la jambe."
         },
-        "supercherie": {
-            "catGram": "nom féminin",
-            "def": "Tromperie, plus ou moins habilement calculée et exécutée, impliquant généralement la substitution du faux au vrai."
-        },
-        "implacable": {
+        "rouge": {
             "catGram": "adjectif",
-            "def": "Dont la dureté, la violence reste inflexible, ne peut être apaisée."
+            "def": "De la couleur située à l'extrémité du spectre visible, complémentaire au vert, et qui rappelle notamment la couleur de la fraise, de la tomate, du sang."
         },
-        "insensé": {
-            "catGram": "adjectif",
-            "def": "Dénué de bon sens"
+        "gagner": {
+            "catGram": "verbe",
+            "def": "Acquérir (un profit matériel) par son travail."
+        },
+        "rival": {
+            "catGram": "nom",
+            "def": "Personne qui se trouve en concurrence avec une autre et qui s'oppose à elle avec le désir de l'égaler ou de la surpasser."
         }
     }
 }
