@@ -1,20 +1,20 @@
 {
     "words": {
-        "talus": {
-            "catGram": "nom masculin",
-            "def": "Os de l’arrière du pied qui s’articule avec les os de la jambe."
-        },
-        "rouge": {
-            "catGram": "adjectif",
-            "def": "De la couleur située à l'extrémité du spectre visible, complémentaire au vert, et qui rappelle notamment la couleur de la fraise, de la tomate, du sang."
-        },
-        "gagner": {
-            "catGram": "verbe",
-            "def": "Acquérir (un profit matériel) par son travail."
-        },
-        "rival": {
+        "gamin": {
             "catGram": "nom",
-            "def": "Personne qui se trouve en concurrence avec une autre et qui s'oppose à elle avec le désir de l'égaler ou de la surpasser."
+            "def": "Enfant qui passe son temps à traîner dans les rues."
+        },
+        "aigreur": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est aigre."
+        },
+        "renvoyer": {
+            "catGram": "verbe",
+            "def": "Faire retourner qqn au lieu, à la situation d’où il vient."
+        },
+        "excitation": {
+            "catGram": "nom féminin",
+            "def": "Action d'exciter"
         }
     }
 }
