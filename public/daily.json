@@ -1,20 +1,20 @@
 {
     "words": {
-        "gamin": {
-            "catGram": "nom",
-            "def": "Enfant qui passe son temps à traîner dans les rues."
+        "abricot": {
+            "catGram": "nom masculin",
+            "def": "Fruit à noyau de l’abricotier, voisin de la pêche, dont la peau légèrement duveteuse est de couleur jaune orangé et dont la chair, de même couleur, est sucrée et très parfumée."
         },
-        "aigreur": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est aigre."
-        },
-        "renvoyer": {
+        "élire": {
             "catGram": "verbe",
-            "def": "Faire retourner qqn au lieu, à la situation d’où il vient."
+            "def": "Choisir."
         },
-        "excitation": {
-            "catGram": "nom féminin",
-            "def": "Action d'exciter"
+        "démasquer": {
+            "catGram": "verbe",
+            "def": "Découvrir qqn en lui retirant son masque."
+        },
+        "resserrer": {
+            "catGram": "verbe",
+            "def": "Rapprocher ou fermer davantage."
         }
     }
 }
