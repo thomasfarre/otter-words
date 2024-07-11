@@ -1,20 +1,20 @@
 {
     "words": {
-        "abricot": {
-            "catGram": "nom masculin",
-            "def": "Fruit à noyau de l’abricotier, voisin de la pêche, dont la peau légèrement duveteuse est de couleur jaune orangé et dont la chair, de même couleur, est sucrée et très parfumée."
+        "abdication": {
+            "catGram": "nom féminin",
+            "def": "Action d'abdiquer"
         },
-        "élire": {
-            "catGram": "verbe",
-            "def": "Choisir."
+        "amer": {
+            "catGram": "adjectif",
+            "def": "Âpre et souvent désagréable au goût"
         },
-        "démasquer": {
-            "catGram": "verbe",
-            "def": "Découvrir qqn en lui retirant son masque."
+        "banalement": {
+            "catGram": "adverbe",
+            "def": "D'une manière banale."
         },
-        "resserrer": {
-            "catGram": "verbe",
-            "def": "Rapprocher ou fermer davantage."
+        "crédibilité": {
+            "catGram": "nom féminin",
+            "def": "Ce qui rend qqn ou qqch. susceptible d'être cru ou digne de confiance."
         }
     }
 }
