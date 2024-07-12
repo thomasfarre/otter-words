@@ -1,20 +1,20 @@
 {
     "words": {
-        "abdication": {
-            "catGram": "nom féminin",
-            "def": "Action d'abdiquer"
-        },
-        "amer": {
+        "impersonnel": {
             "catGram": "adjectif",
-            "def": "Âpre et souvent désagréable au goût"
+            "def": "Qui n’appartient à aucune personne"
         },
-        "banalement": {
-            "catGram": "adverbe",
-            "def": "D'une manière banale."
-        },
-        "crédibilité": {
+        "pelouse": {
             "catGram": "nom féminin",
-            "def": "Ce qui rend qqn ou qqch. susceptible d'être cru ou digne de confiance."
+            "def": "Terrain couvert de gazon."
+        },
+        "électif": {
+            "catGram": "adjectif",
+            "def": "Qui choisit, fait une sélection."
+        },
+        "vide": {
+            "catGram": "adjectif",
+            "def": "Qui ne contient rien de concret"
         }
     }
 }
