@@ -1,20 +1,20 @@
 {
     "words": {
-        "impersonnel": {
-            "catGram": "adjectif",
-            "def": "Qui n’appartient à aucune personne"
+        "peiner": {
+            "catGram": "verbe",
+            "def": "Avoir de grandes difficultés, beaucoup de mal à faire un travail, une activité quelconque."
         },
-        "pelouse": {
+        "déclencher": {
+            "catGram": "verbe",
+            "def": "Actionner la mise en marche (d'un mécanisme)."
+        },
+        "misère": {
             "catGram": "nom féminin",
-            "def": "Terrain couvert de gazon."
+            "def": "Extrême pauvreté"
         },
-        "électif": {
-            "catGram": "adjectif",
-            "def": "Qui choisit, fait une sélection."
-        },
-        "vide": {
-            "catGram": "adjectif",
-            "def": "Qui ne contient rien de concret"
+        "objet": {
+            "catGram": "nom masculin",
+            "def": "Tout ce qui, animé ou inanimé, affecte les sens, principalement la vue."
         }
     }
 }
