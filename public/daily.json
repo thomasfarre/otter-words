@@ -1,20 +1,20 @@
 {
     "words": {
-        "peiner": {
-            "catGram": "verbe",
-            "def": "Avoir de grandes difficultés, beaucoup de mal à faire un travail, une activité quelconque."
-        },
-        "déclencher": {
-            "catGram": "verbe",
-            "def": "Actionner la mise en marche (d'un mécanisme)."
-        },
-        "misère": {
+        "aversion": {
             "catGram": "nom féminin",
-            "def": "Extrême pauvreté"
+            "def": "Profonde antipathie, dégoût, répulsion."
         },
-        "objet": {
+        "skieur": {
+            "catGram": "nom",
+            "def": "Personne qui pratique le ski, qui se déplace à skis."
+        },
+        "avoisiner": {
+            "catGram": "verbe",
+            "def": "Être dans le voisinage, à faible distance de (un lieu)."
+        },
+        "folklore": {
             "catGram": "nom masculin",
-            "def": "Tout ce qui, animé ou inanimé, affecte les sens, principalement la vue."
+            "def": "Ensemble des traditions, des rites, des coutumes et des arts populaires d’un pays, d’une région"
         }
     }
 }
