@@ -1,20 +1,20 @@
 {
     "words": {
-        "aversion": {
-            "catGram": "nom féminin",
-            "def": "Profonde antipathie, dégoût, répulsion."
+        "amphibie": {
+            "catGram": "adjectif",
+            "def": "Qui possède la faculté de vivre sur terre et dans l'eau."
         },
-        "skieur": {
-            "catGram": "nom",
-            "def": "Personne qui pratique le ski, qui se déplace à skis."
-        },
-        "avoisiner": {
+        "gloser": {
             "catGram": "verbe",
-            "def": "Être dans le voisinage, à faible distance de (un lieu)."
+            "def": "Éclaircir, commenter un texte par une glose."
         },
-        "folklore": {
+        "novice": {
             "catGram": "nom masculin",
-            "def": "Ensemble des traditions, des rites, des coutumes et des arts populaires d’un pays, d’une région"
+            "def": "Personne qui a pris l'habit d'un ordre religieux et se forme à la vie conventuelle avant de prononcer des vœux définitifs."
+        },
+        "épicier": {
+            "catGram": "nom",
+            "def": "Personne qui tient une épicerie."
         }
     }
 }
