@@ -1,20 +1,20 @@
 {
     "words": {
-        "amphibie": {
-            "catGram": "adjectif",
-            "def": "Qui possède la faculté de vivre sur terre et dans l'eau."
-        },
-        "gloser": {
+        "hâler": {
             "catGram": "verbe",
-            "def": "Éclaircir, commenter un texte par une glose."
+            "def": "Dessécher par l'air et le soleil."
         },
-        "novice": {
-            "catGram": "nom masculin",
-            "def": "Personne qui a pris l'habit d'un ordre religieux et se forme à la vie conventuelle avant de prononcer des vœux définitifs."
+        "convulsion": {
+            "catGram": "nom féminin",
+            "def": "Contraction brusque et involontaire des muscles, souvent généralisée à tout le corps."
         },
-        "épicier": {
-            "catGram": "nom",
-            "def": "Personne qui tient une épicerie."
+        "clerc": {
+            "catGram": "nom épicène",
+            "def": "Homme qui a reçu la tonsure et qui, de ce fait, est entré dans l'état ecclésiastique."
+        },
+        "interroger": {
+            "catGram": "verbe",
+            "def": "Poser à qqn une ou plusieurs questions exigeant une réponse."
         }
     }
 }
