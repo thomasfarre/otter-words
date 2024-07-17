@@ -1,20 +1,20 @@
 {
     "words": {
-        "hâler": {
-            "catGram": "verbe",
-            "def": "Dessécher par l'air et le soleil."
+        "repos": {
+            "catGram": "nom masculin",
+            "def": "Absence de mouvement, état d'immobilité."
         },
-        "convulsion": {
+        "reconstruction": {
             "catGram": "nom féminin",
-            "def": "Contraction brusque et involontaire des muscles, souvent généralisée à tout le corps."
+            "def": "Action de reconstruire"
         },
-        "clerc": {
-            "catGram": "nom épicène",
-            "def": "Homme qui a reçu la tonsure et qui, de ce fait, est entré dans l'état ecclésiastique."
+        "voire": {
+            "catGram": "adverbe",
+            "def": "Exclamation qui exprime un doute, souvent avec ironie."
         },
-        "interroger": {
-            "catGram": "verbe",
-            "def": "Poser à qqn une ou plusieurs questions exigeant une réponse."
+        "quotidiennement": {
+            "catGram": "adverbe",
+            "def": "Chaque jour, tous les jours."
         }
     }
 }
