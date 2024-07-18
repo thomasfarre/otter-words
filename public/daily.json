@@ -1,20 +1,20 @@
 {
     "words": {
-        "repos": {
+        "cannabis": {
             "catGram": "nom masculin",
-            "def": "Absence de mouvement, état d'immobilité."
+            "def": "Nom botanique du chanvre."
         },
-        "reconstruction": {
+        "fabrication": {
             "catGram": "nom féminin",
-            "def": "Action de reconstruire"
+            "def": "Art, action de fabriquer"
         },
-        "voire": {
-            "catGram": "adverbe",
-            "def": "Exclamation qui exprime un doute, souvent avec ironie."
+        "globe": {
+            "catGram": "nom masculin",
+            "def": "Corps sphérique ou arrondi."
         },
-        "quotidiennement": {
-            "catGram": "adverbe",
-            "def": "Chaque jour, tous les jours."
+        "égorger": {
+            "catGram": "verbe",
+            "def": "Tuer en tranchant la gorge."
         }
     }
 }
