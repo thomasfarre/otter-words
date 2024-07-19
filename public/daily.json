@@ -1,20 +1,20 @@
 {
     "words": {
-        "cannabis": {
+        "nonchalant": {
+            "catGram": "adjectif",
+            "def": "Qui manque de fermeté, de rigueur, d'entrain"
+        },
+        "pronostic": {
             "catGram": "nom masculin",
-            "def": "Nom botanique du chanvre."
+            "def": "Prévision du médecin, après le diagnostic, sur l'évolution d'une maladie (durée, gravité, déroulement, issue)."
         },
-        "fabrication": {
-            "catGram": "nom féminin",
-            "def": "Art, action de fabriquer"
+        "pelé": {
+            "catGram": "adjectif",
+            "def": "Se dit d'un fruit ou d'un légume dont la peau a été enlevée."
         },
-        "globe": {
-            "catGram": "nom masculin",
-            "def": "Corps sphérique ou arrondi."
-        },
-        "égorger": {
-            "catGram": "verbe",
-            "def": "Tuer en tranchant la gorge."
+        "musicien": {
+            "catGram": "nom",
+            "def": "Spécialiste de l'art de la musique."
         }
     }
 }
