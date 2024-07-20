@@ -1,20 +1,20 @@
 {
     "words": {
-        "nonchalant": {
-            "catGram": "adjectif",
-            "def": "Qui manque de fermeté, de rigueur, d'entrain"
-        },
-        "pronostic": {
+        "studio": {
             "catGram": "nom masculin",
-            "def": "Prévision du médecin, après le diagnostic, sur l'évolution d'une maladie (durée, gravité, déroulement, issue)."
+            "def": "Atelier d'artiste, de photographe d'art."
         },
-        "pelé": {
+        "crochet": {
+            "catGram": "nom masculin",
+            "def": "Élément qui a une extrémité recourbée."
+        },
+        "jules": {
+            "catGram": "nom masculin",
+            "def": "Souteneur, proxénète."
+        },
+        "imputable": {
             "catGram": "adjectif",
-            "def": "Se dit d'un fruit ou d'un légume dont la peau a été enlevée."
-        },
-        "musicien": {
-            "catGram": "nom",
-            "def": "Spécialiste de l'art de la musique."
+            "def": "Qu'on peut, qu'on doit imputer à qqch., à qqn."
         }
     }
 }
