@@ -1,20 +1,20 @@
 {
     "words": {
-        "studio": {
-            "catGram": "nom masculin",
-            "def": "Atelier d'artiste, de photographe d'art."
+        "filer": {
+            "catGram": "verbe",
+            "def": "Transformer (une matière textile) en fil."
         },
-        "crochet": {
+        "sionisme": {
             "catGram": "nom masculin",
-            "def": "Élément qui a une extrémité recourbée."
+            "def": "Doctrine et mouvement politique dont l'objectif était l'établissement d'un foyer national juif et qui a mené à la création d'un État juif en Palestine en 1948."
         },
-        "jules": {
+        "esclavage": {
             "catGram": "nom masculin",
-            "def": "Souteneur, proxénète."
+            "def": "État, condition d'esclave"
         },
-        "imputable": {
-            "catGram": "adjectif",
-            "def": "Qu'on peut, qu'on doit imputer à qqch., à qqn."
+        "aversion": {
+            "catGram": "nom féminin",
+            "def": "Profonde antipathie, dégoût, répulsion."
         }
     }
 }
