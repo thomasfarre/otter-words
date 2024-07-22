@@ -1,20 +1,20 @@
 {
     "words": {
-        "filer": {
+        "arriver": {
             "catGram": "verbe",
-            "def": "Transformer (une matière textile) en fil."
+            "def": "Aboutir à."
         },
-        "sionisme": {
+        "argent": {
             "catGram": "nom masculin",
-            "def": "Doctrine et mouvement politique dont l'objectif était l'établissement d'un foyer national juif et qui a mené à la création d'un État juif en Palestine en 1948."
+            "def": "Métal d'un blanc brillant, très ductile et malléable, inoxydable"
         },
-        "esclavage": {
-            "catGram": "nom masculin",
-            "def": "État, condition d'esclave"
+        "dissident": {
+            "catGram": "adjectif",
+            "def": "Qui est en dissidence"
         },
-        "aversion": {
-            "catGram": "nom féminin",
-            "def": "Profonde antipathie, dégoût, répulsion."
+        "sot": {
+            "catGram": "adjectif",
+            "def": "Qui est dénué d'intelligence, de jugement."
         }
     }
 }
