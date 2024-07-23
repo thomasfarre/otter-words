@@ -1,20 +1,20 @@
 {
     "words": {
-        "arriver": {
+        "volumineux": {
+            "catGram": "adjectif",
+            "def": "Qui présente un grand volume"
+        },
+        "déchiffrer": {
             "catGram": "verbe",
-            "def": "Aboutir à."
+            "def": "Parvenir à lire, à décoder la signification de (ce qui est écrit en caractères inconnus, inhabituels)."
         },
-        "argent": {
-            "catGram": "nom masculin",
-            "def": "Métal d'un blanc brillant, très ductile et malléable, inoxydable"
+        "approvisionner": {
+            "catGram": "verbe",
+            "def": "Fournir en provisions qqn ou qqch."
         },
-        "dissident": {
+        "ministériel": {
             "catGram": "adjectif",
-            "def": "Qui est en dissidence"
-        },
-        "sot": {
-            "catGram": "adjectif",
-            "def": "Qui est dénué d'intelligence, de jugement."
+            "def": "Relatif à un ministère."
         }
     }
 }
