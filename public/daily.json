@@ -1,20 +1,20 @@
 {
     "words": {
-        "volumineux": {
-            "catGram": "adjectif",
-            "def": "Qui présente un grand volume"
+        "reflet": {
+            "catGram": "nom masculin",
+            "def": "Lumière renvoyée par un corps ou une surface réfléchissante qui produit une image affaiblie."
         },
-        "déchiffrer": {
-            "catGram": "verbe",
-            "def": "Parvenir à lire, à décoder la signification de (ce qui est écrit en caractères inconnus, inhabituels)."
+        "vicaire": {
+            "catGram": "nom masculin",
+            "def": "Dans la religion catholique, prêtre qui aide et remplace à l'occasion le curé d'une paroisse."
         },
-        "approvisionner": {
-            "catGram": "verbe",
-            "def": "Fournir en provisions qqn ou qqch."
+        "tapis": {
+            "catGram": "nom masculin",
+            "def": "Ouvrage en fibres textiles, qu'on étend sur le sol."
         },
-        "ministériel": {
-            "catGram": "adjectif",
-            "def": "Relatif à un ministère."
+        "incongruité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est incongru."
         }
     }
 }
