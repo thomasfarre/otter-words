@@ -1,20 +1,20 @@
 {
     "words": {
-        "reflet": {
-            "catGram": "nom masculin",
-            "def": "Lumière renvoyée par un corps ou une surface réfléchissante qui produit une image affaiblie."
+        "conférencier": {
+            "catGram": "nom",
+            "def": "Personne qui fait une conférence."
         },
-        "vicaire": {
-            "catGram": "nom masculin",
-            "def": "Dans la religion catholique, prêtre qui aide et remplace à l'occasion le curé d'une paroisse."
+        "artésien": {
+            "catGram": "adjectif",
+            "def": "De l’Artois."
         },
-        "tapis": {
-            "catGram": "nom masculin",
-            "def": "Ouvrage en fibres textiles, qu'on étend sur le sol."
+        "alarmer": {
+            "catGram": "verbe",
+            "def": "Provoquer la crainte, l'inquiétude par l'annonce d'un danger, d'une menace."
         },
-        "incongruité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est incongru."
+        "préférentiel": {
+            "catGram": "adjectif",
+            "def": "Qui établit un avantage, un privilège à qqn."
         }
     }
 }
