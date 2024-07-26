@@ -1,20 +1,20 @@
 {
     "words": {
-        "conférencier": {
-            "catGram": "nom",
-            "def": "Personne qui fait une conférence."
+        "aloès": {
+            "catGram": "nom masculin",
+            "def": "Plante vivace originaire des régions chaudes et arides d’Afrique et de Madagascar, voisine de l’agave et du yucca, dont on cultive de nombreuses espèces à des fins utilitaires (cosmétiques, médicinales, etc.) ou comme plantes ornementales."
         },
-        "artésien": {
+        "handicapé": {
             "catGram": "adjectif",
-            "def": "De l’Artois."
+            "def": "Qui est affecté d'une déficience physique ou mentale."
         },
-        "alarmer": {
+        "contrôler": {
             "catGram": "verbe",
-            "def": "Provoquer la crainte, l'inquiétude par l'annonce d'un danger, d'une menace."
+            "def": "Vérifier, soumettre à un contrôle."
         },
-        "préférentiel": {
-            "catGram": "adjectif",
-            "def": "Qui établit un avantage, un privilège à qqn."
+        "ajuster": {
+            "catGram": "verbe",
+            "def": "Rendre une chose juste, la mettre à la bonne dimension, la régler de manière à la faire correspondre à son emploi, à une norme ou à un étalon."
         }
     }
 }
