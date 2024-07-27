@@ -1,20 +1,20 @@
 {
     "words": {
-        "aloès": {
-            "catGram": "nom masculin",
-            "def": "Plante vivace originaire des régions chaudes et arides d’Afrique et de Madagascar, voisine de l’agave et du yucca, dont on cultive de nombreuses espèces à des fins utilitaires (cosmétiques, médicinales, etc.) ou comme plantes ornementales."
+        "convulsion": {
+            "catGram": "nom féminin",
+            "def": "Contraction brusque et involontaire des muscles, souvent généralisée à tout le corps."
         },
-        "handicapé": {
+        "osé": {
             "catGram": "adjectif",
-            "def": "Qui est affecté d'une déficience physique ou mentale."
+            "def": "Audacieux, téméraire, risqué."
         },
-        "contrôler": {
-            "catGram": "verbe",
-            "def": "Vérifier, soumettre à un contrôle."
+        "arbitraire": {
+            "catGram": "adjectif",
+            "def": "Qui dépend de la volonté seule, sans répondre à une loi, à une règle"
         },
-        "ajuster": {
-            "catGram": "verbe",
-            "def": "Rendre une chose juste, la mettre à la bonne dimension, la régler de manière à la faire correspondre à son emploi, à une norme ou à un étalon."
+        "cacahuète": {
+            "catGram": "nom féminin",
+            "def": "Fruit sec de l’arachide, formé d’une gousse beige d’aspect réticulé contenant généralement deux graines oléagineuses comestibles qui sont recouvertes d’une pellicule brun rougeâtre"
         }
     }
 }
