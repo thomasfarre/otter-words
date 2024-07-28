@@ -1,20 +1,20 @@
 {
     "words": {
-        "convulsion": {
+        "éventualité": {
             "catGram": "nom féminin",
-            "def": "Contraction brusque et involontaire des muscles, souvent généralisée à tout le corps."
+            "def": "Caractère de ce qui est éventuel."
         },
-        "osé": {
+        "affûter": {
+            "catGram": "verbe",
+            "def": "Rendre tranchante la lame d'un outil."
+        },
+        "précis": {
             "catGram": "adjectif",
-            "def": "Audacieux, téméraire, risqué."
+            "def": "Qui est clairement défini, explicité et ne laisse place à aucune incertitude"
         },
-        "arbitraire": {
+        "fantastique": {
             "catGram": "adjectif",
-            "def": "Qui dépend de la volonté seule, sans répondre à une loi, à une règle"
-        },
-        "cacahuète": {
-            "catGram": "nom féminin",
-            "def": "Fruit sec de l’arachide, formé d’une gousse beige d’aspect réticulé contenant généralement deux graines oléagineuses comestibles qui sont recouvertes d’une pellicule brun rougeâtre"
+            "def": "Irréel, créé par l’imagination."
         }
     }
 }
