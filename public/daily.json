@@ -1,20 +1,20 @@
 {
     "words": {
-        "éventualité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est éventuel."
+        "arrivage": {
+            "catGram": "nom masculin",
+            "def": "Arrivée de marchandises"
         },
-        "affûter": {
-            "catGram": "verbe",
-            "def": "Rendre tranchante la lame d'un outil."
+        "laquelle": {
+            "catGram": "pronom interrogatif",
+            "def": "Sert à représenter un élément dont l'identité est sujette à interrogation."
         },
-        "précis": {
+        "dicton": {
+            "catGram": "nom masculin",
+            "def": "Sentence, généralement d’origine populaire, passée en proverbe."
+        },
+        "permanente": {
             "catGram": "adjectif",
-            "def": "Qui est clairement défini, explicité et ne laisse place à aucune incertitude"
-        },
-        "fantastique": {
-            "catGram": "adjectif",
-            "def": "Irréel, créé par l’imagination."
+            "def": "Qui dure, demeure sans s’interrompre ni changer"
         }
     }
 }
