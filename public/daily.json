@@ -1,20 +1,20 @@
 {
     "words": {
-        "arrivage": {
+        "seing": {
             "catGram": "nom masculin",
-            "def": "Arrivée de marchandises"
+            "def": "Signature apposée au bas d'un document par celui qui veut attester la validité, l'authenticité de son contenu."
         },
-        "laquelle": {
-            "catGram": "pronom interrogatif",
-            "def": "Sert à représenter un élément dont l'identité est sujette à interrogation."
-        },
-        "dicton": {
+        "château": {
             "catGram": "nom masculin",
-            "def": "Sentence, généralement d’origine populaire, passée en proverbe."
+            "def": "forteresse féodale qui était défendue par des fossés et des d’ouvrages de fortification."
         },
-        "permanente": {
-            "catGram": "adjectif",
-            "def": "Qui dure, demeure sans s’interrompre ni changer"
+        "violemment": {
+            "catGram": "adverbe",
+            "def": "Avec brutalité."
+        },
+        "indiscrétion": {
+            "catGram": "nom féminin",
+            "def": "Manque de retenue, de réserve dans les relations sociales."
         }
     }
 }
