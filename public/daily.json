@@ -1,20 +1,20 @@
 {
     "words": {
-        "seing": {
+        "appétissant": {
+            "catGram": "adjectif",
+            "def": "Qui stimule l'appétit, qui donne envie de manger."
+        },
+        "avisé": {
+            "catGram": "adjectif",
+            "def": "Qui manifeste, face aux événements, un esprit d'à-propos pour agir avec intelligence et prudence"
+        },
+        "anneau": {
             "catGram": "nom masculin",
-            "def": "Signature apposée au bas d'un document par celui qui veut attester la validité, l'authenticité de son contenu."
+            "def": "Cercle, généralement en matière dure, qui sert à attacher, retenir ou enserrer."
         },
-        "château": {
-            "catGram": "nom masculin",
-            "def": "forteresse féodale qui était défendue par des fossés et des d’ouvrages de fortification."
-        },
-        "violemment": {
-            "catGram": "adverbe",
-            "def": "Avec brutalité."
-        },
-        "indiscrétion": {
+        "émeute": {
             "catGram": "nom féminin",
-            "def": "Manque de retenue, de réserve dans les relations sociales."
+            "def": "Soulèvement populaire spontané et tumultueux, accompagné de violence."
         }
     }
 }
