@@ -1,20 +1,20 @@
 {
     "words": {
-        "appétissant": {
-            "catGram": "adjectif",
-            "def": "Qui stimule l'appétit, qui donne envie de manger."
-        },
-        "avisé": {
-            "catGram": "adjectif",
-            "def": "Qui manifeste, face aux événements, un esprit d'à-propos pour agir avec intelligence et prudence"
-        },
-        "anneau": {
+        "messie": {
             "catGram": "nom masculin",
-            "def": "Cercle, généralement en matière dure, qui sert à attacher, retenir ou enserrer."
+            "def": "Sauveur qui, en vertu de la promesse de Dieu renouvelée par les prophètes de l'Ancien Testament, est attendu par le peuple juif comme le libérateur qui instaurera le Royaume de Dieu."
         },
-        "émeute": {
+        "cabri": {
+            "catGram": "nom masculin",
+            "def": "Jeune chèvre ou jeune bouquetin."
+        },
+        "amortissement": {
+            "catGram": "nom masculin",
+            "def": "Action d’amortir ou de s’amortir."
+        },
+        "allonge": {
             "catGram": "nom féminin",
-            "def": "Soulèvement populaire spontané et tumultueux, accompagné de violence."
+            "def": "Longueur de bras d’un boxeur"
         }
     }
 }
