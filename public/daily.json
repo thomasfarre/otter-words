@@ -1,20 +1,20 @@
 {
     "words": {
-        "messie": {
+        "plafond": {
             "catGram": "nom masculin",
-            "def": "Sauveur qui, en vertu de la promesse de Dieu renouvelée par les prophètes de l'Ancien Testament, est attendu par le peuple juif comme le libérateur qui instaurera le Royaume de Dieu."
+            "def": "Surface horizontale qui constitue la partie supérieure d'une pièce."
         },
-        "cabri": {
-            "catGram": "nom masculin",
-            "def": "Jeune chèvre ou jeune bouquetin."
-        },
-        "amortissement": {
-            "catGram": "nom masculin",
-            "def": "Action d’amortir ou de s’amortir."
-        },
-        "allonge": {
+        "séance": {
             "catGram": "nom féminin",
-            "def": "Longueur de bras d’un boxeur"
+            "def": "Réunion des membres d'une assemblée, d'un corps constitué, siégeant régulièrement en vue d’accomplir certains travaux"
+        },
+        "émetteur": {
+            "catGram": "nom",
+            "def": "Personne, organisme qui met en circulation de la monnaie, des billets, des titres, etc."
+        },
+        "intervenir": {
+            "catGram": "verbe",
+            "def": "Participer à une action dans le but d'en modifier le déroulement"
         }
     }
 }
