@@ -1,20 +1,20 @@
 {
     "words": {
-        "plafond": {
-            "catGram": "nom masculin",
-            "def": "Surface horizontale qui constitue la partie supérieure d'une pièce."
-        },
-        "séance": {
+        "paille": {
             "catGram": "nom féminin",
-            "def": "Réunion des membres d'une assemblée, d'un corps constitué, siégeant régulièrement en vue d’accomplir certains travaux"
+            "def": "Ensemble de tiges de céréales coupées et dépouillées de leur grain."
         },
-        "émetteur": {
-            "catGram": "nom",
-            "def": "Personne, organisme qui met en circulation de la monnaie, des billets, des titres, etc."
+        "planification": {
+            "catGram": "nom féminin",
+            "def": "Action de planifier"
         },
-        "intervenir": {
+        "désoler": {
             "catGram": "verbe",
-            "def": "Participer à une action dans le but d'en modifier le déroulement"
+            "def": "Ravager, dévaster, ruiner."
+        },
+        "renonciation": {
+            "catGram": "nom féminin",
+            "def": "Action d'abandonner l'utilisation ou la possession d'une chose, la prétention à qqch."
         }
     }
 }
