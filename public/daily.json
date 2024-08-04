@@ -1,20 +1,20 @@
 {
     "words": {
-        "paille": {
-            "catGram": "nom féminin",
-            "def": "Ensemble de tiges de céréales coupées et dépouillées de leur grain."
+        "échelon": {
+            "catGram": "nom masculin",
+            "def": "Traverse d'une échelle."
         },
-        "planification": {
-            "catGram": "nom féminin",
-            "def": "Action de planifier"
+        "cantonales": {
+            "catGram": "adjectif",
+            "def": "Relatif à un canton (français ou suisse)."
         },
-        "désoler": {
-            "catGram": "verbe",
-            "def": "Ravager, dévaster, ruiner."
+        "pardon": {
+            "catGram": "nom masculin",
+            "def": "Action de pardonner."
         },
-        "renonciation": {
+        "irrévérence": {
             "catGram": "nom féminin",
-            "def": "Action d'abandonner l'utilisation ou la possession d'une chose, la prétention à qqch."
+            "def": "Manque de respect, impertinence"
         }
     }
 }
