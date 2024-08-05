@@ -1,20 +1,20 @@
 {
     "words": {
-        "échelon": {
-            "catGram": "nom masculin",
-            "def": "Traverse d'une échelle."
+        "emporter": {
+            "catGram": "verbe",
+            "def": "Prendre avec soi en quittant un lieu."
         },
-        "cantonales": {
-            "catGram": "adjectif",
-            "def": "Relatif à un canton (français ou suisse)."
+        "taxer": {
+            "catGram": "verbe",
+            "def": "Fixer le prix, la somme de qqch."
         },
-        "pardon": {
-            "catGram": "nom masculin",
-            "def": "Action de pardonner."
-        },
-        "irrévérence": {
+        "irritation": {
             "catGram": "nom féminin",
-            "def": "Manque de respect, impertinence"
+            "def": "État d'une personne qui est irritée, agacée, en colère."
+        },
+        "châtelet": {
+            "catGram": "nom masculin",
+            "def": "Petit château fort destiné à protéger l'accès à un lieu (pont, route, etc.)."
         }
     }
 }
