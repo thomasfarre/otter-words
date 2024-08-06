@@ -1,20 +1,20 @@
 {
     "words": {
-        "emporter": {
-            "catGram": "verbe",
-            "def": "Prendre avec soi en quittant un lieu."
+        "celles": {
+            "catGram": "pronom démonstratif",
+            "def": "Sert à désigner et à représenter un élément du même type qu'un élément qui vient d'être exprimé."
         },
-        "taxer": {
-            "catGram": "verbe",
-            "def": "Fixer le prix, la somme de qqch."
-        },
-        "irritation": {
+        "broutille": {
             "catGram": "nom féminin",
-            "def": "État d'une personne qui est irritée, agacée, en colère."
+            "def": "Jeune pousse"
         },
-        "châtelet": {
-            "catGram": "nom masculin",
-            "def": "Petit château fort destiné à protéger l'accès à un lieu (pont, route, etc.)."
+        "ajouter": {
+            "catGram": "verbe",
+            "def": "Apporter un élément supplémentaire."
+        },
+        "priorité": {
+            "catGram": "nom féminin",
+            "def": "État, qualité de ce qui se situe avant dans le temps."
         }
     }
 }
