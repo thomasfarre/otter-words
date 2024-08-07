@@ -1,20 +1,20 @@
 {
     "words": {
-        "celles": {
-            "catGram": "pronom démonstratif",
-            "def": "Sert à désigner et à représenter un élément du même type qu'un élément qui vient d'être exprimé."
+        "abcès": {
+            "catGram": "nom masculin",
+            "def": "Amas de pus dans une cavité, qui détruit ou repousse les tissus environnants."
         },
-        "broutille": {
-            "catGram": "nom féminin",
-            "def": "Jeune pousse"
+        "parcours": {
+            "catGram": "nom masculin",
+            "def": "Chemin pour se rendre d'un point à l'autre"
         },
-        "ajouter": {
-            "catGram": "verbe",
-            "def": "Apporter un élément supplémentaire."
+        "élégant": {
+            "catGram": "adjectif",
+            "def": "Qui se caractérise par une élégance dans la forme, la disposition, le mouvement."
         },
-        "priorité": {
-            "catGram": "nom féminin",
-            "def": "État, qualité de ce qui se situe avant dans le temps."
+        "preneur": {
+            "catGram": "nom",
+            "def": "Personne qui prend."
         }
     }
 }
