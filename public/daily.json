@@ -1,20 +1,20 @@
 {
     "words": {
-        "abcès": {
+        "rencontre": {
+            "catGram": "nom féminin",
+            "def": "Fait de se trouver en présence de qqn, de façon fortuite ou non."
+        },
+        "franchir": {
+            "catGram": "verbe",
+            "def": "Passer par-dessus un obstacle matériel."
+        },
+        "encouragement": {
             "catGram": "nom masculin",
-            "def": "Amas de pus dans une cavité, qui détruit ou repousse les tissus environnants."
+            "def": "Action d'encourager"
         },
-        "parcours": {
-            "catGram": "nom masculin",
-            "def": "Chemin pour se rendre d'un point à l'autre"
-        },
-        "élégant": {
-            "catGram": "adjectif",
-            "def": "Qui se caractérise par une élégance dans la forme, la disposition, le mouvement."
-        },
-        "preneur": {
-            "catGram": "nom",
-            "def": "Personne qui prend."
+        "proférer": {
+            "catGram": "verbe",
+            "def": "Dire, prononcer à voix haute, souvent avec force, véhémence ou violence."
         }
     }
 }
