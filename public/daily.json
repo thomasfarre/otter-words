@@ -1,20 +1,20 @@
 {
     "words": {
-        "rencontre": {
+        "inclination": {
             "catGram": "nom féminin",
-            "def": "Fait de se trouver en présence de qqn, de façon fortuite ou non."
+            "def": "Action d'incliner la tête ou le buste, souvent en signe d'acquiescement ou de salutation."
         },
-        "franchir": {
+        "progresser": {
             "catGram": "verbe",
-            "def": "Passer par-dessus un obstacle matériel."
+            "def": "Avancer, gagner du terrain."
         },
-        "encouragement": {
+        "singe": {
             "catGram": "nom masculin",
-            "def": "Action d'encourager"
+            "def": "Mammifère des régions tropicales d'Afrique, d'Amérique et d'Asie, généralement social et arboricole, au cerveau très développé et à face nue, dont les membres se terminent par cinq doigts adaptés à la préhension et dont les espèces de grande taille, dépourvues de queue, sont anthropoïdes"
         },
-        "proférer": {
-            "catGram": "verbe",
-            "def": "Dire, prononcer à voix haute, souvent avec force, véhémence ou violence."
+        "macédoine": {
+            "catGram": "nom féminin",
+            "def": "Préparation culinaire composée de fruits ou de légumes en menus morceaux"
         }
     }
 }
