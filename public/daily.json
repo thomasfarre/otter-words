@@ -1,20 +1,20 @@
 {
     "words": {
-        "inclination": {
-            "catGram": "nom féminin",
-            "def": "Action d'incliner la tête ou le buste, souvent en signe d'acquiescement ou de salutation."
-        },
-        "progresser": {
+        "militer": {
             "catGram": "verbe",
-            "def": "Avancer, gagner du terrain."
+            "def": "Constituer un argument favorable ou défavorable"
         },
-        "singe": {
-            "catGram": "nom masculin",
-            "def": "Mammifère des régions tropicales d'Afrique, d'Amérique et d'Asie, généralement social et arboricole, au cerveau très développé et à face nue, dont les membres se terminent par cinq doigts adaptés à la préhension et dont les espèces de grande taille, dépourvues de queue, sont anthropoïdes"
-        },
-        "macédoine": {
+        "locomotive": {
             "catGram": "nom féminin",
-            "def": "Préparation culinaire composée de fruits ou de légumes en menus morceaux"
+            "def": "Puissant véhicule à moteur qui tracte un convoi de voitures ou de wagons sur une voie ferrée."
+        },
+        "assainir": {
+            "catGram": "verbe",
+            "def": "Rendre sain, plus sain"
+        },
+        "bourgmestre": {
+            "catGram": "nom masculin",
+            "def": "Premier magistrat d'une commune, notamment en Belgique, en Suisse, aux Pays-Bas et en Allemagne."
         }
     }
 }
