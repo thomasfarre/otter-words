@@ -1,20 +1,20 @@
 {
     "words": {
-        "militer": {
+        "coordonner": {
             "catGram": "verbe",
-            "def": "Constituer un argument favorable ou défavorable"
+            "def": "Disposer de manière cohérente, et selon certains rapports, les différentes parties d'un ensemble dans une intention déterminée."
         },
-        "locomotive": {
+        "banqueroute": {
             "catGram": "nom féminin",
-            "def": "Puissant véhicule à moteur qui tracte un convoi de voitures ou de wagons sur une voie ferrée."
+            "def": "Faillite aggravée par certaines circonstances qui en font un crime ou un délit."
         },
-        "assainir": {
-            "catGram": "verbe",
-            "def": "Rendre sain, plus sain"
+        "narrateur": {
+            "catGram": "nom",
+            "def": "Personne qui narre."
         },
-        "bourgmestre": {
-            "catGram": "nom masculin",
-            "def": "Premier magistrat d'une commune, notamment en Belgique, en Suisse, aux Pays-Bas et en Allemagne."
+        "quoi": {
+            "catGram": "pronom interrogatif masculin",
+            "def": "Sert à représenter une chose."
         }
     }
 }
