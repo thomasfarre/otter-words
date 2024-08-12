@@ -1,20 +1,20 @@
 {
     "words": {
-        "coordonner": {
-            "catGram": "verbe",
-            "def": "Disposer de manière cohérente, et selon certains rapports, les différentes parties d'un ensemble dans une intention déterminée."
+        "bivouac": {
+            "catGram": "nom masculin",
+            "def": "Campement provisoire en plein air d’une troupe en campagne, d'un groupe en déplacement."
         },
-        "banqueroute": {
+        "licencieux": {
+            "catGram": "adjectif",
+            "def": "Qui manifeste une certaine indécence"
+        },
+        "résurgence": {
             "catGram": "nom féminin",
-            "def": "Faillite aggravée par certaines circonstances qui en font un crime ou un délit."
+            "def": "Réapparition à l'air libre, sous forme de grosse source, d'une nappe d'eau ou d'une rivière souterraine"
         },
-        "narrateur": {
-            "catGram": "nom",
-            "def": "Personne qui narre."
-        },
-        "quoi": {
-            "catGram": "pronom interrogatif masculin",
-            "def": "Sert à représenter une chose."
+        "lance": {
+            "catGram": "nom féminin",
+            "def": "Arme d'hast à longue hampe et à fer pointu et allongé."
         }
     }
 }
