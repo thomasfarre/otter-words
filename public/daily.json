@@ -1,20 +1,20 @@
 {
     "words": {
-        "bivouac": {
-            "catGram": "nom masculin",
-            "def": "Campement provisoire en plein air d’une troupe en campagne, d'un groupe en déplacement."
-        },
-        "licencieux": {
+        "rougeaud": {
             "catGram": "adjectif",
-            "def": "Qui manifeste une certaine indécence"
+            "def": "Très coloré, trop rouge."
         },
-        "résurgence": {
-            "catGram": "nom féminin",
-            "def": "Réapparition à l'air libre, sous forme de grosse source, d'une nappe d'eau ou d'une rivière souterraine"
+        "normal": {
+            "catGram": "adjectif",
+            "def": "Qui est conforme à la norme, à l'état le plus fréquent, habituel"
         },
-        "lance": {
-            "catGram": "nom féminin",
-            "def": "Arme d'hast à longue hampe et à fer pointu et allongé."
+        "lapereau": {
+            "catGram": "nom masculin",
+            "def": "Jeune lapin."
+        },
+        "licite": {
+            "catGram": "adjectif",
+            "def": "Qui est permis, qu'aucune loi n'interdit"
         }
     }
 }
