@@ -1,20 +1,20 @@
 {
     "words": {
-        "rougeaud": {
-            "catGram": "adjectif",
-            "def": "Très coloré, trop rouge."
+        "nature": {
+            "catGram": "nom féminin",
+            "def": "Ensemble de tout ce qui existe"
         },
-        "normal": {
+        "levé": {
             "catGram": "adjectif",
-            "def": "Qui est conforme à la norme, à l'état le plus fréquent, habituel"
+            "def": "Qui est haussé, mis en haut."
         },
-        "lapereau": {
-            "catGram": "nom masculin",
-            "def": "Jeune lapin."
+        "signataire": {
+            "catGram": "nom épicène",
+            "def": "Personne qui a signé une lettre, un document officiel, une proclamation."
         },
-        "licite": {
-            "catGram": "adjectif",
-            "def": "Qui est permis, qu'aucune loi n'interdit"
+        "dialoguer": {
+            "catGram": "verbe",
+            "def": "Échanger, avoir un dialogue avec qqn."
         }
     }
 }
