@@ -1,20 +1,20 @@
 {
     "words": {
-        "nature": {
-            "catGram": "nom féminin",
-            "def": "Ensemble de tout ce qui existe"
-        },
-        "levé": {
+        "imposé": {
             "catGram": "adjectif",
-            "def": "Qui est haussé, mis en haut."
+            "def": "Obligatoire."
         },
-        "signataire": {
-            "catGram": "nom épicène",
-            "def": "Personne qui a signé une lettre, un document officiel, une proclamation."
+        "amabilité": {
+            "catGram": "nom féminin",
+            "def": "Qualité de ce qui est aimable"
         },
-        "dialoguer": {
-            "catGram": "verbe",
-            "def": "Échanger, avoir un dialogue avec qqn."
+        "affolement": {
+            "catGram": "nom masculin",
+            "def": "Fait de s'affoler, d'être affolé"
+        },
+        "cafardeux": {
+            "catGram": "adjectif",
+            "def": "Qui a le cafard"
         }
     }
 }
