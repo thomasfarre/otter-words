@@ -1,20 +1,20 @@
 {
     "words": {
-        "imposé": {
-            "catGram": "adjectif",
-            "def": "Obligatoire."
-        },
-        "amabilité": {
+        "serrure": {
             "catGram": "nom féminin",
-            "def": "Qualité de ce qui est aimable"
+            "def": "Mécanisme de fermeture actionné par une clé."
         },
-        "affolement": {
-            "catGram": "nom masculin",
-            "def": "Fait de s'affoler, d'être affolé"
-        },
-        "cafardeux": {
+        "fermé": {
             "catGram": "adjectif",
-            "def": "Qui a le cafard"
+            "def": "Qu'on a déplacé de façon à clore, boucher, obstruer une ouverture."
+        },
+        "ostraciser": {
+            "catGram": "verbe",
+            "def": "Frapper d'ostracisme."
+        },
+        "perfidie": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est perfide, d'une personne perfide."
         }
     }
 }
