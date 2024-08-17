@@ -1,20 +1,20 @@
 {
     "words": {
-        "serrure": {
-            "catGram": "nom féminin",
-            "def": "Mécanisme de fermeture actionné par une clé."
-        },
-        "fermé": {
+        "âcre": {
             "catGram": "adjectif",
-            "def": "Qu'on a déplacé de façon à clore, boucher, obstruer une ouverture."
+            "def": "Irritant au goût, à l’odorat."
         },
-        "ostraciser": {
+        "non": {
+            "catGram": "adverbe",
+            "def": "Sert à marquer la négation."
+        },
+        "forcer": {
             "catGram": "verbe",
-            "def": "Frapper d'ostracisme."
+            "def": "Faire céder en exerçant une force."
         },
-        "perfidie": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est perfide, d'une personne perfide."
+        "délibérer": {
+            "catGram": "verbe",
+            "def": "Discuter avec d'autres pour prendre une décision."
         }
     }
 }
