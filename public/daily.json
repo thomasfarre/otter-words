@@ -1,20 +1,20 @@
 {
     "words": {
-        "âcre": {
-            "catGram": "adjectif",
-            "def": "Irritant au goût, à l’odorat."
+        "oranger": {
+            "catGram": "nom masculin",
+            "def": "Arbre de type agrume, originaire de Chine et des pays voisins, apprécié pour son fruit, l'orange, et pour sa floraison blanche très parfumée."
         },
-        "non": {
-            "catGram": "adverbe",
-            "def": "Sert à marquer la négation."
-        },
-        "forcer": {
+        "abhorrer": {
             "catGram": "verbe",
-            "def": "Faire céder en exerçant une force."
+            "def": "Avoir en horreur, exécrer."
         },
-        "délibérer": {
-            "catGram": "verbe",
-            "def": "Discuter avec d'autres pour prendre une décision."
+        "prospective": {
+            "catGram": "nom féminin",
+            "def": "Ensemble de recherches qui s'intéressent à l'évolution future des sociétés dans le but de dégager des éléments prévisibles pour l'avenir."
+        },
+        "évaporation": {
+            "catGram": "nom féminin",
+            "def": "Transformation d’un liquide en vapeur par sa surface libre, à une température inférieure au point d’ébullition."
         }
     }
 }
