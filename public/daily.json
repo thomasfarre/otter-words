@@ -1,20 +1,20 @@
 {
     "words": {
-        "oranger": {
-            "catGram": "nom masculin",
-            "def": "Arbre de type agrume, originaire de Chine et des pays voisins, apprécié pour son fruit, l'orange, et pour sa floraison blanche très parfumée."
+        "presse": {
+            "catGram": "nom féminin",
+            "def": "Machine, dispositif qui exerce une pression sur ce qu’on y introduit, afin de le comprimer, de le déformer, d’y laisser une empreinte, d’en extraire un liquide."
         },
-        "abhorrer": {
+        "envenimer": {
             "catGram": "verbe",
-            "def": "Avoir en horreur, exécrer."
+            "def": "Infecter (une lésion)."
         },
-        "prospective": {
+        "rationalité": {
             "catGram": "nom féminin",
-            "def": "Ensemble de recherches qui s'intéressent à l'évolution future des sociétés dans le but de dégager des éléments prévisibles pour l'avenir."
+            "def": "Caractère de ce qui est rationnel, qui obéit à la raison."
         },
-        "évaporation": {
-            "catGram": "nom féminin",
-            "def": "Transformation d’un liquide en vapeur par sa surface libre, à une température inférieure au point d’ébullition."
+        "publier": {
+            "catGram": "verbe",
+            "def": "Faire connaître au public"
         }
     }
 }
