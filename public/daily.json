@@ -1,20 +1,20 @@
 {
     "words": {
-        "presse": {
+        "hydrogène": {
+            "catGram": "nom masculin",
+            "def": "Élément chimique de numéro atomique 1, le plus simple et le plus abondant dans l'univers"
+        },
+        "antichambre": {
             "catGram": "nom féminin",
-            "def": "Machine, dispositif qui exerce une pression sur ce qu’on y introduit, afin de le comprimer, de le déformer, d’y laisser une empreinte, d’en extraire un liquide."
+            "def": "Pièce située à l’entrée d’une maison, d’un bureau, d’un édifice qui donne accès aux autres pièces et sert de salle d’attente."
         },
-        "envenimer": {
-            "catGram": "verbe",
-            "def": "Infecter (une lésion)."
+        "rapace": {
+            "catGram": "adjectif",
+            "def": "Avide d'argent, de profit, au détriment d'autrui."
         },
-        "rationalité": {
+        "culotte": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est rationnel, qui obéit à la raison."
-        },
-        "publier": {
-            "catGram": "verbe",
-            "def": "Faire connaître au public"
+            "def": "Vêtement masculin qui couvre le bas du corps de la ceinture au-dessous du genou."
         }
     }
 }
