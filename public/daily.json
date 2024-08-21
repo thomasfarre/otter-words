@@ -1,20 +1,20 @@
 {
     "words": {
-        "hydrogène": {
+        "challenger": {
+            "catGram": "nom",
+            "def": "Personne ou groupe qui rivalise avec une autre personne ou un autre groupe, dans une compétition sportive ou dans une situation d'affrontement social, économique ou politique, afin de conquérir un titre ou une position dominante."
+        },
+        "volontairement": {
+            "catGram": "adverbe",
+            "def": "Par un acte volontaire et avec une intention arrêtée."
+        },
+        "convier": {
+            "catGram": "verbe",
+            "def": "Inviter qqn à un repas, à une réunion heureuse."
+        },
+        "véhicule": {
             "catGram": "nom masculin",
-            "def": "Élément chimique de numéro atomique 1, le plus simple et le plus abondant dans l'univers"
-        },
-        "antichambre": {
-            "catGram": "nom féminin",
-            "def": "Pièce située à l’entrée d’une maison, d’un bureau, d’un édifice qui donne accès aux autres pièces et sert de salle d’attente."
-        },
-        "rapace": {
-            "catGram": "adjectif",
-            "def": "Avide d'argent, de profit, au détriment d'autrui."
-        },
-        "culotte": {
-            "catGram": "nom féminin",
-            "def": "Vêtement masculin qui couvre le bas du corps de la ceinture au-dessous du genou."
+            "def": "Moyen de transport, en particulier de transport routier."
         }
     }
 }
