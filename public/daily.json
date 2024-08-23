@@ -1,20 +1,20 @@
 {
     "words": {
-        "invalide": {
-            "catGram": "adjectif",
-            "def": "Qui n’est pas en état de mener une vie active normale, en raison d’une blessure, d’une maladie, etc."
-        },
-        "incursion": {
+        "crainte": {
             "catGram": "nom féminin",
-            "def": "Invasion, généralement de courte durée, en territoire étranger."
+            "def": "Sentiment de peur, d'inquiétude à l'idée d'une menace, d'un danger réel ou fictif."
         },
-        "procuration": {
-            "catGram": "nom féminin",
-            "def": "Pouvoir qu’une personne donne à une autre d’agir en son nom."
-        },
-        "expier": {
+        "égarer": {
             "catGram": "verbe",
-            "def": "Réparer (une faute) en acceptant ou en subissant une peine imposée."
+            "def": "Mettre qqn hors du chemin qu'il doit suivre."
+        },
+        "spirale": {
+            "catGram": "nom féminin",
+            "def": "Courbe plane s'enroulant régulièrement autour d'un point dont elle s'écarte de plus en plus."
+        },
+        "vulnérable": {
+            "catGram": "adjectif",
+            "def": "Qui peut être attaqué, atteint facilement."
         }
     }
 }
