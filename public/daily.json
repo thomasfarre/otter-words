@@ -1,20 +1,20 @@
 {
     "words": {
-        "crainte": {
-            "catGram": "nom féminin",
-            "def": "Sentiment de peur, d'inquiétude à l'idée d'une menace, d'un danger réel ou fictif."
-        },
-        "égarer": {
-            "catGram": "verbe",
-            "def": "Mettre qqn hors du chemin qu'il doit suivre."
-        },
-        "spirale": {
-            "catGram": "nom féminin",
-            "def": "Courbe plane s'enroulant régulièrement autour d'un point dont elle s'écarte de plus en plus."
-        },
-        "vulnérable": {
+        "dissident": {
             "catGram": "adjectif",
-            "def": "Qui peut être attaqué, atteint facilement."
+            "def": "Qui est en dissidence"
+        },
+        "qualifier": {
+            "catGram": "verbe",
+            "def": "Caractériser en désignant de telle manière, en attribuant une qualité, une appellation, un titre."
+        },
+        "barbouiller": {
+            "catGram": "verbe",
+            "def": "Recouvrir grossièrement d'une substance salissante."
+        },
+        "perforer": {
+            "catGram": "verbe",
+            "def": "Traverser en pratiquant un ou plusieurs trous."
         }
     }
 }
