@@ -1,20 +1,20 @@
 {
     "words": {
-        "dissident": {
-            "catGram": "adjectif",
-            "def": "Qui est en dissidence"
+        "surplus": {
+            "catGram": "nom masculin",
+            "def": "Ce qui est en plus, par rapport à une grandeur ou à une quantité de référence."
         },
-        "qualifier": {
-            "catGram": "verbe",
-            "def": "Caractériser en désignant de telle manière, en attribuant une qualité, une appellation, un titre."
+        "gomme": {
+            "catGram": "nom féminin",
+            "def": "Substance mucilagineuse et transparente, provenant de l'exsudation naturelle ou provoquée de certains végétaux."
         },
-        "barbouiller": {
-            "catGram": "verbe",
-            "def": "Recouvrir grossièrement d'une substance salissante."
+        "finesse": {
+            "catGram": "nom féminin",
+            "def": "Caractère d’une forme ou d’une matière fine, délicate."
         },
-        "perforer": {
+        "revendre": {
             "catGram": "verbe",
-            "def": "Traverser en pratiquant un ou plusieurs trous."
+            "def": "Vendre ce qu’on a acheté."
         }
     }
 }
