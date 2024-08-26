@@ -1,20 +1,20 @@
 {
     "words": {
-        "surplus": {
+        "mené": {
             "catGram": "nom masculin",
-            "def": "Ce qui est en plus, par rapport à une grandeur ou à une quantité de référence."
+            "def": "Poisson d’eau douce d’Amérique du Nord, de très petite taille, à corps plutôt allongé, à queue échancrée et à museau souvent arrondi dépassant la mâchoire inférieure."
         },
-        "gomme": {
+        "apprêt": {
+            "catGram": "nom masculin",
+            "def": "Préparatifs méticuleux."
+        },
+        "biographie": {
             "catGram": "nom féminin",
-            "def": "Substance mucilagineuse et transparente, provenant de l'exsudation naturelle ou provoquée de certains végétaux."
+            "def": "Écrit relatant la vie d’une personne."
         },
-        "finesse": {
+        "découverte": {
             "catGram": "nom féminin",
-            "def": "Caractère d’une forme ou d’une matière fine, délicate."
-        },
-        "revendre": {
-            "catGram": "verbe",
-            "def": "Vendre ce qu’on a acheté."
+            "def": "Action de mettre à jour ce qui était caché, ignoré, inconnu"
         }
     }
 }
