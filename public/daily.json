@@ -1,20 +1,20 @@
 {
     "words": {
-        "mené": {
-            "catGram": "nom masculin",
-            "def": "Poisson d’eau douce d’Amérique du Nord, de très petite taille, à corps plutôt allongé, à queue échancrée et à museau souvent arrondi dépassant la mâchoire inférieure."
+        "accusé": {
+            "catGram": "nom",
+            "def": "Personne qui est déférée à la justice comme auteure d’un délit."
         },
-        "apprêt": {
-            "catGram": "nom masculin",
-            "def": "Préparatifs méticuleux."
+        "peaufiner": {
+            "catGram": "verbe",
+            "def": "Frotter, nettoyer avec une peau de chamois."
         },
-        "biographie": {
-            "catGram": "nom féminin",
-            "def": "Écrit relatant la vie d’une personne."
+        "magouilleur": {
+            "catGram": "adjectif",
+            "def": "Qui se livre à des magouilles."
         },
-        "découverte": {
-            "catGram": "nom féminin",
-            "def": "Action de mettre à jour ce qui était caché, ignoré, inconnu"
+        "thématique": {
+            "catGram": "adjectif",
+            "def": "Relatif à un thème."
         }
     }
 }
