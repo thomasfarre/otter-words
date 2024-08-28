@@ -1,20 +1,20 @@
 {
     "words": {
-        "accusé": {
+        "messager": {
             "catGram": "nom",
-            "def": "Personne qui est déférée à la justice comme auteure d’un délit."
+            "def": "Personne responsable de transmettre un message."
         },
-        "peaufiner": {
-            "catGram": "verbe",
-            "def": "Frotter, nettoyer avec une peau de chamois."
-        },
-        "magouilleur": {
+        "dramatique": {
             "catGram": "adjectif",
-            "def": "Qui se livre à des magouilles."
+            "def": "Écrit pour le théâtre"
         },
-        "thématique": {
+        "coutume": {
+            "catGram": "nom féminin",
+            "def": "Manière d’agir héritée du passé, établie par l’usage et répandue dans les mœurs d’un groupe social, d’un peuple."
+        },
+        "liminaire": {
             "catGram": "adjectif",
-            "def": "Relatif à un thème."
+            "def": "Qui est placé au début d'un ouvrage, d'un discours."
         }
     }
 }
