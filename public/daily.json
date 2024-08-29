@@ -1,20 +1,20 @@
 {
     "words": {
-        "messager": {
-            "catGram": "nom",
-            "def": "Personne responsable de transmettre un message."
+        "pouls": {
+            "catGram": "nom masculin",
+            "def": "Battement des artères, perceptible au toucher et dû au passage du sang lors des contractions cardiaques."
         },
-        "dramatique": {
-            "catGram": "adjectif",
-            "def": "Écrit pour le théâtre"
+        "flâner": {
+            "catGram": "verbe",
+            "def": "Se promener au hasard et sans hâte."
         },
-        "coutume": {
+        "maths": {
             "catGram": "nom féminin",
-            "def": "Manière d’agir héritée du passé, établie par l’usage et répandue dans les mœurs d’un groupe social, d’un peuple."
+            "def": "Ensemble des disciplines qui procèdent selon la méthode déductive et qui étudient les propriétés des êtres abstraits comme les nombres, les figures géométriques ainsi que les relations qui existent entre eux."
         },
-        "liminaire": {
-            "catGram": "adjectif",
-            "def": "Qui est placé au début d'un ouvrage, d'un discours."
+        "maladresse": {
+            "catGram": "nom féminin",
+            "def": "Manque d'adresse, d'habileté."
         }
     }
 }
