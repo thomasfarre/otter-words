@@ -1,20 +1,20 @@
 {
     "words": {
-        "pouls": {
-            "catGram": "nom masculin",
-            "def": "Battement des artères, perceptible au toucher et dû au passage du sang lors des contractions cardiaques."
+        "géant": {
+            "catGram": "nom",
+            "def": "Être fabuleux de taille colossale."
         },
-        "flâner": {
-            "catGram": "verbe",
-            "def": "Se promener au hasard et sans hâte."
-        },
-        "maths": {
+        "gloriette": {
             "catGram": "nom féminin",
-            "def": "Ensemble des disciplines qui procèdent selon la méthode déductive et qui étudient les propriétés des êtres abstraits comme les nombres, les figures géométriques ainsi que les relations qui existent entre eux."
+            "def": "Construction légère sur laquelle on fait grimper des plantes, utilisée comme abri de jardin."
         },
-        "maladresse": {
+        "distillerie": {
             "catGram": "nom féminin",
-            "def": "Manque d'adresse, d'habileté."
+            "def": "Industrie des produits distillés, notamment des eaux-de-vie."
+        },
+        "patent": {
+            "catGram": "adjectif",
+            "def": "décision royale, sous forme de lettre ouverte, qui accordait ordinairement une faveur au destinataire."
         }
     }
 }
