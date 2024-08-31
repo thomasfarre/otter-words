@@ -1,20 +1,20 @@
 {
     "words": {
-        "géant": {
+        "enfler": {
+            "catGram": "verbe",
+            "def": "Remplir de gaz qu'on insuffle."
+        },
+        "mécanicien": {
             "catGram": "nom",
-            "def": "Être fabuleux de taille colossale."
+            "def": "Physicien, mathématicien spécialiste des sciences mécaniques."
         },
-        "gloriette": {
-            "catGram": "nom féminin",
-            "def": "Construction légère sur laquelle on fait grimper des plantes, utilisée comme abri de jardin."
-        },
-        "distillerie": {
-            "catGram": "nom féminin",
-            "def": "Industrie des produits distillés, notamment des eaux-de-vie."
-        },
-        "patent": {
+        "célibataire": {
             "catGram": "adjectif",
-            "def": "décision royale, sous forme de lettre ouverte, qui accordait ordinairement une faveur au destinataire."
+            "def": "Qui n'est pas marié et qui vit généralement seul."
+        },
+        "bombardement": {
+            "catGram": "nom masculin",
+            "def": "Action de lancer, de larguer des obus, des bombes."
         }
     }
 }
