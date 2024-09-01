@@ -1,20 +1,20 @@
 {
     "words": {
-        "enfler": {
+        "greffer": {
             "catGram": "verbe",
-            "def": "Remplir de gaz qu'on insuffle."
+            "def": "Insérer (un greffon) par l'opération de la greffe"
         },
-        "mécanicien": {
-            "catGram": "nom",
-            "def": "Physicien, mathématicien spécialiste des sciences mécaniques."
-        },
-        "célibataire": {
+        "mesquin": {
             "catGram": "adjectif",
-            "def": "Qui n'est pas marié et qui vit généralement seul."
+            "def": "Attaché à ce qui est petit, médiocre"
         },
-        "bombardement": {
+        "confetti": {
             "catGram": "nom masculin",
-            "def": "Action de lancer, de larguer des obus, des bombes."
+            "def": "Petites rondelles de papier diversement colorées que l'on se lance durant un mariage, une fête, un carnaval, etc."
+        },
+        "virginal": {
+            "catGram": "adjectif",
+            "def": "Propre à une vierge"
         }
     }
 }
