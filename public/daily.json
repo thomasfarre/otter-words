@@ -1,20 +1,20 @@
 {
     "words": {
-        "greffer": {
+        "concentrer": {
             "catGram": "verbe",
-            "def": "Insérer (un greffon) par l'opération de la greffe"
+            "def": "Réunir en un centre ou sur un point ce qui est dispersé"
         },
-        "mesquin": {
+        "défoncer": {
+            "catGram": "verbe",
+            "def": "Enlever le fond de qqch."
+        },
+        "lourdaud": {
             "catGram": "adjectif",
-            "def": "Attaché à ce qui est petit, médiocre"
+            "def": "Qui est lent et maladroit (physiquement et intellectuellement)"
         },
-        "confetti": {
-            "catGram": "nom masculin",
-            "def": "Petites rondelles de papier diversement colorées que l'on se lance durant un mariage, une fête, un carnaval, etc."
-        },
-        "virginal": {
+        "officiel": {
             "catGram": "adjectif",
-            "def": "Propre à une vierge"
+            "def": "Qui émane du gouvernement ou d'une autorité administrative reconnue."
         }
     }
 }
