@@ -1,20 +1,20 @@
 {
     "words": {
-        "concentrer": {
-            "catGram": "verbe",
-            "def": "Réunir en un centre ou sur un point ce qui est dispersé"
+        "affectueusement": {
+            "catGram": "adverbe",
+            "def": "De manière affectueuse."
         },
-        "défoncer": {
-            "catGram": "verbe",
-            "def": "Enlever le fond de qqch."
-        },
-        "lourdaud": {
+        "intenable": {
             "catGram": "adjectif",
-            "def": "Qui est lent et maladroit (physiquement et intellectuellement)"
+            "def": "Que l'on ne peut tenir, défendre, soutenir."
         },
-        "officiel": {
-            "catGram": "adjectif",
-            "def": "Qui émane du gouvernement ou d'une autorité administrative reconnue."
+        "familièrement": {
+            "catGram": "adverbe",
+            "def": "D'une manière familière."
+        },
+        "ablation": {
+            "catGram": "nom féminin",
+            "def": "Action d'enlever en totalité ou en partie un organe, un tissu, une tumeur, par une intervention chirurgicale."
         }
     }
 }
