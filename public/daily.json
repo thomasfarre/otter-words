@@ -1,20 +1,20 @@
 {
     "words": {
-        "affectueusement": {
-            "catGram": "adverbe",
-            "def": "De manière affectueuse."
+        "rallye": {
+            "catGram": "nom masculin",
+            "def": "Épreuve sportive dans laquelle les concurrents (isolés ou en groupe) doivent rallier un lieu déterminé après un certain nombre d'étapes."
         },
-        "intenable": {
+        "corridor": {
+            "catGram": "nom masculin",
+            "def": "Passage long et étroit, qui permet de se déplacer d’une pièce à une autre, d’un endroit à un autre."
+        },
+        "émigrer": {
+            "catGram": "verbe",
+            "def": "Quitter son pays pour aller s’installer ailleurs, généralement à l'étranger"
+        },
+        "suspendu": {
             "catGram": "adjectif",
-            "def": "Que l'on ne peut tenir, défendre, soutenir."
-        },
-        "familièrement": {
-            "catGram": "adverbe",
-            "def": "D'une manière familière."
-        },
-        "ablation": {
-            "catGram": "nom féminin",
-            "def": "Action d'enlever en totalité ou en partie un organe, un tissu, une tumeur, par une intervention chirurgicale."
+            "def": "Qui est en suspens, momentanément interrompu."
         }
     }
 }
