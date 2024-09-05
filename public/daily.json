@@ -1,20 +1,20 @@
 {
     "words": {
-        "rallye": {
-            "catGram": "nom masculin",
-            "def": "Épreuve sportive dans laquelle les concurrents (isolés ou en groupe) doivent rallier un lieu déterminé après un certain nombre d'étapes."
+        "adagio": {
+            "catGram": "adverbe",
+            "def": "Dans un tempo lent."
         },
-        "corridor": {
-            "catGram": "nom masculin",
-            "def": "Passage long et étroit, qui permet de se déplacer d’une pièce à une autre, d’un endroit à un autre."
-        },
-        "émigrer": {
-            "catGram": "verbe",
-            "def": "Quitter son pays pour aller s’installer ailleurs, généralement à l'étranger"
-        },
-        "suspendu": {
+        "simplet": {
             "catGram": "adjectif",
-            "def": "Qui est en suspens, momentanément interrompu."
+            "def": "Qui est un peu simple d'esprit."
+        },
+        "cabane": {
+            "catGram": "nom féminin",
+            "def": "Construction rudimentaire servant d'habitation, d'abri ou de remise."
+        },
+        "simulacre": {
+            "catGram": "nom masculin",
+            "def": "Objet qui en imite un autre."
         }
     }
 }
