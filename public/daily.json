@@ -1,20 +1,20 @@
 {
     "words": {
-        "adagio": {
-            "catGram": "adverbe",
-            "def": "Dans un tempo lent."
-        },
-        "simplet": {
+        "énigmatique": {
             "catGram": "adjectif",
-            "def": "Qui est un peu simple d'esprit."
+            "def": "Qui contient une énigme, qui a le caractère de l'énigme"
         },
-        "cabane": {
+        "rançon": {
             "catGram": "nom féminin",
-            "def": "Construction rudimentaire servant d'habitation, d'abri ou de remise."
+            "def": "Somme d'argent exigée contre la remise en liberté d'une personne captive."
         },
-        "simulacre": {
-            "catGram": "nom masculin",
-            "def": "Objet qui en imite un autre."
+        "pitoyable": {
+            "catGram": "adjectif",
+            "def": "Enclin à la pitié"
+        },
+        "immotivé": {
+            "catGram": "adjectif",
+            "def": "Qui n'a pas de motif"
         }
     }
 }
