@@ -1,20 +1,20 @@
 {
     "words": {
-        "énigmatique": {
-            "catGram": "adjectif",
-            "def": "Qui contient une énigme, qui a le caractère de l'énigme"
+        "soustraire": {
+            "catGram": "verbe",
+            "def": "S'emparer de qqch., généralement par la fraude, la ruse."
         },
-        "rançon": {
+        "haltère": {
+            "catGram": "nom masculin",
+            "def": "Instrument de gymnastique composé de deux boules ou de deux disques de métal, de poids et de taille variables, réunis par une tige, et que l'on soulève pour développer les muscles."
+        },
+        "bordure": {
             "catGram": "nom féminin",
-            "def": "Somme d'argent exigée contre la remise en liberté d'une personne captive."
+            "def": "Ce qui garnit ou renforce le bord de qqch."
         },
-        "pitoyable": {
-            "catGram": "adjectif",
-            "def": "Enclin à la pitié"
-        },
-        "immotivé": {
-            "catGram": "adjectif",
-            "def": "Qui n'a pas de motif"
+        "fraude": {
+            "catGram": "nom féminin",
+            "def": "Tromperie, acte de mauvaise foi par lequel on lèse qqn ou on se soustrait à un règlement."
         }
     }
 }
