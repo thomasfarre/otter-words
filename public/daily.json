@@ -1,20 +1,20 @@
 {
     "words": {
-        "soustraire": {
+        "cogiter": {
             "catGram": "verbe",
-            "def": "S'emparer de qqch., généralement par la fraude, la ruse."
+            "def": "Réfléchir."
         },
-        "haltère": {
-            "catGram": "nom masculin",
-            "def": "Instrument de gymnastique composé de deux boules ou de deux disques de métal, de poids et de taille variables, réunis par une tige, et que l'on soulève pour développer les muscles."
+        "agité": {
+            "catGram": "adjectif",
+            "def": "Secoué d'un mouvement vif et irrégulier."
         },
-        "bordure": {
-            "catGram": "nom féminin",
-            "def": "Ce qui garnit ou renforce le bord de qqch."
+        "réglé": {
+            "catGram": "adjectif",
+            "def": "Qui est marqué de lignes droites, parallèles."
         },
-        "fraude": {
-            "catGram": "nom féminin",
-            "def": "Tromperie, acte de mauvaise foi par lequel on lèse qqn ou on se soustrait à un règlement."
+        "clarifier": {
+            "catGram": "verbe",
+            "def": "Rendre clair (un liquide)"
         }
     }
 }
