@@ -1,20 +1,20 @@
 {
     "words": {
-        "cogiter": {
-            "catGram": "verbe",
-            "def": "Réfléchir."
+        "projectile": {
+            "catGram": "nom masculin",
+            "def": "Tout corps lancé ou projeté pour atteindre qqn ou qqch."
         },
-        "agité": {
-            "catGram": "adjectif",
-            "def": "Secoué d'un mouvement vif et irrégulier."
+        "ami": {
+            "catGram": "nom",
+            "def": "Personne avec qui on est uni par l’amitié"
         },
-        "réglé": {
-            "catGram": "adjectif",
-            "def": "Qui est marqué de lignes droites, parallèles."
+        "bibliographie": {
+            "catGram": "nom féminin",
+            "def": "Science qui étudie tout ce qui a trait aux livres et aux périodiques (nombre d'éditions, présentation, reliure, qualité du papier, prix, etc.)."
         },
-        "clarifier": {
-            "catGram": "verbe",
-            "def": "Rendre clair (un liquide)"
+        "cravate": {
+            "catGram": "nom féminin",
+            "def": "Bande d’étoffe que les personnes, à l’origine les cavaliers croates, nouent autour de leur cou, en la passant généralement sous le col."
         }
     }
 }
