@@ -1,20 +1,20 @@
 {
     "words": {
-        "projectile": {
-            "catGram": "nom masculin",
-            "def": "Tout corps lancé ou projeté pour atteindre qqn ou qqch."
+        "décrocher": {
+            "catGram": "verbe",
+            "def": "Détacher (une chose qui était accrochée)"
         },
-        "ami": {
-            "catGram": "nom",
-            "def": "Personne avec qui on est uni par l’amitié"
+        "héréditaire": {
+            "catGram": "adjectif",
+            "def": "Qui se transmet par voie de succession."
         },
-        "bibliographie": {
+        "houlette": {
             "catGram": "nom féminin",
-            "def": "Science qui étudie tout ce qui a trait aux livres et aux périodiques (nombre d'éditions, présentation, reliure, qualité du papier, prix, etc.)."
+            "def": "Bâton utilisé par le berger pour faire revenir dans le troupeau les moutons qui s'en écartent."
         },
-        "cravate": {
+        "tactique": {
             "catGram": "nom féminin",
-            "def": "Bande d’étoffe que les personnes, à l’origine les cavaliers croates, nouent autour de leur cou, en la passant généralement sous le col."
+            "def": "Art d'appliquer une stratégie militaire définie, qui combine les différentes techniques et formes de combat"
         }
     }
 }
