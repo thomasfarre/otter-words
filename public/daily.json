@@ -1,20 +1,20 @@
 {
     "words": {
-        "décrocher": {
+        "compenser": {
             "catGram": "verbe",
-            "def": "Détacher (une chose qui était accrochée)"
+            "def": "Équilibrer un fait ou un effet, généralement négatif, par un effet opposé."
         },
-        "héréditaire": {
-            "catGram": "adjectif",
-            "def": "Qui se transmet par voie de succession."
-        },
-        "houlette": {
+        "explication": {
             "catGram": "nom féminin",
-            "def": "Bâton utilisé par le berger pour faire revenir dans le troupeau les moutons qui s'en écartent."
+            "def": "Développement consistant à faire comprendre, à éclaircir qqch."
         },
-        "tactique": {
-            "catGram": "nom féminin",
-            "def": "Art d'appliquer une stratégie militaire définie, qui combine les différentes techniques et formes de combat"
+        "précepte": {
+            "catGram": "nom masculin",
+            "def": "Proposition énonçant une conduite à suivre dans un domaine précis."
+        },
+        "retrouver": {
+            "catGram": "verbe",
+            "def": "Savoir à nouveau, après avoir cherché, où est qqch. ou qqn (qui était perdu, qui avait disparu)."
         }
     }
 }
