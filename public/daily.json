@@ -1,20 +1,20 @@
 {
     "words": {
-        "compenser": {
-            "catGram": "verbe",
-            "def": "Équilibrer un fait ou un effet, généralement négatif, par un effet opposé."
-        },
-        "explication": {
+        "luciole": {
             "catGram": "nom féminin",
-            "def": "Développement consistant à faire comprendre, à éclaircir qqch."
+            "def": "Insecte coléoptère allongé et à corps mou qui, surtout en période de reproduction, émet la nuit un scintillement lumineux jaune ou verdâtre, et dont la femelle est souvent dépourvue d'ailes, offrant alors l’aspect d’une larve."
         },
-        "précepte": {
-            "catGram": "nom masculin",
-            "def": "Proposition énonçant une conduite à suivre dans un domaine précis."
+        "retraite": {
+            "catGram": "nom féminin",
+            "def": "État d'une personne qui a cessé toute fonction professionnelle et qui a droit à une pension."
         },
-        "retrouver": {
-            "catGram": "verbe",
-            "def": "Savoir à nouveau, après avoir cherché, où est qqch. ou qqn (qui était perdu, qui avait disparu)."
+        "dedans": {
+            "catGram": "préposition",
+            "def": "À l'intérieur de."
+        },
+        "aide": {
+            "catGram": "nom féminin",
+            "def": "Action d’aider qqn"
         }
     }
 }
