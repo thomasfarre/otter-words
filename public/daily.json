@@ -1,20 +1,20 @@
 {
     "words": {
-        "luciole": {
-            "catGram": "nom féminin",
-            "def": "Insecte coléoptère allongé et à corps mou qui, surtout en période de reproduction, émet la nuit un scintillement lumineux jaune ou verdâtre, et dont la femelle est souvent dépourvue d'ailes, offrant alors l’aspect d’une larve."
+        "financement": {
+            "catGram": "nom masculin",
+            "def": "Action de financer qqch."
         },
-        "retraite": {
-            "catGram": "nom féminin",
-            "def": "État d'une personne qui a cessé toute fonction professionnelle et qui a droit à une pension."
+        "abolir": {
+            "catGram": "verbe",
+            "def": "Supprimer un texte, une coutume qui a force de loi."
         },
-        "dedans": {
-            "catGram": "préposition",
-            "def": "À l'intérieur de."
-        },
-        "aide": {
+        "guillotine": {
             "catGram": "nom féminin",
-            "def": "Action d’aider qqn"
+            "def": "Instrument de supplice constitué par une lourde lame qui s'abat en glissant entre deux montants verticaux et destiné à trancher la tête des condamnés à mort."
+        },
+        "déchaînement": {
+            "catGram": "nom masculin",
+            "def": "Action de déchaîner, de se déchaîner"
         }
     }
 }
