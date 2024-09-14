@@ -1,20 +1,20 @@
 {
     "words": {
-        "financement": {
-            "catGram": "nom masculin",
-            "def": "Action de financer qqch."
+        "désapprobateur": {
+            "catGram": "adjectif",
+            "def": "Qui signale la désapprobation."
         },
-        "abolir": {
+        "essorer": {
             "catGram": "verbe",
-            "def": "Supprimer un texte, une coutume qui a force de loi."
+            "def": "Débarrasser qqch. de l'eau, du surplus d'eau qu'il contient."
         },
-        "guillotine": {
-            "catGram": "nom féminin",
-            "def": "Instrument de supplice constitué par une lourde lame qui s'abat en glissant entre deux montants verticaux et destiné à trancher la tête des condamnés à mort."
-        },
-        "déchaînement": {
+        "tournage": {
             "catGram": "nom masculin",
-            "def": "Action de déchaîner, de se déchaîner"
+            "def": "Façonnage, usinage au moyen d'un tour."
+        },
+        "pente": {
+            "catGram": "nom féminin",
+            "def": "Inclinaison (d’un plan, d’un terrain, d’une surface) par rapport à l’horizontale."
         }
     }
 }
