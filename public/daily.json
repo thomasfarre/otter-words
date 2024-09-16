@@ -1,20 +1,20 @@
 {
     "words": {
-        "pour": {
-            "catGram": "préposition",
-            "def": "Sert à marquer l'idée d'échange, de substitution ou d'équivalence."
-        },
-        "délassement": {
-            "catGram": "nom masculin",
-            "def": "Action, fait de se délasser."
-        },
-        "générique": {
+        "bénin": {
             "catGram": "adjectif",
-            "def": "Qui appartient au genre, qui en est la caractéristique"
+            "def": "Qui possède ou dénote de la bonté, des qualités de douceur et de bienveillance"
         },
-        "nostalgique": {
+        "coûter": {
+            "catGram": "verbe",
+            "def": "Être vendu ou acheté à tel prix."
+        },
+        "colorant": {
             "catGram": "adjectif",
-            "def": "Qui souffre de nostalgie, est envahi par la nostalgie."
+            "def": "Qui colore."
+        },
+        "destituer": {
+            "catGram": "verbe",
+            "def": "Priver qqn d'une charge, d'un emploi, d'une fonction."
         }
     }
 }
