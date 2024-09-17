@@ -1,20 +1,20 @@
 {
     "words": {
-        "bénin": {
-            "catGram": "adjectif",
-            "def": "Qui possède ou dénote de la bonté, des qualités de douceur et de bienveillance"
+        "salaire": {
+            "catGram": "nom masculin",
+            "def": "Rémunération dont le montant est convenu d’avance et qui est versée à un employé pour un travail, un service."
         },
-        "coûter": {
-            "catGram": "verbe",
-            "def": "Être vendu ou acheté à tel prix."
+        "hulotte": {
+            "catGram": "nom féminin",
+            "def": "Autre nom de la chouette hulotte."
         },
-        "colorant": {
-            "catGram": "adjectif",
-            "def": "Qui colore."
+        "décidément": {
+            "catGram": "adverbe",
+            "def": "En définitive, tout bien considéré."
         },
-        "destituer": {
-            "catGram": "verbe",
-            "def": "Priver qqn d'une charge, d'un emploi, d'une fonction."
+        "redite": {
+            "catGram": "nom féminin",
+            "def": "Répétition (inutile) dans le discours écrit, oral ou dans le domaine musical."
         }
     }
 }
