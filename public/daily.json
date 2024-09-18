@@ -1,20 +1,20 @@
 {
     "words": {
-        "salaire": {
+        "bazarder": {
+            "catGram": "verbe",
+            "def": "Se débarrasser de, vendre rapidement qqch."
+        },
+        "élire": {
+            "catGram": "verbe",
+            "def": "Choisir."
+        },
+        "textuel": {
+            "catGram": "adjectif",
+            "def": "Relatif au texte"
+        },
+        "palmier": {
             "catGram": "nom masculin",
-            "def": "Rémunération dont le montant est convenu d’avance et qui est versée à un employé pour un travail, un service."
-        },
-        "hulotte": {
-            "catGram": "nom féminin",
-            "def": "Autre nom de la chouette hulotte."
-        },
-        "décidément": {
-            "catGram": "adverbe",
-            "def": "En définitive, tout bien considéré."
-        },
-        "redite": {
-            "catGram": "nom féminin",
-            "def": "Répétition (inutile) dans le discours écrit, oral ou dans le domaine musical."
+            "def": "Arbre des régions chaudes, notamment d'Amérique et d'Asie, à tronc élancé sans branches, surmonté d'un faisceau de grandes feuilles pennées ou palmées, dont de nombreuses espèces fournissent des produits alimentaires et industriels variés."
         }
     }
 }
