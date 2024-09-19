@@ -1,20 +1,20 @@
 {
     "words": {
-        "bazarder": {
-            "catGram": "verbe",
-            "def": "Se débarrasser de, vendre rapidement qqch."
+        "transfusion": {
+            "catGram": "nom féminin",
+            "def": "injection de sang ou de produits sanguins (plaquettes, plasma, immunoglobulines, etc.) dans la circulation sanguine d'un patient."
         },
-        "élire": {
-            "catGram": "verbe",
-            "def": "Choisir."
+        "chouchou": {
+            "catGram": "nom",
+            "def": "Favori, préféré."
         },
-        "textuel": {
+        "vaillant": {
             "catGram": "adjectif",
-            "def": "Relatif au texte"
+            "def": "Brave, courageux."
         },
-        "palmier": {
-            "catGram": "nom masculin",
-            "def": "Arbre des régions chaudes, notamment d'Amérique et d'Asie, à tronc élancé sans branches, surmonté d'un faisceau de grandes feuilles pennées ou palmées, dont de nombreuses espèces fournissent des produits alimentaires et industriels variés."
+        "préféré": {
+            "catGram": "adjectif",
+            "def": "Qui est le plus aimé, le mieux considéré par qqn."
         }
     }
 }
