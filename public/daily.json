@@ -1,20 +1,20 @@
 {
     "words": {
-        "transfusion": {
+        "but": {
+            "catGram": "nom masculin",
+            "def": "Point, objet visé afin de l'atteindre avec un projectile."
+        },
+        "couvercle": {
+            "catGram": "nom masculin",
+            "def": "Pièce mobile qui se place ou se rabat sur un contenant pour le fermer plus ou moins hermétiquement."
+        },
+        "surface": {
             "catGram": "nom féminin",
-            "def": "injection de sang ou de produits sanguins (plaquettes, plasma, immunoglobulines, etc.) dans la circulation sanguine d'un patient."
+            "def": "Partie extérieure d'un corps, d'un objet, qui circonscrit le volume occupé par celui-ci."
         },
-        "chouchou": {
-            "catGram": "nom",
-            "def": "Favori, préféré."
-        },
-        "vaillant": {
-            "catGram": "adjectif",
-            "def": "Brave, courageux."
-        },
-        "préféré": {
-            "catGram": "adjectif",
-            "def": "Qui est le plus aimé, le mieux considéré par qqn."
+        "chimiste": {
+            "catGram": "nom épicène",
+            "def": "Spécialiste de la chimie."
         }
     }
 }
