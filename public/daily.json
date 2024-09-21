@@ -1,20 +1,20 @@
 {
     "words": {
-        "but": {
-            "catGram": "nom masculin",
-            "def": "Point, objet visé afin de l'atteindre avec un projectile."
-        },
-        "couvercle": {
-            "catGram": "nom masculin",
-            "def": "Pièce mobile qui se place ou se rabat sur un contenant pour le fermer plus ou moins hermétiquement."
-        },
-        "surface": {
+        "interjection": {
             "catGram": "nom féminin",
-            "def": "Partie extérieure d'un corps, d'un objet, qui circonscrit le volume occupé par celui-ci."
+            "def": "Mot invariable autonome qui exprime d'une manière vive une attitude affective ou qui décrit un bruit, un cri, le plus souvent dans un discours familier (ex. :alléluia,eh,vlan)."
         },
-        "chimiste": {
-            "catGram": "nom épicène",
-            "def": "Spécialiste de la chimie."
+        "appliqué": {
+            "catGram": "adjectif",
+            "def": "Qui s'applique."
+        },
+        "atelier": {
+            "catGram": "nom masculin",
+            "def": "Lieu où des ouvriers, des artisans exécutent en commun des travaux similaires ou connexes."
+        },
+        "conservation": {
+            "catGram": "nom féminin",
+            "def": "Action de conserver"
         }
     }
 }
