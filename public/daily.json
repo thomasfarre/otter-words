@@ -1,20 +1,20 @@
 {
     "words": {
-        "interjection": {
+        "épiphanie": {
             "catGram": "nom féminin",
-            "def": "Mot invariable autonome qui exprime d'une manière vive une attitude affective ou qui décrit un bruit, un cri, le plus souvent dans un discours familier (ex. :alléluia,eh,vlan)."
+            "def": "Fête catholique célébrée le 6 janvier pour commémorer la manifestation de Jésus aux Rois mages venus l'adorer."
         },
-        "appliqué": {
+        "téméraire": {
             "catGram": "adjectif",
-            "def": "Qui s'applique."
+            "def": "Qui manifeste de la témérité."
         },
-        "atelier": {
-            "catGram": "nom masculin",
-            "def": "Lieu où des ouvriers, des artisans exécutent en commun des travaux similaires ou connexes."
+        "inconstitutionnel": {
+            "catGram": "adjectif",
+            "def": "Qui n’est pas conforme à la constitution d’un État"
         },
-        "conservation": {
+        "intendance": {
             "catGram": "nom féminin",
-            "def": "Action de conserver"
+            "def": "Fonction de l’intendant d'une province"
         }
     }
 }
