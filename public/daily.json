@@ -1,20 +1,20 @@
 {
     "words": {
-        "épiphanie": {
-            "catGram": "nom féminin",
-            "def": "Fête catholique célébrée le 6 janvier pour commémorer la manifestation de Jésus aux Rois mages venus l'adorer."
+        "tempérer": {
+            "catGram": "verbe",
+            "def": "Atténuer, diminuer l'intensité d'un excès thermique ou climatique"
         },
-        "téméraire": {
-            "catGram": "adjectif",
-            "def": "Qui manifeste de la témérité."
+        "concerner": {
+            "catGram": "verbe",
+            "def": "Se rapporter à, avoir quelque rapport avec."
         },
-        "inconstitutionnel": {
-            "catGram": "adjectif",
-            "def": "Qui n’est pas conforme à la constitution d’un État"
+        "plaire": {
+            "catGram": "verbe",
+            "def": "Éveiller la sympathie chez qqn"
         },
-        "intendance": {
-            "catGram": "nom féminin",
-            "def": "Fonction de l’intendant d'une province"
+        "mensonge": {
+            "catGram": "nom masculin",
+            "def": "Affirmation contraire à la vérité, destinée à tromper."
         }
     }
 }
