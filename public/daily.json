@@ -1,20 +1,20 @@
 {
     "words": {
-        "tempérer": {
-            "catGram": "verbe",
-            "def": "Atténuer, diminuer l'intensité d'un excès thermique ou climatique"
-        },
-        "concerner": {
-            "catGram": "verbe",
-            "def": "Se rapporter à, avoir quelque rapport avec."
-        },
-        "plaire": {
-            "catGram": "verbe",
-            "def": "Éveiller la sympathie chez qqn"
-        },
-        "mensonge": {
+        "aventurier": {
             "catGram": "nom masculin",
-            "def": "Affirmation contraire à la vérité, destinée à tromper."
+            "def": "Personne qui aime, qui recherche l'aventure, les entreprises risquées."
+        },
+        "aveugler": {
+            "catGram": "verbe",
+            "def": "Rendre aveugle, priver de la vue."
+        },
+        "classe": {
+            "catGram": "nom féminin",
+            "def": "Ensemble d'êtres ou de choses présentant un ou plusieurs traits communs."
+        },
+        "convier": {
+            "catGram": "verbe",
+            "def": "Inviter qqn à un repas, à une réunion heureuse."
         }
     }
 }
