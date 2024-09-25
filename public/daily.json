@@ -1,20 +1,20 @@
 {
     "words": {
-        "aventurier": {
+        "montrer": {
+            "catGram": "verbe",
+            "def": "Faire voir, faire apparaître."
+        },
+        "brame": {
             "catGram": "nom masculin",
-            "def": "Personne qui aime, qui recherche l'aventure, les entreprises risquées."
+            "def": "Cri des cervidés."
         },
-        "aveugler": {
-            "catGram": "verbe",
-            "def": "Rendre aveugle, priver de la vue."
+        "chenapan": {
+            "catGram": "nom masculin",
+            "def": "Voyou, vaurien, en parlant d'un enfant."
         },
-        "classe": {
+        "illégitimité": {
             "catGram": "nom féminin",
-            "def": "Ensemble d'êtres ou de choses présentant un ou plusieurs traits communs."
-        },
-        "convier": {
-            "catGram": "verbe",
-            "def": "Inviter qqn à un repas, à une réunion heureuse."
+            "def": "Caractère de ce qui est illégitime"
         }
     }
 }
