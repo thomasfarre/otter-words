@@ -1,20 +1,20 @@
 {
     "words": {
-        "montrer": {
-            "catGram": "verbe",
-            "def": "Faire voir, faire apparaître."
+        "correct": {
+            "catGram": "adjectif",
+            "def": "Conforme à une norme, un ensemble de règles"
         },
-        "brame": {
+        "agenda": {
             "catGram": "nom masculin",
-            "def": "Cri des cervidés."
+            "def": "Carnet daté servant à inscrire un emploi du temps."
         },
-        "chenapan": {
-            "catGram": "nom masculin",
-            "def": "Voyou, vaurien, en parlant d'un enfant."
+        "élémentaire": {
+            "catGram": "adjectif",
+            "def": "Qui concerne l’élément, les éléments."
         },
-        "illégitimité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est illégitime"
+        "médical": {
+            "catGram": "adjectif",
+            "def": "Relatif à la médecine, notamment en dehors de la chirurgie"
         }
     }
 }
