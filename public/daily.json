@@ -1,20 +1,20 @@
 {
     "words": {
-        "correct": {
+        "décidé": {
             "catGram": "adjectif",
-            "def": "Conforme à une norme, un ensemble de règles"
+            "def": "Qui a été l'objet d'une décision."
         },
-        "agenda": {
-            "catGram": "nom masculin",
-            "def": "Carnet daté servant à inscrire un emploi du temps."
-        },
-        "élémentaire": {
+        "indiscernable": {
             "catGram": "adjectif",
-            "def": "Qui concerne l’élément, les éléments."
+            "def": "Qui ne peut être clairement distinct d'une autre chose de même nature."
         },
-        "médical": {
+        "difficilement": {
+            "catGram": "adverbe",
+            "def": "D'une manière difficile"
+        },
+        "beige": {
             "catGram": "adjectif",
-            "def": "Relatif à la médecine, notamment en dehors de la chirurgie"
+            "def": "D’une couleur située entre le blanc cassé et le brun très clair."
         }
     }
 }
