@@ -1,20 +1,20 @@
 {
     "words": {
-        "décidé": {
+        "arbitraire": {
             "catGram": "adjectif",
-            "def": "Qui a été l'objet d'une décision."
+            "def": "Qui dépend de la volonté seule, sans répondre à une loi, à une règle"
         },
-        "indiscernable": {
-            "catGram": "adjectif",
-            "def": "Qui ne peut être clairement distinct d'une autre chose de même nature."
+        "déraper": {
+            "catGram": "verbe",
+            "def": "Cesser d'être fixé au fond et laisser ainsi dériver le bateau, en parlant d'une ancre."
         },
-        "difficilement": {
-            "catGram": "adverbe",
-            "def": "D'une manière difficile"
+        "bouleverser": {
+            "catGram": "verbe",
+            "def": "Retourner, mettre sens dessus dessous."
         },
-        "beige": {
-            "catGram": "adjectif",
-            "def": "D’une couleur située entre le blanc cassé et le brun très clair."
+        "exode": {
+            "catGram": "nom masculin",
+            "def": "Émigration en masse d’un peuple"
         }
     }
 }
