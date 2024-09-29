@@ -1,20 +1,20 @@
 {
     "words": {
-        "arbitraire": {
-            "catGram": "adjectif",
-            "def": "Qui dépend de la volonté seule, sans répondre à une loi, à une règle"
-        },
-        "déraper": {
+        "trébucher": {
             "catGram": "verbe",
-            "def": "Cesser d'être fixé au fond et laisser ainsi dériver le bateau, en parlant d'une ancre."
+            "def": "Faire un faux pas, perdre l'équilibre, mais sans tomber."
         },
-        "bouleverser": {
-            "catGram": "verbe",
-            "def": "Retourner, mettre sens dessus dessous."
-        },
-        "exode": {
+        "aboiement": {
             "catGram": "nom masculin",
-            "def": "Émigration en masse d’un peuple"
+            "def": "Cri du chien et de certains autres canidés, notamment le coyote."
+        },
+        "empaquetage": {
+            "catGram": "nom masculin",
+            "def": "Action d'empaqueter"
+        },
+        "système": {
+            "catGram": "nom masculin",
+            "def": "Ensemble organisé d’éléments."
         }
     }
 }
