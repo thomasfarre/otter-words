@@ -1,20 +1,20 @@
 {
     "words": {
-        "trébucher": {
-            "catGram": "verbe",
-            "def": "Faire un faux pas, perdre l'équilibre, mais sans tomber."
+        "parlementaire": {
+            "catGram": "adjectif",
+            "def": "Relatif à un parlement, à ses membres."
         },
-        "aboiement": {
-            "catGram": "nom masculin",
-            "def": "Cri du chien et de certains autres canidés, notamment le coyote."
+        "physiologie": {
+            "catGram": "nom féminin",
+            "def": "Science qui étudie le fonctionnement d'un organisme vivant et de ses composantes."
         },
-        "empaquetage": {
-            "catGram": "nom masculin",
-            "def": "Action d'empaqueter"
+        "complaisant": {
+            "catGram": "adjectif",
+            "def": "Qui est aimable, qui désire plaire."
         },
-        "système": {
+        "motif": {
             "catGram": "nom masculin",
-            "def": "Ensemble organisé d’éléments."
+            "def": "Élément d'ordre intellectuel qui incite à agir."
         }
     }
 }
