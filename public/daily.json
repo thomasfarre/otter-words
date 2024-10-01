@@ -1,20 +1,20 @@
 {
     "words": {
-        "parlementaire": {
+        "apathique": {
             "catGram": "adjectif",
-            "def": "Relatif à un parlement, à ses membres."
+            "def": "Qui fait preuve d'apathie, qui dénote de l'apathie"
         },
-        "physiologie": {
+        "algue": {
             "catGram": "nom féminin",
-            "def": "Science qui étudie le fonctionnement d'un organisme vivant et de ses composantes."
+            "def": "Plante des milieux aquatiques ou très humides, pourvue de chlorophylle mais présentant un appareil végétatif très simple (sans tissus conducteurs, ni véritables racines ou tige feuillée), qui compte de multiples espèces de taille, de forme et de couleur diverses, dont des variétés multicellulaires à longs thalles filamenteux ou rubanés et des variétés unicellulaires microscopiques intégrées au plancton."
         },
-        "complaisant": {
-            "catGram": "adjectif",
-            "def": "Qui est aimable, qui désire plaire."
-        },
-        "motif": {
+        "dégel": {
             "catGram": "nom masculin",
-            "def": "Élément d'ordre intellectuel qui incite à agir."
+            "def": "Action, fait de dégeler."
+        },
+        "réjouir": {
+            "catGram": "verbe",
+            "def": "Procurer de la joie, du plaisir, de la satisfaction"
         }
     }
 }
