@@ -1,20 +1,20 @@
 {
     "words": {
-        "apathique": {
-            "catGram": "adjectif",
-            "def": "Qui fait preuve d'apathie, qui dénote de l'apathie"
-        },
-        "algue": {
+        "visibilité": {
             "catGram": "nom féminin",
-            "def": "Plante des milieux aquatiques ou très humides, pourvue de chlorophylle mais présentant un appareil végétatif très simple (sans tissus conducteurs, ni véritables racines ou tige feuillée), qui compte de multiples espèces de taille, de forme et de couleur diverses, dont des variétés multicellulaires à longs thalles filamenteux ou rubanés et des variétés unicellulaires microscopiques intégrées au plancton."
+            "def": "Caractère de ce qui est visible, perceptible par la vue."
         },
-        "dégel": {
+        "inguérissable": {
+            "catGram": "adjectif",
+            "def": "Qui ne peut être guéri"
+        },
+        "soulagement": {
             "catGram": "nom masculin",
-            "def": "Action, fait de dégeler."
+            "def": "Action, manière de soulager"
         },
-        "réjouir": {
-            "catGram": "verbe",
-            "def": "Procurer de la joie, du plaisir, de la satisfaction"
+        "libéralité": {
+            "catGram": "nom féminin",
+            "def": "Propension à donner généreusement."
         }
     }
 }
