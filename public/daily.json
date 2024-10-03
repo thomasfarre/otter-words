@@ -1,20 +1,20 @@
 {
     "words": {
-        "visibilité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est visible, perceptible par la vue."
-        },
-        "inguérissable": {
+        "avare": {
             "catGram": "adjectif",
-            "def": "Qui ne peut être guéri"
+            "def": "Qui a la passion d’accumuler les richesses sans en faire usage."
         },
-        "soulagement": {
-            "catGram": "nom masculin",
-            "def": "Action, manière de soulager"
+        "générale": {
+            "catGram": "nom",
+            "def": "Chef d'armée."
         },
-        "libéralité": {
+        "fanfaronnade": {
             "catGram": "nom féminin",
-            "def": "Propension à donner généreusement."
+            "def": "Tendance à faire le fanfaron."
+        },
+        "vingtaine": {
+            "catGram": "nom féminin",
+            "def": "Nombre de vingt ou environ."
         }
     }
 }
