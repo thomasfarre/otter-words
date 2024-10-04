@@ -1,20 +1,20 @@
 {
     "words": {
-        "avare": {
+        "redoublé": {
             "catGram": "adjectif",
-            "def": "Qui a la passion d’accumuler les richesses sans en faire usage."
+            "def": "Répété deux fois, recommencé une deuxième fois."
         },
-        "générale": {
-            "catGram": "nom",
-            "def": "Chef d'armée."
+        "orifice": {
+            "catGram": "nom masculin",
+            "def": "Ouverture faisant communiquer une cavité, un conduit, un organe avec l’extérieur, une autre structure."
         },
-        "fanfaronnade": {
+        "casemate": {
             "catGram": "nom féminin",
-            "def": "Tendance à faire le fanfaron."
+            "def": "Abri d'une fortification, le plus souvent souterrain et à l'épreuve des bombardements."
         },
-        "vingtaine": {
-            "catGram": "nom féminin",
-            "def": "Nombre de vingt ou environ."
+        "yen": {
+            "catGram": "nom masculin",
+            "def": "Unité monétaire du Japon."
         }
     }
 }
