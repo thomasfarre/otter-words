@@ -1,20 +1,20 @@
 {
     "words": {
-        "redoublé": {
-            "catGram": "adjectif",
-            "def": "Répété deux fois, recommencé une deuxième fois."
-        },
-        "orifice": {
+        "buisson": {
             "catGram": "nom masculin",
-            "def": "Ouverture faisant communiquer une cavité, un conduit, un organe avec l’extérieur, une autre structure."
+            "def": "Bouquet, touffe de végétaux ligneux, sauvages, généralement épineux et rameux."
         },
-        "casemate": {
-            "catGram": "nom féminin",
-            "def": "Abri d'une fortification, le plus souvent souterrain et à l'épreuve des bombardements."
+        "chiffonner": {
+            "catGram": "verbe",
+            "def": "Froisser (une étoffe, du papier)."
         },
-        "yen": {
+        "abriter": {
+            "catGram": "verbe",
+            "def": "Mettre, tenir à l'abri."
+        },
+        "jonc": {
             "catGram": "nom masculin",
-            "def": "Unité monétaire du Japon."
+            "def": "Plante herbacée des milieux marécageux et humides, dont la tige ronde, droite et souple, semble souvent porter son inflorescence sur le côté."
         }
     }
 }
