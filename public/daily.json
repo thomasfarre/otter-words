@@ -1,20 +1,20 @@
 {
     "words": {
-        "buisson": {
-            "catGram": "nom masculin",
-            "def": "Bouquet, touffe de végétaux ligneux, sauvages, généralement épineux et rameux."
+        "psychologie": {
+            "catGram": "nom féminin",
+            "def": "Science qui étudie les faits psychiques."
         },
-        "chiffonner": {
+        "tuile": {
+            "catGram": "nom féminin",
+            "def": "Pièce d'argile moulé, généralement mélangée à du sable, cuite au four, peu épaisse, de forme variable, employée pour couvrir les toits des bâtiments, des maisons."
+        },
+        "liquider": {
             "catGram": "verbe",
-            "def": "Froisser (une étoffe, du papier)."
+            "def": "Payer une somme après en avoir fixé le montant."
         },
-        "abriter": {
-            "catGram": "verbe",
-            "def": "Mettre, tenir à l'abri."
-        },
-        "jonc": {
-            "catGram": "nom masculin",
-            "def": "Plante herbacée des milieux marécageux et humides, dont la tige ronde, droite et souple, semble souvent porter son inflorescence sur le côté."
+        "fièvre": {
+            "catGram": "nom féminin",
+            "def": "Élévation de la température du corps au-dessus du seuil normal, commandée par l'hypothalamus lors d'une invasion bactérienne ou virale."
         }
     }
 }
