@@ -1,20 +1,20 @@
 {
     "words": {
-        "psychologie": {
+        "dynastie": {
             "catGram": "nom féminin",
-            "def": "Science qui étudie les faits psychiques."
+            "def": "Succession des souverains d'une même famille."
         },
-        "tuile": {
-            "catGram": "nom féminin",
-            "def": "Pièce d'argile moulé, généralement mélangée à du sable, cuite au four, peu épaisse, de forme variable, employée pour couvrir les toits des bâtiments, des maisons."
+        "baptême": {
+            "catGram": "nom masculin",
+            "def": "Sacrement destiné à introduire une personne dans la communauté chrétienne en la purifiant du péché originel."
         },
-        "liquider": {
-            "catGram": "verbe",
-            "def": "Payer une somme après en avoir fixé le montant."
+        "mesuré": {
+            "catGram": "adjectif",
+            "def": "Qui est d'une régularité exacte."
         },
-        "fièvre": {
-            "catGram": "nom féminin",
-            "def": "Élévation de la température du corps au-dessus du seuil normal, commandée par l'hypothalamus lors d'une invasion bactérienne ou virale."
+        "prématurément": {
+            "catGram": "adverbe",
+            "def": "De façon prématurée, avant le temps normal, convenable."
         }
     }
 }
