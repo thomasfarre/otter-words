@@ -1,20 +1,20 @@
 {
     "words": {
-        "dynastie": {
-            "catGram": "nom féminin",
-            "def": "Succession des souverains d'une même famille."
+        "agripper": {
+            "catGram": "verbe",
+            "def": "Prendre, saisir vivement en serrant."
         },
-        "baptême": {
-            "catGram": "nom masculin",
-            "def": "Sacrement destiné à introduire une personne dans la communauté chrétienne en la purifiant du péché originel."
-        },
-        "mesuré": {
-            "catGram": "adjectif",
-            "def": "Qui est d'une régularité exacte."
-        },
-        "prématurément": {
+        "ailleurs": {
             "catGram": "adverbe",
-            "def": "De façon prématurée, avant le temps normal, convenable."
+            "def": "Dans un autre lieu (que celui où l'on est)."
+        },
+        "jeûne": {
+            "catGram": "nom masculin",
+            "def": "Privation partielle ou totale (à l'exception, le plus souvent, d'eau), forcée ou non, de toute alimentation pendant un certain temps."
+        },
+        "zinc": {
+            "catGram": "nom masculin",
+            "def": "Élément chimique de numéro atomique 30"
         }
     }
 }
