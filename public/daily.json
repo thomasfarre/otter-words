@@ -1,20 +1,20 @@
 {
     "words": {
-        "agripper": {
+        "dérider": {
             "catGram": "verbe",
-            "def": "Prendre, saisir vivement en serrant."
+            "def": "Effacer, enlever les rides"
         },
-        "ailleurs": {
-            "catGram": "adverbe",
-            "def": "Dans un autre lieu (que celui où l'on est)."
+        "découper": {
+            "catGram": "verbe",
+            "def": "Couper en morceaux."
         },
-        "jeûne": {
+        "dénier": {
+            "catGram": "verbe",
+            "def": "Nier formellement, refuser d'admettre comme vrai (un fait, une déclaration, des propos, etc.)."
+        },
+        "recrutement": {
             "catGram": "nom masculin",
-            "def": "Privation partielle ou totale (à l'exception, le plus souvent, d'eau), forcée ou non, de toute alimentation pendant un certain temps."
-        },
-        "zinc": {
-            "catGram": "nom masculin",
-            "def": "Élément chimique de numéro atomique 30"
+            "def": "Action de recruter."
         }
     }
 }
