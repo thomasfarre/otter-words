@@ -1,20 +1,20 @@
 {
     "words": {
-        "dérider": {
+        "liquider": {
             "catGram": "verbe",
-            "def": "Effacer, enlever les rides"
+            "def": "Payer une somme après en avoir fixé le montant."
         },
-        "découper": {
-            "catGram": "verbe",
-            "def": "Couper en morceaux."
+        "capitalisation": {
+            "catGram": "nom féminin",
+            "def": "Accumulation d'intérêts ou de bénéfices de manière à former ou à grossir un capital."
         },
-        "dénier": {
-            "catGram": "verbe",
-            "def": "Nier formellement, refuser d'admettre comme vrai (un fait, une déclaration, des propos, etc.)."
+        "formule": {
+            "catGram": "nom féminin",
+            "def": "Paroles rituelles que l'on est tenu de prononcer dans certaines circonstances."
         },
-        "recrutement": {
-            "catGram": "nom masculin",
-            "def": "Action de recruter."
+        "botaniste": {
+            "catGram": "nom épicène",
+            "def": "Biologiste spécialiste de la botanique."
         }
     }
 }
