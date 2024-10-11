@@ -1,20 +1,20 @@
 {
     "words": {
-        "liquider": {
-            "catGram": "verbe",
-            "def": "Payer une somme après en avoir fixé le montant."
-        },
-        "capitalisation": {
-            "catGram": "nom féminin",
-            "def": "Accumulation d'intérêts ou de bénéfices de manière à former ou à grossir un capital."
-        },
-        "formule": {
-            "catGram": "nom féminin",
-            "def": "Paroles rituelles que l'on est tenu de prononcer dans certaines circonstances."
-        },
-        "botaniste": {
+        "séparatiste": {
             "catGram": "nom épicène",
-            "def": "Biologiste spécialiste de la botanique."
+            "def": "Partisan du mouvement politique prônant la séparation d'un territoire de l'État dont il fait partie pour former un État indépendant ou l'autonomisation d'une région vis-à-vis d'un pouvoir central."
+        },
+        "empoisonner": {
+            "catGram": "verbe",
+            "def": "Faire absorber du poison dans le but de tuer"
+        },
+        "sursaut": {
+            "catGram": "nom masculin",
+            "def": "Mouvement instinctif d'une personne ou d'un animal qui se redresse brusquement sous l'effet d'une vive surprise, d'un sentiment d'agression."
+        },
+        "design": {
+            "catGram": "nom masculin",
+            "def": "Activité créatrice se rapportant aux qualités formelles des objets produits industriellement en vue d'un résultat esthétique s'accordant aux impératifs fonctionnels et commerciaux."
         }
     }
 }
