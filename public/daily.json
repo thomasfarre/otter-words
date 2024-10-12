@@ -1,20 +1,20 @@
 {
     "words": {
-        "séparatiste": {
-            "catGram": "nom épicène",
-            "def": "Partisan du mouvement politique prônant la séparation d'un territoire de l'État dont il fait partie pour former un État indépendant ou l'autonomisation d'une région vis-à-vis d'un pouvoir central."
+        "spiritueux": {
+            "catGram": "adjectif",
+            "def": "Fort en alcool."
         },
-        "empoisonner": {
-            "catGram": "verbe",
-            "def": "Faire absorber du poison dans le but de tuer"
-        },
-        "sursaut": {
+        "tibia": {
             "catGram": "nom masculin",
-            "def": "Mouvement instinctif d'une personne ou d'un animal qui se redresse brusquement sous l'effet d'une vive surprise, d'un sentiment d'agression."
+            "def": "Os long et robuste de la partie interne de la jambe, dont il forme l'ossature avec le péroné."
         },
-        "design": {
-            "catGram": "nom masculin",
-            "def": "Activité créatrice se rapportant aux qualités formelles des objets produits industriellement en vue d'un résultat esthétique s'accordant aux impératifs fonctionnels et commerciaux."
+        "radin": {
+            "catGram": "adjectif",
+            "def": "Avare."
+        },
+        "irrépressible": {
+            "catGram": "adjectif",
+            "def": "Qu'on ne peut pas réprimer."
         }
     }
 }
