@@ -1,20 +1,20 @@
 {
     "words": {
-        "spiritueux": {
+        "électif": {
             "catGram": "adjectif",
-            "def": "Fort en alcool."
+            "def": "Qui choisit, fait une sélection."
         },
-        "tibia": {
+        "complémentarité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est complémentaire."
+        },
+        "pronostiquer": {
+            "catGram": "verbe",
+            "def": "Émettre un pronostic."
+        },
+        "compas": {
             "catGram": "nom masculin",
-            "def": "Os long et robuste de la partie interne de la jambe, dont il forme l'ossature avec le péroné."
-        },
-        "radin": {
-            "catGram": "adjectif",
-            "def": "Avare."
-        },
-        "irrépressible": {
-            "catGram": "adjectif",
-            "def": "Qu'on ne peut pas réprimer."
+            "def": "Instrument de tracé ou de mesure composé de deux branches articulées à une extrémité, destiné à dessiner des cercles ou à reporter des longueurs."
         }
     }
 }
