@@ -1,20 +1,20 @@
 {
     "words": {
-        "électif": {
-            "catGram": "adjectif",
-            "def": "Qui choisit, fait une sélection."
-        },
-        "complémentarité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est complémentaire."
-        },
-        "pronostiquer": {
+        "presser": {
             "catGram": "verbe",
-            "def": "Émettre un pronostic."
+            "def": "Serrer de manière à extraire un liquide, un suc."
         },
-        "compas": {
-            "catGram": "nom masculin",
-            "def": "Instrument de tracé ou de mesure composé de deux branches articulées à une extrémité, destiné à dessiner des cercles ou à reporter des longueurs."
+        "réprimer": {
+            "catGram": "verbe",
+            "def": "Empêcher l'expression ou le développement d'un sentiment, d'une parole ou d'un geste."
+        },
+        "susurrer": {
+            "catGram": "verbe",
+            "def": "Murmurer doucement."
+        },
+        "vainqueur": {
+            "catGram": "nom",
+            "def": "Personne qui a vaincu un adversaire"
         }
     }
 }
