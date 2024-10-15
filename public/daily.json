@@ -1,20 +1,20 @@
 {
     "words": {
-        "presser": {
-            "catGram": "verbe",
-            "def": "Serrer de manière à extraire un liquide, un suc."
+        "mistigri": {
+            "catGram": "nom masculin",
+            "def": "Chat."
         },
-        "réprimer": {
-            "catGram": "verbe",
-            "def": "Empêcher l'expression ou le développement d'un sentiment, d'une parole ou d'un geste."
+        "vérité": {
+            "catGram": "nom féminin",
+            "def": "Ce qui est vrai et à quoi on attribue une valeur absolue, ultime."
         },
-        "susurrer": {
-            "catGram": "verbe",
-            "def": "Murmurer doucement."
+        "paille": {
+            "catGram": "nom féminin",
+            "def": "Ensemble de tiges de céréales coupées et dépouillées de leur grain."
         },
-        "vainqueur": {
-            "catGram": "nom",
-            "def": "Personne qui a vaincu un adversaire"
+        "fiancer": {
+            "catGram": "verbe",
+            "def": "Faire s'engager (son fils, sa fille) par une promesse de mariage."
         }
     }
 }
