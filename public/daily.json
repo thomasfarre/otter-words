@@ -1,20 +1,20 @@
 {
     "words": {
-        "mistigri": {
-            "catGram": "nom masculin",
-            "def": "Chat."
-        },
-        "vérité": {
+        "pyramide": {
             "catGram": "nom féminin",
-            "def": "Ce qui est vrai et à quoi on attribue une valeur absolue, ultime."
+            "def": "Dans l’ancienne Égypte, grand monument à base quadrangulaire et à quatre faces triangulaires se terminant en pointe, qui servait de tombeau aux pharaons."
         },
-        "paille": {
-            "catGram": "nom féminin",
-            "def": "Ensemble de tiges de céréales coupées et dépouillées de leur grain."
-        },
-        "fiancer": {
+        "gésir": {
             "catGram": "verbe",
-            "def": "Faire s'engager (son fils, sa fille) par une promesse de mariage."
+            "def": "Être étendu, couché, sans pouvoir se mouvoir (à la suite d'un malaise, d'une blessure, d'une maladie, ou de la mort)."
+        },
+        "hormis": {
+            "catGram": "préposition",
+            "def": "À l'exception de."
+        },
+        "couenne": {
+            "catGram": "nom féminin",
+            "def": "Peau de porc flambée et raclée."
         }
     }
 }
