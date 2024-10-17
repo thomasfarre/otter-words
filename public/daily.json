@@ -1,20 +1,20 @@
 {
     "words": {
-        "pyramide": {
-            "catGram": "nom féminin",
-            "def": "Dans l’ancienne Égypte, grand monument à base quadrangulaire et à quatre faces triangulaires se terminant en pointe, qui servait de tombeau aux pharaons."
-        },
-        "gésir": {
+        "remettre": {
             "catGram": "verbe",
-            "def": "Être étendu, couché, sans pouvoir se mouvoir (à la suite d'un malaise, d'une blessure, d'une maladie, ou de la mort)."
+            "def": "Mettre, placer, disposer à nouveau."
         },
-        "hormis": {
-            "catGram": "préposition",
-            "def": "À l'exception de."
-        },
-        "couenne": {
+        "amitié": {
             "catGram": "nom féminin",
-            "def": "Peau de porc flambée et raclée."
+            "def": "Sentiment d’affection, de profonde sympathie qu’une personne éprouve pour une autre"
+        },
+        "limité": {
+            "catGram": "adjectif",
+            "def": "Qui a des limites"
+        },
+        "présidentiel": {
+            "catGram": "adjectif",
+            "def": "Relatif ou propre au président, à la présidence."
         }
     }
 }
