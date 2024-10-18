@@ -1,20 +1,20 @@
 {
     "words": {
-        "remettre": {
+        "concept": {
+            "catGram": "nom masculin",
+            "def": "Représentation mentale abstraite et générale, objective, stable, munie d'un support verbal."
+        },
+        "jouer": {
             "catGram": "verbe",
-            "def": "Mettre, placer, disposer à nouveau."
+            "def": "Faire qqch. pour se distraire, s'amuser."
         },
-        "amitié": {
-            "catGram": "nom féminin",
-            "def": "Sentiment d’affection, de profonde sympathie qu’une personne éprouve pour une autre"
-        },
-        "limité": {
+        "caduc": {
             "catGram": "adjectif",
-            "def": "Qui a des limites"
+            "def": "Qui n'a plus cours."
         },
-        "présidentiel": {
-            "catGram": "adjectif",
-            "def": "Relatif ou propre au président, à la présidence."
+        "argument": {
+            "catGram": "nom masculin",
+            "def": "Raisonnement présenté à l’appui d’une démonstration."
         }
     }
 }
