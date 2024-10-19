@@ -1,20 +1,20 @@
 {
     "words": {
-        "concept": {
-            "catGram": "nom masculin",
-            "def": "Représentation mentale abstraite et générale, objective, stable, munie d'un support verbal."
-        },
-        "jouer": {
+        "disposer": {
             "catGram": "verbe",
-            "def": "Faire qqch. pour se distraire, s'amuser."
+            "def": "Mettre dans un certain ordre."
         },
-        "caduc": {
-            "catGram": "adjectif",
-            "def": "Qui n'a plus cours."
+        "stabilisation": {
+            "catGram": "nom féminin",
+            "def": "Action de stabiliser, fait de se stabiliser"
         },
-        "argument": {
-            "catGram": "nom masculin",
-            "def": "Raisonnement présenté à l’appui d’une démonstration."
+        "légitimement": {
+            "catGram": "adverbe",
+            "def": "De manière légitime"
+        },
+        "peine": {
+            "catGram": "nom féminin",
+            "def": "Sanction appliquée pour un acte jugé répréhensible."
         }
     }
 }
