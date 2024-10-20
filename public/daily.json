@@ -1,20 +1,20 @@
 {
     "words": {
-        "disposer": {
-            "catGram": "verbe",
-            "def": "Mettre dans un certain ordre."
+        "toupet": {
+            "catGram": "nom masculin",
+            "def": "Touffe de cheveux relevée au-dessus du front."
         },
-        "stabilisation": {
+        "parodie": {
             "catGram": "nom féminin",
-            "def": "Action de stabiliser, fait de se stabiliser"
+            "def": "Imitation qui tourne en ridicule une œuvre connue, dans un but comique ou satirique."
         },
-        "légitimement": {
-            "catGram": "adverbe",
-            "def": "De manière légitime"
+        "extorqueur": {
+            "catGram": "nom",
+            "def": "Celui ou celle qui extorque."
         },
-        "peine": {
-            "catGram": "nom féminin",
-            "def": "Sanction appliquée pour un acte jugé répréhensible."
+        "vagabond": {
+            "catGram": "adjectif",
+            "def": "Qui a l'habitude de vivre en nomade."
         }
     }
 }
