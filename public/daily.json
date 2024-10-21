@@ -1,20 +1,20 @@
 {
     "words": {
-        "toupet": {
-            "catGram": "nom masculin",
-            "def": "Touffe de cheveux relevée au-dessus du front."
-        },
-        "parodie": {
-            "catGram": "nom féminin",
-            "def": "Imitation qui tourne en ridicule une œuvre connue, dans un but comique ou satirique."
-        },
-        "extorqueur": {
-            "catGram": "nom",
-            "def": "Celui ou celle qui extorque."
-        },
-        "vagabond": {
+        "prépositionnel": {
             "catGram": "adjectif",
-            "def": "Qui a l'habitude de vivre en nomade."
+            "def": "Dont le noyau est une préposition"
+        },
+        "envelopper": {
+            "catGram": "verbe",
+            "def": "Entourer pour protéger, en couvrant entièrement à l'aide d'une matière souple."
+        },
+        "législation": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des lois d’un État ou d'une entité politique ou des lois concernant un domaine, une matière déterminée."
+        },
+        "contraignant": {
+            "catGram": "adjectif",
+            "def": "Qui contraint, qui oblige qqn à agir contre son gré."
         }
     }
 }
