@@ -1,20 +1,20 @@
 {
     "words": {
-        "prépositionnel": {
-            "catGram": "adjectif",
-            "def": "Dont le noyau est une préposition"
-        },
-        "envelopper": {
+        "claudiquer": {
             "catGram": "verbe",
-            "def": "Entourer pour protéger, en couvrant entièrement à l'aide d'une matière souple."
+            "def": "Boiter."
         },
-        "législation": {
+        "emprisonner": {
+            "catGram": "verbe",
+            "def": "Mettre en prison."
+        },
+        "armistice": {
+            "catGram": "nom masculin",
+            "def": "Accord conclu entre deux armées pour suspendre les hostilités."
+        },
+        "exploration": {
             "catGram": "nom féminin",
-            "def": "Ensemble des lois d’un État ou d'une entité politique ou des lois concernant un domaine, une matière déterminée."
-        },
-        "contraignant": {
-            "catGram": "adjectif",
-            "def": "Qui contraint, qui oblige qqn à agir contre son gré."
+            "def": "Action d'explorer."
         }
     }
 }
