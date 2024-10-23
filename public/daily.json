@@ -1,20 +1,20 @@
 {
     "words": {
-        "claudiquer": {
-            "catGram": "verbe",
-            "def": "Boiter."
+        "éventuel": {
+            "catGram": "adjectif",
+            "def": "Qui peut se produire, survenir ou non."
         },
-        "emprisonner": {
-            "catGram": "verbe",
-            "def": "Mettre en prison."
-        },
-        "armistice": {
-            "catGram": "nom masculin",
-            "def": "Accord conclu entre deux armées pour suspendre les hostilités."
-        },
-        "exploration": {
+        "connasse": {
             "catGram": "nom féminin",
-            "def": "Action d'explorer."
+            "def": "Sotte, imbécile."
+        },
+        "fortification": {
+            "catGram": "nom féminin",
+            "def": "Action de munir d'ouvrages défensifs"
+        },
+        "dessert": {
+            "catGram": "nom masculin",
+            "def": "Mets généralement sucré ou fruit que l'on sert à la fin d'un repas."
         }
     }
 }
