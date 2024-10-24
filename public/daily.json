@@ -1,20 +1,20 @@
 {
     "words": {
-        "éventuel": {
-            "catGram": "adjectif",
-            "def": "Qui peut se produire, survenir ou non."
+        "affronter": {
+            "catGram": "verbe",
+            "def": "Faire courageusement face à, attaquer de front."
         },
-        "connasse": {
+        "mucoviscidose": {
             "catGram": "nom féminin",
-            "def": "Sotte, imbécile."
+            "def": "Maladie héréditaire caractérisée par des sécrétions bronchiques et pancréatiques anormalement visqueuses."
         },
-        "fortification": {
-            "catGram": "nom féminin",
-            "def": "Action de munir d'ouvrages défensifs"
-        },
-        "dessert": {
+        "neutron": {
             "catGram": "nom masculin",
-            "def": "Mets généralement sucré ou fruit que l'on sert à la fin d'un repas."
+            "def": "Particule élémentaire de charge électrique neutre, entrant dans la constitution du noyau de l'atome."
+        },
+        "maillet": {
+            "catGram": "nom masculin",
+            "def": "Marteau à deux têtes de forme tronconique, fait dans un matériau qui permet de frapper sans trop marquer la matière."
         }
     }
 }
