@@ -1,20 +1,20 @@
 {
     "words": {
-        "affronter": {
-            "catGram": "verbe",
-            "def": "Faire courageusement face à, attaquer de front."
-        },
-        "mucoviscidose": {
+        "odeur": {
             "catGram": "nom féminin",
-            "def": "Maladie héréditaire caractérisée par des sécrétions bronchiques et pancréatiques anormalement visqueuses."
+            "def": "Émanation propre à un corps pouvant être perçue par l'être humain ou par un animal grâce à des organes particuliers."
         },
-        "neutron": {
-            "catGram": "nom masculin",
-            "def": "Particule élémentaire de charge électrique neutre, entrant dans la constitution du noyau de l'atome."
+        "coupole": {
+            "catGram": "nom féminin",
+            "def": "Voûte hémisphérique qui constitue la partie intérieure d’un dôme."
         },
-        "maillet": {
-            "catGram": "nom masculin",
-            "def": "Marteau à deux têtes de forme tronconique, fait dans un matériau qui permet de frapper sans trop marquer la matière."
+        "astuce": {
+            "catGram": "nom féminin",
+            "def": "Finesse d'esprit, habileté à tromper."
+        },
+        "maximal": {
+            "catGram": "adjectif",
+            "def": "Qui atteint son plus haut degré, sa plus grande valeur"
         }
     }
 }
