@@ -1,20 +1,20 @@
 {
     "words": {
-        "odeur": {
-            "catGram": "nom féminin",
-            "def": "Émanation propre à un corps pouvant être perçue par l'être humain ou par un animal grâce à des organes particuliers."
+        "violemment": {
+            "catGram": "adverbe",
+            "def": "Avec brutalité."
         },
-        "coupole": {
-            "catGram": "nom féminin",
-            "def": "Voûte hémisphérique qui constitue la partie intérieure d’un dôme."
-        },
-        "astuce": {
-            "catGram": "nom féminin",
-            "def": "Finesse d'esprit, habileté à tromper."
-        },
-        "maximal": {
+        "élitiste": {
             "catGram": "adjectif",
-            "def": "Qui atteint son plus haut degré, sa plus grande valeur"
+            "def": "Relatif à l’élitisme."
+        },
+        "soupçonneux": {
+            "catGram": "adjectif",
+            "def": "Enclin à soupçonner."
+        },
+        "mentalité": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des pensées, des croyances habituelles et des dispositions psychiques et morales propres à une collectivité et communes à chacun de ses membres."
         }
     }
 }
