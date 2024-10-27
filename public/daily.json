@@ -1,20 +1,20 @@
 {
     "words": {
-        "violemment": {
-            "catGram": "adverbe",
-            "def": "Avec brutalité."
-        },
-        "élitiste": {
+        "idiot": {
             "catGram": "adjectif",
-            "def": "Relatif à l’élitisme."
+            "def": "Qui manque d'intelligence, de jugement"
         },
-        "soupçonneux": {
+        "dénommé": {
             "catGram": "adjectif",
-            "def": "Enclin à soupçonner."
+            "def": "Qui est appelé, qui a pour nom."
         },
-        "mentalité": {
-            "catGram": "nom féminin",
-            "def": "Ensemble des pensées, des croyances habituelles et des dispositions psychiques et morales propres à une collectivité et communes à chacun de ses membres."
+        "surpasser": {
+            "catGram": "verbe",
+            "def": "Être supérieur à, faire mieux que."
+        },
+        "obscurcir": {
+            "catGram": "verbe",
+            "def": "Priver de lumière, rendre obscur"
         }
     }
 }
