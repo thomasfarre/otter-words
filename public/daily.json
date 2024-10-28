@@ -1,20 +1,20 @@
 {
     "words": {
-        "idiot": {
-            "catGram": "adjectif",
-            "def": "Qui manque d'intelligence, de jugement"
+        "crochet": {
+            "catGram": "nom masculin",
+            "def": "Élément qui a une extrémité recourbée."
         },
-        "dénommé": {
-            "catGram": "adjectif",
-            "def": "Qui est appelé, qui a pour nom."
+        "précarité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est précaire."
         },
-        "surpasser": {
+        "éclore": {
             "catGram": "verbe",
-            "def": "Être supérieur à, faire mieux que."
+            "def": "Sortir de l'œuf, du cocon."
         },
-        "obscurcir": {
+        "joindre": {
             "catGram": "verbe",
-            "def": "Priver de lumière, rendre obscur"
+            "def": "Placer des choses de telle façon qu'elles se touchent, qu'elles soient en contact"
         }
     }
 }
