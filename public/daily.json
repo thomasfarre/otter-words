@@ -1,20 +1,20 @@
 {
     "words": {
-        "crochet": {
+        "renseigner": {
+            "catGram": "verbe",
+            "def": "Donner, fournir à qqn des indications, des éclaircissements."
+        },
+        "démantèlement": {
             "catGram": "nom masculin",
-            "def": "Élément qui a une extrémité recourbée."
+            "def": "Action de démanteler"
         },
-        "précarité": {
+        "assemblé": {
+            "catGram": "nom masculin",
+            "def": "En danse, saut lancé par une jambe avec réception les pieds joints."
+        },
+        "technicité": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est précaire."
-        },
-        "éclore": {
-            "catGram": "verbe",
-            "def": "Sortir de l'œuf, du cocon."
-        },
-        "joindre": {
-            "catGram": "verbe",
-            "def": "Placer des choses de telle façon qu'elles se touchent, qu'elles soient en contact"
+            "def": "Caractère de ce qui est technique."
         }
     }
 }
