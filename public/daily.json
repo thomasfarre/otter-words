@@ -1,20 +1,20 @@
 {
     "words": {
-        "renseigner": {
+        "ironique": {
+            "catGram": "adjectif",
+            "def": "Qui emploie, manie l'ironie."
+        },
+        "gerber": {
             "catGram": "verbe",
-            "def": "Donner, fournir à qqn des indications, des éclaircissements."
+            "def": "Mettre en gerbe (des céréales)."
         },
-        "démantèlement": {
+        "rapprocher": {
+            "catGram": "verbe",
+            "def": "Placer une chose plus près d’une autre chose, de qqn."
+        },
+        "occiput": {
             "catGram": "nom masculin",
-            "def": "Action de démanteler"
-        },
-        "assemblé": {
-            "catGram": "nom masculin",
-            "def": "En danse, saut lancé par une jambe avec réception les pieds joints."
-        },
-        "technicité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est technique."
+            "def": "Partie postérieure et inférieure de la tête."
         }
     }
 }
