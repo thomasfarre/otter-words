@@ -1,20 +1,20 @@
 {
     "words": {
-        "ironique": {
+        "mécanique": {
             "catGram": "adjectif",
-            "def": "Qui emploie, manie l'ironie."
+            "def": "Qui a rapport à l'étude des machines, de leur construction, de leur fonctionnement."
         },
-        "gerber": {
-            "catGram": "verbe",
-            "def": "Mettre en gerbe (des céréales)."
-        },
-        "rapprocher": {
-            "catGram": "verbe",
-            "def": "Placer une chose plus près d’une autre chose, de qqn."
-        },
-        "occiput": {
+        "cordon": {
             "catGram": "nom masculin",
-            "def": "Partie postérieure et inférieure de la tête."
+            "def": "Corde fine servant d'attache, de lien."
+        },
+        "soufre": {
+            "catGram": "nom masculin",
+            "def": "Élément non métallique solide, de numéro atomique 16, friable, de couleur jaune, sans saveur ni odeur, qui brûle en exhalant des vapeurs suffocantes"
+        },
+        "vautour": {
+            "catGram": "nom masculin",
+            "def": "Grand oiseau de proie dont la tête et le cou sont généralement dépourvus de plumes et qui se nourrit surtout de charogne."
         }
     }
 }
