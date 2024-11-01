@@ -1,20 +1,20 @@
 {
     "words": {
-        "mécanique": {
+        "température": {
+            "catGram": "nom féminin",
+            "def": "Phénomène physique se présentant comme une manifestation de l'énergie cinétique qui traduit le degré d'agitation calorifique des molécules d'un corps ou d'une substance"
+        },
+        "comparer": {
+            "catGram": "verbe",
+            "def": "Examiner les rapports de ressemblance et de différence entre des choses, des personnes."
+        },
+        "convulsion": {
+            "catGram": "nom féminin",
+            "def": "Contraction brusque et involontaire des muscles, souvent généralisée à tout le corps."
+        },
+        "vaincu": {
             "catGram": "adjectif",
-            "def": "Qui a rapport à l'étude des machines, de leur construction, de leur fonctionnement."
-        },
-        "cordon": {
-            "catGram": "nom masculin",
-            "def": "Corde fine servant d'attache, de lien."
-        },
-        "soufre": {
-            "catGram": "nom masculin",
-            "def": "Élément non métallique solide, de numéro atomique 16, friable, de couleur jaune, sans saveur ni odeur, qui brûle en exhalant des vapeurs suffocantes"
-        },
-        "vautour": {
-            "catGram": "nom masculin",
-            "def": "Grand oiseau de proie dont la tête et le cou sont généralement dépourvus de plumes et qui se nourrit surtout de charogne."
+            "def": "Qui a subi une défaite."
         }
     }
 }
