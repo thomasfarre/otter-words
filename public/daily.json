@@ -1,20 +1,20 @@
 {
     "words": {
-        "température": {
+        "abonnement": {
+            "catGram": "nom masculin",
+            "def": "Marché, souvent à forfait, entre un fournisseur et un client pour l'usage répété d'un service ou la livraison régulière d'un produit, de données ou d'informations."
+        },
+        "élite": {
             "catGram": "nom féminin",
-            "def": "Phénomène physique se présentant comme une manifestation de l'énergie cinétique qui traduit le degré d'agitation calorifique des molécules d'un corps ou d'une substance"
+            "def": "Ce qu'il y a de meilleur dans un ensemble de personnes, dans un groupe, dans une communauté."
         },
-        "comparer": {
-            "catGram": "verbe",
-            "def": "Examiner les rapports de ressemblance et de différence entre des choses, des personnes."
-        },
-        "convulsion": {
+        "asperge": {
             "catGram": "nom féminin",
-            "def": "Contraction brusque et involontaire des muscles, souvent généralisée à tout le corps."
+            "def": "Plante potagère vivace dont les jeunes pousses sont comestibles"
         },
-        "vaincu": {
-            "catGram": "adjectif",
-            "def": "Qui a subi une défaite."
+        "ferveur": {
+            "catGram": "nom féminin",
+            "def": "Ardeur, dévotion des sentiments religieux."
         }
     }
 }
