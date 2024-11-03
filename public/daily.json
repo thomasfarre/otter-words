@@ -1,20 +1,20 @@
 {
     "words": {
-        "abonnement": {
+        "trousseau": {
             "catGram": "nom masculin",
-            "def": "Marché, souvent à forfait, entre un fournisseur et un client pour l'usage répété d'un service ou la livraison régulière d'un produit, de données ou d'informations."
+            "def": "ensemble de clés retenues par un anneau, un porte-clés."
         },
-        "élite": {
-            "catGram": "nom féminin",
-            "def": "Ce qu'il y a de meilleur dans un ensemble de personnes, dans un groupe, dans une communauté."
+        "repriser": {
+            "catGram": "verbe",
+            "def": "Remettre en état (une étoffe, un vêtement déchiré ou troué) en faisant une reprise."
         },
-        "asperge": {
-            "catGram": "nom féminin",
-            "def": "Plante potagère vivace dont les jeunes pousses sont comestibles"
+        "mieux": {
+            "catGram": "adverbe",
+            "def": "D'une manière plus satisfaisante, meilleure."
         },
-        "ferveur": {
-            "catGram": "nom féminin",
-            "def": "Ardeur, dévotion des sentiments religieux."
+        "blême": {
+            "catGram": "adjectif",
+            "def": "Extrêmement pâle, d'une pâleur maladive"
         }
     }
 }
