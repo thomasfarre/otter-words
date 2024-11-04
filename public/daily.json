@@ -1,20 +1,20 @@
 {
     "words": {
-        "trousseau": {
-            "catGram": "nom masculin",
-            "def": "ensemble de clés retenues par un anneau, un porte-clés."
-        },
-        "repriser": {
+        "affiler": {
             "catGram": "verbe",
-            "def": "Remettre en état (une étoffe, un vêtement déchiré ou troué) en faisant une reprise."
+            "def": "Donner du fil à un objet dont le tranchant est émoussé."
         },
-        "mieux": {
-            "catGram": "adverbe",
-            "def": "D'une manière plus satisfaisante, meilleure."
+        "aguerri": {
+            "catGram": "verbe",
+            "def": "Habituer aux épreuves de la guerre."
         },
-        "blême": {
-            "catGram": "adjectif",
-            "def": "Extrêmement pâle, d'une pâleur maladive"
+        "majorité": {
+            "catGram": "nom féminin",
+            "def": "Âge légal auquel une personne est reconnue comme pleinement capable et responsable."
+        },
+        "pénétrer": {
+            "catGram": "verbe",
+            "def": "Entrer profondément dans."
         }
     }
 }
