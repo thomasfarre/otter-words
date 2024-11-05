@@ -1,20 +1,20 @@
 {
     "words": {
-        "affiler": {
-            "catGram": "verbe",
-            "def": "Donner du fil à un objet dont le tranchant est émoussé."
+        "coloré": {
+            "catGram": "adjectif",
+            "def": "Qui a une couleur, des couleurs"
         },
-        "aguerri": {
-            "catGram": "verbe",
-            "def": "Habituer aux épreuves de la guerre."
+        "rustaud": {
+            "catGram": "adjectif",
+            "def": "Qui manque d'éducation, de raffinement, de savoir-vivre."
         },
-        "majorité": {
+        "crédibilité": {
             "catGram": "nom féminin",
-            "def": "Âge légal auquel une personne est reconnue comme pleinement capable et responsable."
+            "def": "Ce qui rend qqn ou qqch. susceptible d'être cru ou digne de confiance."
         },
-        "pénétrer": {
-            "catGram": "verbe",
-            "def": "Entrer profondément dans."
+        "stock": {
+            "catGram": "nom masculin",
+            "def": "Quantité variable de marchandises en réserve dans un magasin ou en circulation sur un marché."
         }
     }
 }
