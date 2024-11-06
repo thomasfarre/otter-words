@@ -1,20 +1,20 @@
 {
     "words": {
-        "coloré": {
-            "catGram": "adjectif",
-            "def": "Qui a une couleur, des couleurs"
-        },
-        "rustaud": {
-            "catGram": "adjectif",
-            "def": "Qui manque d'éducation, de raffinement, de savoir-vivre."
-        },
-        "crédibilité": {
-            "catGram": "nom féminin",
-            "def": "Ce qui rend qqn ou qqch. susceptible d'être cru ou digne de confiance."
-        },
-        "stock": {
+        "enrichissement": {
             "catGram": "nom masculin",
-            "def": "Quantité variable de marchandises en réserve dans un magasin ou en circulation sur un marché."
+            "def": "Action d’enrichir, de s’enrichir"
+        },
+        "faiblesse": {
+            "catGram": "nom féminin",
+            "def": "Manque de force, de vigueur physique."
+        },
+        "éternuement": {
+            "catGram": "nom masculin",
+            "def": "Expulsion brusque et bruyante d’air par le nez et la bouche, d'origine réflexe et due à une irritation de la muqueuse nasale."
+        },
+        "productif": {
+            "catGram": "adjectif",
+            "def": "Qui produit."
         }
     }
 }
