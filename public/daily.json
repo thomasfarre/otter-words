@@ -1,20 +1,20 @@
 {
     "words": {
-        "enrichissement": {
-            "catGram": "nom masculin",
-            "def": "Action d’enrichir, de s’enrichir"
+        "véritablement": {
+            "catGram": "adverbe",
+            "def": "Réellement."
         },
-        "faiblesse": {
+        "prétention": {
             "catGram": "nom féminin",
-            "def": "Manque de force, de vigueur physique."
+            "def": "Revendication d'un droit réel ou supposé, d'un privilège jugé mérité."
         },
-        "éternuement": {
-            "catGram": "nom masculin",
-            "def": "Expulsion brusque et bruyante d’air par le nez et la bouche, d'origine réflexe et due à une irritation de la muqueuse nasale."
+        "distraire": {
+            "catGram": "verbe",
+            "def": "Séparer, retrancher une partie d'un tout."
         },
-        "productif": {
-            "catGram": "adjectif",
-            "def": "Qui produit."
+        "banqueter": {
+            "catGram": "verbe",
+            "def": "Prendre part à un banquet."
         }
     }
 }
