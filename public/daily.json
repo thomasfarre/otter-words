@@ -1,20 +1,20 @@
 {
     "words": {
-        "véritablement": {
+        "navet": {
+            "catGram": "nom masculin",
+            "def": "Plante potagère bisannuelle probablement originaire de Méditerranée orientale et d’Asie centrale, de type chou, cultivée pour sa racine renflée comestible"
+        },
+        "câlin": {
+            "catGram": "adjectif",
+            "def": "Qui aime cajoler ou être cajolé"
+        },
+        "habituellement": {
             "catGram": "adverbe",
-            "def": "Réellement."
+            "def": "D'habitude, selon l'usage"
         },
-        "prétention": {
-            "catGram": "nom féminin",
-            "def": "Revendication d'un droit réel ou supposé, d'un privilège jugé mérité."
-        },
-        "distraire": {
-            "catGram": "verbe",
-            "def": "Séparer, retrancher une partie d'un tout."
-        },
-        "banqueter": {
-            "catGram": "verbe",
-            "def": "Prendre part à un banquet."
+        "style": {
+            "catGram": "nom masculin",
+            "def": "Ensemble des moyens d'expression (vocabulaire, images, tours de phrase, rythme) qui traduisent de façon originale les pensées, les sentiments, toute la personnalité d'un auteur."
         }
     }
 }
