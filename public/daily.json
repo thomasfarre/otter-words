@@ -1,20 +1,20 @@
 {
     "words": {
-        "navet": {
-            "catGram": "nom masculin",
-            "def": "Plante potagère bisannuelle probablement originaire de Méditerranée orientale et d’Asie centrale, de type chou, cultivée pour sa racine renflée comestible"
+        "deviner": {
+            "catGram": "verbe",
+            "def": "Découvrir qqch. par intuition, observation, supposition, conjecture, etc."
         },
-        "câlin": {
+        "foyer": {
+            "catGram": "nom masculin",
+            "def": "Lieu où l'on fait du feu."
+        },
+        "recyclage": {
+            "catGram": "nom masculin",
+            "def": "Action de recycler (un élève)"
+        },
+        "lancinant": {
             "catGram": "adjectif",
-            "def": "Qui aime cajoler ou être cajolé"
-        },
-        "habituellement": {
-            "catGram": "adverbe",
-            "def": "D'habitude, selon l'usage"
-        },
-        "style": {
-            "catGram": "nom masculin",
-            "def": "Ensemble des moyens d'expression (vocabulaire, images, tours de phrase, rythme) qui traduisent de façon originale les pensées, les sentiments, toute la personnalité d'un auteur."
+            "def": "Qui se fait sentir par élancements aigus."
         }
     }
 }
