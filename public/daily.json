@@ -1,20 +1,20 @@
 {
     "words": {
-        "deviner": {
+        "railler": {
             "catGram": "verbe",
-            "def": "Découvrir qqch. par intuition, observation, supposition, conjecture, etc."
+            "def": "Tourner en ridicule, en dérision."
         },
-        "foyer": {
-            "catGram": "nom masculin",
-            "def": "Lieu où l'on fait du feu."
+        "abstinence": {
+            "catGram": "nom féminin",
+            "def": "Action de se priver de certains aliments, boissons (alcool) ou plaisirs pour des raisons religieuses ou thérapeutiques."
         },
-        "recyclage": {
-            "catGram": "nom masculin",
-            "def": "Action de recycler (un élève)"
-        },
-        "lancinant": {
+        "binaire": {
             "catGram": "adjectif",
-            "def": "Qui se fait sentir par élancements aigus."
+            "def": "Formé de deux éléments."
+        },
+        "décomposer": {
+            "catGram": "verbe",
+            "def": "Séparer les éléments composants d'un corps."
         }
     }
 }
