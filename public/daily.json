@@ -1,20 +1,20 @@
 {
     "words": {
-        "railler": {
-            "catGram": "verbe",
-            "def": "Tourner en ridicule, en dérision."
+        "professeur": {
+            "catGram": "nom",
+            "def": "Personne qui enseigne une discipline, une technique, un art précis généralement dans un établissement secondaire, collégial ou universitaire."
         },
-        "abstinence": {
+        "cerne": {
+            "catGram": "nom masculin",
+            "def": "Cercle de couleur bistre ou bleuâtre autour des yeux."
+        },
+        "semence": {
             "catGram": "nom féminin",
-            "def": "Action de se priver de certains aliments, boissons (alcool) ou plaisirs pour des raisons religieuses ou thérapeutiques."
+            "def": "Graine que l'on sème ou toute partie de végétal que l'on met en terre pour la reproduction."
         },
-        "binaire": {
-            "catGram": "adjectif",
-            "def": "Formé de deux éléments."
-        },
-        "décomposer": {
-            "catGram": "verbe",
-            "def": "Séparer les éléments composants d'un corps."
+        "traque": {
+            "catGram": "nom féminin",
+            "def": "Action de traquer le gibier"
         }
     }
 }
