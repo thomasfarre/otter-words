@@ -1,20 +1,20 @@
 {
     "words": {
-        "professeur": {
-            "catGram": "nom",
-            "def": "Personne qui enseigne une discipline, une technique, un art précis généralement dans un établissement secondaire, collégial ou universitaire."
-        },
-        "cerne": {
+        "cabri": {
             "catGram": "nom masculin",
-            "def": "Cercle de couleur bistre ou bleuâtre autour des yeux."
+            "def": "Jeune chèvre ou jeune bouquetin."
         },
-        "semence": {
+        "allégation": {
             "catGram": "nom féminin",
-            "def": "Graine que l'on sème ou toute partie de végétal que l'on met en terre pour la reproduction."
+            "def": "Fait d'alléguer"
         },
-        "traque": {
-            "catGram": "nom féminin",
-            "def": "Action de traquer le gibier"
+        "mai": {
+            "catGram": "nom masculin",
+            "def": "Cinquième mois de l'année, qui compte 31 jours."
+        },
+        "peloton": {
+            "catGram": "nom masculin",
+            "def": "Petite pelote de fils, de cordes, etc."
         }
     }
 }
