@@ -1,20 +1,20 @@
 {
     "words": {
-        "cabri": {
+        "cadre": {
             "catGram": "nom masculin",
-            "def": "Jeune chèvre ou jeune bouquetin."
+            "def": "Bordure de bois, de métal, etc., qui entoure un objet qu’elle protège et décore."
         },
-        "allégation": {
+        "directoire": {
+            "catGram": "nom masculin",
+            "def": "Gouvernement de la France du 27 octobre 1795 au 9 novembre 1799, institué par la Constitution de l'An III et dont le pouvoir exécutif appartenait à cinq directeurs."
+        },
+        "chaudronnerie": {
             "catGram": "nom féminin",
-            "def": "Fait d'alléguer"
+            "def": "Industrie, commerce des appareils, des articles du chaudronnier"
         },
-        "mai": {
-            "catGram": "nom masculin",
-            "def": "Cinquième mois de l'année, qui compte 31 jours."
-        },
-        "peloton": {
-            "catGram": "nom masculin",
-            "def": "Petite pelote de fils, de cordes, etc."
+        "anche": {
+            "catGram": "nom féminin",
+            "def": "Fine languette placée sur certains instruments à vent et dont la vibration permet de produire le son."
         }
     }
 }
