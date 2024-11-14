@@ -1,20 +1,20 @@
 {
     "words": {
-        "cadre": {
+        "dément": {
+            "catGram": "adjectif",
+            "def": "Qui est atteint de démence ou est un signe de démence."
+        },
+        "calmer": {
+            "catGram": "verbe",
+            "def": "Atténuer, réduire l'intensité de (une douleur, une sensation)."
+        },
+        "périmètre": {
             "catGram": "nom masculin",
-            "def": "Bordure de bois, de métal, etc., qui entoure un objet qu’elle protège et décore."
+            "def": "Ligne qui délimite une figure plane"
         },
-        "directoire": {
-            "catGram": "nom masculin",
-            "def": "Gouvernement de la France du 27 octobre 1795 au 9 novembre 1799, institué par la Constitution de l'An III et dont le pouvoir exécutif appartenait à cinq directeurs."
-        },
-        "chaudronnerie": {
-            "catGram": "nom féminin",
-            "def": "Industrie, commerce des appareils, des articles du chaudronnier"
-        },
-        "anche": {
-            "catGram": "nom féminin",
-            "def": "Fine languette placée sur certains instruments à vent et dont la vibration permet de produire le son."
+        "consolider": {
+            "catGram": "verbe",
+            "def": "Rendre plus ferme, plus stable"
         }
     }
 }
