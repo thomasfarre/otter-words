@@ -1,20 +1,20 @@
 {
     "words": {
-        "dément": {
+        "prodiguer": {
+            "catGram": "verbe",
+            "def": "Dépenser, employer sans compter."
+        },
+        "patente": {
+            "catGram": "nom féminin",
+            "def": "document officiel délivré par les ports constatant l'état sanitaire d'un navire en partance."
+        },
+        "asynchrone": {
             "catGram": "adjectif",
-            "def": "Qui est atteint de démence ou est un signe de démence."
+            "def": "Qui ne se produit pas dans le même temps ou qui se produit à des intervalles de temps inégaux"
         },
-        "calmer": {
-            "catGram": "verbe",
-            "def": "Atténuer, réduire l'intensité de (une douleur, une sensation)."
-        },
-        "périmètre": {
+        "sas": {
             "catGram": "nom masculin",
-            "def": "Ligne qui délimite une figure plane"
-        },
-        "consolider": {
-            "catGram": "verbe",
-            "def": "Rendre plus ferme, plus stable"
+            "def": "Tamis."
         }
     }
 }
