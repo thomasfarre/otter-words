@@ -1,20 +1,20 @@
 {
     "words": {
-        "prodiguer": {
-            "catGram": "verbe",
-            "def": "Dépenser, employer sans compter."
-        },
-        "patente": {
-            "catGram": "nom féminin",
-            "def": "document officiel délivré par les ports constatant l'état sanitaire d'un navire en partance."
-        },
-        "asynchrone": {
+        "monétaire": {
             "catGram": "adjectif",
-            "def": "Qui ne se produit pas dans le même temps ou qui se produit à des intervalles de temps inégaux"
+            "def": "Relatif à la monnaie, à sa valeur."
         },
-        "sas": {
+        "vite": {
+            "catGram": "adjectif",
+            "def": "Rapide."
+        },
+        "éternellement": {
+            "catGram": "adverbe",
+            "def": "D'une manière éternelle, de tout temps."
+        },
+        "croc-en-jambe": {
             "catGram": "nom masculin",
-            "def": "Tamis."
+            "def": "Action d’accrocher la jambe, les jambes de qqn avec le pied pour le faire tomber."
         }
     }
 }
