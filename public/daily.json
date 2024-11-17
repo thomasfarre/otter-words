@@ -1,20 +1,20 @@
 {
     "words": {
-        "monétaire": {
+        "monumental": {
             "catGram": "adjectif",
-            "def": "Relatif à la monnaie, à sa valeur."
+            "def": "Remarquable par sa taille, son caractère grandiose, ses qualités."
         },
-        "vite": {
-            "catGram": "adjectif",
-            "def": "Rapide."
+        "éclater": {
+            "catGram": "verbe",
+            "def": "Se briser avec violence, soudaineté et généralement avec bruit, en projetant des fragments."
         },
-        "éternellement": {
-            "catGram": "adverbe",
-            "def": "D'une manière éternelle, de tout temps."
-        },
-        "croc-en-jambe": {
+        "salut": {
             "catGram": "nom masculin",
-            "def": "Action d’accrocher la jambe, les jambes de qqn avec le pied pour le faire tomber."
+            "def": "Fait d'échapper à un danger, à un malheur ou à la mort."
+        },
+        "virer": {
+            "catGram": "verbe",
+            "def": "Tourner sur son propre axe, sur soi-même."
         }
     }
 }
