@@ -1,20 +1,20 @@
 {
     "words": {
-        "monumental": {
-            "catGram": "adjectif",
-            "def": "Remarquable par sa taille, son caractère grandiose, ses qualités."
-        },
-        "éclater": {
-            "catGram": "verbe",
-            "def": "Se briser avec violence, soudaineté et généralement avec bruit, en projetant des fragments."
-        },
-        "salut": {
+        "hareng": {
             "catGram": "nom masculin",
-            "def": "Fait d'échapper à un danger, à un malheur ou à la mort."
+            "def": "Poisson marin à corps élancé recouvert de grandes écailles, à nageoire dorsale unique, généralement à dos bleuté et à flancs argentés, qui forme de grands bancs"
         },
-        "virer": {
-            "catGram": "verbe",
-            "def": "Tourner sur son propre axe, sur soi-même."
+        "corniche": {
+            "catGram": "nom féminin",
+            "def": "Bordure, formée d'une ou de plusieurs moulures en saillie, couronnant un mur, un piédestal, qui protège de la pluie les parties sous-jacentes."
+        },
+        "écheveau": {
+            "catGram": "nom masculin",
+            "def": "Assemblage de fils repliés plusieurs fois et attachés pour qu'ils ne se mêlent pas."
+        },
+        "difficile": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas facile, se fait avec effort, peine."
         }
     }
 }
