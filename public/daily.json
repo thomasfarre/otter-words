@@ -1,20 +1,20 @@
 {
     "words": {
-        "hareng": {
-            "catGram": "nom masculin",
-            "def": "Poisson marin à corps élancé recouvert de grandes écailles, à nageoire dorsale unique, généralement à dos bleuté et à flancs argentés, qui forme de grands bancs"
+        "pelletier": {
+            "catGram": "nom",
+            "def": "Personne qui travaille les peaux pour en faire des fourrures et qui en fait le commerce."
         },
-        "corniche": {
+        "dessus-de-lit": {
+            "catGram": "nom masculin",
+            "def": "Couverture, pièce d'étoffe dont on couvre un lit."
+        },
+        "pantoufle": {
             "catGram": "nom féminin",
-            "def": "Bordure, formée d'une ou de plusieurs moulures en saillie, couronnant un mur, un piédestal, qui protège de la pluie les parties sous-jacentes."
+            "def": "Chaussure d’intérieur légère, souple et confortable."
         },
-        "écheveau": {
-            "catGram": "nom masculin",
-            "def": "Assemblage de fils repliés plusieurs fois et attachés pour qu'ils ne se mêlent pas."
-        },
-        "difficile": {
+        "défunt": {
             "catGram": "adjectif",
-            "def": "Qui n'est pas facile, se fait avec effort, peine."
+            "def": "Qui est mort, décédé."
         }
     }
 }
