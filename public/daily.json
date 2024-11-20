@@ -1,20 +1,20 @@
 {
     "words": {
-        "pelletier": {
-            "catGram": "nom",
-            "def": "Personne qui travaille les peaux pour en faire des fourrures et qui en fait le commerce."
-        },
-        "dessus-de-lit": {
-            "catGram": "nom masculin",
-            "def": "Couverture, pièce d'étoffe dont on couvre un lit."
-        },
-        "pantoufle": {
-            "catGram": "nom féminin",
-            "def": "Chaussure d’intérieur légère, souple et confortable."
-        },
-        "défunt": {
+        "regrettable": {
             "catGram": "adjectif",
-            "def": "Qui est mort, décédé."
+            "def": "Qui est à regretter"
+        },
+        "touer": {
+            "catGram": "verbe",
+            "def": "Faire avancer un bateau ne disposant pas de moyen de propulsion autonome, par traction sur une amarre ou sur un câble ou une chaîne reposant au fond d'un cours d'eau."
+        },
+        "exclu": {
+            "catGram": "adjectif",
+            "def": "Qui a été renvoyé d'un groupe ou qui n'y a pas été admis."
+        },
+        "orange": {
+            "catGram": "nom féminin",
+            "def": "Agrume de forme ronde, dont l'écorce et la pulpe très juteuse sont d'une couleur jaune tirant sur le rouge"
         }
     }
 }
