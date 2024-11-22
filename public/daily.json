@@ -1,20 +1,20 @@
 {
     "words": {
-        "collectionneur": {
-            "catGram": "nom",
-            "def": "Personne qui fait une ou des collections."
-        },
-        "acquis": {
-            "catGram": "adjectif",
-            "def": "Obtenu par un effort d'apprentissage ou par l'expérience personnelle"
-        },
-        "colloque": {
+        "tumulte": {
             "catGram": "nom masculin",
-            "def": "Entretien, simple conciliabule entre deux ou plusieurs personnes."
+            "def": "Bruit confus d'une foule, d'un certain nombre de personnes parlant toutes à la fois."
         },
-        "géminé": {
+        "taxe": {
+            "catGram": "nom féminin",
+            "def": "Contrôle des dépens par un greffier."
+        },
+        "hanté": {
             "catGram": "adjectif",
-            "def": "Disposé par paires."
+            "def": "Habité par des esprits, des fantômes."
+        },
+        "mugissement": {
+            "catGram": "nom masculin",
+            "def": "Cri des bovins."
         }
     }
 }
