@@ -1,20 +1,20 @@
 {
     "words": {
-        "tumulte": {
+        "éblouissement": {
             "catGram": "nom masculin",
-            "def": "Bruit confus d'une foule, d'un certain nombre de personnes parlant toutes à la fois."
+            "def": "Trouble momentané de la vue provoqué par une lumière subitement trop intense."
         },
-        "taxe": {
+        "agressivité": {
             "catGram": "nom féminin",
-            "def": "Contrôle des dépens par un greffier."
+            "def": "Caractère de ce qui est agressif."
         },
-        "hanté": {
-            "catGram": "adjectif",
-            "def": "Habité par des esprits, des fantômes."
+        "picorer": {
+            "catGram": "verbe",
+            "def": "Chercher çà et là de la nourriture, en parlant d'un oiseau."
         },
-        "mugissement": {
-            "catGram": "nom masculin",
-            "def": "Cri des bovins."
+        "rénover": {
+            "catGram": "verbe",
+            "def": "Transformer qqch. pour l’améliorer."
         }
     }
 }
