@@ -1,20 +1,20 @@
 {
     "words": {
-        "éblouissement": {
+        "goût": {
             "catGram": "nom masculin",
-            "def": "Trouble momentané de la vue provoqué par une lumière subitement trop intense."
+            "def": "Sens qui permet de percevoir les saveurs."
         },
-        "agressivité": {
+        "poisse": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est agressif."
+            "def": "Misère, indigence."
         },
-        "picorer": {
-            "catGram": "verbe",
-            "def": "Chercher çà et là de la nourriture, en parlant d'un oiseau."
+        "scarabée": {
+            "catGram": "nom masculin",
+            "def": "Insecte coléoptère trapu et massif, souvent de très grande taille chez les espèces tropicales, qui est pourvu de courtes antennes pouvant s’ouvrir en éventail et de pattes puissantes, adaptées au creusage, et qui se nourrit principalement de débris végétaux, d’excréments ou de charognes."
         },
-        "rénover": {
-            "catGram": "verbe",
-            "def": "Transformer qqch. pour l’améliorer."
+        "apanage": {
+            "catGram": "nom masculin",
+            "def": "Fief concédé à un héritier mâle en compensation de son exclusion de la couronne, réservée à l'aîné."
         }
     }
 }
