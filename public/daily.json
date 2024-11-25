@@ -1,20 +1,20 @@
 {
     "words": {
-        "goût": {
-            "catGram": "nom masculin",
-            "def": "Sens qui permet de percevoir les saveurs."
-        },
-        "poisse": {
+        "formule": {
             "catGram": "nom féminin",
-            "def": "Misère, indigence."
+            "def": "Paroles rituelles que l'on est tenu de prononcer dans certaines circonstances."
         },
-        "scarabée": {
+        "recul": {
             "catGram": "nom masculin",
-            "def": "Insecte coléoptère trapu et massif, souvent de très grande taille chez les espèces tropicales, qui est pourvu de courtes antennes pouvant s’ouvrir en éventail et de pattes puissantes, adaptées au creusage, et qui se nourrit principalement de débris végétaux, d’excréments ou de charognes."
+            "def": "Action de reculer"
         },
-        "apanage": {
+        "banditisme": {
             "catGram": "nom masculin",
-            "def": "Fief concédé à un héritier mâle en compensation de son exclusion de la couronne, réservée à l'aîné."
+            "def": "Agissements de bandit."
+        },
+        "sidérurgie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des opérations, traitements, installations industrielles se rapportant à la métallurgie primaire du fer, et conduisant du minerai aux fontes, aciers et alliages ferreux."
         }
     }
 }
