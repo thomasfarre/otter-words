@@ -1,20 +1,20 @@
 {
     "words": {
-        "indéfini": {
-            "catGram": "adjectif",
-            "def": "Qui n’est pas fini, n’est pas ou ne peut être limité ni délimité."
-        },
-        "garder": {
-            "catGram": "verbe",
-            "def": "Protéger, surveiller."
-        },
-        "pentagone": {
+        "carton": {
             "catGram": "nom masculin",
-            "def": "Polygone ayant cinq angles et cinq côtés."
+            "def": "Matière de même nature que le papier, mais plus épaisse, plus forte et plus rigide."
         },
-        "réconcilier": {
+        "uriner": {
             "catGram": "verbe",
-            "def": "Remettre d'accord, en harmonie des personnes qui étaient brouillées."
+            "def": "Évacuer l'urine par les voies naturelles."
+        },
+        "montrer": {
+            "catGram": "verbe",
+            "def": "Faire voir, faire apparaître."
+        },
+        "cajolerie": {
+            "catGram": "nom féminin",
+            "def": "Parole, manière douce et caressante."
         }
     }
 }
