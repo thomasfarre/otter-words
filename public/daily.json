@@ -1,20 +1,20 @@
 {
     "words": {
-        "carton": {
-            "catGram": "nom masculin",
-            "def": "Matière de même nature que le papier, mais plus épaisse, plus forte et plus rigide."
-        },
-        "uriner": {
+        "suivre": {
             "catGram": "verbe",
-            "def": "Évacuer l'urine par les voies naturelles."
+            "def": "Venir après, derrière qqn, qqch."
         },
-        "montrer": {
+        "cannelé": {
+            "catGram": "adjectif",
+            "def": "Orné de cannelures."
+        },
+        "soupirer": {
             "catGram": "verbe",
-            "def": "Faire voir, faire apparaître."
+            "def": "Pousser un, des soupirs."
         },
-        "cajolerie": {
-            "catGram": "nom féminin",
-            "def": "Parole, manière douce et caressante."
+        "vaseux": {
+            "catGram": "adjectif",
+            "def": "Qui contient de la vase, qui en est constitué."
         }
     }
 }
