@@ -1,20 +1,20 @@
 {
     "words": {
-        "suivre": {
+        "résidu": {
+            "catGram": "nom masculin",
+            "def": "Ce qui reste, ce qui subsiste de qqch."
+        },
+        "débrouiller": {
             "catGram": "verbe",
-            "def": "Venir après, derrière qqn, qqch."
+            "def": "Remettre en ordre (qqch. d'embrouillé)"
         },
-        "cannelé": {
-            "catGram": "adjectif",
-            "def": "Orné de cannelures."
+        "frénétiquement": {
+            "catGram": "adverbe",
+            "def": "De manière frénétique."
         },
-        "soupirer": {
-            "catGram": "verbe",
-            "def": "Pousser un, des soupirs."
-        },
-        "vaseux": {
-            "catGram": "adjectif",
-            "def": "Qui contient de la vase, qui en est constitué."
+        "aéronaute": {
+            "catGram": "nom épicène",
+            "def": "Pilote, passager d'un aérostat."
         }
     }
 }
