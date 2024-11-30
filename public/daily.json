@@ -1,20 +1,20 @@
 {
     "words": {
-        "résidu": {
+        "visée": {
+            "catGram": "nom féminin",
+            "def": "Action de diriger la vue (ou une arme, un appareil photo, etc.) vers l'objectif que l'on veut atteindre ou le point que l'on veut observer."
+        },
+        "défiant": {
+            "catGram": "adjectif",
+            "def": "Qui agit par défiance"
+        },
+        "amandier": {
             "catGram": "nom masculin",
-            "def": "Ce qui reste, ce qui subsiste de qqch."
+            "def": "Arbre originaire d’Asie, à fleurs blanches ou rosées très précoces, que l’on cultive aujourd’hui dans plusieurs régions chaudes et tempérées (notamment le bassin méditerranéen et la Californie) pour la production d’amande."
         },
-        "débrouiller": {
-            "catGram": "verbe",
-            "def": "Remettre en ordre (qqch. d'embrouillé)"
-        },
-        "frénétiquement": {
-            "catGram": "adverbe",
-            "def": "De manière frénétique."
-        },
-        "aéronaute": {
-            "catGram": "nom épicène",
-            "def": "Pilote, passager d'un aérostat."
+        "principale": {
+            "catGram": "adjectif",
+            "def": "Le plus important parmi plusieurs choses ou plusieurs personnes"
         }
     }
 }
