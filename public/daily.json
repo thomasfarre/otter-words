@@ -1,20 +1,20 @@
 {
     "words": {
-        "visée": {
-            "catGram": "nom féminin",
-            "def": "Action de diriger la vue (ou une arme, un appareil photo, etc.) vers l'objectif que l'on veut atteindre ou le point que l'on veut observer."
-        },
-        "défiant": {
-            "catGram": "adjectif",
-            "def": "Qui agit par défiance"
-        },
-        "amandier": {
+        "passeport": {
             "catGram": "nom masculin",
-            "def": "Arbre originaire d’Asie, à fleurs blanches ou rosées très précoces, que l’on cultive aujourd’hui dans plusieurs régions chaudes et tempérées (notamment le bassin méditerranéen et la Californie) pour la production d’amande."
+            "def": "Pièce d'identité délivrée par un État à ses ressortissants et exigible au passage des frontières."
         },
-        "principale": {
+        "désavantageux": {
             "catGram": "adjectif",
-            "def": "Le plus important parmi plusieurs choses ou plusieurs personnes"
+            "def": "Qui comporte ou apporte des désavantages"
+        },
+        "film": {
+            "catGram": "nom masculin",
+            "def": "Pellicule photographique."
+        },
+        "graphique": {
+            "catGram": "adjectif",
+            "def": "Qui représente qqn ou qqch. par des lignes ou des figures sur une surface."
         }
     }
 }
