@@ -1,20 +1,20 @@
 {
     "words": {
-        "passeport": {
-            "catGram": "nom masculin",
-            "def": "Pièce d'identité délivrée par un État à ses ressortissants et exigible au passage des frontières."
+        "rivaliser": {
+            "catGram": "verbe",
+            "def": "Chercher à égaler ou à surpasser une autre ou d'autres personnes, en s'opposant à elles dans un domaine donné."
         },
-        "désavantageux": {
+        "superflu": {
             "catGram": "adjectif",
-            "def": "Qui comporte ou apporte des désavantages"
+            "def": "Qui est en plus du nécessaire"
         },
-        "film": {
+        "spore": {
+            "catGram": "nom féminin",
+            "def": "Corpuscule unicellulaire servant à la reproduction de plusieurs végétaux (algues, mousses, fougères, etc.), de champignons et de protozoaires."
+        },
+        "maxwell": {
             "catGram": "nom masculin",
-            "def": "Pellicule photographique."
-        },
-        "graphique": {
-            "catGram": "adjectif",
-            "def": "Qui représente qqn ou qqch. par des lignes ou des figures sur une surface."
+            "def": "Ancienne unité de mesure de flux d'induction magnétique"
         }
     }
 }
