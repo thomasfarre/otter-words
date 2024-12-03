@@ -1,20 +1,20 @@
 {
     "words": {
-        "rivaliser": {
-            "catGram": "verbe",
-            "def": "Chercher à égaler ou à surpasser une autre ou d'autres personnes, en s'opposant à elles dans un domaine donné."
-        },
-        "superflu": {
-            "catGram": "adjectif",
-            "def": "Qui est en plus du nécessaire"
-        },
-        "spore": {
+        "suffocation": {
             "catGram": "nom féminin",
-            "def": "Corpuscule unicellulaire servant à la reproduction de plusieurs végétaux (algues, mousses, fougères, etc.), de champignons et de protozoaires."
+            "def": "Fait de suffoquer"
         },
-        "maxwell": {
+        "impératif": {
             "catGram": "nom masculin",
-            "def": "Ancienne unité de mesure de flux d'induction magnétique"
+            "def": "Mode du verbe exprimant un ordre, une défense ou un souhait, et qui se conjugue à la première personne du pluriel et aux deuxièmes personnes du singulier et du pluriel."
+        },
+        "écheveau": {
+            "catGram": "nom masculin",
+            "def": "Assemblage de fils repliés plusieurs fois et attachés pour qu'ils ne se mêlent pas."
+        },
+        "morale": {
+            "catGram": "nom féminin",
+            "def": "Science qui a pour objet les règles de la conduite et les fins de l'action humaine"
         }
     }
 }
