@@ -1,20 +1,20 @@
 {
     "words": {
-        "suffocation": {
-            "catGram": "nom féminin",
-            "def": "Fait de suffoquer"
+        "émigrer": {
+            "catGram": "verbe",
+            "def": "Quitter son pays pour aller s’installer ailleurs, généralement à l'étranger"
         },
-        "impératif": {
+        "gène": {
             "catGram": "nom masculin",
-            "def": "Mode du verbe exprimant un ordre, une défense ou un souhait, et qui se conjugue à la première personne du pluriel et aux deuxièmes personnes du singulier et du pluriel."
+            "def": "Sur un chromosome, segment d'ADN qui code la synthèse d'une protéine et permet la manifestation d'un caractère héréditaire."
         },
-        "écheveau": {
-            "catGram": "nom masculin",
-            "def": "Assemblage de fils repliés plusieurs fois et attachés pour qu'ils ne se mêlent pas."
-        },
-        "morale": {
+        "onde": {
             "catGram": "nom féminin",
-            "def": "Science qui a pour objet les règles de la conduite et les fins de l'action humaine"
+            "def": "Modification se produisant à la surface de l'eau, consistant en une alternance de soulèvements et d'abaissements qui donnent l'illusion d'un déplacement."
+        },
+        "boulonner": {
+            "catGram": "verbe",
+            "def": "Fixer avec des boulons."
         }
     }
 }
