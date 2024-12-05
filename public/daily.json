@@ -1,20 +1,20 @@
 {
     "words": {
-        "émigrer": {
-            "catGram": "verbe",
-            "def": "Quitter son pays pour aller s’installer ailleurs, généralement à l'étranger"
-        },
-        "gène": {
+        "autocar": {
             "catGram": "nom masculin",
-            "def": "Sur un chromosome, segment d'ADN qui code la synthèse d'une protéine et permet la manifestation d'un caractère héréditaire."
+            "def": "Véhicule automobile de transport en commun spécialement conçu pour assurer aux usagers un niveau de confort appréciable, comportant une soute à bagages et convenant à des trajets plus ou moins longs comme des circuits interurbains."
         },
-        "onde": {
+        "statistique": {
             "catGram": "nom féminin",
-            "def": "Modification se produisant à la surface de l'eau, consistant en une alternance de soulèvements et d'abaissements qui donnent l'illusion d'un déplacement."
+            "def": "Branche des mathématiques qui utilise le calcul des probabilités pour l’analyse de phénomènes mettant en jeu un grand nombre d’éléments."
         },
-        "boulonner": {
-            "catGram": "verbe",
-            "def": "Fixer avec des boulons."
+        "médicament": {
+            "catGram": "nom masculin",
+            "def": "Substance employée en vue de prévenir, diagnostiquer, soulager ou traiter une maladie, un trouble, ou de restaurer ou modifier des fonctions organiques."
+        },
+        "lourdaud": {
+            "catGram": "adjectif",
+            "def": "Qui est lent et maladroit (physiquement et intellectuellement)"
         }
     }
 }
