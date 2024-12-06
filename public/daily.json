@@ -1,20 +1,20 @@
 {
     "words": {
-        "autocar": {
-            "catGram": "nom masculin",
-            "def": "Véhicule automobile de transport en commun spécialement conçu pour assurer aux usagers un niveau de confort appréciable, comportant une soute à bagages et convenant à des trajets plus ou moins longs comme des circuits interurbains."
-        },
-        "statistique": {
-            "catGram": "nom féminin",
-            "def": "Branche des mathématiques qui utilise le calcul des probabilités pour l’analyse de phénomènes mettant en jeu un grand nombre d’éléments."
-        },
-        "médicament": {
-            "catGram": "nom masculin",
-            "def": "Substance employée en vue de prévenir, diagnostiquer, soulager ou traiter une maladie, un trouble, ou de restaurer ou modifier des fonctions organiques."
-        },
-        "lourdaud": {
+        "isolé": {
             "catGram": "adjectif",
-            "def": "Qui est lent et maladroit (physiquement et intellectuellement)"
+            "def": "Séparé des éléments de même nature."
+        },
+        "maigrir": {
+            "catGram": "verbe",
+            "def": "Devenir maigre ou moins gras, moins gros"
+        },
+        "rebut": {
+            "catGram": "nom masculin",
+            "def": "Ce qui est bon à jeter."
+        },
+        "infernal": {
+            "catGram": "adjectif",
+            "def": "Relatif à l'enfer ou aux enfers."
         }
     }
 }
