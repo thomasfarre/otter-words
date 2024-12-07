@@ -1,20 +1,20 @@
 {
     "words": {
-        "isolé": {
-            "catGram": "adjectif",
-            "def": "Séparé des éléments de même nature."
+        "blancheur": {
+            "catGram": "nom féminin",
+            "def": "Qualité de ce qui est blanc"
         },
-        "maigrir": {
+        "anthropologique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l’anthropologie."
+        },
+        "câliner": {
             "catGram": "verbe",
-            "def": "Devenir maigre ou moins gras, moins gros"
+            "def": "Caresser qqn avec douceur, lui faire des câlins."
         },
-        "rebut": {
-            "catGram": "nom masculin",
-            "def": "Ce qui est bon à jeter."
-        },
-        "infernal": {
-            "catGram": "adjectif",
-            "def": "Relatif à l'enfer ou aux enfers."
+        "gesticuler": {
+            "catGram": "verbe",
+            "def": "Faire de grands gestes."
         }
     }
 }
