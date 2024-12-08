@@ -1,20 +1,20 @@
 {
     "words": {
-        "blancheur": {
+        "majesté": {
             "catGram": "nom féminin",
-            "def": "Qualité de ce qui est blanc"
+            "def": "Caractère de noblesse, qui inspire le respect."
         },
-        "anthropologique": {
+        "frisé": {
             "catGram": "adjectif",
-            "def": "Relatif à l’anthropologie."
+            "def": "Qui présente des boucles fines et serrées."
         },
-        "câliner": {
+        "nettoyer": {
             "catGram": "verbe",
-            "def": "Caresser qqn avec douceur, lui faire des câlins."
+            "def": "Rendre net, propre en débarrassant de tout ce qui salit, souille, ternit."
         },
-        "gesticuler": {
+        "saigner": {
             "catGram": "verbe",
-            "def": "Faire de grands gestes."
+            "def": "Perdre du sang."
         }
     }
 }
