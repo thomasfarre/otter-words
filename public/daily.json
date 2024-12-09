@@ -1,20 +1,20 @@
 {
     "words": {
-        "majesté": {
-            "catGram": "nom féminin",
-            "def": "Caractère de noblesse, qui inspire le respect."
+        "étançonner": {
+            "catGram": "verbe",
+            "def": "Consolider, soutenir au moyen d’étançons."
         },
-        "frisé": {
+        "remarquable": {
             "catGram": "adjectif",
-            "def": "Qui présente des boucles fines et serrées."
+            "def": "Susceptible d'attirer l'attention, d'être signalé"
         },
-        "nettoyer": {
-            "catGram": "verbe",
-            "def": "Rendre net, propre en débarrassant de tout ce qui salit, souille, ternit."
+        "métropole": {
+            "catGram": "nom féminin",
+            "def": "Ville dotée d'un archevêché, dans le catholicisme."
         },
-        "saigner": {
+        "superviser": {
             "catGram": "verbe",
-            "def": "Perdre du sang."
+            "def": "Contrôler dans ses grandes lignes (une activité, l'exécution d'un travail accompli par d'autres)."
         }
     }
 }
