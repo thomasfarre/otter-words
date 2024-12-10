@@ -1,20 +1,20 @@
 {
     "words": {
-        "étançonner": {
+        "disputer": {
             "catGram": "verbe",
-            "def": "Consolider, soutenir au moyen d’étançons."
+            "def": "Lutter contre qqn pour obtenir ou conserver qqch."
         },
-        "remarquable": {
-            "catGram": "adjectif",
-            "def": "Susceptible d'attirer l'attention, d'être signalé"
+        "tarif": {
+            "catGram": "nom masculin",
+            "def": "Tableau indiquant le montant des droits à acquitter pour certaines opérations, les prix fixés pour certaines marchandises ou certains services"
         },
-        "métropole": {
+        "lapereau": {
+            "catGram": "nom masculin",
+            "def": "Jeune lapin."
+        },
+        "fosse": {
             "catGram": "nom féminin",
-            "def": "Ville dotée d'un archevêché, dans le catholicisme."
-        },
-        "superviser": {
-            "catGram": "verbe",
-            "def": "Contrôler dans ses grandes lignes (une activité, l'exécution d'un travail accompli par d'autres)."
+            "def": "Cavité large et profonde creusée dans la terre, généralement destinée à recevoir qqch."
         }
     }
 }
