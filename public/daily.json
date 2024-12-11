@@ -1,20 +1,20 @@
 {
     "words": {
-        "disputer": {
+        "tôt": {
+            "catGram": "adverbe",
+            "def": "Rapidement."
+        },
+        "lorgner": {
             "catGram": "verbe",
-            "def": "Lutter contre qqn pour obtenir ou conserver qqch."
+            "def": "Regarder du coin de l'œil, à la dérobée, d’une façon particulière."
         },
-        "tarif": {
+        "adhérer": {
+            "catGram": "verbe",
+            "def": "S’attacher à qqch. par une union physique étroite, par adhérence."
+        },
+        "verdict": {
             "catGram": "nom masculin",
-            "def": "Tableau indiquant le montant des droits à acquitter pour certaines opérations, les prix fixés pour certaines marchandises ou certains services"
-        },
-        "lapereau": {
-            "catGram": "nom masculin",
-            "def": "Jeune lapin."
-        },
-        "fosse": {
-            "catGram": "nom féminin",
-            "def": "Cavité large et profonde creusée dans la terre, généralement destinée à recevoir qqch."
+            "def": "Déclaration par laquelle le jury répond, après délibérations, aux questions posées par le tribunal et se prononce sur la culpabilité d’un accusé."
         }
     }
 }
