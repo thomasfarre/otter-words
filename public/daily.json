@@ -1,20 +1,20 @@
 {
     "words": {
-        "tôt": {
-            "catGram": "adverbe",
-            "def": "Rapidement."
-        },
-        "lorgner": {
+        "tonner": {
             "catGram": "verbe",
-            "def": "Regarder du coin de l'œil, à la dérobée, d’une façon particulière."
+            "def": "Se faire entendre, en parlant du tonnerre."
         },
-        "adhérer": {
+        "contaminer": {
             "catGram": "verbe",
-            "def": "S’attacher à qqch. par une union physique étroite, par adhérence."
+            "def": "Transmettre des microorganismes, généralement pathogènes à."
         },
-        "verdict": {
+        "août": {
             "catGram": "nom masculin",
-            "def": "Déclaration par laquelle le jury répond, après délibérations, aux questions posées par le tribunal et se prononce sur la culpabilité d’un accusé."
+            "def": "Huitième mois de l'année, qui compte 31 jours."
+        },
+        "retour": {
+            "catGram": "nom masculin",
+            "def": "Action de retourner, de renvoyer qqch. à qqn."
         }
     }
 }
