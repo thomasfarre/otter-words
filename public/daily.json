@@ -1,20 +1,20 @@
 {
     "words": {
-        "tonner": {
+        "prescrire": {
             "catGram": "verbe",
-            "def": "Se faire entendre, en parlant du tonnerre."
+            "def": "Ordonner de manière précise."
         },
-        "contaminer": {
+        "léger": {
+            "catGram": "adjectif",
+            "def": "Qui a peu de poids, qui se déplace facilement."
+        },
+        "dialectologue": {
+            "catGram": "nom épicène",
+            "def": "Linguiste spécialisé en dialectologie."
+        },
+        "éveiller": {
             "catGram": "verbe",
-            "def": "Transmettre des microorganismes, généralement pathogènes à."
-        },
-        "août": {
-            "catGram": "nom masculin",
-            "def": "Huitième mois de l'année, qui compte 31 jours."
-        },
-        "retour": {
-            "catGram": "nom masculin",
-            "def": "Action de retourner, de renvoyer qqch. à qqn."
+            "def": "Tirer du sommeil."
         }
     }
 }
