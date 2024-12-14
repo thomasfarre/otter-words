@@ -1,20 +1,20 @@
 {
     "words": {
-        "prescrire": {
+        "chambranle": {
+            "catGram": "nom masculin",
+            "def": "Cadre qui borde une fenêtre, une porte ou une cheminée."
+        },
+        "renaître": {
             "catGram": "verbe",
-            "def": "Ordonner de manière précise."
+            "def": "Naître de nouveau, commencer une nouvelle vie."
         },
-        "léger": {
-            "catGram": "adjectif",
-            "def": "Qui a peu de poids, qui se déplace facilement."
+        "caisse": {
+            "catGram": "nom féminin",
+            "def": "Grande boîte rigide servant au rangement, à la conservation ou au transport d'objets divers"
         },
-        "dialectologue": {
-            "catGram": "nom épicène",
-            "def": "Linguiste spécialisé en dialectologie."
-        },
-        "éveiller": {
-            "catGram": "verbe",
-            "def": "Tirer du sommeil."
+        "interrogateur": {
+            "catGram": "nom",
+            "def": "Personne qui interroge"
         }
     }
 }
