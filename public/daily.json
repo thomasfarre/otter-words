@@ -1,20 +1,20 @@
 {
     "words": {
-        "chambranle": {
+        "ruban": {
             "catGram": "nom masculin",
-            "def": "Cadre qui borde une fenêtre, une porte ou une cheminée."
+            "def": "Bande de tissu étroite, servant d'ornement ou de lien."
         },
-        "renaître": {
+        "convenu": {
+            "catGram": "adjectif",
+            "def": "Établi par un accord, une convention."
+        },
+        "ustensile": {
+            "catGram": "nom masculin",
+            "def": "Objet ou accessoire de conception simple, à usage domestique, servant en particulier à la cuisine."
+        },
+        "provenir": {
             "catGram": "verbe",
-            "def": "Naître de nouveau, commencer une nouvelle vie."
-        },
-        "caisse": {
-            "catGram": "nom féminin",
-            "def": "Grande boîte rigide servant au rangement, à la conservation ou au transport d'objets divers"
-        },
-        "interrogateur": {
-            "catGram": "nom",
-            "def": "Personne qui interroge"
+            "def": "Venir de (un lieu, un milieu, un secteur, etc.)."
         }
     }
 }
