@@ -1,20 +1,20 @@
 {
     "words": {
-        "ruban": {
-            "catGram": "nom masculin",
-            "def": "Bande de tissu étroite, servant d'ornement ou de lien."
-        },
-        "convenu": {
+        "radin": {
             "catGram": "adjectif",
-            "def": "Établi par un accord, une convention."
+            "def": "Avare."
         },
-        "ustensile": {
+        "axiome": {
             "catGram": "nom masculin",
-            "def": "Objet ou accessoire de conception simple, à usage domestique, servant en particulier à la cuisine."
+            "def": "Vérité ou assertion admise par tous sans discussion"
         },
-        "provenir": {
-            "catGram": "verbe",
-            "def": "Venir de (un lieu, un milieu, un secteur, etc.)."
+        "suicidaire": {
+            "catGram": "adjectif",
+            "def": "Relatif au suicide"
+        },
+        "accidentel": {
+            "catGram": "adjectif",
+            "def": "Qui survient par accident, par hasard, qui est produit par une circonstance occasionnelle."
         }
     }
 }
