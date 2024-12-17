@@ -1,20 +1,20 @@
 {
     "words": {
-        "radin": {
-            "catGram": "adjectif",
-            "def": "Avare."
-        },
-        "axiome": {
+        "non-sens": {
             "catGram": "nom masculin",
-            "def": "Vérité ou assertion admise par tous sans discussion"
+            "def": "Absence de signification, ce qui est dépourvu de sens (phrase, raisonnement, etc.)."
         },
-        "suicidaire": {
-            "catGram": "adjectif",
-            "def": "Relatif au suicide"
+        "indiquer": {
+            "catGram": "verbe",
+            "def": "Faire voir sans ambiguïté."
         },
-        "accidentel": {
-            "catGram": "adjectif",
-            "def": "Qui survient par accident, par hasard, qui est produit par une circonstance occasionnelle."
+        "malaisément": {
+            "catGram": "adverbe",
+            "def": "D'une manière malaisée"
+        },
+        "fil": {
+            "catGram": "nom masculin",
+            "def": "Long brin de matière textile naturelle ou synthétique"
         }
     }
 }
