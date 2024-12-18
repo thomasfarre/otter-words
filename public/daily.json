@@ -1,20 +1,20 @@
 {
     "words": {
-        "non-sens": {
+        "infondé": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas fondé"
+        },
+        "essayage": {
             "catGram": "nom masculin",
-            "def": "Absence de signification, ce qui est dépourvu de sens (phrase, raisonnement, etc.)."
+            "def": "Action d'essayer (un vêtement, des chaussures, etc.)."
         },
-        "indiquer": {
-            "catGram": "verbe",
-            "def": "Faire voir sans ambiguïté."
+        "immensité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est immense."
         },
-        "malaisément": {
-            "catGram": "adverbe",
-            "def": "D'une manière malaisée"
-        },
-        "fil": {
-            "catGram": "nom masculin",
-            "def": "Long brin de matière textile naturelle ou synthétique"
+        "procure": {
+            "catGram": "nom féminin",
+            "def": "Fonction de procureur dans une communauté religieuse."
         }
     }
 }
