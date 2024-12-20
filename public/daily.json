@@ -1,20 +1,20 @@
 {
     "words": {
-        "sonnaille": {
-            "catGram": "nom féminin",
-            "def": "Cloche ou clochette qui s'attache au cou des bestiaux, des bêtes de somme, ou des chevaux de trait lorsqu'ils paissent ou lorsqu'ils se déplacent."
+        "désolé": {
+            "catGram": "adjectif",
+            "def": "Désert, triste."
         },
-        "débris": {
-            "catGram": "nom masculin",
-            "def": "Morceau ou ensemble de morceaux qui restent d'une chose brisée, détruite"
-        },
-        "exaspérer": {
+        "dévaster": {
             "catGram": "verbe",
-            "def": "Mettre qqn dans un état d'irritation ou d'impatience extrême."
+            "def": "Ravager, causer de très lourds dégâts à (une région, un pays, etc.)."
         },
-        "prôner": {
-            "catGram": "verbe",
-            "def": "Vanter publiquement et avec insistance qqn ou qqch. pour convaincre de son excellence, de son utilité."
+        "obligataire": {
+            "catGram": "nom épicène",
+            "def": "Détenteur d’une ou de plusieurs obligations."
+        },
+        "coupable": {
+            "catGram": "adjectif",
+            "def": "Qui a commis une faute, un délit."
         }
     }
 }
