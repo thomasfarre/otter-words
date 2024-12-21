@@ -1,20 +1,20 @@
 {
     "words": {
-        "désolé": {
-            "catGram": "adjectif",
-            "def": "Désert, triste."
-        },
-        "dévaster": {
+        "sévir": {
             "catGram": "verbe",
-            "def": "Ravager, causer de très lourds dégâts à (une région, un pays, etc.)."
+            "def": "Punir, réprimer avec rigueur."
         },
-        "obligataire": {
-            "catGram": "nom épicène",
-            "def": "Détenteur d’une ou de plusieurs obligations."
+        "espièglerie": {
+            "catGram": "nom féminin",
+            "def": "Trait de caractère espiègle."
         },
-        "coupable": {
-            "catGram": "adjectif",
-            "def": "Qui a commis une faute, un délit."
+        "grisonner": {
+            "catGram": "verbe",
+            "def": "Devenir gris, spécialement en parlant des cheveux, du poil."
+        },
+        "dominante": {
+            "catGram": "nom féminin",
+            "def": "Élément qui domine, qui est caractéristique, prépondérant dans un ensemble."
         }
     }
 }
