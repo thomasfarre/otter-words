@@ -1,20 +1,20 @@
 {
     "words": {
-        "sévir": {
-            "catGram": "verbe",
-            "def": "Punir, réprimer avec rigueur."
+        "réquisitoire": {
+            "catGram": "nom masculin",
+            "def": "Développement oral par lequel le ministère public expose ses arguments aux magistrats de la juridiction."
         },
-        "espièglerie": {
+        "épreuve": {
             "catGram": "nom féminin",
-            "def": "Trait de caractère espiègle."
+            "def": "Expérience pénible subie par qqn."
         },
-        "grisonner": {
-            "catGram": "verbe",
-            "def": "Devenir gris, spécialement en parlant des cheveux, du poil."
-        },
-        "dominante": {
+        "mention": {
             "catGram": "nom féminin",
-            "def": "Élément qui domine, qui est caractéristique, prépondérant dans un ensemble."
+            "def": "Action de citer, de signaler."
+        },
+        "palestinien": {
+            "catGram": "adjectif",
+            "def": "De la Palestine."
         }
     }
 }
