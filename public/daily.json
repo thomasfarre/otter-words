@@ -1,20 +1,20 @@
 {
     "words": {
-        "réquisitoire": {
-            "catGram": "nom masculin",
-            "def": "Développement oral par lequel le ministère public expose ses arguments aux magistrats de la juridiction."
-        },
-        "épreuve": {
-            "catGram": "nom féminin",
-            "def": "Expérience pénible subie par qqn."
-        },
-        "mention": {
-            "catGram": "nom féminin",
-            "def": "Action de citer, de signaler."
-        },
-        "palestinien": {
+        "meilleur": {
             "catGram": "adjectif",
-            "def": "De la Palestine."
+            "def": "Qui a plus de bonté, de bienveillance, de générosité."
+        },
+        "laiteux": {
+            "catGram": "adjectif",
+            "def": "Dont l'apparence, la couleur rappelle le lait."
+        },
+        "déchoir": {
+            "catGram": "verbe",
+            "def": "Tomber dans un état inférieur à celui où l'on était, s'abaisser."
+        },
+        "exil": {
+            "catGram": "nom masculin",
+            "def": "Peine qui condamne qqn à quitter son pays, avec interdiction d'y revenir, soit définitivement, soit pour un certain temps."
         }
     }
 }
