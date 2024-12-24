@@ -1,20 +1,20 @@
 {
     "words": {
-        "meilleur": {
+        "rentrant": {
             "catGram": "adjectif",
-            "def": "Qui a plus de bonté, de bienveillance, de générosité."
+            "def": "Qui s'incurve vers l'intérieur, qui est en creux par rapport à la masse d'ensemble d'un corps, d'un volume."
         },
-        "laiteux": {
-            "catGram": "adjectif",
-            "def": "Dont l'apparence, la couleur rappelle le lait."
+        "timidité": {
+            "catGram": "nom féminin",
+            "def": "Manque d'aisance, d'assurance dans ses relations avec autrui."
         },
-        "déchoir": {
-            "catGram": "verbe",
-            "def": "Tomber dans un état inférieur à celui où l'on était, s'abaisser."
+        "footballeur": {
+            "catGram": "nom",
+            "def": "Joueur de football."
         },
-        "exil": {
-            "catGram": "nom masculin",
-            "def": "Peine qui condamne qqn à quitter son pays, avec interdiction d'y revenir, soit définitivement, soit pour un certain temps."
+        "bonhomie": {
+            "catGram": "nom féminin",
+            "def": "Bonté et complaisance mêlées à de la simplicité dans les manières."
         }
     }
 }
