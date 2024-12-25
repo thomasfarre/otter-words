@@ -1,20 +1,20 @@
 {
     "words": {
-        "rentrant": {
+        "clause": {
+            "catGram": "nom féminin",
+            "def": "Disposition particulière d’un acte juridique, d’une convention."
+        },
+        "dégénérer": {
+            "catGram": "verbe",
+            "def": "Perdre les qualités et la vigueur originelle de sa race ou de son espèce."
+        },
+        "inconsolable": {
             "catGram": "adjectif",
-            "def": "Qui s'incurve vers l'intérieur, qui est en creux par rapport à la masse d'ensemble d'un corps, d'un volume."
+            "def": "Qu'on ne peut consoler"
         },
-        "timidité": {
-            "catGram": "nom féminin",
-            "def": "Manque d'aisance, d'assurance dans ses relations avec autrui."
-        },
-        "footballeur": {
-            "catGram": "nom",
-            "def": "Joueur de football."
-        },
-        "bonhomie": {
-            "catGram": "nom féminin",
-            "def": "Bonté et complaisance mêlées à de la simplicité dans les manières."
+        "dépurer": {
+            "catGram": "verbe",
+            "def": "Rendre pur, plus pur."
         }
     }
 }
