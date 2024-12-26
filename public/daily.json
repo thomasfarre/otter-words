@@ -1,20 +1,20 @@
 {
     "words": {
-        "clause": {
-            "catGram": "nom féminin",
-            "def": "Disposition particulière d’un acte juridique, d’une convention."
-        },
-        "dégénérer": {
-            "catGram": "verbe",
-            "def": "Perdre les qualités et la vigueur originelle de sa race ou de son espèce."
-        },
-        "inconsolable": {
+        "compris": {
             "catGram": "adjectif",
-            "def": "Qu'on ne peut consoler"
+            "def": "Inclus."
         },
-        "dépurer": {
-            "catGram": "verbe",
-            "def": "Rendre pur, plus pur."
+        "symboliquement": {
+            "catGram": "adverbe",
+            "def": "D'une manière symbolique."
+        },
+        "crucial": {
+            "catGram": "adjectif",
+            "def": "En forme de croix."
+        },
+        "malin": {
+            "catGram": "adjectif",
+            "def": "Qui cherche à nuire, qui se plaît à faire du mal"
         }
     }
 }
