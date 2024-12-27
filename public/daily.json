@@ -1,20 +1,20 @@
 {
     "words": {
-        "compris": {
-            "catGram": "adjectif",
-            "def": "Inclus."
+        "embellissement": {
+            "catGram": "nom masculin",
+            "def": "Action d'embellir"
         },
-        "symboliquement": {
-            "catGram": "adverbe",
-            "def": "D'une manière symbolique."
-        },
-        "crucial": {
+        "arbitral": {
             "catGram": "adjectif",
-            "def": "En forme de croix."
+            "def": "Rendu par un arbitre."
         },
-        "malin": {
-            "catGram": "adjectif",
-            "def": "Qui cherche à nuire, qui se plaît à faire du mal"
+        "ceinture": {
+            "catGram": "nom féminin",
+            "def": "Bande de matière souple, qui enserre la taille pour tenir, ajuster ou orner un vêtement."
+        },
+        "dialectologie": {
+            "catGram": "nom féminin",
+            "def": "Branche de la linguistique qui étudie les dialectes et les patois."
         }
     }
 }
