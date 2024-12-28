@@ -1,20 +1,20 @@
 {
     "words": {
-        "embellissement": {
-            "catGram": "nom masculin",
-            "def": "Action d'embellir"
-        },
-        "arbitral": {
+        "maçonnique": {
             "catGram": "adjectif",
-            "def": "Rendu par un arbitre."
+            "def": "Relatif à la franc-maçonnerie."
         },
-        "ceinture": {
-            "catGram": "nom féminin",
-            "def": "Bande de matière souple, qui enserre la taille pour tenir, ajuster ou orner un vêtement."
+        "enthousiaste": {
+            "catGram": "adjectif",
+            "def": "Qui ressent, qui manifeste de l’enthousiasme"
         },
-        "dialectologie": {
-            "catGram": "nom féminin",
-            "def": "Branche de la linguistique qui étudie les dialectes et les patois."
+        "perspicace": {
+            "catGram": "adjectif",
+            "def": "Apte à comprendre, à apercevoir de manière pénétrante, subtile."
+        },
+        "souiller": {
+            "catGram": "verbe",
+            "def": "Salir, couvrir d'une matière qui tache."
         }
     }
 }
