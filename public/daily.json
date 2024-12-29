@@ -1,20 +1,20 @@
 {
     "words": {
-        "maçonnique": {
-            "catGram": "adjectif",
-            "def": "Relatif à la franc-maçonnerie."
-        },
-        "enthousiaste": {
-            "catGram": "adjectif",
-            "def": "Qui ressent, qui manifeste de l’enthousiasme"
-        },
-        "perspicace": {
-            "catGram": "adjectif",
-            "def": "Apte à comprendre, à apercevoir de manière pénétrante, subtile."
-        },
-        "souiller": {
+        "engueuler": {
             "catGram": "verbe",
-            "def": "Salir, couvrir d'une matière qui tache."
+            "def": "Adresser de vifs reproches à qqn, souvent de façon grossière."
+        },
+        "tact": {
+            "catGram": "nom masculin",
+            "def": "Sens du toucher."
+        },
+        "désagrément": {
+            "catGram": "nom masculin",
+            "def": "Déplaisir, sentiment désagréable causé par une chose, un événement fâcheux."
+        },
+        "andante": {
+            "catGram": "adverbe",
+            "def": "Dans un tempo modéré entre l'adagio et l'allégro."
         }
     }
 }
