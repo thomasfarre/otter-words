@@ -1,20 +1,20 @@
 {
     "words": {
-        "engueuler": {
-            "catGram": "verbe",
-            "def": "Adresser de vifs reproches à qqn, souvent de façon grossière."
+        "convocation": {
+            "catGram": "nom féminin",
+            "def": "Action de convoquer une ou plusieurs personnes."
         },
-        "tact": {
-            "catGram": "nom masculin",
-            "def": "Sens du toucher."
+        "bureaucratique": {
+            "catGram": "adjectif",
+            "def": "Qui relève de la bureaucratie."
         },
-        "désagrément": {
-            "catGram": "nom masculin",
-            "def": "Déplaisir, sentiment désagréable causé par une chose, un événement fâcheux."
-        },
-        "andante": {
+        "comment": {
             "catGram": "adverbe",
-            "def": "Dans un tempo modéré entre l'adagio et l'allégro."
+            "def": "Sert à interroger directement ou indirectement sur la manière, sur le moyen."
+        },
+        "égoutter": {
+            "catGram": "verbe",
+            "def": "Faire écouler goutte à goutte le liquide de."
         }
     }
 }
