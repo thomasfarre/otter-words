@@ -1,20 +1,20 @@
 {
     "words": {
-        "crin": {
-            "catGram": "nom masculin",
-            "def": "Poil long et épais poussant à l'encolure et à la queue de certains animaux, plus spécialement des chevaux."
-        },
-        "aubergine": {
+        "immolation": {
             "catGram": "nom féminin",
-            "def": "Plante originaire d’Asie tropicale, à tiges épaisses (parfois ligneuses), à larges feuilles ovales généralement épineuses et à fleurs solitaires étoilées, dont on cultive de nombreuses variétés potagères pour leur fruit comestible de taille, de forme et de couleur variables."
+            "def": "Action d'immoler, de s'immoler"
         },
-        "aéronautique": {
-            "catGram": "adjectif",
-            "def": "Relatif à la navigation aérienne."
+        "percher": {
+            "catGram": "verbe",
+            "def": "Se poser, se tenir sur un perchoir, une branche, etc., ou, plus généralement, à un endroit élevé, en parlant d'un oiseau."
         },
-        "dépendant": {
-            "catGram": "adjectif",
-            "def": "Qui dépend de"
+        "hercule": {
+            "catGram": "nom masculin",
+            "def": "Homme d'une très grande force physique."
+        },
+        "défaillir": {
+            "catGram": "verbe",
+            "def": "Tomber en défaillance, perdre connaissance sous l'effet d'un choc physique ou émotionnel."
         }
     }
 }
