@@ -1,20 +1,20 @@
 {
     "words": {
-        "immolation": {
-            "catGram": "nom féminin",
-            "def": "Action d'immoler, de s'immoler"
-        },
-        "percher": {
+        "compatir": {
             "catGram": "verbe",
-            "def": "Se poser, se tenir sur un perchoir, une branche, etc., ou, plus généralement, à un endroit élevé, en parlant d'un oiseau."
+            "def": "Éprouver de la compassion pour (un sentiment douloureux)."
         },
-        "hercule": {
+        "demi-cercle": {
             "catGram": "nom masculin",
-            "def": "Homme d'une très grande force physique."
+            "def": "Courbe ou espace correspondant à la moitié d'un cercle."
         },
-        "défaillir": {
-            "catGram": "verbe",
-            "def": "Tomber en défaillance, perdre connaissance sous l'effet d'un choc physique ou émotionnel."
+        "gypse": {
+            "catGram": "nom masculin",
+            "def": "Minéral essentiellement constitué de sulfate de calcium à l'état cristallin."
+        },
+        "équipier": {
+            "catGram": "nom",
+            "def": "Membre d'une équipe (sportive)."
         }
     }
 }
