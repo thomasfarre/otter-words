@@ -1,20 +1,20 @@
 {
     "words": {
-        "compatir": {
+        "intègre": {
+            "catGram": "adjectif",
+            "def": "Qui est d'une probité sans faille"
+        },
+        "égorger": {
             "catGram": "verbe",
-            "def": "Éprouver de la compassion pour (un sentiment douloureux)."
+            "def": "Tuer en tranchant la gorge."
         },
-        "demi-cercle": {
+        "catholicisme": {
             "catGram": "nom masculin",
-            "def": "Courbe ou espace correspondant à la moitié d'un cercle."
+            "def": "Ensemble des dogmes, institutions et préceptes de l'Église catholique romaine."
         },
-        "gypse": {
-            "catGram": "nom masculin",
-            "def": "Minéral essentiellement constitué de sulfate de calcium à l'état cristallin."
-        },
-        "équipier": {
+        "administrateur": {
             "catGram": "nom",
-            "def": "Membre d'une équipe (sportive)."
+            "def": "Personne responsable de l'administration d'un bien, d'un patrimoine, d'une entreprise, etc."
         }
     }
 }
