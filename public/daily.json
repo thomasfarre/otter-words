@@ -1,20 +1,20 @@
 {
     "words": {
-        "intègre": {
-            "catGram": "adjectif",
-            "def": "Qui est d'une probité sans faille"
-        },
-        "égorger": {
-            "catGram": "verbe",
-            "def": "Tuer en tranchant la gorge."
-        },
-        "catholicisme": {
+        "péril": {
             "catGram": "nom masculin",
-            "def": "Ensemble des dogmes, institutions et préceptes de l'Église catholique romaine."
+            "def": "État, situation d'une personne, d'une chose qui court de grands risques, dont l'existence est menacée."
         },
-        "administrateur": {
-            "catGram": "nom",
-            "def": "Personne responsable de l'administration d'un bien, d'un patrimoine, d'une entreprise, etc."
+        "chatouiller": {
+            "catGram": "verbe",
+            "def": "Exciter l'épiderme de qqn par des attouchements réguliers provoquant un rire convulsif."
+        },
+        "mesquin": {
+            "catGram": "adjectif",
+            "def": "Attaché à ce qui est petit, médiocre"
+        },
+        "obliger": {
+            "catGram": "verbe",
+            "def": "Mettre qqn dans l'obligation de faire qqch."
         }
     }
 }
