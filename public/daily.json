@@ -1,20 +1,20 @@
 {
     "words": {
-        "péril": {
-            "catGram": "nom masculin",
-            "def": "État, situation d'une personne, d'une chose qui court de grands risques, dont l'existence est menacée."
-        },
-        "chatouiller": {
-            "catGram": "verbe",
-            "def": "Exciter l'épiderme de qqn par des attouchements réguliers provoquant un rire convulsif."
-        },
-        "mesquin": {
+        "favoris": {
             "catGram": "adjectif",
-            "def": "Attaché à ce qui est petit, médiocre"
+            "def": "Qui est le plus aimé par qqn."
         },
-        "obliger": {
-            "catGram": "verbe",
-            "def": "Mettre qqn dans l'obligation de faire qqch."
+        "détenteur": {
+            "catGram": "nom",
+            "def": "Personne qui détient, qui possède qqch."
+        },
+        "pédagogie": {
+            "catGram": "nom féminin",
+            "def": "Science de l’éducation des jeunes."
+        },
+        "relèvement": {
+            "catGram": "nom masculin",
+            "def": "Action de remettre debout, droit."
         }
     }
 }
