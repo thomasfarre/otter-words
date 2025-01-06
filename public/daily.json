@@ -1,20 +1,20 @@
 {
     "words": {
-        "favoris": {
+        "chimique": {
             "catGram": "adjectif",
-            "def": "Qui est le plus aimé par qqn."
+            "def": "Qui se rapporte à la chimie et aux phénomènes qu'elle étudie."
         },
-        "détenteur": {
-            "catGram": "nom",
-            "def": "Personne qui détient, qui possède qqch."
+        "croquer": {
+            "catGram": "verbe",
+            "def": "Faire un bruit sec sous la dent."
         },
-        "pédagogie": {
+        "métaphore": {
             "catGram": "nom féminin",
-            "def": "Science de l’éducation des jeunes."
+            "def": "Figure de rhétorique qui consiste à attribuer à un mot un sens abstrait sur la base d'une comparaison analogique implicite (ex. :une pluie de compliments)."
         },
-        "relèvement": {
-            "catGram": "nom masculin",
-            "def": "Action de remettre debout, droit."
+        "bientôt": {
+            "catGram": "adverbe",
+            "def": "D'ici peu, dans un proche avenir."
         }
     }
 }
