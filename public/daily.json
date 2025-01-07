@@ -1,20 +1,20 @@
 {
     "words": {
-        "chimique": {
+        "micro-organisme": {
+            "catGram": "nom masculin",
+            "def": "Organisme vivant de taille microscopique."
+        },
+        "autonome": {
             "catGram": "adjectif",
-            "def": "Qui se rapporte à la chimie et aux phénomènes qu'elle étudie."
+            "def": "Qui se gouverne soi-même."
         },
-        "croquer": {
-            "catGram": "verbe",
-            "def": "Faire un bruit sec sous la dent."
+        "cannelé": {
+            "catGram": "adjectif",
+            "def": "Orné de cannelures."
         },
-        "métaphore": {
-            "catGram": "nom féminin",
-            "def": "Figure de rhétorique qui consiste à attribuer à un mot un sens abstrait sur la base d'une comparaison analogique implicite (ex. :une pluie de compliments)."
-        },
-        "bientôt": {
-            "catGram": "adverbe",
-            "def": "D'ici peu, dans un proche avenir."
+        "dogmatique": {
+            "catGram": "adjectif",
+            "def": "Relatif au dogme."
         }
     }
 }
