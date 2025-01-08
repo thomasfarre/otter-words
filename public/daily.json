@@ -1,20 +1,20 @@
 {
     "words": {
-        "micro-organisme": {
+        "séraphique": {
+            "catGram": "adjectif",
+            "def": "Propre aux séraphins."
+        },
+        "hélianthe": {
             "catGram": "nom masculin",
-            "def": "Organisme vivant de taille microscopique."
+            "def": "Plante herbacée originaire d’Amérique du Nord et du Mexique, dont on cultive plusieurs espèces de très grande taille pour leurs fleurs en grands capitules jaunes, utilisées à des fins ornementales ou comme source importante d’huile végétale"
         },
-        "autonome": {
-            "catGram": "adjectif",
-            "def": "Qui se gouverne soi-même."
+        "francophonie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble de ceux qui parlent français"
         },
-        "cannelé": {
-            "catGram": "adjectif",
-            "def": "Orné de cannelures."
-        },
-        "dogmatique": {
-            "catGram": "adjectif",
-            "def": "Relatif au dogme."
+        "effectivement": {
+            "catGram": "adverbe",
+            "def": "D'une manière effective, qui existe réellement."
         }
     }
 }
