@@ -1,20 +1,20 @@
 {
     "words": {
-        "séraphique": {
-            "catGram": "adjectif",
-            "def": "Propre aux séraphins."
-        },
-        "hélianthe": {
-            "catGram": "nom masculin",
-            "def": "Plante herbacée originaire d’Amérique du Nord et du Mexique, dont on cultive plusieurs espèces de très grande taille pour leurs fleurs en grands capitules jaunes, utilisées à des fins ornementales ou comme source importante d’huile végétale"
-        },
-        "francophonie": {
-            "catGram": "nom féminin",
-            "def": "Ensemble de ceux qui parlent français"
-        },
-        "effectivement": {
+        "uniquement": {
             "catGram": "adverbe",
-            "def": "D'une manière effective, qui existe réellement."
+            "def": "Exclusivement."
+        },
+        "cruellement": {
+            "catGram": "adverbe",
+            "def": "D'une manière cruelle."
+        },
+        "privilégier": {
+            "catGram": "verbe",
+            "def": "Accorder un privilège à qqn, avantager qqn."
+        },
+        "camp": {
+            "catGram": "nom masculin",
+            "def": "Zone aménagée pour le stationnement ou l’instruction de troupes militaires."
         }
     }
 }
