@@ -1,20 +1,20 @@
 {
     "words": {
-        "uniquement": {
-            "catGram": "adverbe",
-            "def": "Exclusivement."
+        "épidémique": {
+            "catGram": "adjectif",
+            "def": "Qui est de la nature de l'épidémie"
         },
-        "cruellement": {
-            "catGram": "adverbe",
-            "def": "D'une manière cruelle."
+        "fluide": {
+            "catGram": "adjectif",
+            "def": "Qui coule, s'écoule facilement, librement du fait que ses molécules sont faiblement liées"
         },
-        "privilégier": {
-            "catGram": "verbe",
-            "def": "Accorder un privilège à qqn, avantager qqn."
-        },
-        "camp": {
+        "diabète": {
             "catGram": "nom masculin",
-            "def": "Zone aménagée pour le stationnement ou l’instruction de troupes militaires."
+            "def": "Toute maladie caractérisée par une élimination excessive d'urine et par une augmentation de la soif."
+        },
+        "dicton": {
+            "catGram": "nom masculin",
+            "def": "Sentence, généralement d’origine populaire, passée en proverbe."
         }
     }
 }
