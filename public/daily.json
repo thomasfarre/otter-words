@@ -1,20 +1,20 @@
 {
     "words": {
-        "épidémique": {
+        "clore": {
+            "catGram": "verbe",
+            "def": "Fermer."
+        },
+        "bouse": {
+            "catGram": "nom féminin",
+            "def": "Excrément des bovins."
+        },
+        "communal": {
             "catGram": "adjectif",
-            "def": "Qui est de la nature de l'épidémie"
+            "def": "Qui appartient à la commune."
         },
-        "fluide": {
-            "catGram": "adjectif",
-            "def": "Qui coule, s'écoule facilement, librement du fait que ses molécules sont faiblement liées"
-        },
-        "diabète": {
+        "rattachement": {
             "catGram": "nom masculin",
-            "def": "Toute maladie caractérisée par une élimination excessive d'urine et par une augmentation de la soif."
-        },
-        "dicton": {
-            "catGram": "nom masculin",
-            "def": "Sentence, généralement d’origine populaire, passée en proverbe."
+            "def": "Action de rattacher"
         }
     }
 }
