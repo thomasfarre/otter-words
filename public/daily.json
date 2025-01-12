@@ -1,20 +1,20 @@
 {
     "words": {
-        "clore": {
+        "abréger": {
             "catGram": "verbe",
-            "def": "Fermer."
+            "def": "Écourter la durée de."
         },
-        "bouse": {
-            "catGram": "nom féminin",
-            "def": "Excrément des bovins."
+        "déconcerter": {
+            "catGram": "verbe",
+            "def": "Déranger, empêcher la réalisation de."
         },
-        "communal": {
-            "catGram": "adjectif",
-            "def": "Qui appartient à la commune."
-        },
-        "rattachement": {
+        "archevêque": {
             "catGram": "nom masculin",
-            "def": "Action de rattacher"
+            "def": "Évêque placé à la tête d'un archevêché."
+        },
+        "boiter": {
+            "catGram": "verbe",
+            "def": "Marcher en penchant son corps inégalement d’un côté ou de l’autre."
         }
     }
 }
