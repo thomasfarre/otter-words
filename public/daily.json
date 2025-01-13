@@ -1,20 +1,20 @@
 {
     "words": {
-        "abréger": {
-            "catGram": "verbe",
-            "def": "Écourter la durée de."
+        "cuisse": {
+            "catGram": "nom féminin",
+            "def": "Partie du membre inférieur comprise entre la hanche et le genou, chez l’être humain."
         },
-        "déconcerter": {
-            "catGram": "verbe",
-            "def": "Déranger, empêcher la réalisation de."
+        "réticent": {
+            "catGram": "adjectif",
+            "def": "Qui comporte des réticences."
         },
-        "archevêque": {
+        "amont": {
             "catGram": "nom masculin",
-            "def": "Évêque placé à la tête d'un archevêché."
+            "def": "Partie d'un cours d'eau située entre un point déterminé et la source"
         },
-        "boiter": {
-            "catGram": "verbe",
-            "def": "Marcher en penchant son corps inégalement d’un côté ou de l’autre."
+        "authentiquement": {
+            "catGram": "adverbe",
+            "def": "De manière authentique."
         }
     }
 }
