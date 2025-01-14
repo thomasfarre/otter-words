@@ -1,20 +1,20 @@
 {
     "words": {
-        "cuisse": {
-            "catGram": "nom féminin",
-            "def": "Partie du membre inférieur comprise entre la hanche et le genou, chez l’être humain."
-        },
-        "réticent": {
+        "acéré": {
             "catGram": "adjectif",
-            "def": "Qui comporte des réticences."
+            "def": "Tranchant ou pointu."
         },
-        "amont": {
-            "catGram": "nom masculin",
-            "def": "Partie d'un cours d'eau située entre un point déterminé et la source"
-        },
-        "authentiquement": {
+        "effectivement": {
             "catGram": "adverbe",
-            "def": "De manière authentique."
+            "def": "D'une manière effective, qui existe réellement."
+        },
+        "violation": {
+            "catGram": "nom féminin",
+            "def": "Action de transgresser une loi, une règle."
+        },
+        "hyacinthe": {
+            "catGram": "nom féminin",
+            "def": "Nom donné à la jacinthe."
         }
     }
 }
