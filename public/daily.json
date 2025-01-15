@@ -1,20 +1,20 @@
 {
     "words": {
-        "acéré": {
+        "érudit": {
             "catGram": "adjectif",
-            "def": "Tranchant ou pointu."
+            "def": "Qui a de l’érudition."
         },
-        "effectivement": {
-            "catGram": "adverbe",
-            "def": "D'une manière effective, qui existe réellement."
-        },
-        "violation": {
+        "piété": {
             "catGram": "nom féminin",
-            "def": "Action de transgresser une loi, une règle."
+            "def": "Attachement respectueux à Dieu et à la pratique de la religion"
         },
-        "hyacinthe": {
+        "nier": {
+            "catGram": "verbe",
+            "def": "Déclarer que qqch. n'est pas vrai, n'existe pas."
+        },
+        "détection": {
             "catGram": "nom féminin",
-            "def": "Nom donné à la jacinthe."
+            "def": "Action de détecter"
         }
     }
 }
