@@ -1,20 +1,20 @@
 {
     "words": {
-        "érudit": {
-            "catGram": "adjectif",
-            "def": "Qui a de l’érudition."
-        },
-        "piété": {
+        "décharge": {
             "catGram": "nom féminin",
-            "def": "Attachement respectueux à Dieu et à la pratique de la religion"
+            "def": "Action de décharger."
         },
-        "nier": {
+        "dépraver": {
             "catGram": "verbe",
-            "def": "Déclarer que qqch. n'est pas vrai, n'existe pas."
+            "def": "Corrompre profondément une personne en la détournant vers le mal."
         },
-        "détection": {
+        "vocable": {
+            "catGram": "nom masculin",
+            "def": "Mot, considéré quant à sa signification et à son individualité lexicale."
+        },
+        "écriture": {
             "catGram": "nom féminin",
-            "def": "Action de détecter"
+            "def": "Représentation d’une langue par un système conventionnel de signes graphiques."
         }
     }
 }
