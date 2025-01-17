@@ -1,20 +1,20 @@
 {
     "words": {
-        "décharge": {
+        "synthèse": {
             "catGram": "nom féminin",
-            "def": "Action de décharger."
+            "def": "Opération, méthode par laquelle on procède du simple au complexe, des éléments au tout, de la cause aux effets"
         },
-        "dépraver": {
-            "catGram": "verbe",
-            "def": "Corrompre profondément une personne en la détournant vers le mal."
-        },
-        "vocable": {
+        "gigot": {
             "catGram": "nom masculin",
-            "def": "Mot, considéré quant à sa signification et à son individualité lexicale."
+            "def": "Cuisse d'animal (agneau, mouton, chevreuil) coupée pour être mangée"
         },
-        "écriture": {
-            "catGram": "nom féminin",
-            "def": "Représentation d’une langue par un système conventionnel de signes graphiques."
+        "authentifier": {
+            "catGram": "verbe",
+            "def": "Rendre authentique"
+        },
+        "numéral": {
+            "catGram": "adjectif",
+            "def": "Qui désigne, représente, symbolise un nombre."
         }
     }
 }
