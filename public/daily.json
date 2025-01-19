@@ -1,20 +1,20 @@
 {
     "words": {
-        "banaliser": {
-            "catGram": "verbe",
-            "def": "Rendre banal, ordinaire."
+        "irrégulier": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas conforme aux usages ou aux dispositions légales, réglementaires."
         },
-        "hier": {
-            "catGram": "adverbe",
-            "def": "Le jour qui précède celui où l'on est."
+        "préconçu": {
+            "catGram": "adjectif",
+            "def": "Conçu, imaginé, pensé par avance."
         },
-        "vulgairement": {
-            "catGram": "adverbe",
-            "def": "Dans la langue commune, vulgaire."
+        "rassasié": {
+            "catGram": "adjectif",
+            "def": "Dont la faim est pleinement satisfaite"
         },
-        "sein": {
-            "catGram": "nom féminin",
-            "def": "Partie antérieure du thorax humain, où sont situées les mamelles."
+        "altruiste": {
+            "catGram": "adjectif",
+            "def": "Qui se réfère à l'altruisme"
         }
     }
 }
