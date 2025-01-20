@@ -1,20 +1,20 @@
 {
     "words": {
-        "irrégulier": {
-            "catGram": "adjectif",
-            "def": "Qui n'est pas conforme aux usages ou aux dispositions légales, réglementaires."
+        "zygote": {
+            "catGram": "nom masculin",
+            "def": "Cellule issue de l'union d'un gamète mâle et d'un gamète femelle."
         },
-        "préconçu": {
-            "catGram": "adjectif",
-            "def": "Conçu, imaginé, pensé par avance."
+        "vanité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est vide de sens"
         },
-        "rassasié": {
-            "catGram": "adjectif",
-            "def": "Dont la faim est pleinement satisfaite"
+        "monde": {
+            "catGram": "nom masculin",
+            "def": "Ensemble de tout ce qui existe."
         },
-        "altruiste": {
-            "catGram": "adjectif",
-            "def": "Qui se réfère à l'altruisme"
+        "brochette": {
+            "catGram": "nom féminin",
+            "def": "Petite tige (de bois, de métal) sur laquelle on enfile des morceaux de viande, de poisson, de légumes, pour les griller"
         }
     }
 }
