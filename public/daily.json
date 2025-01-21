@@ -1,20 +1,20 @@
 {
     "words": {
-        "zygote": {
-            "catGram": "nom masculin",
-            "def": "Cellule issue de l'union d'un gamète mâle et d'un gamète femelle."
-        },
-        "vanité": {
+        "métropole": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est vide de sens"
+            "def": "Ville dotée d'un archevêché, dans le catholicisme."
         },
-        "monde": {
-            "catGram": "nom masculin",
-            "def": "Ensemble de tout ce qui existe."
-        },
-        "brochette": {
+        "intrusion": {
             "catGram": "nom féminin",
-            "def": "Petite tige (de bois, de métal) sur laquelle on enfile des morceaux de viande, de poisson, de légumes, pour les griller"
+            "def": "Action de s’introduire illégitimement dans une charge, une fonction ou une dignité."
+        },
+        "édenté": {
+            "catGram": "adjectif",
+            "def": "Qui a perdu ses dents, en totalité ou en partie."
+        },
+        "structurel": {
+            "catGram": "adjectif",
+            "def": "Relatif à une structure."
         }
     }
 }
