@@ -1,20 +1,20 @@
 {
     "words": {
-        "métropole": {
-            "catGram": "nom féminin",
-            "def": "Ville dotée d'un archevêché, dans le catholicisme."
+        "raffinage": {
+            "catGram": "nom masculin",
+            "def": "Ensemble des opérations par lesquelles on traite un produit pour le purifier ou pour en séparer certaines substances."
         },
-        "intrusion": {
-            "catGram": "nom féminin",
-            "def": "Action de s’introduire illégitimement dans une charge, une fonction ou une dignité."
+        "congratuler": {
+            "catGram": "verbe",
+            "def": "Féliciter qqn, se réjouir avec lui d'un événement heureux."
         },
-        "édenté": {
+        "baser": {
+            "catGram": "verbe",
+            "def": "Faire reposer qqch. sur ce que l’on considère comme base."
+        },
+        "requis": {
             "catGram": "adjectif",
-            "def": "Qui a perdu ses dents, en totalité ou en partie."
-        },
-        "structurel": {
-            "catGram": "adjectif",
-            "def": "Relatif à une structure."
+            "def": "Qui est indispensable pour ce qui est demandé, le plus souvent par une autorité."
         }
     }
 }
