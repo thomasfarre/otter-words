@@ -1,20 +1,20 @@
 {
     "words": {
-        "raffinage": {
+        "rentrer": {
+            "catGram": "verbe",
+            "def": "Entrer de nouveau dans un lieu d'où on est sorti."
+        },
+        "concept": {
             "catGram": "nom masculin",
-            "def": "Ensemble des opérations par lesquelles on traite un produit pour le purifier ou pour en séparer certaines substances."
+            "def": "Représentation mentale abstraite et générale, objective, stable, munie d'un support verbal."
         },
-        "congratuler": {
+        "asphalter": {
             "catGram": "verbe",
-            "def": "Féliciter qqn, se réjouir avec lui d'un événement heureux."
+            "def": "Couvrir d'asphalte."
         },
-        "baser": {
-            "catGram": "verbe",
-            "def": "Faire reposer qqch. sur ce que l’on considère comme base."
-        },
-        "requis": {
+        "compétent": {
             "catGram": "adjectif",
-            "def": "Qui est indispensable pour ce qui est demandé, le plus souvent par une autorité."
+            "def": "Qui a la compétence requise pour effectuer certains actes."
         }
     }
 }
