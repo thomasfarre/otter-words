@@ -1,20 +1,20 @@
 {
     "words": {
-        "rentrer": {
-            "catGram": "verbe",
-            "def": "Entrer de nouveau dans un lieu d'où on est sorti."
-        },
-        "concept": {
-            "catGram": "nom masculin",
-            "def": "Représentation mentale abstraite et générale, objective, stable, munie d'un support verbal."
-        },
-        "asphalter": {
-            "catGram": "verbe",
-            "def": "Couvrir d'asphalte."
-        },
-        "compétent": {
+        "rétrospective": {
             "catGram": "adjectif",
-            "def": "Qui a la compétence requise pour effectuer certains actes."
+            "def": "Qui est dirigé vers le passé, qui concerne le passé."
+        },
+        "pied": {
+            "catGram": "nom masculin",
+            "def": "Partie terminale du membre inférieur, articulée à la jambe par la cheville et munie de cinq doigts, permettant la station debout et la marche par son aptitude à reposer à plat sur le sol."
+        },
+        "mollusque": {
+            "catGram": "nom masculin",
+            "def": "Animal invertébré des milieux aquatiques ou humides, à morphologie très variable, dont le corps mou est souvent protégé par une coquille calcaire."
+        },
+        "godiche": {
+            "catGram": "adjectif",
+            "def": "Qui est maladroit, niais"
         }
     }
 }
