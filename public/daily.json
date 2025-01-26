@@ -1,20 +1,20 @@
 {
     "words": {
-        "vétérinaire": {
-            "catGram": "adjectif",
-            "def": "Relatif aux soins dispensés aux animaux, à la médecine des animaux."
-        },
-        "soulager": {
-            "catGram": "verbe",
-            "def": "Débarrasser une personne, un animal d'une charge, d’une partie d’une charge, lui épargner de la fatigue."
-        },
-        "réjouir": {
-            "catGram": "verbe",
-            "def": "Procurer de la joie, du plaisir, de la satisfaction"
-        },
-        "brouille": {
+        "augmentation": {
             "catGram": "nom féminin",
-            "def": "Mésentente entre des personnes ayant des rapports affectueux ou réguliers"
+            "def": "Action d'augmenter"
+        },
+        "matériellement": {
+            "catGram": "adverbe",
+            "def": "En ce qui concerne la matière"
+        },
+        "émission": {
+            "catGram": "nom féminin",
+            "def": "Écoulement sous pression d’un liquide hors de l’organisme."
+        },
+        "croc": {
+            "catGram": "nom masculin",
+            "def": "Instrument muni d’une ou de plusieurs extrémités recourbées et souvent pointues, servant à suspendre qqch."
         }
     }
 }
