@@ -1,20 +1,20 @@
 {
     "words": {
-        "augmentation": {
+        "flegmatique": {
+            "catGram": "adjectif",
+            "def": "Qui maîtrise ses réactions, demeure calme en toutes circonstances."
+        },
+        "composé": {
+            "catGram": "adjectif",
+            "def": "Qui est formé de plusieurs parties ou d'éléments divers."
+        },
+        "brute": {
             "catGram": "nom féminin",
-            "def": "Action d'augmenter"
+            "def": "Animal considéré dans ce qu'il a de plus primitif et de plus éloigné de l’être humain."
         },
-        "matériellement": {
-            "catGram": "adverbe",
-            "def": "En ce qui concerne la matière"
-        },
-        "émission": {
-            "catGram": "nom féminin",
-            "def": "Écoulement sous pression d’un liquide hors de l’organisme."
-        },
-        "croc": {
-            "catGram": "nom masculin",
-            "def": "Instrument muni d’une ou de plusieurs extrémités recourbées et souvent pointues, servant à suspendre qqch."
+        "buccal": {
+            "catGram": "adjectif",
+            "def": "De la bouche"
         }
     }
 }
