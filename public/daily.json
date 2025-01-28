@@ -1,20 +1,20 @@
 {
     "words": {
-        "flegmatique": {
-            "catGram": "adjectif",
-            "def": "Qui maîtrise ses réactions, demeure calme en toutes circonstances."
-        },
-        "composé": {
-            "catGram": "adjectif",
-            "def": "Qui est formé de plusieurs parties ou d'éléments divers."
-        },
-        "brute": {
+        "jadéite": {
             "catGram": "nom féminin",
-            "def": "Animal considéré dans ce qu'il a de plus primitif et de plus éloigné de l’être humain."
+            "def": "Variété de jade à faible teneur en calcium, en magnésium et en fer, translucide et très fusible, dont la couleur varie du blanc verdâtre au vert foncé."
         },
-        "buccal": {
-            "catGram": "adjectif",
-            "def": "De la bouche"
+        "baptême": {
+            "catGram": "nom masculin",
+            "def": "Sacrement destiné à introduire une personne dans la communauté chrétienne en la purifiant du péché originel."
+        },
+        "pacifier": {
+            "catGram": "verbe",
+            "def": "Ramener à l'état de paix (un peuple, un pays, un territoire secoués par la guerre, la rébellion)."
+        },
+        "culte": {
+            "catGram": "nom masculin",
+            "def": "Hommage religieux rendu à Dieu, à quelque divinité, à un saint ou à un objet digne de vénération."
         }
     }
 }
