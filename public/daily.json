@@ -1,20 +1,20 @@
 {
     "words": {
-        "aspiration": {
+        "emprisonnement": {
+            "catGram": "nom masculin",
+            "def": "Fait d'emprisonner"
+        },
+        "métaphore": {
             "catGram": "nom féminin",
-            "def": "Action d’aspirer"
+            "def": "Figure de rhétorique qui consiste à attribuer à un mot un sens abstrait sur la base d'une comparaison analogique implicite (ex. :une pluie de compliments)."
         },
-        "guenon": {
-            "catGram": "nom féminin",
-            "def": "Singe femelle."
+        "arpenter": {
+            "catGram": "verbe",
+            "def": "Mesurer la superficie d’une terre, d’un terrain."
         },
-        "intégralement": {
-            "catGram": "adverbe",
-            "def": "De manière intégrale"
-        },
-        "adroitement": {
-            "catGram": "adverbe",
-            "def": "D'une manière adroite."
+        "outrepasser": {
+            "catGram": "verbe",
+            "def": "Aller au-delà de ce qui est permis en matière de."
         }
     }
 }
