@@ -1,20 +1,20 @@
 {
     "words": {
-        "emprisonnement": {
-            "catGram": "nom masculin",
-            "def": "Fait d'emprisonner"
+        "sucré": {
+            "catGram": "adjectif",
+            "def": "Qui contient naturellement du sucre"
         },
-        "métaphore": {
-            "catGram": "nom féminin",
-            "def": "Figure de rhétorique qui consiste à attribuer à un mot un sens abstrait sur la base d'une comparaison analogique implicite (ex. :une pluie de compliments)."
-        },
-        "arpenter": {
+        "devancer": {
             "catGram": "verbe",
-            "def": "Mesurer la superficie d’une terre, d’un terrain."
+            "def": "Prendre de l'avance sur d’autres."
         },
-        "outrepasser": {
-            "catGram": "verbe",
-            "def": "Aller au-delà de ce qui est permis en matière de."
+        "diagonale": {
+            "catGram": "adjectif",
+            "def": "Qui joint les sommets de deux angles non consécutifs d'un polygone ou d'un polyèdre."
+        },
+        "désargenté": {
+            "catGram": "adjectif",
+            "def": "Se dit d'un objet qui a perdu son argenture."
         }
     }
 }
