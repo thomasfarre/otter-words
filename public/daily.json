@@ -1,20 +1,20 @@
 {
     "words": {
-        "sucré": {
+        "magnifique": {
             "catGram": "adjectif",
-            "def": "Qui contient naturellement du sucre"
+            "def": "Qui vit fastueusement, qui se plaît à faire de grandes dépenses pour paraître avec éclat."
         },
-        "devancer": {
-            "catGram": "verbe",
-            "def": "Prendre de l'avance sur d’autres."
+        "théâtralement": {
+            "catGram": "adverbe",
+            "def": "De manière théâtrale."
         },
-        "diagonale": {
+        "ténèbres": {
+            "catGram": "nom féminin",
+            "def": "Obscurité totale et profonde, généralement en parlant d’un espace matériellement délimité."
+        },
+        "utilitaire": {
             "catGram": "adjectif",
-            "def": "Qui joint les sommets de deux angles non consécutifs d'un polygone ou d'un polyèdre."
-        },
-        "désargenté": {
-            "catGram": "adjectif",
-            "def": "Se dit d'un objet qui a perdu son argenture."
+            "def": "Qui vise le pratique, l'utile."
         }
     }
 }
