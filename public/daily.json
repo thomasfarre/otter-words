@@ -1,20 +1,20 @@
 {
     "words": {
-        "magnifique": {
-            "catGram": "adjectif",
-            "def": "Qui vit fastueusement, qui se plaît à faire de grandes dépenses pour paraître avec éclat."
-        },
-        "théâtralement": {
-            "catGram": "adverbe",
-            "def": "De manière théâtrale."
-        },
-        "ténèbres": {
+        "purge": {
             "catGram": "nom féminin",
-            "def": "Obscurité totale et profonde, généralement en parlant d’un espace matériellement délimité."
+            "def": "Action de purger"
         },
-        "utilitaire": {
+        "foncé": {
             "catGram": "adjectif",
-            "def": "Qui vise le pratique, l'utile."
+            "def": "Qui est de nuance plus sombre, en parlant d’une couleur, d’un ton"
+        },
+        "émouvant": {
+            "catGram": "adjectif",
+            "def": "Qui suscite l'émotion"
+        },
+        "inéquitable": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas équitable."
         }
     }
 }
