@@ -1,20 +1,20 @@
 {
     "words": {
-        "purge": {
-            "catGram": "nom féminin",
-            "def": "Action de purger"
+        "prévenir": {
+            "catGram": "verbe",
+            "def": "Informer qqn (de qqch. à venir)."
         },
-        "foncé": {
-            "catGram": "adjectif",
-            "def": "Qui est de nuance plus sombre, en parlant d’une couleur, d’un ton"
+        "librement": {
+            "catGram": "adverbe",
+            "def": "Sans entrave physique, sans entrave à la liberté de mouvement."
         },
-        "émouvant": {
-            "catGram": "adjectif",
-            "def": "Qui suscite l'émotion"
+        "hoqueter": {
+            "catGram": "verbe",
+            "def": "Avoir un hoquet, une série de hoquets."
         },
-        "inéquitable": {
+        "tiers": {
             "catGram": "adjectif",
-            "def": "Qui n'est pas équitable."
+            "def": "Troisième."
         }
     }
 }
