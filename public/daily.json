@@ -1,20 +1,20 @@
 {
     "words": {
-        "prévenir": {
-            "catGram": "verbe",
-            "def": "Informer qqn (de qqch. à venir)."
-        },
-        "librement": {
-            "catGram": "adverbe",
-            "def": "Sans entrave physique, sans entrave à la liberté de mouvement."
-        },
-        "hoqueter": {
-            "catGram": "verbe",
-            "def": "Avoir un hoquet, une série de hoquets."
-        },
-        "tiers": {
+        "seizième": {
             "catGram": "adjectif",
-            "def": "Troisième."
+            "def": "Qui occupe le rang marqué par le nombre seize (16eou XVIe)."
+        },
+        "suspendu": {
+            "catGram": "adjectif",
+            "def": "Qui est en suspens, momentanément interrompu."
+        },
+        "fréquent": {
+            "catGram": "adjectif",
+            "def": "Qui se produit, qui se répète souvent."
+        },
+        "barrer": {
+            "catGram": "verbe",
+            "def": "Fermer au moyen d’une barre."
         }
     }
 }
