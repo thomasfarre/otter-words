@@ -1,20 +1,20 @@
 {
     "words": {
-        "seizième": {
+        "travaillé": {
             "catGram": "adjectif",
-            "def": "Qui occupe le rang marqué par le nombre seize (16eou XVIe)."
+            "def": "Ouvragé."
         },
-        "suspendu": {
+        "autographe": {
             "catGram": "adjectif",
-            "def": "Qui est en suspens, momentanément interrompu."
+            "def": "Qui est écrit de la main même de son auteur."
         },
-        "fréquent": {
-            "catGram": "adjectif",
-            "def": "Qui se produit, qui se répète souvent."
-        },
-        "barrer": {
+        "asticoter": {
             "catGram": "verbe",
-            "def": "Fermer au moyen d’une barre."
+            "def": "Harceler pour des détails."
+        },
+        "liseur": {
+            "catGram": "nom",
+            "def": "Personne qui lit beaucoup, qui aime lire."
         }
     }
 }
