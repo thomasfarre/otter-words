@@ -1,20 +1,20 @@
 {
     "words": {
-        "travaillé": {
-            "catGram": "adjectif",
-            "def": "Ouvragé."
-        },
-        "autographe": {
-            "catGram": "adjectif",
-            "def": "Qui est écrit de la main même de son auteur."
-        },
-        "asticoter": {
+        "accuser": {
             "catGram": "verbe",
-            "def": "Harceler pour des détails."
+            "def": "Présenter qqn comme coupable (de qqch.)."
         },
-        "liseur": {
-            "catGram": "nom",
-            "def": "Personne qui lit beaucoup, qui aime lire."
+        "bousiller": {
+            "catGram": "verbe",
+            "def": "Maçonner, bâtir en bousillage."
+        },
+        "prévenant": {
+            "catGram": "adjectif",
+            "def": "Qui va au-devant des besoins, des désirs d'autrui."
+        },
+        "hutte": {
+            "catGram": "nom féminin",
+            "def": "Abri ou habitation rudimentaire, faite de terre, de paille, de branches."
         }
     }
 }
