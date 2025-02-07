@@ -1,20 +1,20 @@
 {
     "words": {
-        "accuser": {
-            "catGram": "verbe",
-            "def": "Présenter qqn comme coupable (de qqch.)."
-        },
-        "bousiller": {
-            "catGram": "verbe",
-            "def": "Maçonner, bâtir en bousillage."
-        },
-        "prévenant": {
+        "persistant": {
             "catGram": "adjectif",
-            "def": "Qui va au-devant des besoins, des désirs d'autrui."
+            "def": "Qui persiste, qui subsiste de façon durable."
         },
-        "hutte": {
+        "reconquérir": {
+            "catGram": "verbe",
+            "def": "Conquérir de nouveau."
+        },
+        "gamelle": {
             "catGram": "nom féminin",
-            "def": "Abri ou habitation rudimentaire, faite de terre, de paille, de branches."
+            "def": "Grande écuelle de bois ou de métal dans laquelle plusieurs soldats ou matelots mangeaient ensemble."
+        },
+        "inopiné": {
+            "catGram": "adjectif",
+            "def": "Qui survient sans être prévu ou attendu."
         }
     }
 }
