@@ -1,20 +1,20 @@
 {
     "words": {
-        "persistant": {
-            "catGram": "adjectif",
-            "def": "Qui persiste, qui subsiste de façon durable."
+        "rallye": {
+            "catGram": "nom masculin",
+            "def": "Épreuve sportive dans laquelle les concurrents (isolés ou en groupe) doivent rallier un lieu déterminé après un certain nombre d'étapes."
         },
-        "reconquérir": {
-            "catGram": "verbe",
-            "def": "Conquérir de nouveau."
+        "acheminement": {
+            "catGram": "nom masculin",
+            "def": "Action d'acheminer."
         },
-        "gamelle": {
+        "gouvernement": {
+            "catGram": "nom masculin",
+            "def": "Action de gouverner, de gérer un État."
+        },
+        "colline": {
             "catGram": "nom féminin",
-            "def": "Grande écuelle de bois ou de métal dans laquelle plusieurs soldats ou matelots mangeaient ensemble."
-        },
-        "inopiné": {
-            "catGram": "adjectif",
-            "def": "Qui survient sans être prévu ou attendu."
+            "def": "Relief peu ou moyennement élevé de forme arrondie, aux versants en pente douce."
         }
     }
 }
