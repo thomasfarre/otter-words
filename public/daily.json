@@ -1,20 +1,20 @@
 {
     "words": {
-        "rallye": {
-            "catGram": "nom masculin",
-            "def": "Épreuve sportive dans laquelle les concurrents (isolés ou en groupe) doivent rallier un lieu déterminé après un certain nombre d'étapes."
+        "compétiteur": {
+            "catGram": "nom",
+            "def": "Individu, groupe en compétition avec d’autres."
         },
-        "acheminement": {
-            "catGram": "nom masculin",
-            "def": "Action d'acheminer."
+        "doublé": {
+            "catGram": "adjectif",
+            "def": "Qui a été multiplié par deux."
         },
-        "gouvernement": {
-            "catGram": "nom masculin",
-            "def": "Action de gouverner, de gérer un État."
+        "espionner": {
+            "catGram": "verbe",
+            "def": "Recueillir clandestinement des renseignements (sur qqn ou qqch.) au profit d'une puissance étrangère."
         },
-        "colline": {
-            "catGram": "nom féminin",
-            "def": "Relief peu ou moyennement élevé de forme arrondie, aux versants en pente douce."
+        "étatique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l’État."
         }
     }
 }
