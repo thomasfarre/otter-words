@@ -1,20 +1,20 @@
 {
     "words": {
-        "compétiteur": {
-            "catGram": "nom",
-            "def": "Individu, groupe en compétition avec d’autres."
+        "périphérie": {
+            "catGram": "nom féminin",
+            "def": "Ligne qui délimite une figure plane curviligne, une surface circulaire ou ovale."
         },
-        "doublé": {
-            "catGram": "adjectif",
-            "def": "Qui a été multiplié par deux."
+        "coulée": {
+            "catGram": "nom féminin",
+            "def": "Action de verser dans un moule une matière en fusion"
         },
-        "espionner": {
+        "étriller": {
             "catGram": "verbe",
-            "def": "Recueillir clandestinement des renseignements (sur qqn ou qqch.) au profit d'une puissance étrangère."
+            "def": "Frotter, nettoyer avec l'étrille."
         },
-        "étatique": {
+        "eurythmique": {
             "catGram": "adjectif",
-            "def": "Relatif à l’État."
+            "def": "Harmonieux, équilibré."
         }
     }
 }
