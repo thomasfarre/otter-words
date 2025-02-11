@@ -1,20 +1,20 @@
 {
     "words": {
-        "périphérie": {
-            "catGram": "nom féminin",
-            "def": "Ligne qui délimite une figure plane curviligne, une surface circulaire ou ovale."
+        "machinalement": {
+            "catGram": "adverbe",
+            "def": "D'une manière machinale."
         },
-        "coulée": {
-            "catGram": "nom féminin",
-            "def": "Action de verser dans un moule une matière en fusion"
-        },
-        "étriller": {
-            "catGram": "verbe",
-            "def": "Frotter, nettoyer avec l'étrille."
-        },
-        "eurythmique": {
+        "grisonnant": {
             "catGram": "adjectif",
-            "def": "Harmonieux, équilibré."
+            "def": "Qui grisonne."
+        },
+        "tresser": {
+            "catGram": "verbe",
+            "def": "Arranger (les cheveux) en tresse."
+        },
+        "exhorter": {
+            "catGram": "verbe",
+            "def": "Encourager qqn à faire qqch. par des propos persuasifs."
         }
     }
 }
