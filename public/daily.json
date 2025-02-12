@@ -1,20 +1,20 @@
 {
     "words": {
-        "machinalement": {
-            "catGram": "adverbe",
-            "def": "D'une manière machinale."
+        "bénéfice": {
+            "catGram": "nom masculin",
+            "def": "Avantage que procure qqn, qqch."
         },
-        "grisonnant": {
-            "catGram": "adjectif",
-            "def": "Qui grisonne."
-        },
-        "tresser": {
+        "couvrir": {
             "catGram": "verbe",
-            "def": "Arranger (les cheveux) en tresse."
+            "def": "Mettre, poser qqch. qui est plus ou moins ajusté sur qqch. ou qqn, afin de l’orner, de le protéger, de le fermer, de le cacher."
         },
-        "exhorter": {
+        "attirer": {
             "catGram": "verbe",
-            "def": "Encourager qqn à faire qqch. par des propos persuasifs."
+            "def": "Exercer une force sur un objet en le faisant venir vers un lieu déterminé"
+        },
+        "connotation": {
+            "catGram": "nom féminin",
+            "def": "Tout ce qu'évoque un mot, une expression, indépendamment de sa signification."
         }
     }
 }
