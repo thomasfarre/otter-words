@@ -1,20 +1,20 @@
 {
     "words": {
-        "bénéfice": {
+        "regret": {
             "catGram": "nom masculin",
-            "def": "Avantage que procure qqn, qqch."
+            "def": "Chagrin, peine, déplaisir causé par la perte, l’absence ou la mort de qqn, de qqch."
         },
-        "couvrir": {
+        "compliquer": {
             "catGram": "verbe",
-            "def": "Mettre, poser qqch. qui est plus ou moins ajusté sur qqch. ou qqn, afin de l’orner, de le protéger, de le fermer, de le cacher."
+            "def": "Rendre moins simple à comprendre ou à utiliser"
         },
-        "attirer": {
-            "catGram": "verbe",
-            "def": "Exercer une force sur un objet en le faisant venir vers un lieu déterminé"
+        "dos": {
+            "catGram": "nom masculin",
+            "def": "Partie postérieure du tronc de l’être humain, qui s'étend des épaules aux reins."
         },
-        "connotation": {
-            "catGram": "nom féminin",
-            "def": "Tout ce qu'évoque un mot, une expression, indépendamment de sa signification."
+        "lecteur": {
+            "catGram": "nom",
+            "def": "Personne qui lit pour se distraire, s'informer."
         }
     }
 }
