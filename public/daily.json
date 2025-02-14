@@ -1,20 +1,20 @@
 {
     "words": {
-        "regret": {
+        "évier": {
             "catGram": "nom masculin",
-            "def": "Chagrin, peine, déplaisir causé par la perte, l’absence ou la mort de qqn, de qqch."
+            "def": "Élément d’une cuisine formé d'une cuvette comportant une arrivée d'eau et un système de vidange, utilisé notamment pour laver la vaisselle."
         },
-        "compliquer": {
+        "prou": {
+            "catGram": "adverbe",
+            "def": "Plus ou moins."
+        },
+        "redouter": {
             "catGram": "verbe",
-            "def": "Rendre moins simple à comprendre ou à utiliser"
+            "def": "Craindre fortement, appréhender."
         },
-        "dos": {
-            "catGram": "nom masculin",
-            "def": "Partie postérieure du tronc de l’être humain, qui s'étend des épaules aux reins."
-        },
-        "lecteur": {
-            "catGram": "nom",
-            "def": "Personne qui lit pour se distraire, s'informer."
+        "actuel": {
+            "catGram": "adjectif",
+            "def": "Qui se produit, qui existe, qui est en place au moment où l’on parle."
         }
     }
 }
