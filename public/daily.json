@@ -1,20 +1,20 @@
 {
     "words": {
-        "évier": {
-            "catGram": "nom masculin",
-            "def": "Élément d’une cuisine formé d'une cuvette comportant une arrivée d'eau et un système de vidange, utilisé notamment pour laver la vaisselle."
-        },
-        "prou": {
-            "catGram": "adverbe",
-            "def": "Plus ou moins."
-        },
-        "redouter": {
-            "catGram": "verbe",
-            "def": "Craindre fortement, appréhender."
-        },
-        "actuel": {
+        "minière": {
             "catGram": "adjectif",
-            "def": "Qui se produit, qui existe, qui est en place au moment où l’on parle."
+            "def": "Relatif aux mines."
+        },
+        "amandier": {
+            "catGram": "nom masculin",
+            "def": "Arbre originaire d’Asie, à fleurs blanches ou rosées très précoces, que l’on cultive aujourd’hui dans plusieurs régions chaudes et tempérées (notamment le bassin méditerranéen et la Californie) pour la production d’amande."
+        },
+        "dimension": {
+            "catGram": "nom féminin",
+            "def": "Étendue mesurable (dans tous les sens) d'un corps ou d'un objet"
+        },
+        "accommoder": {
+            "catGram": "verbe",
+            "def": "Préparer (des aliments) pour un repas."
         }
     }
 }
