@@ -1,20 +1,20 @@
 {
     "words": {
-        "minière": {
+        "blessant": {
             "catGram": "adjectif",
-            "def": "Relatif aux mines."
+            "def": "Qui atteint autrui dans sa sensibilité, son amour-propre."
         },
-        "amandier": {
+        "moderniste": {
+            "catGram": "adjectif",
+            "def": "Qui exprime, privilégie les idées modernes"
+        },
+        "accomplissement": {
             "catGram": "nom masculin",
-            "def": "Arbre originaire d’Asie, à fleurs blanches ou rosées très précoces, que l’on cultive aujourd’hui dans plusieurs régions chaudes et tempérées (notamment le bassin méditerranéen et la Californie) pour la production d’amande."
+            "def": "Action d’accomplir"
         },
-        "dimension": {
-            "catGram": "nom féminin",
-            "def": "Étendue mesurable (dans tous les sens) d'un corps ou d'un objet"
-        },
-        "accommoder": {
-            "catGram": "verbe",
-            "def": "Préparer (des aliments) pour un repas."
+        "factionnaire": {
+            "catGram": "nom épicène",
+            "def": "Soldat en faction, qui monte la garde."
         }
     }
 }
