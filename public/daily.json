@@ -1,20 +1,20 @@
 {
     "words": {
-        "blessant": {
-            "catGram": "adjectif",
-            "def": "Qui atteint autrui dans sa sensibilité, son amour-propre."
-        },
-        "moderniste": {
-            "catGram": "adjectif",
-            "def": "Qui exprime, privilégie les idées modernes"
-        },
-        "accomplissement": {
-            "catGram": "nom masculin",
-            "def": "Action d’accomplir"
-        },
-        "factionnaire": {
+        "dramaturge": {
             "catGram": "nom épicène",
-            "def": "Soldat en faction, qui monte la garde."
+            "def": "Auteur de pièces de théâtre."
+        },
+        "rapidité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est rapide"
+        },
+        "mélange": {
+            "catGram": "nom masculin",
+            "def": "Action de mêler, de se mêler."
+        },
+        "oléagineux": {
+            "catGram": "adjectif",
+            "def": "Qui contient de l'huile"
         }
     }
 }
