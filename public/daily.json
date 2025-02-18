@@ -1,20 +1,20 @@
 {
     "words": {
-        "dramaturge": {
-            "catGram": "nom épicène",
-            "def": "Auteur de pièces de théâtre."
-        },
-        "rapidité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est rapide"
-        },
-        "mélange": {
-            "catGram": "nom masculin",
-            "def": "Action de mêler, de se mêler."
-        },
-        "oléagineux": {
+        "romain": {
             "catGram": "adjectif",
-            "def": "Qui contient de l'huile"
+            "def": "Relatif à la Rome antique."
+        },
+        "discorde": {
+            "catGram": "nom féminin",
+            "def": "Désaccord sur un ou plusieurs points, pouvant conduire à des affrontements"
+        },
+        "avancé": {
+            "catGram": "adjectif",
+            "def": "Qui est placé en avant"
+        },
+        "destiner": {
+            "catGram": "verbe",
+            "def": "Réserver, préparer qqch. à l'intention de qqn."
         }
     }
 }
