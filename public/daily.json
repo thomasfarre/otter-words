@@ -1,20 +1,20 @@
 {
     "words": {
-        "romain": {
-            "catGram": "adjectif",
-            "def": "Relatif à la Rome antique."
+        "emballage": {
+            "catGram": "nom masculin",
+            "def": "Action d’emballer"
         },
-        "discorde": {
+        "économique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l’économie."
+        },
+        "polychrome": {
+            "catGram": "adjectif",
+            "def": "Qui est de couleurs variées"
+        },
+        "digression": {
             "catGram": "nom féminin",
-            "def": "Désaccord sur un ou plusieurs points, pouvant conduire à des affrontements"
-        },
-        "avancé": {
-            "catGram": "adjectif",
-            "def": "Qui est placé en avant"
-        },
-        "destiner": {
-            "catGram": "verbe",
-            "def": "Réserver, préparer qqch. à l'intention de qqn."
+            "def": "Développement qui s'éloigne du sujet d'une conversation, d'un discours, d'un texte, etc."
         }
     }
 }
