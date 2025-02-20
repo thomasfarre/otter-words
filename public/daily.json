@@ -1,20 +1,20 @@
 {
     "words": {
-        "emballage": {
+        "chercheur": {
+            "catGram": "nom",
+            "def": "Personne qui cherche."
+        },
+        "ridicule": {
+            "catGram": "adjectif",
+            "def": "Qui suscite la moquerie."
+        },
+        "cursus": {
             "catGram": "nom masculin",
-            "def": "Action d’emballer"
+            "def": "Programme d'études propre à un cycle ou à une matière, conduisant à l'obtention d'un diplôme."
         },
-        "économique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l’économie."
-        },
-        "polychrome": {
-            "catGram": "adjectif",
-            "def": "Qui est de couleurs variées"
-        },
-        "digression": {
-            "catGram": "nom féminin",
-            "def": "Développement qui s'éloigne du sujet d'une conversation, d'un discours, d'un texte, etc."
+        "recréer": {
+            "catGram": "verbe",
+            "def": "Créer de nouveau"
         }
     }
 }
