@@ -1,20 +1,20 @@
 {
     "words": {
-        "chercheur": {
-            "catGram": "nom",
-            "def": "Personne qui cherche."
+        "musique": {
+            "catGram": "nom féminin",
+            "def": "Art de combiner les sons suivant des règles variables selon les sociétés ou les époques"
         },
-        "ridicule": {
-            "catGram": "adjectif",
-            "def": "Qui suscite la moquerie."
+        "patrie": {
+            "catGram": "nom féminin",
+            "def": "Nation, communauté politique regroupant des individus partageant un sentiment d'appartenance"
         },
-        "cursus": {
+        "fleuve": {
             "catGram": "nom masculin",
-            "def": "Programme d'études propre à un cycle ou à une matière, conduisant à l'obtention d'un diplôme."
+            "def": "Cours d'eau perçu comme plus important qu'une rivière, en raison de son débit, de sa longueur ou du nombre de ses affluents, et qui se jette généralement dans la mer ou dans l'océan"
         },
-        "recréer": {
+        "disputer": {
             "catGram": "verbe",
-            "def": "Créer de nouveau"
+            "def": "Lutter contre qqn pour obtenir ou conserver qqch."
         }
     }
 }
