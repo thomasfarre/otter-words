@@ -1,20 +1,20 @@
 {
     "words": {
-        "musique": {
+        "gerbe": {
             "catGram": "nom féminin",
-            "def": "Art de combiner les sons suivant des règles variables selon les sociétés ou les époques"
+            "def": "Botte de céréales coupées et liées, où les épis sont disposés du même côté."
         },
-        "patrie": {
-            "catGram": "nom féminin",
-            "def": "Nation, communauté politique regroupant des individus partageant un sentiment d'appartenance"
+        "éternellement": {
+            "catGram": "adverbe",
+            "def": "D'une manière éternelle, de tout temps."
         },
-        "fleuve": {
+        "incendie": {
             "catGram": "nom masculin",
-            "def": "Cours d'eau perçu comme plus important qu'une rivière, en raison de son débit, de sa longueur ou du nombre de ses affluents, et qui se jette généralement dans la mer ou dans l'océan"
+            "def": "Feu qui s'étend rapidement et occasionne des dégâts généralement importants."
         },
-        "disputer": {
-            "catGram": "verbe",
-            "def": "Lutter contre qqn pour obtenir ou conserver qqch."
+        "adhérent": {
+            "catGram": "adjectif",
+            "def": "Qui adhère à qqch."
         }
     }
 }
