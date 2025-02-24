@@ -1,20 +1,20 @@
 {
     "words": {
-        "rapace": {
-            "catGram": "adjectif",
-            "def": "Avide d'argent, de profit, au détriment d'autrui."
-        },
-        "bassiner": {
+        "réintégrer": {
             "catGram": "verbe",
-            "def": "Chauffer (un lit) avec une bassinoire."
+            "def": "Rentrer dans, revenir à (un endroit)."
         },
-        "rôdeur": {
-            "catGram": "nom",
-            "def": "Personne, animal qui rôde."
+        "inutilisable": {
+            "catGram": "adjectif",
+            "def": "Qu'on ne peut pas utiliser"
         },
-        "narine": {
+        "gluant": {
+            "catGram": "adjectif",
+            "def": "Collant et visqueux."
+        },
+        "verse": {
             "catGram": "nom féminin",
-            "def": "Chacun des deux orifices extérieurs du nez"
+            "def": "Abondamment, en parlant de la pluie."
         }
     }
 }
