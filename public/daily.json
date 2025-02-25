@@ -1,20 +1,20 @@
 {
     "words": {
-        "réintégrer": {
-            "catGram": "verbe",
-            "def": "Rentrer dans, revenir à (un endroit)."
-        },
-        "inutilisable": {
-            "catGram": "adjectif",
-            "def": "Qu'on ne peut pas utiliser"
-        },
-        "gluant": {
-            "catGram": "adjectif",
-            "def": "Collant et visqueux."
-        },
-        "verse": {
+        "purulence": {
             "catGram": "nom féminin",
-            "def": "Abondamment, en parlant de la pluie."
+            "def": "État de ce qui contient du pus."
+        },
+        "discorde": {
+            "catGram": "nom féminin",
+            "def": "Désaccord sur un ou plusieurs points, pouvant conduire à des affrontements"
+        },
+        "fanfaron": {
+            "catGram": "adjectif",
+            "def": "Qui affecte la bravoure"
+        },
+        "compte": {
+            "catGram": "nom masculin",
+            "def": "Action de compter, d'évaluer une quantité"
         }
     }
 }
