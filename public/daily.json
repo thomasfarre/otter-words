@@ -1,20 +1,20 @@
 {
     "words": {
-        "purulence": {
+        "dilution": {
             "catGram": "nom féminin",
-            "def": "État de ce qui contient du pus."
+            "def": "Action de diluer"
         },
-        "discorde": {
-            "catGram": "nom féminin",
-            "def": "Désaccord sur un ou plusieurs points, pouvant conduire à des affrontements"
+        "découvrir": {
+            "catGram": "verbe",
+            "def": "Dégarnir de ce qui couvre."
         },
-        "fanfaron": {
-            "catGram": "adjectif",
-            "def": "Qui affecte la bravoure"
-        },
-        "compte": {
+        "grillon": {
             "catGram": "nom masculin",
-            "def": "Action de compter, d'évaluer une quantité"
+            "def": "Insecte sauteur, voisin de la sauterelle, mais à tête arrondie, à corps compact et aplati, généralement noir ou brun, pourvu au bout de l’abdomen de deux appendices sensoriels effilés et (chez la femelle) d’un long organe de ponte en forme d’aiguille, qui se tient généralement au sol où il se nourrit de végétaux et d’insectes morts, et dont le mâle produit des stridulations avec ses élytres."
+        },
+        "surmenage": {
+            "catGram": "nom masculin",
+            "def": "Fait de surmener, de se surmener"
         }
     }
 }
