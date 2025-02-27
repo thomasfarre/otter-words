@@ -1,20 +1,20 @@
 {
     "words": {
-        "dilution": {
+        "influence": {
             "catGram": "nom féminin",
-            "def": "Action de diluer"
+            "def": "Action qu’exerceraient les astres sur la vie des êtres humains."
         },
-        "découvrir": {
-            "catGram": "verbe",
-            "def": "Dégarnir de ce qui couvre."
+        "rareté": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est rare, en petit nombre."
         },
-        "grillon": {
+        "fougueux": {
+            "catGram": "adjectif",
+            "def": "Qui a de la fougue."
+        },
+        "sentier": {
             "catGram": "nom masculin",
-            "def": "Insecte sauteur, voisin de la sauterelle, mais à tête arrondie, à corps compact et aplati, généralement noir ou brun, pourvu au bout de l’abdomen de deux appendices sensoriels effilés et (chez la femelle) d’un long organe de ponte en forme d’aiguille, qui se tient généralement au sol où il se nourrit de végétaux et d’insectes morts, et dont le mâle produit des stridulations avec ses élytres."
-        },
-        "surmenage": {
-            "catGram": "nom masculin",
-            "def": "Fait de surmener, de se surmener"
+            "def": "Voie étroite aménagée par l'être humain ou marquée par le passage répété des humains ou des animaux."
         }
     }
 }
