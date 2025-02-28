@@ -1,20 +1,20 @@
 {
     "words": {
-        "influence": {
-            "catGram": "nom féminin",
-            "def": "Action qu’exerceraient les astres sur la vie des êtres humains."
+        "juriste": {
+            "catGram": "nom épicène",
+            "def": "Spécialiste du droit qui remplit des fonctions juridiques, produit des analyses, des ouvrages juridiques, etc."
         },
-        "rareté": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est rare, en petit nombre."
-        },
-        "fougueux": {
+        "méfiant": {
             "catGram": "adjectif",
-            "def": "Qui a de la fougue."
+            "def": "Qui se méfie"
         },
-        "sentier": {
-            "catGram": "nom masculin",
-            "def": "Voie étroite aménagée par l'être humain ou marquée par le passage répété des humains ou des animaux."
+        "éblouissant": {
+            "catGram": "adjectif",
+            "def": "Qui provoque un trouble visuel momentané."
+        },
+        "traduire": {
+            "catGram": "verbe",
+            "def": "Formuler dans une autre langue ce qui était formulé dans une langue de départ, en conservant le sens et le style."
         }
     }
 }
