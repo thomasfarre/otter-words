@@ -1,20 +1,20 @@
 {
     "words": {
-        "juriste": {
-            "catGram": "nom épicène",
-            "def": "Spécialiste du droit qui remplit des fonctions juridiques, produit des analyses, des ouvrages juridiques, etc."
+        "brosse": {
+            "catGram": "nom féminin",
+            "def": "Ustensile de nettoyage fait d'un assemblage régulier de poils, de crins, de brins de diverses matières monté sur un même support."
         },
-        "méfiant": {
+        "reconduction": {
+            "catGram": "nom féminin",
+            "def": "Action de reconduire."
+        },
+        "dépréciation": {
+            "catGram": "nom féminin",
+            "def": "Action de déprécier, de se déprécier"
+        },
+        "inscrit": {
             "catGram": "adjectif",
-            "def": "Qui se méfie"
-        },
-        "éblouissant": {
-            "catGram": "adjectif",
-            "def": "Qui provoque un trouble visuel momentané."
-        },
-        "traduire": {
-            "catGram": "verbe",
-            "def": "Formuler dans une autre langue ce qui était formulé dans une langue de départ, en conservant le sens et le style."
+            "def": "Dont le nom figure sur une liste, un registre"
         }
     }
 }
