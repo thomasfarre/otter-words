@@ -1,20 +1,20 @@
 {
     "words": {
-        "brosse": {
-            "catGram": "nom féminin",
-            "def": "Ustensile de nettoyage fait d'un assemblage régulier de poils, de crins, de brins de diverses matières monté sur un même support."
-        },
-        "reconduction": {
-            "catGram": "nom féminin",
-            "def": "Action de reconduire."
-        },
-        "dépréciation": {
-            "catGram": "nom féminin",
-            "def": "Action de déprécier, de se déprécier"
-        },
-        "inscrit": {
+        "liminaire": {
             "catGram": "adjectif",
-            "def": "Dont le nom figure sur une liste, un registre"
+            "def": "Qui est placé au début d'un ouvrage, d'un discours."
+        },
+        "syllabe": {
+            "catGram": "nom féminin",
+            "def": "Unité rythmique fondamentale formée d’un noyau vocalique entouré ou non de consonnes satellites et qui constitue le siège de l’accent et du ton."
+        },
+        "venter": {
+            "catGram": "verbe",
+            "def": "Faire du vent."
+        },
+        "régional": {
+            "catGram": "adjectif",
+            "def": "Relatif à la région, à une région."
         }
     }
 }
