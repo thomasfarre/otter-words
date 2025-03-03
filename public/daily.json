@@ -1,20 +1,20 @@
 {
     "words": {
-        "liminaire": {
-            "catGram": "adjectif",
-            "def": "Qui est placé au début d'un ouvrage, d'un discours."
-        },
-        "syllabe": {
-            "catGram": "nom féminin",
-            "def": "Unité rythmique fondamentale formée d’un noyau vocalique entouré ou non de consonnes satellites et qui constitue le siège de l’accent et du ton."
-        },
-        "venter": {
+        "songer": {
             "catGram": "verbe",
-            "def": "Faire du vent."
+            "def": "Se laisser aller à la rêverie."
         },
-        "régional": {
+        "bouder": {
+            "catGram": "verbe",
+            "def": "Manifester du mécontentement, de la mauvaise humeur par l'expression du visage, le silence, l'attitude."
+        },
+        "dépassé": {
             "catGram": "adjectif",
-            "def": "Relatif à la région, à une région."
+            "def": "Qui est périmé ou démodé."
+        },
+        "liste": {
+            "catGram": "nom féminin",
+            "def": "Série de mots, de chiffres, de signes, etc., écrits ou énoncés les uns à la suite des autres."
         }
     }
 }
