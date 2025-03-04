@@ -1,20 +1,20 @@
 {
     "words": {
-        "songer": {
-            "catGram": "verbe",
-            "def": "Se laisser aller à la rêverie."
-        },
-        "bouder": {
-            "catGram": "verbe",
-            "def": "Manifester du mécontentement, de la mauvaise humeur par l'expression du visage, le silence, l'attitude."
-        },
-        "dépassé": {
-            "catGram": "adjectif",
-            "def": "Qui est périmé ou démodé."
-        },
-        "liste": {
+        "sonnette": {
             "catGram": "nom féminin",
-            "def": "Série de mots, de chiffres, de signes, etc., écrits ou énoncés les uns à la suite des autres."
+            "def": "Petite cloche, petit instrument métallique que l’on actionne pour appeler ou avertir qqn."
+        },
+        "louis": {
+            "catGram": "nom masculin",
+            "def": "Ancienne pièce de monnaie en or à l'effigie des rois de France."
+        },
+        "baldaquin": {
+            "catGram": "nom masculin",
+            "def": "Dais garni de rideaux, dressé au-dessus d'un lit, d'un trône, d'un catafalque, etc."
+        },
+        "grené": {
+            "catGram": "adjectif",
+            "def": "Qui présente à la vue et au toucher une multitude de petits grains ou points très rapprochés."
         }
     }
 }
