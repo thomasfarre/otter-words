@@ -1,20 +1,20 @@
 {
     "words": {
-        "sonnette": {
+        "domination": {
             "catGram": "nom féminin",
-            "def": "Petite cloche, petit instrument métallique que l’on actionne pour appeler ou avertir qqn."
+            "def": "Fait de dominer, d'exercer une autorité souveraine"
         },
-        "louis": {
-            "catGram": "nom masculin",
-            "def": "Ancienne pièce de monnaie en or à l'effigie des rois de France."
+        "résidant": {
+            "catGram": "nom",
+            "def": "Personne qui réside habituellement dans un lieu."
         },
-        "baldaquin": {
-            "catGram": "nom masculin",
-            "def": "Dais garni de rideaux, dressé au-dessus d'un lit, d'un trône, d'un catafalque, etc."
+        "approvisionneur": {
+            "catGram": "nom",
+            "def": "Personne chargée de l'approvisionnement."
         },
-        "grené": {
-            "catGram": "adjectif",
-            "def": "Qui présente à la vue et au toucher une multitude de petits grains ou points très rapprochés."
+        "obligation": {
+            "catGram": "nom féminin",
+            "def": "Lien de droit par lequel une personne peut être tenue de faire ou de ne pas faire qqch."
         }
     }
 }
