@@ -1,20 +1,20 @@
 {
     "words": {
-        "domination": {
+        "brûlé": {
+            "catGram": "adjectif",
+            "def": "Qui a brûlé."
+        },
+        "supplier": {
+            "catGram": "verbe",
+            "def": "Prier qqn instamment, avec humilité en demandant une grâce."
+        },
+        "mémento": {
+            "catGram": "nom masculin",
+            "def": "Prière du canon de la messe."
+        },
+        "fondation": {
             "catGram": "nom féminin",
-            "def": "Fait de dominer, d'exercer une autorité souveraine"
-        },
-        "résidant": {
-            "catGram": "nom",
-            "def": "Personne qui réside habituellement dans un lieu."
-        },
-        "approvisionneur": {
-            "catGram": "nom",
-            "def": "Personne chargée de l'approvisionnement."
-        },
-        "obligation": {
-            "catGram": "nom féminin",
-            "def": "Lien de droit par lequel une personne peut être tenue de faire ou de ne pas faire qqch."
+            "def": "Action de fonder"
         }
     }
 }
