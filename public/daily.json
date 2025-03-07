@@ -1,20 +1,20 @@
 {
     "words": {
-        "brûlé": {
+        "rocailleux": {
             "catGram": "adjectif",
-            "def": "Qui a brûlé."
+            "def": "Couvert de rocaille, de petites pierres."
         },
-        "supplier": {
+        "crépir": {
             "catGram": "verbe",
-            "def": "Prier qqn instamment, avec humilité en demandant une grâce."
+            "def": "Enduire de crépi."
         },
-        "mémento": {
-            "catGram": "nom masculin",
-            "def": "Prière du canon de la messe."
+        "gaulliste": {
+            "catGram": "adjectif",
+            "def": "Relatif à la politique du général Charles de Gaulle contre l'occupation allemande de la France durant la Seconde Guerre mondiale."
         },
-        "fondation": {
+        "confiscation": {
             "catGram": "nom féminin",
-            "def": "Action de fonder"
+            "def": "Action de confisquer."
         }
     }
 }
