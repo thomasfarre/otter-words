@@ -1,20 +1,20 @@
 {
     "words": {
-        "rocailleux": {
-            "catGram": "adjectif",
-            "def": "Couvert de rocaille, de petites pierres."
-        },
-        "crépir": {
+        "compléter": {
             "catGram": "verbe",
-            "def": "Enduire de crépi."
+            "def": "Rendre complet en ajoutant ce qui manque."
         },
-        "gaulliste": {
+        "distrait": {
             "catGram": "adjectif",
-            "def": "Relatif à la politique du général Charles de Gaulle contre l'occupation allemande de la France durant la Seconde Guerre mondiale."
+            "def": "Qui manque d'attention, qui est détourné de l'objet qui l'occupait, absorbé par autre chose."
         },
-        "confiscation": {
+        "finance": {
             "catGram": "nom féminin",
-            "def": "Action de confisquer."
+            "def": "Recettes et dépenses inscrites au budget d’un État"
+        },
+        "redressement": {
+            "catGram": "nom masculin",
+            "def": "Action de redresser, de se redresser"
         }
     }
 }
