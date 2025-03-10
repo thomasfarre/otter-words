@@ -1,20 +1,20 @@
 {
     "words": {
-        "craie": {
-            "catGram": "nom féminin",
-            "def": "Roche calcaire d’origine marine, généralement blanchâtre, tendre et poreuse, composée principalement de carbonate de calcium."
-        },
-        "oppressant": {
+        "flottant": {
             "catGram": "adjectif",
-            "def": "Qui oppresse."
+            "def": "Qui flotte sur une surface liquide."
         },
-        "confiant": {
-            "catGram": "adjectif",
-            "def": "Qui a confiance en qqn ou en qqch."
+        "affranchir": {
+            "catGram": "verbe",
+            "def": "Libérer (qqn ou une collectivité) d’une sujétion, d’une dépendance."
         },
-        "prétentieux": {
-            "catGram": "adjectif",
-            "def": "Qui s'estime supérieur, qui cherche à se faire valoir par des outrances ridicules."
+        "refroidir": {
+            "catGram": "verbe",
+            "def": "Rendre froid, plus froid"
+        },
+        "patrimoine": {
+            "catGram": "nom masculin",
+            "def": "Ensemble des biens de famille, transmis par les parents."
         }
     }
 }
