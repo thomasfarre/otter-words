@@ -1,20 +1,20 @@
 {
     "words": {
-        "flottant": {
+        "tancer": {
+            "catGram": "verbe",
+            "def": "Réprimander."
+        },
+        "condensé": {
             "catGram": "adjectif",
-            "def": "Qui flotte sur une surface liquide."
+            "def": "Qui est réduit en volume (généralement par évaporation, dessiccation, etc.) de manière à être rendu plus dense."
         },
-        "affranchir": {
+        "spiritueux": {
+            "catGram": "adjectif",
+            "def": "Fort en alcool."
+        },
+        "reculer": {
             "catGram": "verbe",
-            "def": "Libérer (qqn ou une collectivité) d’une sujétion, d’une dépendance."
-        },
-        "refroidir": {
-            "catGram": "verbe",
-            "def": "Rendre froid, plus froid"
-        },
-        "patrimoine": {
-            "catGram": "nom masculin",
-            "def": "Ensemble des biens de famille, transmis par les parents."
+            "def": "Aller en arrière"
         }
     }
 }
