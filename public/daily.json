@@ -1,20 +1,20 @@
 {
     "words": {
-        "résistant": {
+        "pressé": {
             "catGram": "adjectif",
-            "def": "Qui résiste bien aux causes de destruction, aux efforts, à l'usure."
+            "def": "Qui a de la hâte, qui exprime la hâte."
         },
-        "incomparable": {
+        "protestation": {
+            "catGram": "nom féminin",
+            "def": "Déclaration généralement favorable, souvent publique, que qqn fait de ses sentiments, de ses intentions, de sa volonté, etc."
+        },
+        "paniquer": {
+            "catGram": "verbe",
+            "def": "Frapper, remplir qqn de panique, d'angoisse."
+        },
+        "volumineux": {
             "catGram": "adjectif",
-            "def": "Qui ne peut être comparé à rien ou à personne d'autre, qui est unique en son genre"
-        },
-        "crinière": {
-            "catGram": "nom féminin",
-            "def": "Ensemble des crins qui poussent sur le cou d'un animal."
-        },
-        "halte": {
-            "catGram": "nom féminin",
-            "def": "Arrêt, temps d’arrêt au cours d’une activité, d’un déplacement."
+            "def": "Qui présente un grand volume"
         }
     }
 }
