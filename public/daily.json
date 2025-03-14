@@ -1,20 +1,20 @@
 {
     "words": {
-        "pressé": {
+        "reconnaissant": {
             "catGram": "adjectif",
-            "def": "Qui a de la hâte, qui exprime la hâte."
+            "def": "Qui éprouve, qui manifeste de la reconnaissance."
         },
-        "protestation": {
-            "catGram": "nom féminin",
-            "def": "Déclaration généralement favorable, souvent publique, que qqn fait de ses sentiments, de ses intentions, de sa volonté, etc."
+        "piment": {
+            "catGram": "nom masculin",
+            "def": "Plante originaire d’Amérique tropicale, à port buissonnant, à feuilles ovales simples et à fleurs étoilées dont on cultive de nombreuses variétés potagères pour leurs fruits comestibles et aromatiques, utilisés comme légume et comme condiment."
         },
-        "paniquer": {
-            "catGram": "verbe",
-            "def": "Frapper, remplir qqn de panique, d'angoisse."
+        "ambassadeur": {
+            "catGram": "nom",
+            "def": "Représentant permanent d'un État auprès d'un État étranger ou d'une instance internationale."
         },
-        "volumineux": {
-            "catGram": "adjectif",
-            "def": "Qui présente un grand volume"
+        "pou": {
+            "catGram": "nom masculin",
+            "def": "Très petit insecte sans ailes, à corps aplati, brun clair ou grisâtre, qui vit en parasite sur les humains, les mammifères et les oiseaux, qui se nourrit de sang ou de matières organiques, et qui peut s’agripper fortement aux poils et aux plumes."
         }
     }
 }
