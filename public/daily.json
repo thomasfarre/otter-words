@@ -1,20 +1,20 @@
 {
     "words": {
-        "reconnaissant": {
+        "tropical": {
             "catGram": "adjectif",
-            "def": "Qui éprouve, qui manifeste de la reconnaissance."
+            "def": "Qui est situé sous les tropiques, sous un tropique ou au voisinage d'un tropique."
         },
-        "piment": {
+        "ériger": {
+            "catGram": "verbe",
+            "def": "Dresser, élever."
+        },
+        "meurtre": {
             "catGram": "nom masculin",
-            "def": "Plante originaire d’Amérique tropicale, à port buissonnant, à feuilles ovales simples et à fleurs étoilées dont on cultive de nombreuses variétés potagères pour leurs fruits comestibles et aromatiques, utilisés comme légume et comme condiment."
+            "def": "Action de tuer délibérément un être humain."
         },
-        "ambassadeur": {
-            "catGram": "nom",
-            "def": "Représentant permanent d'un État auprès d'un État étranger ou d'une instance internationale."
-        },
-        "pou": {
-            "catGram": "nom masculin",
-            "def": "Très petit insecte sans ailes, à corps aplati, brun clair ou grisâtre, qui vit en parasite sur les humains, les mammifères et les oiseaux, qui se nourrit de sang ou de matières organiques, et qui peut s’agripper fortement aux poils et aux plumes."
+        "prairie": {
+            "catGram": "nom féminin",
+            "def": "Terrain où poussent diverses herbes de façon naturelle ou artificielle, servant au pâturage ou à la production de fourrage."
         }
     }
 }
