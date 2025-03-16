@@ -1,20 +1,20 @@
 {
     "words": {
-        "tropical": {
-            "catGram": "adjectif",
-            "def": "Qui est situé sous les tropiques, sous un tropique ou au voisinage d'un tropique."
-        },
-        "ériger": {
+        "investiguer": {
             "catGram": "verbe",
-            "def": "Dresser, élever."
+            "def": "Faire des recherches systématiques, procéder à des investigations."
         },
-        "meurtre": {
-            "catGram": "nom masculin",
-            "def": "Action de tuer délibérément un être humain."
+        "invalide": {
+            "catGram": "adjectif",
+            "def": "Qui n’est pas en état de mener une vie active normale, en raison d’une blessure, d’une maladie, etc."
         },
-        "prairie": {
+        "désert": {
+            "catGram": "adjectif",
+            "def": "Inhabité, sauvage."
+        },
+        "composition": {
             "catGram": "nom féminin",
-            "def": "Terrain où poussent diverses herbes de façon naturelle ou artificielle, servant au pâturage ou à la production de fourrage."
+            "def": "Action de former un tout par assemblage de divers éléments"
         }
     }
 }
