@@ -1,20 +1,20 @@
 {
     "words": {
-        "investiguer": {
+        "parodier": {
             "catGram": "verbe",
-            "def": "Faire des recherches systématiques, procéder à des investigations."
+            "def": "Faire la parodie de (une œuvre)."
         },
-        "invalide": {
+        "précautionneux": {
             "catGram": "adjectif",
-            "def": "Qui n’est pas en état de mener une vie active normale, en raison d’une blessure, d’une maladie, etc."
+            "def": "Qui agit avec prudence et mesure."
         },
-        "désert": {
+        "noyé": {
             "catGram": "adjectif",
-            "def": "Inhabité, sauvage."
+            "def": "Qui est mort par noyade."
         },
-        "composition": {
-            "catGram": "nom féminin",
-            "def": "Action de former un tout par assemblage de divers éléments"
+        "biblique": {
+            "catGram": "adjectif",
+            "def": "Qui est propre à la Bible ou s’y réfère."
         }
     }
 }
