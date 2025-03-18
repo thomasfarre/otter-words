@@ -1,20 +1,20 @@
 {
     "words": {
-        "parodier": {
+        "crânerie": {
+            "catGram": "nom féminin",
+            "def": "Comportement d'une personne qui crâne."
+        },
+        "tripoter": {
             "catGram": "verbe",
-            "def": "Faire la parodie de (une œuvre)."
+            "def": "Manier, tâter sans cesse et sans délicatesse."
         },
-        "précautionneux": {
-            "catGram": "adjectif",
-            "def": "Qui agit avec prudence et mesure."
+        "soupe": {
+            "catGram": "nom féminin",
+            "def": "Morceau de pain arrosé de bouillon."
         },
-        "noyé": {
-            "catGram": "adjectif",
-            "def": "Qui est mort par noyade."
-        },
-        "biblique": {
-            "catGram": "adjectif",
-            "def": "Qui est propre à la Bible ou s’y réfère."
+        "projection": {
+            "catGram": "nom féminin",
+            "def": "Action de jeter en avant, de lancer."
         }
     }
 }
