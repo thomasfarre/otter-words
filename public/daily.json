@@ -1,20 +1,20 @@
 {
     "words": {
-        "crânerie": {
-            "catGram": "nom féminin",
-            "def": "Comportement d'une personne qui crâne."
-        },
-        "tripoter": {
+        "empêcher": {
             "catGram": "verbe",
-            "def": "Manier, tâter sans cesse et sans délicatesse."
+            "def": "Faire obstacle, s'opposer à."
         },
-        "soupe": {
-            "catGram": "nom féminin",
-            "def": "Morceau de pain arrosé de bouillon."
+        "conseil": {
+            "catGram": "nom masculin",
+            "def": "Avis donné à qqn pour l'aider à diriger sa conduite."
         },
-        "projection": {
-            "catGram": "nom féminin",
-            "def": "Action de jeter en avant, de lancer."
+        "réverbère": {
+            "catGram": "nom masculin",
+            "def": "dans lequel les matières à traiter sont chauffées par la sole et par la chaleur réfléchie par la voûte."
+        },
+        "dégauchir": {
+            "catGram": "verbe",
+            "def": "Redresser (une pièce déformée)"
         }
     }
 }
