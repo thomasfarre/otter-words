@@ -1,20 +1,20 @@
 {
     "words": {
-        "empêcher": {
-            "catGram": "verbe",
-            "def": "Faire obstacle, s'opposer à."
+        "humilité": {
+            "catGram": "nom féminin",
+            "def": "Disposition à s'abaisser volontairement (à faire telle ou telle chose) en réprimant tout mouvement d'orgueil par sentiment de sa propre faiblesse"
         },
-        "conseil": {
+        "gymnastique": {
+            "catGram": "nom féminin",
+            "def": "Ensemble d'exercices physiques et d'activités sportives propres à assouplir et à fortifier le corps."
+        },
+        "obscur": {
+            "catGram": "adjectif",
+            "def": "Qui est sans lumière"
+        },
+        "gonflement": {
             "catGram": "nom masculin",
-            "def": "Avis donné à qqn pour l'aider à diriger sa conduite."
-        },
-        "réverbère": {
-            "catGram": "nom masculin",
-            "def": "dans lequel les matières à traiter sont chauffées par la sole et par la chaleur réfléchie par la voûte."
-        },
-        "dégauchir": {
-            "catGram": "verbe",
-            "def": "Redresser (une pièce déformée)"
+            "def": "Action de gonfler, fait de se gonfler"
         }
     }
 }
