@@ -1,20 +1,20 @@
 {
     "words": {
-        "humilité": {
-            "catGram": "nom féminin",
-            "def": "Disposition à s'abaisser volontairement (à faire telle ou telle chose) en réprimant tout mouvement d'orgueil par sentiment de sa propre faiblesse"
+        "typographe": {
+            "catGram": "nom épicène",
+            "def": "Professionnel qui exerce une spécialité relevant de la typographie."
         },
-        "gymnastique": {
-            "catGram": "nom féminin",
-            "def": "Ensemble d'exercices physiques et d'activités sportives propres à assouplir et à fortifier le corps."
-        },
-        "obscur": {
-            "catGram": "adjectif",
-            "def": "Qui est sans lumière"
-        },
-        "gonflement": {
+        "contraste": {
             "catGram": "nom masculin",
-            "def": "Action de gonfler, fait de se gonfler"
+            "def": "Opposition entre deux ou plusieurs choses, mise en évidence et soulignée par leur rapprochement, leur mise en relation."
+        },
+        "réaliser": {
+            "catGram": "verbe",
+            "def": "Rendre réel, effectif, faire exister"
+        },
+        "péripétie": {
+            "catGram": "nom féminin",
+            "def": "Changement subit et imprévu qui affecte la situation (dans une action dramatique, un récit)"
         }
     }
 }
