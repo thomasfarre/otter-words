@@ -1,20 +1,20 @@
 {
     "words": {
-        "typographe": {
+        "insolvable": {
+            "catGram": "adjectif",
+            "def": "Qui ne peut pas payer ce qu’il doit"
+        },
+        "touriste": {
             "catGram": "nom épicène",
-            "def": "Professionnel qui exerce une spécialité relevant de la typographie."
+            "def": "Personne qui fait du tourisme."
         },
-        "contraste": {
-            "catGram": "nom masculin",
-            "def": "Opposition entre deux ou plusieurs choses, mise en évidence et soulignée par leur rapprochement, leur mise en relation."
-        },
-        "réaliser": {
-            "catGram": "verbe",
-            "def": "Rendre réel, effectif, faire exister"
-        },
-        "péripétie": {
+        "moquerie": {
             "catGram": "nom féminin",
-            "def": "Changement subit et imprévu qui affecte la situation (dans une action dramatique, un récit)"
+            "def": "Action de se moquer"
+        },
+        "négation": {
+            "catGram": "nom féminin",
+            "def": "Action de nier"
         }
     }
 }
