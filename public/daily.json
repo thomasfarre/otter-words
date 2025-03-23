@@ -1,20 +1,20 @@
 {
     "words": {
-        "insolvable": {
+        "fluctuer": {
+            "catGram": "verbe",
+            "def": "Être affecté d'un mouvement de balancement comparable à celui des flots."
+        },
+        "légitime": {
             "catGram": "adjectif",
-            "def": "Qui ne peut pas payer ce qu’il doit"
+            "def": "Qui est consacré par la loi, conforme au droit."
         },
-        "touriste": {
-            "catGram": "nom épicène",
-            "def": "Personne qui fait du tourisme."
-        },
-        "moquerie": {
+        "équipée": {
             "catGram": "nom féminin",
-            "def": "Action de se moquer"
+            "def": "Sortie, promenade frivole."
         },
-        "négation": {
-            "catGram": "nom féminin",
-            "def": "Action de nier"
+        "renifler": {
+            "catGram": "verbe",
+            "def": "Aspirer plus ou moins bruyamment par le nez."
         }
     }
 }
