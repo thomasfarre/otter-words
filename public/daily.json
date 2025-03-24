@@ -1,20 +1,20 @@
 {
     "words": {
-        "fluctuer": {
-            "catGram": "verbe",
-            "def": "Être affecté d'un mouvement de balancement comparable à celui des flots."
+        "franciscain": {
+            "catGram": "nom",
+            "def": "Membre de l’ordre mendiant fondé par saint François d’Assise au début du 13esiècle et qui comprend actuellement les capucins, les conventuels et les frères mineurs."
         },
-        "légitime": {
+        "actionner": {
+            "catGram": "verbe",
+            "def": "Mettre en mouvement, faire fonctionner."
+        },
+        "minière": {
             "catGram": "adjectif",
-            "def": "Qui est consacré par la loi, conforme au droit."
+            "def": "Relatif aux mines."
         },
-        "équipée": {
-            "catGram": "nom féminin",
-            "def": "Sortie, promenade frivole."
-        },
-        "renifler": {
-            "catGram": "verbe",
-            "def": "Aspirer plus ou moins bruyamment par le nez."
+        "burlesque": {
+            "catGram": "adjectif",
+            "def": "Qui est d'une bouffonnerie extravagante et déroutante"
         }
     }
 }
