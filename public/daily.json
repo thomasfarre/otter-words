@@ -1,20 +1,20 @@
 {
     "words": {
-        "franciscain": {
-            "catGram": "nom",
-            "def": "Membre de l’ordre mendiant fondé par saint François d’Assise au début du 13esiècle et qui comprend actuellement les capucins, les conventuels et les frères mineurs."
+        "fabrique": {
+            "catGram": "nom féminin",
+            "def": "Établissement industriel de moyenne importance, qui transforme les produits semi-traités ou les matières premières en objets manufacturés."
         },
-        "actionner": {
+        "oser": {
             "catGram": "verbe",
-            "def": "Mettre en mouvement, faire fonctionner."
+            "def": "Avoir l'audace de faire qqch."
         },
-        "minière": {
-            "catGram": "adjectif",
-            "def": "Relatif aux mines."
+        "patente": {
+            "catGram": "nom féminin",
+            "def": "document officiel délivré par les ports constatant l'état sanitaire d'un navire en partance."
         },
-        "burlesque": {
-            "catGram": "adjectif",
-            "def": "Qui est d'une bouffonnerie extravagante et déroutante"
+        "foulée": {
+            "catGram": "nom féminin",
+            "def": "Appui que le cheval prend sur le sol à chaque temps du trot ou du galop"
         }
     }
 }
