@@ -1,20 +1,20 @@
 {
     "words": {
-        "fabrique": {
+        "abréviation": {
             "catGram": "nom féminin",
-            "def": "Établissement industriel de moyenne importance, qui transforme les produits semi-traités ou les matières premières en objets manufacturés."
+            "def": "Retranchement de lettres dans un mot"
         },
-        "oser": {
+        "moderniser": {
             "catGram": "verbe",
-            "def": "Avoir l'audace de faire qqch."
+            "def": "Donner à qqn, à qqch. un aspect, un caractère moderne, adapté à l'époque et aux usages actuels."
         },
-        "patente": {
+        "petite-fille": {
             "catGram": "nom féminin",
-            "def": "document officiel délivré par les ports constatant l'état sanitaire d'un navire en partance."
+            "def": "Fille du fils ou de la fille."
         },
-        "foulée": {
-            "catGram": "nom féminin",
-            "def": "Appui que le cheval prend sur le sol à chaque temps du trot ou du galop"
+        "normatif": {
+            "catGram": "adjectif",
+            "def": "Qui concerne une norme"
         }
     }
 }
