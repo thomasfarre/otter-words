@@ -1,20 +1,20 @@
 {
     "words": {
-        "abréviation": {
+        "valeur": {
             "catGram": "nom féminin",
-            "def": "Retranchement de lettres dans un mot"
+            "def": "Caractère mesurable prêté à un objet en fonction de sa capacité à être échangé ou vendu"
         },
-        "moderniser": {
+        "réverbère": {
+            "catGram": "nom masculin",
+            "def": "dans lequel les matières à traiter sont chauffées par la sole et par la chaleur réfléchie par la voûte."
+        },
+        "prêcher": {
             "catGram": "verbe",
-            "def": "Donner à qqn, à qqch. un aspect, un caractère moderne, adapté à l'époque et aux usages actuels."
+            "def": "Annoncer, enseigner (la parole de Dieu)."
         },
-        "petite-fille": {
-            "catGram": "nom féminin",
-            "def": "Fille du fils ou de la fille."
-        },
-        "normatif": {
-            "catGram": "adjectif",
-            "def": "Qui concerne une norme"
+        "cligner": {
+            "catGram": "verbe",
+            "def": "Fermer (les yeux, les paupières) à demi pour mieux voir."
         }
     }
 }
