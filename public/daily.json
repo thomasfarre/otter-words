@@ -1,20 +1,20 @@
 {
     "words": {
-        "canal": {
-            "catGram": "nom masculin",
-            "def": "Lit ou bras d'un cours d'eau."
-        },
-        "escalade": {
+        "égratignure": {
             "catGram": "nom féminin",
-            "def": "Action de monter à l'assaut (d'une position) à l'aide d'échelles."
+            "def": "Écorchure superficielle."
         },
-        "antiquité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui appartient à une époque très ancienne."
-        },
-        "converti": {
+        "évolué": {
             "catGram": "adjectif",
-            "def": "Qui a été amené à adopter une religion"
+            "def": "Qui est le résultat d'une certaine évolution"
+        },
+        "descendant": {
+            "catGram": "adjectif",
+            "def": "Qui descend"
+        },
+        "incompatible": {
+            "catGram": "adjectif",
+            "def": "Qui ne peut s’accorder, coexister avec autre chose."
         }
     }
 }
