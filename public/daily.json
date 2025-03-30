@@ -1,20 +1,20 @@
 {
     "words": {
-        "égratignure": {
-            "catGram": "nom féminin",
-            "def": "Écorchure superficielle."
-        },
-        "évolué": {
+        "chaotique": {
             "catGram": "adjectif",
-            "def": "Qui est le résultat d'une certaine évolution"
+            "def": "Qui a l'aspect d'un chaos, d'un désordre."
         },
-        "descendant": {
-            "catGram": "adjectif",
-            "def": "Qui descend"
+        "oser": {
+            "catGram": "verbe",
+            "def": "Avoir l'audace de faire qqch."
         },
-        "incompatible": {
-            "catGram": "adjectif",
-            "def": "Qui ne peut s’accorder, coexister avec autre chose."
+        "triumvirat": {
+            "catGram": "nom masculin",
+            "def": "Fonction de triumvir"
+        },
+        "ramener": {
+            "catGram": "verbe",
+            "def": "Amener de nouveau (en un lieu)."
         }
     }
 }
