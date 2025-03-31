@@ -1,20 +1,20 @@
 {
     "words": {
-        "chaotique": {
-            "catGram": "adjectif",
-            "def": "Qui a l'aspect d'un chaos, d'un désordre."
-        },
-        "oser": {
+        "désavouer": {
             "catGram": "verbe",
-            "def": "Avoir l'audace de faire qqch."
+            "def": "Refuser de reconnaître, d'approuver."
         },
-        "triumvirat": {
+        "crevasser": {
+            "catGram": "verbe",
+            "def": "Creuser qqch. de crevasses."
+        },
+        "cerceau": {
             "catGram": "nom masculin",
-            "def": "Fonction de triumvir"
+            "def": "Cercle léger (en bois, en métal, etc.), utilisé dans certains jeux, en gymnastique ou au cirque."
         },
-        "ramener": {
+        "raviver": {
             "catGram": "verbe",
-            "def": "Amener de nouveau (en un lieu)."
+            "def": "Rendre plus vif"
         }
     }
 }
