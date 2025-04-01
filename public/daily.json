@@ -1,20 +1,20 @@
 {
     "words": {
-        "désavouer": {
-            "catGram": "verbe",
-            "def": "Refuser de reconnaître, d'approuver."
-        },
-        "crevasser": {
-            "catGram": "verbe",
-            "def": "Creuser qqch. de crevasses."
-        },
-        "cerceau": {
+        "pistolet": {
             "catGram": "nom masculin",
-            "def": "Cercle léger (en bois, en métal, etc.), utilisé dans certains jeux, en gymnastique ou au cirque."
+            "def": "Arme à feu portative à canon court, qui se tient d'une seule main"
         },
-        "raviver": {
+        "régler": {
             "catGram": "verbe",
-            "def": "Rendre plus vif"
+            "def": "Tracer des lignes droites parallèles sur (du papier)."
+        },
+        "frai": {
+            "catGram": "nom féminin",
+            "def": "Rapprochement sexuel des poissons, pendant lequel la femelle pond ses œufs et le mâle les féconde en libérant sa laitance"
+        },
+        "fourmiller": {
+            "catGram": "verbe",
+            "def": "S'agiter en grand nombre, aller et venir en tous sens et continuellement à la façon des fourmis."
         }
     }
 }
