@@ -1,20 +1,20 @@
 {
     "words": {
-        "pistolet": {
-            "catGram": "nom masculin",
-            "def": "Arme à feu portative à canon court, qui se tient d'une seule main"
-        },
-        "régler": {
-            "catGram": "verbe",
-            "def": "Tracer des lignes droites parallèles sur (du papier)."
-        },
-        "frai": {
+        "frénésie": {
             "catGram": "nom féminin",
-            "def": "Rapprochement sexuel des poissons, pendant lequel la femelle pond ses œufs et le mâle les féconde en libérant sa laitance"
+            "def": "État d'exaltation extrême, violente."
         },
-        "fourmiller": {
-            "catGram": "verbe",
-            "def": "S'agiter en grand nombre, aller et venir en tous sens et continuellement à la façon des fourmis."
+        "soude": {
+            "catGram": "nom féminin",
+            "def": "substance solide blanche fortement basique et caustique, utilisée dans divers secteurs industriels (savonnerie, pâtes et papiers, colorants, etc.)"
+        },
+        "convergence": {
+            "catGram": "nom féminin",
+            "def": "Fait de converger, de tendre vers un point."
+        },
+        "contradictoire": {
+            "catGram": "adjectif",
+            "def": "Qui contredit, qui contient une contradiction."
         }
     }
 }
