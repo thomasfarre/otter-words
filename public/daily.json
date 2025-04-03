@@ -1,20 +1,20 @@
 {
     "words": {
-        "frénésie": {
-            "catGram": "nom féminin",
-            "def": "État d'exaltation extrême, violente."
-        },
-        "soude": {
-            "catGram": "nom féminin",
-            "def": "substance solide blanche fortement basique et caustique, utilisée dans divers secteurs industriels (savonnerie, pâtes et papiers, colorants, etc.)"
-        },
-        "convergence": {
-            "catGram": "nom féminin",
-            "def": "Fait de converger, de tendre vers un point."
-        },
-        "contradictoire": {
+        "possible": {
             "catGram": "adjectif",
-            "def": "Qui contredit, qui contient une contradiction."
+            "def": "Qui se peut, qui remplit les conditions nécessaires pour exister, se produire."
+        },
+        "chevalet": {
+            "catGram": "nom masculin",
+            "def": "Support permettant de tenir à hauteur voulue un objet sur lequel on travaille."
+        },
+        "durant": {
+            "catGram": "préposition",
+            "def": "Pendant la durée de, pendant une période de."
+        },
+        "similarité": {
+            "catGram": "nom féminin",
+            "def": "Fait d'être similaire."
         }
     }
 }
