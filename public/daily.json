@@ -1,20 +1,20 @@
 {
     "words": {
-        "possible": {
-            "catGram": "adjectif",
-            "def": "Qui se peut, qui remplit les conditions nécessaires pour exister, se produire."
-        },
-        "chevalet": {
+        "remue-ménage": {
             "catGram": "nom masculin",
-            "def": "Support permettant de tenir à hauteur voulue un objet sur lequel on travaille."
+            "def": "Déplacement de meubles, d'objets divers qui crée un état de confusion, de désordre momentané."
         },
-        "durant": {
-            "catGram": "préposition",
-            "def": "Pendant la durée de, pendant une période de."
+        "champignon": {
+            "catGram": "nom masculin",
+            "def": "Être vivant, proche des végétaux mais sans feuilles ni chlorophylle et se reproduisant par spores, qui se développe à l’humidité et qui est généralement composé d’une partie végétative souterraine ou non visible d’aspect filamenteux (le mycélium) et d’une partie aérienne charnue servant à la reproduction."
         },
-        "similarité": {
-            "catGram": "nom féminin",
-            "def": "Fait d'être similaire."
+        "productif": {
+            "catGram": "adjectif",
+            "def": "Qui produit."
+        },
+        "convenir": {
+            "catGram": "verbe",
+            "def": "Être approprié, adapté à qqn, à qqch."
         }
     }
 }
