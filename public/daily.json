@@ -1,20 +1,20 @@
 {
     "words": {
-        "remue-ménage": {
-            "catGram": "nom masculin",
-            "def": "Déplacement de meubles, d'objets divers qui crée un état de confusion, de désordre momentané."
-        },
-        "champignon": {
-            "catGram": "nom masculin",
-            "def": "Être vivant, proche des végétaux mais sans feuilles ni chlorophylle et se reproduisant par spores, qui se développe à l’humidité et qui est généralement composé d’une partie végétative souterraine ou non visible d’aspect filamenteux (le mycélium) et d’une partie aérienne charnue servant à la reproduction."
-        },
-        "productif": {
+        "coûteux": {
             "catGram": "adjectif",
-            "def": "Qui produit."
+            "def": "Qui est d’un prix élevé, cher à l’achat"
         },
-        "convenir": {
+        "prêter": {
             "catGram": "verbe",
-            "def": "Être approprié, adapté à qqn, à qqch."
+            "def": "Mettre une chose à la disposition de qqn à condition qu'il la rende"
+        },
+        "bouddhiste": {
+            "catGram": "adjectif",
+            "def": "Relatif au bouddhisme."
+        },
+        "mystifier": {
+            "catGram": "verbe",
+            "def": "Tromper qqn de naïf, généralement pour s’amuser à ses dépens."
         }
     }
 }
