@@ -1,20 +1,20 @@
 {
     "words": {
-        "coûteux": {
-            "catGram": "adjectif",
-            "def": "Qui est d’un prix élevé, cher à l’achat"
+        "abondamment": {
+            "catGram": "adverbe",
+            "def": "De manière abondante."
         },
-        "prêter": {
-            "catGram": "verbe",
-            "def": "Mettre une chose à la disposition de qqn à condition qu'il la rende"
+        "désobéissance": {
+            "catGram": "nom féminin",
+            "def": "Action de désobéir."
         },
-        "bouddhiste": {
-            "catGram": "adjectif",
-            "def": "Relatif au bouddhisme."
+        "réservation": {
+            "catGram": "nom féminin",
+            "def": "Fait de réserver une place dans un moyen de transport ou dans une salle de spectacle, de retenir une chambre dans un hôtel ou tout autre lieu de séjour, une table au restaurant."
         },
-        "mystifier": {
-            "catGram": "verbe",
-            "def": "Tromper qqn de naïf, généralement pour s’amuser à ses dépens."
+        "décentralisation": {
+            "catGram": "nom féminin",
+            "def": "Transfert du centre vers la périphérie."
         }
     }
 }
