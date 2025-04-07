@@ -1,20 +1,20 @@
 {
     "words": {
-        "abondamment": {
-            "catGram": "adverbe",
-            "def": "De manière abondante."
+        "esthétique": {
+            "catGram": "adjectif",
+            "def": "Relatif au beau, à la perception, au sentiment du beau."
         },
-        "désobéissance": {
+        "aviation": {
             "catGram": "nom féminin",
-            "def": "Action de désobéir."
+            "def": "Locomotion, déplacement par voie aérienne."
         },
-        "réservation": {
-            "catGram": "nom féminin",
-            "def": "Fait de réserver une place dans un moyen de transport ou dans une salle de spectacle, de retenir une chambre dans un hôtel ou tout autre lieu de séjour, une table au restaurant."
+        "insistant": {
+            "catGram": "adjectif",
+            "def": "Qui insiste."
         },
-        "décentralisation": {
-            "catGram": "nom féminin",
-            "def": "Transfert du centre vers la périphérie."
+        "rappel": {
+            "catGram": "nom masculin",
+            "def": "Action d’appeler pour faire revenir."
         }
     }
 }
