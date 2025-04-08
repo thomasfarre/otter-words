@@ -1,20 +1,20 @@
 {
     "words": {
-        "esthétique": {
+        "textile": {
             "catGram": "adjectif",
-            "def": "Relatif au beau, à la perception, au sentiment du beau."
+            "def": "Qui peut être tissé, divisé en fils propres à être tissés."
         },
-        "aviation": {
+        "extension": {
             "catGram": "nom féminin",
-            "def": "Locomotion, déplacement par voie aérienne."
+            "def": "Action d’allonger, de s’allonger, de déployer, de se déployer"
         },
-        "insistant": {
-            "catGram": "adjectif",
-            "def": "Qui insiste."
+        "traducteur": {
+            "catGram": "nom",
+            "def": "Auteur d’une traduction"
         },
-        "rappel": {
-            "catGram": "nom masculin",
-            "def": "Action d’appeler pour faire revenir."
+        "câliner": {
+            "catGram": "verbe",
+            "def": "Caresser qqn avec douceur, lui faire des câlins."
         }
     }
 }
