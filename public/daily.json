@@ -1,20 +1,20 @@
 {
     "words": {
-        "textile": {
+        "broussailleux": {
             "catGram": "adjectif",
-            "def": "Qui peut être tissé, divisé en fils propres à être tissés."
+            "def": "Couvert de broussailles."
         },
-        "extension": {
+        "sagesse": {
             "catGram": "nom féminin",
-            "def": "Action d’allonger, de s’allonger, de déployer, de se déployer"
+            "def": "Connaissance du vrai et du bien."
         },
-        "traducteur": {
-            "catGram": "nom",
-            "def": "Auteur d’une traduction"
-        },
-        "câliner": {
+        "concerner": {
             "catGram": "verbe",
-            "def": "Caresser qqn avec douceur, lui faire des câlins."
+            "def": "Se rapporter à, avoir quelque rapport avec."
+        },
+        "exiger": {
+            "catGram": "verbe",
+            "def": "Faire savoir que l'on veut impérativement que qqch. soit fait."
         }
     }
 }
