@@ -1,20 +1,20 @@
 {
     "words": {
-        "broussailleux": {
-            "catGram": "adjectif",
-            "def": "Couvert de broussailles."
+        "écouler": {
+            "catGram": "verbe",
+            "def": "Procéder à la vente rapide (et souvent définitive) d'un produit, d'une marchandise"
         },
-        "sagesse": {
+        "présumer": {
+            "catGram": "verbe",
+            "def": "Croire d'après certains indices, se faire une conviction sans preuves, considérer comme probable."
+        },
+        "sagement": {
+            "catGram": "adverbe",
+            "def": "De manière sage."
+        },
+        "dague": {
             "catGram": "nom féminin",
-            "def": "Connaissance du vrai et du bien."
-        },
-        "concerner": {
-            "catGram": "verbe",
-            "def": "Se rapporter à, avoir quelque rapport avec."
-        },
-        "exiger": {
-            "catGram": "verbe",
-            "def": "Faire savoir que l'on veut impérativement que qqch. soit fait."
+            "def": "Poignard ou épée dont la lame aiguë et plate pouvait pénétrer à travers les cottes de maille."
         }
     }
 }
