@@ -1,20 +1,20 @@
 {
     "words": {
-        "écouler": {
-            "catGram": "verbe",
-            "def": "Procéder à la vente rapide (et souvent définitive) d'un produit, d'une marchandise"
+        "défaut": {
+            "catGram": "nom masculin",
+            "def": "Absence ou insuffisance d’une chose qui serait nécessaire ou souhaitable."
         },
-        "présumer": {
-            "catGram": "verbe",
-            "def": "Croire d'après certains indices, se faire une conviction sans preuves, considérer comme probable."
-        },
-        "sagement": {
-            "catGram": "adverbe",
-            "def": "De manière sage."
-        },
-        "dague": {
+        "contravention": {
             "catGram": "nom féminin",
-            "def": "Poignard ou épée dont la lame aiguë et plate pouvait pénétrer à travers les cottes de maille."
+            "def": "Infraction mineure généralement sanctionnée par une amende"
+        },
+        "surcroît": {
+            "catGram": "nom masculin",
+            "def": "Ce qui s'ajoute, qui vient en plus."
+        },
+        "asymétrie": {
+            "catGram": "nom féminin",
+            "def": "Défaut de symétrie."
         }
     }
 }
