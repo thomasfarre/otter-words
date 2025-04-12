@@ -1,20 +1,20 @@
 {
     "words": {
-        "défaut": {
-            "catGram": "nom masculin",
-            "def": "Absence ou insuffisance d’une chose qui serait nécessaire ou souhaitable."
-        },
-        "contravention": {
+        "hâte": {
             "catGram": "nom féminin",
-            "def": "Infraction mineure généralement sanctionnée par une amende"
+            "def": "Rapidité, promptitude, empressement extrême (à faire, à attendre qqch.)."
         },
-        "surcroît": {
-            "catGram": "nom masculin",
-            "def": "Ce qui s'ajoute, qui vient en plus."
-        },
-        "asymétrie": {
+        "matière": {
             "catGram": "nom féminin",
-            "def": "Défaut de symétrie."
+            "def": "Substance dont sont faits les corps et dont les caractéristiques fondamentales sont l'étendue et la masse."
+        },
+        "label": {
+            "catGram": "nom masculin",
+            "def": "Marque distinctive apposée sur un produit, qui en garantit la qualité, ou la conformité à des normes de fabrication."
+        },
+        "contradiction": {
+            "catGram": "nom féminin",
+            "def": "Action de contredire"
         }
     }
 }
