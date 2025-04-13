@@ -1,20 +1,20 @@
 {
     "words": {
-        "hâte": {
-            "catGram": "nom féminin",
-            "def": "Rapidité, promptitude, empressement extrême (à faire, à attendre qqch.)."
+        "parraineur": {
+            "catGram": "nom",
+            "def": "Commanditaire."
         },
-        "matière": {
-            "catGram": "nom féminin",
-            "def": "Substance dont sont faits les corps et dont les caractéristiques fondamentales sont l'étendue et la masse."
+        "résigner": {
+            "catGram": "verbe",
+            "def": "Abandonner (un bénéfice, une fonction)."
         },
-        "label": {
-            "catGram": "nom masculin",
-            "def": "Marque distinctive apposée sur un produit, qui en garantit la qualité, ou la conformité à des normes de fabrication."
+        "scruter": {
+            "catGram": "verbe",
+            "def": "Regarder attentivement, en cherchant à déceler ce qui est peu visible ou caché."
         },
-        "contradiction": {
+        "culpabilité": {
             "catGram": "nom féminin",
-            "def": "Action de contredire"
+            "def": "Fait d'être coupable."
         }
     }
 }
