@@ -1,20 +1,20 @@
 {
     "words": {
-        "parraineur": {
-            "catGram": "nom",
-            "def": "Commanditaire."
+        "crime": {
+            "catGram": "nom masculin",
+            "def": "Infraction grave punissable par la loi d'une peine afflictive ou infamante"
         },
-        "résigner": {
-            "catGram": "verbe",
-            "def": "Abandonner (un bénéfice, une fonction)."
-        },
-        "scruter": {
-            "catGram": "verbe",
-            "def": "Regarder attentivement, en cherchant à déceler ce qui est peu visible ou caché."
-        },
-        "culpabilité": {
+        "classification": {
             "catGram": "nom féminin",
-            "def": "Fait d'être coupable."
+            "def": "Répartition par classes, par catégories, d'éléments ayant des caractères communs afin, notamment, d'en faciliter l'étude"
+        },
+        "ornemental": {
+            "catGram": "adjectif",
+            "def": "Qui sert d'ornement"
+        },
+        "emplette": {
+            "catGram": "nom féminin",
+            "def": "Achat de marchandises, d'objets d'usage courant."
         }
     }
 }
