@@ -1,20 +1,20 @@
 {
     "words": {
-        "crime": {
+        "classe": {
+            "catGram": "nom féminin",
+            "def": "Ensemble d'êtres ou de choses présentant un ou plusieurs traits communs."
+        },
+        "adoucissement": {
             "catGram": "nom masculin",
-            "def": "Infraction grave punissable par la loi d'une peine afflictive ou infamante"
+            "def": "Action d'adoucir"
         },
-        "classification": {
-            "catGram": "nom féminin",
-            "def": "Répartition par classes, par catégories, d'éléments ayant des caractères communs afin, notamment, d'en faciliter l'étude"
+        "commando": {
+            "catGram": "nom masculin",
+            "def": "Groupe de combat constitué pour une mission spéciale rapide."
         },
-        "ornemental": {
+        "sournois": {
             "catGram": "adjectif",
-            "def": "Qui sert d'ornement"
-        },
-        "emplette": {
-            "catGram": "nom féminin",
-            "def": "Achat de marchandises, d'objets d'usage courant."
+            "def": "Qui dissimule ses sentiments, ses desseins véritables, le plus souvent malveillants."
         }
     }
 }
