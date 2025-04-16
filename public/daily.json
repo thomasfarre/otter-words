@@ -1,20 +1,20 @@
 {
     "words": {
-        "classe": {
+        "sobriété": {
             "catGram": "nom féminin",
-            "def": "Ensemble d'êtres ou de choses présentant un ou plusieurs traits communs."
+            "def": "Comportement consistant à manger et à boire avec modération"
         },
-        "adoucissement": {
-            "catGram": "nom masculin",
-            "def": "Action d'adoucir"
+        "calmement": {
+            "catGram": "adverbe",
+            "def": "D'une manière calme, avec calme."
         },
-        "commando": {
-            "catGram": "nom masculin",
-            "def": "Groupe de combat constitué pour une mission spéciale rapide."
+        "interroger": {
+            "catGram": "verbe",
+            "def": "Poser à qqn une ou plusieurs questions exigeant une réponse."
         },
-        "sournois": {
-            "catGram": "adjectif",
-            "def": "Qui dissimule ses sentiments, ses desseins véritables, le plus souvent malveillants."
+        "ruisseler": {
+            "catGram": "verbe",
+            "def": "Couler, s'écouler de façon continue, en parlant d'un liquide."
         }
     }
 }
