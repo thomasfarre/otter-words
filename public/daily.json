@@ -1,20 +1,20 @@
 {
     "words": {
-        "sobriété": {
-            "catGram": "nom féminin",
-            "def": "Comportement consistant à manger et à boire avec modération"
+        "engourdissement": {
+            "catGram": "nom masculin",
+            "def": "État de ce qui est engourdi."
         },
-        "calmement": {
-            "catGram": "adverbe",
-            "def": "D'une manière calme, avec calme."
+        "surnaturel": {
+            "catGram": "adjectif",
+            "def": "Qui ne peut être expliqué par les lois de la nature, qui semble au-dessus d'elles"
         },
-        "interroger": {
+        "spécieux": {
+            "catGram": "adjectif",
+            "def": "Qui, sous une apparence de vérité, est destiné à tromper, à induire en erreur."
+        },
+        "rouer": {
             "catGram": "verbe",
-            "def": "Poser à qqn une ou plusieurs questions exigeant une réponse."
-        },
-        "ruisseler": {
-            "catGram": "verbe",
-            "def": "Couler, s'écouler de façon continue, en parlant d'un liquide."
+            "def": "Soumettre qqn au supplice de la roue."
         }
     }
 }
