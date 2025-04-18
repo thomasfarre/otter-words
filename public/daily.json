@@ -1,20 +1,20 @@
 {
     "words": {
-        "engourdissement": {
-            "catGram": "nom masculin",
-            "def": "État de ce qui est engourdi."
+        "émission": {
+            "catGram": "nom féminin",
+            "def": "Écoulement sous pression d’un liquide hors de l’organisme."
         },
-        "surnaturel": {
+        "lacustre": {
             "catGram": "adjectif",
-            "def": "Qui ne peut être expliqué par les lois de la nature, qui semble au-dessus d'elles"
+            "def": "Qui appartient, est relatif à un lac, aux lacs."
         },
-        "spécieux": {
-            "catGram": "adjectif",
-            "def": "Qui, sous une apparence de vérité, est destiné à tromper, à induire en erreur."
+        "autrefois": {
+            "catGram": "adverbe",
+            "def": "À une époque passée, lointaine"
         },
-        "rouer": {
+        "menacé": {
             "catGram": "verbe",
-            "def": "Soumettre qqn au supplice de la roue."
+            "def": "Chercher à intimider par des menaces."
         }
     }
 }
