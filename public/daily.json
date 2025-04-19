@@ -1,20 +1,20 @@
 {
     "words": {
-        "émission": {
-            "catGram": "nom féminin",
-            "def": "Écoulement sous pression d’un liquide hors de l’organisme."
-        },
-        "lacustre": {
+        "inégal": {
             "catGram": "adjectif",
-            "def": "Qui appartient, est relatif à un lac, aux lacs."
+            "def": "Qui diffère de par la grandeur, la nature, la qualité, la quantité."
         },
-        "autrefois": {
+        "brebis": {
+            "catGram": "nom féminin",
+            "def": "Mouton femelle."
+        },
+        "gadoue": {
+            "catGram": "nom féminin",
+            "def": "Mélange de matières organiques dont on se sert comme engrais."
+        },
+        "premièrement": {
             "catGram": "adverbe",
-            "def": "À une époque passée, lointaine"
-        },
-        "menacé": {
-            "catGram": "verbe",
-            "def": "Chercher à intimider par des menaces."
+            "def": "En premier lieu"
         }
     }
 }
