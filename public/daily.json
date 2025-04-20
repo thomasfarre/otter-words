@@ -1,20 +1,20 @@
 {
     "words": {
-        "inégal": {
+        "minerai": {
+            "catGram": "nom masculin",
+            "def": "Minéral extrait du sol qui contient des substances chimiques en quantité suffisante pour les extraire industriellement."
+        },
+        "navire": {
+            "catGram": "nom masculin",
+            "def": "Bâtiment allongé, souvent de fort tonnage, destiné principalement à la navigation sur mer."
+        },
+        "chandail": {
+            "catGram": "nom masculin",
+            "def": "Tricot épais à manches longues, qui s'enfile généralement par la tête."
+        },
+        "initial": {
             "catGram": "adjectif",
-            "def": "Qui diffère de par la grandeur, la nature, la qualité, la quantité."
-        },
-        "brebis": {
-            "catGram": "nom féminin",
-            "def": "Mouton femelle."
-        },
-        "gadoue": {
-            "catGram": "nom féminin",
-            "def": "Mélange de matières organiques dont on se sert comme engrais."
-        },
-        "premièrement": {
-            "catGram": "adverbe",
-            "def": "En premier lieu"
+            "def": "Qui marque l’origine, le début de qqch."
         }
     }
 }
