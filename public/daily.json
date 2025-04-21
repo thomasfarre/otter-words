@@ -1,20 +1,20 @@
 {
     "words": {
-        "minerai": {
-            "catGram": "nom masculin",
-            "def": "Minéral extrait du sol qui contient des substances chimiques en quantité suffisante pour les extraire industriellement."
+        "bâfrer": {
+            "catGram": "verbe",
+            "def": "Manger gloutonnement et avec excès."
         },
-        "navire": {
-            "catGram": "nom masculin",
-            "def": "Bâtiment allongé, souvent de fort tonnage, destiné principalement à la navigation sur mer."
+        "législateur": {
+            "catGram": "nom",
+            "def": "Personne qui fait les lois"
         },
-        "chandail": {
-            "catGram": "nom masculin",
-            "def": "Tricot épais à manches longues, qui s'enfile généralement par la tête."
+        "inondation": {
+            "catGram": "nom féminin",
+            "def": "Submersion des terres avoisinant un cours d'eau, une étendue d'eau (à la suite d'une crue, de pluies torrentielles, etc.)"
         },
-        "initial": {
-            "catGram": "adjectif",
-            "def": "Qui marque l’origine, le début de qqch."
+        "assimiler": {
+            "catGram": "verbe",
+            "def": "Réaliser le processus de l’assimilation."
         }
     }
 }
