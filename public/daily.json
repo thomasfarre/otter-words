@@ -1,20 +1,20 @@
 {
     "words": {
-        "bâfrer": {
-            "catGram": "verbe",
-            "def": "Manger gloutonnement et avec excès."
-        },
-        "législateur": {
-            "catGram": "nom",
-            "def": "Personne qui fait les lois"
-        },
-        "inondation": {
+        "résignation": {
             "catGram": "nom féminin",
-            "def": "Submersion des terres avoisinant un cours d'eau, une étendue d'eau (à la suite d'une crue, de pluies torrentielles, etc.)"
+            "def": "Abandon d'un bénéfice, d'une fonction."
         },
-        "assimiler": {
-            "catGram": "verbe",
-            "def": "Réaliser le processus de l’assimilation."
+        "trimestre": {
+            "catGram": "nom masculin",
+            "def": "Période de trois mois."
+        },
+        "orgue": {
+            "catGram": "nom masculin",
+            "def": "Instrument à vent muni d’un ou de plusieurs claviers et d’un pédalier activant une soufflerie qui génère l’air à l’intérieur des tuyaux de longueur variée."
+        },
+        "précepte": {
+            "catGram": "nom masculin",
+            "def": "Proposition énonçant une conduite à suivre dans un domaine précis."
         }
     }
 }
