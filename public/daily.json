@@ -1,20 +1,20 @@
 {
     "words": {
-        "résignation": {
+        "hélium": {
+            "catGram": "nom masculin",
+            "def": "Élément chimique de numéro atomique 2"
+        },
+        "diminutif": {
+            "catGram": "adjectif",
+            "def": "Qui donne une idée de petitesse, qui atténue, affaiblit le sens d’un mot."
+        },
+        "bassin": {
+            "catGram": "nom masculin",
+            "def": "Récipient portatif, généralement rond ou ovale."
+        },
+        "affliction": {
             "catGram": "nom féminin",
-            "def": "Abandon d'un bénéfice, d'une fonction."
-        },
-        "trimestre": {
-            "catGram": "nom masculin",
-            "def": "Période de trois mois."
-        },
-        "orgue": {
-            "catGram": "nom masculin",
-            "def": "Instrument à vent muni d’un ou de plusieurs claviers et d’un pédalier activant une soufflerie qui génère l’air à l’intérieur des tuyaux de longueur variée."
-        },
-        "précepte": {
-            "catGram": "nom masculin",
-            "def": "Proposition énonçant une conduite à suivre dans un domaine précis."
+            "def": "Douleur profonde, généralement durable, accompagnée d'un abattement de l'esprit causé par un événement malheureux."
         }
     }
 }
