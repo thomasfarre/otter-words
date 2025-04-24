@@ -1,20 +1,20 @@
 {
     "words": {
-        "hélium": {
-            "catGram": "nom masculin",
-            "def": "Élément chimique de numéro atomique 2"
-        },
-        "diminutif": {
-            "catGram": "adjectif",
-            "def": "Qui donne une idée de petitesse, qui atténue, affaiblit le sens d’un mot."
-        },
-        "bassin": {
-            "catGram": "nom masculin",
-            "def": "Récipient portatif, généralement rond ou ovale."
-        },
-        "affliction": {
+        "preuve": {
             "catGram": "nom féminin",
-            "def": "Douleur profonde, généralement durable, accompagnée d'un abattement de l'esprit causé par un événement malheureux."
+            "def": "Fait, raisonnement susceptible d'établir la vérité de qqch."
+        },
+        "manigancer": {
+            "catGram": "verbe",
+            "def": "Préparer, faire des manigances."
+        },
+        "superbe": {
+            "catGram": "nom féminin",
+            "def": "Orgueil mêlé de dédain exprimant un sentiment de supériorité."
+        },
+        "altitude": {
+            "catGram": "nom féminin",
+            "def": "Hauteur d'un lieu ou d'un aéronef par rapport au niveau de la mer."
         }
     }
 }
