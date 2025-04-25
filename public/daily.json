@@ -1,20 +1,20 @@
 {
     "words": {
-        "preuve": {
+        "autorité": {
             "catGram": "nom féminin",
-            "def": "Fait, raisonnement susceptible d'établir la vérité de qqch."
+            "def": "Droit de commander"
         },
-        "manigancer": {
+        "sportivement": {
+            "catGram": "adverbe",
+            "def": "Avec un esprit sportif"
+        },
+        "trancher": {
             "catGram": "verbe",
-            "def": "Préparer, faire des manigances."
+            "def": "Séparer, détacher d'un tout, en coupant net, à l'aide d'un instrument."
         },
-        "superbe": {
+        "faïence": {
             "catGram": "nom féminin",
-            "def": "Orgueil mêlé de dédain exprimant un sentiment de supériorité."
-        },
-        "altitude": {
-            "catGram": "nom féminin",
-            "def": "Hauteur d'un lieu ou d'un aéronef par rapport au niveau de la mer."
+            "def": "Poterie de terre émaillée ou vernissée."
         }
     }
 }
