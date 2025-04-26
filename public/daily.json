@@ -1,20 +1,20 @@
 {
     "words": {
-        "autorité": {
+        "épisode": {
+            "catGram": "nom masculin",
+            "def": "Action accessoire d’une œuvre, plus ou moins liée à l’action principale."
+        },
+        "juteux": {
+            "catGram": "adjectif",
+            "def": "Qui contient beaucoup de jus"
+        },
+        "amphore": {
             "catGram": "nom féminin",
-            "def": "Droit de commander"
+            "def": "Vase de terre cuite, de forme ovoïde, à deux anses et à col allongé, servant à conserver et à transporter des liquides ou des grains."
         },
-        "sportivement": {
-            "catGram": "adverbe",
-            "def": "Avec un esprit sportif"
-        },
-        "trancher": {
+        "détester": {
             "catGram": "verbe",
-            "def": "Séparer, détacher d'un tout, en coupant net, à l'aide d'un instrument."
-        },
-        "faïence": {
-            "catGram": "nom féminin",
-            "def": "Poterie de terre émaillée ou vernissée."
+            "def": "Avoir en horreur"
         }
     }
 }
