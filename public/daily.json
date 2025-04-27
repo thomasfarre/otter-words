@@ -1,20 +1,20 @@
 {
     "words": {
-        "épisode": {
-            "catGram": "nom masculin",
-            "def": "Action accessoire d’une œuvre, plus ou moins liée à l’action principale."
-        },
-        "juteux": {
+        "géographique": {
             "catGram": "adjectif",
-            "def": "Qui contient beaucoup de jus"
+            "def": "Relatif à la géographie."
         },
-        "amphore": {
-            "catGram": "nom féminin",
-            "def": "Vase de terre cuite, de forme ovoïde, à deux anses et à col allongé, servant à conserver et à transporter des liquides ou des grains."
-        },
-        "détester": {
+        "hocher": {
             "catGram": "verbe",
-            "def": "Avoir en horreur"
+            "def": "la secouer de droite à gauche ou de haut en bas pour exprimer des sentiments divers."
+        },
+        "muqueuse": {
+            "catGram": "nom féminin",
+            "def": "Membrane tapissant les cavités de l'organisme communiquant avec l'extérieur (tube digestif, appareil respiratoire, appareil génital, etc.)."
+        },
+        "transgression": {
+            "catGram": "nom féminin",
+            "def": "Action de transgresser."
         }
     }
 }
