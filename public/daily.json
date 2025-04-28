@@ -1,20 +1,20 @@
 {
     "words": {
-        "géographique": {
+        "monnaie": {
+            "catGram": "nom féminin",
+            "def": "Pièce en métal, de titre, de forme et de poids caractéristiques, frappée d'une empreinte particulière, et garantie par l'autorité d'émission comme moyen d'échange, de paiement et d'épargne"
+        },
+        "notable": {
             "catGram": "adjectif",
-            "def": "Relatif à la géographie."
+            "def": "Qui mérite d'être noté, signalé"
         },
-        "hocher": {
-            "catGram": "verbe",
-            "def": "la secouer de droite à gauche ou de haut en bas pour exprimer des sentiments divers."
+        "nez": {
+            "catGram": "nom masculin",
+            "def": "Partie saillante du visage de l’être humain, entre la bouche et le front, contenant la partie antérieure des fosses nasales et intervenant dans la respiration et l’olfaction."
         },
-        "muqueuse": {
-            "catGram": "nom féminin",
-            "def": "Membrane tapissant les cavités de l'organisme communiquant avec l'extérieur (tube digestif, appareil respiratoire, appareil génital, etc.)."
-        },
-        "transgression": {
-            "catGram": "nom féminin",
-            "def": "Action de transgresser."
+        "avidement": {
+            "catGram": "adverbe",
+            "def": "De manière avide."
         }
     }
 }
