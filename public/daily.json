@@ -1,20 +1,20 @@
 {
     "words": {
-        "monnaie": {
+        "groseille": {
             "catGram": "nom féminin",
-            "def": "Pièce en métal, de titre, de forme et de poids caractéristiques, frappée d'une empreinte particulière, et garantie par l'autorité d'émission comme moyen d'échange, de paiement et d'épargne"
+            "def": "Baie comestible que produit le groseillier, de couleur et de taille variables selon les variétés, à peau lisse ou velue, souvent translucide, et dont la chair juteuse et acidulée contient de nombreuses petites graines"
         },
-        "notable": {
-            "catGram": "adjectif",
-            "def": "Qui mérite d'être noté, signalé"
+        "exception": {
+            "catGram": "nom féminin",
+            "def": "Action d’excepter."
         },
-        "nez": {
+        "je": {
+            "catGram": "pronom personnel, 1re pers. du singulier",
+            "def": "Sert à représenter la personne qui parle, qui écrit."
+        },
+        "amiante": {
             "catGram": "nom masculin",
-            "def": "Partie saillante du visage de l’être humain, entre la bouche et le front, contenant la partie antérieure des fosses nasales et intervenant dans la respiration et l’olfaction."
-        },
-        "avidement": {
-            "catGram": "adverbe",
-            "def": "De manière avide."
+            "def": "Silicate de calcium et de magnésium se présentant sous forme de fibres et résistant à l'action du feu."
         }
     }
 }
