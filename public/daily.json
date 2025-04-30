@@ -1,20 +1,20 @@
 {
     "words": {
-        "groseille": {
-            "catGram": "nom féminin",
-            "def": "Baie comestible que produit le groseillier, de couleur et de taille variables selon les variétés, à peau lisse ou velue, souvent translucide, et dont la chair juteuse et acidulée contient de nombreuses petites graines"
-        },
-        "exception": {
-            "catGram": "nom féminin",
-            "def": "Action d’excepter."
-        },
-        "je": {
-            "catGram": "pronom personnel, 1re pers. du singulier",
-            "def": "Sert à représenter la personne qui parle, qui écrit."
-        },
-        "amiante": {
+        "télex": {
             "catGram": "nom masculin",
-            "def": "Silicate de calcium et de magnésium se présentant sous forme de fibres et résistant à l'action du feu."
+            "def": "Réseau de télécommunication international qui permet la transmission de messages dactylographiques au moyen de téléimprimeurs"
+        },
+        "antimilitariste": {
+            "catGram": "adjectif",
+            "def": "Qui se réclame de l'antimilitarisme."
+        },
+        "enfermer": {
+            "catGram": "verbe",
+            "def": "Mettre (qqn, un animal) dans un lieu fermé d'où il ne peut sortir."
+        },
+        "cheval": {
+            "catGram": "nom masculin",
+            "def": "Mammifère ongulé, souvent de grande taille et à crinière longue et souple, à queue composée de longs crins, qui a été domestiqué notamment comme animal de selle et de trait."
         }
     }
 }
