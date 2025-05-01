@@ -1,20 +1,20 @@
 {
     "words": {
-        "télex": {
-            "catGram": "nom masculin",
-            "def": "Réseau de télécommunication international qui permet la transmission de messages dactylographiques au moyen de téléimprimeurs"
+        "médiocrité": {
+            "catGram": "nom féminin",
+            "def": "État de qqn ou de qqch. qui est médiocre."
         },
-        "antimilitariste": {
+        "mon": {
+            "catGram": "déterminant possessif",
+            "def": "Sert à désigner un élément appartenant au locuteur (mon objet=l'objet qui est à moi)."
+        },
+        "attrayant": {
             "catGram": "adjectif",
-            "def": "Qui se réclame de l'antimilitarisme."
+            "def": "Qui exerce de l'attrait, qui attire par sa manière d'être agréable, séduisante."
         },
-        "enfermer": {
-            "catGram": "verbe",
-            "def": "Mettre (qqn, un animal) dans un lieu fermé d'où il ne peut sortir."
-        },
-        "cheval": {
+        "dressage": {
             "catGram": "nom masculin",
-            "def": "Mammifère ongulé, souvent de grande taille et à crinière longue et souple, à queue composée de longs crins, qui a été domestiqué notamment comme animal de selle et de trait."
+            "def": "Action de mettre debout, d’installer."
         }
     }
 }
