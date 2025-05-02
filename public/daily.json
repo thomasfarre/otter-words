@@ -1,20 +1,20 @@
 {
     "words": {
-        "médiocrité": {
+        "contrefaçon": {
             "catGram": "nom féminin",
-            "def": "État de qqn ou de qqch. qui est médiocre."
+            "def": "Reproduction frauduleuse, notamment d'une œuvre ou d'une monnaie."
         },
-        "mon": {
-            "catGram": "déterminant possessif",
-            "def": "Sert à désigner un élément appartenant au locuteur (mon objet=l'objet qui est à moi)."
+        "remonter": {
+            "catGram": "verbe",
+            "def": "Monter de nouveau"
         },
-        "attrayant": {
+        "admirable": {
             "catGram": "adjectif",
-            "def": "Qui exerce de l'attrait, qui attire par sa manière d'être agréable, séduisante."
+            "def": "Qui mérite, qui suscite l’admiration."
         },
-        "dressage": {
-            "catGram": "nom masculin",
-            "def": "Action de mettre debout, d’installer."
+        "accompagnant": {
+            "catGram": "nom",
+            "def": "Personne qui accompagne un individu, un groupe pour une activité spécifique (voyage, congrès, visite à l'hôpital, etc.)."
         }
     }
 }
