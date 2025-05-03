@@ -1,20 +1,20 @@
 {
     "words": {
-        "contrefaçon": {
-            "catGram": "nom féminin",
-            "def": "Reproduction frauduleuse, notamment d'une œuvre ou d'une monnaie."
-        },
-        "remonter": {
-            "catGram": "verbe",
-            "def": "Monter de nouveau"
-        },
-        "admirable": {
-            "catGram": "adjectif",
-            "def": "Qui mérite, qui suscite l’admiration."
-        },
-        "accompagnant": {
+        "attaché": {
             "catGram": "nom",
-            "def": "Personne qui accompagne un individu, un groupe pour une activité spécifique (voyage, congrès, visite à l'hôpital, etc.)."
+            "def": "Personne faisant partie d’une direction ou d’un service, dans une entreprise, un ministère, une ambassade."
+        },
+        "libre": {
+            "catGram": "adjectif",
+            "def": "Qui n’est pas sous la dépendance de qqn d’autre."
+        },
+        "propreté": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est net, propre, rangé, sans trace de saleté"
+        },
+        "épingler": {
+            "catGram": "verbe",
+            "def": "Attacher, retenir avec une ou des épingles."
         }
     }
 }
