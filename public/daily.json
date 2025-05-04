@@ -1,20 +1,20 @@
 {
     "words": {
-        "attaché": {
-            "catGram": "nom",
-            "def": "Personne faisant partie d’une direction ou d’un service, dans une entreprise, un ministère, une ambassade."
+        "cerveau": {
+            "catGram": "nom masculin",
+            "def": "Partie supérieure de l’encéphale, formée des deux hémisphères cérébraux, du diencéphale et du corps calleux."
         },
-        "libre": {
-            "catGram": "adjectif",
-            "def": "Qui n’est pas sous la dépendance de qqn d’autre."
-        },
-        "propreté": {
+        "malveillance": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est net, propre, rangé, sans trace de saleté"
+            "def": "Caractère ou comportement d'une personne malveillante."
         },
-        "épingler": {
+        "raffut": {
+            "catGram": "nom masculin",
+            "def": "Grand bruit fait par des personnes qui parlent fort, s'amusent, crient ou se disputent."
+        },
+        "armer": {
             "catGram": "verbe",
-            "def": "Attacher, retenir avec une ou des épingles."
+            "def": "Munir qqn, qqch. d'armes, d'armement"
         }
     }
 }
