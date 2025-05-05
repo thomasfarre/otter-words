@@ -1,20 +1,20 @@
 {
     "words": {
-        "cerveau": {
-            "catGram": "nom masculin",
-            "def": "Partie supérieure de l’encéphale, formée des deux hémisphères cérébraux, du diencéphale et du corps calleux."
+        "ceux-là": {
+            "catGram": "pronom démonstratif",
+            "def": "Sert à désigner et représenter un élément plus ou moins éloigné que l'on montre ou auquel le contexte a fait référence."
         },
-        "malveillance": {
+        "stimulation": {
             "catGram": "nom féminin",
-            "def": "Caractère ou comportement d'une personne malveillante."
+            "def": "Action de stimuler."
         },
-        "raffut": {
-            "catGram": "nom masculin",
-            "def": "Grand bruit fait par des personnes qui parlent fort, s'amusent, crient ou se disputent."
+        "prématurément": {
+            "catGram": "adverbe",
+            "def": "De façon prématurée, avant le temps normal, convenable."
         },
-        "armer": {
-            "catGram": "verbe",
-            "def": "Munir qqn, qqch. d'armes, d'armement"
+        "local": {
+            "catGram": "adjectif",
+            "def": "Qui est particulier à un lieu limité dans l'espace, qui ne concerne que ce lieu."
         }
     }
 }
