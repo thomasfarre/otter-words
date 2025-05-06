@@ -1,20 +1,20 @@
 {
     "words": {
-        "ceux-là": {
-            "catGram": "pronom démonstratif",
-            "def": "Sert à désigner et représenter un élément plus ou moins éloigné que l'on montre ou auquel le contexte a fait référence."
-        },
-        "stimulation": {
+        "production": {
             "catGram": "nom féminin",
-            "def": "Action de stimuler."
+            "def": "Action d'engendrer, de faire exister"
         },
-        "prématurément": {
-            "catGram": "adverbe",
-            "def": "De façon prématurée, avant le temps normal, convenable."
+        "écorce": {
+            "catGram": "nom féminin",
+            "def": "Enveloppe protectrice des tiges et des rameaux des végétaux ligneux, formée à partir des tissus extérieurs du liber."
         },
-        "local": {
-            "catGram": "adjectif",
-            "def": "Qui est particulier à un lieu limité dans l'espace, qui ne concerne que ce lieu."
+        "valvule": {
+            "catGram": "nom féminin",
+            "def": "Repli membraneux d'un conduit, d'un passage du corps, qui empêche les liquides ou les matières de refluer."
+        },
+        "bagarrer": {
+            "catGram": "verbe",
+            "def": "Se battre"
         }
     }
 }
