@@ -1,20 +1,20 @@
 {
     "words": {
-        "production": {
-            "catGram": "nom féminin",
-            "def": "Action d'engendrer, de faire exister"
+        "évangélique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l'Évangile."
         },
-        "écorce": {
-            "catGram": "nom féminin",
-            "def": "Enveloppe protectrice des tiges et des rameaux des végétaux ligneux, formée à partir des tissus extérieurs du liber."
+        "colback": {
+            "catGram": "nom masculin",
+            "def": "Bonnet à poil en forme de cône tronqué renversé, fermé par une poche tombante conique en drap, porté en France par différents corps cavaliers des premier et second Empires."
         },
-        "valvule": {
+        "provenance": {
             "catGram": "nom féminin",
-            "def": "Repli membraneux d'un conduit, d'un passage du corps, qui empêche les liquides ou les matières de refluer."
+            "def": "Lieu d'origine de qqch., de qqn."
         },
-        "bagarrer": {
-            "catGram": "verbe",
-            "def": "Se battre"
+        "absence": {
+            "catGram": "nom féminin",
+            "def": "Le fait d'être absent d'un lieu où l'on devrait être."
         }
     }
 }
