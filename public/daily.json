@@ -1,20 +1,20 @@
 {
     "words": {
-        "évangélique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l'Évangile."
+        "ravager": {
+            "catGram": "verbe",
+            "def": "Détruire avec violence ou causer d’importants dommages."
         },
-        "colback": {
-            "catGram": "nom masculin",
-            "def": "Bonnet à poil en forme de cône tronqué renversé, fermé par une poche tombante conique en drap, porté en France par différents corps cavaliers des premier et second Empires."
-        },
-        "provenance": {
+        "voyelle": {
             "catGram": "nom féminin",
-            "def": "Lieu d'origine de qqch., de qqn."
+            "def": "Son du langage pleinement résonant, produit par l’écoulement libre de l’air dans le conduit vocal tel que modifié par l’ouverture de la bouche et la position de la langue, des lèvres et de la luette."
         },
-        "absence": {
+        "méditation": {
             "catGram": "nom féminin",
-            "def": "Le fait d'être absent d'un lieu où l'on devrait être."
+            "def": "Action de méditer, de penser avec une grande concentration d'esprit pour approfondir sa réflexion."
+        },
+        "soulager": {
+            "catGram": "verbe",
+            "def": "Débarrasser une personne, un animal d'une charge, d’une partie d’une charge, lui épargner de la fatigue."
         }
     }
 }
