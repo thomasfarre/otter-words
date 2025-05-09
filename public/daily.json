@@ -1,20 +1,20 @@
 {
     "words": {
-        "ravager": {
+        "privatiser": {
             "catGram": "verbe",
-            "def": "Détruire avec violence ou causer d’importants dommages."
+            "def": "Transformer en entreprise privée une entreprise relevant du secteur public."
         },
-        "voyelle": {
+        "bizarre": {
+            "catGram": "adjectif",
+            "def": "Qui étonne par son caractère inhabituel, qui est difficile à expliquer, à définir."
+        },
+        "fosse": {
             "catGram": "nom féminin",
-            "def": "Son du langage pleinement résonant, produit par l’écoulement libre de l’air dans le conduit vocal tel que modifié par l’ouverture de la bouche et la position de la langue, des lèvres et de la luette."
+            "def": "Cavité large et profonde creusée dans la terre, généralement destinée à recevoir qqch."
         },
-        "méditation": {
-            "catGram": "nom féminin",
-            "def": "Action de méditer, de penser avec une grande concentration d'esprit pour approfondir sa réflexion."
-        },
-        "soulager": {
-            "catGram": "verbe",
-            "def": "Débarrasser une personne, un animal d'une charge, d’une partie d’une charge, lui épargner de la fatigue."
+        "marketing": {
+            "catGram": "nom masculin",
+            "def": "Ensemble des études et des actions qui concourent à créer des produits satisfaisant les besoins et les désirs des consommateurs et à assurer leur commercialisation dans les meilleures conditions de profit."
         }
     }
 }
