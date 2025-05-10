@@ -1,20 +1,20 @@
 {
     "words": {
-        "privatiser": {
-            "catGram": "verbe",
-            "def": "Transformer en entreprise privée une entreprise relevant du secteur public."
-        },
-        "bizarre": {
+        "obscène": {
             "catGram": "adjectif",
-            "def": "Qui étonne par son caractère inhabituel, qui est difficile à expliquer, à définir."
+            "def": "Qui offense ouvertement la pudeur dans le domaine de la sexualité."
         },
-        "fosse": {
+        "happer": {
+            "catGram": "verbe",
+            "def": "Attraper brusquement qqch. d'un coup de mâchoires, de bec."
+        },
+        "drôlerie": {
             "catGram": "nom féminin",
-            "def": "Cavité large et profonde creusée dans la terre, généralement destinée à recevoir qqch."
+            "def": "Parole ou action drôle."
         },
-        "marketing": {
-            "catGram": "nom masculin",
-            "def": "Ensemble des études et des actions qui concourent à créer des produits satisfaisant les besoins et les désirs des consommateurs et à assurer leur commercialisation dans les meilleures conditions de profit."
+        "forme": {
+            "catGram": "nom féminin",
+            "def": "Contours d’un objet"
         }
     }
 }
