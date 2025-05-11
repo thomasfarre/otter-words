@@ -1,20 +1,20 @@
 {
     "words": {
-        "obscène": {
+        "grossier": {
             "catGram": "adjectif",
-            "def": "Qui offense ouvertement la pudeur dans le domaine de la sexualité."
+            "def": "Qui est constitué d'une matière médiocre ou dont la fabrication est rudimentaire."
         },
-        "happer": {
-            "catGram": "verbe",
-            "def": "Attraper brusquement qqch. d'un coup de mâchoires, de bec."
-        },
-        "drôlerie": {
+        "chausse-trappe": {
             "catGram": "nom féminin",
-            "def": "Parole ou action drôle."
+            "def": "Pièce de fer munie de pointes placée au devant de l'infanterie et de la cavalerie ennemies pour qu'elles s'y enferrent."
         },
-        "forme": {
-            "catGram": "nom féminin",
-            "def": "Contours d’un objet"
+        "ravitaillement": {
+            "catGram": "nom masculin",
+            "def": "Action de ravitailler."
+        },
+        "moissonneuse-batteuse": {
+            "catGram": "nom",
+            "def": "Personne qui travaille à la moisson."
         }
     }
 }
