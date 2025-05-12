@@ -1,20 +1,20 @@
 {
     "words": {
-        "grossier": {
-            "catGram": "adjectif",
-            "def": "Qui est constitué d'une matière médiocre ou dont la fabrication est rudimentaire."
-        },
-        "chausse-trappe": {
+        "brasserie": {
             "catGram": "nom féminin",
-            "def": "Pièce de fer munie de pointes placée au devant de l'infanterie et de la cavalerie ennemies pour qu'elles s'y enferrent."
+            "def": "Établissement où l'on fabrique de la bière."
         },
-        "ravitaillement": {
-            "catGram": "nom masculin",
-            "def": "Action de ravitailler."
+        "lecture": {
+            "catGram": "nom féminin",
+            "def": "Action de lire, de déchiffrer visuellement des signes graphiques qui traduisent le langage oral."
         },
-        "moissonneuse-batteuse": {
-            "catGram": "nom",
-            "def": "Personne qui travaille à la moisson."
+        "dérogation": {
+            "catGram": "nom féminin",
+            "def": "Action de déroger à une loi, une convention"
+        },
+        "exhortation": {
+            "catGram": "nom féminin",
+            "def": "Discours par lequel on exhorte."
         }
     }
 }
