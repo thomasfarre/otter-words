@@ -1,20 +1,20 @@
 {
     "words": {
-        "brasserie": {
+        "oeillère": {
             "catGram": "nom féminin",
-            "def": "Établissement où l'on fabrique de la bière."
+            "def": "Pièce de cuir fixée au montant de la bride du cheval pour l’empêcher de voir de côté et pour lui protéger l’œil."
         },
-        "lecture": {
-            "catGram": "nom féminin",
-            "def": "Action de lire, de déchiffrer visuellement des signes graphiques qui traduisent le langage oral."
+        "terroir": {
+            "catGram": "nom masculin",
+            "def": "Étendue de terre considérée du point de vue de la spécificité de sa production agricole."
         },
-        "dérogation": {
-            "catGram": "nom féminin",
-            "def": "Action de déroger à une loi, une convention"
+        "catalogue": {
+            "catGram": "nom masculin",
+            "def": "Liste, établie dans un ordre donné, de noms de personnes ou de choses formant une collection."
         },
-        "exhortation": {
-            "catGram": "nom féminin",
-            "def": "Discours par lequel on exhorte."
+        "nouvel": {
+            "catGram": "adjectif",
+            "def": "Qui vient d'apparaître"
         }
     }
 }
