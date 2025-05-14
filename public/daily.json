@@ -1,20 +1,20 @@
 {
     "words": {
-        "oeillère": {
-            "catGram": "nom féminin",
-            "def": "Pièce de cuir fixée au montant de la bride du cheval pour l’empêcher de voir de côté et pour lui protéger l’œil."
-        },
-        "terroir": {
-            "catGram": "nom masculin",
-            "def": "Étendue de terre considérée du point de vue de la spécificité de sa production agricole."
-        },
-        "catalogue": {
-            "catGram": "nom masculin",
-            "def": "Liste, établie dans un ordre donné, de noms de personnes ou de choses formant une collection."
-        },
-        "nouvel": {
+        "véritable": {
             "catGram": "adjectif",
-            "def": "Qui vient d'apparaître"
+            "def": "Qui est conforme à la réalité."
+        },
+        "bourrin": {
+            "catGram": "nom masculin",
+            "def": "Cheval"
+        },
+        "mètre": {
+            "catGram": "nom masculin",
+            "def": "Dans la versification grecque et latine, structure rythmique d'un vers déterminée par la longueur et le nombre de syllabes."
+        },
+        "précédemment": {
+            "catGram": "adverbe",
+            "def": "À une époque antérieure."
         }
     }
 }
