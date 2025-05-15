@@ -1,20 +1,20 @@
 {
     "words": {
-        "véritable": {
+        "énième": {
             "catGram": "adjectif",
-            "def": "Qui est conforme à la réalité."
+            "def": "Qui occupe le rang marqué par un nombren, c'est-à-dire un rang indéterminé et souvent élevé."
         },
-        "bourrin": {
+        "préfet": {
+            "catGram": "nom",
+            "def": "Magistrat ou haut fonctionnaire chargé de l’administration de Rome ou de fonctions militaires."
+        },
+        "usage": {
             "catGram": "nom masculin",
-            "def": "Cheval"
+            "def": "Fait d'utiliser qqch., de le faire agir selon sa fonction."
         },
-        "mètre": {
-            "catGram": "nom masculin",
-            "def": "Dans la versification grecque et latine, structure rythmique d'un vers déterminée par la longueur et le nombre de syllabes."
-        },
-        "précédemment": {
-            "catGram": "adverbe",
-            "def": "À une époque antérieure."
+        "reconstruire": {
+            "catGram": "verbe",
+            "def": "Construire de nouveau (un édifice, un ouvrage d'art)."
         }
     }
 }
