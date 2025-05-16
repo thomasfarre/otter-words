@@ -1,20 +1,20 @@
 {
     "words": {
-        "énième": {
-            "catGram": "adjectif",
-            "def": "Qui occupe le rang marqué par un nombren, c'est-à-dire un rang indéterminé et souvent élevé."
-        },
-        "préfet": {
-            "catGram": "nom",
-            "def": "Magistrat ou haut fonctionnaire chargé de l’administration de Rome ou de fonctions militaires."
-        },
-        "usage": {
-            "catGram": "nom masculin",
-            "def": "Fait d'utiliser qqch., de le faire agir selon sa fonction."
-        },
-        "reconstruire": {
+        "déprécier": {
             "catGram": "verbe",
-            "def": "Construire de nouveau (un édifice, un ouvrage d'art)."
+            "def": "Rabaisser, diminuer la valeur de."
+        },
+        "exigu": {
+            "catGram": "adjectif",
+            "def": "Qui est très petit, dont les dimensions sont généralement très réduites ou insuffisantes."
+        },
+        "précieuse": {
+            "catGram": "adjectif",
+            "def": "Dont la valeur marchande est très élevée."
+        },
+        "triste": {
+            "catGram": "adjectif",
+            "def": "Qui est dans un état d’abattement causé par un chagrin, une peine."
         }
     }
 }
