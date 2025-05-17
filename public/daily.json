@@ -1,20 +1,20 @@
 {
     "words": {
-        "déprécier": {
+        "ambitionner": {
             "catGram": "verbe",
-            "def": "Rabaisser, diminuer la valeur de."
+            "def": "Rechercher avec ardeur une chose jugée supérieure."
         },
-        "exigu": {
-            "catGram": "adjectif",
-            "def": "Qui est très petit, dont les dimensions sont généralement très réduites ou insuffisantes."
+        "affichage": {
+            "catGram": "nom masculin",
+            "def": "Action d'afficher"
         },
-        "précieuse": {
-            "catGram": "adjectif",
-            "def": "Dont la valeur marchande est très élevée."
+        "indivisibilité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est indivisible"
         },
-        "triste": {
-            "catGram": "adjectif",
-            "def": "Qui est dans un état d’abattement causé par un chagrin, une peine."
+        "germe": {
+            "catGram": "nom masculin",
+            "def": "Œuf fécondé"
         }
     }
 }
