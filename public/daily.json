@@ -1,20 +1,20 @@
 {
     "words": {
-        "ambitionner": {
+        "miséricordieux": {
+            "catGram": "adjectif",
+            "def": "Plein de miséricorde, qui pardonne généreusement."
+        },
+        "intimement": {
+            "catGram": "adverbe",
+            "def": "Profondément, intérieurement."
+        },
+        "acquitter": {
             "catGram": "verbe",
-            "def": "Rechercher avec ardeur une chose jugée supérieure."
+            "def": "Déclarer qqn par jugement ou arrêt innocent de la faute pour laquelle il est poursuivi"
         },
-        "affichage": {
-            "catGram": "nom masculin",
-            "def": "Action d'afficher"
-        },
-        "indivisibilité": {
+        "terre": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est indivisible"
-        },
-        "germe": {
-            "catGram": "nom masculin",
-            "def": "Œuf fécondé"
+            "def": "Planète, milieu où vit l'être humain."
         }
     }
 }
