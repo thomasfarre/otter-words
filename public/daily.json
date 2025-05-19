@@ -1,20 +1,20 @@
 {
     "words": {
-        "miséricordieux": {
-            "catGram": "adjectif",
-            "def": "Plein de miséricorde, qui pardonne généreusement."
+        "pin": {
+            "catGram": "nom masculin",
+            "def": "Conifère présent essentiellement dans l’hémisphère Nord, à port variable, à aiguilles longues et fines réunies en touffes, qui est généralement de grande taille et qui produit de gros cônes ligneux."
         },
-        "intimement": {
+        "entraîneuse": {
+            "catGram": "nom",
+            "def": "Personne qui entraîne des chevaux de course."
+        },
+        "successivement": {
             "catGram": "adverbe",
-            "def": "Profondément, intérieurement."
+            "def": "De manière successive"
         },
-        "acquitter": {
+        "émerger": {
             "catGram": "verbe",
-            "def": "Déclarer qqn par jugement ou arrêt innocent de la faute pour laquelle il est poursuivi"
-        },
-        "terre": {
-            "catGram": "nom féminin",
-            "def": "Planète, milieu où vit l'être humain."
+            "def": "Être, sortir au-dessus de la surface de l'eau, d'un liquide."
         }
     }
 }
