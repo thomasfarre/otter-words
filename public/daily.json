@@ -1,20 +1,20 @@
 {
     "words": {
-        "pin": {
+        "falsification": {
+            "catGram": "nom féminin",
+            "def": "Action de falsifier"
+        },
+        "écale": {
+            "catGram": "nom féminin",
+            "def": "Enveloppe extérieure de la coque de certains fruits (noix, noisette, amande, etc.)."
+        },
+        "bâillement": {
             "catGram": "nom masculin",
-            "def": "Conifère présent essentiellement dans l’hémisphère Nord, à port variable, à aiguilles longues et fines réunies en touffes, qui est généralement de grande taille et qui produit de gros cônes ligneux."
+            "def": "Action de bâiller"
         },
-        "entraîneuse": {
-            "catGram": "nom",
-            "def": "Personne qui entraîne des chevaux de course."
-        },
-        "successivement": {
-            "catGram": "adverbe",
-            "def": "De manière successive"
-        },
-        "émerger": {
-            "catGram": "verbe",
-            "def": "Être, sortir au-dessus de la surface de l'eau, d'un liquide."
+        "hostile": {
+            "catGram": "adjectif",
+            "def": "Qui manifeste de l'agressivité, qui se comporte en ennemi."
         }
     }
 }
