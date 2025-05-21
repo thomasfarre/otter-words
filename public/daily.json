@@ -1,20 +1,20 @@
 {
     "words": {
-        "falsification": {
-            "catGram": "nom féminin",
-            "def": "Action de falsifier"
-        },
-        "écale": {
-            "catGram": "nom féminin",
-            "def": "Enveloppe extérieure de la coque de certains fruits (noix, noisette, amande, etc.)."
-        },
-        "bâillement": {
-            "catGram": "nom masculin",
-            "def": "Action de bâiller"
-        },
-        "hostile": {
+        "maniéré": {
             "catGram": "adjectif",
-            "def": "Qui manifeste de l'agressivité, qui se comporte en ennemi."
+            "def": "Affecté, précieux"
+        },
+        "philo": {
+            "catGram": "nom féminin",
+            "def": "Réflexion critique sur les problèmes de l'action et de la connaissance humaine"
+        },
+        "tailleur": {
+            "catGram": "nom",
+            "def": "Failed to retrieve the web page"
+        },
+        "bariolé": {
+            "catGram": "adjectif",
+            "def": "Marqué de couleurs disparates, mal assorties."
         }
     }
 }
