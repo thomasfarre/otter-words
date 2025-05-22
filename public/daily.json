@@ -1,20 +1,20 @@
 {
     "words": {
-        "maniéré": {
-            "catGram": "adjectif",
-            "def": "Affecté, précieux"
+        "duper": {
+            "catGram": "verbe",
+            "def": "Berner, tromper."
         },
-        "philo": {
+        "découpage": {
+            "catGram": "nom masculin",
+            "def": "Action de découper"
+        },
+        "habiter": {
+            "catGram": "verbe",
+            "def": "Occuper habituellement (une habitation, un lieu)."
+        },
+        "taupe": {
             "catGram": "nom féminin",
-            "def": "Réflexion critique sur les problèmes de l'action et de la connaissance humaine"
-        },
-        "tailleur": {
-            "catGram": "nom",
-            "def": "Failed to retrieve the web page"
-        },
-        "bariolé": {
-            "catGram": "adjectif",
-            "def": "Marqué de couleurs disparates, mal assorties."
+            "def": "Petit mammifère de l'hémisphère Nord, à pelage sombre, à museau allongé, à très petits yeux et à courtes pattes munies à l'avant de griffes puissantes, qui vit essentiellement sous terre où il creuse un réseau de galeries, et qui se nourrit principalement d'insectes et de vers."
         }
     }
 }
