@@ -1,20 +1,20 @@
 {
     "words": {
-        "avant-hier": {
-            "catGram": "adverbe",
-            "def": "Le jour qui a précédé hier."
+        "magistrat": {
+            "catGram": "nom",
+            "def": "Personne investie d'un pouvoir politique, administratif ou judiciaire."
         },
-        "frustrer": {
-            "catGram": "verbe",
-            "def": "Priver qqn (d’un bien, d’un avantage qui lui est dû, auquel il s’attend)."
+        "réglo": {
+            "catGram": "adjectif",
+            "def": "Conforme au règlement."
         },
-        "treize": {
-            "catGram": "déterminant numéral",
-            "def": "Sert à désigner une quantité d'éléments atteignant le nombre correspondant à douze plus un."
-        },
-        "acquisition": {
+        "chair": {
             "catGram": "nom féminin",
-            "def": "Action d'acquérir."
+            "def": "Composante du corps."
+        },
+        "voûte": {
+            "catGram": "nom féminin",
+            "def": "Ouvrage de maçonnerie cintré, fait notamment de pierres spécialement taillées ou de béton, et servant à couvrir un espace en s'appuyant sur des murs, des piliers ou des colonnes."
         }
     }
 }
