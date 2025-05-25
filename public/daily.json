@@ -1,20 +1,20 @@
 {
     "words": {
-        "magistrat": {
-            "catGram": "nom",
-            "def": "Personne investie d'un pouvoir politique, administratif ou judiciaire."
-        },
-        "réglo": {
-            "catGram": "adjectif",
-            "def": "Conforme au règlement."
-        },
-        "chair": {
+        "philo": {
             "catGram": "nom féminin",
-            "def": "Composante du corps."
+            "def": "Réflexion critique sur les problèmes de l'action et de la connaissance humaine"
         },
-        "voûte": {
+        "promouvoir": {
+            "catGram": "verbe",
+            "def": "Faire accéder qqn à une fonction ou à un grade supérieurs, l'élever à une dignité."
+        },
+        "fée": {
             "catGram": "nom féminin",
-            "def": "Ouvrage de maçonnerie cintré, fait notamment de pierres spécialement taillées ou de béton, et servant à couvrir un espace en s'appuyant sur des murs, des piliers ou des colonnes."
+            "def": "Être imaginaire féminin doté de pouvoirs magiques."
+        },
+        "enterrement": {
+            "catGram": "nom masculin",
+            "def": "Action de mettre en terre (un mort)."
         }
     }
 }
