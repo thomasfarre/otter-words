@@ -1,20 +1,20 @@
 {
     "words": {
-        "gigantesque": {
-            "catGram": "adjectif",
-            "def": "Qui dépasse de beaucoup la taille ordinaire"
-        },
-        "gluant": {
-            "catGram": "adjectif",
-            "def": "Collant et visqueux."
-        },
-        "couche-culotte": {
-            "catGram": "nom féminin",
-            "def": "Couche en forme de culotte, retenue par des bandes adhésives."
-        },
-        "mutiler": {
+        "intoxiquer": {
             "catGram": "verbe",
-            "def": "Priver d’un membre, d’une partie du corps, infliger une blessure grave, portant atteinte à l’intégrité physique."
+            "def": "Affecter les fonctions organiques par l'absorption de substances toxiques, de poison."
+        },
+        "belle": {
+            "catGram": "adjectif",
+            "def": "Qui suscite une émotion esthétique, qui plaît"
+        },
+        "féroce": {
+            "catGram": "adjectif",
+            "def": "Qui a l'instinct de tuer ou d'attaquer"
+        },
+        "fiscal": {
+            "catGram": "adjectif",
+            "def": "Relatif au fisc, à la fiscalité."
         }
     }
 }
