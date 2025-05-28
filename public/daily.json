@@ -1,20 +1,20 @@
 {
     "words": {
-        "intoxiquer": {
-            "catGram": "verbe",
-            "def": "Affecter les fonctions organiques par l'absorption de substances toxiques, de poison."
-        },
-        "belle": {
+        "forfaitaire": {
             "catGram": "adjectif",
-            "def": "Qui suscite une émotion esthétique, qui plaît"
+            "def": "Qui est fixé par forfait."
         },
-        "féroce": {
+        "fermé": {
             "catGram": "adjectif",
-            "def": "Qui a l'instinct de tuer ou d'attaquer"
+            "def": "Qu'on a déplacé de façon à clore, boucher, obstruer une ouverture."
         },
-        "fiscal": {
-            "catGram": "adjectif",
-            "def": "Relatif au fisc, à la fiscalité."
+        "émission": {
+            "catGram": "nom féminin",
+            "def": "Écoulement sous pression d’un liquide hors de l’organisme."
+        },
+        "divertissement": {
+            "catGram": "nom masculin",
+            "def": "Détournement par un cohéritier ou un conjoint d'une partie de la succession ou des effets de la communauté."
         }
     }
 }
