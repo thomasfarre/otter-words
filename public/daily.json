@@ -1,20 +1,20 @@
 {
     "words": {
-        "cuire": {
-            "catGram": "verbe",
-            "def": "Soumettre (un aliment) à l'action d'une source de chaleur pour le rendre propre à la consommation."
-        },
-        "machin": {
+        "bannissement": {
             "catGram": "nom masculin",
-            "def": "Objet dont on ne connaît pas le nom, dont on a oublié le nom ou qu'on ne veut pas nommer clairement."
+            "def": "Action de bannir"
         },
-        "patienter": {
-            "catGram": "verbe",
-            "def": "Prendre patience, attendre patiemment"
+        "soif": {
+            "catGram": "nom féminin",
+            "def": "Sensation liée à un besoin de l'organisme en eau"
         },
-        "philosopher": {
-            "catGram": "verbe",
-            "def": "Réfléchir, raisonner selon les principes de la philosophie"
+        "agissant": {
+            "catGram": "adjectif",
+            "def": "Qui a de l'activité, qui se manifeste par une action effective."
+        },
+        "respectabilité": {
+            "catGram": "nom féminin",
+            "def": "Caractère d'une personne ou d'une chose respectable."
         }
     }
 }
