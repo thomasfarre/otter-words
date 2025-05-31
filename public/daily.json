@@ -1,20 +1,20 @@
 {
     "words": {
-        "bannissement": {
-            "catGram": "nom masculin",
-            "def": "Action de bannir"
-        },
-        "soif": {
+        "mandibule": {
             "catGram": "nom féminin",
-            "def": "Sensation liée à un besoin de l'organisme en eau"
+            "def": "Maxillaire inférieur."
         },
-        "agissant": {
+        "embellie": {
+            "catGram": "nom féminin",
+            "def": "Amélioration momentanée de l'état de la mer pendant le mauvais temps."
+        },
+        "indéfini": {
             "catGram": "adjectif",
-            "def": "Qui a de l'activité, qui se manifeste par une action effective."
+            "def": "Qui n’est pas fini, n’est pas ou ne peut être limité ni délimité."
         },
-        "respectabilité": {
-            "catGram": "nom féminin",
-            "def": "Caractère d'une personne ou d'une chose respectable."
+        "appliqué": {
+            "catGram": "adjectif",
+            "def": "Qui s'applique."
         }
     }
 }
