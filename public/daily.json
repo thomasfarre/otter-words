@@ -1,20 +1,20 @@
 {
     "words": {
-        "mandibule": {
+        "ravalement": {
+            "catGram": "nom masculin",
+            "def": "Nettoyage, remise à neuf du parement d’un ouvrage de maçonnerie."
+        },
+        "défaillir": {
+            "catGram": "verbe",
+            "def": "Tomber en défaillance, perdre connaissance sous l'effet d'un choc physique ou émotionnel."
+        },
+        "incinération": {
             "catGram": "nom féminin",
-            "def": "Maxillaire inférieur."
+            "def": "Action d'incinérer"
         },
-        "embellie": {
-            "catGram": "nom féminin",
-            "def": "Amélioration momentanée de l'état de la mer pendant le mauvais temps."
-        },
-        "indéfini": {
-            "catGram": "adjectif",
-            "def": "Qui n’est pas fini, n’est pas ou ne peut être limité ni délimité."
-        },
-        "appliqué": {
-            "catGram": "adjectif",
-            "def": "Qui s'applique."
+        "favorablement": {
+            "catGram": "adverbe",
+            "def": "D'une manière favorable."
         }
     }
 }
