@@ -1,20 +1,20 @@
 {
     "words": {
-        "ravalement": {
-            "catGram": "nom masculin",
-            "def": "Nettoyage, remise à neuf du parement d’un ouvrage de maçonnerie."
+        "soi": {
+            "catGram": "pronom personnel",
+            "def": "Sert à représenter une personne qui n'est ni le locuteur ni la personne à qui le locuteur s'adresse."
         },
-        "défaillir": {
-            "catGram": "verbe",
-            "def": "Tomber en défaillance, perdre connaissance sous l'effet d'un choc physique ou émotionnel."
-        },
-        "incinération": {
+        "neige": {
             "catGram": "nom féminin",
-            "def": "Action d'incinérer"
+            "def": "Précipitation de flocons blancs formés de cristaux de glace résultant de la condensation et du gel de la vapeur d'eau contenue dans les nuages"
         },
-        "favorablement": {
-            "catGram": "adverbe",
-            "def": "D'une manière favorable."
+        "primat": {
+            "catGram": "nom masculin",
+            "def": "Titre honorifique attaché par tradition à un siège épiscopal."
+        },
+        "mutisme": {
+            "catGram": "nom masculin",
+            "def": "Refus de parler, notamment en raison de troubles mentaux."
         }
     }
 }
