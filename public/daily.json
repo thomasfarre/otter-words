@@ -1,20 +1,20 @@
 {
     "words": {
-        "soi": {
-            "catGram": "pronom personnel",
-            "def": "Sert à représenter une personne qui n'est ni le locuteur ni la personne à qui le locuteur s'adresse."
-        },
-        "neige": {
+        "perquisition": {
             "catGram": "nom féminin",
-            "def": "Précipitation de flocons blancs formés de cristaux de glace résultant de la condensation et du gel de la vapeur d'eau contenue dans les nuages"
+            "def": "Recherche menée sur ordre judiciaire, généralement dans un domicile privé, afin de trouver des objets qui constitueraient la preuve d’une infraction ou qui inculperaient un prévenu."
         },
-        "primat": {
-            "catGram": "nom masculin",
-            "def": "Titre honorifique attaché par tradition à un siège épiscopal."
+        "bosse": {
+            "catGram": "nom féminin",
+            "def": "Enflure due à un choc, une contusion, principalement sur la tête."
         },
-        "mutisme": {
+        "hérétique": {
+            "catGram": "adjectif",
+            "def": "Qui constitue une hérésie."
+        },
+        "pistolet": {
             "catGram": "nom masculin",
-            "def": "Refus de parler, notamment en raison de troubles mentaux."
+            "def": "Arme à feu portative à canon court, qui se tient d'une seule main"
         }
     }
 }
