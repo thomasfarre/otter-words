@@ -1,20 +1,20 @@
 {
     "words": {
-        "perquisition": {
+        "réédition": {
             "catGram": "nom féminin",
-            "def": "Recherche menée sur ordre judiciaire, généralement dans un domicile privé, afin de trouver des objets qui constitueraient la preuve d’une infraction ou qui inculperaient un prévenu."
+            "def": "Action de rééditer"
         },
-        "bosse": {
+        "soupape": {
             "catGram": "nom féminin",
-            "def": "Enflure due à un choc, une contusion, principalement sur la tête."
+            "def": "Obturateur mobile, tendu par un ressort, se déplaçant sous une pression déterminée et servant à régler la circulation d'un fluide dans un sens unique."
         },
-        "hérétique": {
-            "catGram": "adjectif",
-            "def": "Qui constitue une hérésie."
+        "déporter": {
+            "catGram": "verbe",
+            "def": "Condamner à la déportation."
         },
-        "pistolet": {
-            "catGram": "nom masculin",
-            "def": "Arme à feu portative à canon court, qui se tient d'une seule main"
+        "écluse": {
+            "catGram": "nom féminin",
+            "def": "Ouvrage hydraulique conçu pour permettre la navigation entre des plans d'eau de niveaux différents."
         }
     }
 }
