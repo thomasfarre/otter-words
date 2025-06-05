@@ -1,20 +1,20 @@
 {
     "words": {
-        "réédition": {
+        "ordonnée": {
             "catGram": "nom féminin",
-            "def": "Action de rééditer"
+            "def": "Coordonnée qui donne la position d'un point situé sur l'axe vertical d'un système de coordonnées cartésiennes."
         },
-        "soupape": {
-            "catGram": "nom féminin",
-            "def": "Obturateur mobile, tendu par un ressort, se déplaçant sous une pression déterminée et servant à régler la circulation d'un fluide dans un sens unique."
+        "indiqué": {
+            "catGram": "adjectif",
+            "def": "Conseillé."
         },
-        "déporter": {
-            "catGram": "verbe",
-            "def": "Condamner à la déportation."
+        "conquis": {
+            "catGram": "adjectif",
+            "def": "Qui est sous la domination d'une puissance militaire."
         },
-        "écluse": {
-            "catGram": "nom féminin",
-            "def": "Ouvrage hydraulique conçu pour permettre la navigation entre des plans d'eau de niveaux différents."
+        "crotté": {
+            "catGram": "adjectif",
+            "def": "Sali, couvert de boue."
         }
     }
 }
