@@ -1,20 +1,20 @@
 {
     "words": {
-        "ordonnée": {
+        "inhumation": {
             "catGram": "nom féminin",
-            "def": "Coordonnée qui donne la position d'un point situé sur l'axe vertical d'un système de coordonnées cartésiennes."
+            "def": "Action d'inhumer"
         },
-        "indiqué": {
-            "catGram": "adjectif",
-            "def": "Conseillé."
+        "rapidité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est rapide"
         },
-        "conquis": {
-            "catGram": "adjectif",
-            "def": "Qui est sous la domination d'une puissance militaire."
+        "allégresse": {
+            "catGram": "nom féminin",
+            "def": "Démonstration vive, bruyante et généralement collective de la joie."
         },
-        "crotté": {
-            "catGram": "adjectif",
-            "def": "Sali, couvert de boue."
+        "dévaliser": {
+            "catGram": "verbe",
+            "def": "Dépouiller qqn des choses de valeur qu'il a sur ou avec lui."
         }
     }
 }
