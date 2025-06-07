@@ -1,20 +1,20 @@
 {
     "words": {
-        "inhumation": {
-            "catGram": "nom féminin",
-            "def": "Action d'inhumer"
-        },
-        "rapidité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est rapide"
-        },
-        "allégresse": {
-            "catGram": "nom féminin",
-            "def": "Démonstration vive, bruyante et généralement collective de la joie."
-        },
-        "dévaliser": {
+        "disparaître": {
             "catGram": "verbe",
-            "def": "Dépouiller qqn des choses de valeur qu'il a sur ou avec lui."
+            "def": "Cesser de paraître aux regards, d'être visible"
+        },
+        "soupe": {
+            "catGram": "nom féminin",
+            "def": "Morceau de pain arrosé de bouillon."
+        },
+        "nocturne": {
+            "catGram": "adjectif",
+            "def": "Qui a lieu la nuit"
+        },
+        "ligament": {
+            "catGram": "nom masculin",
+            "def": "Bande de tissu fibreux blanchâtre, résistant et peu extensible, reliant entre eux les éléments constituant une articulation ou maintenant divers organes."
         }
     }
 }
