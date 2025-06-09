@@ -1,20 +1,20 @@
 {
     "words": {
-        "fraude": {
-            "catGram": "nom féminin",
-            "def": "Tromperie, acte de mauvaise foi par lequel on lèse qqn ou on se soustrait à un règlement."
-        },
-        "impressionnable": {
+        "cérébral": {
             "catGram": "adjectif",
-            "def": "Qui s'émeut facilement de ses impressions, qui est d'une sensibilité excessive"
+            "def": "Relatif au cerveau, à l'encéphale."
         },
-        "cubitus": {
-            "catGram": "nom masculin",
-            "def": "Un des deux os de l'avant-bras, plus long et plus gros que le radius, dont l'extrémité supérieure constitue la saillie du coude."
+        "décéder": {
+            "catGram": "verbe",
+            "def": "Mourir."
         },
-        "arbitrage": {
+        "anathème": {
             "catGram": "nom masculin",
-            "def": "Mode de règlement d’un conflit par lequel les parties s’en remettent à un tiers impartial."
+            "def": "Sentence d'excommunication, de malédiction."
+        },
+        "aniline": {
+            "catGram": "nom féminin",
+            "def": "Alcaloïde organique obtenu par dérivation du nitrobenzène, et dont on extrait diverses matières colorantes artificielles."
         }
     }
 }
