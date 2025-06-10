@@ -1,20 +1,20 @@
 {
     "words": {
-        "cérébral": {
-            "catGram": "adjectif",
-            "def": "Relatif au cerveau, à l'encéphale."
-        },
-        "décéder": {
+        "suborner": {
             "catGram": "verbe",
-            "def": "Mourir."
+            "def": "Séduire (une jeune fille, une femme)."
         },
-        "anathème": {
-            "catGram": "nom masculin",
-            "def": "Sentence d'excommunication, de malédiction."
-        },
-        "aniline": {
+        "facilité": {
             "catGram": "nom féminin",
-            "def": "Alcaloïde organique obtenu par dérivation du nitrobenzène, et dont on extrait diverses matières colorantes artificielles."
+            "def": "Caractère de ce qui se fait sans effort, sans peine."
+        },
+        "dithyrambe": {
+            "catGram": "nom masculin",
+            "def": "Dans l'Antiquité grecque, poème lyrique en hommage à Dionysos."
+        },
+        "conclure": {
+            "catGram": "verbe",
+            "def": "Mettre un terme à qqch. qui est en cours."
         }
     }
 }
