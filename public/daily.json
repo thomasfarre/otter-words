@@ -1,20 +1,20 @@
 {
     "words": {
-        "suborner": {
-            "catGram": "verbe",
-            "def": "Séduire (une jeune fille, une femme)."
+        "stupéfiant": {
+            "catGram": "adjectif",
+            "def": "Qui stupéfie."
         },
-        "facilité": {
+        "cordialité": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui se fait sans effort, sans peine."
+            "def": "Affection, bienveillance qui se manifeste avec sincérité, spontanéité"
         },
-        "dithyrambe": {
-            "catGram": "nom masculin",
-            "def": "Dans l'Antiquité grecque, poème lyrique en hommage à Dionysos."
-        },
-        "conclure": {
+        "gerber": {
             "catGram": "verbe",
-            "def": "Mettre un terme à qqch. qui est en cours."
+            "def": "Mettre en gerbe (des céréales)."
+        },
+        "consolider": {
+            "catGram": "verbe",
+            "def": "Rendre plus ferme, plus stable"
         }
     }
 }
