@@ -1,20 +1,20 @@
 {
     "words": {
-        "stupéfiant": {
-            "catGram": "adjectif",
-            "def": "Qui stupéfie."
-        },
-        "cordialité": {
+        "décence": {
             "catGram": "nom féminin",
-            "def": "Affection, bienveillance qui se manifeste avec sincérité, spontanéité"
+            "def": "Respect des normes morales et des convenances, notamment en matière sexuelle."
         },
-        "gerber": {
-            "catGram": "verbe",
-            "def": "Mettre en gerbe (des céréales)."
+        "jardin": {
+            "catGram": "nom masculin",
+            "def": "Terrain généralement clos, attenant ou non à une habitation, où l'on cultive des végétaux utiles ou d'agrément."
         },
-        "consolider": {
-            "catGram": "verbe",
-            "def": "Rendre plus ferme, plus stable"
+        "vacarme": {
+            "catGram": "nom masculin",
+            "def": "Grand bruit provoqué par des gens qui crient, se querellent ou s'amusent."
+        },
+        "amandier": {
+            "catGram": "nom masculin",
+            "def": "Arbre originaire d’Asie, à fleurs blanches ou rosées très précoces, que l’on cultive aujourd’hui dans plusieurs régions chaudes et tempérées (notamment le bassin méditerranéen et la Californie) pour la production d’amande."
         }
     }
 }
