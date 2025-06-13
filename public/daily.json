@@ -1,20 +1,20 @@
 {
     "words": {
-        "décence": {
+        "balancier": {
+            "catGram": "nom masculin",
+            "def": "Pièce servant à régulariser le mouvement d'un mécanisme."
+        },
+        "vie": {
             "catGram": "nom féminin",
-            "def": "Respect des normes morales et des convenances, notamment en matière sexuelle."
+            "def": "Fait de vivre"
         },
-        "jardin": {
-            "catGram": "nom masculin",
-            "def": "Terrain généralement clos, attenant ou non à une habitation, où l'on cultive des végétaux utiles ou d'agrément."
+        "poisseux": {
+            "catGram": "adjectif",
+            "def": "Gluant, collant comme de la poix."
         },
-        "vacarme": {
-            "catGram": "nom masculin",
-            "def": "Grand bruit provoqué par des gens qui crient, se querellent ou s'amusent."
-        },
-        "amandier": {
-            "catGram": "nom masculin",
-            "def": "Arbre originaire d’Asie, à fleurs blanches ou rosées très précoces, que l’on cultive aujourd’hui dans plusieurs régions chaudes et tempérées (notamment le bassin méditerranéen et la Californie) pour la production d’amande."
+        "immixtion": {
+            "catGram": "nom féminin",
+            "def": "Action de s'immiscer (dans qqch.)."
         }
     }
 }
