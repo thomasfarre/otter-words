@@ -1,20 +1,20 @@
 {
     "words": {
-        "balancier": {
-            "catGram": "nom masculin",
-            "def": "Pièce servant à régulariser le mouvement d'un mécanisme."
-        },
-        "vie": {
-            "catGram": "nom féminin",
-            "def": "Fait de vivre"
-        },
-        "poisseux": {
+        "chétif": {
             "catGram": "adjectif",
-            "def": "Gluant, collant comme de la poix."
+            "def": "De constitution, de santé fragile"
         },
-        "immixtion": {
+        "crisper": {
+            "catGram": "verbe",
+            "def": "Donner un aspect ridé par resserrement de la surface."
+        },
+        "convoitise": {
             "catGram": "nom féminin",
-            "def": "Action de s'immiscer (dans qqch.)."
+            "def": "Fait de convoiter qqch."
+        },
+        "nounou": {
+            "catGram": "nom féminin",
+            "def": "Nourrice, gardienne."
         }
     }
 }
