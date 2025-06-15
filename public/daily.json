@@ -1,20 +1,20 @@
 {
     "words": {
-        "chétif": {
-            "catGram": "adjectif",
-            "def": "De constitution, de santé fragile"
+        "requin": {
+            "catGram": "nom masculin",
+            "def": "Poisson cartilagineux des mers chaudes et tempérées, souvent de grande taille, à corps fuselé, à nageoire caudale asymétrique, à peau rugueuse et à mâchoire puissante garnie d’une denture tranchante disposée en rangées, qui est pourvu de cinq paires de fentes branchiales latérales (plus rarement six ou sept), et dont il existe de très nombreuses espèces, connues comme étant des prédateurs voraces"
         },
-        "crisper": {
+        "implantation": {
+            "catGram": "nom féminin",
+            "def": "Action d'implanter, de s'implanter"
+        },
+        "exaspérer": {
             "catGram": "verbe",
-            "def": "Donner un aspect ridé par resserrement de la surface."
+            "def": "Mettre qqn dans un état d'irritation ou d'impatience extrême."
         },
-        "convoitise": {
-            "catGram": "nom féminin",
-            "def": "Fait de convoiter qqch."
-        },
-        "nounou": {
-            "catGram": "nom féminin",
-            "def": "Nourrice, gardienne."
+        "délaissement": {
+            "catGram": "nom masculin",
+            "def": "État de ce qui est délaissé."
         }
     }
 }
