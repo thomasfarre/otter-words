@@ -1,20 +1,20 @@
 {
     "words": {
-        "requin": {
-            "catGram": "nom masculin",
-            "def": "Poisson cartilagineux des mers chaudes et tempérées, souvent de grande taille, à corps fuselé, à nageoire caudale asymétrique, à peau rugueuse et à mâchoire puissante garnie d’une denture tranchante disposée en rangées, qui est pourvu de cinq paires de fentes branchiales latérales (plus rarement six ou sept), et dont il existe de très nombreuses espèces, connues comme étant des prédateurs voraces"
+        "libre": {
+            "catGram": "adjectif",
+            "def": "Qui n’est pas sous la dépendance de qqn d’autre."
         },
-        "implantation": {
-            "catGram": "nom féminin",
-            "def": "Action d'implanter, de s'implanter"
-        },
-        "exaspérer": {
+        "soupeser": {
             "catGram": "verbe",
-            "def": "Mettre qqn dans un état d'irritation ou d'impatience extrême."
+            "def": "Évaluer le poids au jugé, en soutenant dans la main ou en soulevant."
         },
-        "délaissement": {
+        "déménagement": {
             "catGram": "nom masculin",
-            "def": "État de ce qui est délaissé."
+            "def": "Action de déménager"
+        },
+        "récréation": {
+            "catGram": "nom féminin",
+            "def": "Délassement de courte durée qui vient interrompre un travail, une occupation sérieuse."
         }
     }
 }
