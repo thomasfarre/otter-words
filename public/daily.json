@@ -1,20 +1,20 @@
 {
     "words": {
-        "libre": {
+        "effréné": {
             "catGram": "adjectif",
-            "def": "Qui n’est pas sous la dépendance de qqn d’autre."
+            "def": "Qui est sans frein, sans retenue, sans mesure."
         },
-        "soupeser": {
-            "catGram": "verbe",
-            "def": "Évaluer le poids au jugé, en soutenant dans la main ou en soulevant."
+        "distinct": {
+            "catGram": "adjectif",
+            "def": "Qui est nettement perceptible par l'un ou l'autre sens"
         },
-        "déménagement": {
+        "yoga": {
             "catGram": "nom masculin",
-            "def": "Action de déménager"
+            "def": "Discipline spirituelle et corporelle, fondée sur une philosophie indienne, et qui vise à libérer l'esprit des contraintes du corps à l'aide d'exercices de postures et de respiration."
         },
-        "récréation": {
+        "opulence": {
             "catGram": "nom féminin",
-            "def": "Délassement de courte durée qui vient interrompre un travail, une occupation sérieuse."
+            "def": "Grande abondance de biens matériels, de ressources."
         }
     }
 }
