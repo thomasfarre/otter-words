@@ -1,20 +1,20 @@
 {
     "words": {
-        "effréné": {
-            "catGram": "adjectif",
-            "def": "Qui est sans frein, sans retenue, sans mesure."
-        },
-        "distinct": {
-            "catGram": "adjectif",
-            "def": "Qui est nettement perceptible par l'un ou l'autre sens"
-        },
-        "yoga": {
+        "yiddish": {
             "catGram": "nom masculin",
-            "def": "Discipline spirituelle et corporelle, fondée sur une philosophie indienne, et qui vise à libérer l'esprit des contraintes du corps à l'aide d'exercices de postures et de respiration."
+            "def": "Langue germanique des communautés juives d'Europe centrale et orientale."
         },
-        "opulence": {
+        "aluminium": {
+            "catGram": "nom masculin",
+            "def": "Élément chimique de numéro atomique 13"
+        },
+        "sauterie": {
             "catGram": "nom féminin",
-            "def": "Grande abondance de biens matériels, de ressources."
+            "def": "Réunion dansante d'un caractère simple et intime."
+        },
+        "modestement": {
+            "catGram": "adverbe",
+            "def": "D’une manière modeste, avec modestie."
         }
     }
 }
