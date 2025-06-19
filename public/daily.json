@@ -1,20 +1,20 @@
 {
     "words": {
-        "yiddish": {
-            "catGram": "nom masculin",
-            "def": "Langue germanique des communautés juives d'Europe centrale et orientale."
+        "égorger": {
+            "catGram": "verbe",
+            "def": "Tuer en tranchant la gorge."
         },
-        "aluminium": {
-            "catGram": "nom masculin",
-            "def": "Élément chimique de numéro atomique 13"
+        "déteindre": {
+            "catGram": "verbe",
+            "def": "Enlever la couleur ou la teinture de."
         },
-        "sauterie": {
+        "reconversion": {
             "catGram": "nom féminin",
-            "def": "Réunion dansante d'un caractère simple et intime."
+            "def": "Transformation d'une industrie, d'une production, particulièrement par un retour d'une économie de guerre en une économie de paix"
         },
-        "modestement": {
-            "catGram": "adverbe",
-            "def": "D’une manière modeste, avec modestie."
+        "conjoncture": {
+            "catGram": "nom féminin",
+            "def": "Situation définie par un ensemble d'événements se produisant en même temps."
         }
     }
 }
