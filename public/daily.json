@@ -1,20 +1,20 @@
 {
     "words": {
-        "égorger": {
-            "catGram": "verbe",
-            "def": "Tuer en tranchant la gorge."
+        "ourlet": {
+            "catGram": "nom masculin",
+            "def": "Bord d'une étoffe qu'on replie et qu'on coud en guise de finition et pour éviter que le tissu ne s'effile."
         },
-        "déteindre": {
-            "catGram": "verbe",
-            "def": "Enlever la couleur ou la teinture de."
+        "moelleux": {
+            "catGram": "adjectif",
+            "def": "Agréable, doux et mou au toucher."
         },
-        "reconversion": {
-            "catGram": "nom féminin",
-            "def": "Transformation d'une industrie, d'une production, particulièrement par un retour d'une économie de guerre en une économie de paix"
+        "score": {
+            "catGram": "nom masculin",
+            "def": "Nombre de points obtenus par chaque équipe ou chaque adversaire dans une compétition sportive."
         },
-        "conjoncture": {
-            "catGram": "nom féminin",
-            "def": "Situation définie par un ensemble d'événements se produisant en même temps."
+        "minable": {
+            "catGram": "adjectif",
+            "def": "Qui est miné, usé par les privations, la maladie, la misère"
         }
     }
 }
