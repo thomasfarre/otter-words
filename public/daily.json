@@ -1,20 +1,20 @@
 {
     "words": {
-        "ourlet": {
+        "irriter": {
+            "catGram": "verbe",
+            "def": "Mettre en colère, contrarier"
+        },
+        "obstruer": {
+            "catGram": "verbe",
+            "def": "Empêcher le passage par un obstacle"
+        },
+        "sous": {
+            "catGram": "préposition",
+            "def": "Sert à indiquer qu'un élément est situé plus bas, à une position inférieure par rapport à un autre."
+        },
+        "diamètre": {
             "catGram": "nom masculin",
-            "def": "Bord d'une étoffe qu'on replie et qu'on coud en guise de finition et pour éviter que le tissu ne s'effile."
-        },
-        "moelleux": {
-            "catGram": "adjectif",
-            "def": "Agréable, doux et mou au toucher."
-        },
-        "score": {
-            "catGram": "nom masculin",
-            "def": "Nombre de points obtenus par chaque équipe ou chaque adversaire dans une compétition sportive."
-        },
-        "minable": {
-            "catGram": "adjectif",
-            "def": "Qui est miné, usé par les privations, la maladie, la misère"
+            "def": "Dans un cercle ou une sphère, segment de droite qui joint deux points en passant par le centre"
         }
     }
 }
