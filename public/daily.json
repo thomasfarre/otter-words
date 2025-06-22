@@ -1,20 +1,20 @@
 {
     "words": {
-        "irriter": {
+        "réjouir": {
             "catGram": "verbe",
-            "def": "Mettre en colère, contrarier"
+            "def": "Procurer de la joie, du plaisir, de la satisfaction"
         },
-        "obstruer": {
-            "catGram": "verbe",
-            "def": "Empêcher le passage par un obstacle"
-        },
-        "sous": {
-            "catGram": "préposition",
-            "def": "Sert à indiquer qu'un élément est situé plus bas, à une position inférieure par rapport à un autre."
-        },
-        "diamètre": {
+        "engourdissement": {
             "catGram": "nom masculin",
-            "def": "Dans un cercle ou une sphère, segment de droite qui joint deux points en passant par le centre"
+            "def": "État de ce qui est engourdi."
+        },
+        "armé": {
+            "catGram": "adjectif",
+            "def": "Équipé d'armes."
+        },
+        "croquis": {
+            "catGram": "nom masculin",
+            "def": "Esquisse, dessin réduit à ses éléments essentiels."
         }
     }
 }
