@@ -1,20 +1,20 @@
 {
     "words": {
-        "réjouir": {
+        "attifer": {
             "catGram": "verbe",
-            "def": "Procurer de la joie, du plaisir, de la satisfaction"
+            "def": "Vêtir, parer de façon excessive ou ridicule."
         },
-        "engourdissement": {
+        "objet": {
             "catGram": "nom masculin",
-            "def": "État de ce qui est engourdi."
+            "def": "Tout ce qui, animé ou inanimé, affecte les sens, principalement la vue."
         },
-        "armé": {
-            "catGram": "adjectif",
-            "def": "Équipé d'armes."
+        "explorateur": {
+            "catGram": "nom",
+            "def": "Personne qui explore un lieu lointain ou mal connu."
         },
-        "croquis": {
+        "coefficient": {
             "catGram": "nom masculin",
-            "def": "Esquisse, dessin réduit à ses éléments essentiels."
+            "def": "Valeur numérique placée devant une variable pour la multiplier."
         }
     }
 }
