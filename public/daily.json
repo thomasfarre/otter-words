@@ -1,20 +1,20 @@
 {
     "words": {
-        "attifer": {
-            "catGram": "verbe",
-            "def": "Vêtir, parer de façon excessive ou ridicule."
-        },
-        "objet": {
+        "lot": {
             "catGram": "nom masculin",
-            "def": "Tout ce qui, animé ou inanimé, affecte les sens, principalement la vue."
+            "def": "Partie d’un tout divisé entre plusieurs personnes."
         },
-        "explorateur": {
-            "catGram": "nom",
-            "def": "Personne qui explore un lieu lointain ou mal connu."
+        "embrasure": {
+            "catGram": "nom féminin",
+            "def": "Ouverture pratiquée dans la muraille d'une fortification pour pointer et tirer le canon."
         },
-        "coefficient": {
+        "animal": {
             "catGram": "nom masculin",
-            "def": "Valeur numérique placée devant une variable pour la multiplier."
+            "def": "Être vivant, organisé, élémentaire ou complexe, doué de sensibilité et de mobilité"
+        },
+        "lutte": {
+            "catGram": "nom féminin",
+            "def": "Combat corps à corps entre deux adversaires."
         }
     }
 }
