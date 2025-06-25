@@ -1,20 +1,20 @@
 {
     "words": {
-        "lot": {
+        "tailloir": {
             "catGram": "nom masculin",
-            "def": "Partie d’un tout divisé entre plusieurs personnes."
+            "def": "Petit plateau carré ou polygonal qui couronne le chapiteau d'une colonne."
         },
-        "embrasure": {
-            "catGram": "nom féminin",
-            "def": "Ouverture pratiquée dans la muraille d'une fortification pour pointer et tirer le canon."
+        "rustre": {
+            "catGram": "nom épicène",
+            "def": "Personne grossière, brutale et sans éducation."
         },
-        "animal": {
-            "catGram": "nom masculin",
-            "def": "Être vivant, organisé, élémentaire ou complexe, doué de sensibilité et de mobilité"
+        "artisan": {
+            "catGram": "nom",
+            "def": "Personne qui exerce, généralement à son compte, un métier, un art manuel."
         },
-        "lutte": {
-            "catGram": "nom féminin",
-            "def": "Combat corps à corps entre deux adversaires."
+        "carnassier": {
+            "catGram": "adjectif",
+            "def": "Qui se nourrit principalement ou exclusivement de la chair de ses proies."
         }
     }
 }
