@@ -1,20 +1,20 @@
 {
     "words": {
-        "tailloir": {
+        "charbon": {
             "catGram": "nom masculin",
-            "def": "Petit plateau carré ou polygonal qui couronne le chapiteau d'une colonne."
+            "def": "Combustible solide de couleur noire résultant de la fossilisation de végétaux que l’on extrait de gisements ou de la combustion incomplète du bois à l'abri de l'air, utilisé comme source de chaleur et d’énergie."
         },
-        "rustre": {
-            "catGram": "nom épicène",
-            "def": "Personne grossière, brutale et sans éducation."
+        "bronze": {
+            "catGram": "nom masculin",
+            "def": "Alliage de cuivre et d'étain."
         },
-        "artisan": {
-            "catGram": "nom",
-            "def": "Personne qui exerce, généralement à son compte, un métier, un art manuel."
-        },
-        "carnassier": {
+        "imagé": {
             "catGram": "adjectif",
-            "def": "Qui se nourrit principalement ou exclusivement de la chair de ses proies."
+            "def": "Riche en images, en métaphores."
+        },
+        "infini": {
+            "catGram": "adjectif",
+            "def": "Qui est sans bornes, illimité (dans l'espace et dans le temps)"
         }
     }
 }
