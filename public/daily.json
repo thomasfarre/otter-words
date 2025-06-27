@@ -1,20 +1,20 @@
 {
     "words": {
-        "charbon": {
+        "délocalisation": {
+            "catGram": "nom féminin",
+            "def": "Transfert d'une activité, d'une unité de production dans une autre région, un autre pays, où les coûts de production sont généralement moins élevés."
+        },
+        "colis": {
             "catGram": "nom masculin",
-            "def": "Combustible solide de couleur noire résultant de la fossilisation de végétaux que l’on extrait de gisements ou de la combustion incomplète du bois à l'abri de l'air, utilisé comme source de chaleur et d’énergie."
+            "def": "Objet, produit, article emballé en vue de son transport, de son expédition."
         },
-        "bronze": {
-            "catGram": "nom masculin",
-            "def": "Alliage de cuivre et d'étain."
-        },
-        "imagé": {
+        "marquant": {
             "catGram": "adjectif",
-            "def": "Riche en images, en métaphores."
+            "def": "Qui marque, qui laisse une trace, un souvenir durable en raison de son caractère particulier ou remarquable."
         },
-        "infini": {
-            "catGram": "adjectif",
-            "def": "Qui est sans bornes, illimité (dans l'espace et dans le temps)"
+        "enveloppe": {
+            "catGram": "nom féminin",
+            "def": "Ce qui enveloppe, qui couvre en entourant."
         }
     }
 }
