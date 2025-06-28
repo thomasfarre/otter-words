@@ -1,20 +1,20 @@
 {
     "words": {
-        "délocalisation": {
+        "moitié": {
             "catGram": "nom féminin",
-            "def": "Transfert d'une activité, d'une unité de production dans une autre région, un autre pays, où les coûts de production sont généralement moins élevés."
+            "def": "Une des deux parties égales d'un tout."
         },
-        "colis": {
-            "catGram": "nom masculin",
-            "def": "Objet, produit, article emballé en vue de son transport, de son expédition."
+        "académicien": {
+            "catGram": "nom",
+            "def": "Membre d'une académie (scientifique, littéraire ou artistique)."
         },
-        "marquant": {
-            "catGram": "adjectif",
-            "def": "Qui marque, qui laisse une trace, un souvenir durable en raison de son caractère particulier ou remarquable."
-        },
-        "enveloppe": {
+        "épouvante": {
             "catGram": "nom féminin",
-            "def": "Ce qui enveloppe, qui couvre en entourant."
+            "def": "Frayeur, peur vive et soudaine."
+        },
+        "papoter": {
+            "catGram": "verbe",
+            "def": "Parler beaucoup, avec familiarité, légèreté ou frivolité."
         }
     }
 }
