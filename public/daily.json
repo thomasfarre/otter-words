@@ -1,20 +1,20 @@
 {
     "words": {
-        "moitié": {
+        "insuccès": {
+            "catGram": "nom masculin",
+            "def": "Manque de succès, de réussite"
+        },
+        "auxquelles": {
+            "catGram": "pronom interrogatif contracté",
+            "def": "Séquence formée par la prépositionàet le motlequel."
+        },
+        "gerbe": {
             "catGram": "nom féminin",
-            "def": "Une des deux parties égales d'un tout."
+            "def": "Botte de céréales coupées et liées, où les épis sont disposés du même côté."
         },
-        "académicien": {
-            "catGram": "nom",
-            "def": "Membre d'une académie (scientifique, littéraire ou artistique)."
-        },
-        "épouvante": {
+        "bique": {
             "catGram": "nom féminin",
-            "def": "Frayeur, peur vive et soudaine."
-        },
-        "papoter": {
-            "catGram": "verbe",
-            "def": "Parler beaucoup, avec familiarité, légèreté ou frivolité."
+            "def": "Chèvre femelle."
         }
     }
 }
