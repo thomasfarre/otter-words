@@ -1,20 +1,20 @@
 {
     "words": {
-        "congratuler": {
+        "évoluer": {
             "catGram": "verbe",
-            "def": "Féliciter qqn, se réjouir avec lui d'un événement heureux."
+            "def": "Exécuter une évolution, des évolutions"
         },
-        "valvule": {
-            "catGram": "nom féminin",
-            "def": "Repli membraneux d'un conduit, d'un passage du corps, qui empêche les liquides ou les matières de refluer."
+        "asservir": {
+            "catGram": "verbe",
+            "def": "Réduire à l'esclavage"
         },
-        "redéfinition": {
+        "pesanteur": {
             "catGram": "nom féminin",
-            "def": "Action de redéfinir."
+            "def": "Caractère de ce qui est lourd, qui a un grand poids"
         },
-        "variation": {
-            "catGram": "nom féminin",
-            "def": "Fait pour qqch. de varier, de se modifier, de passer d’un état à un autre au cours du temps"
+        "émousser": {
+            "catGram": "verbe",
+            "def": "Rendre moins tranchant, moins aigu"
         }
     }
 }
