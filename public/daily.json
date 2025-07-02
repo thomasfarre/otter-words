@@ -1,20 +1,20 @@
 {
     "words": {
-        "évoluer": {
-            "catGram": "verbe",
-            "def": "Exécuter une évolution, des évolutions"
+        "râteau": {
+            "catGram": "nom masculin",
+            "def": "Outil de jardinage constitué d'un long manche et d'une traverse munie de dents de fer ou de bois et servant à nettoyer et à égaliser la surface du sol."
         },
-        "asservir": {
-            "catGram": "verbe",
-            "def": "Réduire à l'esclavage"
+        "attentivement": {
+            "catGram": "adverbe",
+            "def": "De manière attentive."
         },
-        "pesanteur": {
+        "taper": {
+            "catGram": "verbe",
+            "def": "Donner une tape, frapper du plat de la main"
+        },
+        "malignité": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est lourd, qui a un grand poids"
-        },
-        "émousser": {
-            "catGram": "verbe",
-            "def": "Rendre moins tranchant, moins aigu"
+            "def": "Caractère d'une personne qui cherche à nuire, souvent en secret"
         }
     }
 }
