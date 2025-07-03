@@ -1,20 +1,20 @@
 {
     "words": {
-        "râteau": {
-            "catGram": "nom masculin",
-            "def": "Outil de jardinage constitué d'un long manche et d'une traverse munie de dents de fer ou de bois et servant à nettoyer et à égaliser la surface du sol."
-        },
-        "attentivement": {
-            "catGram": "adverbe",
-            "def": "De manière attentive."
-        },
-        "taper": {
+        "implanter": {
             "catGram": "verbe",
-            "def": "Donner une tape, frapper du plat de la main"
+            "def": "Planter une chose dans une autre"
         },
-        "malignité": {
+        "diadème": {
+            "catGram": "nom masculin",
+            "def": "Bandeau, couronne, souvent pourvu d'une riche décoration, porté autour de la tête comme signe de la royauté."
+        },
+        "contraire": {
+            "catGram": "adjectif",
+            "def": "Qui présente l'opposition la plus extrême, la plus radicale."
+        },
+        "insuline": {
             "catGram": "nom féminin",
-            "def": "Caractère d'une personne qui cherche à nuire, souvent en secret"
+            "def": "Hormone sécrétée par le pancréas, dont le rôle est de diminuer le taux de glucose sanguin."
         }
     }
 }
