@@ -1,20 +1,20 @@
 {
     "words": {
-        "implanter": {
-            "catGram": "verbe",
-            "def": "Planter une chose dans une autre"
-        },
-        "diadème": {
-            "catGram": "nom masculin",
-            "def": "Bandeau, couronne, souvent pourvu d'une riche décoration, porté autour de la tête comme signe de la royauté."
-        },
-        "contraire": {
+        "arrêté": {
             "catGram": "adjectif",
-            "def": "Qui présente l'opposition la plus extrême, la plus radicale."
+            "def": "Définitif."
         },
-        "insuline": {
-            "catGram": "nom féminin",
-            "def": "Hormone sécrétée par le pancréas, dont le rôle est de diminuer le taux de glucose sanguin."
+        "collaborer": {
+            "catGram": "verbe",
+            "def": "Travailler en collaboration."
+        },
+        "désamorcer": {
+            "catGram": "verbe",
+            "def": "Retirer l'amorce de"
+        },
+        "inattentif": {
+            "catGram": "adjectif",
+            "def": "Qui manque d'attention"
         }
     }
 }
