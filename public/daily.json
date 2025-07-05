@@ -1,20 +1,20 @@
 {
     "words": {
-        "arrêté": {
+        "infantile": {
             "catGram": "adjectif",
-            "def": "Définitif."
+            "def": "Relatif aux enfants en bas âge."
         },
-        "collaborer": {
+        "veston": {
+            "catGram": "nom masculin",
+            "def": "Veste à revers qui fait généralement partie d'un complet."
+        },
+        "tresser": {
             "catGram": "verbe",
-            "def": "Travailler en collaboration."
+            "def": "Arranger (les cheveux) en tresse."
         },
-        "désamorcer": {
-            "catGram": "verbe",
-            "def": "Retirer l'amorce de"
-        },
-        "inattentif": {
-            "catGram": "adjectif",
-            "def": "Qui manque d'attention"
+        "secrétariat": {
+            "catGram": "nom masculin",
+            "def": "Fonction, poste de secrétaire"
         }
     }
 }
