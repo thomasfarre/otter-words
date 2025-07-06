@@ -1,20 +1,20 @@
 {
     "words": {
-        "infantile": {
-            "catGram": "adjectif",
-            "def": "Relatif aux enfants en bas âge."
+        "de": {
+            "catGram": "Failed to retrieve the web page",
+            "def": "Failed to retrieve the web page"
         },
-        "veston": {
+        "plongée": {
+            "catGram": "nom féminin",
+            "def": "Action de plonger et de rester sous l'eau pendant un certain temps."
+        },
+        "relais": {
             "catGram": "nom masculin",
-            "def": "Veste à revers qui fait généralement partie d'un complet."
+            "def": "Chiens placés sur un parcours de chasse pour remplacer ceux qui sont fatigués."
         },
-        "tresser": {
-            "catGram": "verbe",
-            "def": "Arranger (les cheveux) en tresse."
-        },
-        "secrétariat": {
-            "catGram": "nom masculin",
-            "def": "Fonction, poste de secrétaire"
+        "anthropologie": {
+            "catGram": "nom féminin",
+            "def": "Science qui étudie les caractéristiques somatiques (anatomiques, physiologiques, héréditaires, évolutives, etc.) de l'être humain."
         }
     }
 }
