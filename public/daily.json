@@ -1,20 +1,20 @@
 {
     "words": {
-        "de": {
-            "catGram": "Failed to retrieve the web page",
-            "def": "Failed to retrieve the web page"
+        "désireux": {
+            "catGram": "adjectif",
+            "def": "Désirer, avoir envie de."
         },
-        "plongée": {
-            "catGram": "nom féminin",
-            "def": "Action de plonger et de rester sous l'eau pendant un certain temps."
+        "notaire": {
+            "catGram": "nom",
+            "def": "Officier public qui rédige et reçoit les actes et les contrats auxquels on veut donner un caractère d’authenticité."
         },
-        "relais": {
-            "catGram": "nom masculin",
-            "def": "Chiens placés sur un parcours de chasse pour remplacer ceux qui sont fatigués."
+        "vraisemblable": {
+            "catGram": "adjectif",
+            "def": "Qui semble vrai, possible, envisageable"
         },
-        "anthropologie": {
-            "catGram": "nom féminin",
-            "def": "Science qui étudie les caractéristiques somatiques (anatomiques, physiologiques, héréditaires, évolutives, etc.) de l'être humain."
+        "aîné": {
+            "catGram": "adjectif",
+            "def": "Né le premier, née la première par rapport aux autres enfants de la famille."
         }
     }
 }
