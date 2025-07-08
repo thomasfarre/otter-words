@@ -1,20 +1,20 @@
 {
     "words": {
-        "désireux": {
-            "catGram": "adjectif",
-            "def": "Désirer, avoir envie de."
+        "dactylographie": {
+            "catGram": "nom féminin",
+            "def": "Procédé d'écriture, de transcription et de mise en page d'un texte au moyen d'une machine à écrire, d’un clavier."
         },
-        "notaire": {
-            "catGram": "nom",
-            "def": "Officier public qui rédige et reçoit les actes et les contrats auxquels on veut donner un caractère d’authenticité."
+        "bagatelle": {
+            "catGram": "nom féminin",
+            "def": "Objet de peu d'utilité, sans grande valeur."
         },
-        "vraisemblable": {
-            "catGram": "adjectif",
-            "def": "Qui semble vrai, possible, envisageable"
+        "cache-cache": {
+            "catGram": "nom masculin",
+            "def": "Jeu d'enfants où l'on se cache."
         },
-        "aîné": {
+        "triste": {
             "catGram": "adjectif",
-            "def": "Né le premier, née la première par rapport aux autres enfants de la famille."
+            "def": "Qui est dans un état d’abattement causé par un chagrin, une peine."
         }
     }
 }
