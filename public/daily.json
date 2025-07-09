@@ -1,20 +1,20 @@
 {
     "words": {
-        "dactylographie": {
-            "catGram": "nom féminin",
-            "def": "Procédé d'écriture, de transcription et de mise en page d'un texte au moyen d'une machine à écrire, d’un clavier."
-        },
-        "bagatelle": {
-            "catGram": "nom féminin",
-            "def": "Objet de peu d'utilité, sans grande valeur."
-        },
-        "cache-cache": {
+        "rempart": {
             "catGram": "nom masculin",
-            "def": "Jeu d'enfants où l'on se cache."
+            "def": "Forte muraille, levée de terre ou enceinte destinée à protéger le périmètre qu'elle entoure en le rendant inaccessible de l'extérieur."
         },
-        "triste": {
+        "prolétariat": {
+            "catGram": "nom masculin",
+            "def": "Condition du prolétaire."
+        },
+        "dévergondé": {
             "catGram": "adjectif",
-            "def": "Qui est dans un état d’abattement causé par un chagrin, une peine."
+            "def": "Qui mène notoirement une vie de débauche."
+        },
+        "souvent": {
+            "catGram": "adverbe",
+            "def": "De façon répétée, fréquemment."
         }
     }
 }
