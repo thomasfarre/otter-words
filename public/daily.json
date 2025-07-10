@@ -1,20 +1,20 @@
 {
     "words": {
-        "rempart": {
-            "catGram": "nom masculin",
-            "def": "Forte muraille, levée de terre ou enceinte destinée à protéger le périmètre qu'elle entoure en le rendant inaccessible de l'extérieur."
+        "brouiller": {
+            "catGram": "verbe",
+            "def": "Mêler en agitant"
         },
-        "prolétariat": {
-            "catGram": "nom masculin",
-            "def": "Condition du prolétaire."
+        "vérification": {
+            "catGram": "nom féminin",
+            "def": "Fait de vérifier."
         },
-        "dévergondé": {
-            "catGram": "adjectif",
-            "def": "Qui mène notoirement une vie de débauche."
+        "paresser": {
+            "catGram": "verbe",
+            "def": "Se laisser aller à la paresse"
         },
-        "souvent": {
-            "catGram": "adverbe",
-            "def": "De façon répétée, fréquemment."
+        "dénonciation": {
+            "catGram": "nom féminin",
+            "def": "Action de dénoncer qqn, qqch."
         }
     }
 }
