@@ -1,20 +1,20 @@
 {
     "words": {
-        "brouiller": {
-            "catGram": "verbe",
-            "def": "Mêler en agitant"
-        },
-        "vérification": {
+        "sensation": {
             "catGram": "nom féminin",
-            "def": "Fait de vérifier."
+            "def": "Phénomène par lequel une stimulation physiologique (externe ou interne) provoque, chez un être vivant et conscient, une réaction spécifique produisant une perception"
         },
-        "paresser": {
-            "catGram": "verbe",
-            "def": "Se laisser aller à la paresse"
+        "mouillé": {
+            "catGram": "adjectif",
+            "def": "Imprégné d’eau, mis en contact avec un liquide"
         },
-        "dénonciation": {
+        "contestation": {
             "catGram": "nom féminin",
-            "def": "Action de dénoncer qqn, qqch."
+            "def": "Fait de contester"
+        },
+        "dirigeant": {
+            "catGram": "adjectif",
+            "def": "Qui dirige"
         }
     }
 }
