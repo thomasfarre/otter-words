@@ -1,20 +1,20 @@
 {
     "words": {
-        "sensation": {
+        "fragment": {
+            "catGram": "nom masculin",
+            "def": "Morceau d'une chose qui a été brisée, déchirée."
+        },
+        "aile": {
             "catGram": "nom féminin",
-            "def": "Phénomène par lequel une stimulation physiologique (externe ou interne) provoque, chez un être vivant et conscient, une réaction spécifique produisant une perception"
+            "def": "Membre, organe qui permet à la plupart des oiseaux et des insectes et à quelques mammifères de voler."
         },
-        "mouillé": {
-            "catGram": "adjectif",
-            "def": "Imprégné d’eau, mis en contact avec un liquide"
-        },
-        "contestation": {
+        "semelle": {
             "catGram": "nom féminin",
-            "def": "Fait de contester"
+            "def": "Pièce constituant le dessous d'une chaussure."
         },
-        "dirigeant": {
-            "catGram": "adjectif",
-            "def": "Qui dirige"
+        "énerver": {
+            "catGram": "verbe",
+            "def": "Susciter l'agacement, l'irritation"
         }
     }
 }
