@@ -1,20 +1,20 @@
 {
     "words": {
-        "fragment": {
-            "catGram": "nom masculin",
-            "def": "Morceau d'une chose qui a été brisée, déchirée."
-        },
-        "aile": {
+        "guêpe": {
             "catGram": "nom féminin",
-            "def": "Membre, organe qui permet à la plupart des oiseaux et des insectes et à quelques mammifères de voler."
+            "def": "Insecte voisin de l’abeille, noir avec des bandes jaunes, à corps élancé et fortement rétréci entre le thorax et l’abdomen, qui se nourrit de pollen et d’autres aliments sucrés, mais dont la femelle, munie d’un aiguillon très venimeux, s’attaque à d’autres insectes pour nourrir les larves qu’elle élève dans un terrier ou dans un nid aérien fait de boue ou de pâte de papier."
         },
-        "semelle": {
+        "royauté": {
             "catGram": "nom féminin",
-            "def": "Pièce constituant le dessous d'une chaussure."
+            "def": "Dignité de roi."
         },
-        "énerver": {
-            "catGram": "verbe",
-            "def": "Susciter l'agacement, l'irritation"
+        "globalement": {
+            "catGram": "adverbe",
+            "def": "D'une manière globale, en bloc."
+        },
+        "nomenklatura": {
+            "catGram": "nom féminin",
+            "def": "En URSS, liste de personnes occupant des postes leur octroyant des privilèges"
         }
     }
 }
