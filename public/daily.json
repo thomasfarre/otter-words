@@ -1,20 +1,20 @@
 {
     "words": {
-        "guêpe": {
-            "catGram": "nom féminin",
-            "def": "Insecte voisin de l’abeille, noir avec des bandes jaunes, à corps élancé et fortement rétréci entre le thorax et l’abdomen, qui se nourrit de pollen et d’autres aliments sucrés, mais dont la femelle, munie d’un aiguillon très venimeux, s’attaque à d’autres insectes pour nourrir les larves qu’elle élève dans un terrier ou dans un nid aérien fait de boue ou de pâte de papier."
+        "nomade": {
+            "catGram": "adjectif",
+            "def": "Qui n'a pas de demeure, d'établissement fixe"
         },
-        "royauté": {
-            "catGram": "nom féminin",
-            "def": "Dignité de roi."
+        "inacceptable": {
+            "catGram": "adjectif",
+            "def": "Que l'on ne peut ou ne doit accepter"
         },
-        "globalement": {
-            "catGram": "adverbe",
-            "def": "D'une manière globale, en bloc."
-        },
-        "nomenklatura": {
+        "station": {
             "catGram": "nom féminin",
-            "def": "En URSS, liste de personnes occupant des postes leur octroyant des privilèges"
+            "def": "Façon de se tenir, fait de se tenir de telle ou telle façon."
+        },
+        "cercle": {
+            "catGram": "nom masculin",
+            "def": "Surface délimitée par une ligne courbe dont tous les points sont à égale distance d'un point fixe qui est le centre."
         }
     }
 }
