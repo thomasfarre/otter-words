@@ -1,20 +1,20 @@
 {
     "words": {
-        "nomade": {
-            "catGram": "adjectif",
-            "def": "Qui n'a pas de demeure, d'établissement fixe"
-        },
-        "inacceptable": {
-            "catGram": "adjectif",
-            "def": "Que l'on ne peut ou ne doit accepter"
-        },
-        "station": {
+        "dissension": {
             "catGram": "nom féminin",
-            "def": "Façon de se tenir, fait de se tenir de telle ou telle façon."
+            "def": "Opposition d'idées, de sentiments, d'intérêts, souvent empreinte d'hostilité."
         },
-        "cercle": {
+        "courge": {
+            "catGram": "nom féminin",
+            "def": "Plante herbacée annuelle originaire des Amériques, à port grimpant ou rampant, qui développe des tiges munies de vrilles et hérissées de petits poils raides, des feuilles larges et velues, des fleurs jaunes ou orangées, et dont on cultive d’innombrables variétés pour leur fruit aux usages alimentaires ou décoratifs."
+        },
+        "crépuscule": {
             "catGram": "nom masculin",
-            "def": "Surface délimitée par une ligne courbe dont tous les points sont à égale distance d'un point fixe qui est le centre."
+            "def": "Faible lumière qui paraît dans le ciel avant le lever du soleil."
+        },
+        "généalogie": {
+            "catGram": "nom féminin",
+            "def": "Dénombrement, par filiation, des ancêtres d'un individu"
         }
     }
 }
