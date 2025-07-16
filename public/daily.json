@@ -1,20 +1,20 @@
 {
     "words": {
-        "dissension": {
-            "catGram": "nom féminin",
-            "def": "Opposition d'idées, de sentiments, d'intérêts, souvent empreinte d'hostilité."
+        "libre": {
+            "catGram": "adjectif",
+            "def": "Qui n’est pas sous la dépendance de qqn d’autre."
         },
-        "courge": {
-            "catGram": "nom féminin",
-            "def": "Plante herbacée annuelle originaire des Amériques, à port grimpant ou rampant, qui développe des tiges munies de vrilles et hérissées de petits poils raides, des feuilles larges et velues, des fleurs jaunes ou orangées, et dont on cultive d’innombrables variétés pour leur fruit aux usages alimentaires ou décoratifs."
+        "hideux": {
+            "catGram": "adjectif",
+            "def": "Horrible à voir, d'une laideur repoussante."
         },
-        "crépuscule": {
-            "catGram": "nom masculin",
-            "def": "Faible lumière qui paraît dans le ciel avant le lever du soleil."
-        },
-        "généalogie": {
+        "régularité": {
             "catGram": "nom féminin",
-            "def": "Dénombrement, par filiation, des ancêtres d'un individu"
+            "def": "Qualité de ce qui est conforme à la loi, à la règle."
+        },
+        "ovationner": {
+            "catGram": "verbe",
+            "def": "Acclamer, applaudir qqn longuement, chaleureusement"
         }
     }
 }
