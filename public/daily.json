@@ -1,20 +1,20 @@
 {
     "words": {
-        "libre": {
-            "catGram": "adjectif",
-            "def": "Qui n’est pas sous la dépendance de qqn d’autre."
-        },
-        "hideux": {
-            "catGram": "adjectif",
-            "def": "Horrible à voir, d'une laideur repoussante."
-        },
-        "régularité": {
+        "vérole": {
             "catGram": "nom féminin",
-            "def": "Qualité de ce qui est conforme à la loi, à la règle."
+            "def": "variole."
         },
-        "ovationner": {
-            "catGram": "verbe",
-            "def": "Acclamer, applaudir qqn longuement, chaleureusement"
+        "licite": {
+            "catGram": "adjectif",
+            "def": "Qui est permis, qu'aucune loi n'interdit"
+        },
+        "montée": {
+            "catGram": "nom féminin",
+            "def": "Action de se porter vers un lieu plus élevé."
+        },
+        "auvent": {
+            "catGram": "nom masculin",
+            "def": "Petit toit en saillie aménagé au-dessus d'une fenêtre ou d'une porte pour protéger de la pluie."
         }
     }
 }
