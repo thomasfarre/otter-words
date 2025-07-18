@@ -1,20 +1,20 @@
 {
     "words": {
-        "vérole": {
-            "catGram": "nom féminin",
-            "def": "variole."
-        },
-        "licite": {
-            "catGram": "adjectif",
-            "def": "Qui est permis, qu'aucune loi n'interdit"
-        },
-        "montée": {
-            "catGram": "nom féminin",
-            "def": "Action de se porter vers un lieu plus élevé."
-        },
-        "auvent": {
+        "tournage": {
             "catGram": "nom masculin",
-            "def": "Petit toit en saillie aménagé au-dessus d'une fenêtre ou d'une porte pour protéger de la pluie."
+            "def": "Façonnage, usinage au moyen d'un tour."
+        },
+        "laure": {
+            "catGram": "nom féminin",
+            "def": "Grand monastère orthodoxe."
+        },
+        "candide": {
+            "catGram": "adjectif",
+            "def": "Qui a, qui manifeste de la candeur"
+        },
+        "décimer": {
+            "catGram": "verbe",
+            "def": "Faire périr en grand nombre (des êtres animés)."
         }
     }
 }
