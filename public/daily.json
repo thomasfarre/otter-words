@@ -1,20 +1,20 @@
 {
     "words": {
-        "soixante-dix": {
-            "catGram": "déterminant numéral",
-            "def": "Sert à désigner une quantité d'éléments atteignant le nombre correspondant à sept foix dix."
+        "créature": {
+            "catGram": "nom féminin",
+            "def": "Tout être créé, envisagé par rapport à son créateur, notamment Dieu."
         },
-        "attrayant": {
+        "volaille": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des oiseaux de basse-cour élevés pour leurs œufs ou leur chair."
+        },
+        "complémentaire": {
             "catGram": "adjectif",
-            "def": "Qui exerce de l'attrait, qui attire par sa manière d'être agréable, séduisante."
+            "def": "Qui constitue le complément de qqch."
         },
-        "filon": {
-            "catGram": "nom masculin",
-            "def": "Masse allongée de roches dans une formation géologique de nature différente, formée par remplissage d’une fracture."
-        },
-        "dévot": {
-            "catGram": "adjectif",
-            "def": "Qui manifeste de la dévotion"
+        "capitaine": {
+            "catGram": "nom épicène",
+            "def": "Chef d'armée."
         }
     }
 }
