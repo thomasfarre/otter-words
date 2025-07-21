@@ -1,20 +1,20 @@
 {
     "words": {
-        "créature": {
+        "case": {
             "catGram": "nom féminin",
-            "def": "Tout être créé, envisagé par rapport à son créateur, notamment Dieu."
+            "def": "Habitation construite en matériaux légers dans certains pays chauds."
         },
-        "volaille": {
+        "encoignure": {
             "catGram": "nom féminin",
-            "def": "Ensemble des oiseaux de basse-cour élevés pour leurs œufs ou leur chair."
+            "def": "Angle intérieur formé par deux murs."
         },
-        "complémentaire": {
+        "librement": {
+            "catGram": "adverbe",
+            "def": "Sans entrave physique, sans entrave à la liberté de mouvement."
+        },
+        "perplexe": {
             "catGram": "adjectif",
-            "def": "Qui constitue le complément de qqch."
-        },
-        "capitaine": {
-            "catGram": "nom épicène",
-            "def": "Chef d'armée."
+            "def": "Qui ne sait quel parti prendre ou quel jugement former."
         }
     }
 }
