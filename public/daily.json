@@ -1,20 +1,20 @@
 {
     "words": {
-        "case": {
-            "catGram": "nom féminin",
-            "def": "Habitation construite en matériaux légers dans certains pays chauds."
-        },
-        "encoignure": {
-            "catGram": "nom féminin",
-            "def": "Angle intérieur formé par deux murs."
-        },
-        "librement": {
-            "catGram": "adverbe",
-            "def": "Sans entrave physique, sans entrave à la liberté de mouvement."
-        },
-        "perplexe": {
+        "mouillé": {
             "catGram": "adjectif",
-            "def": "Qui ne sait quel parti prendre ou quel jugement former."
+            "def": "Imprégné d’eau, mis en contact avec un liquide"
+        },
+        "commercialisation": {
+            "catGram": "nom féminin",
+            "def": "Opération de mise sur le marché d'un bien ou d'un service."
+        },
+        "match": {
+            "catGram": "nom masculin",
+            "def": "Compétition habituellement sportive se déroulant selon des règles précises, entre deux concurrents ou deux équipes."
+        },
+        "création": {
+            "catGram": "nom féminin",
+            "def": "Action de créer"
         }
     }
 }
