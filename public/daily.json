@@ -1,20 +1,20 @@
 {
     "words": {
-        "mouillé": {
-            "catGram": "adjectif",
-            "def": "Imprégné d’eau, mis en contact avec un liquide"
-        },
-        "commercialisation": {
-            "catGram": "nom féminin",
-            "def": "Opération de mise sur le marché d'un bien ou d'un service."
-        },
-        "match": {
+        "bruit": {
             "catGram": "nom masculin",
-            "def": "Compétition habituellement sportive se déroulant selon des règles précises, entre deux concurrents ou deux équipes."
+            "def": "Ensemble de sons, d'intensité variable, dépourvus d'harmonie, résultant de vibrations irrégulières."
         },
-        "création": {
-            "catGram": "nom féminin",
-            "def": "Action de créer"
+        "claquer": {
+            "catGram": "verbe",
+            "def": "Produire un bruit sec et éclatant."
+        },
+        "germe": {
+            "catGram": "nom masculin",
+            "def": "Œuf fécondé"
+        },
+        "assemblage": {
+            "catGram": "nom masculin",
+            "def": "Action de mettre ensemble, de réunir"
         }
     }
 }
