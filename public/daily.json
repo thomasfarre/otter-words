@@ -1,20 +1,20 @@
 {
     "words": {
-        "bruit": {
-            "catGram": "nom masculin",
-            "def": "Ensemble de sons, d'intensité variable, dépourvus d'harmonie, résultant de vibrations irrégulières."
-        },
-        "claquer": {
+        "réclamer": {
             "catGram": "verbe",
-            "def": "Produire un bruit sec et éclatant."
+            "def": "Demander avec insistance ce qu’on juge nécessaire."
         },
-        "germe": {
-            "catGram": "nom masculin",
-            "def": "Œuf fécondé"
+        "légation": {
+            "catGram": "nom féminin",
+            "def": "Charge de légat pontifical"
         },
-        "assemblage": {
-            "catGram": "nom masculin",
-            "def": "Action de mettre ensemble, de réunir"
+        "lors": {
+            "catGram": "adverbe",
+            "def": "À ce moment-là."
+        },
+        "génisse": {
+            "catGram": "nom féminin",
+            "def": "Jeune vache qui n'a pas encore porté de veau."
         }
     }
 }
