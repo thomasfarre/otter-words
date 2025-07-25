@@ -1,20 +1,20 @@
 {
     "words": {
-        "réclamer": {
-            "catGram": "verbe",
-            "def": "Demander avec insistance ce qu’on juge nécessaire."
-        },
-        "légation": {
+        "brique": {
             "catGram": "nom féminin",
-            "def": "Charge de légat pontifical"
+            "def": "Matériau de construction fait de terre argileuse généralement rouge et moulée en forme de parallélépipède rectangle."
         },
-        "lors": {
-            "catGram": "adverbe",
-            "def": "À ce moment-là."
+        "tournois": {
+            "catGram": "adjectif",
+            "def": "Relatif à une monnaie d'abord frappée à Tours qui est devenue par la suite monnaie royale."
         },
-        "génisse": {
-            "catGram": "nom féminin",
-            "def": "Jeune vache qui n'a pas encore porté de veau."
+        "victoria": {
+            "catGram": "nom masculin ou féminin",
+            "def": "Plante aquatique des eaux calmes de bassins fluviaux sud-américains (Amazone, Paraná), de type nénuphar, à feuilles flottantes à bord relevé devenant souvent énormes, à grandes fleurs nocturnes aux pétales blancs ou roses très nombreux."
+        },
+        "abîme": {
+            "catGram": "nom masculin",
+            "def": "Cavité naturelle sans fond apparent."
         }
     }
 }
