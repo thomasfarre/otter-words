@@ -1,20 +1,20 @@
 {
     "words": {
-        "brique": {
-            "catGram": "nom féminin",
-            "def": "Matériau de construction fait de terre argileuse généralement rouge et moulée en forme de parallélépipède rectangle."
+        "normalement": {
+            "catGram": "adverbe",
+            "def": "D'une manière normale"
         },
-        "tournois": {
-            "catGram": "adjectif",
-            "def": "Relatif à une monnaie d'abord frappée à Tours qui est devenue par la suite monnaie royale."
+        "engluer": {
+            "catGram": "verbe",
+            "def": "Piéger (un oiseau) au moyen d'un gluau"
         },
-        "victoria": {
-            "catGram": "nom masculin ou féminin",
-            "def": "Plante aquatique des eaux calmes de bassins fluviaux sud-américains (Amazone, Paraná), de type nénuphar, à feuilles flottantes à bord relevé devenant souvent énormes, à grandes fleurs nocturnes aux pétales blancs ou roses très nombreux."
-        },
-        "abîme": {
+        "vice": {
             "catGram": "nom masculin",
-            "def": "Cavité naturelle sans fond apparent."
+            "def": "Disposition habituelle à faire ce qui est moralement ou socialement considéré comme mal"
+        },
+        "acné": {
+            "catGram": "nom féminin",
+            "def": "Affection de la peau due à l'inflammation des glandes sébacées se traduisant par des éruptions cutanées."
         }
     }
 }
