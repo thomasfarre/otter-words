@@ -1,20 +1,20 @@
 {
     "words": {
-        "normalement": {
-            "catGram": "adverbe",
-            "def": "D'une manière normale"
-        },
-        "engluer": {
+        "installer": {
             "catGram": "verbe",
-            "def": "Piéger (un oiseau) au moyen d'un gluau"
+            "def": "Établir qqn de façon durable dans une habitation, dans l'endroit qu'il est destiné à occuper."
         },
-        "vice": {
+        "empressé": {
+            "catGram": "adjectif",
+            "def": "Très zélé, très attentionné, très prévenant."
+        },
+        "pochoir": {
             "catGram": "nom masculin",
-            "def": "Disposition habituelle à faire ce qui est moralement ou socialement considéré comme mal"
+            "def": "Plaque découpée dont les formes seront reproduites sur un support à l’aide d’une brosse, d’un pinceau enduit d’encre ou de peinture."
         },
-        "acné": {
+        "emprise": {
             "catGram": "nom féminin",
-            "def": "Affection de la peau due à l'inflammation des glandes sébacées se traduisant par des éruptions cutanées."
+            "def": "Action de prendre par expropriation, spécialement des terrains indispensables à l'exécution de travaux d'intérêt public"
         }
     }
 }
