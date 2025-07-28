@@ -1,20 +1,20 @@
 {
     "words": {
-        "installer": {
-            "catGram": "verbe",
-            "def": "Établir qqn de façon durable dans une habitation, dans l'endroit qu'il est destiné à occuper."
-        },
-        "empressé": {
-            "catGram": "adjectif",
-            "def": "Très zélé, très attentionné, très prévenant."
-        },
-        "pochoir": {
+        "bombardier": {
             "catGram": "nom masculin",
-            "def": "Plaque découpée dont les formes seront reproduites sur un support à l’aide d’une brosse, d’un pinceau enduit d’encre ou de peinture."
+            "def": "Avion de bombardement."
         },
-        "emprise": {
+        "initiateur": {
+            "catGram": "nom",
+            "def": "Qui initie."
+        },
+        "déraisonnable": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas raisonnable."
+        },
+        "étable": {
             "catGram": "nom féminin",
-            "def": "Action de prendre par expropriation, spécialement des terrains indispensables à l'exécution de travaux d'intérêt public"
+            "def": "Bâtiment dans lequel on garde le bétail, en particulier les bovins."
         }
     }
 }
