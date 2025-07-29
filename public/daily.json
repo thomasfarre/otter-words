@@ -1,20 +1,20 @@
 {
     "words": {
-        "bombardier": {
-            "catGram": "nom masculin",
-            "def": "Avion de bombardement."
-        },
-        "initiateur": {
-            "catGram": "nom",
-            "def": "Qui initie."
-        },
-        "déraisonnable": {
+        "héroïque": {
             "catGram": "adjectif",
-            "def": "Qui n'est pas raisonnable."
+            "def": "Relatif aux héros de l’Antiquité."
         },
-        "étable": {
+        "expérimental": {
+            "catGram": "adjectif",
+            "def": "Qui repose sur l'expérience scientifique."
+        },
+        "attestation": {
             "catGram": "nom féminin",
-            "def": "Bâtiment dans lequel on garde le bétail, en particulier les bovins."
+            "def": "Déclaration, verbale ou écrite, par laquelle une personne ou un organisme témoigne de l'existence ou de la véracité d'un fait."
+        },
+        "escrimeur": {
+            "catGram": "nom",
+            "def": "Personne qui pratique l'escrime."
         }
     }
 }
