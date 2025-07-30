@@ -1,20 +1,20 @@
 {
     "words": {
-        "héroïque": {
-            "catGram": "adjectif",
-            "def": "Relatif aux héros de l’Antiquité."
+        "déversement": {
+            "catGram": "nom masculin",
+            "def": "Action de déverser, de se déverser, en parlant du liquide"
         },
-        "expérimental": {
-            "catGram": "adjectif",
-            "def": "Qui repose sur l'expérience scientifique."
+        "subsister": {
+            "catGram": "verbe",
+            "def": "Continuer à être"
         },
-        "attestation": {
-            "catGram": "nom féminin",
-            "def": "Déclaration, verbale ou écrite, par laquelle une personne ou un organisme témoigne de l'existence ou de la véracité d'un fait."
-        },
-        "escrimeur": {
+        "protecteur": {
             "catGram": "nom",
-            "def": "Personne qui pratique l'escrime."
+            "def": "Personne qui protège et qui défend les gens dans le besoin."
+        },
+        "aigu": {
+            "catGram": "adjectif",
+            "def": "Qui se termine en pointe, en tranchant, qui coupe."
         }
     }
 }
