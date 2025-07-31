@@ -1,20 +1,20 @@
 {
     "words": {
-        "déversement": {
-            "catGram": "nom masculin",
-            "def": "Action de déverser, de se déverser, en parlant du liquide"
-        },
-        "subsister": {
-            "catGram": "verbe",
-            "def": "Continuer à être"
-        },
-        "protecteur": {
-            "catGram": "nom",
-            "def": "Personne qui protège et qui défend les gens dans le besoin."
-        },
-        "aigu": {
+        "inlassable": {
             "catGram": "adjectif",
-            "def": "Qui se termine en pointe, en tranchant, qui coupe."
+            "def": "Qui ne se lasse pas."
+        },
+        "sou": {
+            "catGram": "nom masculin",
+            "def": "Dans la France de l'Ancien Régime, pièce de monnaie valant un vingtième de l'ancienne livre."
+        },
+        "auxquels": {
+            "catGram": "pronom interrogatif contracté",
+            "def": "Séquence formée par la prépositionàet le motlequel."
+        },
+        "archéologue": {
+            "catGram": "nom épicène",
+            "def": "Spécialiste de l'archéologie."
         }
     }
 }
