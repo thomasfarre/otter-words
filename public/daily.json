@@ -1,20 +1,20 @@
 {
     "words": {
-        "inlassable": {
-            "catGram": "adjectif",
-            "def": "Qui ne se lasse pas."
+        "rétention": {
+            "catGram": "nom féminin",
+            "def": "Action de retenir, de conserver"
         },
-        "sou": {
-            "catGram": "nom masculin",
-            "def": "Dans la France de l'Ancien Régime, pièce de monnaie valant un vingtième de l'ancienne livre."
+        "météo": {
+            "catGram": "nom féminin",
+            "def": "Météorologie."
         },
-        "auxquels": {
-            "catGram": "pronom interrogatif contracté",
-            "def": "Séquence formée par la prépositionàet le motlequel."
+        "gloire": {
+            "catGram": "nom féminin",
+            "def": "Célébrité éclatante due à des qualités ou des actions estimées d'un large public."
         },
-        "archéologue": {
-            "catGram": "nom épicène",
-            "def": "Spécialiste de l'archéologie."
+        "écharpe": {
+            "catGram": "nom féminin",
+            "def": "Large bande d'étoffe qu'on porte en bandoulière ou nouée autour de la taille en guise d'insigne de fonction."
         }
     }
 }
