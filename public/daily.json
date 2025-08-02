@@ -1,20 +1,20 @@
 {
     "words": {
-        "rétention": {
-            "catGram": "nom féminin",
-            "def": "Action de retenir, de conserver"
+        "rabibocher": {
+            "catGram": "verbe",
+            "def": "Réparer, remettre en état d'une manière sommaire ou provisoire."
         },
-        "météo": {
-            "catGram": "nom féminin",
-            "def": "Météorologie."
+        "osseux": {
+            "catGram": "adjectif",
+            "def": "Des os"
         },
-        "gloire": {
+        "poix": {
             "catGram": "nom féminin",
-            "def": "Célébrité éclatante due à des qualités ou des actions estimées d'un large public."
+            "def": "Matière visqueuse à base de résines et de goudrons végétaux."
         },
-        "écharpe": {
+        "guenille": {
             "catGram": "nom féminin",
-            "def": "Large bande d'étoffe qu'on porte en bandoulière ou nouée autour de la taille en guise d'insigne de fonction."
+            "def": "Vêtement en lambeaux."
         }
     }
 }
