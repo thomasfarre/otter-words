@@ -1,20 +1,20 @@
 {
     "words": {
-        "rabibocher": {
-            "catGram": "verbe",
-            "def": "Réparer, remettre en état d'une manière sommaire ou provisoire."
-        },
-        "osseux": {
+        "archéologique": {
             "catGram": "adjectif",
-            "def": "Des os"
+            "def": "Relatif à l’archéologie."
         },
-        "poix": {
-            "catGram": "nom féminin",
-            "def": "Matière visqueuse à base de résines et de goudrons végétaux."
+        "dévier": {
+            "catGram": "verbe",
+            "def": "S'écarter de la voie, de la direction, de la trajectoire que l'on semblait normalement devoir suivre."
         },
-        "guenille": {
+        "détériorer": {
+            "catGram": "verbe",
+            "def": "Mettre une chose en mauvais état, en la rendant le plus souvent inutilisable"
+        },
+        "rizière": {
             "catGram": "nom féminin",
-            "def": "Vêtement en lambeaux."
+            "def": "Terrain où l'on cultive le riz"
         }
     }
 }
