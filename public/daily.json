@@ -1,20 +1,20 @@
 {
     "words": {
-        "archéologique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l’archéologie."
-        },
-        "dévier": {
+        "somnoler": {
             "catGram": "verbe",
-            "def": "S'écarter de la voie, de la direction, de la trajectoire que l'on semblait normalement devoir suivre."
+            "def": "Être dans un état de demi-sommeil, de somnolence."
         },
-        "détériorer": {
-            "catGram": "verbe",
-            "def": "Mettre une chose en mauvais état, en la rendant le plus souvent inutilisable"
-        },
-        "rizière": {
+        "chaudière": {
             "catGram": "nom féminin",
-            "def": "Terrain où l'on cultive le riz"
+            "def": "Grand récipient généralement en métal, qui sert à chauffer, cuire, bouillir."
+        },
+        "lambris": {
+            "catGram": "nom masculin",
+            "def": "Revêtement décoratif intérieur d'une pièce, sous forme de lames, généralement de bois."
+        },
+        "pendu": {
+            "catGram": "adjectif",
+            "def": "Qui pend"
         }
     }
 }
