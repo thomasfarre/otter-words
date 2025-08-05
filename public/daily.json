@@ -1,20 +1,20 @@
 {
     "words": {
-        "somnoler": {
-            "catGram": "verbe",
-            "def": "Être dans un état de demi-sommeil, de somnolence."
+        "au-dessous": {
+            "catGram": "préposition",
+            "def": "Directement sous qqch."
         },
-        "chaudière": {
+        "netteté": {
             "catGram": "nom féminin",
-            "def": "Grand récipient généralement en métal, qui sert à chauffer, cuire, bouillir."
+            "def": "Qualité de ce qui est propre, bien tenu, bien soigné."
         },
-        "lambris": {
-            "catGram": "nom masculin",
-            "def": "Revêtement décoratif intérieur d'une pièce, sous forme de lames, généralement de bois."
+        "identifier": {
+            "catGram": "verbe",
+            "def": "Considérer comme identique, assimilable à qqn ou à qqch. d'autre."
         },
-        "pendu": {
+        "conquis": {
             "catGram": "adjectif",
-            "def": "Qui pend"
+            "def": "Qui est sous la domination d'une puissance militaire."
         }
     }
 }
