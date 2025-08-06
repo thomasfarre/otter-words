@@ -1,20 +1,20 @@
 {
     "words": {
-        "au-dessous": {
-            "catGram": "préposition",
-            "def": "Directement sous qqch."
+        "cela": {
+            "catGram": "pronom démonstratif masculin",
+            "def": "Sert à désigner ou à représenter une chose à laquelle le contexte fait référence."
         },
-        "netteté": {
+        "donation": {
             "catGram": "nom féminin",
-            "def": "Qualité de ce qui est propre, bien tenu, bien soigné."
+            "def": "Contrat par lequel une personne cède un bien, irrévocablement et à titre gratuit, à une autre personne qui l’accepte"
         },
-        "identifier": {
-            "catGram": "verbe",
-            "def": "Considérer comme identique, assimilable à qqn ou à qqch. d'autre."
-        },
-        "conquis": {
+        "polytechnique": {
             "catGram": "adjectif",
-            "def": "Qui est sous la domination d'une puissance militaire."
+            "def": "Qui embrasse plusieurs arts, plusieurs sciences."
+        },
+        "écraser": {
+            "catGram": "verbe",
+            "def": "Aplatir, déformer en exerçant une forte pression, sous l'effet d'un choc violent."
         }
     }
 }
