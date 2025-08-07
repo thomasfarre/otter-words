@@ -1,20 +1,20 @@
 {
     "words": {
-        "cela": {
-            "catGram": "pronom démonstratif masculin",
-            "def": "Sert à désigner ou à représenter une chose à laquelle le contexte fait référence."
+        "spot": {
+            "catGram": "nom masculin",
+            "def": "Image (point, tache) lumineuse sur certains appareils (instrument de mesure à miroir, écran d'un tube cathodique)."
         },
-        "donation": {
+        "aspirateur": {
+            "catGram": "nom masculin",
+            "def": "Appareil destiné à aspirer quelque chose."
+        },
+        "pourpre": {
             "catGram": "nom féminin",
-            "def": "Contrat par lequel une personne cède un bien, irrévocablement et à titre gratuit, à une autre personne qui l’accepte"
+            "def": "Substance colorante d'un rouge vif et soutenu, à l'origine tirée d'un coquillage."
         },
-        "polytechnique": {
-            "catGram": "adjectif",
-            "def": "Qui embrasse plusieurs arts, plusieurs sciences."
-        },
-        "écraser": {
+        "forer": {
             "catGram": "verbe",
-            "def": "Aplatir, déformer en exerçant une forte pression, sous l'effet d'un choc violent."
+            "def": "Percer au moyen d'un foret une masse dure."
         }
     }
 }
