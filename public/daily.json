@@ -1,20 +1,20 @@
 {
     "words": {
-        "spot": {
-            "catGram": "nom masculin",
-            "def": "Image (point, tache) lumineuse sur certains appareils (instrument de mesure à miroir, écran d'un tube cathodique)."
+        "fameux": {
+            "catGram": "adjectif",
+            "def": "Qui a une grande réputation, un grand renom."
         },
-        "aspirateur": {
-            "catGram": "nom masculin",
-            "def": "Appareil destiné à aspirer quelque chose."
-        },
-        "pourpre": {
+        "autodétermination": {
             "catGram": "nom féminin",
-            "def": "Substance colorante d'un rouge vif et soutenu, à l'origine tirée d'un coquillage."
+            "def": "Fait pour un peuple de déterminer par lui-même son statut politique."
         },
-        "forer": {
-            "catGram": "verbe",
-            "def": "Percer au moyen d'un foret une masse dure."
+        "tracasserie": {
+            "catGram": "nom féminin",
+            "def": "Ce qui tracasse."
+        },
+        "appendicite": {
+            "catGram": "nom féminin",
+            "def": "Inflammation de l'appendice vermiculaire."
         }
     }
 }
