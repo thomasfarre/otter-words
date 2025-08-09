@@ -1,20 +1,20 @@
 {
     "words": {
-        "fameux": {
+        "minable": {
             "catGram": "adjectif",
-            "def": "Qui a une grande réputation, un grand renom."
+            "def": "Qui est miné, usé par les privations, la maladie, la misère"
         },
-        "autodétermination": {
-            "catGram": "nom féminin",
-            "def": "Fait pour un peuple de déterminer par lui-même son statut politique."
+        "tohu-bohu": {
+            "catGram": "nom masculin",
+            "def": "Grand désordre"
         },
-        "tracasserie": {
+        "antipathie": {
             "catGram": "nom féminin",
-            "def": "Ce qui tracasse."
+            "def": "Sentiment irraisonné d'aversion, de répulsion d'une personne à l'égard de qqch. ou de qqn"
         },
-        "appendicite": {
-            "catGram": "nom féminin",
-            "def": "Inflammation de l'appendice vermiculaire."
+        "objecter": {
+            "catGram": "verbe",
+            "def": "Opposer (un argument, une idée) à une affirmation pour la réfuter."
         }
     }
 }
