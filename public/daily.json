@@ -1,20 +1,20 @@
 {
     "words": {
-        "minable": {
-            "catGram": "adjectif",
-            "def": "Qui est miné, usé par les privations, la maladie, la misère"
-        },
-        "tohu-bohu": {
+        "mutisme": {
             "catGram": "nom masculin",
-            "def": "Grand désordre"
+            "def": "Refus de parler, notamment en raison de troubles mentaux."
         },
-        "antipathie": {
+        "virgule": {
             "catGram": "nom féminin",
-            "def": "Sentiment irraisonné d'aversion, de répulsion d'une personne à l'égard de qqch. ou de qqn"
+            "def": "Signe de ponctuation (,) utilisé pour séparer des phrases simples ou subordonnées ou des éléments juxtaposés."
         },
-        "objecter": {
-            "catGram": "verbe",
-            "def": "Opposer (un argument, une idée) à une affirmation pour la réfuter."
+        "primauté": {
+            "catGram": "nom féminin",
+            "def": "Prééminence, situation de ce qui est au premier rang."
+        },
+        "sueur": {
+            "catGram": "nom féminin",
+            "def": "Liquide aqueux et salé, à l'odeur caractéristique, sécrété par les glandes sudoripares et éliminé par les pores de la peau."
         }
     }
 }
