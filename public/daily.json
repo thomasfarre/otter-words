@@ -1,20 +1,20 @@
 {
     "words": {
-        "mutisme": {
-            "catGram": "nom masculin",
-            "def": "Refus de parler, notamment en raison de troubles mentaux."
-        },
-        "virgule": {
+        "prudence": {
             "catGram": "nom féminin",
-            "def": "Signe de ponctuation (,) utilisé pour séparer des phrases simples ou subordonnées ou des éléments juxtaposés."
+            "def": "Attitude d’une personne qui prévoit, calcule les conséquences d'une situation, d'une action qui pourraient être fâcheuses ou dangereuses, et qui règle sa conduite de façon à les éviter."
         },
-        "primauté": {
-            "catGram": "nom féminin",
-            "def": "Prééminence, situation de ce qui est au premier rang."
+        "grandement": {
+            "catGram": "adverbe",
+            "def": "Beaucoup, très."
         },
-        "sueur": {
-            "catGram": "nom féminin",
-            "def": "Liquide aqueux et salé, à l'odeur caractéristique, sécrété par les glandes sudoripares et éliminé par les pores de la peau."
+        "abject": {
+            "catGram": "adjectif",
+            "def": "Qui inspire le dégoût, le mépris par sa bassesse, sa dégradation morale."
+        },
+        "considérer": {
+            "catGram": "verbe",
+            "def": "Regarder avec attention."
         }
     }
 }
