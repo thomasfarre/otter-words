@@ -1,20 +1,20 @@
 {
     "words": {
-        "prudence": {
+        "supposition": {
             "catGram": "nom féminin",
-            "def": "Attitude d’une personne qui prévoit, calcule les conséquences d'une situation, d'une action qui pourraient être fâcheuses ou dangereuses, et qui règle sa conduite de façon à les éviter."
+            "def": "Idée posée comme vraie en guise d'hypothèse."
         },
-        "grandement": {
-            "catGram": "adverbe",
-            "def": "Beaucoup, très."
+        "havresac": {
+            "catGram": "nom masculin",
+            "def": "Sac que le fantassin portait sur son dos et qui contenait son équipement."
         },
-        "abject": {
+        "consacré": {
             "catGram": "adjectif",
-            "def": "Qui inspire le dégoût, le mépris par sa bassesse, sa dégradation morale."
+            "def": "Qui a reçu une consécration religieuse."
         },
-        "considérer": {
-            "catGram": "verbe",
-            "def": "Regarder avec attention."
+        "plongée": {
+            "catGram": "nom féminin",
+            "def": "Action de plonger et de rester sous l'eau pendant un certain temps."
         }
     }
 }
