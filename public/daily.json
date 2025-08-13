@@ -1,20 +1,20 @@
 {
     "words": {
-        "supposition": {
-            "catGram": "nom féminin",
-            "def": "Idée posée comme vraie en guise d'hypothèse."
-        },
-        "havresac": {
+        "ongle": {
             "catGram": "nom masculin",
-            "def": "Sac que le fantassin portait sur son dos et qui contenait son équipement."
+            "def": "Lame cornée qui recouvre la partie supérieure de l’extrémité des doigts et des orteils, chez l'être humain."
         },
-        "consacré": {
+        "octroyer": {
+            "catGram": "verbe",
+            "def": "Accorder comme une faveur."
+        },
+        "fasciste": {
             "catGram": "adjectif",
-            "def": "Qui a reçu une consécration religieuse."
+            "def": "Relatif au fascisme"
         },
-        "plongée": {
-            "catGram": "nom féminin",
-            "def": "Action de plonger et de rester sous l'eau pendant un certain temps."
+        "viol": {
+            "catGram": "nom masculin",
+            "def": "Rapport sexuel imposé à une personne, le plus souvent avec usage de la force."
         }
     }
 }
