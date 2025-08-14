@@ -1,20 +1,20 @@
 {
     "words": {
-        "ongle": {
-            "catGram": "nom masculin",
-            "def": "Lame cornée qui recouvre la partie supérieure de l’extrémité des doigts et des orteils, chez l'être humain."
-        },
-        "octroyer": {
+        "fustiger": {
             "catGram": "verbe",
-            "def": "Accorder comme une faveur."
+            "def": "Battre à coups de bâton, de fouet."
         },
-        "fasciste": {
-            "catGram": "adjectif",
-            "def": "Relatif au fascisme"
+        "successivement": {
+            "catGram": "adverbe",
+            "def": "De manière successive"
         },
-        "viol": {
-            "catGram": "nom masculin",
-            "def": "Rapport sexuel imposé à une personne, le plus souvent avec usage de la force."
+        "figue": {
+            "catGram": "nom féminin",
+            "def": "Fruit du figuier, qui a la forme d’une poire, à peau épaisse et souple, à chair sucrée, juteuse ou un peu sèche, et renfermant de nombreuses graines croquantes."
+        },
+        "contester": {
+            "catGram": "verbe",
+            "def": "Mettre en question la légalité, la légitimité de qqch."
         }
     }
 }
