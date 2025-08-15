@@ -1,20 +1,20 @@
 {
     "words": {
-        "fustiger": {
+        "revendiquer": {
             "catGram": "verbe",
-            "def": "Battre à coups de bâton, de fouet."
+            "def": "Réclamer qqch. qui nous revient de droit."
         },
-        "successivement": {
-            "catGram": "adverbe",
-            "def": "De manière successive"
+        "préfixe": {
+            "catGram": "nom masculin",
+            "def": "Élément de formation placé à l’initiale d’un mot, devant le radical (ex. :défaire) ou un autre préfixe (ex. :redéfaire), et qui modifie le sens de ce mot."
         },
-        "figue": {
-            "catGram": "nom féminin",
-            "def": "Fruit du figuier, qui a la forme d’une poire, à peau épaisse et souple, à chair sucrée, juteuse ou un peu sèche, et renfermant de nombreuses graines croquantes."
+        "aveuglement": {
+            "catGram": "nom masculin",
+            "def": "Privation de la vue."
         },
-        "contester": {
-            "catGram": "verbe",
-            "def": "Mettre en question la légalité, la légitimité de qqch."
+        "tranquille": {
+            "catGram": "adjectif",
+            "def": "Qui est calme, sans agitation."
         }
     }
 }
