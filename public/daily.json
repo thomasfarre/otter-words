@@ -1,20 +1,20 @@
 {
     "words": {
-        "revendiquer": {
-            "catGram": "verbe",
-            "def": "Réclamer qqch. qui nous revient de droit."
-        },
-        "préfixe": {
+        "froment": {
             "catGram": "nom masculin",
-            "def": "Élément de formation placé à l’initiale d’un mot, devant le radical (ex. :défaire) ou un autre préfixe (ex. :redéfaire), et qui modifie le sens de ce mot."
+            "def": "Autre nom du blé tendre (comme plante céréalière, grains ou farine)."
         },
-        "aveuglement": {
+        "déséquilibre": {
             "catGram": "nom masculin",
-            "def": "Privation de la vue."
+            "def": "Absence d'équilibre, perte de l'équilibre"
         },
-        "tranquille": {
+        "opacité": {
+            "catGram": "nom féminin",
+            "def": "État, qualité de ce qui est opaque"
+        },
+        "maudit": {
             "catGram": "adjectif",
-            "def": "Qui est calme, sans agitation."
+            "def": "Damné pour l'éternité, réprouvé par Dieu ou la société."
         }
     }
 }
