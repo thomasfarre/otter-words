@@ -1,20 +1,20 @@
 {
     "words": {
-        "froment": {
-            "catGram": "nom masculin",
-            "def": "Autre nom du blé tendre (comme plante céréalière, grains ou farine)."
-        },
-        "déséquilibre": {
-            "catGram": "nom masculin",
-            "def": "Absence d'équilibre, perte de l'équilibre"
-        },
-        "opacité": {
+        "perspective": {
             "catGram": "nom féminin",
-            "def": "État, qualité de ce qui est opaque"
+            "def": "Projection d'un objet sur un plan telle que sa représentation sur ce plan coïncide avec la perception visuelle qu'en aurait un observateur en un point donné."
         },
-        "maudit": {
+        "déférent": {
             "catGram": "adjectif",
-            "def": "Damné pour l'éternité, réprouvé par Dieu ou la société."
+            "def": "canal excréteur du testicule, reliant l'épididyme à la prostate."
+        },
+        "parité": {
+            "catGram": "nom féminin",
+            "def": "Rapport d'égalité, de similitude entre deux choses ou deux êtres."
+        },
+        "joyeusement": {
+            "catGram": "adverbe",
+            "def": "D’une manière joyeuse, avec joie."
         }
     }
 }
