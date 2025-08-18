@@ -1,20 +1,20 @@
 {
     "words": {
-        "perspective": {
-            "catGram": "nom féminin",
-            "def": "Projection d'un objet sur un plan telle que sa représentation sur ce plan coïncide avec la perception visuelle qu'en aurait un observateur en un point donné."
+        "bail": {
+            "catGram": "nom masculin",
+            "def": "Contrat par lequel un propriétaire procure la jouissance d’un bien à un locataire, moyennant une somme d’argent convenue"
         },
-        "déférent": {
+        "acerbe": {
             "catGram": "adjectif",
-            "def": "canal excréteur du testicule, reliant l'épididyme à la prostate."
+            "def": "Âpre et aigre au goût."
         },
-        "parité": {
+        "branlant": {
+            "catGram": "adjectif",
+            "def": "Qui branle, est instable."
+        },
+        "effronterie": {
             "catGram": "nom féminin",
-            "def": "Rapport d'égalité, de similitude entre deux choses ou deux êtres."
-        },
-        "joyeusement": {
-            "catGram": "adverbe",
-            "def": "D’une manière joyeuse, avec joie."
+            "def": "Attitude d'une personne effrontée."
         }
     }
 }
