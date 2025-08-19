@@ -1,20 +1,20 @@
 {
     "words": {
-        "bail": {
+        "enterrement": {
             "catGram": "nom masculin",
-            "def": "Contrat par lequel un propriétaire procure la jouissance d’un bien à un locataire, moyennant une somme d’argent convenue"
+            "def": "Action de mettre en terre (un mort)."
         },
-        "acerbe": {
-            "catGram": "adjectif",
-            "def": "Âpre et aigre au goût."
+        "vicaire": {
+            "catGram": "nom masculin",
+            "def": "Dans la religion catholique, prêtre qui aide et remplace à l'occasion le curé d'une paroisse."
         },
-        "branlant": {
-            "catGram": "adjectif",
-            "def": "Qui branle, est instable."
+        "record": {
+            "catGram": "nom masculin",
+            "def": "Performance sportive officiellement enregistrée et encore jamais égalée dans la même catégorie et la même spécialité."
         },
-        "effronterie": {
-            "catGram": "nom féminin",
-            "def": "Attitude d'une personne effrontée."
+        "mahométan": {
+            "catGram": "nom",
+            "def": "Musulman."
         }
     }
 }
