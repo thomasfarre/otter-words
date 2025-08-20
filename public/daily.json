@@ -1,20 +1,20 @@
 {
     "words": {
-        "enterrement": {
+        "schéma": {
             "catGram": "nom masculin",
-            "def": "Action de mettre en terre (un mort)."
+            "def": "Représentation graphique réduite à l'essentiel, et souvent symbolique, destinée à clarifier le fonctionnement de qqch. (un objet, une organisation)."
         },
-        "vicaire": {
-            "catGram": "nom masculin",
-            "def": "Dans la religion catholique, prêtre qui aide et remplace à l'occasion le curé d'une paroisse."
+        "chanceux": {
+            "catGram": "adjectif",
+            "def": "Qui a de la chance, qui est favorisé par le sort"
         },
-        "record": {
-            "catGram": "nom masculin",
-            "def": "Performance sportive officiellement enregistrée et encore jamais égalée dans la même catégorie et la même spécialité."
+        "environs": {
+            "catGram": "adverbe",
+            "def": "À peu près, approximativement."
         },
-        "mahométan": {
+        "fréteur": {
             "catGram": "nom",
-            "def": "Musulman."
+            "def": "Personne qui donne en location un véhicule de transport collectif ou de transport de marchandises."
         }
     }
 }
