@@ -1,20 +1,20 @@
 {
     "words": {
-        "schéma": {
-            "catGram": "nom masculin",
-            "def": "Représentation graphique réduite à l'essentiel, et souvent symbolique, destinée à clarifier le fonctionnement de qqch. (un objet, une organisation)."
-        },
-        "chanceux": {
+        "mystique": {
             "catGram": "adjectif",
-            "def": "Qui a de la chance, qui est favorisé par le sort"
+            "def": "Relatif au mystère d’une religion, à une croyance surnaturelle, sans support rationnel."
         },
-        "environs": {
-            "catGram": "adverbe",
-            "def": "À peu près, approximativement."
+        "armé": {
+            "catGram": "adjectif",
+            "def": "Équipé d'armes."
         },
-        "fréteur": {
-            "catGram": "nom",
-            "def": "Personne qui donne en location un véhicule de transport collectif ou de transport de marchandises."
+        "cynégétique": {
+            "catGram": "adjectif",
+            "def": "Relatif à la chasse avec des chiens"
+        },
+        "abat-jour": {
+            "catGram": "nom masculin",
+            "def": "Dispositif destiné à rabattre la lumière d'une lampe."
         }
     }
 }
