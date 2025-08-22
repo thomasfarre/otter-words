@@ -1,20 +1,20 @@
 {
     "words": {
-        "mystique": {
-            "catGram": "adjectif",
-            "def": "Relatif au mystère d’une religion, à une croyance surnaturelle, sans support rationnel."
+        "chanter": {
+            "catGram": "verbe",
+            "def": "Émettre une suite de sons harmonieux avec la voix."
         },
-        "armé": {
+        "ponctuel": {
             "catGram": "adjectif",
-            "def": "Équipé d'armes."
+            "def": "Qui respecte l'horaire prévu, qui arrive à l'heure fixée."
         },
-        "cynégétique": {
+        "alambiqué": {
             "catGram": "adjectif",
-            "def": "Relatif à la chasse avec des chiens"
+            "def": "Compliqué à l'excès."
         },
-        "abat-jour": {
-            "catGram": "nom masculin",
-            "def": "Dispositif destiné à rabattre la lumière d'une lampe."
+        "candide": {
+            "catGram": "adjectif",
+            "def": "Qui a, qui manifeste de la candeur"
         }
     }
 }
