@@ -1,20 +1,20 @@
 {
     "words": {
-        "chanter": {
-            "catGram": "verbe",
-            "def": "Émettre une suite de sons harmonieux avec la voix."
+        "verbe": {
+            "catGram": "nom masculin",
+            "def": "Mot exprimant une action ou un état, variable en mode, en temps, en personne et en nombre, noyau du groupe verbal et pouvant avoir des compléments et des modificateurs."
         },
-        "ponctuel": {
-            "catGram": "adjectif",
-            "def": "Qui respecte l'horaire prévu, qui arrive à l'heure fixée."
+        "incertitude": {
+            "catGram": "nom féminin",
+            "def": "Caractère imprévisible ou imprécis de qqch."
         },
-        "alambiqué": {
-            "catGram": "adjectif",
-            "def": "Compliqué à l'excès."
+        "bourg": {
+            "catGram": "nom masculin",
+            "def": "Agglomération rurale moins importante que la ville où se tient ordinairement le marché des villages environnants."
         },
-        "candide": {
-            "catGram": "adjectif",
-            "def": "Qui a, qui manifeste de la candeur"
+        "étonnement": {
+            "catGram": "nom masculin",
+            "def": "Forte surprise provoquée par qqch. d'extraordinaire ou d'inattendu."
         }
     }
 }
