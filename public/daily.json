@@ -1,20 +1,20 @@
 {
     "words": {
-        "verbe": {
-            "catGram": "nom masculin",
-            "def": "Mot exprimant une action ou un état, variable en mode, en temps, en personne et en nombre, noyau du groupe verbal et pouvant avoir des compléments et des modificateurs."
+        "probable": {
+            "catGram": "adjectif",
+            "def": "Qui a une apparence de vérité"
         },
-        "incertitude": {
+        "viande": {
             "catGram": "nom féminin",
-            "def": "Caractère imprévisible ou imprécis de qqch."
+            "def": "Aliment dont se nourrit l'être humain"
         },
-        "bourg": {
-            "catGram": "nom masculin",
-            "def": "Agglomération rurale moins importante que la ville où se tient ordinairement le marché des villages environnants."
+        "selle": {
+            "catGram": "nom féminin",
+            "def": "Pièce incurvée, principalement constituée de cuir, que l’on place sur le dos d’une monture pour servir de siège."
         },
-        "étonnement": {
-            "catGram": "nom masculin",
-            "def": "Forte surprise provoquée par qqch. d'extraordinaire ou d'inattendu."
+        "inonder": {
+            "catGram": "verbe",
+            "def": "Causer, provoquer une inondation."
         }
     }
 }
