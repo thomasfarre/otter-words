@@ -1,20 +1,20 @@
 {
     "words": {
-        "probable": {
-            "catGram": "adjectif",
-            "def": "Qui a une apparence de vérité"
-        },
-        "viande": {
-            "catGram": "nom féminin",
-            "def": "Aliment dont se nourrit l'être humain"
-        },
-        "selle": {
-            "catGram": "nom féminin",
-            "def": "Pièce incurvée, principalement constituée de cuir, que l’on place sur le dos d’une monture pour servir de siège."
-        },
-        "inonder": {
+        "remarquer": {
             "catGram": "verbe",
-            "def": "Causer, provoquer une inondation."
+            "def": "Avoir le regard, l'attention attirée par qqch., se rendre compte de qqch."
+        },
+        "méditer": {
+            "catGram": "verbe",
+            "def": "Soumettre à une longue et mûre réflexion."
+        },
+        "fossé": {
+            "catGram": "nom masculin",
+            "def": "Fosse longitudinale pratiquée dans le sol pour délimiter des terrains ou faciliter l'écoulement des eaux."
+        },
+        "feuille": {
+            "catGram": "nom féminin",
+            "def": "Organe aérien des végétaux, servant à la photosynthèse, à la respiration et à la transpiration, qui est généralement de couleur verte et constitué d’une partie plate et mince (limbe), de dimensions et de contours très variés, et d’une partie étroite (pétiole) servant de lien avec la tige ou un rameau."
         }
     }
 }
