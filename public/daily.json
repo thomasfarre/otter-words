@@ -1,20 +1,20 @@
 {
     "words": {
-        "cavité": {
-            "catGram": "nom féminin",
-            "def": "Espace creux, naturel ou artificiel, dans un corps solide."
+        "défi": {
+            "catGram": "nom masculin",
+            "def": "Provocation à un combat singulier."
         },
-        "omniprésent": {
-            "catGram": "adjectif",
-            "def": "Qui est présent ou que l'on voit partout, en tous lieux."
+        "fisc": {
+            "catGram": "nom masculin",
+            "def": "Administration chargée de la détermination et du recouvrement des impôts."
         },
-        "documenter": {
-            "catGram": "verbe",
-            "def": "Fournir des documents à"
+        "solo": {
+            "catGram": "nom masculin",
+            "def": "Morceau ou passage interprété par un seul artiste."
         },
-        "septentrional": {
-            "catGram": "adjectif",
-            "def": "Qui est situé au nord (ou le plus au nord par rapport à un point donné)"
+        "coquillage": {
+            "catGram": "nom masculin",
+            "def": "Mollusque, généralement marin, dont le corps est protégé par une coquille calcaire"
         }
     }
 }
