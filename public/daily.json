@@ -1,20 +1,20 @@
 {
     "words": {
-        "solitaire": {
-            "catGram": "adjectif",
-            "def": "Qui vit seul, qui agit seul"
-        },
-        "connard": {
-            "catGram": "nom",
-            "def": "Imbécile, abruti."
-        },
-        "dais": {
-            "catGram": "nom masculin",
-            "def": "Ouvrage de bois ou de tissu surplombant un trône, un autel, une chaire."
-        },
-        "déontologie": {
+        "ulcération": {
             "catGram": "nom féminin",
-            "def": "Ensemble des règles et des normes qui régissent une profession ou une fonction, la conduite de ceux qui l'exercent ainsi que les rapports entre ceux-ci et leurs clients ou le public."
+            "def": "Formation d'un ulcère"
+        },
+        "ambulance": {
+            "catGram": "nom féminin",
+            "def": "Service d'hôpital militaire temporaire qui suivait les troupes pour soigner les blessés et les malades"
+        },
+        "forcé": {
+            "catGram": "adjectif",
+            "def": "Qui est exécuté sous la contrainte de qqn, des événements."
+        },
+        "jalouser": {
+            "catGram": "verbe",
+            "def": "Éprouver de la jalousie envers qqn, pour qqch."
         }
     }
 }
