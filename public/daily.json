@@ -1,20 +1,20 @@
 {
     "words": {
-        "ulcération": {
+        "arrivée": {
             "catGram": "nom féminin",
-            "def": "Formation d'un ulcère"
+            "def": "Action d'arriver"
         },
-        "ambulance": {
-            "catGram": "nom féminin",
-            "def": "Service d'hôpital militaire temporaire qui suivait les troupes pour soigner les blessés et les malades"
-        },
-        "forcé": {
+        "dangereux": {
             "catGram": "adjectif",
-            "def": "Qui est exécuté sous la contrainte de qqn, des événements."
+            "def": "Qui constitue ou présente quelque danger."
         },
-        "jalouser": {
-            "catGram": "verbe",
-            "def": "Éprouver de la jalousie envers qqn, pour qqch."
+        "attaque": {
+            "catGram": "nom féminin",
+            "def": "Action d'attaquer"
+        },
+        "débouché": {
+            "catGram": "nom masculin",
+            "def": "Passage d'un lieu resserré dans un lieu plus ouvert."
         }
     }
 }
