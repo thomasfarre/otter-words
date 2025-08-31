@@ -1,20 +1,20 @@
 {
     "words": {
-        "arrivée": {
+        "hisser": {
+            "catGram": "verbe",
+            "def": "Élever, faire monter à l’aide d’un cordage."
+        },
+        "écluser": {
+            "catGram": "verbe",
+            "def": "Faire passer (un bateau) par une écluse."
+        },
+        "algue": {
             "catGram": "nom féminin",
-            "def": "Action d'arriver"
+            "def": "Plante des milieux aquatiques ou très humides, pourvue de chlorophylle mais présentant un appareil végétatif très simple (sans tissus conducteurs, ni véritables racines ou tige feuillée), qui compte de multiples espèces de taille, de forme et de couleur diverses, dont des variétés multicellulaires à longs thalles filamenteux ou rubanés et des variétés unicellulaires microscopiques intégrées au plancton."
         },
-        "dangereux": {
-            "catGram": "adjectif",
-            "def": "Qui constitue ou présente quelque danger."
-        },
-        "attaque": {
-            "catGram": "nom féminin",
-            "def": "Action d'attaquer"
-        },
-        "débouché": {
+        "essai": {
             "catGram": "nom masculin",
-            "def": "Passage d'un lieu resserré dans un lieu plus ouvert."
+            "def": "Série d’épreuves par lesquelles on s’assure des qualités ou de la convenance d’une chose avant de l'adopter définitivement pour l'usage habituel."
         }
     }
 }
