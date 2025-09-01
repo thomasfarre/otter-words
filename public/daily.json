@@ -1,20 +1,20 @@
 {
     "words": {
-        "hisser": {
-            "catGram": "verbe",
-            "def": "Élever, faire monter à l’aide d’un cordage."
-        },
-        "écluser": {
-            "catGram": "verbe",
-            "def": "Faire passer (un bateau) par une écluse."
-        },
-        "algue": {
-            "catGram": "nom féminin",
-            "def": "Plante des milieux aquatiques ou très humides, pourvue de chlorophylle mais présentant un appareil végétatif très simple (sans tissus conducteurs, ni véritables racines ou tige feuillée), qui compte de multiples espèces de taille, de forme et de couleur diverses, dont des variétés multicellulaires à longs thalles filamenteux ou rubanés et des variétés unicellulaires microscopiques intégrées au plancton."
-        },
-        "essai": {
+        "jaillissement": {
             "catGram": "nom masculin",
-            "def": "Série d’épreuves par lesquelles on s’assure des qualités ou de la convenance d’une chose avant de l'adopter définitivement pour l'usage habituel."
+            "def": "Action de jaillir"
+        },
+        "anesthésiant": {
+            "catGram": "adjectif",
+            "def": "Anesthésique."
+        },
+        "frimer": {
+            "catGram": "verbe",
+            "def": "Chercher à se faire remarquer, à épater"
+        },
+        "colérique": {
+            "catGram": "adjectif",
+            "def": "Enclin à la colère."
         }
     }
 }
