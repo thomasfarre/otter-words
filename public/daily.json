@@ -1,20 +1,20 @@
 {
     "words": {
-        "jaillissement": {
+        "défaut": {
             "catGram": "nom masculin",
-            "def": "Action de jaillir"
+            "def": "Absence ou insuffisance d’une chose qui serait nécessaire ou souhaitable."
         },
-        "anesthésiant": {
+        "patronyme": {
+            "catGram": "nom masculin",
+            "def": "Nom de famille transmis par le père"
+        },
+        "chou-rave": {
+            "catGram": "nom masculin",
+            "def": "Plante potagère bisannuelle, de type chou, qu’on cultive pour sa tige comestible renflée en boule, juste au-dessus du sol, et surmontée d’un bouquet de feuilles"
+        },
+        "spécial": {
             "catGram": "adjectif",
-            "def": "Anesthésique."
-        },
-        "frimer": {
-            "catGram": "verbe",
-            "def": "Chercher à se faire remarquer, à épater"
-        },
-        "colérique": {
-            "catGram": "adjectif",
-            "def": "Enclin à la colère."
+            "def": "Qui est particulier à une catégorie de choses, de personnes"
         }
     }
 }
