@@ -1,20 +1,20 @@
 {
     "words": {
-        "défaut": {
-            "catGram": "nom masculin",
-            "def": "Absence ou insuffisance d’une chose qui serait nécessaire ou souhaitable."
+        "connotation": {
+            "catGram": "nom féminin",
+            "def": "Tout ce qu'évoque un mot, une expression, indépendamment de sa signification."
         },
-        "patronyme": {
-            "catGram": "nom masculin",
-            "def": "Nom de famille transmis par le père"
+        "rougir": {
+            "catGram": "verbe",
+            "def": "Devenir rouge, prendre une teinte rouge."
         },
-        "chou-rave": {
-            "catGram": "nom masculin",
-            "def": "Plante potagère bisannuelle, de type chou, qu’on cultive pour sa tige comestible renflée en boule, juste au-dessus du sol, et surmontée d’un bouquet de feuilles"
-        },
-        "spécial": {
+        "charitable": {
             "catGram": "adjectif",
-            "def": "Qui est particulier à une catégorie de choses, de personnes"
+            "def": "Qui a de la charité envers son prochain, qui a une attitude indulgente, compatissante."
+        },
+        "pouls": {
+            "catGram": "nom masculin",
+            "def": "Battement des artères, perceptible au toucher et dû au passage du sang lors des contractions cardiaques."
         }
     }
 }
