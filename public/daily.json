@@ -1,20 +1,20 @@
 {
     "words": {
-        "connotation": {
-            "catGram": "nom féminin",
-            "def": "Tout ce qu'évoque un mot, une expression, indépendamment de sa signification."
-        },
-        "rougir": {
+        "rater": {
             "catGram": "verbe",
-            "def": "Devenir rouge, prendre une teinte rouge."
+            "def": "Ne pas partir."
         },
-        "charitable": {
-            "catGram": "adjectif",
-            "def": "Qui a de la charité envers son prochain, qui a une attitude indulgente, compatissante."
-        },
-        "pouls": {
+        "prolétariat": {
             "catGram": "nom masculin",
-            "def": "Battement des artères, perceptible au toucher et dû au passage du sang lors des contractions cardiaques."
+            "def": "Condition du prolétaire."
+        },
+        "ampoule": {
+            "catGram": "nom féminin",
+            "def": "Fiole de verre effilée à une extrémité ou aux deux, qui sert généralement à contenir un médicament liquide"
+        },
+        "traite": {
+            "catGram": "nom féminin",
+            "def": "Forme de commerce pratiquée du 16eau 19esiècle, qui consistait à échanger des produits manufacturés contre des produits locaux."
         }
     }
 }
