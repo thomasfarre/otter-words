@@ -1,20 +1,20 @@
 {
     "words": {
-        "rater": {
+        "désagréger": {
             "catGram": "verbe",
-            "def": "Ne pas partir."
+            "def": "Décomposer qqch. en ses éléments constitutifs."
         },
-        "prolétariat": {
-            "catGram": "nom masculin",
-            "def": "Condition du prolétaire."
+        "antiseptique": {
+            "catGram": "adjectif",
+            "def": "Qui détruit les microorganismes pathogènes ou empêche leur multiplication sur la peau et les muqueuses"
         },
-        "ampoule": {
-            "catGram": "nom féminin",
-            "def": "Fiole de verre effilée à une extrémité ou aux deux, qui sert généralement à contenir un médicament liquide"
+        "vaillant": {
+            "catGram": "adjectif",
+            "def": "Brave, courageux."
         },
-        "traite": {
-            "catGram": "nom féminin",
-            "def": "Forme de commerce pratiquée du 16eau 19esiècle, qui consistait à échanger des produits manufacturés contre des produits locaux."
+        "dramatiquement": {
+            "catGram": "adverbe",
+            "def": "D'une manière dramatique."
         }
     }
 }
