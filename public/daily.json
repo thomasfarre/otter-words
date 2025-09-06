@@ -1,20 +1,20 @@
 {
     "words": {
-        "désagréger": {
-            "catGram": "verbe",
-            "def": "Décomposer qqch. en ses éléments constitutifs."
-        },
-        "antiseptique": {
+        "anecdotique": {
             "catGram": "adjectif",
-            "def": "Qui détruit les microorganismes pathogènes ou empêche leur multiplication sur la peau et les muqueuses"
+            "def": "Qui tient de l’anecdote."
         },
-        "vaillant": {
-            "catGram": "adjectif",
-            "def": "Brave, courageux."
-        },
-        "dramatiquement": {
+        "là": {
             "catGram": "adverbe",
-            "def": "D'une manière dramatique."
+            "def": "Sert à marquer le lieu et, plus rarement, le temps."
+        },
+        "crûment": {
+            "catGram": "adverbe",
+            "def": "De manière crue, sans atténuation, sans ménagement."
+        },
+        "sensibilité": {
+            "catGram": "nom féminin",
+            "def": "Capacité d'éprouver des sensations."
         }
     }
 }
