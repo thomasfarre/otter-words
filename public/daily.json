@@ -1,20 +1,20 @@
 {
     "words": {
-        "anecdotique": {
-            "catGram": "adjectif",
-            "def": "Qui tient de l’anecdote."
+        "dépasser": {
+            "catGram": "verbe",
+            "def": "Laisser derrière soi qqn ou qqch. en allant plus vite."
         },
-        "là": {
-            "catGram": "adverbe",
-            "def": "Sert à marquer le lieu et, plus rarement, le temps."
+        "saturer": {
+            "catGram": "verbe",
+            "def": "Amener à saturation"
         },
-        "crûment": {
-            "catGram": "adverbe",
-            "def": "De manière crue, sans atténuation, sans ménagement."
+        "ping-pong": {
+            "catGram": "nom masculin",
+            "def": "Jeu de tennis miniature sur table."
         },
-        "sensibilité": {
-            "catGram": "nom féminin",
-            "def": "Capacité d'éprouver des sensations."
+        "poulain": {
+            "catGram": "nom masculin",
+            "def": "Jeune cheval, généralement âgé de moins de trois ans"
         }
     }
 }
