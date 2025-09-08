@@ -1,20 +1,20 @@
 {
     "words": {
-        "dépasser": {
-            "catGram": "verbe",
-            "def": "Laisser derrière soi qqn ou qqch. en allant plus vite."
+        "austérité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est austère."
         },
-        "saturer": {
-            "catGram": "verbe",
-            "def": "Amener à saturation"
+        "cassette": {
+            "catGram": "nom féminin",
+            "def": "Petit coffre destiné à ranger de l'argent, des objets précieux."
         },
-        "ping-pong": {
+        "moisi": {
+            "catGram": "adjectif",
+            "def": "Qui est attaqué, altéré par les moisissures."
+        },
+        "épi": {
             "catGram": "nom masculin",
-            "def": "Jeu de tennis miniature sur table."
-        },
-        "poulain": {
-            "catGram": "nom masculin",
-            "def": "Jeune cheval, généralement âgé de moins de trois ans"
+            "def": "Partie terminale de la tige de certaines plantes céréalières, formée par la réunion des graines, que l'on coupe pour récolter le grain."
         }
     }
 }
