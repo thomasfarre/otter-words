@@ -1,20 +1,20 @@
 {
     "words": {
-        "austérité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est austère."
+        "dénicher": {
+            "catGram": "verbe",
+            "def": "Enlever, faire sortir du nid."
         },
-        "cassette": {
-            "catGram": "nom féminin",
-            "def": "Petit coffre destiné à ranger de l'argent, des objets précieux."
-        },
-        "moisi": {
-            "catGram": "adjectif",
-            "def": "Qui est attaqué, altéré par les moisissures."
-        },
-        "épi": {
+        "cantique": {
             "catGram": "nom masculin",
-            "def": "Partie terminale de la tige de certaines plantes céréalières, formée par la réunion des graines, que l'on coupe pour récolter le grain."
+            "def": "Chant d’action de grâces à la gloire de Dieu."
+        },
+        "séjour": {
+            "catGram": "nom masculin",
+            "def": "Fait de demeurer un certain temps dans un lieu."
+        },
+        "oscar": {
+            "catGram": "nom masculin",
+            "def": "Haute récompense (symbolisée par une statuette) décernée chaque année à Hollywood par l’Académie des Arts et Sciences du Cinéma à des acteurs, réalisateurs, scénaristes et techniciens du film."
         }
     }
 }
