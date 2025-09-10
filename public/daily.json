@@ -1,20 +1,20 @@
 {
     "words": {
-        "dénicher": {
+        "pharmacien": {
+            "catGram": "nom",
+            "def": "Personne titulaire d’un diplôme en pharmacie, qui prépare, distribue et s’assure de la bonne utilisation des médicaments."
+        },
+        "érudit": {
+            "catGram": "adjectif",
+            "def": "Qui a de l’érudition."
+        },
+        "renchérir": {
             "catGram": "verbe",
-            "def": "Enlever, faire sortir du nid."
+            "def": "Devenir plus cher."
         },
-        "cantique": {
-            "catGram": "nom masculin",
-            "def": "Chant d’action de grâces à la gloire de Dieu."
-        },
-        "séjour": {
-            "catGram": "nom masculin",
-            "def": "Fait de demeurer un certain temps dans un lieu."
-        },
-        "oscar": {
-            "catGram": "nom masculin",
-            "def": "Haute récompense (symbolisée par une statuette) décernée chaque année à Hollywood par l’Académie des Arts et Sciences du Cinéma à des acteurs, réalisateurs, scénaristes et techniciens du film."
+        "dilettante": {
+            "catGram": "nom épicène",
+            "def": "Personne qui exerce une activité comme un passe-temps, généralement de façon fantaisiste."
         }
     }
 }
