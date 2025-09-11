@@ -1,20 +1,20 @@
 {
     "words": {
-        "pharmacien": {
-            "catGram": "nom",
-            "def": "Personne titulaire d’un diplôme en pharmacie, qui prépare, distribue et s’assure de la bonne utilisation des médicaments."
+        "chaudière": {
+            "catGram": "nom féminin",
+            "def": "Grand récipient généralement en métal, qui sert à chauffer, cuire, bouillir."
         },
-        "érudit": {
-            "catGram": "adjectif",
-            "def": "Qui a de l’érudition."
+        "finition": {
+            "catGram": "nom féminin",
+            "def": "Opération ultime destinée à parfaire une exécution ou une fabrication"
         },
-        "renchérir": {
-            "catGram": "verbe",
-            "def": "Devenir plus cher."
+        "pause": {
+            "catGram": "nom féminin",
+            "def": "Interruption momentanée d'une activité ou d'un processus"
         },
-        "dilettante": {
-            "catGram": "nom épicène",
-            "def": "Personne qui exerce une activité comme un passe-temps, généralement de façon fantaisiste."
+        "possession": {
+            "catGram": "nom féminin",
+            "def": "Fait de posséder qqch."
         }
     }
 }
