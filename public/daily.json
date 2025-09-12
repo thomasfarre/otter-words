@@ -1,20 +1,20 @@
 {
     "words": {
-        "chaudière": {
-            "catGram": "nom féminin",
-            "def": "Grand récipient généralement en métal, qui sert à chauffer, cuire, bouillir."
+        "minotier": {
+            "catGram": "nom",
+            "def": "Personne qui dirige l'exploitation d'une minoterie."
         },
-        "finition": {
-            "catGram": "nom féminin",
-            "def": "Opération ultime destinée à parfaire une exécution ou une fabrication"
+        "surplomber": {
+            "catGram": "verbe",
+            "def": "Pencher en avant, former une saillie par rapport au plan vertical."
         },
-        "pause": {
-            "catGram": "nom féminin",
-            "def": "Interruption momentanée d'une activité ou d'un processus"
+        "craindre": {
+            "catGram": "verbe",
+            "def": "Éprouver un sentiment de peur, d'inquiétude à l'égard de qqn, de qqch."
         },
-        "possession": {
-            "catGram": "nom féminin",
-            "def": "Fait de posséder qqch."
+        "diadème": {
+            "catGram": "nom masculin",
+            "def": "Bandeau, couronne, souvent pourvu d'une riche décoration, porté autour de la tête comme signe de la royauté."
         }
     }
 }
