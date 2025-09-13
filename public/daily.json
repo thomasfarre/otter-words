@@ -1,20 +1,20 @@
 {
     "words": {
-        "minotier": {
-            "catGram": "nom",
-            "def": "Personne qui dirige l'exploitation d'une minoterie."
+        "fragilité": {
+            "catGram": "nom féminin",
+            "def": "Facilité à se briser, à se détériorer."
         },
-        "surplomber": {
+        "déconvenue": {
+            "catGram": "nom féminin",
+            "def": "Désappointement causé par un échec, un événement fâcheux."
+        },
+        "diversement": {
+            "catGram": "adverbe",
+            "def": "D'une manière diverse ou de diverses manières."
+        },
+        "châtier": {
             "catGram": "verbe",
-            "def": "Pencher en avant, former une saillie par rapport au plan vertical."
-        },
-        "craindre": {
-            "catGram": "verbe",
-            "def": "Éprouver un sentiment de peur, d'inquiétude à l'égard de qqn, de qqch."
-        },
-        "diadème": {
-            "catGram": "nom masculin",
-            "def": "Bandeau, couronne, souvent pourvu d'une riche décoration, porté autour de la tête comme signe de la royauté."
+            "def": "Punir sévèrement qqn pour le corriger d'une faute qu'il a commise."
         }
     }
 }
