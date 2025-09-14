@@ -1,20 +1,20 @@
 {
     "words": {
-        "fragilité": {
-            "catGram": "nom féminin",
-            "def": "Facilité à se briser, à se détériorer."
+        "enfer": {
+            "catGram": "nom masculin",
+            "def": "Dans l'Antiquité, lieu souterrain où séjournent les morts."
         },
-        "déconvenue": {
-            "catGram": "nom féminin",
-            "def": "Désappointement causé par un échec, un événement fâcheux."
-        },
-        "diversement": {
-            "catGram": "adverbe",
-            "def": "D'une manière diverse ou de diverses manières."
-        },
-        "châtier": {
+        "exagérer": {
             "catGram": "verbe",
-            "def": "Punir sévèrement qqn pour le corriger d'une faute qu'il a commise."
+            "def": "Présenter qqch. comme plus important qu'il n'est en réalité."
+        },
+        "enlacer": {
+            "catGram": "verbe",
+            "def": "Entourer, généralement plusieurs fois."
+        },
+        "triomphant": {
+            "catGram": "adjectif",
+            "def": "Qui a remporté un succès, une victoire éclatante."
         }
     }
 }
