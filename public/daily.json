@@ -1,20 +1,20 @@
 {
     "words": {
-        "enfer": {
-            "catGram": "nom masculin",
-            "def": "Dans l'Antiquité, lieu souterrain où séjournent les morts."
+        "major": {
+            "catGram": "nom épicène",
+            "def": "Officier supérieur chargé de divers services d'administration dans l'armée de terre."
         },
-        "exagérer": {
-            "catGram": "verbe",
-            "def": "Présenter qqch. comme plus important qu'il n'est en réalité."
-        },
-        "enlacer": {
-            "catGram": "verbe",
-            "def": "Entourer, généralement plusieurs fois."
-        },
-        "triomphant": {
+        "agile": {
             "catGram": "adjectif",
-            "def": "Qui a remporté un succès, une victoire éclatante."
+            "def": "Qui manifeste de la promptitude et de l'aisance dans ses mouvements."
+        },
+        "ajustement": {
+            "catGram": "nom masculin",
+            "def": "Action d'ajuster"
+        },
+        "harceler": {
+            "catGram": "verbe",
+            "def": "Tourmenter, fatiguer par des attaques, des demandes, des sollicitations incessantes."
         }
     }
 }
