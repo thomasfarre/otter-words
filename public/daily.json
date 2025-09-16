@@ -1,20 +1,20 @@
 {
     "words": {
-        "major": {
-            "catGram": "nom épicène",
-            "def": "Officier supérieur chargé de divers services d'administration dans l'armée de terre."
+        "levée": {
+            "catGram": "nom féminin",
+            "def": "Action de lever, d’élever."
         },
-        "agile": {
+        "irresponsable": {
             "catGram": "adjectif",
-            "def": "Qui manifeste de la promptitude et de l'aisance dans ses mouvements."
+            "def": "Qui ne peut pas répondre de ses actes."
         },
-        "ajustement": {
-            "catGram": "nom masculin",
-            "def": "Action d'ajuster"
-        },
-        "harceler": {
+        "falsifier": {
             "catGram": "verbe",
-            "def": "Tourmenter, fatiguer par des attaques, des demandes, des sollicitations incessantes."
+            "def": "Altérer dans une intention frauduleuse."
+        },
+        "bâti": {
+            "catGram": "adjectif",
+            "def": "Construit, édifié."
         }
     }
 }
