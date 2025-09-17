@@ -1,20 +1,20 @@
 {
     "words": {
-        "levée": {
+        "satirique": {
+            "catGram": "adjectif",
+            "def": "Relatif à la satire."
+        },
+        "laiterie": {
             "catGram": "nom féminin",
-            "def": "Action de lever, d’élever."
+            "def": "Partie, local d'une ferme où le lait est entreposé après la traite."
         },
-        "irresponsable": {
-            "catGram": "adjectif",
-            "def": "Qui ne peut pas répondre de ses actes."
+        "chameau": {
+            "catGram": "nom",
+            "def": "Grand mammifère ruminant d'Afrique et d'Asie, assez haut sur pattes, à pelage brunâtre, à cou allongé et à dos surmonté d’une ou de deux bosses graisseuses, qui est reconnu pour son endurance et qui est bien adapté aux milieux arides où il est notamment utilisé comme monture et comme bête de somme"
         },
-        "falsifier": {
-            "catGram": "verbe",
-            "def": "Altérer dans une intention frauduleuse."
-        },
-        "bâti": {
-            "catGram": "adjectif",
-            "def": "Construit, édifié."
+        "chemisier": {
+            "catGram": "nom",
+            "def": "Personne qui fabrique ou vend des chemises."
         }
     }
 }
