@@ -1,20 +1,20 @@
 {
     "words": {
-        "satirique": {
+        "inquiet": {
             "catGram": "adjectif",
-            "def": "Relatif à la satire."
+            "def": "Qui ressent, manifeste, dénote de l'inquiétude."
         },
-        "laiterie": {
+        "vigilance": {
             "catGram": "nom féminin",
-            "def": "Partie, local d'une ferme où le lait est entreposé après la traite."
+            "def": "Surveillance attentive, sans défaillance."
         },
-        "chameau": {
-            "catGram": "nom",
-            "def": "Grand mammifère ruminant d'Afrique et d'Asie, assez haut sur pattes, à pelage brunâtre, à cou allongé et à dos surmonté d’une ou de deux bosses graisseuses, qui est reconnu pour son endurance et qui est bien adapté aux milieux arides où il est notamment utilisé comme monture et comme bête de somme"
+        "frigorifié": {
+            "catGram": "verbe",
+            "def": "Soumettre (une denrée périssable) à un froid intense, généralement pour conservation."
         },
-        "chemisier": {
-            "catGram": "nom",
-            "def": "Personne qui fabrique ou vend des chemises."
+        "placement": {
+            "catGram": "nom masculin",
+            "def": "Action de placer, de disposer selon un certain ordre."
         }
     }
 }
