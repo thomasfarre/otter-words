@@ -1,20 +1,20 @@
 {
     "words": {
-        "inquiet": {
-            "catGram": "adjectif",
-            "def": "Qui ressent, manifeste, dénote de l'inquiétude."
-        },
-        "vigilance": {
-            "catGram": "nom féminin",
-            "def": "Surveillance attentive, sans défaillance."
-        },
-        "frigorifié": {
+        "défigurer": {
             "catGram": "verbe",
-            "def": "Soumettre (une denrée périssable) à un froid intense, généralement pour conservation."
+            "def": "Altérer, abîmer l'aspect du visage jusqu'à le rendre méconnaissable."
         },
-        "placement": {
-            "catGram": "nom masculin",
-            "def": "Action de placer, de disposer selon un certain ordre."
+        "turc": {
+            "catGram": "adjectif",
+            "def": "De Turquie."
+        },
+        "désorganisation": {
+            "catGram": "nom féminin",
+            "def": "Action de désorganiser ou fait de se désorganiser"
+        },
+        "mésintelligence": {
+            "catGram": "nom féminin",
+            "def": "Défaut d'harmonie, mauvaise entente entre deux ou plusieurs personnes"
         }
     }
 }
