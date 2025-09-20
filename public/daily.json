@@ -1,20 +1,20 @@
 {
     "words": {
-        "défigurer": {
+        "paniquer": {
             "catGram": "verbe",
-            "def": "Altérer, abîmer l'aspect du visage jusqu'à le rendre méconnaissable."
+            "def": "Frapper, remplir qqn de panique, d'angoisse."
         },
-        "turc": {
+        "tien": {
+            "catGram": "adjectif possessif",
+            "def": "Qui t'appartient, qui t'est propre."
+        },
+        "client": {
+            "catGram": "nom",
+            "def": "Dans l'Antiquité romaine, citoyen pauvre se dévouant à un patron, qui assurait sa protection et sa subsistance."
+        },
+        "éventuel": {
             "catGram": "adjectif",
-            "def": "De Turquie."
-        },
-        "désorganisation": {
-            "catGram": "nom féminin",
-            "def": "Action de désorganiser ou fait de se désorganiser"
-        },
-        "mésintelligence": {
-            "catGram": "nom féminin",
-            "def": "Défaut d'harmonie, mauvaise entente entre deux ou plusieurs personnes"
+            "def": "Qui peut se produire, survenir ou non."
         }
     }
 }
