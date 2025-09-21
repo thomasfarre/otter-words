@@ -1,20 +1,20 @@
 {
     "words": {
-        "paniquer": {
-            "catGram": "verbe",
-            "def": "Frapper, remplir qqn de panique, d'angoisse."
+        "récolte": {
+            "catGram": "nom féminin",
+            "def": "Action de récolter les produits de la terre, cultivés ou non."
         },
-        "tien": {
-            "catGram": "adjectif possessif",
-            "def": "Qui t'appartient, qui t'est propre."
-        },
-        "client": {
-            "catGram": "nom",
-            "def": "Dans l'Antiquité romaine, citoyen pauvre se dévouant à un patron, qui assurait sa protection et sa subsistance."
-        },
-        "éventuel": {
+        "abrupt": {
             "catGram": "adjectif",
-            "def": "Qui peut se produire, survenir ou non."
+            "def": "Dont la pente est quasi verticale."
+        },
+        "sucré": {
+            "catGram": "adjectif",
+            "def": "Qui contient naturellement du sucre"
+        },
+        "voix": {
+            "catGram": "nom féminin",
+            "def": "Son, ensemble de sons produits par les vibrations des cordes vocales"
         }
     }
 }
