@@ -1,20 +1,20 @@
 {
     "words": {
-        "récolte": {
+        "nombril": {
+            "catGram": "nom masculin",
+            "def": "Cicatrice arrondie laissée par la section du cordon ombilical au centre de la paroi abdominale de l’être humain et des mammifères."
+        },
+        "inconvenance": {
             "catGram": "nom féminin",
-            "def": "Action de récolter les produits de la terre, cultivés ou non."
+            "def": "Caractère de ce qui est inconvenant."
         },
-        "abrupt": {
-            "catGram": "adjectif",
-            "def": "Dont la pente est quasi verticale."
-        },
-        "sucré": {
-            "catGram": "adjectif",
-            "def": "Qui contient naturellement du sucre"
-        },
-        "voix": {
+        "hardiesse": {
             "catGram": "nom féminin",
-            "def": "Son, ensemble de sons produits par les vibrations des cordes vocales"
+            "def": "Caractère d’une personne hardie, de ce qui est hardi."
+        },
+        "obus": {
+            "catGram": "nom masculin",
+            "def": "Projectile creux utilisé par l'artillerie, rempli d'un explosif ou de substances diverses."
         }
     }
 }
