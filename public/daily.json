@@ -1,20 +1,20 @@
 {
     "words": {
-        "censé": {
+        "insultant": {
             "catGram": "adjectif",
-            "def": "Supposé, réputé."
+            "def": "Qui constitue une insulte."
         },
-        "hypothétique": {
-            "catGram": "adjectif",
-            "def": "Qui est subordonné à une condition"
+        "ralentir": {
+            "catGram": "verbe",
+            "def": "Rendre plus lent."
         },
-        "fils": {
-            "catGram": "nom masculin",
-            "def": "Personne de sexe masculin considérée par rapport à son père, à sa mère."
-        },
-        "affirmation": {
+        "allégresse": {
             "catGram": "nom féminin",
-            "def": "Action d'affirmer"
+            "def": "Démonstration vive, bruyante et généralement collective de la joie."
+        },
+        "socialement": {
+            "catGram": "adverbe",
+            "def": "Relativement à la vie des individus en société"
         }
     }
 }
