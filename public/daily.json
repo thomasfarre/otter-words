@@ -1,20 +1,20 @@
 {
     "words": {
-        "insultant": {
+        "prolétariat": {
+            "catGram": "nom masculin",
+            "def": "Condition du prolétaire."
+        },
+        "inapplicable": {
             "catGram": "adjectif",
-            "def": "Qui constitue une insulte."
+            "def": "Qui ne peut être appliqué"
         },
-        "ralentir": {
-            "catGram": "verbe",
-            "def": "Rendre plus lent."
+        "vétéran": {
+            "catGram": "nom",
+            "def": "Soldat romain qui, après avoir effectué vingt-cinq années de service servait encore l'armée dans un corps ditcorps des vétérans."
         },
-        "allégresse": {
-            "catGram": "nom féminin",
-            "def": "Démonstration vive, bruyante et généralement collective de la joie."
-        },
-        "socialement": {
-            "catGram": "adverbe",
-            "def": "Relativement à la vie des individus en société"
+        "couru": {
+            "catGram": "adjectif",
+            "def": "Fréquenté, recherché."
         }
     }
 }
