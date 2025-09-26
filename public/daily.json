@@ -1,20 +1,20 @@
 {
     "words": {
-        "prolétariat": {
+        "miroir": {
             "catGram": "nom masculin",
-            "def": "Condition du prolétaire."
+            "def": "Objet constitué d'une surface polie (de verre étamé ou de métal) qui réfléchit la lumière, l’image des personnes et des choses."
         },
-        "inapplicable": {
-            "catGram": "adjectif",
-            "def": "Qui ne peut être appliqué"
+        "courtoisie": {
+            "catGram": "nom féminin",
+            "def": "Attitude de politesse raffinée conforme à la tradition et à la bonne éducation, aux usages mondains"
         },
-        "vétéran": {
-            "catGram": "nom",
-            "def": "Soldat romain qui, après avoir effectué vingt-cinq années de service servait encore l'armée dans un corps ditcorps des vétérans."
+        "ministre": {
+            "catGram": "nom épicène",
+            "def": "Personne chargée de célébrer un culte divin."
         },
-        "couru": {
-            "catGram": "adjectif",
-            "def": "Fréquenté, recherché."
+        "linguistique": {
+            "catGram": "nom féminin",
+            "def": "Science qui étudie le langage, les langues."
         }
     }
 }
