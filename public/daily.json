@@ -1,20 +1,20 @@
 {
     "words": {
-        "miroir": {
-            "catGram": "nom masculin",
-            "def": "Objet constitué d'une surface polie (de verre étamé ou de métal) qui réfléchit la lumière, l’image des personnes et des choses."
+        "pénitentiaire": {
+            "catGram": "adjectif",
+            "def": "Relatif aux prisons, aux détenus."
         },
-        "courtoisie": {
-            "catGram": "nom féminin",
-            "def": "Attitude de politesse raffinée conforme à la tradition et à la bonne éducation, aux usages mondains"
+        "rallier": {
+            "catGram": "verbe",
+            "def": "Rassembler, unir de nouveau des éléments qui ont été dispersés."
         },
-        "ministre": {
-            "catGram": "nom épicène",
-            "def": "Personne chargée de célébrer un culte divin."
+        "trouvé": {
+            "catGram": "adjectif",
+            "def": "Qui a été trouvé."
         },
-        "linguistique": {
-            "catGram": "nom féminin",
-            "def": "Science qui étudie le langage, les langues."
+        "multinationale": {
+            "catGram": "adjectif",
+            "def": "Qui concerne ou qui comprend plusieurs nations."
         }
     }
 }
