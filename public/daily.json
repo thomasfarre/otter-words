@@ -1,20 +1,20 @@
 {
     "words": {
-        "pénitentiaire": {
-            "catGram": "adjectif",
-            "def": "Relatif aux prisons, aux détenus."
+        "dessous": {
+            "catGram": "préposition",
+            "def": "Directement sous qqch."
         },
-        "rallier": {
-            "catGram": "verbe",
-            "def": "Rassembler, unir de nouveau des éléments qui ont été dispersés."
+        "extorqueur": {
+            "catGram": "nom",
+            "def": "Celui ou celle qui extorque."
         },
-        "trouvé": {
+        "crédible": {
             "catGram": "adjectif",
-            "def": "Qui a été trouvé."
+            "def": "Que l'on peut croire"
         },
-        "multinationale": {
-            "catGram": "adjectif",
-            "def": "Qui concerne ou qui comprend plusieurs nations."
+        "adolescence": {
+            "catGram": "nom féminin",
+            "def": "Âge de la vie qui suit l'enfance et qui s'étend jusqu'à l'âge adulte."
         }
     }
 }
