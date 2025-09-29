@@ -1,20 +1,20 @@
 {
     "words": {
-        "dessous": {
-            "catGram": "préposition",
-            "def": "Directement sous qqch."
-        },
-        "extorqueur": {
+        "joueur": {
             "catGram": "nom",
-            "def": "Celui ou celle qui extorque."
+            "def": "Personne qui joue pour se divertir, seule ou avec d'autres personnes."
         },
-        "crédible": {
-            "catGram": "adjectif",
-            "def": "Que l'on peut croire"
+        "appauvrir": {
+            "catGram": "verbe",
+            "def": "Rendre pauvre."
         },
-        "adolescence": {
+        "tante": {
             "catGram": "nom féminin",
-            "def": "Âge de la vie qui suit l'enfance et qui s'étend jusqu'à l'âge adulte."
+            "def": "Sœur du père ou de la mère."
+        },
+        "zozoter": {
+            "catGram": "verbe",
+            "def": "Avoir le défaut de prononciation qui consiste à substituer le son s [s] au son ch [ʃ] et le son z [z] au son j [ʒ]."
         }
     }
 }
