@@ -1,20 +1,20 @@
 {
     "words": {
-        "joueur": {
-            "catGram": "nom",
-            "def": "Personne qui joue pour se divertir, seule ou avec d'autres personnes."
+        "passionnément": {
+            "catGram": "adverbe",
+            "def": "De manière passionnée."
         },
-        "appauvrir": {
-            "catGram": "verbe",
-            "def": "Rendre pauvre."
+        "prévisible": {
+            "catGram": "adjectif",
+            "def": "Qui peut être prévu"
         },
-        "tante": {
-            "catGram": "nom féminin",
-            "def": "Sœur du père ou de la mère."
+        "niais": {
+            "catGram": "adjectif",
+            "def": "Qui est sans expérience et naïf au point d'être bête."
         },
-        "zozoter": {
-            "catGram": "verbe",
-            "def": "Avoir le défaut de prononciation qui consiste à substituer le son s [s] au son ch [ʃ] et le son z [z] au son j [ʒ]."
+        "habité": {
+            "catGram": "adjectif",
+            "def": "Qui compte des habitants"
         }
     }
 }
