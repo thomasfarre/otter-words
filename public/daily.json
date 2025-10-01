@@ -1,20 +1,20 @@
 {
     "words": {
-        "passionnément": {
-            "catGram": "adverbe",
-            "def": "De manière passionnée."
+        "diamant": {
+            "catGram": "nom masculin",
+            "def": "Minéral généralement incolore fait de carbone pur cristallisé, d'une grande dureté et d'un indice de réfraction élevé"
         },
-        "prévisible": {
-            "catGram": "adjectif",
-            "def": "Qui peut être prévu"
+        "graduation": {
+            "catGram": "nom féminin",
+            "def": "Action de graduer un instrument de mesure par des marques régulièrement espacées."
         },
-        "niais": {
-            "catGram": "adjectif",
-            "def": "Qui est sans expérience et naïf au point d'être bête."
+        "survivre": {
+            "catGram": "verbe",
+            "def": "Demeurer en vie après la mort de qqn"
         },
-        "habité": {
-            "catGram": "adjectif",
-            "def": "Qui compte des habitants"
+        "renversement": {
+            "catGram": "nom masculin",
+            "def": "Action de renverser"
         }
     }
 }
