@@ -1,20 +1,20 @@
 {
     "words": {
-        "diamant": {
-            "catGram": "nom masculin",
-            "def": "Minéral généralement incolore fait de carbone pur cristallisé, d'une grande dureté et d'un indice de réfraction élevé"
+        "tournois": {
+            "catGram": "adjectif",
+            "def": "Relatif à une monnaie d'abord frappée à Tours qui est devenue par la suite monnaie royale."
         },
-        "graduation": {
+        "vamp": {
             "catGram": "nom féminin",
-            "def": "Action de graduer un instrument de mesure par des marques régulièrement espacées."
+            "def": "Rôle cinématographique représentant un personnage de femme fatale, souvent perverse et sans scrupules"
         },
-        "survivre": {
-            "catGram": "verbe",
-            "def": "Demeurer en vie après la mort de qqn"
+        "préhistoire": {
+            "catGram": "nom féminin",
+            "def": "Période de l'histoire de l'humanité comprenant l'ensemble des événements antérieurs à l'apparition de l'écriture et à l'emploi des métaux."
         },
-        "renversement": {
-            "catGram": "nom masculin",
-            "def": "Action de renverser"
+        "saoul": {
+            "catGram": "adjectif",
+            "def": "Rassasié, saturé de qqch."
         }
     }
 }
