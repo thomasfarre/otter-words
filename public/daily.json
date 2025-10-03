@@ -1,20 +1,20 @@
 {
     "words": {
-        "tournois": {
-            "catGram": "adjectif",
-            "def": "Relatif à une monnaie d'abord frappée à Tours qui est devenue par la suite monnaie royale."
+        "implanter": {
+            "catGram": "verbe",
+            "def": "Planter une chose dans une autre"
         },
-        "vamp": {
+        "accompagner": {
+            "catGram": "verbe",
+            "def": "Aller avec qqn"
+        },
+        "fournée": {
             "catGram": "nom féminin",
-            "def": "Rôle cinématographique représentant un personnage de femme fatale, souvent perverse et sans scrupules"
+            "def": "Ensemble de produits ou d'objets soumis à la cuisson du four."
         },
-        "préhistoire": {
-            "catGram": "nom féminin",
-            "def": "Période de l'histoire de l'humanité comprenant l'ensemble des événements antérieurs à l'apparition de l'écriture et à l'emploi des métaux."
-        },
-        "saoul": {
-            "catGram": "adjectif",
-            "def": "Rassasié, saturé de qqch."
+        "placement": {
+            "catGram": "nom masculin",
+            "def": "Action de placer, de disposer selon un certain ordre."
         }
     }
 }
