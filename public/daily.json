@@ -1,20 +1,20 @@
 {
     "words": {
-        "implanter": {
-            "catGram": "verbe",
-            "def": "Planter une chose dans une autre"
-        },
-        "accompagner": {
-            "catGram": "verbe",
-            "def": "Aller avec qqn"
-        },
-        "fournée": {
-            "catGram": "nom féminin",
-            "def": "Ensemble de produits ou d'objets soumis à la cuisson du four."
-        },
-        "placement": {
+        "kilt": {
             "catGram": "nom masculin",
-            "def": "Action de placer, de disposer selon un certain ordre."
+            "def": "Jupe courte et plissée, en tartan, portée traditionnellement par les hommes en Écosse."
+        },
+        "barber": {
+            "catGram": "verbe",
+            "def": "Ennuyer."
+        },
+        "colosse": {
+            "catGram": "nom masculin",
+            "def": "Statue gigantesque."
+        },
+        "faculté": {
+            "catGram": "nom féminin",
+            "def": "Propriété constituante de l’être."
         }
     }
 }
