@@ -1,20 +1,20 @@
 {
     "words": {
-        "kilt": {
-            "catGram": "nom masculin",
-            "def": "Jupe courte et plissée, en tartan, portée traditionnellement par les hommes en Écosse."
+        "républicain": {
+            "catGram": "adjectif",
+            "def": "De la république."
         },
-        "barber": {
-            "catGram": "verbe",
-            "def": "Ennuyer."
-        },
-        "colosse": {
-            "catGram": "nom masculin",
-            "def": "Statue gigantesque."
-        },
-        "faculté": {
+        "décade": {
             "catGram": "nom féminin",
-            "def": "Propriété constituante de l’être."
+            "def": "Période de dix jours."
+        },
+        "phototype": {
+            "catGram": "nom masculin",
+            "def": "Image, cliché obtenu directement après exposition et traitement d'une couche photosensible."
+        },
+        "libeller": {
+            "catGram": "verbe",
+            "def": "Rédiger dans des formes légales ou requises."
         }
     }
 }
