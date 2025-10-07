@@ -1,20 +1,20 @@
 {
     "words": {
-        "protectionnisme": {
-            "catGram": "nom masculin",
-            "def": "Politique économique qui préconise des mesures gouvernementales, notamment d'ordre tarifaire, dans le but de mettre les activités industrielles et commerciales d'un pays à l'abri de la concurrence étrangère."
+        "juriste": {
+            "catGram": "nom épicène",
+            "def": "Spécialiste du droit qui remplit des fonctions juridiques, produit des analyses, des ouvrages juridiques, etc."
         },
-        "vertige": {
-            "catGram": "nom masculin",
-            "def": "Sensation donnant à une personne l'illusion que son corps ou que les objets environnants sont animés d'un mouvement de rotation ou d'oscillation."
-        },
-        "algèbre": {
+        "boucherie": {
             "catGram": "nom féminin",
-            "def": "Branche des mathématiques ayant pour objet de simplifier et de résoudre au moyen de formules des problèmes où les grandeurs sont représentées par des symboles, et d'en généraliser les résultats."
+            "def": "Commerce de la viande."
         },
-        "évanescent": {
+        "hasardeux": {
             "catGram": "adjectif",
-            "def": "Qu’on aperçoit de manière fugitive, qui s’efface peu à peu"
+            "def": "Qui est soumis à des aléas, des risques"
+        },
+        "abêtir": {
+            "catGram": "verbe",
+            "def": "Rendre bête, abrutir."
         }
     }
 }
