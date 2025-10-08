@@ -1,20 +1,20 @@
 {
     "words": {
-        "juriste": {
-            "catGram": "nom épicène",
-            "def": "Spécialiste du droit qui remplit des fonctions juridiques, produit des analyses, des ouvrages juridiques, etc."
-        },
-        "boucherie": {
-            "catGram": "nom féminin",
-            "def": "Commerce de la viande."
-        },
-        "hasardeux": {
+        "carnassier": {
             "catGram": "adjectif",
-            "def": "Qui est soumis à des aléas, des risques"
+            "def": "Qui se nourrit principalement ou exclusivement de la chair de ses proies."
         },
-        "abêtir": {
-            "catGram": "verbe",
-            "def": "Rendre bête, abrutir."
+        "ferroviaire": {
+            "catGram": "adjectif",
+            "def": "Relatif aux chemins de fer."
+        },
+        "croche-pied": {
+            "catGram": "nom masculin",
+            "def": "Action d’accrocher la jambe, les jambes de qqn avec le pied pour le faire tomber."
+        },
+        "renonciation": {
+            "catGram": "nom féminin",
+            "def": "Action d'abandonner l'utilisation ou la possession d'une chose, la prétention à qqch."
         }
     }
 }
