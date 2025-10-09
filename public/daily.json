@@ -1,20 +1,20 @@
 {
     "words": {
-        "carnassier": {
+        "inné": {
             "catGram": "adjectif",
-            "def": "Qui se nourrit principalement ou exclusivement de la chair de ses proies."
+            "def": "Qui appartient à l'être dès sa naissance, sans avoir nécessairement un caractère héréditaire"
         },
-        "ferroviaire": {
-            "catGram": "adjectif",
-            "def": "Relatif aux chemins de fer."
+        "surcharge": {
+            "catGram": "nom féminin",
+            "def": "Charge supplémentaire ou excessive."
         },
         "croche-pied": {
             "catGram": "nom masculin",
             "def": "Action d’accrocher la jambe, les jambes de qqn avec le pied pour le faire tomber."
         },
-        "renonciation": {
-            "catGram": "nom féminin",
-            "def": "Action d'abandonner l'utilisation ou la possession d'une chose, la prétention à qqch."
+        "majoritaire": {
+            "catGram": "adjectif",
+            "def": "Relatif à la majorité, au plus grand nombre"
         }
     }
 }
