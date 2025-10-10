@@ -1,20 +1,20 @@
 {
     "words": {
-        "inné": {
-            "catGram": "adjectif",
-            "def": "Qui appartient à l'être dès sa naissance, sans avoir nécessairement un caractère héréditaire"
-        },
-        "surcharge": {
+        "destruction": {
             "catGram": "nom féminin",
-            "def": "Charge supplémentaire ou excessive."
+            "def": "Action de détruire"
         },
-        "croche-pied": {
-            "catGram": "nom masculin",
-            "def": "Action d’accrocher la jambe, les jambes de qqn avec le pied pour le faire tomber."
+        "émanciper": {
+            "catGram": "verbe",
+            "def": "Affranchir un mineur de l’autorité parentale ou de la tutelle."
         },
-        "majoritaire": {
+        "pervers": {
             "catGram": "adjectif",
-            "def": "Relatif à la majorité, au plus grand nombre"
+            "def": "Enclin au mal"
+        },
+        "cognée": {
+            "catGram": "nom féminin",
+            "def": "Grosse hache à biseau étroit généralement utilisée par les bûcherons."
         }
     }
 }
