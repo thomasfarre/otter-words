@@ -1,20 +1,20 @@
 {
     "words": {
-        "destruction": {
-            "catGram": "nom féminin",
-            "def": "Action de détruire"
+        "par-dessus": {
+            "catGram": "préposition",
+            "def": "À la face supérieure de."
         },
-        "émanciper": {
-            "catGram": "verbe",
-            "def": "Affranchir un mineur de l’autorité parentale ou de la tutelle."
-        },
-        "pervers": {
+        "inflationniste": {
             "catGram": "adjectif",
-            "def": "Enclin au mal"
+            "def": "Propre à l'inflation"
         },
-        "cognée": {
-            "catGram": "nom féminin",
-            "def": "Grosse hache à biseau étroit généralement utilisée par les bûcherons."
+        "diabète": {
+            "catGram": "nom masculin",
+            "def": "Toute maladie caractérisée par une élimination excessive d'urine et par une augmentation de la soif."
+        },
+        "normalement": {
+            "catGram": "adverbe",
+            "def": "D'une manière normale"
         }
     }
 }
