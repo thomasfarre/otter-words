@@ -1,20 +1,20 @@
 {
     "words": {
-        "par-dessus": {
-            "catGram": "préposition",
-            "def": "À la face supérieure de."
-        },
-        "inflationniste": {
-            "catGram": "adjectif",
-            "def": "Propre à l'inflation"
-        },
-        "diabète": {
-            "catGram": "nom masculin",
-            "def": "Toute maladie caractérisée par une élimination excessive d'urine et par une augmentation de la soif."
-        },
-        "normalement": {
+        "résolument": {
             "catGram": "adverbe",
-            "def": "D'une manière normale"
+            "def": "De manière résolue."
+        },
+        "succomber": {
+            "catGram": "verbe",
+            "def": "S'affaisser, s'écrouler sous (un poids)."
+        },
+        "économiser": {
+            "catGram": "verbe",
+            "def": "Dépenser avec circonspection"
+        },
+        "selle": {
+            "catGram": "nom féminin",
+            "def": "Pièce incurvée, principalement constituée de cuir, que l’on place sur le dos d’une monture pour servir de siège."
         }
     }
 }
