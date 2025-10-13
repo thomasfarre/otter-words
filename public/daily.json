@@ -1,20 +1,20 @@
 {
     "words": {
-        "résolument": {
-            "catGram": "adverbe",
-            "def": "De manière résolue."
-        },
-        "succomber": {
-            "catGram": "verbe",
-            "def": "S'affaisser, s'écrouler sous (un poids)."
-        },
-        "économiser": {
-            "catGram": "verbe",
-            "def": "Dépenser avec circonspection"
-        },
-        "selle": {
+        "expédition": {
             "catGram": "nom féminin",
-            "def": "Pièce incurvée, principalement constituée de cuir, que l’on place sur le dos d’une monture pour servir de siège."
+            "def": "Action de traiter, d'accomplir qqch. promptement, efficacement."
+        },
+        "promettre": {
+            "catGram": "verbe",
+            "def": "S'engager à faire, à dire, à donner qqch."
+        },
+        "endroit": {
+            "catGram": "nom masculin",
+            "def": "Partie déterminée d'un espace."
+        },
+        "combiné": {
+            "catGram": "adjectif",
+            "def": "Qui est associé à un ou plusieurs autres éléments"
         }
     }
 }
