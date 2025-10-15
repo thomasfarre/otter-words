@@ -1,20 +1,20 @@
 {
     "words": {
-        "numérique": {
+        "potasser": {
+            "catGram": "verbe",
+            "def": "Étudier avec acharnement."
+        },
+        "étriqué": {
             "catGram": "adjectif",
-            "def": "Qui concerne des nombres, qui se présente sous la forme de nombres ou de chiffres, ou qui concerne des opérations sur des nombres"
+            "def": "Trop étroit"
         },
-        "imprudent": {
+        "falloir": {
+            "catGram": "verbe",
+            "def": "Il manque."
+        },
+        "unième": {
             "catGram": "adjectif",
-            "def": "Qui manque de prudence."
-        },
-        "reste": {
-            "catGram": "nom masculin",
-            "def": "Ce qui reste, ce qui subsiste d'un ensemble auquel on a retranché une partie."
-        },
-        "crevasse": {
-            "catGram": "nom féminin",
-            "def": "Ouverture profonde à la surface d'une chose, notamment du sol."
+            "def": "Qui occupe un rang marqué par un nombre dont le chiffre des unités est un."
         }
     }
 }
