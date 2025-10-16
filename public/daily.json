@@ -1,20 +1,20 @@
 {
     "words": {
-        "potasser": {
-            "catGram": "verbe",
-            "def": "Étudier avec acharnement."
+        "leader": {
+            "catGram": "nom épicène",
+            "def": "Porte-parole ou chef d'un parti politique."
         },
-        "étriqué": {
+        "agile": {
             "catGram": "adjectif",
-            "def": "Trop étroit"
+            "def": "Qui manifeste de la promptitude et de l'aisance dans ses mouvements."
         },
-        "falloir": {
+        "savourer": {
             "catGram": "verbe",
-            "def": "Il manque."
+            "def": "Manger, boire lentement et avec attention pour mieux apprécier (le goût de qqch.)."
         },
-        "unième": {
-            "catGram": "adjectif",
-            "def": "Qui occupe un rang marqué par un nombre dont le chiffre des unités est un."
+        "jus": {
+            "catGram": "nom masculin",
+            "def": "Suc d'un fruit ou d'un végétal obtenu par pression, cuisson, décoction, macération"
         }
     }
 }
