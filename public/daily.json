@@ -1,20 +1,20 @@
 {
     "words": {
-        "leader": {
-            "catGram": "nom épicène",
-            "def": "Porte-parole ou chef d'un parti politique."
-        },
-        "agile": {
-            "catGram": "adjectif",
-            "def": "Qui manifeste de la promptitude et de l'aisance dans ses mouvements."
-        },
-        "savourer": {
-            "catGram": "verbe",
-            "def": "Manger, boire lentement et avec attention pour mieux apprécier (le goût de qqch.)."
-        },
-        "jus": {
+        "fourbi": {
             "catGram": "nom masculin",
-            "def": "Suc d'un fruit ou d'un végétal obtenu par pression, cuisson, décoction, macération"
+            "def": "Ensemble des armes, de l'équipement, de tous les objets que possède un soldat."
+        },
+        "débaucher": {
+            "catGram": "verbe",
+            "def": "Entraîner qqn à rompre ses engagements, à manquer à son devoir, à quitter un service ou un travail pour un autre."
+        },
+        "propriétaire": {
+            "catGram": "nom épicène",
+            "def": "Personne qui possède qqch., exerce son droit de propriété sur qqch."
+        },
+        "régie": {
+            "catGram": "nom féminin",
+            "def": "Organisme gouvernemental de régulation économique ou technique qui veille au développement et à l'exercice d'activités dans le respect des normes, des règles et des lois."
         }
     }
 }
