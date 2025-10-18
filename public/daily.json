@@ -1,20 +1,20 @@
 {
     "words": {
-        "fourbi": {
-            "catGram": "nom masculin",
-            "def": "Ensemble des armes, de l'équipement, de tous les objets que possède un soldat."
-        },
-        "débaucher": {
+        "empreindre": {
             "catGram": "verbe",
-            "def": "Entraîner qqn à rompre ses engagements, à manquer à son devoir, à quitter un service ou un travail pour un autre."
+            "def": "Marquer par pression une forme sur qqch."
         },
-        "propriétaire": {
-            "catGram": "nom épicène",
-            "def": "Personne qui possède qqch., exerce son droit de propriété sur qqch."
+        "fauve": {
+            "catGram": "adjectif",
+            "def": "D'un jaune ocre tirant sur le roux."
         },
-        "régie": {
+        "mocheté": {
             "catGram": "nom féminin",
-            "def": "Organisme gouvernemental de régulation économique ou technique qui veille au développement et à l'exercice d'activités dans le respect des normes, des règles et des lois."
+            "def": "Chose ou personne moche."
+        },
+        "publier": {
+            "catGram": "verbe",
+            "def": "Faire connaître au public"
         }
     }
 }
