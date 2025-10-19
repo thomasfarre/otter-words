@@ -1,20 +1,20 @@
 {
     "words": {
-        "empreindre": {
-            "catGram": "verbe",
-            "def": "Marquer par pression une forme sur qqch."
-        },
-        "fauve": {
-            "catGram": "adjectif",
-            "def": "D'un jaune ocre tirant sur le roux."
-        },
-        "mocheté": {
+        "mesure": {
             "catGram": "nom féminin",
-            "def": "Chose ou personne moche."
+            "def": "Évaluation d'une grandeur ou d'une quantité, par comparaison avec une autre de même espèce, prise comme terme de référence."
         },
-        "publier": {
+        "abattre": {
             "catGram": "verbe",
-            "def": "Faire connaître au public"
+            "def": "Faire tomber qqch. qui est en position verticale, le jeter au sol."
+        },
+        "ployer": {
+            "catGram": "verbe",
+            "def": "Courber, tordre une chose flexible, au moyen d'une charge, ou en exerçant une pression"
+        },
+        "toxique": {
+            "catGram": "adjectif",
+            "def": "Qui agit comme un poison, est nocif pour l’organisme."
         }
     }
 }
