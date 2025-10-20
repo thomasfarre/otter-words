@@ -1,20 +1,20 @@
 {
     "words": {
-        "mesure": {
-            "catGram": "nom féminin",
-            "def": "Évaluation d'une grandeur ou d'une quantité, par comparaison avec une autre de même espèce, prise comme terme de référence."
-        },
-        "abattre": {
+        "manipuler": {
             "catGram": "verbe",
-            "def": "Faire tomber qqch. qui est en position verticale, le jeter au sol."
+            "def": "Manier qqch. avec soin en vue d'une opération scientifique ou technologique."
         },
-        "ployer": {
-            "catGram": "verbe",
-            "def": "Courber, tordre une chose flexible, au moyen d'une charge, ou en exerçant une pression"
-        },
-        "toxique": {
+        "omnipotent": {
             "catGram": "adjectif",
-            "def": "Qui agit comme un poison, est nocif pour l’organisme."
+            "def": "Qui est tout-puissant"
+        },
+        "vitriolage": {
+            "catGram": "nom masculin",
+            "def": "Action de vitrioler"
+        },
+        "braise": {
+            "catGram": "nom féminin",
+            "def": "Résidu de bois incandescent se consumant sans flamme."
         }
     }
 }
