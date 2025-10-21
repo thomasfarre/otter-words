@@ -1,20 +1,20 @@
 {
     "words": {
-        "manipuler": {
-            "catGram": "verbe",
-            "def": "Manier qqch. avec soin en vue d'une opération scientifique ou technologique."
-        },
-        "omnipotent": {
-            "catGram": "adjectif",
-            "def": "Qui est tout-puissant"
-        },
-        "vitriolage": {
+        "bonnet": {
             "catGram": "nom masculin",
-            "def": "Action de vitrioler"
+            "def": "Coiffure souple, sans bord ni visière."
         },
-        "braise": {
+        "hospitalité": {
             "catGram": "nom féminin",
-            "def": "Résidu de bois incandescent se consumant sans flamme."
+            "def": "Action de recevoir chez soi qqn qui se présente, de le loger et de le nourrir gratuitement, par charité, par devoir."
+        },
+        "porte": {
+            "catGram": "nom féminin",
+            "def": "Ouverture pratiquée dans un mur, une clôture pour permettre le passage."
+        },
+        "olfaction": {
+            "catGram": "nom féminin",
+            "def": "Perception des odeurs par le sens de l’odorat."
         }
     }
 }
