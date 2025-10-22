@@ -1,20 +1,20 @@
 {
     "words": {
-        "bonnet": {
+        "dorsal": {
+            "catGram": "adjectif",
+            "def": "Relatif au dos"
+        },
+        "millénaire": {
+            "catGram": "adjectif",
+            "def": "Qui a mille ans ou plus."
+        },
+        "croupissement": {
             "catGram": "nom masculin",
-            "def": "Coiffure souple, sans bord ni visière."
+            "def": "Action de croupir"
         },
-        "hospitalité": {
-            "catGram": "nom féminin",
-            "def": "Action de recevoir chez soi qqn qui se présente, de le loger et de le nourrir gratuitement, par charité, par devoir."
-        },
-        "porte": {
-            "catGram": "nom féminin",
-            "def": "Ouverture pratiquée dans un mur, une clôture pour permettre le passage."
-        },
-        "olfaction": {
-            "catGram": "nom féminin",
-            "def": "Perception des odeurs par le sens de l’odorat."
+        "travailler": {
+            "catGram": "verbe",
+            "def": "Exercer un effort continu en vue de produire ou de modifier qqch."
         }
     }
 }
