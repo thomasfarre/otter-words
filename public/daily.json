@@ -1,20 +1,20 @@
 {
     "words": {
-        "dorsal": {
-            "catGram": "adjectif",
-            "def": "Relatif au dos"
-        },
-        "millénaire": {
-            "catGram": "adjectif",
-            "def": "Qui a mille ans ou plus."
-        },
-        "croupissement": {
-            "catGram": "nom masculin",
-            "def": "Action de croupir"
-        },
-        "travailler": {
+        "gigoter": {
             "catGram": "verbe",
-            "def": "Exercer un effort continu en vue de produire ou de modifier qqch."
+            "def": "Remuer sans cesse les jambes, le corps"
+        },
+        "séminaire": {
+            "catGram": "nom masculin",
+            "def": "Activité pédagogique pour un groupe restreint d’étudiants universitaires des cycles supérieurs animée par un professeur, un chercheur ou un spécialiste."
+        },
+        "mexicain": {
+            "catGram": "adjectif",
+            "def": "Du Mexique."
+        },
+        "passionné": {
+            "catGram": "adjectif",
+            "def": "Rempli de passion."
         }
     }
 }
