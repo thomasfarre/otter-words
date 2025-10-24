@@ -1,20 +1,20 @@
 {
     "words": {
-        "gigoter": {
+        "riper": {
             "catGram": "verbe",
-            "def": "Remuer sans cesse les jambes, le corps"
+            "def": "Gratter avec une ripe."
         },
-        "séminaire": {
-            "catGram": "nom masculin",
-            "def": "Activité pédagogique pour un groupe restreint d’étudiants universitaires des cycles supérieurs animée par un professeur, un chercheur ou un spécialiste."
+        "griffonner": {
+            "catGram": "verbe",
+            "def": "Écrire de façon peu lisible"
         },
-        "mexicain": {
-            "catGram": "adjectif",
-            "def": "Du Mexique."
+        "convenir": {
+            "catGram": "verbe",
+            "def": "Être approprié, adapté à qqn, à qqch."
         },
-        "passionné": {
-            "catGram": "adjectif",
-            "def": "Rempli de passion."
+        "avertir": {
+            "catGram": "verbe",
+            "def": "Informer qqn de qqch., notamment pour qu'il soit vigilant à son sujet."
         }
     }
 }
