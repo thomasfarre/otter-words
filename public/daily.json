@@ -1,20 +1,20 @@
 {
     "words": {
-        "riper": {
-            "catGram": "verbe",
-            "def": "Gratter avec une ripe."
+        "intimité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est intime, intérieur, profond."
         },
-        "griffonner": {
-            "catGram": "verbe",
-            "def": "Écrire de façon peu lisible"
+        "trempé": {
+            "catGram": "adjectif",
+            "def": "Durci par la trempe."
         },
-        "convenir": {
-            "catGram": "verbe",
-            "def": "Être approprié, adapté à qqn, à qqch."
+        "véhémence": {
+            "catGram": "nom féminin",
+            "def": "Force intense, impétueuse (d'un sentiment, d'une idée ou de leur expression)."
         },
-        "avertir": {
-            "catGram": "verbe",
-            "def": "Informer qqn de qqch., notamment pour qu'il soit vigilant à son sujet."
+        "abrité": {
+            "catGram": "adjectif",
+            "def": "Qui est à l’abri du vent."
         }
     }
 }
