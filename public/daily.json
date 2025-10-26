@@ -1,20 +1,20 @@
 {
     "words": {
-        "intimité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est intime, intérieur, profond."
+        "un": {
+            "catGram": "déterminant numéral",
+            "def": "Sert à désigner la quantité d'un élément seul."
         },
-        "trempé": {
+        "acétylénique": {
             "catGram": "adjectif",
-            "def": "Durci par la trempe."
+            "def": "Relatif à l’acétylène, qui en dérive."
         },
-        "véhémence": {
-            "catGram": "nom féminin",
-            "def": "Force intense, impétueuse (d'un sentiment, d'une idée ou de leur expression)."
+        "baptême": {
+            "catGram": "nom masculin",
+            "def": "Sacrement destiné à introduire une personne dans la communauté chrétienne en la purifiant du péché originel."
         },
-        "abrité": {
+        "imprudent": {
             "catGram": "adjectif",
-            "def": "Qui est à l’abri du vent."
+            "def": "Qui manque de prudence."
         }
     }
 }
