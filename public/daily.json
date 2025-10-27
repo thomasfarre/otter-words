@@ -1,20 +1,20 @@
 {
     "words": {
-        "un": {
-            "catGram": "déterminant numéral",
-            "def": "Sert à désigner la quantité d'un élément seul."
-        },
-        "acétylénique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l’acétylène, qui en dérive."
-        },
-        "baptême": {
+        "abonnement": {
             "catGram": "nom masculin",
-            "def": "Sacrement destiné à introduire une personne dans la communauté chrétienne en la purifiant du péché originel."
+            "def": "Marché, souvent à forfait, entre un fournisseur et un client pour l'usage répété d'un service ou la livraison régulière d'un produit, de données ou d'informations."
         },
-        "imprudent": {
+        "alcoolisme": {
+            "catGram": "nom masculin",
+            "def": "Pathologie caractérisée par la dépendance à l'alcool."
+        },
+        "seizième": {
             "catGram": "adjectif",
-            "def": "Qui manque de prudence."
+            "def": "Qui occupe le rang marqué par le nombre seize (16eou XVIe)."
+        },
+        "début": {
+            "catGram": "nom masculin",
+            "def": "Commencement."
         }
     }
 }
