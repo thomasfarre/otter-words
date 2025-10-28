@@ -1,20 +1,20 @@
 {
     "words": {
-        "abonnement": {
+        "loyer": {
             "catGram": "nom masculin",
-            "def": "Marché, souvent à forfait, entre un fournisseur et un client pour l'usage répété d'un service ou la livraison régulière d'un produit, de données ou d'informations."
+            "def": "Prix du louage de qqch."
         },
-        "alcoolisme": {
+        "gravité": {
+            "catGram": "nom féminin",
+            "def": "Qualité d'une personne grave, sérieuse"
+        },
+        "ossements": {
             "catGram": "nom masculin",
-            "def": "Pathologie caractérisée par la dépendance à l'alcool."
+            "def": "Os desséchés et décharnés d'un cadavre."
         },
-        "seizième": {
-            "catGram": "adjectif",
-            "def": "Qui occupe le rang marqué par le nombre seize (16eou XVIe)."
-        },
-        "début": {
-            "catGram": "nom masculin",
-            "def": "Commencement."
+        "absurdement": {
+            "catGram": "adverbe",
+            "def": "De manière absurde."
         }
     }
 }
