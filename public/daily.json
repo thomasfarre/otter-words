@@ -1,20 +1,20 @@
 {
     "words": {
-        "loyer": {
-            "catGram": "nom masculin",
-            "def": "Prix du louage de qqch."
+        "nordique": {
+            "catGram": "adjectif",
+            "def": "De l'hémisphère Nord, d'une contrée située au nord par rapport à un point donné."
         },
-        "gravité": {
+        "brève": {
             "catGram": "nom féminin",
-            "def": "Qualité d'une personne grave, sérieuse"
+            "def": "Voyelle, syllabe brève."
         },
-        "ossements": {
+        "chance": {
+            "catGram": "nom féminin",
+            "def": "Puissance censée régler, de manière favorable ou défavorable, le cours des événements"
+        },
+        "vicaire": {
             "catGram": "nom masculin",
-            "def": "Os desséchés et décharnés d'un cadavre."
-        },
-        "absurdement": {
-            "catGram": "adverbe",
-            "def": "De manière absurde."
+            "def": "Dans la religion catholique, prêtre qui aide et remplace à l'occasion le curé d'une paroisse."
         }
     }
 }
