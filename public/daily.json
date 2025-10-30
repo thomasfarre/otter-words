@@ -1,20 +1,20 @@
 {
     "words": {
-        "nordique": {
-            "catGram": "adjectif",
-            "def": "De l'hémisphère Nord, d'une contrée située au nord par rapport à un point donné."
-        },
-        "brève": {
+        "entrée": {
             "catGram": "nom féminin",
-            "def": "Voyelle, syllabe brève."
+            "def": "Action d'entrer, de passer de l'extérieur à l'intérieur"
         },
-        "chance": {
+        "furie": {
             "catGram": "nom féminin",
-            "def": "Puissance censée régler, de manière favorable ou défavorable, le cours des événements"
+            "def": "Divinités infernales au nombre de trois, qui étaient chargées d'exécuter la vengeance divine."
         },
-        "vicaire": {
+        "remblai": {
             "catGram": "nom masculin",
-            "def": "Dans la religion catholique, prêtre qui aide et remplace à l'occasion le curé d'une paroisse."
+            "def": "Travail de terrassement exécuté pour faire une levée, égaliser un terrain."
+        },
+        "assister": {
+            "catGram": "verbe",
+            "def": "Être présent à, participer à, comme auditeur, spectateur ou acteur."
         }
     }
 }
