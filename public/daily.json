@@ -1,20 +1,20 @@
 {
     "words": {
-        "entrée": {
-            "catGram": "nom féminin",
-            "def": "Action d'entrer, de passer de l'extérieur à l'intérieur"
+        "viticulteur": {
+            "catGram": "nom",
+            "def": "Personne qui pratique la viticulture."
         },
-        "furie": {
-            "catGram": "nom féminin",
-            "def": "Divinités infernales au nombre de trois, qui étaient chargées d'exécuter la vengeance divine."
-        },
-        "remblai": {
-            "catGram": "nom masculin",
-            "def": "Travail de terrassement exécuté pour faire une levée, égaliser un terrain."
-        },
-        "assister": {
+        "heurter": {
             "catGram": "verbe",
-            "def": "Être présent à, participer à, comme auditeur, spectateur ou acteur."
+            "def": "Entrer brutalement en contact avec qqn ou qqch., le plus souvent accidentellement."
+        },
+        "sincérité": {
+            "catGram": "nom féminin",
+            "def": "Qualité d'une personne sincère."
+        },
+        "avantage": {
+            "catGram": "nom masculin",
+            "def": "Ce qui est profitable, utile."
         }
     }
 }
