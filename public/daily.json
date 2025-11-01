@@ -1,20 +1,20 @@
 {
     "words": {
-        "viticulteur": {
-            "catGram": "nom",
-            "def": "Personne qui pratique la viticulture."
-        },
-        "heurter": {
-            "catGram": "verbe",
-            "def": "Entrer brutalement en contact avec qqn ou qqch., le plus souvent accidentellement."
-        },
-        "sincérité": {
-            "catGram": "nom féminin",
-            "def": "Qualité d'une personne sincère."
-        },
-        "avantage": {
+        "onguent": {
             "catGram": "nom masculin",
-            "def": "Ce qui est profitable, utile."
+            "def": "Médicament de consistance pâteuse, constitué de résines et de corps gras et destiné à une application cutanée."
+        },
+        "gagnant": {
+            "catGram": "adjectif",
+            "def": "Qui fait gagner qqn."
+        },
+        "annihiler": {
+            "catGram": "verbe",
+            "def": "Réduire à néant, détruire radicalement."
+        },
+        "apollon": {
+            "catGram": "nom masculin",
+            "def": "Grand papillon diurne des montagnes d’Eurasie, aux ailes blanches tachetées de noir, qui présente des ocelles rouges sur les ailes postérieures."
         }
     }
 }
