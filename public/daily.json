@@ -1,20 +1,20 @@
 {
     "words": {
-        "onguent": {
+        "verdict": {
             "catGram": "nom masculin",
-            "def": "Médicament de consistance pâteuse, constitué de résines et de corps gras et destiné à une application cutanée."
+            "def": "Déclaration par laquelle le jury répond, après délibérations, aux questions posées par le tribunal et se prononce sur la culpabilité d’un accusé."
         },
-        "gagnant": {
+        "cinquantenaire": {
             "catGram": "adjectif",
-            "def": "Qui fait gagner qqn."
+            "def": "Qui existe depuis cinquante ans"
         },
-        "annihiler": {
-            "catGram": "verbe",
-            "def": "Réduire à néant, détruire radicalement."
+        "thérapie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble de traitements visant à combattre la maladie."
         },
-        "apollon": {
+        "pressentiment": {
             "catGram": "nom masculin",
-            "def": "Grand papillon diurne des montagnes d’Eurasie, aux ailes blanches tachetées de noir, qui présente des ocelles rouges sur les ailes postérieures."
+            "def": "Prévision confuse, irraisonnée (d'une chose à venir ou non encore connue, généralement défavorable)."
         }
     }
 }
