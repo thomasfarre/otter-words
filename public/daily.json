@@ -1,20 +1,20 @@
 {
     "words": {
-        "verdict": {
-            "catGram": "nom masculin",
-            "def": "Déclaration par laquelle le jury répond, après délibérations, aux questions posées par le tribunal et se prononce sur la culpabilité d’un accusé."
-        },
-        "cinquantenaire": {
-            "catGram": "adjectif",
-            "def": "Qui existe depuis cinquante ans"
-        },
-        "thérapie": {
+        "limite": {
             "catGram": "nom féminin",
-            "def": "Ensemble de traitements visant à combattre la maladie."
+            "def": "Ligne qui détermine une étendue, la sépare d'une autre."
         },
-        "pressentiment": {
+        "défendu": {
+            "catGram": "adjectif",
+            "def": "Que l'on défend (par la force ou l'argumentation)."
+        },
+        "nommer": {
+            "catGram": "verbe",
+            "def": "Attribuer un nom à qqn, à qqch."
+        },
+        "renfort": {
             "catGram": "nom masculin",
-            "def": "Prévision confuse, irraisonnée (d'une chose à venir ou non encore connue, généralement défavorable)."
+            "def": "Accroissement de l'effectif et du matériel d'un groupe, spécialement dans le domaine militaire."
         }
     }
 }
