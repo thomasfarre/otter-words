@@ -1,20 +1,20 @@
 {
     "words": {
-        "limite": {
+        "tranquillité": {
             "catGram": "nom féminin",
-            "def": "Ligne qui détermine une étendue, la sépare d'une autre."
+            "def": "État de ce qui est tranquille, sans agitation."
         },
-        "défendu": {
-            "catGram": "adjectif",
-            "def": "Que l'on défend (par la force ou l'argumentation)."
+        "économe": {
+            "catGram": "nom épicène",
+            "def": "Personne chargée de l'administration matérielle, des revenus et dépenses, dans un établissement (collège, hôpital, communauté religieuse, etc.)."
         },
-        "nommer": {
+        "sénateur": {
+            "catGram": "nom",
+            "def": "Membre d'un Sénat."
+        },
+        "lésiner": {
             "catGram": "verbe",
-            "def": "Attribuer un nom à qqn, à qqch."
-        },
-        "renfort": {
-            "catGram": "nom masculin",
-            "def": "Accroissement de l'effectif et du matériel d'un groupe, spécialement dans le domaine militaire."
+            "def": "Épargner de manière excessive jusque sur le prix des plus petites choses."
         }
     }
 }
