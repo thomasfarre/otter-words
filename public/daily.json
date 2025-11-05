@@ -1,20 +1,20 @@
 {
     "words": {
-        "tranquillité": {
-            "catGram": "nom féminin",
-            "def": "État de ce qui est tranquille, sans agitation."
+        "baroque": {
+            "catGram": "adjectif",
+            "def": "Dont le caractère bizarre, inattendu, contradictoire a quelque chose de surprenant, de choquant et parfois de ridicule."
         },
-        "économe": {
-            "catGram": "nom épicène",
-            "def": "Personne chargée de l'administration matérielle, des revenus et dépenses, dans un établissement (collège, hôpital, communauté religieuse, etc.)."
-        },
-        "sénateur": {
-            "catGram": "nom",
-            "def": "Membre d'un Sénat."
-        },
-        "lésiner": {
+        "ajourner": {
             "catGram": "verbe",
-            "def": "Épargner de manière excessive jusque sur le prix des plus petites choses."
+            "def": "Remettre à une date précise ou indéterminée."
+        },
+        "cyclisme": {
+            "catGram": "nom masculin",
+            "def": "Loisir, sport pratiqué avec une bicyclette."
+        },
+        "minuscule": {
+            "catGram": "adjectif",
+            "def": "petite lettre"
         }
     }
 }
