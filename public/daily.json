@@ -1,20 +1,20 @@
 {
     "words": {
-        "baroque": {
-            "catGram": "adjectif",
-            "def": "Dont le caractère bizarre, inattendu, contradictoire a quelque chose de surprenant, de choquant et parfois de ridicule."
+        "historiquement": {
+            "catGram": "adverbe",
+            "def": "D'une manière historique"
         },
-        "ajourner": {
+        "ennuyer": {
             "catGram": "verbe",
-            "def": "Remettre à une date précise ou indéterminée."
+            "def": "Causer du souci, de l’inquiétude, du mécontentement à."
         },
-        "cyclisme": {
-            "catGram": "nom masculin",
-            "def": "Loisir, sport pratiqué avec une bicyclette."
+        "juge": {
+            "catGram": "nom épicène",
+            "def": "Personne chargée de rendre la justice et de trancher les litiges en appliquant les lois."
         },
-        "minuscule": {
-            "catGram": "adjectif",
-            "def": "petite lettre"
+        "chose": {
+            "catGram": "nom féminin",
+            "def": "Ce qui se manifeste et que l'on désigne en tant que tel."
         }
     }
 }
