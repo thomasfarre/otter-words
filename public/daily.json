@@ -1,20 +1,20 @@
 {
     "words": {
-        "historiquement": {
-            "catGram": "adverbe",
-            "def": "D'une manière historique"
+        "embêtement": {
+            "catGram": "nom masculin",
+            "def": "Ce qui cause du souci, du désagrément."
         },
-        "ennuyer": {
+        "commerce": {
+            "catGram": "nom masculin",
+            "def": "Activité qui consiste à acheter, vendre ou échanger des marchandises, des valeurs."
+        },
+        "frigorifier": {
             "catGram": "verbe",
-            "def": "Causer du souci, de l’inquiétude, du mécontentement à."
+            "def": "Soumettre (une denrée périssable) à un froid intense, généralement pour conservation."
         },
-        "juge": {
-            "catGram": "nom épicène",
-            "def": "Personne chargée de rendre la justice et de trancher les litiges en appliquant les lois."
-        },
-        "chose": {
-            "catGram": "nom féminin",
-            "def": "Ce qui se manifeste et que l'on désigne en tant que tel."
+        "carder": {
+            "catGram": "verbe",
+            "def": "Démêler et peigner les fibres textiles au moyen d'une carde."
         }
     }
 }
