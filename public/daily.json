@@ -1,20 +1,20 @@
 {
     "words": {
-        "embêtement": {
+        "mécontentement": {
             "catGram": "nom masculin",
-            "def": "Ce qui cause du souci, du désagrément."
+            "def": "État, sentiment d'une personne mécontente, frustrée dans ses exigences."
         },
-        "commerce": {
+        "collection": {
+            "catGram": "nom féminin",
+            "def": "Réunion d’objets, de personnes."
+        },
+        "organisé": {
+            "catGram": "adjectif",
+            "def": "Qui est constitué d'organes dont le fonctionnement détermine la vie."
+        },
+        "animal": {
             "catGram": "nom masculin",
-            "def": "Activité qui consiste à acheter, vendre ou échanger des marchandises, des valeurs."
-        },
-        "frigorifier": {
-            "catGram": "verbe",
-            "def": "Soumettre (une denrée périssable) à un froid intense, généralement pour conservation."
-        },
-        "carder": {
-            "catGram": "verbe",
-            "def": "Démêler et peigner les fibres textiles au moyen d'une carde."
+            "def": "Être vivant, organisé, élémentaire ou complexe, doué de sensibilité et de mobilité"
         }
     }
 }
