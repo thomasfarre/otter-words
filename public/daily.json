@@ -1,20 +1,20 @@
 {
     "words": {
-        "mécontentement": {
-            "catGram": "nom masculin",
-            "def": "État, sentiment d'une personne mécontente, frustrée dans ses exigences."
-        },
-        "collection": {
-            "catGram": "nom féminin",
-            "def": "Réunion d’objets, de personnes."
-        },
-        "organisé": {
+        "musical": {
             "catGram": "adjectif",
-            "def": "Qui est constitué d'organes dont le fonctionnement détermine la vie."
+            "def": "Relatif à la musique."
         },
-        "animal": {
+        "aboyer": {
+            "catGram": "verbe",
+            "def": "Pousser son cri, en parlant du chien et de certains autres canidés, notamment le coyote."
+        },
+        "doigt": {
             "catGram": "nom masculin",
-            "def": "Être vivant, organisé, élémentaire ou complexe, doué de sensibilité et de mobilité"
+            "def": "Chacun des cinq appendices articulés qui terminent la main de l’être humain."
+        },
+        "emballer": {
+            "catGram": "verbe",
+            "def": "Mettre (une marchandise, un objet) dans une enveloppe protectrice, pour le transport, la vente, la présentation"
         }
     }
 }
