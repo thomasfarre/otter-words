@@ -1,20 +1,20 @@
 {
     "words": {
-        "musical": {
+        "androgenèse": {
+            "catGram": "nom féminin",
+            "def": "Production d'un organisme à partir d'un gamète mâle uniquement."
+        },
+        "infime": {
             "catGram": "adjectif",
-            "def": "Relatif à la musique."
+            "def": "Très petit"
         },
-        "aboyer": {
-            "catGram": "verbe",
-            "def": "Pousser son cri, en parlant du chien et de certains autres canidés, notamment le coyote."
+        "résidence": {
+            "catGram": "nom féminin",
+            "def": "Fait de demeurer habituellement dans un lieu"
         },
-        "doigt": {
-            "catGram": "nom masculin",
-            "def": "Chacun des cinq appendices articulés qui terminent la main de l’être humain."
-        },
-        "emballer": {
-            "catGram": "verbe",
-            "def": "Mettre (une marchandise, un objet) dans une enveloppe protectrice, pour le transport, la vente, la présentation"
+        "vantardise": {
+            "catGram": "nom féminin",
+            "def": "Caractère de celui ou celle qui se vante"
         }
     }
 }
