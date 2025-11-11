@@ -1,20 +1,20 @@
 {
     "words": {
-        "androgenèse": {
-            "catGram": "nom féminin",
-            "def": "Production d'un organisme à partir d'un gamète mâle uniquement."
+        "nettoyage": {
+            "catGram": "nom masculin",
+            "def": "Action de nettoyer"
         },
-        "infime": {
-            "catGram": "adjectif",
-            "def": "Très petit"
-        },
-        "résidence": {
+        "contenance": {
             "catGram": "nom féminin",
-            "def": "Fait de demeurer habituellement dans un lieu"
+            "def": "Quantité pouvant être contenue dans les limites d'un contenant."
         },
-        "vantardise": {
+        "épopée": {
             "catGram": "nom féminin",
-            "def": "Caractère de celui ou celle qui se vante"
+            "def": "Long poème ou long récit en prose qui fait intervenir le merveilleux et qui célèbre un grand fait ou les exploits d’un héros historique ou légendaire."
+        },
+        "dépistage": {
+            "catGram": "nom masculin",
+            "def": "Action de dépister"
         }
     }
 }
