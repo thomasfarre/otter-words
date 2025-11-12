@@ -1,20 +1,20 @@
 {
     "words": {
-        "nettoyage": {
-            "catGram": "nom masculin",
-            "def": "Action de nettoyer"
+        "fasciner": {
+            "catGram": "verbe",
+            "def": "Attirer, soumettre à sa domination par la puissance du regard."
         },
-        "contenance": {
+        "expansion": {
             "catGram": "nom féminin",
-            "def": "Quantité pouvant être contenue dans les limites d'un contenant."
+            "def": "Accroissement du volume ou de la surface d'un corps"
         },
-        "épopée": {
-            "catGram": "nom féminin",
-            "def": "Long poème ou long récit en prose qui fait intervenir le merveilleux et qui célèbre un grand fait ou les exploits d’un héros historique ou légendaire."
+        "négocier": {
+            "catGram": "verbe",
+            "def": "Discuter un projet, une affaire, les conditions d'un contrat, d'un traité (avec qqn) en vue d'arriver à un arrangement, à un accord."
         },
-        "dépistage": {
-            "catGram": "nom masculin",
-            "def": "Action de dépister"
+        "estimable": {
+            "catGram": "adjectif",
+            "def": "Qui mérite l’estime, qui en est digne."
         }
     }
 }
