@@ -1,20 +1,20 @@
 {
     "words": {
-        "fasciner": {
-            "catGram": "verbe",
-            "def": "Attirer, soumettre à sa domination par la puissance du regard."
+        "cocuage": {
+            "catGram": "nom masculin",
+            "def": "État d'une personne cocue."
         },
-        "expansion": {
-            "catGram": "nom féminin",
-            "def": "Accroissement du volume ou de la surface d'un corps"
-        },
-        "négocier": {
-            "catGram": "verbe",
-            "def": "Discuter un projet, une affaire, les conditions d'un contrat, d'un traité (avec qqn) en vue d'arriver à un arrangement, à un accord."
-        },
-        "estimable": {
+        "monastique": {
             "catGram": "adjectif",
-            "def": "Qui mérite l’estime, qui en est digne."
+            "def": "Relatif aux moines, à leur mode de vie."
+        },
+        "démocrate": {
+            "catGram": "nom épicène",
+            "def": "Partisan de la démocratie."
+        },
+        "renvoyer": {
+            "catGram": "verbe",
+            "def": "Faire retourner qqn au lieu, à la situation d’où il vient."
         }
     }
 }
