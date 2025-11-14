@@ -1,20 +1,20 @@
 {
     "words": {
-        "cocuage": {
+        "revêtement": {
             "catGram": "nom masculin",
-            "def": "État d'une personne cocue."
+            "def": "Matériau dont on recouvre les murs, les planchers, les sols pour les protéger, les consolider ou les décorer."
         },
-        "monastique": {
-            "catGram": "adjectif",
-            "def": "Relatif aux moines, à leur mode de vie."
-        },
-        "démocrate": {
-            "catGram": "nom épicène",
-            "def": "Partisan de la démocratie."
-        },
-        "renvoyer": {
+        "frémir": {
             "catGram": "verbe",
-            "def": "Faire retourner qqn au lieu, à la situation d’où il vient."
+            "def": "Être agité d'un faible mouvement d'oscillation ou de vibration qui produit un bruissement."
+        },
+        "seoir": {
+            "catGram": "verbe",
+            "def": "Aller bien à qqn."
+        },
+        "agiter": {
+            "catGram": "verbe",
+            "def": "Remuer, le plus souvent de façon vive et par des secousses irrégulières."
         }
     }
 }
