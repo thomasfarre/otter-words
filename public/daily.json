@@ -1,20 +1,20 @@
 {
     "words": {
-        "revêtement": {
+        "anéantir": {
+            "catGram": "verbe",
+            "def": "Altérer jusqu'à faire disparaître complètement"
+        },
+        "grondement": {
             "catGram": "nom masculin",
-            "def": "Matériau dont on recouvre les murs, les planchers, les sols pour les protéger, les consolider ou les décorer."
+            "def": "Cri sourd et menaçant, produit par certains animaux."
         },
-        "frémir": {
-            "catGram": "verbe",
-            "def": "Être agité d'un faible mouvement d'oscillation ou de vibration qui produit un bruissement."
+        "admirablement": {
+            "catGram": "adverbe",
+            "def": "D’une manière admirable."
         },
-        "seoir": {
-            "catGram": "verbe",
-            "def": "Aller bien à qqn."
-        },
-        "agiter": {
-            "catGram": "verbe",
-            "def": "Remuer, le plus souvent de façon vive et par des secousses irrégulières."
+        "secours": {
+            "catGram": "nom masculin",
+            "def": "Action de venir en aide, de porter assistance à qqn qui se trouve dans une situation difficile, pressante."
         }
     }
 }
