@@ -1,20 +1,20 @@
 {
     "words": {
-        "anéantir": {
-            "catGram": "verbe",
-            "def": "Altérer jusqu'à faire disparaître complètement"
+        "lycéen": {
+            "catGram": "nom",
+            "def": "Élève d'un lycée."
         },
-        "grondement": {
+        "accomplissement": {
             "catGram": "nom masculin",
-            "def": "Cri sourd et menaçant, produit par certains animaux."
+            "def": "Action d’accomplir"
         },
-        "admirablement": {
-            "catGram": "adverbe",
-            "def": "D’une manière admirable."
+        "poterie": {
+            "catGram": "nom féminin",
+            "def": "Fabrication d’objets (pots, vases, assiettes, plats, etc.) en pâte argileuse façonnée et cuite au four."
         },
-        "secours": {
-            "catGram": "nom masculin",
-            "def": "Action de venir en aide, de porter assistance à qqn qui se trouve dans une situation difficile, pressante."
+        "vingtaine": {
+            "catGram": "nom féminin",
+            "def": "Nombre de vingt ou environ."
         }
     }
 }
