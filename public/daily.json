@@ -1,20 +1,20 @@
 {
     "words": {
-        "lycéen": {
-            "catGram": "nom",
-            "def": "Élève d'un lycée."
+        "perspicace": {
+            "catGram": "adjectif",
+            "def": "Apte à comprendre, à apercevoir de manière pénétrante, subtile."
         },
-        "accomplissement": {
+        "cataclysme": {
             "catGram": "nom masculin",
-            "def": "Action d’accomplir"
+            "def": "Bouleversement de la surface terrestre, causé par un phénomène naturel destructeur (inondation, tremblement de terre, etc.)."
         },
-        "poterie": {
-            "catGram": "nom féminin",
-            "def": "Fabrication d’objets (pots, vases, assiettes, plats, etc.) en pâte argileuse façonnée et cuite au four."
+        "immeuble": {
+            "catGram": "adjectif",
+            "def": "Qui ne peut être déplacé ou qui est réputé tel par la loi."
         },
-        "vingtaine": {
-            "catGram": "nom féminin",
-            "def": "Nombre de vingt ou environ."
+        "bon": {
+            "catGram": "adjectif",
+            "def": "Qui a les qualités attendues étant donné sa nature ou sa fonction."
         }
     }
 }
