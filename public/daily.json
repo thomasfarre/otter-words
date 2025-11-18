@@ -1,20 +1,20 @@
 {
     "words": {
-        "perspicace": {
-            "catGram": "adjectif",
-            "def": "Apte à comprendre, à apercevoir de manière pénétrante, subtile."
+        "diversement": {
+            "catGram": "adverbe",
+            "def": "D'une manière diverse ou de diverses manières."
         },
-        "cataclysme": {
-            "catGram": "nom masculin",
-            "def": "Bouleversement de la surface terrestre, causé par un phénomène naturel destructeur (inondation, tremblement de terre, etc.)."
+        "psychologiquement": {
+            "catGram": "adverbe",
+            "def": "Du point de vue de la psychologie."
         },
-        "immeuble": {
+        "pessimiste": {
             "catGram": "adjectif",
-            "def": "Qui ne peut être déplacé ou qui est réputé tel par la loi."
+            "def": "Qui fait preuve de pessimisme"
         },
-        "bon": {
+        "dernier": {
             "catGram": "adjectif",
-            "def": "Qui a les qualités attendues étant donné sa nature ou sa fonction."
+            "def": "Qui se situe, qui vient, qui arrive après tous les autres, après lequel il n’y en a pas d’autres."
         }
     }
 }
