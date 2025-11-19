@@ -1,20 +1,20 @@
 {
     "words": {
-        "diversement": {
-            "catGram": "adverbe",
-            "def": "D'une manière diverse ou de diverses manières."
-        },
-        "psychologiquement": {
-            "catGram": "adverbe",
-            "def": "Du point de vue de la psychologie."
-        },
-        "pessimiste": {
+        "radiophonique": {
             "catGram": "adjectif",
-            "def": "Qui fait preuve de pessimisme"
+            "def": "Relatif à la radiophonie ou à la radiodiffusion."
         },
-        "dernier": {
+        "bobine": {
+            "catGram": "nom féminin",
+            "def": "Cylindre à rebords sur lequel on enroule du fil ou une matière souple."
+        },
+        "prochainement": {
+            "catGram": "adverbe",
+            "def": "Dans un proche avenir, dans peu de temps."
+        },
+        "applicable": {
             "catGram": "adjectif",
-            "def": "Qui se situe, qui vient, qui arrive après tous les autres, après lequel il n’y en a pas d’autres."
+            "def": "Qui peut ou doit être appliqué"
         }
     }
 }
