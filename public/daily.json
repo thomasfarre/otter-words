@@ -1,20 +1,20 @@
 {
     "words": {
-        "radiophonique": {
+        "numéral": {
             "catGram": "adjectif",
-            "def": "Relatif à la radiophonie ou à la radiodiffusion."
+            "def": "Qui désigne, représente, symbolise un nombre."
         },
-        "bobine": {
-            "catGram": "nom féminin",
-            "def": "Cylindre à rebords sur lequel on enroule du fil ou une matière souple."
+        "élaborer": {
+            "catGram": "verbe",
+            "def": "Concevoir, construire par un long travail de réflexion."
         },
-        "prochainement": {
-            "catGram": "adverbe",
-            "def": "Dans un proche avenir, dans peu de temps."
+        "quelconque": {
+            "catGram": "déterminant indéfini",
+            "def": "Quel qu'il soit, n'importe quel."
         },
-        "applicable": {
-            "catGram": "adjectif",
-            "def": "Qui peut ou doit être appliqué"
+        "chic": {
+            "catGram": "nom masculin",
+            "def": "Grande habileté à faire qqch."
         }
     }
 }
