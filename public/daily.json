@@ -1,20 +1,20 @@
 {
     "words": {
-        "numéral": {
-            "catGram": "adjectif",
-            "def": "Qui désigne, représente, symbolise un nombre."
-        },
-        "élaborer": {
-            "catGram": "verbe",
-            "def": "Concevoir, construire par un long travail de réflexion."
-        },
-        "quelconque": {
-            "catGram": "déterminant indéfini",
-            "def": "Quel qu'il soit, n'importe quel."
-        },
-        "chic": {
+        "élargissement": {
             "catGram": "nom masculin",
-            "def": "Grande habileté à faire qqch."
+            "def": "Action d'élargir, fait de s'élargir"
+        },
+        "attribution": {
+            "catGram": "nom féminin",
+            "def": "Action d’attribuer."
+        },
+        "aéromodélisme": {
+            "catGram": "nom masculin",
+            "def": "Technique de la construction et du fonctionnement des modèles réduits d'avions."
+        },
+        "convulsion": {
+            "catGram": "nom féminin",
+            "def": "Contraction brusque et involontaire des muscles, souvent généralisée à tout le corps."
         }
     }
 }
