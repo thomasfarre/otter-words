@@ -1,20 +1,20 @@
 {
     "words": {
-        "élargissement": {
+        "imposteur": {
             "catGram": "nom masculin",
-            "def": "Action d'élargir, fait de s'élargir"
+            "def": "Personne qui trompe, qui abuse autrui par des mensonges, de fausses promesses, en usurpant des qualités, une identité, etc., dans le but d’en tirer un profit matériel ou moral."
         },
-        "attribution": {
-            "catGram": "nom féminin",
-            "def": "Action d’attribuer."
-        },
-        "aéromodélisme": {
+        "spectacle": {
             "catGram": "nom masculin",
-            "def": "Technique de la construction et du fonctionnement des modèles réduits d'avions."
+            "def": "Ce qui s'offre au regard, qui attire l'attention et qui est susceptible de susciter des sentiments."
         },
-        "convulsion": {
+        "sylvain": {
+            "catGram": "nom masculin",
+            "def": "Divinité des forêts."
+        },
+        "fermeté": {
             "catGram": "nom féminin",
-            "def": "Contraction brusque et involontaire des muscles, souvent généralisée à tout le corps."
+            "def": "Qualité de ce qui est ferme, solide, consistant."
         }
     }
 }
