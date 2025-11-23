@@ -1,20 +1,20 @@
 {
     "words": {
-        "imposteur": {
-            "catGram": "nom masculin",
-            "def": "Personne qui trompe, qui abuse autrui par des mensonges, de fausses promesses, en usurpant des qualités, une identité, etc., dans le but d’en tirer un profit matériel ou moral."
+        "présenter": {
+            "catGram": "verbe",
+            "def": "Mettre qqch. à la portée de, devant qqn."
         },
-        "spectacle": {
-            "catGram": "nom masculin",
-            "def": "Ce qui s'offre au regard, qui attire l'attention et qui est susceptible de susciter des sentiments."
+        "filouter": {
+            "catGram": "verbe",
+            "def": "Voler qqch. avec adresse."
         },
-        "sylvain": {
-            "catGram": "nom masculin",
-            "def": "Divinité des forêts."
+        "raffiné": {
+            "catGram": "adjectif",
+            "def": "Qui a subi un raffinage"
         },
-        "fermeté": {
-            "catGram": "nom féminin",
-            "def": "Qualité de ce qui est ferme, solide, consistant."
+        "crotté": {
+            "catGram": "adjectif",
+            "def": "Sali, couvert de boue."
         }
     }
 }
