@@ -1,20 +1,20 @@
 {
     "words": {
-        "présenter": {
-            "catGram": "verbe",
-            "def": "Mettre qqch. à la portée de, devant qqn."
+        "antilope": {
+            "catGram": "nom féminin",
+            "def": "Mammifère ruminant des savanes et régions semi-désertiques d’Afrique et d’Asie, de taille moyenne ou grande et à pelage généralement brunâtre, dont la plupart des espèces sont pourvues, chez les deux sexes, de longues cornes creuses au relief marqué"
         },
-        "filouter": {
-            "catGram": "verbe",
-            "def": "Voler qqch. avec adresse."
-        },
-        "raffiné": {
+        "frileux": {
             "catGram": "adjectif",
-            "def": "Qui a subi un raffinage"
+            "def": "Qui craint le froid, qui est très sensible au froid."
         },
-        "crotté": {
-            "catGram": "adjectif",
-            "def": "Sali, couvert de boue."
+        "marchepied": {
+            "catGram": "nom masculin",
+            "def": "Marche ou ensemble de marches qui servent à monter dans certains véhicules (camion, autobus, train, etc.)."
+        },
+        "défaillance": {
+            "catGram": "nom féminin",
+            "def": "Perte momentanée des forces physiques."
         }
     }
 }
