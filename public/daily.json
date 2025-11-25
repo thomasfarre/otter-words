@@ -1,20 +1,20 @@
 {
     "words": {
-        "antilope": {
+        "cosse": {
             "catGram": "nom féminin",
-            "def": "Mammifère ruminant des savanes et régions semi-désertiques d’Afrique et d’Asie, de taille moyenne ou grande et à pelage généralement brunâtre, dont la plupart des espèces sont pourvues, chez les deux sexes, de longues cornes creuses au relief marqué"
+            "def": "Enveloppe allongée de certaines légumineuses, contenant les graines."
         },
-        "frileux": {
+        "stipulation": {
+            "catGram": "nom féminin",
+            "def": "Clause, convention énoncée dans un contrat, un pacte."
+        },
+        "rédaction": {
+            "catGram": "nom féminin",
+            "def": "Action ou façon de rédiger un texte"
+        },
+        "saccadé": {
             "catGram": "adjectif",
-            "def": "Qui craint le froid, qui est très sensible au froid."
-        },
-        "marchepied": {
-            "catGram": "nom masculin",
-            "def": "Marche ou ensemble de marches qui servent à monter dans certains véhicules (camion, autobus, train, etc.)."
-        },
-        "défaillance": {
-            "catGram": "nom féminin",
-            "def": "Perte momentanée des forces physiques."
+            "def": "Qui se fait par saccades, de façon irrégulière."
         }
     }
 }
