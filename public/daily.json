@@ -1,20 +1,20 @@
 {
     "words": {
-        "cosse": {
+        "réparation": {
             "catGram": "nom féminin",
-            "def": "Enveloppe allongée de certaines légumineuses, contenant les graines."
+            "def": "Action de réparer, de remettre qqch. en bon état"
         },
-        "stipulation": {
-            "catGram": "nom féminin",
-            "def": "Clause, convention énoncée dans un contrat, un pacte."
+        "égoïstement": {
+            "catGram": "adverbe",
+            "def": "D'une manière égoïste."
         },
-        "rédaction": {
-            "catGram": "nom féminin",
-            "def": "Action ou façon de rédiger un texte"
+        "changement": {
+            "catGram": "nom masculin",
+            "def": "Fait de changer, de devenir différent."
         },
-        "saccadé": {
-            "catGram": "adjectif",
-            "def": "Qui se fait par saccades, de façon irrégulière."
+        "syndrome": {
+            "catGram": "nom masculin",
+            "def": "Ensemble de symptômes qui caractérisent un état clinique mais dont les causes sont habituellement inconnues ou multiples."
         }
     }
 }
