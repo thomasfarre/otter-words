@@ -1,20 +1,20 @@
 {
     "words": {
-        "réparation": {
+        "liasse": {
             "catGram": "nom féminin",
-            "def": "Action de réparer, de remettre qqch. en bon état"
+            "def": "Paquet de papiers, généralement de même nature, liés ou réunis ensemble."
         },
-        "égoïstement": {
-            "catGram": "adverbe",
-            "def": "D'une manière égoïste."
+        "vendre": {
+            "catGram": "verbe",
+            "def": "Céder un bien contre de l'argent"
         },
-        "changement": {
+        "faisan": {
             "catGram": "nom masculin",
-            "def": "Fait de changer, de devenir différent."
+            "def": "Oiseau gallinacé originaire d’Asie, d’assez grande taille, dont le mâle, au plumage chatoyant et souvent très coloré, est pourvu d’une très longue queue s’effilant en pointe, et dont certaines espèces ont été introduites dans diverses régions du monde comme oiseau d’élevage et comme gibier"
         },
-        "syndrome": {
-            "catGram": "nom masculin",
-            "def": "Ensemble de symptômes qui caractérisent un état clinique mais dont les causes sont habituellement inconnues ou multiples."
+        "peser": {
+            "catGram": "verbe",
+            "def": "Déterminer le poids d'un corps."
         }
     }
 }
