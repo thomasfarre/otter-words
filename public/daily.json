@@ -1,20 +1,20 @@
 {
     "words": {
-        "liasse": {
+        "popote": {
             "catGram": "nom féminin",
-            "def": "Paquet de papiers, généralement de même nature, liés ou réunis ensemble."
+            "def": "Local où se restaurent les officiers et sous-officiers d'une même unité."
         },
-        "vendre": {
+        "hôte": {
+            "catGram": "nom",
+            "def": "Personne qui reçoit qqn dans sa demeure, qui offre l'hospitalité."
+        },
+        "réverbérer": {
             "catGram": "verbe",
-            "def": "Céder un bien contre de l'argent"
+            "def": "Renvoyer (la lumière, la chaleur, un son)."
         },
-        "faisan": {
-            "catGram": "nom masculin",
-            "def": "Oiseau gallinacé originaire d’Asie, d’assez grande taille, dont le mâle, au plumage chatoyant et souvent très coloré, est pourvu d’une très longue queue s’effilant en pointe, et dont certaines espèces ont été introduites dans diverses régions du monde comme oiseau d’élevage et comme gibier"
-        },
-        "peser": {
-            "catGram": "verbe",
-            "def": "Déterminer le poids d'un corps."
+        "rafale": {
+            "catGram": "nom féminin",
+            "def": "Augmentation soudaine et brève de la force d'un vent"
         }
     }
 }
