@@ -1,20 +1,20 @@
 {
     "words": {
-        "conjecture": {
-            "catGram": "nom féminin",
-            "def": "Opinion formée à partir d'apparences, de probabilités."
+        "ressembler": {
+            "catGram": "verbe",
+            "def": "Présenter des traits communs avec."
         },
-        "surprise": {
+        "roulotte": {
             "catGram": "nom féminin",
-            "def": "Fait d'être surpris, saisi par qqch. d'inattendu"
+            "def": "Voiture qui sert d'habitation aux forains, aux nomades."
         },
-        "frère": {
-            "catGram": "nom masculin",
-            "def": "Personne de sexe masculin considérée dans son lien parental avec les autres enfants de ses propres parents."
+        "central": {
+            "catGram": "adjectif",
+            "def": "Situé au centre d’une figure, d’un lieu, d’un ensemble, etc."
         },
-        "arachide": {
-            "catGram": "nom féminin",
-            "def": "Plante originaire d’Amérique tropicale, à feuilles composées et à fleurs papilionacées jaunes ou orangées, que l’on cultive sous les climats chauds pour ses fruits qui se développent et mûrissent dans le sol après la pollinisation."
+        "inclément": {
+            "catGram": "adjectif",
+            "def": "Qui manque de clémence, d'indulgence."
         }
     }
 }
