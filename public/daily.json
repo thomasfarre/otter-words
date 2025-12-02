@@ -1,20 +1,20 @@
 {
     "words": {
-        "ressembler": {
-            "catGram": "verbe",
-            "def": "Présenter des traits communs avec."
+        "épiderme": {
+            "catGram": "nom masculin",
+            "def": "Couche superficielle de la peau, qui protège le derme."
         },
-        "roulotte": {
+        "acrostiche": {
+            "catGram": "nom masculin",
+            "def": "Poème dont les lettres initiales de chaque vers, lues verticalement, forment un mot (un thème, un mot-clé, un nom de personne)."
+        },
+        "extinction": {
             "catGram": "nom féminin",
-            "def": "Voiture qui sert d'habitation aux forains, aux nomades."
+            "def": "Action d'éteindre, fait de s'éteindre"
         },
-        "central": {
-            "catGram": "adjectif",
-            "def": "Situé au centre d’une figure, d’un lieu, d’un ensemble, etc."
-        },
-        "inclément": {
-            "catGram": "adjectif",
-            "def": "Qui manque de clémence, d'indulgence."
+        "tourbillon": {
+            "catGram": "nom masculin",
+            "def": "Masse d'air, vent qui tournoie rapidement."
         }
     }
 }
