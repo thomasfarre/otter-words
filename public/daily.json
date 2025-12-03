@@ -1,20 +1,20 @@
 {
     "words": {
-        "épiderme": {
-            "catGram": "nom masculin",
-            "def": "Couche superficielle de la peau, qui protège le derme."
+        "assaisonner": {
+            "catGram": "verbe",
+            "def": "Ajouter à un mets des éléments propres à en relever le goût."
         },
-        "acrostiche": {
-            "catGram": "nom masculin",
-            "def": "Poème dont les lettres initiales de chaque vers, lues verticalement, forment un mot (un thème, un mot-clé, un nom de personne)."
-        },
-        "extinction": {
+        "spécialisation": {
             "catGram": "nom féminin",
-            "def": "Action d'éteindre, fait de s'éteindre"
+            "def": "Action, fait de spécialiser, de se spécialiser"
         },
-        "tourbillon": {
+        "lexicographe": {
+            "catGram": "nom épicène",
+            "def": "Spécialiste de lexicographie"
+        },
+        "règne": {
             "catGram": "nom masculin",
-            "def": "Masse d'air, vent qui tournoie rapidement."
+            "def": "Gouvernement d'un souverain"
         }
     }
 }
