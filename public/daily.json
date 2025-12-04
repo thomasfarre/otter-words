@@ -1,20 +1,20 @@
 {
     "words": {
-        "assaisonner": {
+        "concasser": {
             "catGram": "verbe",
-            "def": "Ajouter à un mets des éléments propres à en relever le goût."
+            "def": "Réduire (une matière généralement dure et sèche) en fragments."
         },
-        "spécialisation": {
-            "catGram": "nom féminin",
-            "def": "Action, fait de spécialiser, de se spécialiser"
-        },
-        "lexicographe": {
-            "catGram": "nom épicène",
-            "def": "Spécialiste de lexicographie"
-        },
-        "règne": {
+        "lest": {
             "catGram": "nom masculin",
-            "def": "Gouvernement d'un souverain"
+            "def": "Corps pesant chargé à fond de cale ou fixé à la quille pour assurer la stabilité d'un bateau."
+        },
+        "dûment": {
+            "catGram": "adverbe",
+            "def": "Comme il se doit, selon les règles, les formes prescrites"
+        },
+        "netteté": {
+            "catGram": "nom féminin",
+            "def": "Qualité de ce qui est propre, bien tenu, bien soigné."
         }
     }
 }
