@@ -1,20 +1,20 @@
 {
     "words": {
-        "concasser": {
-            "catGram": "verbe",
-            "def": "Réduire (une matière généralement dure et sèche) en fragments."
+        "brut": {
+            "catGram": "adjectif",
+            "def": "Qui est primitif, sauvage, non domestiqué."
         },
-        "lest": {
-            "catGram": "nom masculin",
-            "def": "Corps pesant chargé à fond de cale ou fixé à la quille pour assurer la stabilité d'un bateau."
-        },
-        "dûment": {
-            "catGram": "adverbe",
-            "def": "Comme il se doit, selon les règles, les formes prescrites"
-        },
-        "netteté": {
+        "renaissance": {
             "catGram": "nom féminin",
-            "def": "Qualité de ce qui est propre, bien tenu, bien soigné."
+            "def": "Action de renaître"
+        },
+        "rapprochement": {
+            "catGram": "nom masculin",
+            "def": "Action de rapprocher, de se rapprocher."
+        },
+        "parenté": {
+            "catGram": "nom féminin",
+            "def": "Lien unissant des personnes qui descendent les unes des autres ou d'un ancêtre commun."
         }
     }
 }
