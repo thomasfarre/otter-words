@@ -1,20 +1,20 @@
 {
     "words": {
-        "brut": {
+        "ronéo": {
+            "catGram": "nom féminin",
+            "def": "Machine servant à reproduire des textes ou des dessins au moyen de stencils."
+        },
+        "harangue": {
+            "catGram": "nom féminin",
+            "def": "Discours solennel fait devant une personne d'un rang ou d'une dignité élevés, une assemblée ou une foule."
+        },
+        "immanquable": {
             "catGram": "adjectif",
-            "def": "Qui est primitif, sauvage, non domestiqué."
+            "def": "Qui ne peut manquer d'arriver, d'exister."
         },
-        "renaissance": {
+        "chasse": {
             "catGram": "nom féminin",
-            "def": "Action de renaître"
-        },
-        "rapprochement": {
-            "catGram": "nom masculin",
-            "def": "Action de rapprocher, de se rapprocher."
-        },
-        "parenté": {
-            "catGram": "nom féminin",
-            "def": "Lien unissant des personnes qui descendent les unes des autres ou d'un ancêtre commun."
+            "def": "Action de chasser, de poursuivre un animal pour le capturer ou le tuer à des fins utilitaires ou sportives."
         }
     }
 }
