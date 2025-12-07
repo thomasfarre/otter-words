@@ -1,20 +1,20 @@
 {
     "words": {
-        "ronéo": {
-            "catGram": "nom féminin",
-            "def": "Machine servant à reproduire des textes ou des dessins au moyen de stencils."
+        "dédaigneusement": {
+            "catGram": "adverbe",
+            "def": "D'une manière dédaigneuse."
         },
-        "harangue": {
-            "catGram": "nom féminin",
-            "def": "Discours solennel fait devant une personne d'un rang ou d'une dignité élevés, une assemblée ou une foule."
-        },
-        "immanquable": {
+        "snob": {
             "catGram": "adjectif",
-            "def": "Qui ne peut manquer d'arriver, d'exister."
+            "def": "Qui a l'ambition d'être accepté par les milieux distingués de la société"
         },
-        "chasse": {
+        "indivisible": {
+            "catGram": "adjectif",
+            "def": "Qui ne peut être divisé ou partagé."
+        },
+        "véranda": {
             "catGram": "nom féminin",
-            "def": "Action de chasser, de poursuivre un animal pour le capturer ou le tuer à des fins utilitaires ou sportives."
+            "def": "En Inde, galerie légère en bois, parfois vitrée, qui entoure une maison ou qui est placée contre une façade et qui protège du soleil."
         }
     }
 }
