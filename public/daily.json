@@ -1,20 +1,20 @@
 {
     "words": {
-        "dédaigneusement": {
-            "catGram": "adverbe",
-            "def": "D'une manière dédaigneuse."
-        },
-        "snob": {
+        "affamé": {
             "catGram": "adjectif",
-            "def": "Qui a l'ambition d'être accepté par les milieux distingués de la société"
+            "def": "Qui a très faim"
         },
-        "indivisible": {
+        "équilibré": {
             "catGram": "adjectif",
-            "def": "Qui ne peut être divisé ou partagé."
+            "def": "Qui est en équilibre"
         },
-        "véranda": {
+        "orifice": {
+            "catGram": "nom masculin",
+            "def": "Ouverture faisant communiquer une cavité, un conduit, un organe avec l’extérieur, une autre structure."
+        },
+        "technicité": {
             "catGram": "nom féminin",
-            "def": "En Inde, galerie légère en bois, parfois vitrée, qui entoure une maison ou qui est placée contre une façade et qui protège du soleil."
+            "def": "Caractère de ce qui est technique."
         }
     }
 }
