@@ -1,20 +1,20 @@
 {
     "words": {
-        "affamé": {
-            "catGram": "adjectif",
-            "def": "Qui a très faim"
-        },
-        "équilibré": {
-            "catGram": "adjectif",
-            "def": "Qui est en équilibre"
-        },
-        "orifice": {
-            "catGram": "nom masculin",
-            "def": "Ouverture faisant communiquer une cavité, un conduit, un organe avec l’extérieur, une autre structure."
-        },
-        "technicité": {
+        "île": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est technique."
+            "def": "Étendue de terre entourée d’eau."
+        },
+        "dépérir": {
+            "catGram": "verbe",
+            "def": "Perdre peu à peu ses forces, sa santé."
+        },
+        "professer": {
+            "catGram": "verbe",
+            "def": "Déclarer, exprimer publiquement et hautement (une opinion, une théorie)."
+        },
+        "tête": {
+            "catGram": "nom féminin",
+            "def": "Partie supérieure du corps humain, reliée au thorax par le cou, où se trouvent l’encéphale, les principaux organes des sens et l’extrémité supérieure des voies respiratoires et digestives."
         }
     }
 }
