@@ -1,20 +1,20 @@
 {
     "words": {
-        "île": {
+        "daltonisme": {
+            "catGram": "nom masculin",
+            "def": "Maladie héréditaire de la vision, caractérisée par un défaut dans la perception des couleurs (généralement une confusion entre le rouge et le vert)."
+        },
+        "neutron": {
+            "catGram": "nom masculin",
+            "def": "Particule élémentaire de charge électrique neutre, entrant dans la constitution du noyau de l'atome."
+        },
+        "bonhomie": {
             "catGram": "nom féminin",
-            "def": "Étendue de terre entourée d’eau."
+            "def": "Bonté et complaisance mêlées à de la simplicité dans les manières."
         },
-        "dépérir": {
-            "catGram": "verbe",
-            "def": "Perdre peu à peu ses forces, sa santé."
-        },
-        "professer": {
-            "catGram": "verbe",
-            "def": "Déclarer, exprimer publiquement et hautement (une opinion, une théorie)."
-        },
-        "tête": {
+        "subvention": {
             "catGram": "nom féminin",
-            "def": "Partie supérieure du corps humain, reliée au thorax par le cou, où se trouvent l’encéphale, les principaux organes des sens et l’extrémité supérieure des voies respiratoires et digestives."
+            "def": "Aide financière versée par l’État ou une association à une personne, une association ou une entreprise pour favoriser le développement d’activités d’intérêt général."
         }
     }
 }
