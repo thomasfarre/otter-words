@@ -1,20 +1,20 @@
 {
     "words": {
-        "daltonisme": {
-            "catGram": "nom masculin",
-            "def": "Maladie héréditaire de la vision, caractérisée par un défaut dans la perception des couleurs (généralement une confusion entre le rouge et le vert)."
-        },
-        "neutron": {
-            "catGram": "nom masculin",
-            "def": "Particule élémentaire de charge électrique neutre, entrant dans la constitution du noyau de l'atome."
-        },
-        "bonhomie": {
+        "remémoration": {
             "catGram": "nom féminin",
-            "def": "Bonté et complaisance mêlées à de la simplicité dans les manières."
+            "def": "Action de remémorer, de se remémorer"
         },
-        "subvention": {
+        "entrave": {
             "catGram": "nom féminin",
-            "def": "Aide financière versée par l’État ou une association à une personne, une association ou une entreprise pour favoriser le développement d’activités d’intérêt général."
+            "def": "Objet que l'on met aux jambes de certains animaux pour gêner leur déplacement."
+        },
+        "remplacement": {
+            "catGram": "nom masculin",
+            "def": "Action de remplacer qqch. par qqch. d'autre."
+        },
+        "avortement": {
+            "catGram": "nom masculin",
+            "def": "Interruption avant terme d'une grossesse."
         }
     }
 }
