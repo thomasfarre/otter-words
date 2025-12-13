@@ -1,20 +1,20 @@
 {
     "words": {
-        "stipulé": {
-            "catGram": "adjectif",
-            "def": "Pourvu de stipules (en parlant d’une feuille)."
-        },
-        "millimètre": {
+        "actionnariat": {
             "catGram": "nom masculin",
-            "def": "Unité de mesure de longueur valant un millième de mètre"
+            "def": "Fait d'être actionnaire"
         },
-        "authentique": {
-            "catGram": "adjectif",
-            "def": "Qui provient sans conteste de l'auteur auquel on l'attribue"
+        "fleurir": {
+            "catGram": "verbe",
+            "def": "S'épanouir, s'ouvrir, en parlant d'une fleur."
         },
-        "magouilleur": {
-            "catGram": "adjectif",
-            "def": "Qui se livre à des magouilles."
+        "caractériser": {
+            "catGram": "verbe",
+            "def": "Mettre en évidence les traits distinctifs d'une chose ou d'une personne."
+        },
+        "extinction": {
+            "catGram": "nom féminin",
+            "def": "Action d'éteindre, fait de s'éteindre"
         }
     }
 }
