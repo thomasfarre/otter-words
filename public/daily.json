@@ -1,20 +1,20 @@
 {
     "words": {
-        "actionnariat": {
-            "catGram": "nom masculin",
-            "def": "Fait d'être actionnaire"
+        "malin": {
+            "catGram": "adjectif",
+            "def": "Qui cherche à nuire, qui se plaît à faire du mal"
         },
-        "fleurir": {
+        "comprendre": {
             "catGram": "verbe",
-            "def": "S'épanouir, s'ouvrir, en parlant d'une fleur."
+            "def": "Avoir en soi tel et tel éléments constitutifs."
         },
-        "caractériser": {
+        "rejoindre": {
             "catGram": "verbe",
-            "def": "Mettre en évidence les traits distinctifs d'une chose ou d'une personne."
+            "def": "Aller retrouver qqn, qqch."
         },
-        "extinction": {
+        "position": {
             "catGram": "nom féminin",
-            "def": "Action d'éteindre, fait de s'éteindre"
+            "def": "Lieu où est placée une chose, une personne, par rapport à un ensemble."
         }
     }
 }
