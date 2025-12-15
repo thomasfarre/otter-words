@@ -1,20 +1,20 @@
 {
     "words": {
-        "malin": {
-            "catGram": "adjectif",
-            "def": "Qui cherche à nuire, qui se plaît à faire du mal"
+        "opiomane": {
+            "catGram": "nom épicène",
+            "def": "Toxicomane qui fait usage d'opium."
         },
-        "comprendre": {
+        "amasser": {
             "catGram": "verbe",
-            "def": "Avoir en soi tel et tel éléments constitutifs."
+            "def": "Rassembler en grande quantité, réunir en masse."
         },
-        "rejoindre": {
-            "catGram": "verbe",
-            "def": "Aller retrouver qqn, qqch."
-        },
-        "position": {
+        "vitre": {
             "catGram": "nom féminin",
-            "def": "Lieu où est placée une chose, une personne, par rapport à un ensemble."
+            "def": "Panneau de verre transparent placé dans un châssis, servant à isoler de l'air extérieur tout en laissant passer la lumière."
+        },
+        "orbite": {
+            "catGram": "nom féminin",
+            "def": "Cavité osseuse de la face où se loge l'œil."
         }
     }
 }
