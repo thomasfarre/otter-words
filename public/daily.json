@@ -1,20 +1,20 @@
 {
     "words": {
-        "opiomane": {
-            "catGram": "nom épicène",
-            "def": "Toxicomane qui fait usage d'opium."
+        "illimité": {
+            "catGram": "adjectif",
+            "def": "Qui n'a pas de limites."
         },
-        "amasser": {
-            "catGram": "verbe",
-            "def": "Rassembler en grande quantité, réunir en masse."
+        "avis": {
+            "catGram": "nom masculin",
+            "def": "Ce que l’on pense ou que l’on exprime sur un sujet donné."
         },
-        "vitre": {
+        "magie": {
             "catGram": "nom féminin",
-            "def": "Panneau de verre transparent placé dans un châssis, servant à isoler de l'air extérieur tout en laissant passer la lumière."
+            "def": "Pratique occulte produisant des phénomènes qui semblent irrationnels."
         },
-        "orbite": {
+        "radioactivité": {
             "catGram": "nom féminin",
-            "def": "Cavité osseuse de la face où se loge l'œil."
+            "def": "Propriété qu'ont certains éléments chimiques de poids atomique élevé de perdre spontanément de leur masse en émettant un rayonnement ionisant énergétique."
         }
     }
 }
