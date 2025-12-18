@@ -1,20 +1,20 @@
 {
     "words": {
-        "illimité": {
-            "catGram": "adjectif",
-            "def": "Qui n'a pas de limites."
+        "abandonner": {
+            "catGram": "verbe",
+            "def": "Cesser d'utiliser ou de revendiquer la possession de qqch."
         },
-        "avis": {
+        "dandy": {
             "catGram": "nom masculin",
-            "def": "Ce que l’on pense ou que l’on exprime sur un sujet donné."
+            "def": "Homme qui montre une extrême élégance et un grand raffinement dans sa mise et son comportement."
         },
-        "magie": {
-            "catGram": "nom féminin",
-            "def": "Pratique occulte produisant des phénomènes qui semblent irrationnels."
+        "empêchement": {
+            "catGram": "nom masculin",
+            "def": "Ce qui empêche de faire qqch."
         },
-        "radioactivité": {
-            "catGram": "nom féminin",
-            "def": "Propriété qu'ont certains éléments chimiques de poids atomique élevé de perdre spontanément de leur masse en émettant un rayonnement ionisant énergétique."
+        "papetier": {
+            "catGram": "nom",
+            "def": "Personne qui fabrique, vend du papier"
         }
     }
 }
