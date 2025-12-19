@@ -1,20 +1,20 @@
 {
     "words": {
-        "abandonner": {
+        "proscription": {
+            "catGram": "nom féminin",
+            "def": "Condamnation à mort ou à l'exil, sans forme judiciaire, pour des motifs politiques."
+        },
+        "mentionner": {
             "catGram": "verbe",
-            "def": "Cesser d'utiliser ou de revendiquer la possession de qqch."
+            "def": "Faire mention de."
         },
-        "dandy": {
-            "catGram": "nom masculin",
-            "def": "Homme qui montre une extrême élégance et un grand raffinement dans sa mise et son comportement."
+        "abstention": {
+            "catGram": "nom féminin",
+            "def": "Action de s'abstenir."
         },
-        "empêchement": {
-            "catGram": "nom masculin",
-            "def": "Ce qui empêche de faire qqch."
-        },
-        "papetier": {
-            "catGram": "nom",
-            "def": "Personne qui fabrique, vend du papier"
+        "cohabiter": {
+            "catGram": "verbe",
+            "def": "Habiter ensemble."
         }
     }
 }
