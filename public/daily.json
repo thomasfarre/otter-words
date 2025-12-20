@@ -1,20 +1,20 @@
 {
     "words": {
-        "proscription": {
-            "catGram": "nom féminin",
-            "def": "Condamnation à mort ou à l'exil, sans forme judiciaire, pour des motifs politiques."
+        "excessivement": {
+            "catGram": "adverbe",
+            "def": "Avec excès, de manière excessive"
         },
-        "mentionner": {
-            "catGram": "verbe",
-            "def": "Faire mention de."
+        "sylvestre": {
+            "catGram": "adjectif",
+            "def": "Relatif, propre à la forêt, aux forêts."
         },
-        "abstention": {
-            "catGram": "nom féminin",
-            "def": "Action de s'abstenir."
+        "contemporain": {
+            "catGram": "adjectif",
+            "def": "Du même temps."
         },
-        "cohabiter": {
-            "catGram": "verbe",
-            "def": "Habiter ensemble."
+        "saisonnier": {
+            "catGram": "adjectif",
+            "def": "Propre à une saison."
         }
     }
 }
