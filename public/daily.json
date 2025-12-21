@@ -1,20 +1,20 @@
 {
     "words": {
-        "excessivement": {
-            "catGram": "adverbe",
-            "def": "Avec excès, de manière excessive"
-        },
-        "sylvestre": {
+        "empressé": {
             "catGram": "adjectif",
-            "def": "Relatif, propre à la forêt, aux forêts."
+            "def": "Très zélé, très attentionné, très prévenant."
         },
-        "contemporain": {
-            "catGram": "adjectif",
-            "def": "Du même temps."
+        "poissons": {
+            "catGram": "nom masculin",
+            "def": "Animal vertébré à sang froid vivant dans l’eau, de forme et de taille très diverses, à respiration branchiale et à peau généralement couverte d’écailles, qui est pourvu de nageoires et dont la plupart des espèces sont ovipares."
         },
-        "saisonnier": {
-            "catGram": "adjectif",
-            "def": "Propre à une saison."
+        "contraction": {
+            "catGram": "nom féminin",
+            "def": "Action de contracter, fait de se contracter"
+        },
+        "détenteur": {
+            "catGram": "nom",
+            "def": "Personne qui détient, qui possède qqch."
         }
     }
 }
