@@ -1,20 +1,20 @@
 {
     "words": {
-        "empressé": {
+        "libéré": {
             "catGram": "adjectif",
-            "def": "Très zélé, très attentionné, très prévenant."
+            "def": "Mis en liberté."
         },
-        "poissons": {
+        "syrien": {
+            "catGram": "adjectif",
+            "def": "De Syrie."
+        },
+        "promis": {
+            "catGram": "adjectif",
+            "def": "Dont on a fait la promesse."
+        },
+        "poignet": {
             "catGram": "nom masculin",
-            "def": "Animal vertébré à sang froid vivant dans l’eau, de forme et de taille très diverses, à respiration branchiale et à peau généralement couverte d’écailles, qui est pourvu de nageoires et dont la plupart des espèces sont ovipares."
-        },
-        "contraction": {
-            "catGram": "nom féminin",
-            "def": "Action de contracter, fait de se contracter"
-        },
-        "détenteur": {
-            "catGram": "nom",
-            "def": "Personne qui détient, qui possède qqch."
+            "def": "Articulation reliant la main à l'avant-bras"
         }
     }
 }
