@@ -1,20 +1,20 @@
 {
     "words": {
-        "libéré": {
+        "spatial": {
             "catGram": "adjectif",
-            "def": "Mis en liberté."
+            "def": "Qui est relatif à l'espace, à l'étendue."
         },
-        "syrien": {
-            "catGram": "adjectif",
-            "def": "De Syrie."
-        },
-        "promis": {
-            "catGram": "adjectif",
-            "def": "Dont on a fait la promesse."
-        },
-        "poignet": {
+        "guidon": {
             "catGram": "nom masculin",
-            "def": "Articulation reliant la main à l'avant-bras"
+            "def": "Tube métallique, muni de poignées, qui commande la roue directrice d’une bicyclette, d’une motocyclette, etc."
+        },
+        "informatique": {
+            "catGram": "nom féminin",
+            "def": "Science qui s'occupe des aspects théoriques et pratiques du traitement automatisé de l'information."
+        },
+        "évaluer": {
+            "catGram": "verbe",
+            "def": "Déterminer la valeur, le prix de qqch."
         }
     }
 }
