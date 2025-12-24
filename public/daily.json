@@ -1,20 +1,20 @@
 {
     "words": {
-        "spatial": {
-            "catGram": "adjectif",
-            "def": "Qui est relatif à l'espace, à l'étendue."
-        },
-        "guidon": {
+        "rapprochement": {
             "catGram": "nom masculin",
-            "def": "Tube métallique, muni de poignées, qui commande la roue directrice d’une bicyclette, d’une motocyclette, etc."
+            "def": "Action de rapprocher, de se rapprocher."
         },
-        "informatique": {
-            "catGram": "nom féminin",
-            "def": "Science qui s'occupe des aspects théoriques et pratiques du traitement automatisé de l'information."
-        },
-        "évaluer": {
+        "exhiber": {
             "catGram": "verbe",
-            "def": "Déterminer la valeur, le prix de qqch."
+            "def": "Présenter un document devant une instance judiciaire ou à la requête d'une autorité de police."
+        },
+        "marketing": {
+            "catGram": "nom masculin",
+            "def": "Ensemble des études et des actions qui concourent à créer des produits satisfaisant les besoins et les désirs des consommateurs et à assurer leur commercialisation dans les meilleures conditions de profit."
+        },
+        "dortoir": {
+            "catGram": "nom masculin",
+            "def": "Salle commune, comportant plusieurs lits, où dorment les membres d'une collectivité."
         }
     }
 }
