@@ -1,20 +1,20 @@
 {
     "words": {
-        "rapprochement": {
-            "catGram": "nom masculin",
-            "def": "Action de rapprocher, de se rapprocher."
+        "interstitiel": {
+            "catGram": "adjectif",
+            "def": "Relatif à des interstices"
         },
-        "exhiber": {
-            "catGram": "verbe",
-            "def": "Présenter un document devant une instance judiciaire ou à la requête d'une autorité de police."
+        "égratignure": {
+            "catGram": "nom féminin",
+            "def": "Écorchure superficielle."
         },
-        "marketing": {
-            "catGram": "nom masculin",
-            "def": "Ensemble des études et des actions qui concourent à créer des produits satisfaisant les besoins et les désirs des consommateurs et à assurer leur commercialisation dans les meilleures conditions de profit."
+        "veste": {
+            "catGram": "nom féminin",
+            "def": "Vêtement à manches longues, s'arrêtant à la taille ou sous les hanches, fermé sur le devant et qu'on porte par-dessus les autres vêtements."
         },
-        "dortoir": {
-            "catGram": "nom masculin",
-            "def": "Salle commune, comportant plusieurs lits, où dorment les membres d'une collectivité."
+        "riposte": {
+            "catGram": "nom féminin",
+            "def": "Action agressive en réponse immédiate à une attaque."
         }
     }
 }
