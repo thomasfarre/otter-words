@@ -1,20 +1,20 @@
 {
     "words": {
-        "interstitiel": {
-            "catGram": "adjectif",
-            "def": "Relatif à des interstices"
-        },
-        "égratignure": {
+        "semailles": {
             "catGram": "nom féminin",
-            "def": "Écorchure superficielle."
+            "def": "Action de semer (surtout des céréales), d'ensemencer la terre."
         },
-        "veste": {
-            "catGram": "nom féminin",
-            "def": "Vêtement à manches longues, s'arrêtant à la taille ou sous les hanches, fermé sur le devant et qu'on porte par-dessus les autres vêtements."
+        "ici-bas": {
+            "catGram": "adverbe",
+            "def": "Dans le lieu où se trouve le locuteur"
         },
-        "riposte": {
+        "contrefaçon": {
             "catGram": "nom féminin",
-            "def": "Action agressive en réponse immédiate à une attaque."
+            "def": "Reproduction frauduleuse, notamment d'une œuvre ou d'une monnaie."
+        },
+        "paradoxe": {
+            "catGram": "nom masculin",
+            "def": "Opinion, affirmation qui contredit les idées reçues, l'opinion commune."
         }
     }
 }
