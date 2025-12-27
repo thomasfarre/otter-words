@@ -1,20 +1,20 @@
 {
     "words": {
-        "semailles": {
+        "esquisse": {
             "catGram": "nom féminin",
-            "def": "Action de semer (surtout des céréales), d'ensemencer la terre."
+            "def": "Première étude d'une composition picturale, sculpturale, architecturale, indiquant les grandes lignes du projet et servant de base à son exécution définitive."
         },
-        "ici-bas": {
-            "catGram": "adverbe",
-            "def": "Dans le lieu où se trouve le locuteur"
-        },
-        "contrefaçon": {
-            "catGram": "nom féminin",
-            "def": "Reproduction frauduleuse, notamment d'une œuvre ou d'une monnaie."
-        },
-        "paradoxe": {
+        "ajout": {
             "catGram": "nom masculin",
-            "def": "Opinion, affirmation qui contredit les idées reçues, l'opinion commune."
+            "def": "Élément qu’on ajoute à un document original, à un édifice."
+        },
+        "séparation": {
+            "catGram": "nom féminin",
+            "def": "Action de séparer, de se séparer"
+        },
+        "glisser": {
+            "catGram": "verbe",
+            "def": "Se déplacer sans secousse sur (la surface d'un corps lisse)."
         }
     }
 }
