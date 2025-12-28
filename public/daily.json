@@ -1,20 +1,20 @@
 {
     "words": {
-        "esquisse": {
-            "catGram": "nom féminin",
-            "def": "Première étude d'une composition picturale, sculpturale, architecturale, indiquant les grandes lignes du projet et servant de base à son exécution définitive."
-        },
-        "ajout": {
+        "mâle": {
             "catGram": "nom masculin",
-            "def": "Élément qu’on ajoute à un document original, à un édifice."
+            "def": "Individu (homme ou animal) appartenant au sexe doué du pouvoir de fécondation."
         },
-        "séparation": {
-            "catGram": "nom féminin",
-            "def": "Action de séparer, de se séparer"
-        },
-        "glisser": {
+        "recommander": {
             "catGram": "verbe",
-            "def": "Se déplacer sans secousse sur (la surface d'un corps lisse)."
+            "def": "Désigner qqn à l'attention, à la bienveillance, aux soins de qqn."
+        },
+        "débauchage": {
+            "catGram": "nom masculin",
+            "def": "Action d'inciter qqn à quitter son poste, son travail."
+        },
+        "seine": {
+            "catGram": "nom féminin",
+            "def": "Grand filet de pêche que l'on traîne sur le fond des eaux."
         }
     }
 }
