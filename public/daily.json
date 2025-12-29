@@ -1,20 +1,20 @@
 {
     "words": {
-        "mâle": {
+        "trousseau": {
             "catGram": "nom masculin",
-            "def": "Individu (homme ou animal) appartenant au sexe doué du pouvoir de fécondation."
+            "def": "ensemble de clés retenues par un anneau, un porte-clés."
         },
-        "recommander": {
-            "catGram": "verbe",
-            "def": "Désigner qqn à l'attention, à la bienveillance, aux soins de qqn."
-        },
-        "débauchage": {
+        "état": {
             "catGram": "nom masculin",
-            "def": "Action d'inciter qqn à quitter son poste, son travail."
+            "def": "Manière d'être d’une personne, d’une chose."
         },
-        "seine": {
+        "hanche": {
             "catGram": "nom féminin",
-            "def": "Grand filet de pêche que l'on traîne sur le fond des eaux."
+            "def": "Chacune des deux parties latérales du corps humain, entre la taille et le haut de la cuisse."
+        },
+        "intolérance": {
+            "catGram": "nom féminin",
+            "def": "Manque de respect, attitude hostile envers les croyances, les opinions, les conduites qui diffèrent des nôtres et que l’on réprouve."
         }
     }
 }
