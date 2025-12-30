@@ -1,20 +1,20 @@
 {
     "words": {
-        "trousseau": {
-            "catGram": "nom masculin",
-            "def": "ensemble de clés retenues par un anneau, un porte-clés."
+        "bouffer": {
+            "catGram": "verbe",
+            "def": "Prendre du volume"
         },
-        "état": {
-            "catGram": "nom masculin",
-            "def": "Manière d'être d’une personne, d’une chose."
+        "darder": {
+            "catGram": "verbe",
+            "def": "Attaquer, piquer avec un dard ou tout autre objet pointu."
         },
-        "hanche": {
+        "fonctionnaire": {
+            "catGram": "nom épicène",
+            "def": "Personne qui occupe un poste dans l'administration publique."
+        },
+        "nationalisation": {
             "catGram": "nom féminin",
-            "def": "Chacune des deux parties latérales du corps humain, entre la taille et le haut de la cuisse."
-        },
-        "intolérance": {
-            "catGram": "nom féminin",
-            "def": "Manque de respect, attitude hostile envers les croyances, les opinions, les conduites qui diffèrent des nôtres et que l’on réprouve."
+            "def": "Transfert à l'État, au domaine public de biens ou de moyens de production qui relevaient d'intérêts privés"
         }
     }
 }
