@@ -1,20 +1,20 @@
 {
     "words": {
-        "bouffer": {
-            "catGram": "verbe",
-            "def": "Prendre du volume"
+        "excellemment": {
+            "catGram": "adverbe",
+            "def": "D'une manière excellente."
         },
-        "darder": {
-            "catGram": "verbe",
-            "def": "Attaquer, piquer avec un dard ou tout autre objet pointu."
+        "aseptique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l'asepsie."
         },
-        "fonctionnaire": {
-            "catGram": "nom épicène",
-            "def": "Personne qui occupe un poste dans l'administration publique."
-        },
-        "nationalisation": {
+        "excitation": {
             "catGram": "nom féminin",
-            "def": "Transfert à l'État, au domaine public de biens ou de moyens de production qui relevaient d'intérêts privés"
+            "def": "Action d'exciter"
+        },
+        "perfectionnement": {
+            "catGram": "nom masculin",
+            "def": "Action de perfectionner, de se perfectionner"
         }
     }
 }
