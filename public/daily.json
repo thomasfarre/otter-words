@@ -1,20 +1,20 @@
 {
     "words": {
-        "excellemment": {
-            "catGram": "adverbe",
-            "def": "D'une manière excellente."
-        },
-        "aseptique": {
+        "limousin": {
             "catGram": "adjectif",
-            "def": "Relatif à l'asepsie."
+            "def": "De la région du Limousin, en France."
         },
-        "excitation": {
+        "couche-culotte": {
             "catGram": "nom féminin",
-            "def": "Action d'exciter"
+            "def": "Couche en forme de culotte, retenue par des bandes adhésives."
         },
-        "perfectionnement": {
-            "catGram": "nom masculin",
-            "def": "Action de perfectionner, de se perfectionner"
+        "historien": {
+            "catGram": "nom",
+            "def": "Personne qui se consacre à l'histoire, qui raconte, analyse des faits, des aspects du passé, rédige des ouvrages d'histoire, enseigne cette discipline."
+        },
+        "procédure": {
+            "catGram": "nom féminin",
+            "def": "Manière de procéder juridiquement"
         }
     }
 }
