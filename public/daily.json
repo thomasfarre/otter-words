@@ -1,20 +1,20 @@
 {
     "words": {
-        "limousin": {
+        "chronologique": {
             "catGram": "adjectif",
-            "def": "De la région du Limousin, en France."
+            "def": "Relatif à la chronologie."
         },
-        "couche-culotte": {
-            "catGram": "nom féminin",
-            "def": "Couche en forme de culotte, retenue par des bandes adhésives."
+        "archivistique": {
+            "catGram": "adjectif",
+            "def": "Relatif aux archives, à la science des archives."
         },
-        "historien": {
-            "catGram": "nom",
-            "def": "Personne qui se consacre à l'histoire, qui raconte, analyse des faits, des aspects du passé, rédige des ouvrages d'histoire, enseigne cette discipline."
+        "cultivé": {
+            "catGram": "adjectif",
+            "def": "Qui est traité en vue de la production agricole"
         },
-        "procédure": {
-            "catGram": "nom féminin",
-            "def": "Manière de procéder juridiquement"
+        "ennuyer": {
+            "catGram": "verbe",
+            "def": "Causer du souci, de l’inquiétude, du mécontentement à."
         }
     }
 }
