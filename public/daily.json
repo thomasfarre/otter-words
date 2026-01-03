@@ -1,20 +1,20 @@
 {
     "words": {
-        "chronologique": {
-            "catGram": "adjectif",
-            "def": "Relatif à la chronologie."
+        "carat": {
+            "catGram": "nom masculin",
+            "def": "Unité de teneur en or qui équivaut à un vingt-quatrième de la masse totale d'un alliage"
         },
-        "archivistique": {
+        "moche": {
             "catGram": "adjectif",
-            "def": "Relatif aux archives, à la science des archives."
+            "def": "Laid."
         },
-        "cultivé": {
+        "mercerie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des articles destinés aux travaux de couture."
+        },
+        "transparent": {
             "catGram": "adjectif",
-            "def": "Qui est traité en vue de la production agricole"
-        },
-        "ennuyer": {
-            "catGram": "verbe",
-            "def": "Causer du souci, de l’inquiétude, du mécontentement à."
+            "def": "Qui laisse passer la lumière, qui ne fait pas écran à la vision"
         }
     }
 }
