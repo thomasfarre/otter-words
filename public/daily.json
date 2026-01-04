@@ -1,20 +1,20 @@
 {
     "words": {
-        "carat": {
-            "catGram": "nom masculin",
-            "def": "Unité de teneur en or qui équivaut à un vingt-quatrième de la masse totale d'un alliage"
+        "instituteur": {
+            "catGram": "nom",
+            "def": "Personne chargée de l'enseignement général dans une école primaire."
         },
-        "moche": {
-            "catGram": "adjectif",
-            "def": "Laid."
-        },
-        "mercerie": {
+        "agrafe": {
             "catGram": "nom féminin",
-            "def": "Ensemble des articles destinés aux travaux de couture."
+            "def": "Attache formée d'un crochet à passer dans un anneau, une bride."
         },
-        "transparent": {
-            "catGram": "adjectif",
-            "def": "Qui laisse passer la lumière, qui ne fait pas écran à la vision"
+        "moisson": {
+            "catGram": "nom féminin",
+            "def": "Action de récolter les céréales et, particulièrement, le blé."
+        },
+        "fornicateur": {
+            "catGram": "nom",
+            "def": "Personne qui se livre à la fornication, aux plaisirs de la chair."
         }
     }
 }
