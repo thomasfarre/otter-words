@@ -1,20 +1,20 @@
 {
     "words": {
-        "instituteur": {
-            "catGram": "nom",
-            "def": "Personne chargée de l'enseignement général dans une école primaire."
-        },
-        "agrafe": {
+        "année": {
             "catGram": "nom féminin",
-            "def": "Attache formée d'un crochet à passer dans un anneau, une bride."
+            "def": "Durée de la révolution de la Terre autour du Soleil, correspondant à 365 jours et quart."
         },
-        "moisson": {
+        "frustration": {
             "catGram": "nom féminin",
-            "def": "Action de récolter les céréales et, particulièrement, le blé."
+            "def": "Action de frustrer d’un bien, d’un avantage."
         },
-        "fornicateur": {
-            "catGram": "nom",
-            "def": "Personne qui se livre à la fornication, aux plaisirs de la chair."
+        "prune": {
+            "catGram": "nom féminin",
+            "def": "Fruit à noyau du prunier, à chair sucrée et juteuse, et généralement marqué d’un sillon vertical, dont il existe de nombreuses variétés, de taille moyenne ou petite, de forme arrondie ou légèrement allongée, et de différentes couleurs (jaune, bleu violacé et pourpre)."
+        },
+        "sous": {
+            "catGram": "préposition",
+            "def": "Sert à indiquer qu'un élément est situé plus bas, à une position inférieure par rapport à un autre."
         }
     }
 }
