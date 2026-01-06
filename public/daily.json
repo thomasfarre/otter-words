@@ -1,20 +1,20 @@
 {
     "words": {
-        "année": {
-            "catGram": "nom féminin",
-            "def": "Durée de la révolution de la Terre autour du Soleil, correspondant à 365 jours et quart."
+        "initiateur": {
+            "catGram": "nom",
+            "def": "Qui initie."
         },
-        "frustration": {
-            "catGram": "nom féminin",
-            "def": "Action de frustrer d’un bien, d’un avantage."
+        "fausser": {
+            "catGram": "verbe",
+            "def": "Déformer la vérité, l'exactitude de qqch."
         },
-        "prune": {
-            "catGram": "nom féminin",
-            "def": "Fruit à noyau du prunier, à chair sucrée et juteuse, et généralement marqué d’un sillon vertical, dont il existe de nombreuses variétés, de taille moyenne ou petite, de forme arrondie ou légèrement allongée, et de différentes couleurs (jaune, bleu violacé et pourpre)."
+        "photographier": {
+            "catGram": "verbe",
+            "def": "Obtenir l'image (d'une personne ou d'une chose) par les techniques de la photographie."
         },
-        "sous": {
-            "catGram": "préposition",
-            "def": "Sert à indiquer qu'un élément est situé plus bas, à une position inférieure par rapport à un autre."
+        "veine": {
+            "catGram": "nom féminin",
+            "def": "Vaisseau qui ramène le sang vers le cœur."
         }
     }
 }
