@@ -1,20 +1,20 @@
 {
     "words": {
-        "initiateur": {
-            "catGram": "nom",
-            "def": "Qui initie."
+        "frimeur": {
+            "catGram": "adjectif",
+            "def": "Qui frime."
         },
-        "fausser": {
-            "catGram": "verbe",
-            "def": "Déformer la vérité, l'exactitude de qqch."
+        "châssis": {
+            "catGram": "nom masculin",
+            "def": "Cadre en bois ou en métal, fixe ou mobile, qui entoure une surface, généralement de verre, dans une fenêtre ou une porte"
         },
-        "photographier": {
-            "catGram": "verbe",
-            "def": "Obtenir l'image (d'une personne ou d'une chose) par les techniques de la photographie."
+        "encadrement": {
+            "catGram": "nom masculin",
+            "def": "Action d’encadrer."
         },
-        "veine": {
-            "catGram": "nom féminin",
-            "def": "Vaisseau qui ramène le sang vers le cœur."
+        "ménagement": {
+            "catGram": "nom masculin",
+            "def": "Attitude, égard, procédé dont on use envers qqn afin de le ménager."
         }
     }
 }
