@@ -1,20 +1,20 @@
 {
     "words": {
-        "frimeur": {
-            "catGram": "adjectif",
-            "def": "Qui frime."
+        "modification": {
+            "catGram": "nom féminin",
+            "def": "Changement volontaire on non de qqch. sans en altérer la nature ou l'essence."
         },
-        "châssis": {
+        "ornement": {
             "catGram": "nom masculin",
-            "def": "Cadre en bois ou en métal, fixe ou mobile, qui entoure une surface, généralement de verre, dans une fenêtre ou une porte"
+            "def": "Action d'orner qqch."
         },
-        "encadrement": {
+        "anticorps": {
             "catGram": "nom masculin",
-            "def": "Action d’encadrer."
+            "def": "Protéine du plasma sanguin synthétisée par les plasmocytes pour assurer la défense de l'organisme contre un antigène particulier"
         },
-        "ménagement": {
-            "catGram": "nom masculin",
-            "def": "Attitude, égard, procédé dont on use envers qqn afin de le ménager."
+        "drogue": {
+            "catGram": "nom féminin",
+            "def": "Remède confectionné selon une recette d'amateur."
         }
     }
 }
