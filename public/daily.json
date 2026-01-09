@@ -1,20 +1,20 @@
 {
     "words": {
-        "modification": {
+        "déroute": {
             "catGram": "nom féminin",
-            "def": "Changement volontaire on non de qqch. sans en altérer la nature ou l'essence."
+            "def": "Fuite en désordre de troupes battues ou prises de panique."
         },
-        "ornement": {
-            "catGram": "nom masculin",
-            "def": "Action d'orner qqch."
-        },
-        "anticorps": {
-            "catGram": "nom masculin",
-            "def": "Protéine du plasma sanguin synthétisée par les plasmocytes pour assurer la défense de l'organisme contre un antigène particulier"
-        },
-        "drogue": {
+        "faim": {
             "catGram": "nom féminin",
-            "def": "Remède confectionné selon une recette d'amateur."
+            "def": "Sensation que fait éprouver le besoin ou l'envie de manger."
+        },
+        "médiéval": {
+            "catGram": "adjectif",
+            "def": "Du Moyen Âge."
+        },
+        "perturbation": {
+            "catGram": "nom féminin",
+            "def": "Trouble, bouleversement qui affecte la vie d'un groupe ou d'un individu."
         }
     }
 }
