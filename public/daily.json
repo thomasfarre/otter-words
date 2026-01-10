@@ -1,20 +1,20 @@
 {
     "words": {
-        "déroute": {
-            "catGram": "nom féminin",
-            "def": "Fuite en désordre de troupes battues ou prises de panique."
+        "mander": {
+            "catGram": "verbe",
+            "def": "Prier qqn de venir."
         },
-        "faim": {
+        "maçonnerie": {
             "catGram": "nom féminin",
-            "def": "Sensation que fait éprouver le besoin ou l'envie de manger."
+            "def": "Ouvrage fait de matériaux (pierres, briques, etc.) le plus souvent joints par un liant (ciment, mortier, etc.)."
         },
-        "médiéval": {
-            "catGram": "adjectif",
-            "def": "Du Moyen Âge."
+        "signaler": {
+            "catGram": "verbe",
+            "def": "Indiquer, annoncer par un signal."
         },
-        "perturbation": {
-            "catGram": "nom féminin",
-            "def": "Trouble, bouleversement qui affecte la vie d'un groupe ou d'un individu."
+        "ovaire": {
+            "catGram": "nom masculin",
+            "def": "Glande génitale de la femme et de la femelle de certains animaux, produisant les ovules et sécrétant l'estrogène et la progestérone."
         }
     }
 }
