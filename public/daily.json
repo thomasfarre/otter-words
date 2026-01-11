@@ -1,20 +1,20 @@
 {
     "words": {
-        "mander": {
+        "occupant": {
+            "catGram": "nom",
+            "def": "Personne qui occupe un lieu."
+        },
+        "fondamentalement": {
+            "catGram": "adverbe",
+            "def": "D'une manière fondamentale."
+        },
+        "briller": {
             "catGram": "verbe",
-            "def": "Prier qqn de venir."
+            "def": "Répandre une lumière vive, intense, parfois diffuse"
         },
-        "maçonnerie": {
-            "catGram": "nom féminin",
-            "def": "Ouvrage fait de matériaux (pierres, briques, etc.) le plus souvent joints par un liant (ciment, mortier, etc.)."
-        },
-        "signaler": {
+        "collaborer": {
             "catGram": "verbe",
-            "def": "Indiquer, annoncer par un signal."
-        },
-        "ovaire": {
-            "catGram": "nom masculin",
-            "def": "Glande génitale de la femme et de la femelle de certains animaux, produisant les ovules et sécrétant l'estrogène et la progestérone."
+            "def": "Travailler en collaboration."
         }
     }
 }
