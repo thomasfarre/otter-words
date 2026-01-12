@@ -1,20 +1,20 @@
 {
     "words": {
-        "occupant": {
-            "catGram": "nom",
-            "def": "Personne qui occupe un lieu."
-        },
-        "fondamentalement": {
-            "catGram": "adverbe",
-            "def": "D'une manière fondamentale."
-        },
-        "briller": {
+        "sautiller": {
             "catGram": "verbe",
-            "def": "Répandre une lumière vive, intense, parfois diffuse"
+            "def": "Faire des petits sauts."
         },
-        "collaborer": {
+        "exclure": {
             "catGram": "verbe",
-            "def": "Travailler en collaboration."
+            "def": "Renvoyer qqn (d'un lieu, d'un groupe)."
+        },
+        "perdre": {
+            "catGram": "verbe",
+            "def": "Ne plus avoir qqch. en sa possession, à sa disposition."
+        },
+        "démocratisation": {
+            "catGram": "nom féminin",
+            "def": "Action de démocratiser"
         }
     }
 }
