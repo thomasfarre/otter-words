@@ -1,20 +1,20 @@
 {
     "words": {
-        "sautiller": {
-            "catGram": "verbe",
-            "def": "Faire des petits sauts."
+        "doyen": {
+            "catGram": "nom",
+            "def": "Personne qui administre et dirige une faculté dans une université."
         },
-        "exclure": {
-            "catGram": "verbe",
-            "def": "Renvoyer qqn (d'un lieu, d'un groupe)."
+        "contemporain": {
+            "catGram": "adjectif",
+            "def": "Du même temps."
         },
-        "perdre": {
-            "catGram": "verbe",
-            "def": "Ne plus avoir qqch. en sa possession, à sa disposition."
+        "poil": {
+            "catGram": "nom masculin",
+            "def": "Filament apparaissant sur la peau de certains animaux, spécialement des mammifères, et constituant le pelage."
         },
-        "démocratisation": {
+        "concupiscence": {
             "catGram": "nom féminin",
-            "def": "Action de démocratiser"
+            "def": "Dans la théologie chrétienne, attirance naturelle de l'être humain envers les biens terrestres."
         }
     }
 }
