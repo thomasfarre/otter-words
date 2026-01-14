@@ -1,20 +1,20 @@
 {
     "words": {
-        "doyen": {
-            "catGram": "nom",
-            "def": "Personne qui administre et dirige une faculté dans une université."
-        },
-        "contemporain": {
-            "catGram": "adjectif",
-            "def": "Du même temps."
-        },
-        "poil": {
-            "catGram": "nom masculin",
-            "def": "Filament apparaissant sur la peau de certains animaux, spécialement des mammifères, et constituant le pelage."
-        },
-        "concupiscence": {
+        "moufle": {
             "catGram": "nom féminin",
-            "def": "Dans la théologie chrétienne, attirance naturelle de l'être humain envers les biens terrestres."
+            "def": "Gant chaud qui couvre entièrement la main sans séparation pour les doigts, sauf pour le pouce."
+        },
+        "guichet": {
+            "catGram": "nom masculin",
+            "def": "Petite ouverture, généralement grillagée, pratiquée à hauteur d'appui dans une porte, un mur, qui permet de parler à qqn ou de faire passer des objets."
+        },
+        "flanelle": {
+            "catGram": "nom féminin",
+            "def": "Tissu de laine léger, doux et pelucheux."
+        },
+        "cellulaire": {
+            "catGram": "adjectif",
+            "def": "Relatif à la cellule"
         }
     }
 }
