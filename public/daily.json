@@ -1,20 +1,20 @@
 {
     "words": {
-        "moufle": {
-            "catGram": "nom féminin",
-            "def": "Gant chaud qui couvre entièrement la main sans séparation pour les doigts, sauf pour le pouce."
+        "luxueusement": {
+            "catGram": "adverbe",
+            "def": "De façon luxueuse."
         },
-        "guichet": {
+        "quinine": {
+            "catGram": "nom féminin",
+            "def": "Substance amère extraite de l'écorce séchée du quinquina, utilisée comme médicament notamment dans le traitement du paludisme."
+        },
+        "tannage": {
             "catGram": "nom masculin",
-            "def": "Petite ouverture, généralement grillagée, pratiquée à hauteur d'appui dans une porte, un mur, qui permet de parler à qqn ou de faire passer des objets."
+            "def": "Action de tanner les peaux."
         },
-        "flanelle": {
-            "catGram": "nom féminin",
-            "def": "Tissu de laine léger, doux et pelucheux."
-        },
-        "cellulaire": {
-            "catGram": "adjectif",
-            "def": "Relatif à la cellule"
+        "naufrage": {
+            "catGram": "nom masculin",
+            "def": "Perte totale ou partielle d'un bateau, surtout en mer."
         }
     }
 }
