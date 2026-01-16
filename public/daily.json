@@ -1,20 +1,20 @@
 {
     "words": {
-        "luxueusement": {
-            "catGram": "adverbe",
-            "def": "De façon luxueuse."
+        "solidaire": {
+            "catGram": "adjectif",
+            "def": "Commun à plusieurs personnes et qui entraîne la responsabilité de chacun."
         },
-        "quinine": {
+        "athéisme": {
+            "catGram": "nom masculin",
+            "def": "Doctrine ou attitude d’une personne athée"
+        },
+        "confrontation": {
             "catGram": "nom féminin",
-            "def": "Substance amère extraite de l'écorce séchée du quinquina, utilisée comme médicament notamment dans le traitement du paludisme."
+            "def": "Action de confronter (des personnes, des choses)"
         },
-        "tannage": {
-            "catGram": "nom masculin",
-            "def": "Action de tanner les peaux."
-        },
-        "naufrage": {
-            "catGram": "nom masculin",
-            "def": "Perte totale ou partielle d'un bateau, surtout en mer."
+        "résignation": {
+            "catGram": "nom féminin",
+            "def": "Abandon d'un bénéfice, d'une fonction."
         }
     }
 }
