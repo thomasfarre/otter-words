@@ -1,20 +1,20 @@
 {
     "words": {
-        "socle": {
+        "automobile": {
+            "catGram": "adjectif",
+            "def": "Qui se déplace grâce à un moteur."
+        },
+        "archéologique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l’archéologie."
+        },
+        "géographe": {
+            "catGram": "nom épicène",
+            "def": "Spécialiste de la géographie."
+        },
+        "catéchisme": {
             "catGram": "nom masculin",
-            "def": "Base sur laquelle repose un édifice, une colonne ou qui sert de support à une statue, une pendule, etc."
-        },
-        "princesse": {
-            "catGram": "nom",
-            "def": "Membre d'une famille royale qui n'exerce pas le pouvoir lui-même"
-        },
-        "hostilité": {
-            "catGram": "nom féminin",
-            "def": "Disposition, attitude hostile."
-        },
-        "cohabitation": {
-            "catGram": "nom féminin",
-            "def": "Fait de cohabiter."
+            "def": "Enseignement élémentaire, par questions et réponses, de la doctrine et de la morale chrétiennes."
         }
     }
 }
