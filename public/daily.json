@@ -1,20 +1,20 @@
 {
     "words": {
-        "automobile": {
+        "ingrat": {
             "catGram": "adjectif",
-            "def": "Qui se déplace grâce à un moteur."
+            "def": "Qui oublie les bienfaits reçus, qui ne manifeste pas de reconnaissance."
         },
-        "archéologique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l’archéologie."
-        },
-        "géographe": {
-            "catGram": "nom épicène",
-            "def": "Spécialiste de la géographie."
-        },
-        "catéchisme": {
+        "bide": {
             "catGram": "nom masculin",
-            "def": "Enseignement élémentaire, par questions et réponses, de la doctrine et de la morale chrétiennes."
+            "def": "Ventre."
+        },
+        "outrager": {
+            "catGram": "verbe",
+            "def": "Faire subir un outrage à."
+        },
+        "intention": {
+            "catGram": "nom féminin",
+            "def": "Fait de tendre vers un but, une fin"
         }
     }
 }
