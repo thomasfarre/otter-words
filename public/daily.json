@@ -1,20 +1,20 @@
 {
     "words": {
-        "ingrat": {
-            "catGram": "adjectif",
-            "def": "Qui oublie les bienfaits reçus, qui ne manifeste pas de reconnaissance."
-        },
-        "bide": {
-            "catGram": "nom masculin",
-            "def": "Ventre."
-        },
-        "outrager": {
-            "catGram": "verbe",
-            "def": "Faire subir un outrage à."
-        },
-        "intention": {
+        "tenue": {
             "catGram": "nom féminin",
-            "def": "Fait de tendre vers un but, une fin"
+            "def": "Fait de se réunir"
+        },
+        "tragique": {
+            "catGram": "adjectif",
+            "def": "De la tragédie, genre théâtral dramatique"
+        },
+        "frénétiquement": {
+            "catGram": "adverbe",
+            "def": "De manière frénétique."
+        },
+        "finition": {
+            "catGram": "nom féminin",
+            "def": "Opération ultime destinée à parfaire une exécution ou une fabrication"
         }
     }
 }
