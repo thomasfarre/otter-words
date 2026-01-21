@@ -1,20 +1,20 @@
 {
     "words": {
-        "tenue": {
-            "catGram": "nom féminin",
-            "def": "Fait de se réunir"
-        },
-        "tragique": {
+        "minimal": {
             "catGram": "adjectif",
-            "def": "De la tragédie, genre théâtral dramatique"
+            "def": "Qui atteint son plus bas degré, sa plus petite valeur"
         },
-        "frénétiquement": {
+        "voire": {
             "catGram": "adverbe",
-            "def": "De manière frénétique."
+            "def": "Exclamation qui exprime un doute, souvent avec ironie."
         },
-        "finition": {
-            "catGram": "nom féminin",
-            "def": "Opération ultime destinée à parfaire une exécution ou une fabrication"
+        "avenir": {
+            "catGram": "nom masculin",
+            "def": "Le temps, les événements à venir"
+        },
+        "malfaiteur": {
+            "catGram": "nom",
+            "def": "Personne qui commet des délits, des crimes."
         }
     }
 }
