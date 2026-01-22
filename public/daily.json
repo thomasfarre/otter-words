@@ -1,20 +1,20 @@
 {
     "words": {
-        "minimal": {
-            "catGram": "adjectif",
-            "def": "Qui atteint son plus bas degré, sa plus petite valeur"
-        },
-        "voire": {
-            "catGram": "adverbe",
-            "def": "Exclamation qui exprime un doute, souvent avec ironie."
-        },
-        "avenir": {
-            "catGram": "nom masculin",
-            "def": "Le temps, les événements à venir"
-        },
-        "malfaiteur": {
+        "occupant": {
             "catGram": "nom",
-            "def": "Personne qui commet des délits, des crimes."
+            "def": "Personne qui occupe un lieu."
+        },
+        "impérieux": {
+            "catGram": "adjectif",
+            "def": "Qui commande de façon autoritaire, absolue."
+        },
+        "ostraciser": {
+            "catGram": "verbe",
+            "def": "Frapper d'ostracisme."
+        },
+        "infléchir": {
+            "catGram": "verbe",
+            "def": "Modifier l'état ou la direction d'une chose en inclinant, en courbant."
         }
     }
 }
