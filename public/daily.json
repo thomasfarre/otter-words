@@ -1,20 +1,20 @@
 {
     "words": {
-        "occupant": {
-            "catGram": "nom",
-            "def": "Personne qui occupe un lieu."
+        "godelureau": {
+            "catGram": "nom masculin",
+            "def": "Jeune homme charmeur et prétentieux."
         },
-        "impérieux": {
+        "responsable": {
             "catGram": "adjectif",
-            "def": "Qui commande de façon autoritaire, absolue."
+            "def": "Qui doit rendre compte et répondre de ses actes ou de ceux de personnes à charge."
         },
-        "ostraciser": {
-            "catGram": "verbe",
-            "def": "Frapper d'ostracisme."
+        "souriant": {
+            "catGram": "adjectif",
+            "def": "Qui manifeste sa joie, sa bonne humeur, son amabilité par un sourire."
         },
-        "infléchir": {
-            "catGram": "verbe",
-            "def": "Modifier l'état ou la direction d'une chose en inclinant, en courbant."
+        "demande": {
+            "catGram": "nom féminin",
+            "def": "Action de demander."
         }
     }
 }
