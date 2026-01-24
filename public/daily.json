@@ -1,20 +1,20 @@
 {
     "words": {
-        "godelureau": {
-            "catGram": "nom masculin",
-            "def": "Jeune homme charmeur et prétentieux."
-        },
-        "responsable": {
-            "catGram": "adjectif",
-            "def": "Qui doit rendre compte et répondre de ses actes ou de ceux de personnes à charge."
-        },
-        "souriant": {
-            "catGram": "adjectif",
-            "def": "Qui manifeste sa joie, sa bonne humeur, son amabilité par un sourire."
-        },
-        "demande": {
+        "huître": {
             "catGram": "nom féminin",
-            "def": "Action de demander."
+            "def": "Mollusque marin, à coquille feuilletée de forme irrégulière, constituée de deux valves inégales et généralement grisâtre ou brunâtre, qui vit souvent en colonies fixé à divers supports (notamment des rochers) et dont il existe diverses espèces, plusieurs élevées pour leur chair ou pour la production de perles et de nacre."
+        },
+        "consulat": {
+            "catGram": "nom masculin",
+            "def": "Dignité, fonction de consul"
+        },
+        "anse": {
+            "catGram": "nom féminin",
+            "def": "Partie saillante en forme d’arc ou d’anneau, par laquelle on saisit un objet."
+        },
+        "voisin": {
+            "catGram": "adjectif",
+            "def": "Qui est à faible distance"
         }
     }
 }
