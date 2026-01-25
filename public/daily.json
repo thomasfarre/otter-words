@@ -1,20 +1,20 @@
 {
     "words": {
-        "huître": {
+        "spécificité": {
             "catGram": "nom féminin",
-            "def": "Mollusque marin, à coquille feuilletée de forme irrégulière, constituée de deux valves inégales et généralement grisâtre ou brunâtre, qui vit souvent en colonies fixé à divers supports (notamment des rochers) et dont il existe diverses espèces, plusieurs élevées pour leur chair ou pour la production de perles et de nacre."
+            "def": "Qualité de ce qui est spécifique, qui présente une caractéristique originale et exclusive."
         },
-        "consulat": {
+        "dedans": {
+            "catGram": "préposition",
+            "def": "À l'intérieur de."
+        },
+        "profiter": {
+            "catGram": "verbe",
+            "def": "Tirer avantage, bénéfice de."
+        },
+        "tabou": {
             "catGram": "nom masculin",
-            "def": "Dignité, fonction de consul"
-        },
-        "anse": {
-            "catGram": "nom féminin",
-            "def": "Partie saillante en forme d’arc ou d’anneau, par laquelle on saisit un objet."
-        },
-        "voisin": {
-            "catGram": "adjectif",
-            "def": "Qui est à faible distance"
+            "def": "Interdiction de caractère sacré qui pèse sur une personne, un animal, une chose jugés dangereux ou impurs."
         }
     }
 }
