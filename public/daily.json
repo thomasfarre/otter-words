@@ -1,20 +1,20 @@
 {
     "words": {
-        "spécificité": {
-            "catGram": "nom féminin",
-            "def": "Qualité de ce qui est spécifique, qui présente une caractéristique originale et exclusive."
-        },
-        "dedans": {
-            "catGram": "préposition",
-            "def": "À l'intérieur de."
-        },
-        "profiter": {
-            "catGram": "verbe",
-            "def": "Tirer avantage, bénéfice de."
-        },
-        "tabou": {
+        "bouteur": {
             "catGram": "nom masculin",
-            "def": "Interdiction de caractère sacré qui pèse sur une personne, un animal, une chose jugés dangereux ou impurs."
+            "def": "Engin de terrassement constitué d'un tracteur muni d'une lame, servant à pousser de la terre ou des matériaux."
+        },
+        "intrication": {
+            "catGram": "nom féminin",
+            "def": "État de choses étroitement emmêlées."
+        },
+        "campanile": {
+            "catGram": "nom masculin",
+            "def": "Tour isolée à proximité d'une église et qui sert de clocher."
+        },
+        "fourmiller": {
+            "catGram": "verbe",
+            "def": "S'agiter en grand nombre, aller et venir en tous sens et continuellement à la façon des fourmis."
         }
     }
 }
