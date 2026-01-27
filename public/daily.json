@@ -1,20 +1,20 @@
 {
     "words": {
-        "bouteur": {
+        "inexpert": {
+            "catGram": "adjectif",
+            "def": "Qui manque d'habileté, de compétence"
+        },
+        "lutrin": {
             "catGram": "nom masculin",
-            "def": "Engin de terrassement constitué d'un tracteur muni d'une lame, servant à pousser de la terre ou des matériaux."
+            "def": "Pupitre élevé sur une base ou sur un pied servant dans les églises à supporter les livres de chant ou les livres liturgiques."
         },
-        "intrication": {
-            "catGram": "nom féminin",
-            "def": "État de choses étroitement emmêlées."
-        },
-        "campanile": {
-            "catGram": "nom masculin",
-            "def": "Tour isolée à proximité d'une église et qui sert de clocher."
-        },
-        "fourmiller": {
+        "japper": {
             "catGram": "verbe",
-            "def": "S'agiter en grand nombre, aller et venir en tous sens et continuellement à la façon des fourmis."
+            "def": "Pousser son cri, en parlant du chien et de certains autres canidés, notamment le chacal et le renard."
+        },
+        "ingénierie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des activités de conception et de planification qui concourent à la réalisation d'un projet généralement scientifique ou industriel."
         }
     }
 }
