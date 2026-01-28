@@ -1,20 +1,20 @@
 {
     "words": {
-        "inexpert": {
+        "incurable": {
             "catGram": "adjectif",
-            "def": "Qui manque d'habileté, de compétence"
+            "def": "Qui ne peut être guéri"
         },
-        "lutrin": {
+        "dru": {
+            "catGram": "adjectif",
+            "def": "Aux pousses nombreuses, serrées et vigoureuses."
+        },
+        "ravitailleur": {
             "catGram": "nom masculin",
-            "def": "Pupitre élevé sur une base ou sur un pied servant dans les églises à supporter les livres de chant ou les livres liturgiques."
+            "def": "Véhicule, navire, avion employé au ravitaillement militaire ou commercial."
         },
-        "japper": {
-            "catGram": "verbe",
-            "def": "Pousser son cri, en parlant du chien et de certains autres canidés, notamment le chacal et le renard."
-        },
-        "ingénierie": {
-            "catGram": "nom féminin",
-            "def": "Ensemble des activités de conception et de planification qui concourent à la réalisation d'un projet généralement scientifique ou industriel."
+        "lecteur": {
+            "catGram": "nom",
+            "def": "Personne qui lit pour se distraire, s'informer."
         }
     }
 }
