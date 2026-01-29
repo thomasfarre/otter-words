@@ -1,20 +1,20 @@
 {
     "words": {
-        "incurable": {
+        "attiser": {
+            "catGram": "verbe",
+            "def": "Animer un feu en rapprochant les tisons, en avivant la flamme."
+        },
+        "conclure": {
+            "catGram": "verbe",
+            "def": "Mettre un terme à qqch. qui est en cours."
+        },
+        "clandestinement": {
+            "catGram": "adverbe",
+            "def": "D'une manière clandestine."
+        },
+        "volontaire": {
             "catGram": "adjectif",
-            "def": "Qui ne peut être guéri"
-        },
-        "dru": {
-            "catGram": "adjectif",
-            "def": "Aux pousses nombreuses, serrées et vigoureuses."
-        },
-        "ravitailleur": {
-            "catGram": "nom masculin",
-            "def": "Véhicule, navire, avion employé au ravitaillement militaire ou commercial."
-        },
-        "lecteur": {
-            "catGram": "nom",
-            "def": "Personne qui lit pour se distraire, s'informer."
+            "def": "Qui procède de la volonté et non des automatismes, des réflexes ou des impulsions"
         }
     }
 }
