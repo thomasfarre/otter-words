@@ -1,20 +1,20 @@
 {
     "words": {
-        "attiser": {
-            "catGram": "verbe",
-            "def": "Animer un feu en rapprochant les tisons, en avivant la flamme."
+        "croix": {
+            "catGram": "nom féminin",
+            "def": "Instrument de supplice, fait d'un poteau surmonté d'une traverse, sur lequel, dans l'Antiquité, on attachait les condamnés à mort."
         },
-        "conclure": {
-            "catGram": "verbe",
-            "def": "Mettre un terme à qqch. qui est en cours."
-        },
-        "clandestinement": {
-            "catGram": "adverbe",
-            "def": "D'une manière clandestine."
-        },
-        "volontaire": {
+        "crédule": {
             "catGram": "adjectif",
-            "def": "Qui procède de la volonté et non des automatismes, des réflexes ou des impulsions"
+            "def": "Qui croit trop facilement et trop naïvement"
+        },
+        "collection": {
+            "catGram": "nom féminin",
+            "def": "Réunion d’objets, de personnes."
+        },
+        "algébrique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l'algèbre"
         }
     }
 }
