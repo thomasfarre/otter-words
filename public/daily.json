@@ -1,20 +1,20 @@
 {
     "words": {
-        "croix": {
+        "récupération": {
             "catGram": "nom féminin",
-            "def": "Instrument de supplice, fait d'un poteau surmonté d'une traverse, sur lequel, dans l'Antiquité, on attachait les condamnés à mort."
+            "def": "Action de récupérer qqch."
         },
-        "crédule": {
+        "fortuné": {
             "catGram": "adjectif",
-            "def": "Qui croit trop facilement et trop naïvement"
+            "def": "Favorisé par la fortune, par le destin"
         },
-        "collection": {
-            "catGram": "nom féminin",
-            "def": "Réunion d’objets, de personnes."
+        "frigorifié": {
+            "catGram": "verbe",
+            "def": "Soumettre (une denrée périssable) à un froid intense, généralement pour conservation."
         },
-        "algébrique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l'algèbre"
+        "rangement": {
+            "catGram": "nom masculin",
+            "def": "Action de ranger."
         }
     }
 }
