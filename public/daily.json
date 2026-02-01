@@ -1,20 +1,20 @@
 {
     "words": {
-        "récupération": {
-            "catGram": "nom féminin",
-            "def": "Action de récupérer qqch."
-        },
-        "fortuné": {
+        "hindou": {
             "catGram": "adjectif",
-            "def": "Favorisé par la fortune, par le destin"
+            "def": "Relatif à la religion de l'hindouisme."
         },
-        "frigorifié": {
+        "gueux": {
+            "catGram": "nom",
+            "def": "Personne pauvre qui vit de la charité d’autrui."
+        },
+        "implanter": {
             "catGram": "verbe",
-            "def": "Soumettre (une denrée périssable) à un froid intense, généralement pour conservation."
+            "def": "Planter une chose dans une autre"
         },
-        "rangement": {
+        "paquebot": {
             "catGram": "nom masculin",
-            "def": "Action de ranger."
+            "def": "Grand navire de commerce conçu pour transporter des passagers."
         }
     }
 }
