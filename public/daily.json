@@ -1,20 +1,20 @@
 {
     "words": {
-        "hindou": {
-            "catGram": "adjectif",
-            "def": "Relatif à la religion de l'hindouisme."
-        },
-        "gueux": {
+        "scélérat": {
             "catGram": "nom",
-            "def": "Personne pauvre qui vit de la charité d’autrui."
+            "def": "Qui a commis ou qui est capable de commettre des crimes, des mauvaises actions"
         },
-        "implanter": {
-            "catGram": "verbe",
-            "def": "Planter une chose dans une autre"
-        },
-        "paquebot": {
+        "héron": {
             "catGram": "nom masculin",
-            "def": "Grand navire de commerce conçu pour transporter des passagers."
+            "def": "Oiseau de type échassier, généralement de grande taille, à très longues pattes et à plumage gris ou blanc, qui est pourvu d’un bec long, droit et effilé, dont les espèces types ont un cou très long, fin et souple qui se replie en vol, et dont l’alimentation se compose principalement d’animaux aquatiques (poissons, grenouilles, etc.)."
+        },
+        "magique": {
+            "catGram": "adjectif",
+            "def": "Relatif à la magie"
+        },
+        "électronique": {
+            "catGram": "adjectif",
+            "def": "Relatif ou propre aux électrons."
         }
     }
 }
