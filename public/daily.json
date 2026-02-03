@@ -1,20 +1,20 @@
 {
     "words": {
-        "scélérat": {
-            "catGram": "nom",
-            "def": "Qui a commis ou qui est capable de commettre des crimes, des mauvaises actions"
+        "inévitable": {
+            "catGram": "adjectif",
+            "def": "Qu'on ne peut éviter"
         },
-        "héron": {
+        "repas": {
             "catGram": "nom masculin",
-            "def": "Oiseau de type échassier, généralement de grande taille, à très longues pattes et à plumage gris ou blanc, qui est pourvu d’un bec long, droit et effilé, dont les espèces types ont un cou très long, fin et souple qui se replie en vol, et dont l’alimentation se compose principalement d’animaux aquatiques (poissons, grenouilles, etc.)."
+            "def": "Nourriture composée de plusieurs mets et de boissons, prise en une seule fois à certains moments de la journée."
         },
-        "magique": {
-            "catGram": "adjectif",
-            "def": "Relatif à la magie"
+        "description": {
+            "catGram": "nom féminin",
+            "def": "Action de décrire"
         },
-        "électronique": {
-            "catGram": "adjectif",
-            "def": "Relatif ou propre aux électrons."
+        "payer": {
+            "catGram": "verbe",
+            "def": "Verser de l’argent pour ce que l’on doit"
         }
     }
 }
