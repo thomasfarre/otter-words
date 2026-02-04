@@ -1,20 +1,20 @@
 {
     "words": {
-        "inévitable": {
-            "catGram": "adjectif",
-            "def": "Qu'on ne peut éviter"
-        },
-        "repas": {
-            "catGram": "nom masculin",
-            "def": "Nourriture composée de plusieurs mets et de boissons, prise en une seule fois à certains moments de la journée."
-        },
-        "description": {
+        "poussée": {
             "catGram": "nom féminin",
-            "def": "Action de décrire"
+            "def": "Action d’une chose, d’une force qui pousse"
         },
-        "payer": {
+        "gérer": {
             "catGram": "verbe",
-            "def": "Verser de l’argent pour ce que l’on doit"
+            "def": "Administrer (une affaire, des intérêts) pour son propre compte ou pour le compte d’autrui"
+        },
+        "coulisse": {
+            "catGram": "nom féminin",
+            "def": "Rainure le long de laquelle peut glisser une pièce mobile"
+        },
+        "coureur": {
+            "catGram": "nom",
+            "def": "Personne ou animal qui court, qui est apte à la course."
         }
     }
 }
