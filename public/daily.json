@@ -1,20 +1,20 @@
 {
     "words": {
-        "poussée": {
-            "catGram": "nom féminin",
-            "def": "Action d’une chose, d’une force qui pousse"
-        },
-        "gérer": {
-            "catGram": "verbe",
-            "def": "Administrer (une affaire, des intérêts) pour son propre compte ou pour le compte d’autrui"
-        },
-        "coulisse": {
-            "catGram": "nom féminin",
-            "def": "Rainure le long de laquelle peut glisser une pièce mobile"
-        },
-        "coureur": {
+        "conciliateur": {
             "catGram": "nom",
-            "def": "Personne ou animal qui court, qui est apte à la course."
+            "def": "Personne qui met en œuvre les moyens de rapprocher des individus en désaccord d'opinions ou d'intérêts, des choses en partie contradictoires."
+        },
+        "montagneux": {
+            "catGram": "adjectif",
+            "def": "Où il y a des montagnes"
+        },
+        "parité": {
+            "catGram": "nom féminin",
+            "def": "Rapport d'égalité, de similitude entre deux choses ou deux êtres."
+        },
+        "duquel": {
+            "catGram": "pronom interrogatif contracté",
+            "def": "Séquence formée par la prépositiondeet le motlequel."
         }
     }
 }
