@@ -1,20 +1,20 @@
 {
     "words": {
-        "conciliateur": {
-            "catGram": "nom",
-            "def": "Personne qui met en œuvre les moyens de rapprocher des individus en désaccord d'opinions ou d'intérêts, des choses en partie contradictoires."
-        },
-        "montagneux": {
-            "catGram": "adjectif",
-            "def": "Où il y a des montagnes"
-        },
-        "parité": {
+        "solitude": {
             "catGram": "nom féminin",
-            "def": "Rapport d'égalité, de similitude entre deux choses ou deux êtres."
+            "def": "Situation temporaire ou durable d'une personne qui vit seule, d'une manière voulue ou subie."
         },
-        "duquel": {
-            "catGram": "pronom interrogatif contracté",
-            "def": "Séquence formée par la prépositiondeet le motlequel."
+        "dérider": {
+            "catGram": "verbe",
+            "def": "Effacer, enlever les rides"
+        },
+        "leitmotiv": {
+            "catGram": "nom masculin",
+            "def": "Motif, thème destiné à caractériser un personnage, une situation et qui revient périodiquement au cours d'une œuvre."
+        },
+        "sauge": {
+            "catGram": "nom féminin",
+            "def": "Plante ligneuse ou herbacée dont certaines variétés sont cultivées comme plantes ornementales ou pour leurs propriétés aromatiques ou médicinales"
         }
     }
 }
