@@ -1,20 +1,20 @@
 {
     "words": {
-        "solitude": {
-            "catGram": "nom féminin",
-            "def": "Situation temporaire ou durable d'une personne qui vit seule, d'une manière voulue ou subie."
-        },
-        "dérider": {
+        "hypnotiser": {
             "catGram": "verbe",
-            "def": "Effacer, enlever les rides"
+            "def": "Soumettre à l'hypnose."
         },
-        "leitmotiv": {
+        "civique": {
+            "catGram": "adjectif",
+            "def": "Qui concerne les citoyens dans leurs rapports avec la société organisée en État."
+        },
+        "nombreux": {
+            "catGram": "adjectif",
+            "def": "Qui est formé d'un grand nombre d'éléments."
+        },
+        "poison": {
             "catGram": "nom masculin",
-            "def": "Motif, thème destiné à caractériser un personnage, une situation et qui revient périodiquement au cours d'une œuvre."
-        },
-        "sauge": {
-            "catGram": "nom féminin",
-            "def": "Plante ligneuse ou herbacée dont certaines variétés sont cultivées comme plantes ornementales ou pour leurs propriétés aromatiques ou médicinales"
+            "def": "Substance nuisible pour l'organisme, la santé et pouvant entraîner la mort."
         }
     }
 }
