@@ -1,20 +1,20 @@
 {
     "words": {
-        "hypnotiser": {
-            "catGram": "verbe",
-            "def": "Soumettre à l'hypnose."
+        "brume": {
+            "catGram": "nom féminin",
+            "def": "Amas de fines gouttelettes d'eau en suspension dans l'air, laissant une visibilité supérieure à un kilomètre"
         },
-        "civique": {
+        "meuble": {
             "catGram": "adjectif",
-            "def": "Qui concerne les citoyens dans leurs rapports avec la société organisée en État."
+            "def": "Qui peut être déplacé ou qui est réputé tel par la loi"
         },
-        "nombreux": {
-            "catGram": "adjectif",
-            "def": "Qui est formé d'un grand nombre d'éléments."
-        },
-        "poison": {
+        "choix": {
             "catGram": "nom masculin",
-            "def": "Substance nuisible pour l'organisme, la santé et pouvant entraîner la mort."
+            "def": "Action de choisir"
+        },
+        "malentendu": {
+            "catGram": "nom masculin",
+            "def": "Divergence d'interprétation sur la signification de paroles ou d'actes"
         }
     }
 }
