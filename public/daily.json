@@ -1,20 +1,20 @@
 {
     "words": {
-        "brume": {
+        "colorer": {
+            "catGram": "verbe",
+            "def": "Donner une couleur, une teinte à."
+        },
+        "suite": {
             "catGram": "nom féminin",
-            "def": "Amas de fines gouttelettes d'eau en suspension dans l'air, laissant une visibilité supérieure à un kilomètre"
+            "def": "Groupe de personnes qui suivent, accompagnent un haut personnage."
         },
-        "meuble": {
-            "catGram": "adjectif",
-            "def": "Qui peut être déplacé ou qui est réputé tel par la loi"
-        },
-        "choix": {
+        "holocauste": {
             "catGram": "nom masculin",
-            "def": "Action de choisir"
+            "def": "Dans la religion juive, sacrifice où une victime animale était immolée par le feu"
         },
-        "malentendu": {
-            "catGram": "nom masculin",
-            "def": "Divergence d'interprétation sur la signification de paroles ou d'actes"
+        "passoire": {
+            "catGram": "nom féminin",
+            "def": "Ustensile de cuisine formé d'un récipient percé de trous servant à égoutter des aliments ou à passer des liquides."
         }
     }
 }
