@@ -1,20 +1,20 @@
 {
     "words": {
-        "colorer": {
-            "catGram": "verbe",
-            "def": "Donner une couleur, une teinte à."
+        "homologue": {
+            "catGram": "adjectif",
+            "def": "Correspondant, équivalent, analogue."
         },
-        "suite": {
+        "soumission": {
             "catGram": "nom féminin",
-            "def": "Groupe de personnes qui suivent, accompagnent un haut personnage."
+            "def": "Fait de se soumettre, d'être soumis"
         },
-        "holocauste": {
+        "étourderie": {
+            "catGram": "nom féminin",
+            "def": "Caractère d'une personne qui est étourdie."
+        },
+        "jugement": {
             "catGram": "nom masculin",
-            "def": "Dans la religion juive, sacrifice où une victime animale était immolée par le feu"
-        },
-        "passoire": {
-            "catGram": "nom féminin",
-            "def": "Ustensile de cuisine formé d'un récipient percé de trous servant à égoutter des aliments ou à passer des liquides."
+            "def": "Action de juger"
         }
     }
 }
