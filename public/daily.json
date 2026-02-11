@@ -1,20 +1,20 @@
 {
     "words": {
-        "homologue": {
+        "attaché": {
+            "catGram": "nom",
+            "def": "Personne faisant partie d’une direction ou d’un service, dans une entreprise, un ministère, une ambassade."
+        },
+        "exalté": {
             "catGram": "adjectif",
-            "def": "Correspondant, équivalent, analogue."
+            "def": "Qui est très passionné, très enthousiaste, parfois à l’excès."
         },
-        "soumission": {
-            "catGram": "nom féminin",
-            "def": "Fait de se soumettre, d'être soumis"
-        },
-        "étourderie": {
-            "catGram": "nom féminin",
-            "def": "Caractère d'une personne qui est étourdie."
-        },
-        "jugement": {
+        "marécage": {
             "catGram": "nom masculin",
-            "def": "Action de juger"
+            "def": "Terrain spongieux, saturé d'eau, impropre à la culture, où s'étendent des marais, colonisé par une végétation dense composée surtout d'arbustes."
+        },
+        "sociologique": {
+            "catGram": "adjectif",
+            "def": "Relatif à la sociologie"
         }
     }
 }
