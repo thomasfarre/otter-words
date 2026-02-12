@@ -1,20 +1,20 @@
 {
     "words": {
-        "attaché": {
-            "catGram": "nom",
-            "def": "Personne faisant partie d’une direction ou d’un service, dans une entreprise, un ministère, une ambassade."
-        },
-        "exalté": {
-            "catGram": "adjectif",
-            "def": "Qui est très passionné, très enthousiaste, parfois à l’excès."
-        },
-        "marécage": {
+        "havre": {
             "catGram": "nom masculin",
-            "def": "Terrain spongieux, saturé d'eau, impropre à la culture, où s'étendent des marais, colonisé par une végétation dense composée surtout d'arbustes."
+            "def": "Petit port naturel ou artificiel, situé le plus souvent à l'embouchure d'un cours d'eau important"
         },
-        "sociologique": {
+        "ardu": {
             "catGram": "adjectif",
-            "def": "Relatif à la sociologie"
+            "def": "Qui présente de grandes difficultés"
+        },
+        "mark": {
+            "catGram": "nom masculin",
+            "def": "Ancienne unité monétaire de l'Allemagne et de la Finlande remplacée par l'euro."
+        },
+        "docile": {
+            "catGram": "adjectif",
+            "def": "Qui obéit facilement, se laisse diriger"
         }
     }
 }
