@@ -1,20 +1,20 @@
 {
     "words": {
-        "havre": {
+        "dais": {
             "catGram": "nom masculin",
-            "def": "Petit port naturel ou artificiel, situé le plus souvent à l'embouchure d'un cours d'eau important"
+            "def": "Ouvrage de bois ou de tissu surplombant un trône, un autel, une chaire."
         },
-        "ardu": {
-            "catGram": "adjectif",
-            "def": "Qui présente de grandes difficultés"
+        "éternité": {
+            "catGram": "nom féminin",
+            "def": "Ce qui n'a ni commencement ni fin."
         },
-        "mark": {
+        "reflux": {
             "catGram": "nom masculin",
-            "def": "Ancienne unité monétaire de l'Allemagne et de la Finlande remplacée par l'euro."
+            "def": "Écoulement (intermittent) d'un liquide organique dans le sens opposé au sens physiologique normal."
         },
-        "docile": {
+        "flamboyant": {
             "catGram": "adjectif",
-            "def": "Qui obéit facilement, se laisse diriger"
+            "def": "Qui jette des lueurs vives et intermittentes"
         }
     }
 }
