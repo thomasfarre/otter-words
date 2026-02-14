@@ -1,20 +1,20 @@
 {
     "words": {
-        "dais": {
-            "catGram": "nom masculin",
-            "def": "Ouvrage de bois ou de tissu surplombant un trône, un autel, une chaire."
-        },
-        "éternité": {
-            "catGram": "nom féminin",
-            "def": "Ce qui n'a ni commencement ni fin."
-        },
-        "reflux": {
-            "catGram": "nom masculin",
-            "def": "Écoulement (intermittent) d'un liquide organique dans le sens opposé au sens physiologique normal."
-        },
-        "flamboyant": {
+        "infructueux": {
             "catGram": "adjectif",
-            "def": "Qui jette des lueurs vives et intermittentes"
+            "def": "Qui ne donne pas de fruit."
+        },
+        "concis": {
+            "catGram": "adjectif",
+            "def": "Qui est réduit à l'essentiel et l'exprime en peu de mots"
+        },
+        "clope": {
+            "catGram": "nom masculin ou féminin",
+            "def": "Petit cylindre de tabac finement haché, entouré d’une feuille de papier très fin, qui se fume."
+        },
+        "inconditionnel": {
+            "catGram": "adjectif",
+            "def": "Qui n'est soumis à aucune condition."
         }
     }
 }
