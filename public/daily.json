@@ -1,20 +1,20 @@
 {
     "words": {
-        "infructueux": {
+        "câlin": {
             "catGram": "adjectif",
-            "def": "Qui ne donne pas de fruit."
+            "def": "Qui aime cajoler ou être cajolé"
         },
-        "concis": {
-            "catGram": "adjectif",
-            "def": "Qui est réduit à l'essentiel et l'exprime en peu de mots"
+        "ardemment": {
+            "catGram": "adverbe",
+            "def": "Avec ardeur."
         },
-        "clope": {
-            "catGram": "nom masculin ou féminin",
-            "def": "Petit cylindre de tabac finement haché, entouré d’une feuille de papier très fin, qui se fume."
+        "neige": {
+            "catGram": "nom féminin",
+            "def": "Précipitation de flocons blancs formés de cristaux de glace résultant de la condensation et du gel de la vapeur d'eau contenue dans les nuages"
         },
-        "inconditionnel": {
-            "catGram": "adjectif",
-            "def": "Qui n'est soumis à aucune condition."
+        "retrouver": {
+            "catGram": "verbe",
+            "def": "Savoir à nouveau, après avoir cherché, où est qqch. ou qqn (qui était perdu, qui avait disparu)."
         }
     }
 }
