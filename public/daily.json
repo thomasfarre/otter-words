@@ -1,20 +1,20 @@
 {
     "words": {
-        "câlin": {
-            "catGram": "adjectif",
-            "def": "Qui aime cajoler ou être cajolé"
-        },
-        "ardemment": {
-            "catGram": "adverbe",
-            "def": "Avec ardeur."
-        },
-        "neige": {
-            "catGram": "nom féminin",
-            "def": "Précipitation de flocons blancs formés de cristaux de glace résultant de la condensation et du gel de la vapeur d'eau contenue dans les nuages"
-        },
-        "retrouver": {
+        "tancer": {
             "catGram": "verbe",
-            "def": "Savoir à nouveau, après avoir cherché, où est qqch. ou qqn (qui était perdu, qui avait disparu)."
+            "def": "Réprimander."
+        },
+        "exilé": {
+            "catGram": "adjectif",
+            "def": "Qui, volontairement ou non, a quitté sa patrie."
+        },
+        "consolation": {
+            "catGram": "nom féminin",
+            "def": "Réconfort apporté à la douleur, au chagrin de qqn."
+        },
+        "extradition": {
+            "catGram": "nom féminin",
+            "def": "Acte par lequel un gouvernement livre à un autre État, qui la lui réclame, une personne ayant commis une infraction sur le territoire de cet autre État."
         }
     }
 }
