@@ -1,20 +1,20 @@
 {
     "words": {
-        "tancer": {
+        "maximum": {
+            "catGram": "nom masculin",
+            "def": "Valeur la plus grande atteinte par une quantité variable."
+        },
+        "côte": {
+            "catGram": "nom féminin",
+            "def": "Chacun des os plats et arqués reliés aux vertèbres dorsales et, pour la plupart, au sternum, formant la cage thoracique."
+        },
+        "zézayer": {
             "catGram": "verbe",
-            "def": "Réprimander."
+            "def": "Avoir le défaut de prononciation qui consiste à substituer le son s [s] au son ch [ʃ] et le son z [z] au son j [ʒ]."
         },
-        "exilé": {
-            "catGram": "adjectif",
-            "def": "Qui, volontairement ou non, a quitté sa patrie."
-        },
-        "consolation": {
+        "chaloupe": {
             "catGram": "nom féminin",
-            "def": "Réconfort apporté à la douleur, au chagrin de qqn."
-        },
-        "extradition": {
-            "catGram": "nom féminin",
-            "def": "Acte par lequel un gouvernement livre à un autre État, qui la lui réclame, une personne ayant commis une infraction sur le territoire de cet autre État."
+            "def": "Embarcation non pontée, à rames ou à moteur, souvent arrimée aux navires pour servir au transport jusqu’à la rive ou à l’évacuation des passagers en cas de naufrage."
         }
     }
 }
