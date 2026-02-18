@@ -1,20 +1,20 @@
 {
     "words": {
-        "maximum": {
+        "délocalisation": {
+            "catGram": "nom féminin",
+            "def": "Transfert d'une activité, d'une unité de production dans une autre région, un autre pays, où les coûts de production sont généralement moins élevés."
+        },
+        "hâte": {
+            "catGram": "nom féminin",
+            "def": "Rapidité, promptitude, empressement extrême (à faire, à attendre qqch.)."
+        },
+        "inquisition": {
+            "catGram": "nom féminin",
+            "def": "Enquête, recherche vexatoire menée de façon arbitraire."
+        },
+        "caoutchouc": {
             "catGram": "nom masculin",
-            "def": "Valeur la plus grande atteinte par une quantité variable."
-        },
-        "côte": {
-            "catGram": "nom féminin",
-            "def": "Chacun des os plats et arqués reliés aux vertèbres dorsales et, pour la plupart, au sternum, formant la cage thoracique."
-        },
-        "zézayer": {
-            "catGram": "verbe",
-            "def": "Avoir le défaut de prononciation qui consiste à substituer le son s [s] au son ch [ʃ] et le son z [z] au son j [ʒ]."
-        },
-        "chaloupe": {
-            "catGram": "nom féminin",
-            "def": "Embarcation non pontée, à rames ou à moteur, souvent arrimée aux navires pour servir au transport jusqu’à la rive ou à l’évacuation des passagers en cas de naufrage."
+            "def": "Substance élastique et imperméable obtenue par coagulation du latex de diverses plantes tropicales (dont l’hévéa) ou fabriquée par synthèse à partir d’hydrocarbures."
         }
     }
 }
