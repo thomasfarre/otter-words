@@ -1,20 +1,20 @@
 {
     "words": {
-        "délocalisation": {
-            "catGram": "nom féminin",
-            "def": "Transfert d'une activité, d'une unité de production dans une autre région, un autre pays, où les coûts de production sont généralement moins élevés."
+        "décroître": {
+            "catGram": "verbe",
+            "def": "Diminuer progressivement."
         },
-        "hâte": {
-            "catGram": "nom féminin",
-            "def": "Rapidité, promptitude, empressement extrême (à faire, à attendre qqch.)."
+        "tatillon": {
+            "catGram": "adjectif",
+            "def": "Minutieux, excessif dans l'utilisation du détail."
         },
-        "inquisition": {
-            "catGram": "nom féminin",
-            "def": "Enquête, recherche vexatoire menée de façon arbitraire."
-        },
-        "caoutchouc": {
+        "casque": {
             "catGram": "nom masculin",
-            "def": "Substance élastique et imperméable obtenue par coagulation du latex de diverses plantes tropicales (dont l’hévéa) ou fabriquée par synthèse à partir d’hydrocarbures."
+            "def": "Coiffure rigide qui protège la tête."
+        },
+        "roseau": {
+            "catGram": "nom masculin",
+            "def": "Plante herbacée, souvent de grande taille et de type graminée, à tige droite et robuste, qui croît dans les marais et les eaux peu profondes."
         }
     }
 }
