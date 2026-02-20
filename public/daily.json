@@ -1,20 +1,20 @@
 {
     "words": {
-        "décroître": {
-            "catGram": "verbe",
-            "def": "Diminuer progressivement."
+        "gendarme": {
+            "catGram": "nom épicène",
+            "def": "Militaire appartenant à un corps de gendarmerie chargé du maintien de l'ordre et de la sûreté publique, ainsi que de l'exécution des arrêts judiciaires."
         },
-        "tatillon": {
+        "musulman": {
             "catGram": "adjectif",
-            "def": "Minutieux, excessif dans l'utilisation du détail."
+            "def": "Qui professe la religion islamique."
         },
-        "casque": {
-            "catGram": "nom masculin",
-            "def": "Coiffure rigide qui protège la tête."
+        "différentes": {
+            "catGram": "adjectif",
+            "def": "Qui diffère de."
         },
-        "roseau": {
-            "catGram": "nom masculin",
-            "def": "Plante herbacée, souvent de grande taille et de type graminée, à tige droite et robuste, qui croît dans les marais et les eaux peu profondes."
+        "clandestinement": {
+            "catGram": "adverbe",
+            "def": "D'une manière clandestine."
         }
     }
 }
