@@ -1,20 +1,20 @@
 {
     "words": {
-        "gendarme": {
-            "catGram": "nom épicène",
-            "def": "Militaire appartenant à un corps de gendarmerie chargé du maintien de l'ordre et de la sûreté publique, ainsi que de l'exécution des arrêts judiciaires."
+        "jubiler": {
+            "catGram": "verbe",
+            "def": "Éprouver une grande joie, une satisfaction profonde, que l'on laisse ou non s'extérioriser."
         },
-        "musulman": {
+        "retournement": {
+            "catGram": "nom masculin",
+            "def": "Opération qui consiste à retourner qqch."
+        },
+        "reproche": {
+            "catGram": "nom masculin",
+            "def": "Blâme par lequel qqn souligne une chose qu'il désapprouve."
+        },
+        "qualifié": {
             "catGram": "adjectif",
-            "def": "Qui professe la religion islamique."
-        },
-        "différentes": {
-            "catGram": "adjectif",
-            "def": "Qui diffère de."
-        },
-        "clandestinement": {
-            "catGram": "adverbe",
-            "def": "D'une manière clandestine."
+            "def": "Se dit d'un délit érigé en crime parce que des circonstances aggravantes définies par la loi l'accompagnent."
         }
     }
 }
