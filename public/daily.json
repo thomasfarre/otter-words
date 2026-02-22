@@ -1,20 +1,20 @@
 {
     "words": {
-        "jubiler": {
-            "catGram": "verbe",
-            "def": "Éprouver une grande joie, une satisfaction profonde, que l'on laisse ou non s'extérioriser."
-        },
-        "retournement": {
+        "porto": {
             "catGram": "nom masculin",
-            "def": "Opération qui consiste à retourner qqch."
+            "def": "Vin muté produit dans la vallée du Douro, au Portugal."
         },
-        "reproche": {
-            "catGram": "nom masculin",
-            "def": "Blâme par lequel qqn souligne une chose qu'il désapprouve."
-        },
-        "qualifié": {
+        "polytechnique": {
             "catGram": "adjectif",
-            "def": "Se dit d'un délit érigé en crime parce que des circonstances aggravantes définies par la loi l'accompagnent."
+            "def": "Qui embrasse plusieurs arts, plusieurs sciences."
+        },
+        "généalogie": {
+            "catGram": "nom féminin",
+            "def": "Dénombrement, par filiation, des ancêtres d'un individu"
+        },
+        "consolation": {
+            "catGram": "nom féminin",
+            "def": "Réconfort apporté à la douleur, au chagrin de qqn."
         }
     }
 }
