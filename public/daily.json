@@ -1,20 +1,20 @@
 {
     "words": {
-        "porto": {
+        "poète": {
+            "catGram": "nom épicène",
+            "def": "Écrivain qui compose de la poésie."
+        },
+        "vade-mecum": {
             "catGram": "nom masculin",
-            "def": "Vin muté produit dans la vallée du Douro, au Portugal."
+            "def": "Recueil contenant des renseignements sur les règles d'un art ou d'une technique à observer ou sur une conduite à suivre et qu'on garde sur soi ou à portée de main pour le consulter."
         },
-        "polytechnique": {
+        "oriental": {
             "catGram": "adjectif",
-            "def": "Qui embrasse plusieurs arts, plusieurs sciences."
+            "def": "Qui est situé à l’est, à l’orient"
         },
-        "généalogie": {
-            "catGram": "nom féminin",
-            "def": "Dénombrement, par filiation, des ancêtres d'un individu"
-        },
-        "consolation": {
-            "catGram": "nom féminin",
-            "def": "Réconfort apporté à la douleur, au chagrin de qqn."
+        "abdomen": {
+            "catGram": "nom masculin",
+            "def": "Cavité située à la partie inférieure du tronc et contenant la plupart des viscères des appareils digestif et urinaire."
         }
     }
 }
