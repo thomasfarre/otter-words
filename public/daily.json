@@ -1,20 +1,20 @@
 {
     "words": {
-        "poète": {
-            "catGram": "nom épicène",
-            "def": "Écrivain qui compose de la poésie."
-        },
-        "vade-mecum": {
-            "catGram": "nom masculin",
-            "def": "Recueil contenant des renseignements sur les règles d'un art ou d'une technique à observer ou sur une conduite à suivre et qu'on garde sur soi ou à portée de main pour le consulter."
-        },
-        "oriental": {
+        "paternel": {
             "catGram": "adjectif",
-            "def": "Qui est situé à l’est, à l’orient"
+            "def": "Qui appartient au père"
         },
-        "abdomen": {
-            "catGram": "nom masculin",
-            "def": "Cavité située à la partie inférieure du tronc et contenant la plupart des viscères des appareils digestif et urinaire."
+        "issue": {
+            "catGram": "nom féminin",
+            "def": "Porte, ouverture, passage qui offre la possibilité de sortir, de s’échapper."
+        },
+        "abdominal": {
+            "catGram": "adjectif",
+            "def": "De l'abdomen"
+        },
+        "desquels": {
+            "catGram": "pronom interrogatif contracté",
+            "def": "Séquence formée par la prépositiondeet le motlequel."
         }
     }
 }
