@@ -1,20 +1,20 @@
 {
     "words": {
-        "paternel": {
-            "catGram": "adjectif",
-            "def": "Qui appartient au père"
+        "espacer": {
+            "catGram": "verbe",
+            "def": "Placer (deux ou plusieurs choses) en laissant un intervalle entre elles."
         },
-        "issue": {
+        "levure": {
             "catGram": "nom féminin",
-            "def": "Porte, ouverture, passage qui offre la possibilité de sortir, de s’échapper."
+            "def": "Champignon microscopique unicellulaire qu’on utilise comme agent de fermentation."
         },
-        "abdominal": {
+        "sirène": {
+            "catGram": "nom féminin",
+            "def": "Être fabuleux à corps de femme et à queue de poisson, qui attirait les marins sur les écueils par son chant mélodieux et séducteur."
+        },
+        "massif": {
             "catGram": "adjectif",
-            "def": "De l'abdomen"
-        },
-        "desquels": {
-            "catGram": "pronom interrogatif contracté",
-            "def": "Séquence formée par la prépositiondeet le motlequel."
+            "def": "Qui est constitué d'une seule matière, sans parties creuses, rapportées ou plaquées."
         }
     }
 }
