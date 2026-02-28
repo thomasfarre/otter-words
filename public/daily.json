@@ -1,20 +1,20 @@
 {
     "words": {
-        "honorabilité": {
-            "catGram": "nom féminin",
-            "def": "Qualité d'une personne dont la conduite est conforme à une norme morale socialement établie"
-        },
-        "construire": {
-            "catGram": "verbe",
-            "def": "Réaliser un édifice, un ouvrage d'art, etc., selon un plan déterminé"
-        },
-        "sacro-saint": {
+        "routière": {
             "catGram": "adjectif",
-            "def": "Qui fait l'objet d'un respect exagéré et auquel on ne peut s'attaquer."
+            "def": "Qui se rapporte à la route, aux routes"
         },
-        "utilisateur": {
+        "gouffre": {
+            "catGram": "nom masculin",
+            "def": "Trou abrupt, large et profond."
+        },
+        "orateur": {
             "catGram": "nom",
-            "def": "Personne qui utilise (une machine, un appareil, un service, etc.)."
+            "def": "Personne qui parle en public, qui prononce des discours."
+        },
+        "araignée": {
+            "catGram": "nom féminin",
+            "def": "Petit animal invertébré, apparenté aux insectes et insectivore, à tête et thorax fusionnés et à gros abdomen, qui est pourvu de quatre paires de pattes, de crochets venimeux servant à paralyser ses proies et de glandes abdominales produisant un fil de soie, et qui, selon les espèces, chasse à l’aide d’une toile ou d’un autre piège de soie ou encore à l’affût."
         }
     }
 }
