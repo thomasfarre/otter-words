@@ -1,20 +1,20 @@
 {
     "words": {
-        "routière": {
-            "catGram": "adjectif",
-            "def": "Qui se rapporte à la route, aux routes"
-        },
-        "gouffre": {
-            "catGram": "nom masculin",
-            "def": "Trou abrupt, large et profond."
-        },
-        "orateur": {
-            "catGram": "nom",
-            "def": "Personne qui parle en public, qui prononce des discours."
-        },
-        "araignée": {
+        "décomposition": {
             "catGram": "nom féminin",
-            "def": "Petit animal invertébré, apparenté aux insectes et insectivore, à tête et thorax fusionnés et à gros abdomen, qui est pourvu de quatre paires de pattes, de crochets venimeux servant à paralyser ses proies et de glandes abdominales produisant un fil de soie, et qui, selon les espèces, chasse à l’aide d’une toile ou d’un autre piège de soie ou encore à l’affût."
+            "def": "Séparation d'un tout en ses éléments constitutifs"
+        },
+        "aristocrate": {
+            "catGram": "nom épicène",
+            "def": "Partisan de l'aristocratie, du mode de gouvernement aristocratique."
+        },
+        "désapprouver": {
+            "catGram": "verbe",
+            "def": "Porter un jugement défavorable sur qqch."
+        },
+        "balsamique": {
+            "catGram": "adjectif",
+            "def": "Qui produit, contient un baume"
         }
     }
 }
