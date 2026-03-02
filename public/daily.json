@@ -1,20 +1,20 @@
 {
     "words": {
-        "décomposition": {
+        "entorse": {
             "catGram": "nom féminin",
-            "def": "Séparation d'un tout en ses éléments constitutifs"
+            "def": "Lésion douloureuse d’une articulation caractérisée par une élongation, une déchirure ou un arrachement ligamentaire, sans déplacement des surfaces articulaires."
         },
-        "aristocrate": {
-            "catGram": "nom épicène",
-            "def": "Partisan de l'aristocratie, du mode de gouvernement aristocratique."
+        "conglomérat": {
+            "catGram": "nom masculin",
+            "def": "Réunion en masse compacte de substances minérales diverses."
         },
-        "désapprouver": {
+        "indiquer": {
             "catGram": "verbe",
-            "def": "Porter un jugement défavorable sur qqch."
+            "def": "Faire voir sans ambiguïté."
         },
-        "balsamique": {
-            "catGram": "adjectif",
-            "def": "Qui produit, contient un baume"
+        "sévèrement": {
+            "catGram": "adverbe",
+            "def": "Avec sévérité."
         }
     }
 }
