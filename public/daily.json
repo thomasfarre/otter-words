@@ -1,20 +1,20 @@
 {
     "words": {
-        "entorse": {
-            "catGram": "nom féminin",
-            "def": "Lésion douloureuse d’une articulation caractérisée par une élongation, une déchirure ou un arrachement ligamentaire, sans déplacement des surfaces articulaires."
-        },
-        "conglomérat": {
-            "catGram": "nom masculin",
-            "def": "Réunion en masse compacte de substances minérales diverses."
-        },
-        "indiquer": {
+        "creuser": {
             "catGram": "verbe",
-            "def": "Faire voir sans ambiguïté."
+            "def": "Faire une cavité, un trou dans un corps, le rendre creux en enlevant de la matière."
         },
-        "sévèrement": {
+        "appréciation": {
+            "catGram": "nom féminin",
+            "def": "Jugement."
+        },
+        "injustement": {
             "catGram": "adverbe",
-            "def": "Avec sévérité."
+            "def": "De manière injuste"
+        },
+        "jusque": {
+            "catGram": "préposition",
+            "def": "Sert à introduire une limite."
         }
     }
 }
