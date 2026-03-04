@@ -1,20 +1,20 @@
 {
     "words": {
-        "creuser": {
-            "catGram": "verbe",
-            "def": "Faire une cavité, un trou dans un corps, le rendre creux en enlevant de la matière."
+        "remaniement": {
+            "catGram": "nom masculin",
+            "def": "Action de remanier"
         },
-        "appréciation": {
+        "injure": {
             "catGram": "nom féminin",
-            "def": "Jugement."
+            "def": "Offense délibérée envers qqn."
         },
-        "injustement": {
-            "catGram": "adverbe",
-            "def": "De manière injuste"
+        "reine": {
+            "catGram": "nom féminin",
+            "def": "Épouse d'un roi."
         },
-        "jusque": {
-            "catGram": "préposition",
-            "def": "Sert à introduire une limite."
+        "entrevue": {
+            "catGram": "nom féminin",
+            "def": "Rencontre concertée entre deux ou plusieurs personnes."
         }
     }
 }
