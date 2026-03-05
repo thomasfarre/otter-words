@@ -1,20 +1,20 @@
 {
     "words": {
-        "remaniement": {
+        "enclos": {
             "catGram": "nom masculin",
-            "def": "Action de remanier"
+            "def": "Espace, terrain entouré de tous côtés par une clôture."
         },
-        "injure": {
-            "catGram": "nom féminin",
-            "def": "Offense délibérée envers qqn."
+        "rééquilibrage": {
+            "catGram": "nom masculin",
+            "def": "Action de rééquilibrer"
         },
-        "reine": {
-            "catGram": "nom féminin",
-            "def": "Épouse d'un roi."
+        "hormis": {
+            "catGram": "préposition",
+            "def": "À l'exception de."
         },
-        "entrevue": {
-            "catGram": "nom féminin",
-            "def": "Rencontre concertée entre deux ou plusieurs personnes."
+        "majoritaire": {
+            "catGram": "adjectif",
+            "def": "Relatif à la majorité, au plus grand nombre"
         }
     }
 }
