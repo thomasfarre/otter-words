@@ -1,20 +1,20 @@
 {
     "words": {
-        "enclos": {
+        "crâner": {
+            "catGram": "verbe",
+            "def": "Se prétendre brave, courageux."
+        },
+        "imprimé": {
             "catGram": "nom masculin",
-            "def": "Espace, terrain entouré de tous côtés par une clôture."
+            "def": "Étoffe décorée de motifs ou de couleurs, appliqués au moyen de techniques d'impression."
         },
-        "rééquilibrage": {
-            "catGram": "nom masculin",
-            "def": "Action de rééquilibrer"
+        "logeur": {
+            "catGram": "nom",
+            "def": "Personne qui loue des chambres meublées."
         },
-        "hormis": {
-            "catGram": "préposition",
-            "def": "À l'exception de."
-        },
-        "majoritaire": {
-            "catGram": "adjectif",
-            "def": "Relatif à la majorité, au plus grand nombre"
+        "actualité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est actuel, qui a un intérêt pour l’époque actuelle."
         }
     }
 }
