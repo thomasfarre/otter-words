@@ -1,20 +1,20 @@
 {
     "words": {
-        "crâner": {
-            "catGram": "verbe",
-            "def": "Se prétendre brave, courageux."
-        },
-        "imprimé": {
+        "embranchement": {
             "catGram": "nom masculin",
-            "def": "Étoffe décorée de motifs ou de couleurs, appliqués au moyen de techniques d'impression."
+            "def": "Division du tronc d'un arbre en plusieurs branches"
         },
-        "logeur": {
-            "catGram": "nom",
-            "def": "Personne qui loue des chambres meublées."
+        "dialectologue": {
+            "catGram": "nom épicène",
+            "def": "Linguiste spécialisé en dialectologie."
         },
-        "actualité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est actuel, qui a un intérêt pour l’époque actuelle."
+        "littéraire": {
+            "catGram": "adjectif",
+            "def": "Relatif à la littérature."
+        },
+        "exanthème": {
+            "catGram": "nom masculin",
+            "def": "Rougeur cutanée qui accompagne certaines maladies infectieuses contagieuses"
         }
     }
 }
