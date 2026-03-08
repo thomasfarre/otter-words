@@ -1,20 +1,20 @@
 {
     "words": {
-        "embranchement": {
+        "dégoter": {
+            "catGram": "verbe",
+            "def": "Découvrir, trouver."
+        },
+        "évoquer": {
+            "catGram": "verbe",
+            "def": "Rappeler qqch. à la mémoire de qqn."
+        },
+        "défaut": {
             "catGram": "nom masculin",
-            "def": "Division du tronc d'un arbre en plusieurs branches"
+            "def": "Absence ou insuffisance d’une chose qui serait nécessaire ou souhaitable."
         },
-        "dialectologue": {
-            "catGram": "nom épicène",
-            "def": "Linguiste spécialisé en dialectologie."
-        },
-        "littéraire": {
+        "banal": {
             "catGram": "adjectif",
-            "def": "Relatif à la littérature."
-        },
-        "exanthème": {
-            "catGram": "nom masculin",
-            "def": "Rougeur cutanée qui accompagne certaines maladies infectieuses contagieuses"
+            "def": "Qui appartient au seigneur et dont l'usage est imposé à ses sujets moyennant redevance."
         }
     }
 }
