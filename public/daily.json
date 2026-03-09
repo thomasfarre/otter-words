@@ -1,20 +1,20 @@
 {
     "words": {
-        "dégoter": {
+        "avilir": {
             "catGram": "verbe",
-            "def": "Découvrir, trouver."
+            "def": "Rendre vil, digne de mépris."
         },
-        "évoquer": {
-            "catGram": "verbe",
-            "def": "Rappeler qqch. à la mémoire de qqn."
+        "escale": {
+            "catGram": "nom féminin",
+            "def": "Action de s'arrêter pour ravitaillement, embarquement et débarquement, ou pour échapper au mauvais temps."
         },
-        "défaut": {
-            "catGram": "nom masculin",
-            "def": "Absence ou insuffisance d’une chose qui serait nécessaire ou souhaitable."
+        "négociation": {
+            "catGram": "nom féminin",
+            "def": "Processus de discussion entre parties, ensemble des échanges et démarches en vue de parvenir à un accord au sujet d'une affaire."
         },
-        "banal": {
-            "catGram": "adjectif",
-            "def": "Qui appartient au seigneur et dont l'usage est imposé à ses sujets moyennant redevance."
+        "lancée": {
+            "catGram": "nom féminin",
+            "def": "Départ plein d'élan, rapide mouvement propulsif"
         }
     }
 }
