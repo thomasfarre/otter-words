@@ -1,20 +1,20 @@
 {
     "words": {
-        "avilir": {
-            "catGram": "verbe",
-            "def": "Rendre vil, digne de mépris."
+        "nôtre": {
+            "catGram": "adjectif possessif",
+            "def": "Qui nous appartient, qui nous est propre."
         },
-        "escale": {
-            "catGram": "nom féminin",
-            "def": "Action de s'arrêter pour ravitaillement, embarquement et débarquement, ou pour échapper au mauvais temps."
+        "soi-disant": {
+            "catGram": "adjectif",
+            "def": "Qui se dit à tort être tel ou tel."
         },
-        "négociation": {
+        "supposition": {
             "catGram": "nom féminin",
-            "def": "Processus de discussion entre parties, ensemble des échanges et démarches en vue de parvenir à un accord au sujet d'une affaire."
+            "def": "Idée posée comme vraie en guise d'hypothèse."
         },
-        "lancée": {
-            "catGram": "nom féminin",
-            "def": "Départ plein d'élan, rapide mouvement propulsif"
+        "oxygène": {
+            "catGram": "nom masculin",
+            "def": "Élément non métallique gazeux, de numéro atomique 8, incolore et inodore, qui constitue approximativement un cinquième du volume de l'air atmosphérique et est indispensable à la plupart des formes de la vie"
         }
     }
 }
