@@ -1,20 +1,20 @@
 {
     "words": {
-        "étiquette": {
+        "cap": {
+            "catGram": "nom masculin",
+            "def": "Tête."
+        },
+        "présomptueux": {
+            "catGram": "adjectif",
+            "def": "Qui a une opinion de soi trop favorable."
+        },
+        "troisième": {
+            "catGram": "adjectif",
+            "def": "Qui occupe le rang marqué par le nombre trois (3eou IIIe)."
+        },
+        "matrice": {
             "catGram": "nom féminin",
-            "def": "Petit morceau (de carton, de papier, etc.) que l’on fixe sur un objet pour en indiquer la dénomination, la provenance, la destination, le prix, etc."
-        },
-        "hostie": {
-            "catGram": "nom féminin",
-            "def": "Dans la liturgie catholique, petite rondelle mince de pain azyme que le prêtre consacre pendant la messe."
-        },
-        "épousseter": {
-            "catGram": "verbe",
-            "def": "Nettoyer en chassant la poussière, la saleté."
-        },
-        "flatteur": {
-            "catGram": "nom",
-            "def": "Personne qui flatte, qui adresse des louanges exagérées et intéressées à qqn."
+            "def": "Utérus."
         }
     }
 }
