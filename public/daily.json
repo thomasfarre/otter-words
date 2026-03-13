@@ -1,20 +1,20 @@
 {
     "words": {
-        "cap": {
-            "catGram": "nom masculin",
-            "def": "Tête."
-        },
-        "présomptueux": {
+        "compris": {
             "catGram": "adjectif",
-            "def": "Qui a une opinion de soi trop favorable."
+            "def": "Inclus."
         },
-        "troisième": {
-            "catGram": "adjectif",
-            "def": "Qui occupe le rang marqué par le nombre trois (3eou IIIe)."
-        },
-        "matrice": {
+        "pulpe": {
             "catGram": "nom féminin",
-            "def": "Utérus."
+            "def": "Partie charnue, tendre des fruits et de certains légumes."
+        },
+        "verglacé": {
+            "catGram": "adjectif",
+            "def": "Couvert de verglas."
+        },
+        "rossée": {
+            "catGram": "nom féminin",
+            "def": "Volée de coups."
         }
     }
 }
