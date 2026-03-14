@@ -1,20 +1,20 @@
 {
     "words": {
-        "compris": {
-            "catGram": "adjectif",
-            "def": "Inclus."
+        "confier": {
+            "catGram": "verbe",
+            "def": "Remettre qqn ou qqch. à la garde, aux soins d'une personne dont on est sûr."
         },
-        "pulpe": {
+        "péjorativement": {
+            "catGram": "adverbe",
+            "def": "D'une manière péjorative."
+        },
+        "balai": {
+            "catGram": "nom masculin",
+            "def": "Ustensile de nettoyage composé d'un long manche auquel est fixé plus généralement une brosse de crin, de soies, de nylon, etc."
+        },
+        "innovation": {
             "catGram": "nom féminin",
-            "def": "Partie charnue, tendre des fruits et de certains légumes."
-        },
-        "verglacé": {
-            "catGram": "adjectif",
-            "def": "Couvert de verglas."
-        },
-        "rossée": {
-            "catGram": "nom féminin",
-            "def": "Volée de coups."
+            "def": "Action, fait d'innover."
         }
     }
 }
