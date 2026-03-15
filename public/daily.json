@@ -1,20 +1,20 @@
 {
     "words": {
-        "confier": {
-            "catGram": "verbe",
-            "def": "Remettre qqn ou qqch. à la garde, aux soins d'une personne dont on est sûr."
-        },
-        "péjorativement": {
-            "catGram": "adverbe",
-            "def": "D'une manière péjorative."
-        },
-        "balai": {
-            "catGram": "nom masculin",
-            "def": "Ustensile de nettoyage composé d'un long manche auquel est fixé plus généralement une brosse de crin, de soies, de nylon, etc."
-        },
-        "innovation": {
+        "coexistence": {
             "catGram": "nom féminin",
-            "def": "Action, fait d'innover."
+            "def": "Existence simultanée."
+        },
+        "amirauté": {
+            "catGram": "nom féminin",
+            "def": "Corps des amiraux"
+        },
+        "triumvirat": {
+            "catGram": "nom masculin",
+            "def": "Fonction de triumvir"
+        },
+        "berceau": {
+            "catGram": "nom masculin",
+            "def": "Petit lit pour nouveau-né muni de patins permettant de bercer l'enfant pour l'endormir"
         }
     }
 }
