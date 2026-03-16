@@ -1,20 +1,20 @@
 {
     "words": {
-        "coexistence": {
+        "situation": {
             "catGram": "nom féminin",
-            "def": "Existence simultanée."
+            "def": "Position qu'occupe une chose dans l'espace."
         },
-        "amirauté": {
-            "catGram": "nom féminin",
-            "def": "Corps des amiraux"
-        },
-        "triumvirat": {
+        "design": {
             "catGram": "nom masculin",
-            "def": "Fonction de triumvir"
+            "def": "Activité créatrice se rapportant aux qualités formelles des objets produits industriellement en vue d'un résultat esthétique s'accordant aux impératifs fonctionnels et commerciaux."
         },
-        "berceau": {
+        "borner": {
+            "catGram": "verbe",
+            "def": "Limiter par des bornes."
+        },
+        "affermage": {
             "catGram": "nom masculin",
-            "def": "Petit lit pour nouveau-né muni de patins permettant de bercer l'enfant pour l'endormir"
+            "def": "Action d'affermer (un bien rural)."
         }
     }
 }
