@@ -1,20 +1,20 @@
 {
     "words": {
-        "situation": {
+        "chicon": {
+            "catGram": "nom masculin",
+            "def": "Autre nom de la chicorée de Bruxelles, cultivée pour la production de l’endive."
+        },
+        "hiérarchie": {
             "catGram": "nom féminin",
-            "def": "Position qu'occupe une chose dans l'espace."
+            "def": "Ordre et subordination des différents degrés de l'état ecclésiastique."
         },
-        "design": {
+        "onguent": {
             "catGram": "nom masculin",
-            "def": "Activité créatrice se rapportant aux qualités formelles des objets produits industriellement en vue d'un résultat esthétique s'accordant aux impératifs fonctionnels et commerciaux."
+            "def": "Médicament de consistance pâteuse, constitué de résines et de corps gras et destiné à une application cutanée."
         },
-        "borner": {
-            "catGram": "verbe",
-            "def": "Limiter par des bornes."
-        },
-        "affermage": {
-            "catGram": "nom masculin",
-            "def": "Action d'affermer (un bien rural)."
+        "pente": {
+            "catGram": "nom féminin",
+            "def": "Inclinaison (d’un plan, d’un terrain, d’une surface) par rapport à l’horizontale."
         }
     }
 }
