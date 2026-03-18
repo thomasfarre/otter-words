@@ -1,20 +1,20 @@
 {
     "words": {
-        "chicon": {
+        "alignement": {
             "catGram": "nom masculin",
-            "def": "Autre nom de la chicorée de Bruxelles, cultivée pour la production de l’endive."
+            "def": "Action d'aligner, de s'aligner"
         },
-        "hiérarchie": {
-            "catGram": "nom féminin",
-            "def": "Ordre et subordination des différents degrés de l'état ecclésiastique."
+        "consultant": {
+            "catGram": "nom",
+            "def": "Personne qui donne des consultations, des avis."
         },
-        "onguent": {
+        "contentement": {
             "catGram": "nom masculin",
-            "def": "Médicament de consistance pâteuse, constitué de résines et de corps gras et destiné à une application cutanée."
+            "def": "Action de contenter"
         },
-        "pente": {
+        "escadrille": {
             "catGram": "nom féminin",
-            "def": "Inclinaison (d’un plan, d’un terrain, d’une surface) par rapport à l’horizontale."
+            "def": "Ensemble de navires de guerre de faible tonnage."
         }
     }
 }
