@@ -1,20 +1,20 @@
 {
     "words": {
-        "alignement": {
-            "catGram": "nom masculin",
-            "def": "Action d'aligner, de s'aligner"
+        "inéluctable": {
+            "catGram": "adjectif",
+            "def": "Qui ne peut être évité"
         },
-        "consultant": {
-            "catGram": "nom",
-            "def": "Personne qui donne des consultations, des avis."
+        "transpirer": {
+            "catGram": "verbe",
+            "def": "Sécréter et éliminer la sueur par les pores de la peau."
         },
-        "contentement": {
-            "catGram": "nom masculin",
-            "def": "Action de contenter"
+        "merveilleux": {
+            "catGram": "adjectif",
+            "def": "Qui étonne par son caractère extraordinaire, surnaturel, inexplicable."
         },
-        "escadrille": {
+        "bru": {
             "catGram": "nom féminin",
-            "def": "Ensemble de navires de guerre de faible tonnage."
+            "def": "Conjointe du fils."
         }
     }
 }
