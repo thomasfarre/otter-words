@@ -1,20 +1,20 @@
 {
     "words": {
-        "inéluctable": {
-            "catGram": "adjectif",
-            "def": "Qui ne peut être évité"
-        },
-        "transpirer": {
-            "catGram": "verbe",
-            "def": "Sécréter et éliminer la sueur par les pores de la peau."
-        },
-        "merveilleux": {
-            "catGram": "adjectif",
-            "def": "Qui étonne par son caractère extraordinaire, surnaturel, inexplicable."
-        },
-        "bru": {
+        "sortie": {
             "catGram": "nom féminin",
-            "def": "Conjointe du fils."
+            "def": "Action de sortir, de passer de l’intérieur vers l’extérieur d’un lieu."
+        },
+        "pelletier": {
+            "catGram": "nom",
+            "def": "Personne qui travaille les peaux pour en faire des fourrures et qui en fait le commerce."
+        },
+        "enjoué": {
+            "catGram": "adjectif",
+            "def": "Qui dénote ou manifeste de l'enjouement."
+        },
+        "facilité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui se fait sans effort, sans peine."
         }
     }
 }
