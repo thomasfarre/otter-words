@@ -1,20 +1,20 @@
 {
     "words": {
-        "reproche": {
-            "catGram": "nom masculin",
-            "def": "Blâme par lequel qqn souligne une chose qu'il désapprouve."
-        },
-        "affirmation": {
+        "insinuation": {
             "catGram": "nom féminin",
-            "def": "Action d'affirmer"
+            "def": "Manière adroite de faire entendre qqch. sans l'exprimer ouvertement"
         },
-        "injecter": {
+        "manigancer": {
             "catGram": "verbe",
-            "def": "Faire une injection."
+            "def": "Préparer, faire des manigances."
         },
-        "demi-tour": {
-            "catGram": "nom masculin",
-            "def": "Moitié d'une rotation."
+        "acoustique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l'ouïe, à la perception des sons."
+        },
+        "abbatial": {
+            "catGram": "adjectif",
+            "def": "Relatif à une abbaye, à un abbé ou à une abbesse."
         }
     }
 }
