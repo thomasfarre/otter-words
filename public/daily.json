@@ -1,20 +1,20 @@
 {
     "words": {
-        "insinuation": {
+        "enveloppe": {
             "catGram": "nom féminin",
-            "def": "Manière adroite de faire entendre qqch. sans l'exprimer ouvertement"
+            "def": "Ce qui enveloppe, qui couvre en entourant."
         },
-        "manigancer": {
+        "conversion": {
+            "catGram": "nom féminin",
+            "def": "Action de convertir"
+        },
+        "déposséder": {
             "catGram": "verbe",
-            "def": "Préparer, faire des manigances."
+            "def": "Priver qqn de la possession d'un bien matériel ou d’une valeur sociale."
         },
-        "acoustique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l'ouïe, à la perception des sons."
-        },
-        "abbatial": {
-            "catGram": "adjectif",
-            "def": "Relatif à une abbaye, à un abbé ou à une abbesse."
+        "fiasco": {
+            "catGram": "nom masculin",
+            "def": "Échec total, en particulier s'il est notoire."
         }
     }
 }
