@@ -1,20 +1,20 @@
 {
     "words": {
-        "enveloppe": {
-            "catGram": "nom féminin",
-            "def": "Ce qui enveloppe, qui couvre en entourant."
+        "superfétatoire": {
+            "catGram": "adjectif",
+            "def": "Qui s'ajoute inutilement à une autre chose."
         },
-        "conversion": {
-            "catGram": "nom féminin",
-            "def": "Action de convertir"
-        },
-        "déposséder": {
-            "catGram": "verbe",
-            "def": "Priver qqn de la possession d'un bien matériel ou d’une valeur sociale."
-        },
-        "fiasco": {
+        "taux": {
             "catGram": "nom masculin",
-            "def": "Échec total, en particulier s'il est notoire."
+            "def": "Montant, prix fixé par l'État ou par une convention."
+        },
+        "million": {
+            "catGram": "nom masculin",
+            "def": "Nombre de mille fois mille, qui correspond à 106"
+        },
+        "tertiaire": {
+            "catGram": "adjectif",
+            "def": "Ancienne grande division du cénozoïque, aujourd’hui remplacée par les périodes du paléogène et du néogène."
         }
     }
 }
