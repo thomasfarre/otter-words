@@ -1,20 +1,20 @@
 {
     "words": {
-        "superfétatoire": {
+        "véreux": {
             "catGram": "adjectif",
-            "def": "Qui s'ajoute inutilement à une autre chose."
+            "def": "Qui contient un ver"
         },
-        "taux": {
-            "catGram": "nom masculin",
-            "def": "Montant, prix fixé par l'État ou par une convention."
+        "lorsque": {
+            "catGram": "conjonction de subordination",
+            "def": "Au moment où, quand."
         },
-        "million": {
-            "catGram": "nom masculin",
-            "def": "Nombre de mille fois mille, qui correspond à 106"
-        },
-        "tertiaire": {
+        "périlleux": {
             "catGram": "adjectif",
-            "def": "Ancienne grande division du cénozoïque, aujourd’hui remplacée par les périodes du paléogène et du néogène."
+            "def": "Qui comporte des risques, des dangers."
+        },
+        "obscurité": {
+            "catGram": "nom féminin",
+            "def": "Absence de lumière"
         }
     }
 }
