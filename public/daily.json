@@ -1,20 +1,20 @@
 {
     "words": {
-        "véreux": {
-            "catGram": "adjectif",
-            "def": "Qui contient un ver"
-        },
-        "lorsque": {
-            "catGram": "conjonction de subordination",
-            "def": "Au moment où, quand."
-        },
-        "périlleux": {
-            "catGram": "adjectif",
-            "def": "Qui comporte des risques, des dangers."
-        },
-        "obscurité": {
+        "cinquantaine": {
             "catGram": "nom féminin",
-            "def": "Absence de lumière"
+            "def": "Nombre de cinquante ou environ."
+        },
+        "conscience": {
+            "catGram": "nom féminin",
+            "def": "Faculté de porter un jugement moral sur ses actes, fait de porter un tel jugement"
+        },
+        "promettre": {
+            "catGram": "verbe",
+            "def": "S'engager à faire, à dire, à donner qqch."
+        },
+        "bloc": {
+            "catGram": "nom masculin",
+            "def": "Masse pesante, plus ou moins cubique et assez considérable, constituée d’un seul tenant."
         }
     }
 }
