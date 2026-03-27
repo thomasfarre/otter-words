@@ -1,20 +1,20 @@
 {
     "words": {
-        "cinquantaine": {
-            "catGram": "nom féminin",
-            "def": "Nombre de cinquante ou environ."
-        },
-        "conscience": {
-            "catGram": "nom féminin",
-            "def": "Faculté de porter un jugement moral sur ses actes, fait de porter un tel jugement"
-        },
-        "promettre": {
+        "abasourdir": {
             "catGram": "verbe",
-            "def": "S'engager à faire, à dire, à donner qqch."
+            "def": "Étourdir par un grand bruit."
         },
-        "bloc": {
+        "archevêque": {
             "catGram": "nom masculin",
-            "def": "Masse pesante, plus ou moins cubique et assez considérable, constituée d’un seul tenant."
+            "def": "Évêque placé à la tête d'un archevêché."
+        },
+        "assimilé": {
+            "catGram": "adjectif",
+            "def": "Absorbé, intégré."
+        },
+        "récapituler": {
+            "catGram": "verbe",
+            "def": "Redire en résumant l'essentiel"
         }
     }
 }
