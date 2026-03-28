@@ -1,20 +1,20 @@
 {
     "words": {
-        "abasourdir": {
+        "étoile": {
+            "catGram": "nom féminin",
+            "def": "Astre composé de gaz, qui produit de l'énergie et émet sa propre lumière et dont le mouvement apparent est imperceptible de la Terre sur une courte période."
+        },
+        "rival": {
+            "catGram": "nom",
+            "def": "Personne qui se trouve en concurrence avec une autre et qui s'oppose à elle avec le désir de l'égaler ou de la surpasser."
+        },
+        "conserver": {
             "catGram": "verbe",
-            "def": "Étourdir par un grand bruit."
+            "def": "Garder en bon état, maintenir hors de toute atteinte destructive."
         },
-        "archevêque": {
-            "catGram": "nom masculin",
-            "def": "Évêque placé à la tête d'un archevêché."
-        },
-        "assimilé": {
+        "irrésistible": {
             "catGram": "adjectif",
-            "def": "Absorbé, intégré."
-        },
-        "récapituler": {
-            "catGram": "verbe",
-            "def": "Redire en résumant l'essentiel"
+            "def": "Auquel on ne peut pas résister."
         }
     }
 }
