@@ -1,20 +1,20 @@
 {
     "words": {
-        "étoile": {
+        "embrasse": {
             "catGram": "nom féminin",
-            "def": "Astre composé de gaz, qui produit de l'énergie et émet sa propre lumière et dont le mouvement apparent est imperceptible de la Terre sur une courte période."
+            "def": "Cordon ou bande d'étoffe qu'on fixe à une patère pour retenir un rideau."
         },
-        "rival": {
-            "catGram": "nom",
-            "def": "Personne qui se trouve en concurrence avec une autre et qui s'oppose à elle avec le désir de l'égaler ou de la surpasser."
+        "paluche": {
+            "catGram": "nom féminin",
+            "def": "Main."
         },
-        "conserver": {
+        "envoyer": {
             "catGram": "verbe",
-            "def": "Garder en bon état, maintenir hors de toute atteinte destructive."
+            "def": "Faire aller, partir vers un lieu, une situation, une mission."
         },
-        "irrésistible": {
+        "polyphonique": {
             "catGram": "adjectif",
-            "def": "Auquel on ne peut pas résister."
+            "def": "Qui constitue une polyphonie, qui use de la polyphonie."
         }
     }
 }
