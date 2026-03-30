@@ -1,20 +1,20 @@
 {
     "words": {
-        "embrasse": {
-            "catGram": "nom féminin",
-            "def": "Cordon ou bande d'étoffe qu'on fixe à une patère pour retenir un rideau."
-        },
-        "paluche": {
-            "catGram": "nom féminin",
-            "def": "Main."
-        },
-        "envoyer": {
+        "énerver": {
             "catGram": "verbe",
-            "def": "Faire aller, partir vers un lieu, une situation, une mission."
+            "def": "Susciter l'agacement, l'irritation"
         },
-        "polyphonique": {
+        "godiche": {
             "catGram": "adjectif",
-            "def": "Qui constitue une polyphonie, qui use de la polyphonie."
+            "def": "Qui est maladroit, niais"
+        },
+        "buire": {
+            "catGram": "nom féminin",
+            "def": "Vase à bec évasé et à anse, en métal, verre ou pierre dure destiné autrefois à contenir des boissons, quelquefois des parfums, et devenu objet de décoration."
+        },
+        "bilatéral": {
+            "catGram": "adjectif",
+            "def": "Qui a deux côtés"
         }
     }
 }
