@@ -1,20 +1,20 @@
 {
     "words": {
-        "énerver": {
+        "déterminer": {
             "catGram": "verbe",
-            "def": "Susciter l'agacement, l'irritation"
+            "def": "Établir avec précision à l'aide d'une analyse, d'une mesure."
         },
-        "godiche": {
+        "préjugé": {
+            "catGram": "nom masculin",
+            "def": "Opinion faite a priori en fonction des apparences ou de critères purement personnels."
+        },
+        "acide": {
             "catGram": "adjectif",
-            "def": "Qui est maladroit, niais"
+            "def": "Qui a une saveur aigre, piquante."
         },
-        "buire": {
+        "caution": {
             "catGram": "nom féminin",
-            "def": "Vase à bec évasé et à anse, en métal, verre ou pierre dure destiné autrefois à contenir des boissons, quelquefois des parfums, et devenu objet de décoration."
-        },
-        "bilatéral": {
-            "catGram": "adjectif",
-            "def": "Qui a deux côtés"
+            "def": "Engagement donné ou pris pour garantir l'exécution d'une obligation, souvent financière."
         }
     }
 }
