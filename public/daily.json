@@ -1,20 +1,20 @@
 {
     "words": {
-        "persuader": {
-            "catGram": "verbe",
-            "def": "Amener qqn à croire qqch. ou à vouloir faire qqch."
+        "automobile": {
+            "catGram": "adjectif",
+            "def": "Qui se déplace grâce à un moteur."
         },
-        "prospecter": {
-            "catGram": "verbe",
-            "def": "Rechercher des richesses naturelles du sol ou du sous-sol en vue de leur exploitation, dans une région déterminée."
-        },
-        "bouée": {
+        "clause": {
             "catGram": "nom féminin",
-            "def": "Corps flottant qui sert à indiquer la position d'un écueil, d'un passage, d'un emplacement particulier."
+            "def": "Disposition particulière d’un acte juridique, d’une convention."
         },
-        "interview": {
-            "catGram": "nom féminin",
-            "def": "Entretien d'un journaliste avec une personne qui accepte de répondre à une série de questions."
+        "archevêque": {
+            "catGram": "nom masculin",
+            "def": "Évêque placé à la tête d'un archevêché."
+        },
+        "cuir": {
+            "catGram": "nom masculin",
+            "def": "Peau de l'être humain."
         }
     }
 }
