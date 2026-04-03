@@ -1,20 +1,20 @@
 {
     "words": {
-        "automobile": {
-            "catGram": "adjectif",
-            "def": "Qui se déplace grâce à un moteur."
+        "impliquer": {
+            "catGram": "verbe",
+            "def": "Engager qqn dans une affaire fâcheuse"
         },
-        "clause": {
-            "catGram": "nom féminin",
-            "def": "Disposition particulière d’un acte juridique, d’une convention."
+        "désobstruer": {
+            "catGram": "verbe",
+            "def": "Débarrasser de ce qui obstrue."
         },
-        "archevêque": {
+        "effacement": {
             "catGram": "nom masculin",
-            "def": "Évêque placé à la tête d'un archevêché."
+            "def": "Action d'effacer (qqch.)"
         },
-        "cuir": {
-            "catGram": "nom masculin",
-            "def": "Peau de l'être humain."
+        "ligoter": {
+            "catGram": "verbe",
+            "def": "Lier étroitement qqn pour l'immobiliser."
         }
     }
 }
