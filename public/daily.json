@@ -1,20 +1,20 @@
 {
     "words": {
-        "impliquer": {
+        "flamboyer": {
             "catGram": "verbe",
-            "def": "Engager qqn dans une affaire fâcheuse"
+            "def": "Produire des flammes vives par intermittence."
         },
-        "désobstruer": {
-            "catGram": "verbe",
-            "def": "Débarrasser de ce qui obstrue."
-        },
-        "effacement": {
+        "désengagement": {
             "catGram": "nom masculin",
-            "def": "Action d'effacer (qqch.)"
+            "def": "Action de désengager, de se désengager"
         },
-        "ligoter": {
-            "catGram": "verbe",
-            "def": "Lier étroitement qqn pour l'immobiliser."
+        "fuite": {
+            "catGram": "nom féminin",
+            "def": "Action de fuir"
+        },
+        "corneille": {
+            "catGram": "nom féminin",
+            "def": "Oiseau de taille moyenne, omnivore, et souvent criard, dont la plupart des espèces sont entièrement noires et à plumage luisant."
         }
     }
 }
