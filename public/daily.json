@@ -1,20 +1,20 @@
 {
     "words": {
-        "flamboyer": {
-            "catGram": "verbe",
-            "def": "Produire des flammes vives par intermittence."
+        "vendu": {
+            "catGram": "adjectif",
+            "def": "Cédé contre de l’argent."
         },
-        "désengagement": {
-            "catGram": "nom masculin",
-            "def": "Action de désengager, de se désengager"
+        "hypodermique": {
+            "catGram": "adjectif",
+            "def": "De l'hypoderme, relatif à l'hypoderme"
         },
-        "fuite": {
+        "inéquitable": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas équitable."
+        },
+        "annotation": {
             "catGram": "nom féminin",
-            "def": "Action de fuir"
-        },
-        "corneille": {
-            "catGram": "nom féminin",
-            "def": "Oiseau de taille moyenne, omnivore, et souvent criard, dont la plupart des espèces sont entièrement noires et à plumage luisant."
+            "def": "Action d'annoter."
         }
     }
 }
