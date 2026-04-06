@@ -1,20 +1,20 @@
 {
     "words": {
-        "vendu": {
-            "catGram": "adjectif",
-            "def": "Cédé contre de l’argent."
+        "anormalement": {
+            "catGram": "adverbe",
+            "def": "D'une manière anormale"
         },
-        "hypodermique": {
-            "catGram": "adjectif",
-            "def": "De l'hypoderme, relatif à l'hypoderme"
+        "fascicule": {
+            "catGram": "nom masculin",
+            "def": "Ensemble de feuilles, de cahiers ou groupe de cahiers d'un ouvrage ou d'un périodique publié en plusieurs parties."
         },
-        "inéquitable": {
-            "catGram": "adjectif",
-            "def": "Qui n'est pas équitable."
+        "mets": {
+            "catGram": "nom masculin",
+            "def": "Chacun des aliments apprêtés entrant dans la composition d'un repas."
         },
-        "annotation": {
-            "catGram": "nom féminin",
-            "def": "Action d'annoter."
+        "exempt": {
+            "catGram": "adjectif",
+            "def": "Exonéré, dispensé d'une charge, d'une obligation."
         }
     }
 }
