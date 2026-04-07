@@ -1,20 +1,20 @@
 {
     "words": {
-        "anormalement": {
-            "catGram": "adverbe",
-            "def": "D'une manière anormale"
+        "creuser": {
+            "catGram": "verbe",
+            "def": "Faire une cavité, un trou dans un corps, le rendre creux en enlevant de la matière."
         },
-        "fascicule": {
+        "marmite": {
+            "catGram": "nom féminin",
+            "def": "Grand récipient à bords hauts, à anses et à couvercle, utilisé pour cuire des aliments"
+        },
+        "nef": {
+            "catGram": "nom féminin",
+            "def": "Navire."
+        },
+        "changement": {
             "catGram": "nom masculin",
-            "def": "Ensemble de feuilles, de cahiers ou groupe de cahiers d'un ouvrage ou d'un périodique publié en plusieurs parties."
-        },
-        "mets": {
-            "catGram": "nom masculin",
-            "def": "Chacun des aliments apprêtés entrant dans la composition d'un repas."
-        },
-        "exempt": {
-            "catGram": "adjectif",
-            "def": "Exonéré, dispensé d'une charge, d'une obligation."
+            "def": "Fait de changer, de devenir différent."
         }
     }
 }
