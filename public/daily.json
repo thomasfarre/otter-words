@@ -1,20 +1,20 @@
 {
     "words": {
-        "creuser": {
+        "rembarrer": {
             "catGram": "verbe",
-            "def": "Faire une cavité, un trou dans un corps, le rendre creux en enlevant de la matière."
+            "def": "S'opposer vivement à qqn par un comportement ou des paroles brusques."
         },
-        "marmite": {
-            "catGram": "nom féminin",
-            "def": "Grand récipient à bords hauts, à anses et à couvercle, utilisé pour cuire des aliments"
-        },
-        "nef": {
-            "catGram": "nom féminin",
-            "def": "Navire."
-        },
-        "changement": {
+        "râteau": {
             "catGram": "nom masculin",
-            "def": "Fait de changer, de devenir différent."
+            "def": "Outil de jardinage constitué d'un long manche et d'une traverse munie de dents de fer ou de bois et servant à nettoyer et à égaliser la surface du sol."
+        },
+        "documenter": {
+            "catGram": "verbe",
+            "def": "Fournir des documents à"
+        },
+        "précédemment": {
+            "catGram": "adverbe",
+            "def": "À une époque antérieure."
         }
     }
 }
