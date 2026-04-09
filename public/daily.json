@@ -1,20 +1,20 @@
 {
     "words": {
-        "rembarrer": {
-            "catGram": "verbe",
-            "def": "S'opposer vivement à qqn par un comportement ou des paroles brusques."
-        },
-        "râteau": {
+        "jubilé": {
             "catGram": "nom masculin",
-            "def": "Outil de jardinage constitué d'un long manche et d'une traverse munie de dents de fer ou de bois et servant à nettoyer et à égaliser la surface du sol."
+            "def": "Indulgence plénière accordée par le pape tous les vingt-cinq ans, lors de l'année sainte"
         },
-        "documenter": {
+        "oindre": {
             "catGram": "verbe",
-            "def": "Fournir des documents à"
+            "def": "Enduire d'une substance grasse, notamment d'huile."
         },
-        "précédemment": {
-            "catGram": "adverbe",
-            "def": "À une époque antérieure."
+        "blasé": {
+            "catGram": "adjectif",
+            "def": "Qui est dégoûté de qqch."
+        },
+        "pâté": {
+            "catGram": "nom masculin",
+            "def": "Préparation de charcuterie, hachis de viandes épicées ou de poisson, cuit dans une terrine et consommé froid."
         }
     }
 }
