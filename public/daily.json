@@ -1,20 +1,20 @@
 {
     "words": {
-        "jubilé": {
+        "astéroïde": {
             "catGram": "nom masculin",
-            "def": "Indulgence plénière accordée par le pape tous les vingt-cinq ans, lors de l'année sainte"
+            "def": "Petit corps céleste du système solaire"
         },
-        "oindre": {
-            "catGram": "verbe",
-            "def": "Enduire d'une substance grasse, notamment d'huile."
+        "discernement": {
+            "catGram": "nom masculin",
+            "def": "Opération de l'esprit par laquelle on discerne"
         },
-        "blasé": {
+        "alopécie": {
+            "catGram": "nom féminin",
+            "def": "Chute totale ou partielle des cheveux ou des poils."
+        },
+        "interminable": {
             "catGram": "adjectif",
-            "def": "Qui est dégoûté de qqch."
-        },
-        "pâté": {
-            "catGram": "nom masculin",
-            "def": "Préparation de charcuterie, hachis de viandes épicées ou de poisson, cuit dans une terrine et consommé froid."
+            "def": "Qui n'a pas ou ne semble pas avoir de fin, de limite"
         }
     }
 }
