@@ -1,20 +1,20 @@
 {
     "words": {
-        "astéroïde": {
+        "épauler": {
+            "catGram": "verbe",
+            "def": "Aider, assister."
+        },
+        "humaniste": {
+            "catGram": "nom épicène",
+            "def": "Érudit de la Renaissance qui, s'inspirant des auteurs antiques, a exalté la dignité de l'esprit humain."
+        },
+        "compter": {
+            "catGram": "verbe",
+            "def": "Déterminer (une grandeur numérique) par un calcul."
+        },
+        "voltage": {
             "catGram": "nom masculin",
-            "def": "Petit corps céleste du système solaire"
-        },
-        "discernement": {
-            "catGram": "nom masculin",
-            "def": "Opération de l'esprit par laquelle on discerne"
-        },
-        "alopécie": {
-            "catGram": "nom féminin",
-            "def": "Chute totale ou partielle des cheveux ou des poils."
-        },
-        "interminable": {
-            "catGram": "adjectif",
-            "def": "Qui n'a pas ou ne semble pas avoir de fin, de limite"
+            "def": "Force électromotrice ou différence de potentiel mesurée en volts."
         }
     }
 }
