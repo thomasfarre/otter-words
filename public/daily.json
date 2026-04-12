@@ -1,20 +1,20 @@
 {
     "words": {
-        "épauler": {
+        "moelle": {
+            "catGram": "nom féminin",
+            "def": "tissu mou de l'intérieur des os, responsable de la production des cellules sanguines."
+        },
+        "thérapie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble de traitements visant à combattre la maladie."
+        },
+        "identifier": {
             "catGram": "verbe",
-            "def": "Aider, assister."
+            "def": "Considérer comme identique, assimilable à qqn ou à qqch. d'autre."
         },
-        "humaniste": {
-            "catGram": "nom épicène",
-            "def": "Érudit de la Renaissance qui, s'inspirant des auteurs antiques, a exalté la dignité de l'esprit humain."
-        },
-        "compter": {
-            "catGram": "verbe",
-            "def": "Déterminer (une grandeur numérique) par un calcul."
-        },
-        "voltage": {
-            "catGram": "nom masculin",
-            "def": "Force électromotrice ou différence de potentiel mesurée en volts."
+        "crise": {
+            "catGram": "nom féminin",
+            "def": "Changement subit et généralement décisif, en bien ou en mal, dans l'évolution d'une maladie."
         }
     }
 }
