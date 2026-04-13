@@ -1,20 +1,20 @@
 {
     "words": {
-        "moelle": {
-            "catGram": "nom féminin",
-            "def": "tissu mou de l'intérieur des os, responsable de la production des cellules sanguines."
+        "escroc": {
+            "catGram": "nom masculin",
+            "def": "Personne qui a l'habitude d'escroquer."
         },
-        "thérapie": {
+        "plaidoirie": {
             "catGram": "nom féminin",
-            "def": "Ensemble de traitements visant à combattre la maladie."
+            "def": "Exposé oral d’un avocat qui soutient une cause, défend un client devant le tribunal."
         },
-        "identifier": {
-            "catGram": "verbe",
-            "def": "Considérer comme identique, assimilable à qqn ou à qqch. d'autre."
-        },
-        "crise": {
+        "épiphanie": {
             "catGram": "nom féminin",
-            "def": "Changement subit et généralement décisif, en bien ou en mal, dans l'évolution d'une maladie."
+            "def": "Fête catholique célébrée le 6 janvier pour commémorer la manifestation de Jésus aux Rois mages venus l'adorer."
+        },
+        "asthénie": {
+            "catGram": "nom féminin",
+            "def": "Affaiblissement général"
         }
     }
 }
