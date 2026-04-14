@@ -1,20 +1,20 @@
 {
     "words": {
-        "escroc": {
+        "sociologie": {
+            "catGram": "nom féminin",
+            "def": "Science qui étudie les sociétés humaines et les faits sociaux."
+        },
+        "malaise": {
             "catGram": "nom masculin",
-            "def": "Personne qui a l'habitude d'escroquer."
+            "def": "Trouble passager de la santé, ne constituant pas une maladie caractérisée et qui se traduit généralement par une sensation de faiblesse, des étourdissements, des suées, des nausées"
         },
-        "plaidoirie": {
-            "catGram": "nom féminin",
-            "def": "Exposé oral d’un avocat qui soutient une cause, défend un client devant le tribunal."
+        "exciter": {
+            "catGram": "verbe",
+            "def": "Provoquer, susciter (une réaction physique, psychologique)."
         },
-        "épiphanie": {
-            "catGram": "nom féminin",
-            "def": "Fête catholique célébrée le 6 janvier pour commémorer la manifestation de Jésus aux Rois mages venus l'adorer."
-        },
-        "asthénie": {
-            "catGram": "nom féminin",
-            "def": "Affaiblissement général"
+        "ronchonner": {
+            "catGram": "verbe",
+            "def": "Manifester sa mauvaise humeur, son dépit, en murmurant plus ou moins distinctement des mots de mécontentement."
         }
     }
 }
