@@ -1,20 +1,20 @@
 {
     "words": {
-        "sociologie": {
-            "catGram": "nom féminin",
-            "def": "Science qui étudie les sociétés humaines et les faits sociaux."
+        "automatiquement": {
+            "catGram": "adverbe",
+            "def": "De manière automatique."
         },
-        "malaise": {
-            "catGram": "nom masculin",
-            "def": "Trouble passager de la santé, ne constituant pas une maladie caractérisée et qui se traduit généralement par une sensation de faiblesse, des étourdissements, des suées, des nausées"
+        "constitutif": {
+            "catGram": "adjectif",
+            "def": "Qui entre dans la constitution, dans la composition de qqch."
         },
-        "exciter": {
+        "agrémenter": {
             "catGram": "verbe",
-            "def": "Provoquer, susciter (une réaction physique, psychologique)."
+            "def": "Rendre plus agréable, donner de l'agrément"
         },
-        "ronchonner": {
-            "catGram": "verbe",
-            "def": "Manifester sa mauvaise humeur, son dépit, en murmurant plus ou moins distinctement des mots de mécontentement."
+        "pratiquant": {
+            "catGram": "adjectif",
+            "def": "Qui observe les pratiques de sa religion."
         }
     }
 }
