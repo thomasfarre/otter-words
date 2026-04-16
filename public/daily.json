@@ -1,20 +1,20 @@
 {
     "words": {
-        "automatiquement": {
-            "catGram": "adverbe",
-            "def": "De manière automatique."
+        "gratitude": {
+            "catGram": "nom féminin",
+            "def": "Sentiment de reconnaissance et d'affection envers qqn dont on est l'obligé à l’occasion d’un bienfait reçu ou d’un service rendu"
         },
-        "constitutif": {
-            "catGram": "adjectif",
-            "def": "Qui entre dans la constitution, dans la composition de qqch."
+        "faisceau": {
+            "catGram": "nom masculin",
+            "def": "Assemblage de choses de même nature et de forme allongée, liées ensemble ou qui convergent à une de leur extrémité."
         },
-        "agrémenter": {
+        "relayer": {
             "catGram": "verbe",
-            "def": "Rendre plus agréable, donner de l'agrément"
+            "def": "Prendre la suite de qqn pour assurer la continuité d'une action."
         },
-        "pratiquant": {
+        "ultime": {
             "catGram": "adjectif",
-            "def": "Qui observe les pratiques de sa religion."
+            "def": "Qui se situe dans le temps à la fin d'un processus et qui le clôt."
         }
     }
 }
