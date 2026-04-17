@@ -1,20 +1,20 @@
 {
     "words": {
-        "gratitude": {
-            "catGram": "nom féminin",
-            "def": "Sentiment de reconnaissance et d'affection envers qqn dont on est l'obligé à l’occasion d’un bienfait reçu ou d’un service rendu"
-        },
-        "faisceau": {
+        "vautour": {
             "catGram": "nom masculin",
-            "def": "Assemblage de choses de même nature et de forme allongée, liées ensemble ou qui convergent à une de leur extrémité."
+            "def": "Grand oiseau de proie dont la tête et le cou sont généralement dépourvus de plumes et qui se nourrit surtout de charogne."
         },
-        "relayer": {
-            "catGram": "verbe",
-            "def": "Prendre la suite de qqn pour assurer la continuité d'une action."
-        },
-        "ultime": {
+        "éhonté": {
             "catGram": "adjectif",
-            "def": "Qui se situe dans le temps à la fin d'un processus et qui le clôt."
+            "def": "Qui n'éprouve pas de honte malgré une conduite répréhensible"
+        },
+        "scie": {
+            "catGram": "nom féminin",
+            "def": "Machine-outil ou outil muni d’une lame métallique dentée servant à entamer et à couper un matériau dur grâce à un mouvement de va-et-vient ou de rotation."
+        },
+        "virement": {
+            "catGram": "nom masculin",
+            "def": "Fait de virer de bord."
         }
     }
 }
