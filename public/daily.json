@@ -1,20 +1,20 @@
 {
     "words": {
-        "vautour": {
+        "mendier": {
+            "catGram": "verbe",
+            "def": "Demander l’aumône."
+        },
+        "insérer": {
+            "catGram": "verbe",
+            "def": "Introduire un objet dans une chose."
+        },
+        "prolétariat": {
             "catGram": "nom masculin",
-            "def": "Grand oiseau de proie dont la tête et le cou sont généralement dépourvus de plumes et qui se nourrit surtout de charogne."
+            "def": "Condition du prolétaire."
         },
-        "éhonté": {
-            "catGram": "adjectif",
-            "def": "Qui n'éprouve pas de honte malgré une conduite répréhensible"
-        },
-        "scie": {
+        "locomotive": {
             "catGram": "nom féminin",
-            "def": "Machine-outil ou outil muni d’une lame métallique dentée servant à entamer et à couper un matériau dur grâce à un mouvement de va-et-vient ou de rotation."
-        },
-        "virement": {
-            "catGram": "nom masculin",
-            "def": "Fait de virer de bord."
+            "def": "Puissant véhicule à moteur qui tracte un convoi de voitures ou de wagons sur une voie ferrée."
         }
     }
 }
