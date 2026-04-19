@@ -1,20 +1,20 @@
 {
     "words": {
-        "mendier": {
-            "catGram": "verbe",
-            "def": "Demander l’aumône."
-        },
-        "insérer": {
-            "catGram": "verbe",
-            "def": "Introduire un objet dans une chose."
-        },
-        "prolétariat": {
+        "troupier": {
             "catGram": "nom masculin",
-            "def": "Condition du prolétaire."
+            "def": "Simple soldat"
         },
-        "locomotive": {
-            "catGram": "nom féminin",
-            "def": "Puissant véhicule à moteur qui tracte un convoi de voitures ou de wagons sur une voie ferrée."
+        "monarque": {
+            "catGram": "nom épicène",
+            "def": "Personne qui est à la tête de l'État dans une monarchie"
+        },
+        "exactement": {
+            "catGram": "adverbe",
+            "def": "D'une manière exacte."
+        },
+        "recaler": {
+            "catGram": "verbe",
+            "def": "Déclarer qqn non-admis à un concours, une épreuve, un examen."
         }
     }
 }
