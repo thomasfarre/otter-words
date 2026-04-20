@@ -1,20 +1,20 @@
 {
     "words": {
-        "troupier": {
+        "banditisme": {
             "catGram": "nom masculin",
-            "def": "Simple soldat"
+            "def": "Agissements de bandit."
         },
-        "monarque": {
-            "catGram": "nom épicène",
-            "def": "Personne qui est à la tête de l'État dans une monarchie"
+        "tremplin": {
+            "catGram": "nom masculin",
+            "def": "Planche inclinée ou élastique permettant aux sauteurs et aux plongeurs d'augmenter la hauteur ou la longueur de leur saut."
         },
-        "exactement": {
-            "catGram": "adverbe",
-            "def": "D'une manière exacte."
+        "virtuosité": {
+            "catGram": "nom féminin",
+            "def": "Talent exceptionnel, technique parfaite, habileté de virtuose."
         },
-        "recaler": {
+        "sous-évaluer": {
             "catGram": "verbe",
-            "def": "Déclarer qqn non-admis à un concours, une épreuve, un examen."
+            "def": "Évaluer au-dessous de sa valeur véritable"
         }
     }
 }
