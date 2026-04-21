@@ -1,20 +1,20 @@
 {
     "words": {
-        "banditisme": {
-            "catGram": "nom masculin",
-            "def": "Agissements de bandit."
+        "musulman": {
+            "catGram": "adjectif",
+            "def": "Qui professe la religion islamique."
         },
-        "tremplin": {
+        "paradis": {
             "catGram": "nom masculin",
-            "def": "Planche inclinée ou élastique permettant aux sauteurs et aux plongeurs d'augmenter la hauteur ou la longueur de leur saut."
+            "def": "Verger, parc, jardin arrosé et planté d'arbres."
         },
-        "virtuosité": {
+        "défaveur": {
             "catGram": "nom féminin",
-            "def": "Talent exceptionnel, technique parfaite, habileté de virtuose."
+            "def": "Perte d'estime"
         },
-        "sous-évaluer": {
-            "catGram": "verbe",
-            "def": "Évaluer au-dessous de sa valeur véritable"
+        "maths": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des disciplines qui procèdent selon la méthode déductive et qui étudient les propriétés des êtres abstraits comme les nombres, les figures géométriques ainsi que les relations qui existent entre eux."
         }
     }
 }
