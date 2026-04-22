@@ -1,20 +1,20 @@
 {
     "words": {
-        "musulman": {
-            "catGram": "adjectif",
-            "def": "Qui professe la religion islamique."
-        },
-        "paradis": {
+        "équilibre": {
             "catGram": "nom masculin",
-            "def": "Verger, parc, jardin arrosé et planté d'arbres."
+            "def": "Égalité entre des composantes dont les forces s'opposent et s'annulent"
         },
-        "défaveur": {
-            "catGram": "nom féminin",
-            "def": "Perte d'estime"
+        "protectionniste": {
+            "catGram": "adjectif",
+            "def": "Relatif au protectionnisme"
         },
-        "maths": {
+        "gratis": {
+            "catGram": "adverbe",
+            "def": "Sans avoir à payer."
+        },
+        "contrebande": {
             "catGram": "nom féminin",
-            "def": "Ensemble des disciplines qui procèdent selon la méthode déductive et qui étudient les propriétés des êtres abstraits comme les nombres, les figures géométriques ainsi que les relations qui existent entre eux."
+            "def": "Commerce clandestin de marchandises prohibées ou pour lesquelles les droits de douane n’ont pas été acquittés."
         }
     }
 }
