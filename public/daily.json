@@ -1,20 +1,20 @@
 {
     "words": {
-        "équilibre": {
+        "pronom": {
             "catGram": "nom masculin",
-            "def": "Égalité entre des composantes dont les forces s'opposent et s'annulent"
+            "def": "Mot grammatical, variable en nombre, en genre, en personne et selon la fonction, qui remplit les mêmes fonctions qu'un nom."
         },
-        "protectionniste": {
+        "mythique": {
             "catGram": "adjectif",
-            "def": "Relatif au protectionnisme"
+            "def": "Relatif au mythe"
         },
-        "gratis": {
-            "catGram": "adverbe",
-            "def": "Sans avoir à payer."
+        "tintement": {
+            "catGram": "nom masculin",
+            "def": "Son d'une cloche ou d'une clochette qui tinte."
         },
-        "contrebande": {
-            "catGram": "nom féminin",
-            "def": "Commerce clandestin de marchandises prohibées ou pour lesquelles les droits de douane n’ont pas été acquittés."
+        "fatigué": {
+            "catGram": "adjectif",
+            "def": "Dont les forces ont diminué, généralement à la suite d'une activité excessive ou trop prolongée."
         }
     }
 }
