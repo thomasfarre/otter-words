@@ -1,20 +1,20 @@
 {
     "words": {
-        "pronom": {
+        "anticiper": {
+            "catGram": "verbe",
+            "def": "Exécuter avant le moment prévu, le temps déterminé."
+        },
+        "bondir": {
+            "catGram": "verbe",
+            "def": "Faire un ou plusieurs bonds"
+        },
+        "prépondérance": {
+            "catGram": "nom féminin",
+            "def": "Supériorité d'autorité, de crédit, de considération, de pouvoir."
+        },
+        "répit": {
             "catGram": "nom masculin",
-            "def": "Mot grammatical, variable en nombre, en genre, en personne et selon la fonction, qui remplit les mêmes fonctions qu'un nom."
-        },
-        "mythique": {
-            "catGram": "adjectif",
-            "def": "Relatif au mythe"
-        },
-        "tintement": {
-            "catGram": "nom masculin",
-            "def": "Son d'une cloche ou d'une clochette qui tinte."
-        },
-        "fatigué": {
-            "catGram": "adjectif",
-            "def": "Dont les forces ont diminué, généralement à la suite d'une activité excessive ou trop prolongée."
+            "def": "Arrêt momentané d'une action, d'une contrainte, d'une tension, d'une souffrance physique ou morale."
         }
     }
 }
