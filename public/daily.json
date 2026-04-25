@@ -1,20 +1,20 @@
 {
     "words": {
-        "anticiper": {
-            "catGram": "verbe",
-            "def": "Exécuter avant le moment prévu, le temps déterminé."
+        "subtil": {
+            "catGram": "adjectif",
+            "def": "Qui a, qui manifeste de la finesse, de l'ingéniosité, de la pénétration"
         },
-        "bondir": {
-            "catGram": "verbe",
-            "def": "Faire un ou plusieurs bonds"
-        },
-        "prépondérance": {
-            "catGram": "nom féminin",
-            "def": "Supériorité d'autorité, de crédit, de considération, de pouvoir."
-        },
-        "répit": {
+        "intérêt": {
             "catGram": "nom masculin",
-            "def": "Arrêt momentané d'une action, d'une contrainte, d'une tension, d'une souffrance physique ou morale."
+            "def": "Ce qui convient à qqn, qui lui est utile, avantageux."
+        },
+        "mollusque": {
+            "catGram": "nom masculin",
+            "def": "Animal invertébré des milieux aquatiques ou humides, à morphologie très variable, dont le corps mou est souvent protégé par une coquille calcaire."
+        },
+        "lendemain": {
+            "catGram": "nom masculin",
+            "def": "Jour qui suit celui dont on parle."
         }
     }
 }
