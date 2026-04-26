@@ -1,20 +1,20 @@
 {
     "words": {
-        "subtil": {
+        "sperme": {
+            "catGram": "nom masculin",
+            "def": "Liquide visqueux et blanchâtre qui contient les spermatozoïdes, sécrété par les glandes génitales mâles et expulsé lors de l'éjaculation."
+        },
+        "impossible": {
             "catGram": "adjectif",
-            "def": "Qui a, qui manifeste de la finesse, de l'ingéniosité, de la pénétration"
+            "def": "Qui ne peut être ou ne peut se produire."
         },
-        "intérêt": {
-            "catGram": "nom masculin",
-            "def": "Ce qui convient à qqn, qui lui est utile, avantageux."
+        "cérébral": {
+            "catGram": "adjectif",
+            "def": "Relatif au cerveau, à l'encéphale."
         },
-        "mollusque": {
-            "catGram": "nom masculin",
-            "def": "Animal invertébré des milieux aquatiques ou humides, à morphologie très variable, dont le corps mou est souvent protégé par une coquille calcaire."
-        },
-        "lendemain": {
-            "catGram": "nom masculin",
-            "def": "Jour qui suit celui dont on parle."
+        "serge": {
+            "catGram": "nom féminin",
+            "def": "Tissu en laine, d'armure sergé."
         }
     }
 }
