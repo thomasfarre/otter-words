@@ -1,20 +1,20 @@
 {
     "words": {
-        "sperme": {
+        "zigzag": {
             "catGram": "nom masculin",
-            "def": "Liquide visqueux et blanchâtre qui contient les spermatozoïdes, sécrété par les glandes génitales mâles et expulsé lors de l'éjaculation."
+            "def": "Ligne brisée formant une suite d'angles"
         },
-        "impossible": {
+        "bariolé": {
             "catGram": "adjectif",
-            "def": "Qui ne peut être ou ne peut se produire."
+            "def": "Marqué de couleurs disparates, mal assorties."
         },
-        "cérébral": {
-            "catGram": "adjectif",
-            "def": "Relatif au cerveau, à l'encéphale."
+        "ligament": {
+            "catGram": "nom masculin",
+            "def": "Bande de tissu fibreux blanchâtre, résistant et peu extensible, reliant entre eux les éléments constituant une articulation ou maintenant divers organes."
         },
-        "serge": {
-            "catGram": "nom féminin",
-            "def": "Tissu en laine, d'armure sergé."
+        "méchamment": {
+            "catGram": "adverbe",
+            "def": "Avec cruauté, méchanceté."
         }
     }
 }
