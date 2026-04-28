@@ -1,20 +1,20 @@
 {
     "words": {
-        "zigzag": {
-            "catGram": "nom masculin",
-            "def": "Ligne brisée formant une suite d'angles"
+        "dégauchisseuse": {
+            "catGram": "nom féminin",
+            "def": "Machine-outil servant à dégauchir des pièces de bois ou de métal."
         },
-        "bariolé": {
+        "popularité": {
+            "catGram": "nom féminin",
+            "def": "Fait d’être populaire, d’être connu et aimé du peuple, du plus grand nombre"
+        },
+        "dénoter": {
+            "catGram": "verbe",
+            "def": "Être le signe de qqch."
+        },
+        "rassis": {
             "catGram": "adjectif",
-            "def": "Marqué de couleurs disparates, mal assorties."
-        },
-        "ligament": {
-            "catGram": "nom masculin",
-            "def": "Bande de tissu fibreux blanchâtre, résistant et peu extensible, reliant entre eux les éléments constituant une articulation ou maintenant divers organes."
-        },
-        "méchamment": {
-            "catGram": "adverbe",
-            "def": "Avec cruauté, méchanceté."
+            "def": "Desséché sans être dur, en parlant de pain ou d'aliments à base de pâte"
         }
     }
 }
