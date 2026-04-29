@@ -1,20 +1,20 @@
 {
     "words": {
-        "dégauchisseuse": {
-            "catGram": "nom féminin",
-            "def": "Machine-outil servant à dégauchir des pièces de bois ou de métal."
-        },
-        "popularité": {
-            "catGram": "nom féminin",
-            "def": "Fait d’être populaire, d’être connu et aimé du peuple, du plus grand nombre"
-        },
-        "dénoter": {
-            "catGram": "verbe",
-            "def": "Être le signe de qqch."
-        },
-        "rassis": {
+        "juste": {
             "catGram": "adjectif",
-            "def": "Desséché sans être dur, en parlant de pain ou d'aliments à base de pâte"
+            "def": "Qui agit conformément à la justice, à l’équité"
+        },
+        "enseigner": {
+            "catGram": "verbe",
+            "def": "Transmettre des connaissances de type scolaire ou non à."
+        },
+        "tonne": {
+            "catGram": "nom féminin",
+            "def": "Tonneau de très grande taille"
+        },
+        "baccalauréat": {
+            "catGram": "nom masculin",
+            "def": "Grade conféré à la suite d'un examen qui termine les études secondaires"
         }
     }
 }
