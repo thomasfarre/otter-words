@@ -1,20 +1,20 @@
 {
     "words": {
-        "juste": {
-            "catGram": "adjectif",
-            "def": "Qui agit conformément à la justice, à l’équité"
-        },
-        "enseigner": {
+        "exploiter": {
             "catGram": "verbe",
-            "def": "Transmettre des connaissances de type scolaire ou non à."
+            "def": "Faire valoir, tirer profit en faisant produire."
         },
-        "tonne": {
-            "catGram": "nom féminin",
-            "def": "Tonneau de très grande taille"
+        "justement": {
+            "catGram": "adverbe",
+            "def": "Conformément à la justice"
         },
-        "baccalauréat": {
-            "catGram": "nom masculin",
-            "def": "Grade conféré à la suite d'un examen qui termine les études secondaires"
+        "inepte": {
+            "catGram": "adjectif",
+            "def": "Qui n’a pas d’aptitude pour qqch."
+        },
+        "appesantir": {
+            "catGram": "verbe",
+            "def": "Rendre lourd, pesant."
         }
     }
 }
