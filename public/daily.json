@@ -1,20 +1,20 @@
 {
     "words": {
-        "exploiter": {
-            "catGram": "verbe",
-            "def": "Faire valoir, tirer profit en faisant produire."
-        },
-        "justement": {
-            "catGram": "adverbe",
-            "def": "Conformément à la justice"
-        },
-        "inepte": {
+        "incommode": {
             "catGram": "adjectif",
-            "def": "Qui n’a pas d’aptitude pour qqch."
+            "def": "Qui n’est pas pratique, qui est mal adapté à l’usage qu’on veut en faire"
         },
-        "appesantir": {
-            "catGram": "verbe",
-            "def": "Rendre lourd, pesant."
+        "égoïste": {
+            "catGram": "adjectif",
+            "def": "Qui n'est occupé que par son intérêt ou son plaisir propre"
+        },
+        "groupe": {
+            "catGram": "nom masculin",
+            "def": "Ensemble d'êtres animés ou de choses réunis en un même lieu."
+        },
+        "allégoriquement": {
+            "catGram": "adverbe",
+            "def": "D'une manière allégorique."
         }
     }
 }
