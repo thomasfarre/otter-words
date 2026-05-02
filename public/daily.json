@@ -1,20 +1,20 @@
 {
     "words": {
-        "incommode": {
-            "catGram": "adjectif",
-            "def": "Qui n’est pas pratique, qui est mal adapté à l’usage qu’on veut en faire"
+        "indisposition": {
+            "catGram": "nom féminin",
+            "def": "Altération plus ou moins grave de la santé."
         },
-        "égoïste": {
-            "catGram": "adjectif",
-            "def": "Qui n'est occupé que par son intérêt ou son plaisir propre"
-        },
-        "groupe": {
-            "catGram": "nom masculin",
-            "def": "Ensemble d'êtres animés ou de choses réunis en un même lieu."
-        },
-        "allégoriquement": {
+        "actuellement": {
             "catGram": "adverbe",
-            "def": "D'une manière allégorique."
+            "def": "Dans les circonstances actuelles, en ce moment."
+        },
+        "acclimatement": {
+            "catGram": "nom masculin",
+            "def": "Fait de s'acclimater, d'être acclimaté."
+        },
+        "donnée": {
+            "catGram": "nom féminin",
+            "def": "Quantité connue dans l'énoncé d'un problème et qui sert à trouver la solution."
         }
     }
 }
