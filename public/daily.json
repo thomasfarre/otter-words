@@ -1,20 +1,20 @@
 {
     "words": {
-        "indisposition": {
+        "contestataire": {
+            "catGram": "adjectif",
+            "def": "Qui conteste."
+        },
+        "monte": {
             "catGram": "nom féminin",
-            "def": "Altération plus ou moins grave de la santé."
+            "def": "Accouplement, en parlant de certains animaux domestiques."
         },
-        "actuellement": {
-            "catGram": "adverbe",
-            "def": "Dans les circonstances actuelles, en ce moment."
+        "poisseux": {
+            "catGram": "adjectif",
+            "def": "Gluant, collant comme de la poix."
         },
-        "acclimatement": {
-            "catGram": "nom masculin",
-            "def": "Fait de s'acclimater, d'être acclimaté."
-        },
-        "donnée": {
+        "philologie": {
             "catGram": "nom féminin",
-            "def": "Quantité connue dans l'énoncé d'un problème et qui sert à trouver la solution."
+            "def": "Étude d’une langue fondée sur l’analyse critique des textes."
         }
     }
 }
