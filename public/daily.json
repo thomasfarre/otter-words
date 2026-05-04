@@ -1,20 +1,20 @@
 {
     "words": {
-        "contestataire": {
-            "catGram": "adjectif",
-            "def": "Qui conteste."
+        "chèque": {
+            "catGram": "nom masculin",
+            "def": "Écrit par lequel le titulaire d'un compte donne l'ordre de payer à lui-même ou à un tiers une somme déterminée, à prélever immédiatement sur les fonds portés au crédit de ce compte."
         },
-        "monte": {
+        "uniquement": {
+            "catGram": "adverbe",
+            "def": "Exclusivement."
+        },
+        "chair": {
             "catGram": "nom féminin",
-            "def": "Accouplement, en parlant de certains animaux domestiques."
+            "def": "Composante du corps."
         },
-        "poisseux": {
-            "catGram": "adjectif",
-            "def": "Gluant, collant comme de la poix."
-        },
-        "philologie": {
+        "cicatrice": {
             "catGram": "nom féminin",
-            "def": "Étude d’une langue fondée sur l’analyse critique des textes."
+            "def": "Marque laissée par une blessure ou une plaie après la guérison."
         }
     }
 }
