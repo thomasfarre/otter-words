@@ -1,20 +1,20 @@
 {
     "words": {
-        "chèque": {
-            "catGram": "nom masculin",
-            "def": "Écrit par lequel le titulaire d'un compte donne l'ordre de payer à lui-même ou à un tiers une somme déterminée, à prélever immédiatement sur les fonds portés au crédit de ce compte."
-        },
-        "uniquement": {
+        "laborieusement": {
             "catGram": "adverbe",
-            "def": "Exclusivement."
+            "def": "D'une manière laborieuse"
         },
-        "chair": {
-            "catGram": "nom féminin",
-            "def": "Composante du corps."
+        "déterminer": {
+            "catGram": "verbe",
+            "def": "Établir avec précision à l'aide d'une analyse, d'une mesure."
         },
-        "cicatrice": {
-            "catGram": "nom féminin",
-            "def": "Marque laissée par une blessure ou une plaie après la guérison."
+        "gravement": {
+            "catGram": "adverbe",
+            "def": "Avec gravité (dans le ton, le maintien, les manières)."
+        },
+        "favorable": {
+            "catGram": "adjectif",
+            "def": "Qui juge positivement, approuve"
         }
     }
 }
