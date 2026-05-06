@@ -1,20 +1,20 @@
 {
     "words": {
-        "laborieusement": {
-            "catGram": "adverbe",
-            "def": "D'une manière laborieuse"
-        },
-        "déterminer": {
+        "plaire": {
             "catGram": "verbe",
-            "def": "Établir avec précision à l'aide d'une analyse, d'une mesure."
+            "def": "Éveiller la sympathie chez qqn"
         },
-        "gravement": {
-            "catGram": "adverbe",
-            "def": "Avec gravité (dans le ton, le maintien, les manières)."
+        "étouffer": {
+            "catGram": "verbe",
+            "def": "Faire mourir en empêchant la respiration."
         },
-        "favorable": {
-            "catGram": "adjectif",
-            "def": "Qui juge positivement, approuve"
+        "beuverie": {
+            "catGram": "nom féminin",
+            "def": "Fait de boire avec excès"
+        },
+        "laboratoire": {
+            "catGram": "nom masculin",
+            "def": "Local spécialement aménagé pour effectuer des expériences, des analyses d'ordre scientifique ou technique exigeant un espace, des conditions ou du matériel spécifique."
         }
     }
 }
