@@ -1,20 +1,20 @@
 {
     "words": {
-        "imprimé": {
-            "catGram": "nom masculin",
-            "def": "Étoffe décorée de motifs ou de couleurs, appliqués au moyen de techniques d'impression."
-        },
-        "clandestinement": {
-            "catGram": "adverbe",
-            "def": "D'une manière clandestine."
-        },
-        "intoxiquer": {
-            "catGram": "verbe",
-            "def": "Affecter les fonctions organiques par l'absorption de substances toxiques, de poison."
-        },
-        "initiale": {
+        "étourdi": {
             "catGram": "adjectif",
-            "def": "Qui marque l’origine, le début de qqch."
+            "def": "Qui agit de façon irréfléchie, irraisonnée, sans prêter attention"
+        },
+        "caqueter": {
+            "catGram": "verbe",
+            "def": "Glousser, en parlant de la poule qui pond."
+        },
+        "courtois": {
+            "catGram": "adjectif",
+            "def": "Dont la manière d'être, de parler, d'agir exprime une politesse attentionnée"
+        },
+        "plénière": {
+            "catGram": "adjectif",
+            "def": "Complet, total, parfait, d'une intensité maximale."
         }
     }
 }
