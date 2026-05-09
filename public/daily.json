@@ -1,20 +1,20 @@
 {
     "words": {
-        "étourdi": {
-            "catGram": "adjectif",
-            "def": "Qui agit de façon irréfléchie, irraisonnée, sans prêter attention"
+        "emprisonnement": {
+            "catGram": "nom masculin",
+            "def": "Fait d'emprisonner"
         },
-        "caqueter": {
-            "catGram": "verbe",
-            "def": "Glousser, en parlant de la poule qui pond."
+        "luxation": {
+            "catGram": "nom féminin",
+            "def": "Déplacement des surfaces articulaires des os qui perdent leurs contacts normaux."
         },
-        "courtois": {
+        "immonde": {
             "catGram": "adjectif",
-            "def": "Dont la manière d'être, de parler, d'agir exprime une politesse attentionnée"
+            "def": "Contraire à la pureté rituelle, à la pureté de la foi."
         },
-        "plénière": {
-            "catGram": "adjectif",
-            "def": "Complet, total, parfait, d'une intensité maximale."
+        "théâtre": {
+            "catGram": "nom masculin",
+            "def": "Construction à ciel ouvert, comprenant une scène, des gradins en forme d'hémicycle généralement adossés à une colline, et donnant sur un paysage de mer ou de montagnes."
         }
     }
 }
