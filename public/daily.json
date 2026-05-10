@@ -1,20 +1,20 @@
 {
     "words": {
-        "emprisonnement": {
+        "réservoir": {
             "catGram": "nom masculin",
-            "def": "Fait d'emprisonner"
+            "def": "Bassin naturel"
         },
-        "luxation": {
+        "pâtre": {
+            "catGram": "nom masculin",
+            "def": "Personne qui fait paître les troupeaux et qui les garde."
+        },
+        "épargner": {
+            "catGram": "verbe",
+            "def": "Réduire l'usage de qqch. afin d'en constituer une réserve."
+        },
+        "luette": {
             "catGram": "nom féminin",
-            "def": "Déplacement des surfaces articulaires des os qui perdent leurs contacts normaux."
-        },
-        "immonde": {
-            "catGram": "adjectif",
-            "def": "Contraire à la pureté rituelle, à la pureté de la foi."
-        },
-        "théâtre": {
-            "catGram": "nom masculin",
-            "def": "Construction à ciel ouvert, comprenant une scène, des gradins en forme d'hémicycle généralement adossés à une colline, et donnant sur un paysage de mer ou de montagnes."
+            "def": "Appendice charnu prolongeant le bord postérieur du voile du palais."
         }
     }
 }
