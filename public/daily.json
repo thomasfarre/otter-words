@@ -1,20 +1,20 @@
 {
     "words": {
-        "réservoir": {
-            "catGram": "nom masculin",
-            "def": "Bassin naturel"
+        "chez": {
+            "catGram": "préposition",
+            "def": "Dans le domicile de, dans la maison de."
         },
-        "pâtre": {
-            "catGram": "nom masculin",
-            "def": "Personne qui fait paître les troupeaux et qui les garde."
+        "stratégique": {
+            "catGram": "adjectif",
+            "def": "Qui est relatif à la stratégie."
         },
-        "épargner": {
+        "invraisemblable": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas vraisemblable, qui ne semble pas vrai."
+        },
+        "hacher": {
             "catGram": "verbe",
-            "def": "Réduire l'usage de qqch. afin d'en constituer une réserve."
-        },
-        "luette": {
-            "catGram": "nom féminin",
-            "def": "Appendice charnu prolongeant le bord postérieur du voile du palais."
+            "def": "Couper qqch. en petits morceaux généralement avec un instrument tranchant."
         }
     }
 }
