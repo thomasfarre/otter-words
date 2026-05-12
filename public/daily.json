@@ -1,20 +1,20 @@
 {
     "words": {
-        "chez": {
-            "catGram": "préposition",
-            "def": "Dans le domicile de, dans la maison de."
+        "alouette": {
+            "catGram": "nom féminin",
+            "def": "Petit oiseau des milieux ouverts, à plumage généralement brunâtre et à ventre clair, qui se tient généralement au sol et se nourrit de graines et d’insectes, et dont le chant du mâle est plus ou moins développé selon les espèces."
         },
-        "stratégique": {
+        "sou": {
+            "catGram": "nom masculin",
+            "def": "Dans la France de l'Ancien Régime, pièce de monnaie valant un vingtième de l'ancienne livre."
+        },
+        "carnavalesque": {
             "catGram": "adjectif",
-            "def": "Qui est relatif à la stratégie."
+            "def": "Relatif au carnaval."
         },
-        "invraisemblable": {
-            "catGram": "adjectif",
-            "def": "Qui n'est pas vraisemblable, qui ne semble pas vrai."
-        },
-        "hacher": {
-            "catGram": "verbe",
-            "def": "Couper qqch. en petits morceaux généralement avec un instrument tranchant."
+        "résille": {
+            "catGram": "nom féminin",
+            "def": "Filet à larges mailles dans lequel on enserre les cheveux."
         }
     }
 }
