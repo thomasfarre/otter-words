@@ -1,20 +1,20 @@
 {
     "words": {
-        "alouette": {
-            "catGram": "nom féminin",
-            "def": "Petit oiseau des milieux ouverts, à plumage généralement brunâtre et à ventre clair, qui se tient généralement au sol et se nourrit de graines et d’insectes, et dont le chant du mâle est plus ou moins développé selon les espèces."
+        "fabricant": {
+            "catGram": "nom",
+            "def": "Personne qui fabrique, fait fabriquer des produits ou des objets manufacturés"
         },
-        "sou": {
+        "plaider": {
+            "catGram": "verbe",
+            "def": "Contester qqch. en justice"
+        },
+        "gyroscope": {
             "catGram": "nom masculin",
-            "def": "Dans la France de l'Ancien Régime, pièce de monnaie valant un vingtième de l'ancienne livre."
+            "def": "Dispositif dont l'axe de rotation garde toujours la même direction malgré les changements de direction du véhicule porteur, utilisé dans différents appareils de navigation."
         },
-        "carnavalesque": {
-            "catGram": "adjectif",
-            "def": "Relatif au carnaval."
-        },
-        "résille": {
-            "catGram": "nom féminin",
-            "def": "Filet à larges mailles dans lequel on enserre les cheveux."
+        "dissiper": {
+            "catGram": "verbe",
+            "def": "Faire disparaître en dispersant, en écartant."
         }
     }
 }
