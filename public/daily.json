@@ -1,20 +1,20 @@
 {
     "words": {
-        "fabricant": {
-            "catGram": "nom",
-            "def": "Personne qui fabrique, fait fabriquer des produits ou des objets manufacturés"
+        "humaniste": {
+            "catGram": "nom épicène",
+            "def": "Érudit de la Renaissance qui, s'inspirant des auteurs antiques, a exalté la dignité de l'esprit humain."
         },
-        "plaider": {
+        "bouffer": {
             "catGram": "verbe",
-            "def": "Contester qqch. en justice"
+            "def": "Prendre du volume"
         },
-        "gyroscope": {
-            "catGram": "nom masculin",
-            "def": "Dispositif dont l'axe de rotation garde toujours la même direction malgré les changements de direction du véhicule porteur, utilisé dans différents appareils de navigation."
+        "soudainement": {
+            "catGram": "adverbe",
+            "def": "De manière soudaine."
         },
-        "dissiper": {
-            "catGram": "verbe",
-            "def": "Faire disparaître en dispersant, en écartant."
+        "numérique": {
+            "catGram": "adjectif",
+            "def": "Qui concerne des nombres, qui se présente sous la forme de nombres ou de chiffres, ou qui concerne des opérations sur des nombres"
         }
     }
 }
