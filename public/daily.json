@@ -1,20 +1,20 @@
 {
     "words": {
-        "humaniste": {
-            "catGram": "nom épicène",
-            "def": "Érudit de la Renaissance qui, s'inspirant des auteurs antiques, a exalté la dignité de l'esprit humain."
-        },
-        "bouffer": {
-            "catGram": "verbe",
-            "def": "Prendre du volume"
-        },
-        "soudainement": {
-            "catGram": "adverbe",
-            "def": "De manière soudaine."
-        },
-        "numérique": {
+        "irritable": {
             "catGram": "adjectif",
-            "def": "Qui concerne des nombres, qui se présente sous la forme de nombres ou de chiffres, ou qui concerne des opérations sur des nombres"
+            "def": "Qui s'emporte, se fâche facilement."
+        },
+        "ampleur": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est ample, large, volumineux."
+        },
+        "poire": {
+            "catGram": "nom féminin",
+            "def": "Fruit à pépins du poirier, de forme plus allongée que la pomme et plus étroit dans sa partie supérieure, dont la peau est généralement jaunâtre ou verdâtre, et dont la chair, blanchâtre et sucrée, a une texture fine ou légèrement graveleuse."
+        },
+        "eurythmique": {
+            "catGram": "adjectif",
+            "def": "Harmonieux, équilibré."
         }
     }
 }
