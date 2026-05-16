@@ -1,20 +1,20 @@
 {
     "words": {
-        "irritable": {
+        "rassasié": {
             "catGram": "adjectif",
-            "def": "Qui s'emporte, se fâche facilement."
+            "def": "Dont la faim est pleinement satisfaite"
         },
-        "ampleur": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est ample, large, volumineux."
-        },
-        "poire": {
-            "catGram": "nom féminin",
-            "def": "Fruit à pépins du poirier, de forme plus allongée que la pomme et plus étroit dans sa partie supérieure, dont la peau est généralement jaunâtre ou verdâtre, et dont la chair, blanchâtre et sucrée, a une texture fine ou légèrement graveleuse."
-        },
-        "eurythmique": {
+        "assourdissant": {
             "catGram": "adjectif",
-            "def": "Harmonieux, équilibré."
+            "def": "Qui assourdit."
+        },
+        "lièvre": {
+            "catGram": "nom masculin",
+            "def": "Mammifère sauvage de l'hémisphère Nord, voisin du lapin mais à corps plus allongé, à oreilles plus longues et pourvu de pattes postérieures plus longues et plus puissantes, qui peut se déplacer par bonds très rapides et dont le pelage brunâtre blanchit en hiver dans les régions nordiques"
+        },
+        "diagonale": {
+            "catGram": "adjectif",
+            "def": "Qui joint les sommets de deux angles non consécutifs d'un polygone ou d'un polyèdre."
         }
     }
 }
