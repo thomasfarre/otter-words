@@ -1,20 +1,20 @@
 {
     "words": {
-        "rassasié": {
-            "catGram": "adjectif",
-            "def": "Dont la faim est pleinement satisfaite"
+        "espion": {
+            "catGram": "nom",
+            "def": "Personne chargée de recueillir clandestinement des renseignements au profit d'une puissance étrangère."
         },
-        "assourdissant": {
+        "inégalé": {
             "catGram": "adjectif",
-            "def": "Qui assourdit."
+            "def": "Qui n'est pas, n'a pas encore été égalé."
         },
-        "lièvre": {
-            "catGram": "nom masculin",
-            "def": "Mammifère sauvage de l'hémisphère Nord, voisin du lapin mais à corps plus allongé, à oreilles plus longues et pourvu de pattes postérieures plus longues et plus puissantes, qui peut se déplacer par bonds très rapides et dont le pelage brunâtre blanchit en hiver dans les régions nordiques"
-        },
-        "diagonale": {
+        "compact": {
             "catGram": "adjectif",
-            "def": "Qui joint les sommets de deux angles non consécutifs d'un polygone ou d'un polyèdre."
+            "def": "Dont les parties sont très resserrées, étroitement liées."
+        },
+        "imprimerie": {
+            "catGram": "nom féminin",
+            "def": "Art de reproduire des textes, des illustrations par impression."
         }
     }
 }
