@@ -1,20 +1,20 @@
 {
     "words": {
-        "espion": {
-            "catGram": "nom",
-            "def": "Personne chargée de recueillir clandestinement des renseignements au profit d'une puissance étrangère."
+        "renouer": {
+            "catGram": "verbe",
+            "def": "Refaire un nœud"
         },
-        "inégalé": {
-            "catGram": "adjectif",
-            "def": "Qui n'est pas, n'a pas encore été égalé."
+        "consul": {
+            "catGram": "nom masculin",
+            "def": "Chacun des deux magistrats élus par le peuple pour un an, qui exerçaient le pouvoir suprême."
         },
-        "compact": {
-            "catGram": "adjectif",
-            "def": "Dont les parties sont très resserrées, étroitement liées."
+        "accorder": {
+            "catGram": "verbe",
+            "def": "Mettre en harmonie des choses éventuellement ou effectivement opposées."
         },
-        "imprimerie": {
-            "catGram": "nom féminin",
-            "def": "Art de reproduire des textes, des illustrations par impression."
+        "embaucher": {
+            "catGram": "verbe",
+            "def": "Prendre qqn à son service pour un travail, moyennant salaire, généralement en vue d'un travail manuel"
         }
     }
 }
