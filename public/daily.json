@@ -1,20 +1,20 @@
 {
     "words": {
-        "renouer": {
-            "catGram": "verbe",
-            "def": "Refaire un nœud"
+        "fluctuation": {
+            "catGram": "nom féminin",
+            "def": "Variation, absence de fixité."
         },
-        "consul": {
+        "poitrine": {
+            "catGram": "nom féminin",
+            "def": "Partie du corps humain qui s'étend des épaules à l'abdomen."
+        },
+        "martin-pêcheur": {
             "catGram": "nom masculin",
-            "def": "Chacun des deux magistrats élus par le peuple pour un an, qui exerçaient le pouvoir suprême."
+            "def": "Petit oiseau à plumage très varié, à long bec robuste et à tête massive, qui vit au bord de l’eau et qui se nourrit principalement de poissons qu’il capture en plongeant depuis un perchoir ou après un vol sur place."
         },
-        "accorder": {
-            "catGram": "verbe",
-            "def": "Mettre en harmonie des choses éventuellement ou effectivement opposées."
-        },
-        "embaucher": {
-            "catGram": "verbe",
-            "def": "Prendre qqn à son service pour un travail, moyennant salaire, généralement en vue d'un travail manuel"
+        "ail": {
+            "catGram": "nom masculin",
+            "def": "Plante bulbeuse des régions tempérées de l’hémisphère Nord, voisine de l’oignon, à feuilles longues et minces, à tige dressée portant des fleurs en ombelle, dont on cultive diverses espèces pour leur valeur alimentaire et ornementale."
         }
     }
 }
