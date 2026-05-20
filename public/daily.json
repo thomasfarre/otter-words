@@ -1,20 +1,20 @@
 {
     "words": {
-        "fluctuation": {
-            "catGram": "nom féminin",
-            "def": "Variation, absence de fixité."
-        },
-        "poitrine": {
-            "catGram": "nom féminin",
-            "def": "Partie du corps humain qui s'étend des épaules à l'abdomen."
-        },
-        "martin-pêcheur": {
+        "exil": {
             "catGram": "nom masculin",
-            "def": "Petit oiseau à plumage très varié, à long bec robuste et à tête massive, qui vit au bord de l’eau et qui se nourrit principalement de poissons qu’il capture en plongeant depuis un perchoir ou après un vol sur place."
+            "def": "Peine qui condamne qqn à quitter son pays, avec interdiction d'y revenir, soit définitivement, soit pour un certain temps."
         },
-        "ail": {
-            "catGram": "nom masculin",
-            "def": "Plante bulbeuse des régions tempérées de l’hémisphère Nord, voisine de l’oignon, à feuilles longues et minces, à tige dressée portant des fleurs en ombelle, dont on cultive diverses espèces pour leur valeur alimentaire et ornementale."
+        "littéraire": {
+            "catGram": "adjectif",
+            "def": "Relatif à la littérature."
+        },
+        "parcelle": {
+            "catGram": "nom féminin",
+            "def": "Petite partie (surtout de matière)."
+        },
+        "plumer": {
+            "catGram": "verbe",
+            "def": "Arracher les plumes d’un oiseau, d’une volaille."
         }
     }
 }
