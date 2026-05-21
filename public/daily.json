@@ -1,20 +1,20 @@
 {
     "words": {
-        "exil": {
-            "catGram": "nom masculin",
-            "def": "Peine qui condamne qqn à quitter son pays, avec interdiction d'y revenir, soit définitivement, soit pour un certain temps."
-        },
-        "littéraire": {
+        "inaltérable": {
             "catGram": "adjectif",
-            "def": "Relatif à la littérature."
+            "def": "Qui ne peut s'altérer"
         },
-        "parcelle": {
+        "fatigué": {
+            "catGram": "adjectif",
+            "def": "Dont les forces ont diminué, généralement à la suite d'une activité excessive ou trop prolongée."
+        },
+        "spécification": {
             "catGram": "nom féminin",
-            "def": "Petite partie (surtout de matière)."
+            "def": "Action de spécifier."
         },
-        "plumer": {
-            "catGram": "verbe",
-            "def": "Arracher les plumes d’un oiseau, d’une volaille."
+        "interstice": {
+            "catGram": "nom masculin",
+            "def": "Petit espace vide entre les éléments d’un tout."
         }
     }
 }
