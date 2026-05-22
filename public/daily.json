@@ -1,20 +1,20 @@
 {
     "words": {
-        "inaltérable": {
-            "catGram": "adjectif",
-            "def": "Qui ne peut s'altérer"
-        },
-        "fatigué": {
-            "catGram": "adjectif",
-            "def": "Dont les forces ont diminué, généralement à la suite d'une activité excessive ou trop prolongée."
-        },
-        "spécification": {
-            "catGram": "nom féminin",
-            "def": "Action de spécifier."
-        },
-        "interstice": {
+        "côté": {
             "catGram": "nom masculin",
-            "def": "Petit espace vide entre les éléments d’un tout."
+            "def": "Partie latérale de la cage thoracique chez l'être humain et chez certains animaux"
+        },
+        "ossature": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des os du corps."
+        },
+        "préserver": {
+            "catGram": "verbe",
+            "def": "Mettre à l'abri d'un danger, d'un mal physique ou moral."
+        },
+        "renommée": {
+            "catGram": "nom féminin",
+            "def": "Rumeur que répand l'opinion publique à propos de qqn ou de qqch."
         }
     }
 }
