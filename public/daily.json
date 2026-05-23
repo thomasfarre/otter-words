@@ -1,20 +1,20 @@
 {
     "words": {
-        "côté": {
+        "graves": {
             "catGram": "nom masculin",
-            "def": "Partie latérale de la cage thoracique chez l'être humain et chez certains animaux"
+            "def": "Bordeaux produit dans la région des Graves."
         },
-        "ossature": {
-            "catGram": "nom féminin",
-            "def": "Ensemble des os du corps."
-        },
-        "préserver": {
+        "fidéliser": {
             "catGram": "verbe",
-            "def": "Mettre à l'abri d'un danger, d'un mal physique ou moral."
+            "def": "Rendre la clientèle fidèle à (un produit, un service, une marque, un point de vente)."
         },
-        "renommée": {
-            "catGram": "nom féminin",
-            "def": "Rumeur que répand l'opinion publique à propos de qqn ou de qqch."
+        "perpétuel": {
+            "catGram": "adjectif",
+            "def": "Qui ne cesse pas, qui dure indéfiniment."
+        },
+        "pari": {
+            "catGram": "nom masculin",
+            "def": "Convention par laquelle deux ou plusieurs parties, soutenant des opinions contraires, s'engagent à donner qqch. (argent, bénéfice) à celle qui aura raison."
         }
     }
 }
