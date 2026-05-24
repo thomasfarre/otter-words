@@ -1,20 +1,20 @@
 {
     "words": {
-        "graves": {
-            "catGram": "nom masculin",
-            "def": "Bordeaux produit dans la région des Graves."
-        },
-        "fidéliser": {
+        "approcher": {
             "catGram": "verbe",
-            "def": "Rendre la clientèle fidèle à (un produit, un service, une marque, un point de vente)."
+            "def": "Mettre qqch. près (de qqch.)."
         },
-        "perpétuel": {
+        "limité": {
             "catGram": "adjectif",
-            "def": "Qui ne cesse pas, qui dure indéfiniment."
+            "def": "Qui a des limites"
         },
-        "pari": {
+        "pourquoi": {
+            "catGram": "adverbe",
+            "def": "Sert à interroger directement ou indirectement sur la cause, le motif."
+        },
+        "sursis": {
             "catGram": "nom masculin",
-            "def": "Convention par laquelle deux ou plusieurs parties, soutenant des opinions contraires, s'engagent à donner qqch. (argent, bénéfice) à celle qui aura raison."
+            "def": "Fait de suspendre momentanément, d'ajourner l'exécution, l'application d'une décision, d'une mesure"
         }
     }
 }
