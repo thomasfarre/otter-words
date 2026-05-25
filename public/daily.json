@@ -1,20 +1,20 @@
 {
     "words": {
-        "approcher": {
+        "siéger": {
             "catGram": "verbe",
-            "def": "Mettre qqch. près (de qqch.)."
+            "def": "Tenir séance."
         },
-        "limité": {
-            "catGram": "adjectif",
-            "def": "Qui a des limites"
+        "vôtre": {
+            "catGram": "adjectif possessif",
+            "def": "Qui vous appartient, qui vous est propre."
         },
-        "pourquoi": {
-            "catGram": "adverbe",
-            "def": "Sert à interroger directement ou indirectement sur la cause, le motif."
+        "retenue": {
+            "catGram": "nom féminin",
+            "def": "Action de retenir, de garder."
         },
-        "sursis": {
-            "catGram": "nom masculin",
-            "def": "Fait de suspendre momentanément, d'ajourner l'exécution, l'application d'une décision, d'une mesure"
+        "dénomination": {
+            "catGram": "nom féminin",
+            "def": "Désignation d’une personne ou d’une chose par un nom."
         }
     }
 }
