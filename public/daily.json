@@ -1,20 +1,20 @@
 {
     "words": {
-        "siéger": {
+        "reculade": {
+            "catGram": "nom féminin",
+            "def": "Action de reculer, mouvement en arrière."
+        },
+        "lessive": {
+            "catGram": "nom féminin",
+            "def": "Solution alcaline servant aux lavages et aux nettoyages ménagers et industriels."
+        },
+        "amusant": {
+            "catGram": "adjectif",
+            "def": "Qui amuse, distrait."
+        },
+        "trépasser": {
             "catGram": "verbe",
-            "def": "Tenir séance."
-        },
-        "vôtre": {
-            "catGram": "adjectif possessif",
-            "def": "Qui vous appartient, qui vous est propre."
-        },
-        "retenue": {
-            "catGram": "nom féminin",
-            "def": "Action de retenir, de garder."
-        },
-        "dénomination": {
-            "catGram": "nom féminin",
-            "def": "Désignation d’une personne ou d’une chose par un nom."
+            "def": "Mourir."
         }
     }
 }
