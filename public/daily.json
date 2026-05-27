@@ -1,20 +1,20 @@
 {
     "words": {
-        "reculade": {
+        "intuition": {
             "catGram": "nom féminin",
-            "def": "Action de reculer, mouvement en arrière."
+            "def": "Connaissance spontanée d'une vérité qui se présente à la pensée, sans l'aide du raisonnement."
         },
-        "lessive": {
+        "ortie": {
             "catGram": "nom féminin",
-            "def": "Solution alcaline servant aux lavages et aux nettoyages ménagers et industriels."
+            "def": "Plante des régions tempérées, à tiges et à larges feuilles dentées recouvertes de poils urticants, à minuscules fleurs verdâtres réunies en épis ou en grappes, dont on cultive certaines variétés à des fins médicinales, cosmétiques ou culinaires."
         },
-        "amusant": {
+        "significatif": {
             "catGram": "adjectif",
-            "def": "Qui amuse, distrait."
+            "def": "Qui a une signification très nette"
         },
-        "trépasser": {
-            "catGram": "verbe",
-            "def": "Mourir."
+        "bataillon": {
+            "catGram": "nom masculin",
+            "def": "Unité militaire qui compose un régiment et qui est formée de plusieurs compagnies."
         }
     }
 }
