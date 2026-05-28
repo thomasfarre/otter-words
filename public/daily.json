@@ -1,20 +1,20 @@
 {
     "words": {
-        "intuition": {
-            "catGram": "nom féminin",
-            "def": "Connaissance spontanée d'une vérité qui se présente à la pensée, sans l'aide du raisonnement."
-        },
-        "ortie": {
-            "catGram": "nom féminin",
-            "def": "Plante des régions tempérées, à tiges et à larges feuilles dentées recouvertes de poils urticants, à minuscules fleurs verdâtres réunies en épis ou en grappes, dont on cultive certaines variétés à des fins médicinales, cosmétiques ou culinaires."
-        },
-        "significatif": {
-            "catGram": "adjectif",
-            "def": "Qui a une signification très nette"
-        },
-        "bataillon": {
+        "épiderme": {
             "catGram": "nom masculin",
-            "def": "Unité militaire qui compose un régiment et qui est formée de plusieurs compagnies."
+            "def": "Couche superficielle de la peau, qui protège le derme."
+        },
+        "verglas": {
+            "catGram": "nom masculin",
+            "def": "Couche de glace lisse et transparente qui se forme lorsque des gouttes de pluie en surfusion entrent en contact avec un corps solide ou lorsque la pluie tombe sur un sol dont la température est inférieure à 0 °C."
+        },
+        "bile": {
+            "catGram": "nom féminin",
+            "def": "Liquide visqueux sécrété par le foie, stocké dans la vésicule biliaire avant d'être rejeté dans le duodénum lors de la digestion."
+        },
+        "menteur": {
+            "catGram": "adjectif",
+            "def": "Qui a tendance à mentir."
         }
     }
 }
