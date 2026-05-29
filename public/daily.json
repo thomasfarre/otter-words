@@ -1,20 +1,20 @@
 {
     "words": {
-        "épiderme": {
+        "délai": {
             "catGram": "nom masculin",
-            "def": "Couche superficielle de la peau, qui protège le derme."
+            "def": "Laps de temps autorisé pour réaliser qqch."
         },
-        "verglas": {
-            "catGram": "nom masculin",
-            "def": "Couche de glace lisse et transparente qui se forme lorsque des gouttes de pluie en surfusion entrent en contact avec un corps solide ou lorsque la pluie tombe sur un sol dont la température est inférieure à 0 °C."
-        },
-        "bile": {
+        "reproduction": {
             "catGram": "nom féminin",
-            "def": "Liquide visqueux sécrété par le foie, stocké dans la vésicule biliaire avant d'être rejeté dans le duodénum lors de la digestion."
+            "def": "Action, fonction par laquelle les êtres vivants produisent d'autres êtres qui leur sont semblables."
         },
-        "menteur": {
-            "catGram": "adjectif",
-            "def": "Qui a tendance à mentir."
+        "appendice": {
+            "catGram": "nom masculin",
+            "def": "Partie accessoire, qui prolonge, complète une partie principale."
+        },
+        "camoufler": {
+            "catGram": "verbe",
+            "def": "Déguiser, rendre méconnaissable ou difficilement visible."
         }
     }
 }
