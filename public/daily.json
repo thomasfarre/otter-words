@@ -1,20 +1,20 @@
 {
     "words": {
-        "délai": {
+        "magnat": {
             "catGram": "nom masculin",
-            "def": "Laps de temps autorisé pour réaliser qqch."
+            "def": "Titre porté par les membres de la haute noblesse en Pologne et en Hongrie."
         },
-        "reproduction": {
+        "balustrade": {
             "catGram": "nom féminin",
-            "def": "Action, fonction par laquelle les êtres vivants produisent d'autres êtres qui leur sont semblables."
+            "def": "Rangée de balustres que surmonte une tablette d'appui."
         },
-        "appendice": {
-            "catGram": "nom masculin",
-            "def": "Partie accessoire, qui prolonge, complète une partie principale."
+        "agressivité": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est agressif."
         },
-        "camoufler": {
-            "catGram": "verbe",
-            "def": "Déguiser, rendre méconnaissable ou difficilement visible."
+        "piqûre": {
+            "catGram": "nom féminin",
+            "def": "Petite lésion provoquée par la perforation de la peau ou d’une muqueuse par un instrument pointu, un animal ou un végétal."
         }
     }
 }
