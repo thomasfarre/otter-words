@@ -1,20 +1,20 @@
 {
     "words": {
-        "magnat": {
+        "moderniser": {
+            "catGram": "verbe",
+            "def": "Donner à qqn, à qqch. un aspect, un caractère moderne, adapté à l'époque et aux usages actuels."
+        },
+        "oursin": {
             "catGram": "nom masculin",
-            "def": "Titre porté par les membres de la haute noblesse en Pologne et en Hongrie."
+            "def": "Petit animal invertébré marin, commun sur les fonds côtiers, de forme arrondie (sphérique ou aplatie selon les espèces) et à bouche ventrale, qui est recouvert d’une enveloppe calcaire et de piquants mobiles plus ou moins allongés"
         },
-        "balustrade": {
-            "catGram": "nom féminin",
-            "def": "Rangée de balustres que surmonte une tablette d'appui."
+        "intransitif": {
+            "catGram": "adjectif",
+            "def": "Verbe qui ne peut avoir qu’un complément circonstanciel ou un attribut du sujet (ex. :aller à Sherbrooke,manger dans la cuisine,être gentil)."
         },
-        "agressivité": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est agressif."
-        },
-        "piqûre": {
-            "catGram": "nom féminin",
-            "def": "Petite lésion provoquée par la perforation de la peau ou d’une muqueuse par un instrument pointu, un animal ou un végétal."
+        "douter": {
+            "catGram": "verbe",
+            "def": "Être dans le doute sur (l'existence de qqch., la valeur ou la vérité d'une affirmation)."
         }
     }
 }
