@@ -1,20 +1,20 @@
 {
     "words": {
-        "moderniser": {
-            "catGram": "verbe",
-            "def": "Donner à qqn, à qqch. un aspect, un caractère moderne, adapté à l'époque et aux usages actuels."
-        },
-        "oursin": {
-            "catGram": "nom masculin",
-            "def": "Petit animal invertébré marin, commun sur les fonds côtiers, de forme arrondie (sphérique ou aplatie selon les espèces) et à bouche ventrale, qui est recouvert d’une enveloppe calcaire et de piquants mobiles plus ou moins allongés"
-        },
-        "intransitif": {
+        "docile": {
             "catGram": "adjectif",
-            "def": "Verbe qui ne peut avoir qu’un complément circonstanciel ou un attribut du sujet (ex. :aller à Sherbrooke,manger dans la cuisine,être gentil)."
+            "def": "Qui obéit facilement, se laisse diriger"
         },
-        "douter": {
-            "catGram": "verbe",
-            "def": "Être dans le doute sur (l'existence de qqch., la valeur ou la vérité d'une affirmation)."
+        "phototype": {
+            "catGram": "nom masculin",
+            "def": "Image, cliché obtenu directement après exposition et traitement d'une couche photosensible."
+        },
+        "déclin": {
+            "catGram": "nom masculin",
+            "def": "État de ce qui s'éloigne, décroît, penche vers sa fin, perd de sa vitalité."
+        },
+        "obéissance": {
+            "catGram": "nom féminin",
+            "def": "Action d’obéir"
         }
     }
 }
