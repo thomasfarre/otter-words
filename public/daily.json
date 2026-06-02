@@ -1,20 +1,20 @@
 {
     "words": {
-        "docile": {
-            "catGram": "adjectif",
-            "def": "Qui obéit facilement, se laisse diriger"
+        "employer": {
+            "catGram": "verbe",
+            "def": "Faire usage de qqch."
         },
-        "phototype": {
+        "micro-organisme": {
             "catGram": "nom masculin",
-            "def": "Image, cliché obtenu directement après exposition et traitement d'une couche photosensible."
+            "def": "Organisme vivant de taille microscopique."
         },
-        "déclin": {
-            "catGram": "nom masculin",
-            "def": "État de ce qui s'éloigne, décroît, penche vers sa fin, perd de sa vitalité."
-        },
-        "obéissance": {
+        "progression": {
             "catGram": "nom féminin",
-            "def": "Action d’obéir"
+            "def": "Action de progresser dans l'espace, dans le temps."
+        },
+        "atmosphérique": {
+            "catGram": "adjectif",
+            "def": "Qui se rapporte à l'atmosphère."
         }
     }
 }
