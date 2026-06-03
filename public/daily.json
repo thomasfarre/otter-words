@@ -1,20 +1,20 @@
 {
     "words": {
-        "employer": {
-            "catGram": "verbe",
-            "def": "Faire usage de qqch."
-        },
-        "micro-organisme": {
+        "ciné": {
             "catGram": "nom masculin",
-            "def": "Organisme vivant de taille microscopique."
+            "def": "Procédé permettant l'enregistrement et la projection d'images animées, accompagnée ou non de son."
         },
-        "progression": {
-            "catGram": "nom féminin",
-            "def": "Action de progresser dans l'espace, dans le temps."
+        "détriment": {
+            "catGram": "nom masculin",
+            "def": "Dommage, préjudice subi par qqn."
         },
-        "atmosphérique": {
+        "pénible": {
             "catGram": "adjectif",
-            "def": "Qui se rapporte à l'atmosphère."
+            "def": "Qui se fait avec peine, fatigue et souffrance."
+        },
+        "expansion": {
+            "catGram": "nom féminin",
+            "def": "Accroissement du volume ou de la surface d'un corps"
         }
     }
 }
