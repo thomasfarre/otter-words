@@ -1,20 +1,20 @@
 {
     "words": {
-        "ciné": {
-            "catGram": "nom masculin",
-            "def": "Procédé permettant l'enregistrement et la projection d'images animées, accompagnée ou non de son."
+        "purifier": {
+            "catGram": "verbe",
+            "def": "Rendre pur, plus pur"
         },
-        "détriment": {
-            "catGram": "nom masculin",
-            "def": "Dommage, préjudice subi par qqn."
-        },
-        "pénible": {
+        "entêté": {
             "catGram": "adjectif",
-            "def": "Qui se fait avec peine, fatigue et souffrance."
+            "def": "Qui s’entête."
         },
-        "expansion": {
+        "dénier": {
+            "catGram": "verbe",
+            "def": "Nier formellement, refuser d'admettre comme vrai (un fait, une déclaration, des propos, etc.)."
+        },
+        "suppuration": {
             "catGram": "nom féminin",
-            "def": "Accroissement du volume ou de la surface d'un corps"
+            "def": "Production et écoulement de pus."
         }
     }
 }
