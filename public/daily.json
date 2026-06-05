@@ -1,20 +1,20 @@
 {
     "words": {
-        "purifier": {
-            "catGram": "verbe",
-            "def": "Rendre pur, plus pur"
-        },
-        "entêté": {
-            "catGram": "adjectif",
-            "def": "Qui s’entête."
-        },
-        "dénier": {
-            "catGram": "verbe",
-            "def": "Nier formellement, refuser d'admettre comme vrai (un fait, une déclaration, des propos, etc.)."
-        },
-        "suppuration": {
+        "commisération": {
             "catGram": "nom féminin",
-            "def": "Production et écoulement de pus."
+            "def": "Sympathie et préoccupation face aux souffrances de qqn."
+        },
+        "légendaire": {
+            "catGram": "adjectif",
+            "def": "Qui n’existe que dans les légendes."
+        },
+        "domicile": {
+            "catGram": "nom masculin",
+            "def": "Lieu où l’on réside habituellement."
+        },
+        "reclus": {
+            "catGram": "adjectif",
+            "def": "Qui vit retiré, à l'écart du monde."
         }
     }
 }
