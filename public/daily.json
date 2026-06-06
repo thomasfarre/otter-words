@@ -1,20 +1,20 @@
 {
     "words": {
-        "commisération": {
-            "catGram": "nom féminin",
-            "def": "Sympathie et préoccupation face aux souffrances de qqn."
-        },
-        "légendaire": {
-            "catGram": "adjectif",
-            "def": "Qui n’existe que dans les légendes."
-        },
-        "domicile": {
+        "dialecte": {
             "catGram": "nom masculin",
-            "def": "Lieu où l’on réside habituellement."
+            "def": "Système linguistique de diffusion et de statut culturel et social limités."
         },
-        "reclus": {
-            "catGram": "adjectif",
-            "def": "Qui vit retiré, à l'écart du monde."
+        "palmarès": {
+            "catGram": "nom masculin",
+            "def": "Liste des lauréats d'une distribution des prix, d'un concours, des vainqueurs d'une épreuve sportive."
+        },
+        "châtaigne": {
+            "catGram": "nom féminin",
+            "def": "Fruit sec du châtaignier, de forme assez arrondie mais avec un côté plat, à coque brun rougeâtre et à amande (graine) farineuse, qui croît généralement par trois dans une grosse enveloppe épineuse (bogue) et qui se consomme cuit."
+        },
+        "sachem": {
+            "catGram": "nom masculin",
+            "def": "Ancien faisant partie d'un conseil et assurant des fonctions de chef chez les Premières Nations du nord-est de l'Amérique du Nord."
         }
     }
 }
