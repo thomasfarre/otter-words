@@ -1,20 +1,20 @@
 {
     "words": {
-        "dialecte": {
-            "catGram": "nom masculin",
-            "def": "Système linguistique de diffusion et de statut culturel et social limités."
+        "statuer": {
+            "catGram": "verbe",
+            "def": "Décider à propos de qqch., conformément à la loi et en vertu de l'autorité dont on est investi."
         },
-        "palmarès": {
-            "catGram": "nom masculin",
-            "def": "Liste des lauréats d'une distribution des prix, d'un concours, des vainqueurs d'une épreuve sportive."
+        "moderniser": {
+            "catGram": "verbe",
+            "def": "Donner à qqn, à qqch. un aspect, un caractère moderne, adapté à l'époque et aux usages actuels."
         },
-        "châtaigne": {
-            "catGram": "nom féminin",
-            "def": "Fruit sec du châtaignier, de forme assez arrondie mais avec un côté plat, à coque brun rougeâtre et à amande (graine) farineuse, qui croît généralement par trois dans une grosse enveloppe épineuse (bogue) et qui se consomme cuit."
+        "cramponner": {
+            "catGram": "verbe",
+            "def": "Attacher, assembler au moyen de crampons."
         },
-        "sachem": {
-            "catGram": "nom masculin",
-            "def": "Ancien faisant partie d'un conseil et assurant des fonctions de chef chez les Premières Nations du nord-est de l'Amérique du Nord."
+        "harmoniser": {
+            "catGram": "verbe",
+            "def": "Mettre en harmonie, en accord."
         }
     }
 }
