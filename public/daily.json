@@ -1,20 +1,20 @@
 {
     "words": {
-        "statuer": {
-            "catGram": "verbe",
-            "def": "Décider à propos de qqch., conformément à la loi et en vertu de l'autorité dont on est investi."
+        "bravo": {
+            "catGram": "interjection",
+            "def": "Interjection marquant la satisfaction, l'approbation, voire l'enthousiasme."
         },
-        "moderniser": {
-            "catGram": "verbe",
-            "def": "Donner à qqn, à qqch. un aspect, un caractère moderne, adapté à l'époque et aux usages actuels."
+        "stupéfait": {
+            "catGram": "adjectif",
+            "def": "Étonné au point d'être sans réaction."
         },
-        "cramponner": {
-            "catGram": "verbe",
-            "def": "Attacher, assembler au moyen de crampons."
+        "chaussette": {
+            "catGram": "nom féminin",
+            "def": "Pièce d’habillement qui couvre le pied et le bas de la jambe."
         },
-        "harmoniser": {
-            "catGram": "verbe",
-            "def": "Mettre en harmonie, en accord."
+        "divertissement": {
+            "catGram": "nom masculin",
+            "def": "Détournement par un cohéritier ou un conjoint d'une partie de la succession ou des effets de la communauté."
         }
     }
 }
