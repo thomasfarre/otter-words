@@ -1,20 +1,20 @@
 {
     "words": {
-        "bravo": {
-            "catGram": "interjection",
-            "def": "Interjection marquant la satisfaction, l'approbation, voire l'enthousiasme."
-        },
-        "stupéfait": {
-            "catGram": "adjectif",
-            "def": "Étonné au point d'être sans réaction."
-        },
-        "chaussette": {
-            "catGram": "nom féminin",
-            "def": "Pièce d’habillement qui couvre le pied et le bas de la jambe."
-        },
-        "divertissement": {
+        "angle": {
             "catGram": "nom masculin",
-            "def": "Détournement par un cohéritier ou un conjoint d'une partie de la succession ou des effets de la communauté."
+            "def": "Coin formé par deux lignes ou deux surfaces qui se coupent."
+        },
+        "gageure": {
+            "catGram": "nom féminin",
+            "def": "Engagement réciproque à donner qqch. (argent, objet) à la personne qui gagne un pari, une contestation."
+        },
+        "épater": {
+            "catGram": "verbe",
+            "def": "Étonner au point de faire tomber à la renverse."
+        },
+        "prestidigitateur": {
+            "catGram": "nom",
+            "def": "Artiste qui, grâce à sa dextérité manuelle et à des truquages, produit des illusions en faisant apparaître, disparaître ou changer de place ou d'aspect un objet."
         }
     }
 }
