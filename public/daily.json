@@ -1,20 +1,20 @@
 {
     "words": {
-        "angle": {
+        "encensement": {
             "catGram": "nom masculin",
-            "def": "Coin formé par deux lignes ou deux surfaces qui se coupent."
+            "def": "Action d'encenser."
         },
-        "gageure": {
+        "paire": {
             "catGram": "nom féminin",
-            "def": "Engagement réciproque à donner qqch. (argent, objet) à la personne qui gagne un pari, une contestation."
+            "def": "Réunion de deux choses, symétriques ou identiques, destinées à être utilisées ensemble."
         },
-        "épater": {
+        "gigoter": {
             "catGram": "verbe",
-            "def": "Étonner au point de faire tomber à la renverse."
+            "def": "Remuer sans cesse les jambes, le corps"
         },
-        "prestidigitateur": {
-            "catGram": "nom",
-            "def": "Artiste qui, grâce à sa dextérité manuelle et à des truquages, produit des illusions en faisant apparaître, disparaître ou changer de place ou d'aspect un objet."
+        "croquer": {
+            "catGram": "verbe",
+            "def": "Faire un bruit sec sous la dent."
         }
     }
 }
