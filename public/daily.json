@@ -1,20 +1,20 @@
 {
     "words": {
-        "encensement": {
+        "photographique": {
+            "catGram": "adjectif",
+            "def": "Relatif à la photographie, à la technique, à l'art de la photographie."
+        },
+        "pisser": {
+            "catGram": "verbe",
+            "def": "Uriner."
+        },
+        "billet": {
             "catGram": "nom masculin",
-            "def": "Action d'encenser."
+            "def": "Lettre concise."
         },
-        "paire": {
-            "catGram": "nom féminin",
-            "def": "Réunion de deux choses, symétriques ou identiques, destinées à être utilisées ensemble."
-        },
-        "gigoter": {
-            "catGram": "verbe",
-            "def": "Remuer sans cesse les jambes, le corps"
-        },
-        "croquer": {
-            "catGram": "verbe",
-            "def": "Faire un bruit sec sous la dent."
+        "spécifiquement": {
+            "catGram": "adverbe",
+            "def": "De manière spécifique"
         }
     }
 }
