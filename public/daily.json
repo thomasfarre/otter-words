@@ -1,20 +1,20 @@
 {
     "words": {
-        "photographique": {
+        "veuf": {
             "catGram": "adjectif",
-            "def": "Relatif à la photographie, à la technique, à l'art de la photographie."
+            "def": "Dont le conjoint est mort."
         },
-        "pisser": {
-            "catGram": "verbe",
-            "def": "Uriner."
-        },
-        "billet": {
+        "trésor": {
             "catGram": "nom masculin",
-            "def": "Lettre concise."
+            "def": "Ensemble de choses de valeur (or, argent, objets précieux, pierreries, titres, etc.) accumulées et souvent soigneusement cachées."
         },
-        "spécifiquement": {
-            "catGram": "adverbe",
-            "def": "De manière spécifique"
+        "versement": {
+            "catGram": "nom masculin",
+            "def": "Action de verser de l’argent"
+        },
+        "immixtion": {
+            "catGram": "nom féminin",
+            "def": "Action de s'immiscer (dans qqch.)."
         }
     }
 }
