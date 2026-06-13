@@ -1,20 +1,20 @@
 {
     "words": {
-        "veuf": {
+        "signer": {
+            "catGram": "verbe",
+            "def": "Apposer sa signature sur (un écrit)."
+        },
+        "vide": {
             "catGram": "adjectif",
-            "def": "Dont le conjoint est mort."
+            "def": "Qui ne contient rien de concret"
         },
-        "trésor": {
-            "catGram": "nom masculin",
-            "def": "Ensemble de choses de valeur (or, argent, objets précieux, pierreries, titres, etc.) accumulées et souvent soigneusement cachées."
+        "bâiller": {
+            "catGram": "verbe",
+            "def": "Ouvrir involontairement la bouche en inspirant profondément et en contractant les muscles du visage."
         },
-        "versement": {
-            "catGram": "nom masculin",
-            "def": "Action de verser de l’argent"
-        },
-        "immixtion": {
+        "comparaison": {
             "catGram": "nom féminin",
-            "def": "Action de s'immiscer (dans qqch.)."
+            "def": "Action de comparer (deux ou plusieurs choses ou personnes), de mettre en évidence leurs ressemblances et leurs différences."
         }
     }
 }
