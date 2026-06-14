@@ -1,20 +1,20 @@
 {
     "words": {
-        "signer": {
+        "exposer": {
             "catGram": "verbe",
-            "def": "Apposer sa signature sur (un écrit)."
+            "def": "Disposer de manière à mettre en vue."
         },
-        "vide": {
-            "catGram": "adjectif",
-            "def": "Qui ne contient rien de concret"
-        },
-        "bâiller": {
-            "catGram": "verbe",
-            "def": "Ouvrir involontairement la bouche en inspirant profondément et en contractant les muscles du visage."
-        },
-        "comparaison": {
+        "présidence": {
             "catGram": "nom féminin",
-            "def": "Action de comparer (deux ou plusieurs choses ou personnes), de mettre en évidence leurs ressemblances et leurs différences."
+            "def": "Fonction, titre de président"
+        },
+        "tissu": {
+            "catGram": "nom masculin",
+            "def": "Matière souple obtenue par l'entrecroisement régulier de fils ou de fibres textiles."
+        },
+        "libertin": {
+            "catGram": "adjectif",
+            "def": "Qui refuse le dogmatisme de croyances établies, en particulier celui de la religion."
         }
     }
 }
