@@ -1,20 +1,20 @@
 {
     "words": {
-        "exposer": {
-            "catGram": "verbe",
-            "def": "Disposer de manière à mettre en vue."
-        },
-        "présidence": {
-            "catGram": "nom féminin",
-            "def": "Fonction, titre de président"
-        },
-        "tissu": {
-            "catGram": "nom masculin",
-            "def": "Matière souple obtenue par l'entrecroisement régulier de fils ou de fibres textiles."
-        },
-        "libertin": {
+        "blond": {
             "catGram": "adjectif",
-            "def": "Qui refuse le dogmatisme de croyances établies, en particulier celui de la religion."
+            "def": "En parlant de la couleur des cheveux ou du poil, qui est de la nuance la plus claire, proche du jaune doré."
+        },
+        "autonomiste": {
+            "catGram": "nom épicène",
+            "def": "Partisan de l'autonomie politique de son pays, de sa province, de son territoire."
+        },
+        "ordinateur": {
+            "catGram": "nom masculin",
+            "def": "Machine électronique programmable, destinée au traitement numérique de données."
+        },
+        "exclusion": {
+            "catGram": "nom féminin",
+            "def": "Action d'exclure d'un lieu, d'un groupe ou d'un ensemble."
         }
     }
 }
