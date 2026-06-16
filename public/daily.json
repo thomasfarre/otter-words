@@ -1,20 +1,20 @@
 {
     "words": {
-        "blond": {
-            "catGram": "adjectif",
-            "def": "En parlant de la couleur des cheveux ou du poil, qui est de la nuance la plus claire, proche du jaune doré."
-        },
-        "autonomiste": {
+        "mioche": {
             "catGram": "nom épicène",
-            "def": "Partisan de l'autonomie politique de son pays, de sa province, de son territoire."
+            "def": "Enfant."
         },
-        "ordinateur": {
-            "catGram": "nom masculin",
-            "def": "Machine électronique programmable, destinée au traitement numérique de données."
+        "déclaré": {
+            "catGram": "adjectif",
+            "def": "Qui s’affiche ouvertement comme tel."
         },
-        "exclusion": {
-            "catGram": "nom féminin",
-            "def": "Action d'exclure d'un lieu, d'un groupe ou d'un ensemble."
+        "admirablement": {
+            "catGram": "adverbe",
+            "def": "D’une manière admirable."
+        },
+        "sucré": {
+            "catGram": "adjectif",
+            "def": "Qui contient naturellement du sucre"
         }
     }
 }
