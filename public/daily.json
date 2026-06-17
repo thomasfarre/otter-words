@@ -1,20 +1,20 @@
 {
     "words": {
-        "mioche": {
-            "catGram": "nom épicène",
-            "def": "Enfant."
-        },
-        "déclaré": {
+        "teint": {
             "catGram": "adjectif",
-            "def": "Qui s’affiche ouvertement comme tel."
+            "def": "Qui a eu une teinture."
         },
-        "admirablement": {
-            "catGram": "adverbe",
-            "def": "D’une manière admirable."
+        "amener": {
+            "catGram": "verbe",
+            "def": "Mener qqn à une autre personne ou à un lieu."
         },
-        "sucré": {
-            "catGram": "adjectif",
-            "def": "Qui contient naturellement du sucre"
+        "écueil": {
+            "catGram": "nom masculin",
+            "def": "Rocher, banc de sable, haut-fond ou relief marin à fleur d'eau, qui constitue un danger pour la navigation."
+        },
+        "embaucher": {
+            "catGram": "verbe",
+            "def": "Prendre qqn à son service pour un travail, moyennant salaire, généralement en vue d'un travail manuel"
         }
     }
 }
