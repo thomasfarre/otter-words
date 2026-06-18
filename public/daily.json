@@ -1,20 +1,20 @@
 {
     "words": {
-        "teint": {
-            "catGram": "adjectif",
-            "def": "Qui a eu une teinture."
+        "statuaire": {
+            "catGram": "nom épicène",
+            "def": "Sculpteur qui réalise des statues."
         },
-        "amener": {
-            "catGram": "verbe",
-            "def": "Mener qqn à une autre personne ou à un lieu."
-        },
-        "écueil": {
+        "esclavage": {
             "catGram": "nom masculin",
-            "def": "Rocher, banc de sable, haut-fond ou relief marin à fleur d'eau, qui constitue un danger pour la navigation."
+            "def": "État, condition d'esclave"
         },
-        "embaucher": {
-            "catGram": "verbe",
-            "def": "Prendre qqn à son service pour un travail, moyennant salaire, généralement en vue d'un travail manuel"
+        "sagace": {
+            "catGram": "adjectif",
+            "def": "Qui manifeste de la sagacité"
+        },
+        "patiemment": {
+            "catGram": "adverbe",
+            "def": "Avec patience."
         }
     }
 }
