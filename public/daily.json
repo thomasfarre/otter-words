@@ -1,20 +1,20 @@
 {
     "words": {
-        "statuaire": {
-            "catGram": "nom épicène",
-            "def": "Sculpteur qui réalise des statues."
+        "embrasure": {
+            "catGram": "nom féminin",
+            "def": "Ouverture pratiquée dans la muraille d'une fortification pour pointer et tirer le canon."
         },
-        "esclavage": {
+        "rechange": {
             "catGram": "nom masculin",
-            "def": "État, condition d'esclave"
+            "def": "Objet qu'on tient en réserve et qui sert à remplacer, à changer tout objet semblable ou ayant le même usage qui s'avérerait manquer ou ne plus pouvoir servir."
         },
-        "sagace": {
+        "disséminer": {
+            "catGram": "verbe",
+            "def": "Répandre, éparpiller, disperser."
+        },
+        "turc": {
             "catGram": "adjectif",
-            "def": "Qui manifeste de la sagacité"
-        },
-        "patiemment": {
-            "catGram": "adverbe",
-            "def": "Avec patience."
+            "def": "De Turquie."
         }
     }
 }
