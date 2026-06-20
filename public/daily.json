@@ -1,20 +1,20 @@
 {
     "words": {
-        "embrasure": {
-            "catGram": "nom féminin",
-            "def": "Ouverture pratiquée dans la muraille d'une fortification pour pointer et tirer le canon."
-        },
-        "rechange": {
+        "instrument": {
             "catGram": "nom masculin",
-            "def": "Objet qu'on tient en réserve et qui sert à remplacer, à changer tout objet semblable ou ayant le même usage qui s'avérerait manquer ou ne plus pouvoir servir."
+            "def": "Objet fabriqué en vue d'une utilisation particulière pour faire ou créer qqch., pour exécuter ou favoriser une opération."
         },
-        "disséminer": {
-            "catGram": "verbe",
-            "def": "Répandre, éparpiller, disperser."
+        "blatte": {
+            "catGram": "nom féminin",
+            "def": "Insecte des régions chaudes et tempérées, généralement nocturne, à corps ovale et aplati, à longues et fines antennes et à fortes mandibules, qui se nourrit de matières végétales et animales, qui se déplace plus souvent à la course qu’au vol et dont plusieurs espèces parasitent les habitations humaines où elles peuvent contaminer les aliments et laisser une odeur désagréable."
         },
-        "turc": {
-            "catGram": "adjectif",
-            "def": "De Turquie."
+        "pourquoi": {
+            "catGram": "adverbe",
+            "def": "Sert à interroger directement ou indirectement sur la cause, le motif."
+        },
+        "lézarde": {
+            "catGram": "nom féminin",
+            "def": "Crevasse étroite et irrégulière dans un ouvrage de maçonnerie."
         }
     }
 }
