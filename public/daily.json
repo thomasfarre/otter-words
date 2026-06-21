@@ -1,20 +1,20 @@
 {
     "words": {
-        "instrument": {
-            "catGram": "nom masculin",
-            "def": "Objet fabriqué en vue d'une utilisation particulière pour faire ou créer qqch., pour exécuter ou favoriser une opération."
-        },
-        "blatte": {
+        "malignité": {
             "catGram": "nom féminin",
-            "def": "Insecte des régions chaudes et tempérées, généralement nocturne, à corps ovale et aplati, à longues et fines antennes et à fortes mandibules, qui se nourrit de matières végétales et animales, qui se déplace plus souvent à la course qu’au vol et dont plusieurs espèces parasitent les habitations humaines où elles peuvent contaminer les aliments et laisser une odeur désagréable."
+            "def": "Caractère d'une personne qui cherche à nuire, souvent en secret"
         },
-        "pourquoi": {
+        "brandir": {
+            "catGram": "verbe",
+            "def": "Lever, tenir qqch. en l'air dans un geste de défi, de menace."
+        },
+        "agréablement": {
             "catGram": "adverbe",
-            "def": "Sert à interroger directement ou indirectement sur la cause, le motif."
+            "def": "De manière agréable"
         },
-        "lézarde": {
+        "érosion": {
             "catGram": "nom féminin",
-            "def": "Crevasse étroite et irrégulière dans un ouvrage de maçonnerie."
+            "def": "Action d'un agent, d'une substance qui ronge, qui érode"
         }
     }
 }
