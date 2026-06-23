@@ -1,20 +1,20 @@
 {
     "words": {
-        "propriétaire": {
-            "catGram": "nom épicène",
-            "def": "Personne qui possède qqch., exerce son droit de propriété sur qqch."
+        "beau-frère": {
+            "catGram": "nom masculin",
+            "def": "Frère du conjoint ou de la conjointe."
         },
-        "longtemps": {
-            "catGram": "adverbe",
-            "def": "Pendant un long espace de temps."
-        },
-        "danser": {
-            "catGram": "verbe",
-            "def": "Exécuter une danse, une suite de pas"
-        },
-        "chemise": {
+        "tante": {
             "catGram": "nom féminin",
-            "def": "Vêtement couvrant le buste, pourvu d'un col et boutonné sur le devant."
+            "def": "Sœur du père ou de la mère."
+        },
+        "achopper": {
+            "catGram": "verbe",
+            "def": "Trébucher en heurtant du pied."
+        },
+        "rodomontade": {
+            "catGram": "nom féminin",
+            "def": "Attitude, propos d'un rodomont."
         }
     }
 }
