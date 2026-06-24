@@ -1,20 +1,20 @@
 {
     "words": {
-        "beau-frère": {
+        "répertoire": {
             "catGram": "nom masculin",
-            "def": "Frère du conjoint ou de la conjointe."
+            "def": "Inventaire méthodique (énumération, liste, table, etc.) où les informations sont classées dans un ordre qui permet de les retrouver facilement"
         },
-        "tante": {
-            "catGram": "nom féminin",
-            "def": "Sœur du père ou de la mère."
-        },
-        "achopper": {
+        "peser": {
             "catGram": "verbe",
-            "def": "Trébucher en heurtant du pied."
+            "def": "Déterminer le poids d'un corps."
         },
-        "rodomontade": {
+        "contraction": {
             "catGram": "nom féminin",
-            "def": "Attitude, propos d'un rodomont."
+            "def": "Action de contracter, fait de se contracter"
+        },
+        "marquant": {
+            "catGram": "adjectif",
+            "def": "Qui marque, qui laisse une trace, un souvenir durable en raison de son caractère particulier ou remarquable."
         }
     }
 }
