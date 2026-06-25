@@ -1,20 +1,20 @@
 {
     "words": {
-        "répertoire": {
-            "catGram": "nom masculin",
-            "def": "Inventaire méthodique (énumération, liste, table, etc.) où les informations sont classées dans un ordre qui permet de les retrouver facilement"
-        },
-        "peser": {
-            "catGram": "verbe",
-            "def": "Déterminer le poids d'un corps."
-        },
-        "contraction": {
-            "catGram": "nom féminin",
-            "def": "Action de contracter, fait de se contracter"
-        },
-        "marquant": {
+        "moustachu": {
             "catGram": "adjectif",
-            "def": "Qui marque, qui laisse une trace, un souvenir durable en raison de son caractère particulier ou remarquable."
+            "def": "Qui a de la moustache, qui a une moustache."
+        },
+        "détérioration": {
+            "catGram": "nom féminin",
+            "def": "Action de détériorer ou de se détériorer"
+        },
+        "ballade": {
+            "catGram": "nom féminin",
+            "def": "Au Moyen Âge, pièce musicale destinée à la danse."
+        },
+        "barème": {
+            "catGram": "nom masculin",
+            "def": "Recueil de calculs tout faits et de tableaux numériques permettant une consultation rapide."
         }
     }
 }
