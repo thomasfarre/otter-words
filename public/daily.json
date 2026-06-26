@@ -1,20 +1,20 @@
 {
     "words": {
-        "moustachu": {
+        "orienter": {
+            "catGram": "verbe",
+            "def": "Déterminer la position de qqch. par rapport aux points cardinaux, à une direction ou à un objet déterminé."
+        },
+        "opposer": {
+            "catGram": "verbe",
+            "def": "Mettre en parallèle de manière à comparer."
+        },
+        "désapprobateur": {
             "catGram": "adjectif",
-            "def": "Qui a de la moustache, qui a une moustache."
+            "def": "Qui signale la désapprobation."
         },
-        "détérioration": {
-            "catGram": "nom féminin",
-            "def": "Action de détériorer ou de se détériorer"
-        },
-        "ballade": {
-            "catGram": "nom féminin",
-            "def": "Au Moyen Âge, pièce musicale destinée à la danse."
-        },
-        "barème": {
+        "credo": {
             "catGram": "nom masculin",
-            "def": "Recueil de calculs tout faits et de tableaux numériques permettant une consultation rapide."
+            "def": "Prière contenant un abrégé des principaux dogmes que l'Église catholique enseigne et constituant une profession de foi."
         }
     }
 }
