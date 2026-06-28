@@ -1,20 +1,20 @@
 {
     "words": {
-        "cabotinage": {
-            "catGram": "nom masculin",
-            "def": "Jeu prétentieux et affecté d'un acteur sans talent."
+        "hormis": {
+            "catGram": "préposition",
+            "def": "À l'exception de."
         },
-        "tendon": {
-            "catGram": "nom masculin",
-            "def": "Extrémité fibreuse et blanchâtre d’un muscle, par laquelle il s’insère sur un os."
+        "ailleurs": {
+            "catGram": "adverbe",
+            "def": "Dans un autre lieu (que celui où l'on est)."
         },
-        "enlèvement": {
-            "catGram": "nom masculin",
-            "def": "Action d'enlever qqch."
+        "inattendu": {
+            "catGram": "adjectif",
+            "def": "Auquel on ne s'attendait pas."
         },
-        "rééquilibrage": {
-            "catGram": "nom masculin",
-            "def": "Action de rééquilibrer"
+        "copier": {
+            "catGram": "verbe",
+            "def": "Reproduire fidèlement (un écrit)."
         }
     }
 }
