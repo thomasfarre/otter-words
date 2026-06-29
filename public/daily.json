@@ -1,20 +1,20 @@
 {
     "words": {
-        "hormis": {
-            "catGram": "préposition",
-            "def": "À l'exception de."
+        "dédommagement": {
+            "catGram": "nom masculin",
+            "def": "Réparation d'un dommage."
         },
-        "ailleurs": {
-            "catGram": "adverbe",
-            "def": "Dans un autre lieu (que celui où l'on est)."
-        },
-        "inattendu": {
-            "catGram": "adjectif",
-            "def": "Auquel on ne s'attendait pas."
-        },
-        "copier": {
+        "glisser": {
             "catGram": "verbe",
-            "def": "Reproduire fidèlement (un écrit)."
+            "def": "Se déplacer sans secousse sur (la surface d'un corps lisse)."
+        },
+        "soulager": {
+            "catGram": "verbe",
+            "def": "Débarrasser une personne, un animal d'une charge, d’une partie d’une charge, lui épargner de la fatigue."
+        },
+        "institut": {
+            "catGram": "nom masculin",
+            "def": "Corps constitué de savants, d'artistes, d'écrivains."
         }
     }
 }
