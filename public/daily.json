@@ -1,20 +1,20 @@
 {
     "words": {
-        "dédommagement": {
-            "catGram": "nom masculin",
-            "def": "Réparation d'un dommage."
+        "étiquette": {
+            "catGram": "nom féminin",
+            "def": "Petit morceau (de carton, de papier, etc.) que l’on fixe sur un objet pour en indiquer la dénomination, la provenance, la destination, le prix, etc."
         },
-        "glisser": {
-            "catGram": "verbe",
-            "def": "Se déplacer sans secousse sur (la surface d'un corps lisse)."
+        "réfléchi": {
+            "catGram": "adjectif",
+            "def": "Qui provient d'une réflexion."
         },
-        "soulager": {
-            "catGram": "verbe",
-            "def": "Débarrasser une personne, un animal d'une charge, d’une partie d’une charge, lui épargner de la fatigue."
+        "rigoureusement": {
+            "catGram": "adverbe",
+            "def": "Avec rigueur, dureté."
         },
-        "institut": {
-            "catGram": "nom masculin",
-            "def": "Corps constitué de savants, d'artistes, d'écrivains."
+        "corpulent": {
+            "catGram": "adjectif",
+            "def": "Qui a une forte corpulence"
         }
     }
 }
