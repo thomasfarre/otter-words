@@ -1,20 +1,20 @@
 {
     "words": {
-        "étiquette": {
+        "sous-vêtement": {
+            "catGram": "nom masculin",
+            "def": "Linge de corps qui se porte sous les vêtements, à même la peau."
+        },
+        "déchu": {
+            "catGram": "adjectif",
+            "def": "Qui est tombé dans un état inférieur au précédent"
+        },
+        "possible": {
+            "catGram": "adjectif",
+            "def": "Qui se peut, qui remplit les conditions nécessaires pour exister, se produire."
+        },
+        "apparence": {
             "catGram": "nom féminin",
-            "def": "Petit morceau (de carton, de papier, etc.) que l’on fixe sur un objet pour en indiquer la dénomination, la provenance, la destination, le prix, etc."
-        },
-        "réfléchi": {
-            "catGram": "adjectif",
-            "def": "Qui provient d'une réflexion."
-        },
-        "rigoureusement": {
-            "catGram": "adverbe",
-            "def": "Avec rigueur, dureté."
-        },
-        "corpulent": {
-            "catGram": "adjectif",
-            "def": "Qui a une forte corpulence"
+            "def": "Manière dont qqch. ou qqn apparaît, se manifeste aux sens, à l'esprit."
         }
     }
 }
