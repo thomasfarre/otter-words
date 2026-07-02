@@ -1,20 +1,20 @@
 {
     "words": {
-        "sous-vêtement": {
+        "raffut": {
             "catGram": "nom masculin",
-            "def": "Linge de corps qui se porte sous les vêtements, à même la peau."
+            "def": "Grand bruit fait par des personnes qui parlent fort, s'amusent, crient ou se disputent."
         },
-        "déchu": {
+        "natif": {
             "catGram": "adjectif",
-            "def": "Qui est tombé dans un état inférieur au précédent"
+            "def": "Qui est originaire de tel endroit (lieu de résidence de la famille pendant un certain temps)."
         },
-        "possible": {
-            "catGram": "adjectif",
-            "def": "Qui se peut, qui remplit les conditions nécessaires pour exister, se produire."
-        },
-        "apparence": {
+        "commune": {
             "catGram": "nom féminin",
-            "def": "Manière dont qqch. ou qqn apparaît, se manifeste aux sens, à l'esprit."
+            "def": "Ville ou bourg affranchis du joug féodal et placés sous l'administration des bourgeois organisés."
+        },
+        "essentiel": {
+            "catGram": "adjectif",
+            "def": "Qui est dans la nature de qqch., qui fait partie de son essence."
         }
     }
 }
