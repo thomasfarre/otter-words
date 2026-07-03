@@ -1,20 +1,20 @@
 {
     "words": {
-        "raffut": {
+        "bétail": {
             "catGram": "nom masculin",
-            "def": "Grand bruit fait par des personnes qui parlent fort, s'amusent, crient ou se disputent."
+            "def": "Ensemble des bêtes élevées dans une ferme, une exploitation agricole, à l'exception des animaux de basse-cour."
         },
-        "natif": {
-            "catGram": "adjectif",
-            "def": "Qui est originaire de tel endroit (lieu de résidence de la famille pendant un certain temps)."
+        "psychanalyste": {
+            "catGram": "nom épicène",
+            "def": "Spécialiste habilité à pratiquer la psychanalyse."
         },
-        "commune": {
-            "catGram": "nom féminin",
-            "def": "Ville ou bourg affranchis du joug féodal et placés sous l'administration des bourgeois organisés."
+        "régner": {
+            "catGram": "verbe",
+            "def": "Exercer le pouvoir souverain, généralement par droit héréditaire, parfois par élection ou par désignation."
         },
-        "essentiel": {
-            "catGram": "adjectif",
-            "def": "Qui est dans la nature de qqch., qui fait partie de son essence."
+        "bracelet": {
+            "catGram": "nom masculin",
+            "def": "Bijou, ornement qui se porte au poignet, parfois au bras ou à la cheville."
         }
     }
 }
