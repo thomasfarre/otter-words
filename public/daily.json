@@ -1,20 +1,20 @@
 {
     "words": {
-        "bétail": {
-            "catGram": "nom masculin",
-            "def": "Ensemble des bêtes élevées dans une ferme, une exploitation agricole, à l'exception des animaux de basse-cour."
-        },
-        "psychanalyste": {
-            "catGram": "nom épicène",
-            "def": "Spécialiste habilité à pratiquer la psychanalyse."
-        },
-        "régner": {
+        "saigner": {
             "catGram": "verbe",
-            "def": "Exercer le pouvoir souverain, généralement par droit héréditaire, parfois par élection ou par désignation."
+            "def": "Perdre du sang."
         },
-        "bracelet": {
-            "catGram": "nom masculin",
-            "def": "Bijou, ornement qui se porte au poignet, parfois au bras ou à la cheville."
+        "minéralogie": {
+            "catGram": "nom féminin",
+            "def": "Science qui étudie les minéraux."
+        },
+        "vérole": {
+            "catGram": "nom féminin",
+            "def": "variole."
+        },
+        "opposant": {
+            "catGram": "adjectif",
+            "def": "Qui s'oppose."
         }
     }
 }
