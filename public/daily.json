@@ -1,20 +1,20 @@
 {
     "words": {
-        "saigner": {
+        "enflure": {
+            "catGram": "nom féminin",
+            "def": "Gonflement d'un organe, d'une partie du corps."
+        },
+        "bouder": {
             "catGram": "verbe",
-            "def": "Perdre du sang."
+            "def": "Manifester du mécontentement, de la mauvaise humeur par l'expression du visage, le silence, l'attitude."
         },
-        "minéralogie": {
-            "catGram": "nom féminin",
-            "def": "Science qui étudie les minéraux."
+        "philosopher": {
+            "catGram": "verbe",
+            "def": "Réfléchir, raisonner selon les principes de la philosophie"
         },
-        "vérole": {
-            "catGram": "nom féminin",
-            "def": "variole."
-        },
-        "opposant": {
-            "catGram": "adjectif",
-            "def": "Qui s'oppose."
+        "généraliser": {
+            "catGram": "verbe",
+            "def": "Rendre général"
         }
     }
 }
