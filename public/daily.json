@@ -1,20 +1,20 @@
 {
     "words": {
-        "enflure": {
+        "tuerie": {
             "catGram": "nom féminin",
-            "def": "Gonflement d'un organe, d'une partie du corps."
+            "def": "Action de tuer en masse, de façon sauvage."
         },
-        "bouder": {
-            "catGram": "verbe",
-            "def": "Manifester du mécontentement, de la mauvaise humeur par l'expression du visage, le silence, l'attitude."
+        "intention": {
+            "catGram": "nom féminin",
+            "def": "Fait de tendre vers un but, une fin"
         },
-        "philosopher": {
-            "catGram": "verbe",
-            "def": "Réfléchir, raisonner selon les principes de la philosophie"
+        "rang": {
+            "catGram": "nom masculin",
+            "def": "Ensemble d'éléments ou de personnes."
         },
-        "généraliser": {
-            "catGram": "verbe",
-            "def": "Rendre général"
+        "pacage": {
+            "catGram": "nom masculin",
+            "def": "Lieu de pâture pour les troupeaux."
         }
     }
 }
