@@ -1,20 +1,20 @@
 {
     "words": {
-        "tuerie": {
+        "attente": {
             "catGram": "nom féminin",
-            "def": "Action de tuer en masse, de façon sauvage."
+            "def": "Action d'attendre"
         },
-        "intention": {
+        "lame": {
             "catGram": "nom féminin",
-            "def": "Fait de tendre vers un but, une fin"
+            "def": "Bande mince, plate, de forme allongée, faite de métal ou d'une matière dure, et servant à différents usages."
         },
-        "rang": {
-            "catGram": "nom masculin",
-            "def": "Ensemble d'éléments ou de personnes."
+        "conformation": {
+            "catGram": "nom féminin",
+            "def": "Disposition, organisation des différentes parties du corps des humains ou des animaux, ou de tout corps organisé."
         },
-        "pacage": {
-            "catGram": "nom masculin",
-            "def": "Lieu de pâture pour les troupeaux."
+        "postérieurement": {
+            "catGram": "adverbe",
+            "def": "À une date postérieure."
         }
     }
 }
