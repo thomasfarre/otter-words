@@ -1,20 +1,20 @@
 {
     "words": {
-        "attente": {
+        "génération": {
             "catGram": "nom féminin",
-            "def": "Action d'attendre"
+            "def": "Action d'engendrer"
         },
-        "lame": {
-            "catGram": "nom féminin",
-            "def": "Bande mince, plate, de forme allongée, faite de métal ou d'une matière dure, et servant à différents usages."
+        "timbre": {
+            "catGram": "nom masculin",
+            "def": "Dans une armure, partie du casque de forme arrondie, qui protégeait le crâne."
         },
-        "conformation": {
-            "catGram": "nom féminin",
-            "def": "Disposition, organisation des différentes parties du corps des humains ou des animaux, ou de tout corps organisé."
+        "essentiel": {
+            "catGram": "adjectif",
+            "def": "Qui est dans la nature de qqch., qui fait partie de son essence."
         },
-        "postérieurement": {
-            "catGram": "adverbe",
-            "def": "À une date postérieure."
+        "éparpiller": {
+            "catGram": "verbe",
+            "def": "Jeter, répandre çà et là."
         }
     }
 }
