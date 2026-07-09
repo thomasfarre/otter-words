@@ -1,20 +1,20 @@
 {
     "words": {
-        "génération": {
-            "catGram": "nom féminin",
-            "def": "Action d'engendrer"
-        },
-        "timbre": {
-            "catGram": "nom masculin",
-            "def": "Dans une armure, partie du casque de forme arrondie, qui protégeait le crâne."
-        },
-        "essentiel": {
+        "irréversible": {
             "catGram": "adjectif",
-            "def": "Qui est dans la nature de qqch., qui fait partie de son essence."
+            "def": "Qui s'effectue dans une seule direction"
         },
-        "éparpiller": {
+        "immédiatement": {
+            "catGram": "adverbe",
+            "def": "Juste avant ou juste après qqch."
+        },
+        "magnat": {
+            "catGram": "nom masculin",
+            "def": "Titre porté par les membres de la haute noblesse en Pologne et en Hongrie."
+        },
+        "remémorer": {
             "catGram": "verbe",
-            "def": "Jeter, répandre çà et là."
+            "def": "Remettre en mémoire."
         }
     }
 }
