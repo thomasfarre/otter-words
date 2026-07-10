@@ -1,20 +1,20 @@
 {
     "words": {
-        "irréversible": {
-            "catGram": "adjectif",
-            "def": "Qui s'effectue dans une seule direction"
-        },
-        "immédiatement": {
-            "catGram": "adverbe",
-            "def": "Juste avant ou juste après qqch."
-        },
-        "magnat": {
+        "endettement": {
             "catGram": "nom masculin",
-            "def": "Titre porté par les membres de la haute noblesse en Pologne et en Hongrie."
+            "def": "Fait de s’endetter, d’être endetté."
         },
-        "remémorer": {
-            "catGram": "verbe",
-            "def": "Remettre en mémoire."
+        "fable": {
+            "catGram": "nom féminin",
+            "def": "Court récit allégorique, le plus souvent en vers, qui sert d'illustration à une vérité morale."
+        },
+        "génial": {
+            "catGram": "adjectif",
+            "def": "Qui relève du génie, qui est la marque du génie, qui a les caractères du génie."
+        },
+        "minou": {
+            "catGram": "nom masculin",
+            "def": "Chat, chaton."
         }
     }
 }
