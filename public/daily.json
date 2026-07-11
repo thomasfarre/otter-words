@@ -1,20 +1,20 @@
 {
     "words": {
-        "endettement": {
-            "catGram": "nom masculin",
-            "def": "Fait de s’endetter, d’être endetté."
+        "menuisier": {
+            "catGram": "nom",
+            "def": "Ouvrier, artisan qui effectue des travaux de menuiserie."
         },
-        "fable": {
+        "emblavage": {
+            "catGram": "nom masculin",
+            "def": "Action d'emblaver"
+        },
+        "classer": {
+            "catGram": "verbe",
+            "def": "Distribuer, ranger méthodiquement selon un certain ordre, de manière à en faciliter la consultation"
+        },
+        "retrouvailles": {
             "catGram": "nom féminin",
-            "def": "Court récit allégorique, le plus souvent en vers, qui sert d'illustration à une vérité morale."
-        },
-        "génial": {
-            "catGram": "adjectif",
-            "def": "Qui relève du génie, qui est la marque du génie, qui a les caractères du génie."
-        },
-        "minou": {
-            "catGram": "nom masculin",
-            "def": "Chat, chaton."
+            "def": "Fait, pour des personnes, de se revoir, en particulier après une longue séparation."
         }
     }
 }
