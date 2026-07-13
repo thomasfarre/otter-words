@@ -1,20 +1,20 @@
 {
     "words": {
-        "sanguine": {
-            "catGram": "nom féminin",
-            "def": "Variété terreuse d'hématite rouge."
+        "maternelle": {
+            "catGram": "adjectif",
+            "def": "Qui, physiologiquement et psychologiquement, est propre à la mère."
         },
-        "endosser": {
+        "élargir": {
             "catGram": "verbe",
-            "def": "Mettre (un vêtement) sur son dos."
+            "def": "Rendre plus large."
         },
-        "ébénier": {
-            "catGram": "nom masculin",
-            "def": "Arbre originaire des régions tropicales, voisin du plaqueminier, dont plusieurs espèces fournissent un bois foncé plus ou moins veiné, très dur et très résistant, qui est recherché en ébénisterie."
+        "planétaire": {
+            "catGram": "adjectif",
+            "def": "Relatif aux planètes."
         },
-        "spécialiste": {
-            "catGram": "nom épicène",
-            "def": "Personne qui s’est spécialisée, qui a des connaissances approfondies dans une branche particulière d'un métier, d'une science, d'un sujet."
+        "solliciter": {
+            "catGram": "verbe",
+            "def": "Stimuler la curiosité, attirer l'attention."
         }
     }
 }
