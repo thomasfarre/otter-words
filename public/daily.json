@@ -1,20 +1,20 @@
 {
     "words": {
-        "maternelle": {
+        "fiction": {
+            "catGram": "nom féminin",
+            "def": "Construction imaginaire"
+        },
+        "quatorze": {
+            "catGram": "déterminant numéral",
+            "def": "Sert à désigner une quantité d'éléments atteignant le nombre correspondant à treize plus un."
+        },
+        "décollage": {
+            "catGram": "nom masculin",
+            "def": "Action de détacher ce qui est collé."
+        },
+        "deuxième": {
             "catGram": "adjectif",
-            "def": "Qui, physiologiquement et psychologiquement, est propre à la mère."
-        },
-        "élargir": {
-            "catGram": "verbe",
-            "def": "Rendre plus large."
-        },
-        "planétaire": {
-            "catGram": "adjectif",
-            "def": "Relatif aux planètes."
-        },
-        "solliciter": {
-            "catGram": "verbe",
-            "def": "Stimuler la curiosité, attirer l'attention."
+            "def": "Qui occupe le rang marqué par le nombre deux (2eou IIe)."
         }
     }
 }
