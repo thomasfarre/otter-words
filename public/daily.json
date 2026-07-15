@@ -1,20 +1,20 @@
 {
     "words": {
-        "fiction": {
+        "aiguille": {
             "catGram": "nom féminin",
-            "def": "Construction imaginaire"
+            "def": "Mince tige de métal dont une extrémité est pointue et l’autre percée d’un trou pour y passer un fil."
         },
-        "quatorze": {
-            "catGram": "déterminant numéral",
-            "def": "Sert à désigner une quantité d'éléments atteignant le nombre correspondant à treize plus un."
+        "obligatoirement": {
+            "catGram": "adverbe",
+            "def": "D'une manière obligatoire."
         },
-        "décollage": {
-            "catGram": "nom masculin",
-            "def": "Action de détacher ce qui est collé."
-        },
-        "deuxième": {
+        "vide": {
             "catGram": "adjectif",
-            "def": "Qui occupe le rang marqué par le nombre deux (2eou IIe)."
+            "def": "Qui ne contient rien de concret"
+        },
+        "compensation": {
+            "catGram": "nom féminin",
+            "def": "Action de compenser, de rétablir un équilibre"
         }
     }
 }
