@@ -1,20 +1,20 @@
 {
     "words": {
-        "aiguille": {
-            "catGram": "nom féminin",
-            "def": "Mince tige de métal dont une extrémité est pointue et l’autre percée d’un trou pour y passer un fil."
-        },
-        "obligatoirement": {
-            "catGram": "adverbe",
-            "def": "D'une manière obligatoire."
-        },
-        "vide": {
+        "affecté": {
             "catGram": "adjectif",
-            "def": "Qui ne contient rien de concret"
+            "def": "Qui manifeste de l'affectation, qui manque de simplicité naturelle et parfois de sincérité."
         },
-        "compensation": {
+        "attroupement": {
+            "catGram": "nom masculin",
+            "def": "Action de se rassembler en troupe."
+        },
+        "mâchoire": {
             "catGram": "nom féminin",
-            "def": "Action de compenser, de rétablir un équilibre"
+            "def": "Chacun des deux arcs osseux de la bouche, dans lequel sont implantées les dents, chez l'être humain et la plupart des vertébrés."
+        },
+        "panama": {
+            "catGram": "nom masculin",
+            "def": "Chapeau rond et léger pour homme, tressé avec les feuilles d'un arbuste d'Amérique centrale"
         }
     }
 }
