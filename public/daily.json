@@ -1,20 +1,20 @@
 {
     "words": {
-        "favorablement": {
-            "catGram": "adverbe",
-            "def": "D'une manière favorable."
+        "sournoiserie": {
+            "catGram": "nom féminin",
+            "def": "Aspect, caractère sournois"
         },
-        "fût": {
+        "prolégomènes": {
             "catGram": "nom masculin",
-            "def": "Partie droite du tronc d'un arbre, dépourvue de branches"
+            "def": "Longue introduction placée en tête d'un ouvrage, contenant les notions préliminaires nécessaires à sa compréhension."
         },
-        "multimédia": {
+        "saison": {
+            "catGram": "nom féminin",
+            "def": "Période de l'année pendant laquelle le climat et l'état de la végétation sont relativement constants."
+        },
+        "mensuel": {
             "catGram": "adjectif",
-            "def": "Relatif à plusieurs médias"
-        },
-        "pochoir": {
-            "catGram": "nom masculin",
-            "def": "Plaque découpée dont les formes seront reproduites sur un support à l’aide d’une brosse, d’un pinceau enduit d’encre ou de peinture."
+            "def": "Qui se fait, qui paraît tous les mois."
         }
     }
 }
