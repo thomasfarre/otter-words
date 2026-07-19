@@ -1,20 +1,20 @@
 {
     "words": {
-        "sournoiserie": {
+        "compétence": {
             "catGram": "nom féminin",
-            "def": "Aspect, caractère sournois"
+            "def": "Aptitude d'une autorité publique à accomplir certains actes."
         },
-        "prolégomènes": {
-            "catGram": "nom masculin",
-            "def": "Longue introduction placée en tête d'un ouvrage, contenant les notions préliminaires nécessaires à sa compréhension."
-        },
-        "saison": {
-            "catGram": "nom féminin",
-            "def": "Période de l'année pendant laquelle le climat et l'état de la végétation sont relativement constants."
-        },
-        "mensuel": {
+        "cynique": {
             "catGram": "adjectif",
-            "def": "Qui se fait, qui paraît tous les mois."
+            "def": "Relatif à l'école philosophique de l’Antiquité qui rejetait les conventions sociales, l'opinion publique et la morale afin de revenir à la nature."
+        },
+        "chou-rave": {
+            "catGram": "nom masculin",
+            "def": "Plante potagère bisannuelle, de type chou, qu’on cultive pour sa tige comestible renflée en boule, juste au-dessus du sol, et surmontée d’un bouquet de feuilles"
+        },
+        "jonction": {
+            "catGram": "nom féminin",
+            "def": "Action de joindre, de se joindre"
         }
     }
 }
