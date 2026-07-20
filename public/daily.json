@@ -1,20 +1,20 @@
 {
     "words": {
-        "compétence": {
-            "catGram": "nom féminin",
-            "def": "Aptitude d'une autorité publique à accomplir certains actes."
+        "fournir": {
+            "catGram": "verbe",
+            "def": "Pourvoir, approvisionner."
         },
-        "cynique": {
+        "jaune": {
             "catGram": "adjectif",
-            "def": "Relatif à l'école philosophique de l’Antiquité qui rejetait les conventions sociales, l'opinion publique et la morale afin de revenir à la nature."
+            "def": "De la couleur la plus chaude et la plus lumineuse, située entre le vert et l’orangé sur le spectre visible."
         },
-        "chou-rave": {
-            "catGram": "nom masculin",
-            "def": "Plante potagère bisannuelle, de type chou, qu’on cultive pour sa tige comestible renflée en boule, juste au-dessus du sol, et surmontée d’un bouquet de feuilles"
-        },
-        "jonction": {
+        "grand-mère": {
             "catGram": "nom féminin",
-            "def": "Action de joindre, de se joindre"
+            "def": "Mère du parent d'un enfant."
+        },
+        "froncer": {
+            "catGram": "verbe",
+            "def": "Rider, plisser en contractant."
         }
     }
 }
