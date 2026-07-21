@@ -1,20 +1,20 @@
 {
     "words": {
-        "fournir": {
-            "catGram": "verbe",
-            "def": "Pourvoir, approvisionner."
+        "rai": {
+            "catGram": "nom masculin",
+            "def": "Faisceau de lumière, rayon."
         },
-        "jaune": {
-            "catGram": "adjectif",
-            "def": "De la couleur la plus chaude et la plus lumineuse, située entre le vert et l’orangé sur le spectre visible."
-        },
-        "grand-mère": {
+        "rubrique": {
             "catGram": "nom féminin",
-            "def": "Mère du parent d'un enfant."
+            "def": "Titre indiquant la matière d'un article."
         },
-        "froncer": {
+        "tarder": {
             "catGram": "verbe",
-            "def": "Rider, plisser en contractant."
+            "def": "Mettre du temps à arriver."
+        },
+        "émacié": {
+            "catGram": "adjectif",
+            "def": "Amaigri, très maigre."
         }
     }
 }
