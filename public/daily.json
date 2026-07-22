@@ -1,20 +1,20 @@
 {
     "words": {
-        "rai": {
-            "catGram": "nom masculin",
-            "def": "Faisceau de lumière, rayon."
-        },
-        "rubrique": {
+        "aristocratie": {
             "catGram": "nom féminin",
-            "def": "Titre indiquant la matière d'un article."
+            "def": "Forme de gouvernement au sein duquel le pouvoir est exercé par un nombre restreint de personnes privilégiées, qui le détiennent de façon le plus souvent héréditaire."
         },
-        "tarder": {
+        "rouer": {
             "catGram": "verbe",
-            "def": "Mettre du temps à arriver."
+            "def": "Soumettre qqn au supplice de la roue."
         },
-        "émacié": {
-            "catGram": "adjectif",
-            "def": "Amaigri, très maigre."
+        "actionnaire": {
+            "catGram": "nom épicène",
+            "def": "Personne possédant une ou plusieurs actions."
+        },
+        "résolument": {
+            "catGram": "adverbe",
+            "def": "De manière résolue."
         }
     }
 }
