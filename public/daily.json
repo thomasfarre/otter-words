@@ -1,20 +1,20 @@
 {
     "words": {
-        "aristocratie": {
+        "trouillard": {
+            "catGram": "adjectif",
+            "def": "Qui a la trouille."
+        },
+        "formulaire": {
+            "catGram": "nom masculin",
+            "def": "Recueil de formules."
+        },
+        "cristal": {
+            "catGram": "nom masculin",
+            "def": "Solide polyédrique, plus ou moins brillant, à structure régulière et périodique, et dont la forme est constante pour une substance donnée dans des conditions de formation données."
+        },
+        "destination": {
             "catGram": "nom féminin",
-            "def": "Forme de gouvernement au sein duquel le pouvoir est exercé par un nombre restreint de personnes privilégiées, qui le détiennent de façon le plus souvent héréditaire."
-        },
-        "rouer": {
-            "catGram": "verbe",
-            "def": "Soumettre qqn au supplice de la roue."
-        },
-        "actionnaire": {
-            "catGram": "nom épicène",
-            "def": "Personne possédant une ou plusieurs actions."
-        },
-        "résolument": {
-            "catGram": "adverbe",
-            "def": "De manière résolue."
+            "def": "Rôle particulier attribué à qqn ou qqch."
         }
     }
 }
