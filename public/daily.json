@@ -1,20 +1,20 @@
 {
     "words": {
-        "trouillard": {
-            "catGram": "adjectif",
-            "def": "Qui a la trouille."
+        "détrousser": {
+            "catGram": "verbe",
+            "def": "Dépouiller une personne des biens et de l'argent qu'elle porte sur elle, par la violence."
         },
-        "formulaire": {
-            "catGram": "nom masculin",
-            "def": "Recueil de formules."
+        "paginer": {
+            "catGram": "verbe",
+            "def": "Numéroter les pages (d'un ouvrage, d'un document)."
         },
-        "cristal": {
-            "catGram": "nom masculin",
-            "def": "Solide polyédrique, plus ou moins brillant, à structure régulière et périodique, et dont la forme est constante pour une substance donnée dans des conditions de formation données."
-        },
-        "destination": {
+        "sanction": {
             "catGram": "nom féminin",
-            "def": "Rôle particulier attribué à qqn ou qqch."
+            "def": "Acte par lequel, dans une monarchie constitutionnelle, le souverain ou son représentant approuve une loi après son adoption."
+        },
+        "fidéliser": {
+            "catGram": "verbe",
+            "def": "Rendre la clientèle fidèle à (un produit, un service, une marque, un point de vente)."
         }
     }
 }
