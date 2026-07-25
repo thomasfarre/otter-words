@@ -1,20 +1,20 @@
 {
     "words": {
-        "détrousser": {
-            "catGram": "verbe",
-            "def": "Dépouiller une personne des biens et de l'argent qu'elle porte sur elle, par la violence."
+        "religieusement": {
+            "catGram": "adverbe",
+            "def": "D'une manière religieuse"
         },
-        "paginer": {
-            "catGram": "verbe",
-            "def": "Numéroter les pages (d'un ouvrage, d'un document)."
+        "faîte": {
+            "catGram": "nom masculin",
+            "def": "Partie la plus élevée d'un édifice, d'un arbre, etc."
         },
-        "sanction": {
+        "obtenir": {
+            "catGram": "verbe",
+            "def": "Parvenir à se faire accorder (ce que l'on veut)."
+        },
+        "perturbation": {
             "catGram": "nom féminin",
-            "def": "Acte par lequel, dans une monarchie constitutionnelle, le souverain ou son représentant approuve une loi après son adoption."
-        },
-        "fidéliser": {
-            "catGram": "verbe",
-            "def": "Rendre la clientèle fidèle à (un produit, un service, une marque, un point de vente)."
+            "def": "Trouble, bouleversement qui affecte la vie d'un groupe ou d'un individu."
         }
     }
 }
