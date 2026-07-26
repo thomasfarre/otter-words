@@ -1,20 +1,20 @@
 {
     "words": {
-        "religieusement": {
-            "catGram": "adverbe",
-            "def": "D'une manière religieuse"
-        },
-        "faîte": {
+        "silence": {
             "catGram": "nom masculin",
-            "def": "Partie la plus élevée d'un édifice, d'un arbre, etc."
+            "def": "Fait de ne pas parler, de se taire."
         },
-        "obtenir": {
+        "ligaturer": {
             "catGram": "verbe",
-            "def": "Parvenir à se faire accorder (ce que l'on veut)."
+            "def": "Serrer, fixer avec un lien"
         },
-        "perturbation": {
+        "génération": {
             "catGram": "nom féminin",
-            "def": "Trouble, bouleversement qui affecte la vie d'un groupe ou d'un individu."
+            "def": "Action d'engendrer"
+        },
+        "matérielle": {
+            "catGram": "adjectif",
+            "def": "Fait, formé de matière"
         }
     }
 }
