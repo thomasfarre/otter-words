@@ -1,20 +1,20 @@
 {
     "words": {
-        "silence": {
-            "catGram": "nom masculin",
-            "def": "Fait de ne pas parler, de se taire."
-        },
-        "ligaturer": {
-            "catGram": "verbe",
-            "def": "Serrer, fixer avec un lien"
-        },
-        "génération": {
-            "catGram": "nom féminin",
-            "def": "Action d'engendrer"
-        },
-        "matérielle": {
+        "débrouillard": {
             "catGram": "adjectif",
-            "def": "Fait, formé de matière"
+            "def": "Qui sait se tirer d'affaire, d'embarras."
+        },
+        "actinie": {
+            "catGram": "nom féminin",
+            "def": "Nom technique de l’anémone de mer."
+        },
+        "extraordinaire": {
+            "catGram": "adjectif",
+            "def": "Qui sort du cours ordinaire des choses."
+        },
+        "révélation": {
+            "catGram": "nom féminin",
+            "def": "Action de révéler qqch."
         }
     }
 }
