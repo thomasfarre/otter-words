@@ -1,20 +1,20 @@
 {
     "words": {
-        "débrouillard": {
-            "catGram": "adjectif",
-            "def": "Qui sait se tirer d'affaire, d'embarras."
+        "manifester": {
+            "catGram": "verbe",
+            "def": "Faire connaître de manière manifeste"
         },
-        "actinie": {
+        "conformation": {
             "catGram": "nom féminin",
-            "def": "Nom technique de l’anémone de mer."
+            "def": "Disposition, organisation des différentes parties du corps des humains ou des animaux, ou de tout corps organisé."
         },
-        "extraordinaire": {
-            "catGram": "adjectif",
-            "def": "Qui sort du cours ordinaire des choses."
+        "cendrier": {
+            "catGram": "nom masculin",
+            "def": "Tiroir, placé sous un foyer, où tombe la cendre."
         },
-        "révélation": {
-            "catGram": "nom féminin",
-            "def": "Action de révéler qqch."
+        "gésir": {
+            "catGram": "verbe",
+            "def": "Être étendu, couché, sans pouvoir se mouvoir (à la suite d'un malaise, d'une blessure, d'une maladie, ou de la mort)."
         }
     }
 }
