@@ -1,20 +1,20 @@
 {
     "words": {
-        "manifester": {
-            "catGram": "verbe",
-            "def": "Faire connaître de manière manifeste"
-        },
-        "conformation": {
-            "catGram": "nom féminin",
-            "def": "Disposition, organisation des différentes parties du corps des humains ou des animaux, ou de tout corps organisé."
-        },
-        "cendrier": {
+        "clan": {
             "catGram": "nom masculin",
-            "def": "Tiroir, placé sous un foyer, où tombe la cendre."
+            "def": "En Écosse et en Irlande, ensemble de familles qui avaient un ancêtre commun et qui se groupaient autour d’un même chef."
         },
-        "gésir": {
+        "frissonner": {
             "catGram": "verbe",
-            "def": "Être étendu, couché, sans pouvoir se mouvoir (à la suite d'un malaise, d'une blessure, d'une maladie, ou de la mort)."
+            "def": "Être agité de frissons, d'un tremblement involontaire causé par le froid ou la fièvre."
+        },
+        "unanimité": {
+            "catGram": "nom féminin",
+            "def": "Conformité d'opinion d'un groupe de personnes devant un événement."
+        },
+        "parlant": {
+            "catGram": "adjectif",
+            "def": "Qui parle, qui possède la faculté de parler."
         }
     }
 }
