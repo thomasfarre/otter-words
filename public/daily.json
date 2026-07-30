@@ -1,20 +1,20 @@
 {
     "words": {
-        "clan": {
-            "catGram": "nom masculin",
-            "def": "En Écosse et en Irlande, ensemble de familles qui avaient un ancêtre commun et qui se groupaient autour d’un même chef."
-        },
-        "frissonner": {
-            "catGram": "verbe",
-            "def": "Être agité de frissons, d'un tremblement involontaire causé par le froid ou la fièvre."
-        },
-        "unanimité": {
+        "collectivité": {
             "catGram": "nom féminin",
-            "def": "Conformité d'opinion d'un groupe de personnes devant un événement."
+            "def": "Ensemble d'individus liés par des intérêts, des buts communs."
         },
-        "parlant": {
+        "fraiseur": {
+            "catGram": "nom",
+            "def": "Personne qui exécute le fraisage de pièces."
+        },
+        "fictif": {
             "catGram": "adjectif",
-            "def": "Qui parle, qui possède la faculté de parler."
+            "def": "Né de l'imagination."
+        },
+        "hutte": {
+            "catGram": "nom féminin",
+            "def": "Abri ou habitation rudimentaire, faite de terre, de paille, de branches."
         }
     }
 }
