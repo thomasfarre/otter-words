@@ -1,20 +1,20 @@
 {
     "words": {
-        "collectivité": {
-            "catGram": "nom féminin",
-            "def": "Ensemble d'individus liés par des intérêts, des buts communs."
-        },
-        "fraiseur": {
-            "catGram": "nom",
-            "def": "Personne qui exécute le fraisage de pièces."
-        },
-        "fictif": {
+        "moratoire": {
             "catGram": "adjectif",
-            "def": "Né de l'imagination."
+            "def": "Qui accorde un délai dans l’application de qqch."
         },
-        "hutte": {
-            "catGram": "nom féminin",
-            "def": "Abri ou habitation rudimentaire, faite de terre, de paille, de branches."
+        "timide": {
+            "catGram": "adjectif",
+            "def": "Qui manque d'aisance et d'assurance dans ses relations avec autrui"
+        },
+        "humour": {
+            "catGram": "nom masculin",
+            "def": "Forme d'esprit qui fait ressortir avec détachement et drôlerie les aspects plaisants, absurdes ou insolites de la réalité."
+        },
+        "consortium": {
+            "catGram": "nom masculin",
+            "def": "Groupement d'entreprises, de banques ou d'autres organismes pour réaliser des opérations communes."
         }
     }
 }
