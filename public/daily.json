@@ -1,20 +1,20 @@
 {
     "words": {
-        "moratoire": {
-            "catGram": "adjectif",
-            "def": "Qui accorde un délai dans l’application de qqch."
+        "star": {
+            "catGram": "nom féminin",
+            "def": "Étoile, vedette."
         },
-        "timide": {
-            "catGram": "adjectif",
-            "def": "Qui manque d'aisance et d'assurance dans ses relations avec autrui"
+        "raconter": {
+            "catGram": "verbe",
+            "def": "Narrer, faire le récit de."
         },
-        "humour": {
-            "catGram": "nom masculin",
-            "def": "Forme d'esprit qui fait ressortir avec détachement et drôlerie les aspects plaisants, absurdes ou insolites de la réalité."
+        "aidant": {
+            "catGram": "nom",
+            "def": "Personne qui prête son concours à qqn, qui aide qqn, généralement une personne dépendante."
         },
-        "consortium": {
-            "catGram": "nom masculin",
-            "def": "Groupement d'entreprises, de banques ou d'autres organismes pour réaliser des opérations communes."
+        "vésicule": {
+            "catGram": "nom féminin",
+            "def": "Organe ayant la forme d'un petit sac."
         }
     }
 }
