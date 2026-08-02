@@ -1,20 +1,20 @@
 {
     "words": {
-        "star": {
+        "promenade": {
             "catGram": "nom féminin",
-            "def": "Étoile, vedette."
+            "def": "Action de se promener"
         },
-        "raconter": {
+        "libeller": {
             "catGram": "verbe",
-            "def": "Narrer, faire le récit de."
+            "def": "Rédiger dans des formes légales ou requises."
         },
-        "aidant": {
-            "catGram": "nom",
-            "def": "Personne qui prête son concours à qqn, qui aide qqn, généralement une personne dépendante."
-        },
-        "vésicule": {
+        "rationalité": {
             "catGram": "nom féminin",
-            "def": "Organe ayant la forme d'un petit sac."
+            "def": "Caractère de ce qui est rationnel, qui obéit à la raison."
+        },
+        "égal": {
+            "catGram": "adjectif",
+            "def": "Qui ne présente aucune différence en nature, en qualité, en quantité, en valeur"
         }
     }
 }
