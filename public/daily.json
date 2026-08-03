@@ -1,20 +1,20 @@
 {
     "words": {
-        "promenade": {
+        "géographie": {
             "catGram": "nom féminin",
-            "def": "Action de se promener"
+            "def": "Science ayant pour objet l'étude et la description de la surface de la Terre et des phénomènes naturels et humains qui s'y produisent."
         },
-        "libeller": {
-            "catGram": "verbe",
-            "def": "Rédiger dans des formes légales ou requises."
-        },
-        "rationalité": {
+        "volaille": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est rationnel, qui obéit à la raison."
+            "def": "Ensemble des oiseaux de basse-cour élevés pour leurs œufs ou leur chair."
         },
-        "égal": {
-            "catGram": "adjectif",
-            "def": "Qui ne présente aucune différence en nature, en qualité, en quantité, en valeur"
+        "boussole": {
+            "catGram": "nom féminin",
+            "def": "Instrument comportant un cadran muni d'une aiguille mobile aimantée dont une extrémité indique le nord magnétique terrestre."
+        },
+        "presbytie": {
+            "catGram": "nom féminin",
+            "def": "Trouble de la vision résultant d'une diminution du pouvoir d'accommodation du cristallin et qui se traduit par une difficulté de voir de près."
         }
     }
 }
