@@ -1,20 +1,20 @@
 {
     "words": {
-        "géographie": {
+        "bourbe": {
             "catGram": "nom féminin",
-            "def": "Science ayant pour objet l'étude et la description de la surface de la Terre et des phénomènes naturels et humains qui s'y produisent."
+            "def": "Boue, vase épaisse qui s'accumule au fond des eaux dormantes des marais, des étangs, etc."
         },
-        "volaille": {
+        "mancelle": {
             "catGram": "nom féminin",
-            "def": "Ensemble des oiseaux de basse-cour élevés pour leurs œufs ou leur chair."
+            "def": "Courroie ou chaîne qui joint les attelles du collier d'un cheval aux limons de la voiture."
         },
-        "boussole": {
-            "catGram": "nom féminin",
-            "def": "Instrument comportant un cadran muni d'une aiguille mobile aimantée dont une extrémité indique le nord magnétique terrestre."
+        "antéchrist": {
+            "catGram": "nom masculin",
+            "def": "Personnage mystérieux qui, selon l’Apocalypse, détient le pouvoir de Satan et doit apparaître à la fin des temps pour mener contre l'Église du Christ une lutte suprême."
         },
-        "presbytie": {
+        "rivière": {
             "catGram": "nom féminin",
-            "def": "Trouble de la vision résultant d'une diminution du pouvoir d'accommodation du cristallin et qui se traduit par une difficulté de voir de près."
+            "def": "Cours d'eau d’une certaine importance, perçu comme plus grand qu’un ruisseau, mais plus petit qu’un fleuve"
         }
     }
 }
