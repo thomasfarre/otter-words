@@ -1,20 +1,20 @@
 {
     "words": {
-        "bourbe": {
-            "catGram": "nom féminin",
-            "def": "Boue, vase épaisse qui s'accumule au fond des eaux dormantes des marais, des étangs, etc."
+        "debout": {
+            "catGram": "adverbe",
+            "def": "À la verticale, sur l'un des côtés ou des bouts."
         },
-        "mancelle": {
+        "aspirine": {
             "catGram": "nom féminin",
-            "def": "Courroie ou chaîne qui joint les attelles du collier d'un cheval aux limons de la voiture."
+            "def": "Nom déposé de l’acide acétylsalicylique, notamment utilisée comme médicament analgésique."
         },
-        "antéchrist": {
-            "catGram": "nom masculin",
-            "def": "Personnage mystérieux qui, selon l’Apocalypse, détient le pouvoir de Satan et doit apparaître à la fin des temps pour mener contre l'Église du Christ une lutte suprême."
-        },
-        "rivière": {
+        "échéance": {
             "catGram": "nom féminin",
-            "def": "Cours d'eau d’une certaine importance, perçu comme plus grand qu’un ruisseau, mais plus petit qu’un fleuve"
+            "def": "Date à laquelle un règlement est exigible ou à laquelle un engagement doit être satisfait."
+        },
+        "épicerie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des denrées, notamment alimentaires, de consommation et d'usage courants."
         }
     }
 }
