@@ -1,20 +1,20 @@
 {
     "words": {
-        "debout": {
-            "catGram": "adverbe",
-            "def": "À la verticale, sur l'un des côtés ou des bouts."
+        "guides": {
+            "catGram": "nom épicène",
+            "def": "Personne qui accompagne, qui dirige la marche de qqn."
         },
-        "aspirine": {
-            "catGram": "nom féminin",
-            "def": "Nom déposé de l’acide acétylsalicylique, notamment utilisée comme médicament analgésique."
+        "mourir": {
+            "catGram": "verbe",
+            "def": "Cesser d'exister, perdre la vie."
         },
-        "échéance": {
-            "catGram": "nom féminin",
-            "def": "Date à laquelle un règlement est exigible ou à laquelle un engagement doit être satisfait."
+        "effet": {
+            "catGram": "nom masculin",
+            "def": "Ce qui est produit par une cause physique ou morale."
         },
-        "épicerie": {
-            "catGram": "nom féminin",
-            "def": "Ensemble des denrées, notamment alimentaires, de consommation et d'usage courants."
+        "néant": {
+            "catGram": "nom masculin",
+            "def": "Ce qui n’existe pas"
         }
     }
 }
