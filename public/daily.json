@@ -1,20 +1,20 @@
 {
     "words": {
-        "guides": {
-            "catGram": "nom épicène",
-            "def": "Personne qui accompagne, qui dirige la marche de qqn."
+        "postérité": {
+            "catGram": "nom féminin",
+            "def": "Suite des descendants d'une même origine."
         },
-        "mourir": {
+        "talent": {
+            "catGram": "nom masculin",
+            "def": "Unité de poids de 20 à 27 kg."
+        },
+        "expulsion": {
+            "catGram": "nom féminin",
+            "def": "Action d'expulser qqn."
+        },
+        "ressusciter": {
             "catGram": "verbe",
-            "def": "Cesser d'exister, perdre la vie."
-        },
-        "effet": {
-            "catGram": "nom masculin",
-            "def": "Ce qui est produit par une cause physique ou morale."
-        },
-        "néant": {
-            "catGram": "nom masculin",
-            "def": "Ce qui n’existe pas"
+            "def": "Revenir ou sembler revenir de la mort à la vie."
         }
     }
 }
