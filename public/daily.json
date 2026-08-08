@@ -1,20 +1,20 @@
 {
     "words": {
-        "postérité": {
+        "marchandise": {
             "catGram": "nom féminin",
-            "def": "Suite des descendants d'une même origine."
+            "def": "Tout produit (denrées, matières premières, objets manufacturés) susceptible d'être acheté ou vendu."
         },
-        "talent": {
+        "navet": {
             "catGram": "nom masculin",
-            "def": "Unité de poids de 20 à 27 kg."
+            "def": "Plante potagère bisannuelle probablement originaire de Méditerranée orientale et d’Asie centrale, de type chou, cultivée pour sa racine renflée comestible"
         },
-        "expulsion": {
+        "garde-fou": {
+            "catGram": "nom masculin",
+            "def": "Barrière, mur à hauteur d'appui, qui sert à protéger des chutes."
+        },
+        "obstruction": {
             "catGram": "nom féminin",
-            "def": "Action d'expulser qqn."
-        },
-        "ressusciter": {
-            "catGram": "verbe",
-            "def": "Revenir ou sembler revenir de la mort à la vie."
+            "def": "Action d'obstruer"
         }
     }
 }
