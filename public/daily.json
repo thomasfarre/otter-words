@@ -1,20 +1,20 @@
 {
     "words": {
-        "marchandise": {
+        "agonie": {
             "catGram": "nom féminin",
-            "def": "Tout produit (denrées, matières premières, objets manufacturés) susceptible d'être acheté ou vendu."
+            "def": "État transitoire correspondant aux derniers instants de la vie."
         },
-        "navet": {
-            "catGram": "nom masculin",
-            "def": "Plante potagère bisannuelle probablement originaire de Méditerranée orientale et d’Asie centrale, de type chou, cultivée pour sa racine renflée comestible"
-        },
-        "garde-fou": {
-            "catGram": "nom masculin",
-            "def": "Barrière, mur à hauteur d'appui, qui sert à protéger des chutes."
-        },
-        "obstruction": {
+        "alluvion": {
             "catGram": "nom féminin",
-            "def": "Action d'obstruer"
+            "def": "Droit, pour le propriétaire riverain, de tirer avantage de l'alluvionnement."
+        },
+        "contempler": {
+            "catGram": "verbe",
+            "def": "Considérer, examiner avec attention, admiration."
+        },
+        "dépravation": {
+            "catGram": "nom féminin",
+            "def": "État d’une personne ou d’une chose dépravée."
         }
     }
 }
