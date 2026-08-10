@@ -1,20 +1,20 @@
 {
     "words": {
-        "agonie": {
+        "grossièreté": {
             "catGram": "nom féminin",
-            "def": "État transitoire correspondant aux derniers instants de la vie."
+            "def": "Caractère de ce qui grossier, imparfaitement façonné, mal fini."
         },
-        "alluvion": {
+        "abjection": {
             "catGram": "nom féminin",
-            "def": "Droit, pour le propriétaire riverain, de tirer avantage de l'alluvionnement."
+            "def": "Ultime degré de bassesse morale."
         },
-        "contempler": {
-            "catGram": "verbe",
-            "def": "Considérer, examiner avec attention, admiration."
+        "bâtiment": {
+            "catGram": "nom masculin",
+            "def": "Secteur d'activité visant à la construction des édifices."
         },
-        "dépravation": {
-            "catGram": "nom féminin",
-            "def": "État d’une personne ou d’une chose dépravée."
+        "incongru": {
+            "catGram": "adjectif",
+            "def": "Qui ne convient pas"
         }
     }
 }
