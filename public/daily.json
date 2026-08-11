@@ -1,20 +1,20 @@
 {
     "words": {
-        "grossièreté": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui grossier, imparfaitement façonné, mal fini."
-        },
-        "abjection": {
-            "catGram": "nom féminin",
-            "def": "Ultime degré de bassesse morale."
-        },
-        "bâtiment": {
+        "vitriolage": {
             "catGram": "nom masculin",
-            "def": "Secteur d'activité visant à la construction des édifices."
+            "def": "Action de vitrioler"
         },
-        "incongru": {
-            "catGram": "adjectif",
-            "def": "Qui ne convient pas"
+        "étançonner": {
+            "catGram": "verbe",
+            "def": "Consolider, soutenir au moyen d’étançons."
+        },
+        "aérodynamique": {
+            "catGram": "nom féminin",
+            "def": "Branche de la physique qui étudie les lois du déplacement relatif d'un corps et de l'air environnant."
+        },
+        "violence": {
+            "catGram": "nom féminin",
+            "def": "Force exercée par une personne ou par un groupe de personnes pour soumettre qqn, le contraindre à faire qqch."
         }
     }
 }
