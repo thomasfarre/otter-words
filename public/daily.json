@@ -1,20 +1,20 @@
 {
     "words": {
-        "vitriolage": {
+        "fraternité": {
+            "catGram": "nom féminin",
+            "def": "Lien de parenté entre les enfants issus de mêmes parents."
+        },
+        "marronnier": {
             "catGram": "nom masculin",
-            "def": "Action de vitrioler"
+            "def": "Châtaignier commun cultivé pour la production de grosses châtaignes (ou marrons), et dont les bogues ne contiennent généralement qu’un seul fruit."
         },
-        "étançonner": {
-            "catGram": "verbe",
-            "def": "Consolider, soutenir au moyen d’étançons."
+        "harmonieux": {
+            "catGram": "adjectif",
+            "def": "Qui a de l'harmonie, qui produit des sons agréables, mélodieux"
         },
-        "aérodynamique": {
-            "catGram": "nom féminin",
-            "def": "Branche de la physique qui étudie les lois du déplacement relatif d'un corps et de l'air environnant."
-        },
-        "violence": {
-            "catGram": "nom féminin",
-            "def": "Force exercée par une personne ou par un groupe de personnes pour soumettre qqn, le contraindre à faire qqch."
+        "autorisé": {
+            "catGram": "adjectif",
+            "def": "Qui a reçu une autorisation."
         }
     }
 }
