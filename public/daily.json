@@ -1,20 +1,20 @@
 {
     "words": {
-        "fraternité": {
+        "classique": {
+            "catGram": "adjectif",
+            "def": "Qui fait autorité, qui est considéré comme une référence."
+        },
+        "rustique": {
+            "catGram": "adjectif",
+            "def": "Qui appartient à la campagne, est de la campagne"
+        },
+        "sexualité": {
             "catGram": "nom féminin",
-            "def": "Lien de parenté entre les enfants issus de mêmes parents."
+            "def": "Caractère de ce qui est sexué"
         },
-        "marronnier": {
-            "catGram": "nom masculin",
-            "def": "Châtaignier commun cultivé pour la production de grosses châtaignes (ou marrons), et dont les bogues ne contiennent généralement qu’un seul fruit."
-        },
-        "harmonieux": {
+        "archaïque": {
             "catGram": "adjectif",
-            "def": "Qui a de l'harmonie, qui produit des sons agréables, mélodieux"
-        },
-        "autorisé": {
-            "catGram": "adjectif",
-            "def": "Qui a reçu une autorisation."
+            "def": "Qui se rapporte à une époque révolue"
         }
     }
 }
