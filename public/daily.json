@@ -1,20 +1,20 @@
 {
     "words": {
-        "classique": {
-            "catGram": "adjectif",
-            "def": "Qui fait autorité, qui est considéré comme une référence."
-        },
-        "rustique": {
-            "catGram": "adjectif",
-            "def": "Qui appartient à la campagne, est de la campagne"
-        },
-        "sexualité": {
+        "cosse": {
             "catGram": "nom féminin",
-            "def": "Caractère de ce qui est sexué"
+            "def": "Enveloppe allongée de certaines légumineuses, contenant les graines."
         },
-        "archaïque": {
+        "paille": {
+            "catGram": "nom féminin",
+            "def": "Ensemble de tiges de céréales coupées et dépouillées de leur grain."
+        },
+        "risqué": {
             "catGram": "adjectif",
-            "def": "Qui se rapporte à une époque révolue"
+            "def": "Qui comporte beaucoup de risques."
+        },
+        "insuccès": {
+            "catGram": "nom masculin",
+            "def": "Manque de succès, de réussite"
         }
     }
 }
