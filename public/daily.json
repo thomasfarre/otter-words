@@ -1,20 +1,20 @@
 {
     "words": {
-        "cosse": {
-            "catGram": "nom féminin",
-            "def": "Enveloppe allongée de certaines légumineuses, contenant les graines."
-        },
-        "paille": {
-            "catGram": "nom féminin",
-            "def": "Ensemble de tiges de céréales coupées et dépouillées de leur grain."
-        },
-        "risqué": {
+        "niais": {
             "catGram": "adjectif",
-            "def": "Qui comporte beaucoup de risques."
+            "def": "Qui est sans expérience et naïf au point d'être bête."
         },
-        "insuccès": {
+        "enquête": {
+            "catGram": "nom féminin",
+            "def": "Recherche systématique de la vérité par l'interrogation de témoins et la réunion d'éléments d'information."
+        },
+        "larynx": {
             "catGram": "nom masculin",
-            "def": "Manque de succès, de réussite"
+            "def": "Organe principal de la phonation, situé entre le pharynx et la trachée."
+        },
+        "revue": {
+            "catGram": "nom féminin",
+            "def": "Action d’examiner point par point les divers éléments d’un ensemble, les divers aspects d'une question."
         }
     }
 }
