@@ -1,20 +1,20 @@
 {
     "words": {
-        "niais": {
+        "accessoirement": {
+            "catGram": "adverbe",
+            "def": "De manière accessoire."
+        },
+        "tertiaire": {
             "catGram": "adjectif",
-            "def": "Qui est sans expérience et naïf au point d'être bête."
+            "def": "Ancienne grande division du cénozoïque, aujourd’hui remplacée par les périodes du paléogène et du néogène."
         },
-        "enquête": {
-            "catGram": "nom féminin",
-            "def": "Recherche systématique de la vérité par l'interrogation de témoins et la réunion d'éléments d'information."
+        "chronologique": {
+            "catGram": "adjectif",
+            "def": "Relatif à la chronologie."
         },
-        "larynx": {
-            "catGram": "nom masculin",
-            "def": "Organe principal de la phonation, situé entre le pharynx et la trachée."
-        },
-        "revue": {
-            "catGram": "nom féminin",
-            "def": "Action d’examiner point par point les divers éléments d’un ensemble, les divers aspects d'une question."
+        "fiscal": {
+            "catGram": "adjectif",
+            "def": "Relatif au fisc, à la fiscalité."
         }
     }
 }
