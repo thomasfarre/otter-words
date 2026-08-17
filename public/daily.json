@@ -1,20 +1,20 @@
 {
     "words": {
-        "accessoirement": {
-            "catGram": "adverbe",
-            "def": "De manière accessoire."
-        },
-        "tertiaire": {
+        "vaillant": {
             "catGram": "adjectif",
-            "def": "Ancienne grande division du cénozoïque, aujourd’hui remplacée par les périodes du paléogène et du néogène."
+            "def": "Brave, courageux."
         },
-        "chronologique": {
-            "catGram": "adjectif",
-            "def": "Relatif à la chronologie."
+        "effervescence": {
+            "catGram": "nom féminin",
+            "def": "Dégagement de bulles gazeuses dans un liquide lors d’un contact avec certaines substances."
         },
-        "fiscal": {
-            "catGram": "adjectif",
-            "def": "Relatif au fisc, à la fiscalité."
+        "zénith": {
+            "catGram": "nom masculin",
+            "def": "Point imaginaire de la sphère céleste qui se trouve directement au-dessus de l'observateur"
+        },
+        "décapiter": {
+            "catGram": "verbe",
+            "def": "Trancher la tête de qqn."
         }
     }
 }
