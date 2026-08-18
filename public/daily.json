@@ -1,20 +1,20 @@
 {
     "words": {
-        "vaillant": {
-            "catGram": "adjectif",
-            "def": "Brave, courageux."
-        },
-        "effervescence": {
-            "catGram": "nom féminin",
-            "def": "Dégagement de bulles gazeuses dans un liquide lors d’un contact avec certaines substances."
-        },
-        "zénith": {
-            "catGram": "nom masculin",
-            "def": "Point imaginaire de la sphère céleste qui se trouve directement au-dessus de l'observateur"
-        },
-        "décapiter": {
+        "vicier": {
             "catGram": "verbe",
-            "def": "Trancher la tête de qqn."
+            "def": "Rendre défectueux ou nul."
+        },
+        "métrer": {
+            "catGram": "verbe",
+            "def": "Mesurer avec un mètre."
+        },
+        "inoubliable": {
+            "catGram": "adjectif",
+            "def": "Qu'il est impossible d'oublier, qui ne peut s'oublier"
+        },
+        "acquiescer": {
+            "catGram": "verbe",
+            "def": "Donner un plein assentiment à."
         }
     }
 }
