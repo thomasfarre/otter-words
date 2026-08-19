@@ -1,20 +1,20 @@
 {
     "words": {
-        "vicier": {
-            "catGram": "verbe",
-            "def": "Rendre défectueux ou nul."
+        "rattachement": {
+            "catGram": "nom masculin",
+            "def": "Action de rattacher"
         },
-        "métrer": {
+        "suppurer": {
             "catGram": "verbe",
-            "def": "Mesurer avec un mètre."
+            "def": "Produire, laisser écouler du pus."
         },
-        "inoubliable": {
-            "catGram": "adjectif",
-            "def": "Qu'il est impossible d'oublier, qui ne peut s'oublier"
-        },
-        "acquiescer": {
+        "réfuter": {
             "catGram": "verbe",
-            "def": "Donner un plein assentiment à."
+            "def": "Rejeter (ce qui est avancé par qqn) à l'aide de preuves qui en démontrent la fausseté."
+        },
+        "mandat": {
+            "catGram": "nom masculin",
+            "def": "Mission, charge, contrat que l'on confie à quelqu'un en son nom ou en celui d'une organisation."
         }
     }
 }
