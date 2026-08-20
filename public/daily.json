@@ -1,20 +1,20 @@
 {
     "words": {
-        "rattachement": {
+        "allongement": {
             "catGram": "nom masculin",
-            "def": "Action de rattacher"
+            "def": "Action de rendre ou de devenir plus long"
         },
-        "suppurer": {
+        "pâtir": {
             "catGram": "verbe",
-            "def": "Produire, laisser écouler du pus."
+            "def": "Supporter avec patience des privations physiques ou morales"
         },
-        "réfuter": {
+        "reculer": {
             "catGram": "verbe",
-            "def": "Rejeter (ce qui est avancé par qqn) à l'aide de preuves qui en démontrent la fausseté."
+            "def": "Aller en arrière"
         },
-        "mandat": {
-            "catGram": "nom masculin",
-            "def": "Mission, charge, contrat que l'on confie à quelqu'un en son nom ou en celui d'une organisation."
+        "horaire": {
+            "catGram": "adjectif",
+            "def": "Relatif aux heures."
         }
     }
 }
