@@ -1,20 +1,20 @@
 {
     "words": {
-        "allongement": {
-            "catGram": "nom masculin",
-            "def": "Action de rendre ou de devenir plus long"
-        },
-        "pâtir": {
+        "faner": {
             "catGram": "verbe",
-            "def": "Supporter avec patience des privations physiques ou morales"
+            "def": "Retourner une herbe fauchée en l'étalant pour la faire sécher."
         },
-        "reculer": {
+        "semence": {
+            "catGram": "nom féminin",
+            "def": "Graine que l'on sème ou toute partie de végétal que l'on met en terre pour la reproduction."
+        },
+        "jubiler": {
             "catGram": "verbe",
-            "def": "Aller en arrière"
+            "def": "Éprouver une grande joie, une satisfaction profonde, que l'on laisse ou non s'extérioriser."
         },
-        "horaire": {
-            "catGram": "adjectif",
-            "def": "Relatif aux heures."
+        "geôle": {
+            "catGram": "nom féminin",
+            "def": "Prison."
         }
     }
 }
