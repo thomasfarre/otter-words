@@ -1,20 +1,20 @@
 {
     "words": {
-        "faner": {
+        "désir": {
+            "catGram": "nom masculin",
+            "def": "Vive aspiration vers qqch. qui réponde à une attente."
+        },
+        "vôtre": {
+            "catGram": "adjectif possessif",
+            "def": "Qui vous appartient, qui vous est propre."
+        },
+        "estimer": {
             "catGram": "verbe",
-            "def": "Retourner une herbe fauchée en l'étalant pour la faire sécher."
+            "def": "Déterminer le prix, la valeur de qqch."
         },
-        "semence": {
-            "catGram": "nom féminin",
-            "def": "Graine que l'on sème ou toute partie de végétal que l'on met en terre pour la reproduction."
-        },
-        "jubiler": {
-            "catGram": "verbe",
-            "def": "Éprouver une grande joie, une satisfaction profonde, que l'on laisse ou non s'extérioriser."
-        },
-        "geôle": {
-            "catGram": "nom féminin",
-            "def": "Prison."
+        "philanthropique": {
+            "catGram": "adjectif",
+            "def": "Relatif à la philanthropie"
         }
     }
 }
