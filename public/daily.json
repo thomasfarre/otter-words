@@ -1,20 +1,20 @@
 {
     "words": {
-        "désir": {
-            "catGram": "nom masculin",
-            "def": "Vive aspiration vers qqch. qui réponde à une attente."
+        "autruche": {
+            "catGram": "nom féminin",
+            "def": "très grand oiseau herbivore des savanes africaines, à plumage noir et blanc (brun grisâtre chez la femelle), à corps massif, à pattes longues et puissantes, à petite tête et à très long cou couverts de duvet pâle, qui est inapte au vol mais rapide à la course et que l’on élève notamment pour les longues plumes soyeuses de ses ailes et de sa queue, appréciées comme ornement."
         },
-        "vôtre": {
-            "catGram": "adjectif possessif",
-            "def": "Qui vous appartient, qui vous est propre."
+        "protéine": {
+            "catGram": "nom féminin",
+            "def": "Macromolécule organique complexe, formée d'une longue chaîne d'acides aminés, composante essentielle des êtres vivants."
         },
-        "estimer": {
+        "despote": {
+            "catGram": "nom épicène",
+            "def": "Chef d'État qui gouverne avec une autorité arbitraire et sans limite."
+        },
+        "comploter": {
             "catGram": "verbe",
-            "def": "Déterminer le prix, la valeur de qqch."
-        },
-        "philanthropique": {
-            "catGram": "adjectif",
-            "def": "Relatif à la philanthropie"
+            "def": "Organiser à plusieurs et dans le secret (une action malveillante contre une personne, une institution)."
         }
     }
 }
