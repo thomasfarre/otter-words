@@ -1,20 +1,20 @@
 {
     "words": {
-        "autruche": {
-            "catGram": "nom féminin",
-            "def": "très grand oiseau herbivore des savanes africaines, à plumage noir et blanc (brun grisâtre chez la femelle), à corps massif, à pattes longues et puissantes, à petite tête et à très long cou couverts de duvet pâle, qui est inapte au vol mais rapide à la course et que l’on élève notamment pour les longues plumes soyeuses de ses ailes et de sa queue, appréciées comme ornement."
+        "zélé": {
+            "catGram": "adjectif",
+            "def": "Qui fait preuve de zèle"
         },
-        "protéine": {
-            "catGram": "nom féminin",
-            "def": "Macromolécule organique complexe, formée d'une longue chaîne d'acides aminés, composante essentielle des êtres vivants."
-        },
-        "despote": {
-            "catGram": "nom épicène",
-            "def": "Chef d'État qui gouverne avec une autorité arbitraire et sans limite."
-        },
-        "comploter": {
+        "remanier": {
             "catGram": "verbe",
-            "def": "Organiser à plusieurs et dans le secret (une action malveillante contre une personne, une institution)."
+            "def": "Modifier (un ouvrage de l’esprit) par un nouveau travail, à partir des matériaux primitifs ou d'une partie de ceux-ci."
+        },
+        "pilule": {
+            "catGram": "nom féminin",
+            "def": "Médicament se présentant sous la forme d’une petite sphère et destiné à être avalé."
+        },
+        "recel": {
+            "catGram": "nom masculin",
+            "def": "Acte qui consiste à détenir sciemment des objets volés ou obtenus illégalement par une autre personne."
         }
     }
 }
