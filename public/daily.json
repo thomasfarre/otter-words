@@ -1,20 +1,20 @@
 {
     "words": {
-        "zélé": {
-            "catGram": "adjectif",
-            "def": "Qui fait preuve de zèle"
-        },
-        "remanier": {
-            "catGram": "verbe",
-            "def": "Modifier (un ouvrage de l’esprit) par un nouveau travail, à partir des matériaux primitifs ou d'une partie de ceux-ci."
-        },
-        "pilule": {
-            "catGram": "nom féminin",
-            "def": "Médicament se présentant sous la forme d’une petite sphère et destiné à être avalé."
-        },
-        "recel": {
+        "archonte": {
             "catGram": "nom masculin",
-            "def": "Acte qui consiste à détenir sciemment des objets volés ou obtenus illégalement par une autre personne."
+            "def": "Premier magistrat des républiques grecques."
+        },
+        "ultime": {
+            "catGram": "adjectif",
+            "def": "Qui se situe dans le temps à la fin d'un processus et qui le clôt."
+        },
+        "recouvrir": {
+            "catGram": "verbe",
+            "def": "Couvrir de nouveau"
+        },
+        "sur-le-champ": {
+            "catGram": "nom masculin",
+            "def": "Étendue plate de terre arable."
         }
     }
 }
