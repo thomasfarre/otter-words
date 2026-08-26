@@ -1,20 +1,20 @@
 {
     "words": {
-        "archonte": {
-            "catGram": "nom masculin",
-            "def": "Premier magistrat des républiques grecques."
+        "irrévérence": {
+            "catGram": "nom féminin",
+            "def": "Manque de respect, impertinence"
         },
-        "ultime": {
-            "catGram": "adjectif",
-            "def": "Qui se situe dans le temps à la fin d'un processus et qui le clôt."
-        },
-        "recouvrir": {
+        "fleurer": {
             "catGram": "verbe",
-            "def": "Couvrir de nouveau"
+            "def": "Répandre, exhaler (une odeur)."
         },
-        "sur-le-champ": {
+        "orienter": {
+            "catGram": "verbe",
+            "def": "Déterminer la position de qqch. par rapport aux points cardinaux, à une direction ou à un objet déterminé."
+        },
+        "office": {
             "catGram": "nom masculin",
-            "def": "Étendue plate de terre arable."
+            "def": "Fonction."
         }
     }
 }
