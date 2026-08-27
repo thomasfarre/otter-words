@@ -1,20 +1,20 @@
 {
     "words": {
-        "irrévérence": {
+        "tournois": {
+            "catGram": "adjectif",
+            "def": "Relatif à une monnaie d'abord frappée à Tours qui est devenue par la suite monnaie royale."
+        },
+        "réprimander": {
+            "catGram": "verbe",
+            "def": "Faire une réprimande à qqn."
+        },
+        "honte": {
             "catGram": "nom féminin",
-            "def": "Manque de respect, impertinence"
+            "def": "Effet d'opprobre entraîné par un fait, une action transgressant une norme éthique ou une convenance (d'un groupe social, d'une société) ou par une action jugée avilissante par rapport à la norme (d'un groupe social, d'une société)."
         },
-        "fleurer": {
-            "catGram": "verbe",
-            "def": "Répandre, exhaler (une odeur)."
-        },
-        "orienter": {
-            "catGram": "verbe",
-            "def": "Déterminer la position de qqch. par rapport aux points cardinaux, à une direction ou à un objet déterminé."
-        },
-        "office": {
+        "blini": {
             "catGram": "nom masculin",
-            "def": "Fonction."
+            "def": "Petite crêpe épaisse, à base de farines de blé et de sarrasin."
         }
     }
 }
