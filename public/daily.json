@@ -1,20 +1,20 @@
 {
     "words": {
-        "tournois": {
-            "catGram": "adjectif",
-            "def": "Relatif à une monnaie d'abord frappée à Tours qui est devenue par la suite monnaie royale."
-        },
-        "réprimander": {
+        "distribuer": {
             "catGram": "verbe",
-            "def": "Faire une réprimande à qqn."
+            "def": "Donner à des personnes diverses (des choses de même nature ou faisant partie d'un ensemble)."
         },
-        "honte": {
-            "catGram": "nom féminin",
-            "def": "Effet d'opprobre entraîné par un fait, une action transgressant une norme éthique ou une convenance (d'un groupe social, d'une société) ou par une action jugée avilissante par rapport à la norme (d'un groupe social, d'une société)."
-        },
-        "blini": {
+        "vade-mecum": {
             "catGram": "nom masculin",
-            "def": "Petite crêpe épaisse, à base de farines de blé et de sarrasin."
+            "def": "Recueil contenant des renseignements sur les règles d'un art ou d'une technique à observer ou sur une conduite à suivre et qu'on garde sur soi ou à portée de main pour le consulter."
+        },
+        "artistique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l’art, à l'artiste ou aux productions de l’art."
+        },
+        "suppuration": {
+            "catGram": "nom féminin",
+            "def": "Production et écoulement de pus."
         }
     }
 }
