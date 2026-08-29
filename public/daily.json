@@ -1,20 +1,20 @@
 {
     "words": {
-        "distribuer": {
-            "catGram": "verbe",
-            "def": "Donner à des personnes diverses (des choses de même nature ou faisant partie d'un ensemble)."
-        },
-        "vade-mecum": {
-            "catGram": "nom masculin",
-            "def": "Recueil contenant des renseignements sur les règles d'un art ou d'une technique à observer ou sur une conduite à suivre et qu'on garde sur soi ou à portée de main pour le consulter."
-        },
-        "artistique": {
+        "divergent": {
             "catGram": "adjectif",
-            "def": "Relatif à l’art, à l'artiste ou aux productions de l’art."
+            "def": "Qui diverge, qui va en s'écartant."
         },
-        "suppuration": {
+        "encoignure": {
             "catGram": "nom féminin",
-            "def": "Production et écoulement de pus."
+            "def": "Angle intérieur formé par deux murs."
+        },
+        "surgir": {
+            "catGram": "verbe",
+            "def": "Naître, apparaître brusquement à la vue en s'élançant, en s'élevant."
+        },
+        "housse": {
+            "catGram": "nom féminin",
+            "def": "Enveloppe souple épousant la forme des objets qu'elle recouvre afin de les protéger."
         }
     }
 }
