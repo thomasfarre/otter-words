@@ -1,20 +1,20 @@
 {
     "words": {
-        "divergent": {
+        "joujou": {
+            "catGram": "nom masculin",
+            "def": "Jouet."
+        },
+        "systématiquement": {
+            "catGram": "adverbe",
+            "def": "De manière systématique."
+        },
+        "inquiétude": {
+            "catGram": "nom féminin",
+            "def": "État de préoccupation, de trouble ou de tourment lié à l'incertitude, à une crainte, une appréhension"
+        },
+        "paradoxal": {
             "catGram": "adjectif",
-            "def": "Qui diverge, qui va en s'écartant."
-        },
-        "encoignure": {
-            "catGram": "nom féminin",
-            "def": "Angle intérieur formé par deux murs."
-        },
-        "surgir": {
-            "catGram": "verbe",
-            "def": "Naître, apparaître brusquement à la vue en s'élançant, en s'élevant."
-        },
-        "housse": {
-            "catGram": "nom féminin",
-            "def": "Enveloppe souple épousant la forme des objets qu'elle recouvre afin de les protéger."
+            "def": "Qui tient du paradoxe."
         }
     }
 }
