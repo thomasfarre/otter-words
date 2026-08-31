@@ -1,20 +1,20 @@
 {
     "words": {
-        "joujou": {
-            "catGram": "nom masculin",
-            "def": "Jouet."
-        },
-        "systématiquement": {
-            "catGram": "adverbe",
-            "def": "De manière systématique."
-        },
-        "inquiétude": {
-            "catGram": "nom féminin",
-            "def": "État de préoccupation, de trouble ou de tourment lié à l'incertitude, à une crainte, une appréhension"
-        },
-        "paradoxal": {
+        "vétilleux": {
             "catGram": "adjectif",
-            "def": "Qui tient du paradoxe."
+            "def": "Qui s’attarde à des vétilles."
+        },
+        "concours": {
+            "catGram": "nom masculin",
+            "def": "Participation, coopération à une action commune."
+        },
+        "vaccin": {
+            "catGram": "nom masculin",
+            "def": "Virus de la vaccine, ayant servi à immuniser l'être humain contre la variole."
+        },
+        "confer": {
+            "catGram": "mot latin",
+            "def": "Comparez, reportez-vous à"
         }
     }
 }
