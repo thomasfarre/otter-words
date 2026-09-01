@@ -1,20 +1,20 @@
 {
     "words": {
-        "vétilleux": {
-            "catGram": "adjectif",
-            "def": "Qui s’attarde à des vétilles."
+        "prétention": {
+            "catGram": "nom féminin",
+            "def": "Revendication d'un droit réel ou supposé, d'un privilège jugé mérité."
         },
-        "concours": {
-            "catGram": "nom masculin",
-            "def": "Participation, coopération à une action commune."
+        "évasion": {
+            "catGram": "nom féminin",
+            "def": "Action de s'évader, de s'échapper d'un lieu où l'on était tenu enfermé"
         },
-        "vaccin": {
-            "catGram": "nom masculin",
-            "def": "Virus de la vaccine, ayant servi à immuniser l'être humain contre la variole."
+        "mésaventure": {
+            "catGram": "nom féminin",
+            "def": "Événement fâcheux, aventure désagréable."
         },
-        "confer": {
-            "catGram": "mot latin",
-            "def": "Comparez, reportez-vous à"
+        "ambitionner": {
+            "catGram": "verbe",
+            "def": "Rechercher avec ardeur une chose jugée supérieure."
         }
     }
 }
