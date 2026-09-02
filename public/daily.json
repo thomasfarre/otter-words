@@ -1,20 +1,20 @@
 {
     "words": {
-        "prétention": {
-            "catGram": "nom féminin",
-            "def": "Revendication d'un droit réel ou supposé, d'un privilège jugé mérité."
+        "méprisable": {
+            "catGram": "adjectif",
+            "def": "Digne de mépris, jugé moralement condamnable"
         },
-        "évasion": {
+        "laitue": {
             "catGram": "nom féminin",
-            "def": "Action de s'évader, de s'échapper d'un lieu où l'on était tenu enfermé"
+            "def": "Plante de l’hémisphère Nord, à floraison jaune ou bleutée en petits capitules, qui contient un latex blanc et dont on a développé de nombreuses variétés potagères à feuilles larges, tendres et croquantes."
         },
-        "mésaventure": {
-            "catGram": "nom féminin",
-            "def": "Événement fâcheux, aventure désagréable."
+        "désert": {
+            "catGram": "adjectif",
+            "def": "Inhabité, sauvage."
         },
-        "ambitionner": {
-            "catGram": "verbe",
-            "def": "Rechercher avec ardeur une chose jugée supérieure."
+        "spiritueux": {
+            "catGram": "adjectif",
+            "def": "Fort en alcool."
         }
     }
 }
