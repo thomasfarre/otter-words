@@ -1,20 +1,20 @@
 {
     "words": {
-        "méprisable": {
+        "entier": {
             "catGram": "adjectif",
-            "def": "Digne de mépris, jugé moralement condamnable"
+            "def": "Considéré dans la totalité de son développement, de son extension."
         },
-        "laitue": {
+        "amertume": {
             "catGram": "nom féminin",
-            "def": "Plante de l’hémisphère Nord, à floraison jaune ou bleutée en petits capitules, qui contient un latex blanc et dont on a développé de nombreuses variétés potagères à feuilles larges, tendres et croquantes."
+            "def": "Goût amer."
         },
-        "désert": {
-            "catGram": "adjectif",
-            "def": "Inhabité, sauvage."
+        "couche-culotte": {
+            "catGram": "nom féminin",
+            "def": "Couche en forme de culotte, retenue par des bandes adhésives."
         },
-        "spiritueux": {
-            "catGram": "adjectif",
-            "def": "Fort en alcool."
+        "incorporation": {
+            "catGram": "nom féminin",
+            "def": "Action d'incorporer (une substance) à (une autre substance)"
         }
     }
 }
