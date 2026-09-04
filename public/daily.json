@@ -1,20 +1,20 @@
 {
     "words": {
-        "entier": {
-            "catGram": "adjectif",
-            "def": "Considéré dans la totalité de son développement, de son extension."
+        "transmuer": {
+            "catGram": "verbe",
+            "def": "Transformer une substance en changeant profondément sa nature."
         },
-        "amertume": {
-            "catGram": "nom féminin",
-            "def": "Goût amer."
+        "systématiquement": {
+            "catGram": "adverbe",
+            "def": "De manière systématique."
         },
-        "couche-culotte": {
+        "cafetière": {
             "catGram": "nom féminin",
-            "def": "Couche en forme de culotte, retenue par des bandes adhésives."
+            "def": "Appareil servant à préparer le café"
         },
-        "incorporation": {
+        "relaxation": {
             "catGram": "nom féminin",
-            "def": "Action d'incorporer (une substance) à (une autre substance)"
+            "def": "Relâchement, diminution d’une tension physique."
         }
     }
 }
