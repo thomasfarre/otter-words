@@ -1,20 +1,20 @@
 {
     "words": {
-        "transmuer": {
+        "six": {
+            "catGram": "déterminant numéral",
+            "def": "Sert à désigner une quantité d'éléments atteignant le nombre correspondant à cinq plus un."
+        },
+        "décapiter": {
             "catGram": "verbe",
-            "def": "Transformer une substance en changeant profondément sa nature."
+            "def": "Trancher la tête de qqn."
         },
-        "systématiquement": {
-            "catGram": "adverbe",
-            "def": "De manière systématique."
+        "édifice": {
+            "catGram": "nom masculin",
+            "def": "Ouvrage architectural aux proportions importantes."
         },
-        "cafetière": {
-            "catGram": "nom féminin",
-            "def": "Appareil servant à préparer le café"
-        },
-        "relaxation": {
-            "catGram": "nom féminin",
-            "def": "Relâchement, diminution d’une tension physique."
+        "décroître": {
+            "catGram": "verbe",
+            "def": "Diminuer progressivement."
         }
     }
 }
