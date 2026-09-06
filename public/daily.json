@@ -1,20 +1,20 @@
 {
     "words": {
-        "six": {
-            "catGram": "déterminant numéral",
-            "def": "Sert à désigner une quantité d'éléments atteignant le nombre correspondant à cinq plus un."
-        },
-        "décapiter": {
+        "étayer": {
             "catGram": "verbe",
-            "def": "Trancher la tête de qqn."
+            "def": "Soutenir, consolider avec des étais."
         },
-        "édifice": {
-            "catGram": "nom masculin",
-            "def": "Ouvrage architectural aux proportions importantes."
+        "balalaïka": {
+            "catGram": "nom féminin",
+            "def": "Instrument de musique russe à trois cordes pincées, voisin du luth, dont la caisse est triangulaire."
         },
-        "décroître": {
-            "catGram": "verbe",
-            "def": "Diminuer progressivement."
+        "voiture": {
+            "catGram": "nom féminin",
+            "def": "Plateforme, caisse montée sur roues, tirée ou poussée par la force animale ou humaine, qui sert à transporter des personnes, des objets."
+        },
+        "diurne": {
+            "catGram": "adjectif",
+            "def": "Qui dure un jour."
         }
     }
 }
