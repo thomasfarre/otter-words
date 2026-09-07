@@ -1,20 +1,20 @@
 {
     "words": {
-        "étayer": {
+        "convalescence": {
+            "catGram": "nom féminin",
+            "def": "Retour progressif à la santé après une maladie, une blessure"
+        },
+        "soulever": {
             "catGram": "verbe",
-            "def": "Soutenir, consolider avec des étais."
+            "def": "Lever légèrement."
         },
-        "balalaïka": {
-            "catGram": "nom féminin",
-            "def": "Instrument de musique russe à trois cordes pincées, voisin du luth, dont la caisse est triangulaire."
-        },
-        "voiture": {
-            "catGram": "nom féminin",
-            "def": "Plateforme, caisse montée sur roues, tirée ou poussée par la force animale ou humaine, qui sert à transporter des personnes, des objets."
-        },
-        "diurne": {
+        "crotté": {
             "catGram": "adjectif",
-            "def": "Qui dure un jour."
+            "def": "Sali, couvert de boue."
+        },
+        "alphabet": {
+            "catGram": "nom masculin",
+            "def": "Ensemble de signes disposés selon un ordre conventionnel et qui servent à transcrire les sons d’une langue."
         }
     }
 }
