@@ -1,20 +1,20 @@
 {
     "words": {
-        "convalescence": {
-            "catGram": "nom féminin",
-            "def": "Retour progressif à la santé après une maladie, une blessure"
-        },
-        "soulever": {
-            "catGram": "verbe",
-            "def": "Lever légèrement."
-        },
-        "crotté": {
-            "catGram": "adjectif",
-            "def": "Sali, couvert de boue."
-        },
-        "alphabet": {
+        "feuilleton": {
             "catGram": "nom masculin",
-            "def": "Ensemble de signes disposés selon un ordre conventionnel et qui servent à transcrire les sons d’une langue."
+            "def": "Article (de critique, de littérature, de philosophie, de sciences, etc.) paraissant régulièrement dans un journal, autrefois en bas de page."
+        },
+        "cancaner": {
+            "catGram": "verbe",
+            "def": "Colporter des cancans."
+        },
+        "inaction": {
+            "catGram": "nom féminin",
+            "def": "Absence, cessation d'action ou d'occupation."
+        },
+        "concerto": {
+            "catGram": "nom masculin",
+            "def": "Composition pour un ou plusieurs instruments solistes jouant avec orchestre."
         }
     }
 }
