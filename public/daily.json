@@ -1,20 +1,20 @@
 {
     "words": {
-        "feuilleton": {
-            "catGram": "nom masculin",
-            "def": "Article (de critique, de littérature, de philosophie, de sciences, etc.) paraissant régulièrement dans un journal, autrefois en bas de page."
-        },
-        "cancaner": {
+        "énoncer": {
             "catGram": "verbe",
-            "def": "Colporter des cancans."
+            "def": "Exprimer (l'objet de sa pensée) sous une forme claire et précise."
         },
-        "inaction": {
-            "catGram": "nom féminin",
-            "def": "Absence, cessation d'action ou d'occupation."
+        "promptement": {
+            "catGram": "adverbe",
+            "def": "De façon prompte, rapide."
         },
-        "concerto": {
+        "équilibré": {
+            "catGram": "adjectif",
+            "def": "Qui est en équilibre"
+        },
+        "poivron": {
             "catGram": "nom masculin",
-            "def": "Composition pour un ou plusieurs instruments solistes jouant avec orchestre."
+            "def": "Piment commun de diverses variétés produisant de gros fruits charnus à saveur douce, de formes (arrondie, carrée ou allongée) et de couleurs diverses"
         }
     }
 }
