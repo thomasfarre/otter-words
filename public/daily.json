@@ -1,20 +1,20 @@
 {
     "words": {
-        "énoncer": {
-            "catGram": "verbe",
-            "def": "Exprimer (l'objet de sa pensée) sous une forme claire et précise."
-        },
-        "promptement": {
-            "catGram": "adverbe",
-            "def": "De façon prompte, rapide."
-        },
-        "équilibré": {
-            "catGram": "adjectif",
-            "def": "Qui est en équilibre"
-        },
-        "poivron": {
+        "effet": {
             "catGram": "nom masculin",
-            "def": "Piment commun de diverses variétés produisant de gros fruits charnus à saveur douce, de formes (arrondie, carrée ou allongée) et de couleurs diverses"
+            "def": "Ce qui est produit par une cause physique ou morale."
+        },
+        "angelot": {
+            "catGram": "nom masculin",
+            "def": "Dans l'art religieux, petit ange."
+        },
+        "imbroglio": {
+            "catGram": "nom masculin",
+            "def": "Situation embrouillée et très compliquée."
+        },
+        "tohu-bohu": {
+            "catGram": "nom masculin",
+            "def": "Grand désordre"
         }
     }
 }
