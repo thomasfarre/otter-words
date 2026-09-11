@@ -1,20 +1,20 @@
 {
     "words": {
-        "effet": {
-            "catGram": "nom masculin",
-            "def": "Ce qui est produit par une cause physique ou morale."
+        "bovin": {
+            "catGram": "adjectif",
+            "def": "Relatif au bœuf domestique et aux autres bovinés qui lui sont étroitement apparentés, comme le buffle et le zébu."
         },
-        "angelot": {
+        "échalas": {
             "catGram": "nom masculin",
-            "def": "Dans l'art religieux, petit ange."
+            "def": "Piquet en bois servant de tuteur à un arbuste, un cep de vigne."
         },
-        "imbroglio": {
-            "catGram": "nom masculin",
-            "def": "Situation embrouillée et très compliquée."
+        "voire": {
+            "catGram": "adverbe",
+            "def": "Exclamation qui exprime un doute, souvent avec ironie."
         },
-        "tohu-bohu": {
-            "catGram": "nom masculin",
-            "def": "Grand désordre"
+        "mercerie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des articles destinés aux travaux de couture."
         }
     }
 }
