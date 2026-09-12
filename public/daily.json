@@ -1,20 +1,20 @@
 {
     "words": {
-        "bovin": {
-            "catGram": "adjectif",
-            "def": "Relatif au bœuf domestique et aux autres bovinés qui lui sont étroitement apparentés, comme le buffle et le zébu."
-        },
-        "échalas": {
+        "rets": {
             "catGram": "nom masculin",
-            "def": "Piquet en bois servant de tuteur à un arbuste, un cep de vigne."
+            "def": "Filet utilisé pour capturer des oiseaux, du gibier, du poisson."
         },
-        "voire": {
-            "catGram": "adverbe",
-            "def": "Exclamation qui exprime un doute, souvent avec ironie."
-        },
-        "mercerie": {
+        "régulation": {
             "catGram": "nom féminin",
-            "def": "Ensemble des articles destinés aux travaux de couture."
+            "def": "Fait de rendre régulier, normal le fonctionnement de qqch."
+        },
+        "joyeusement": {
+            "catGram": "adverbe",
+            "def": "D’une manière joyeuse, avec joie."
+        },
+        "agrandir": {
+            "catGram": "verbe",
+            "def": "Rendre plus grand, plus étendu."
         }
     }
 }
