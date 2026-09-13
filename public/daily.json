@@ -1,20 +1,20 @@
 {
     "words": {
-        "rets": {
+        "onze": {
+            "catGram": "déterminant numéral",
+            "def": "Sert à désigner une quantité d'éléments atteignant le nombre correspondant à dix plus un."
+        },
+        "mont": {
             "catGram": "nom masculin",
-            "def": "Filet utilisé pour capturer des oiseaux, du gibier, du poisson."
+            "def": "Importante élévation naturelle de terrain qui ressort du relief environnant."
         },
-        "régulation": {
-            "catGram": "nom féminin",
-            "def": "Fait de rendre régulier, normal le fonctionnement de qqch."
-        },
-        "joyeusement": {
-            "catGram": "adverbe",
-            "def": "D’une manière joyeuse, avec joie."
-        },
-        "agrandir": {
+        "détailler": {
             "catGram": "verbe",
-            "def": "Rendre plus grand, plus étendu."
+            "def": "Couper en petites quantités, en morceaux destinés à la vente."
+        },
+        "fortification": {
+            "catGram": "nom féminin",
+            "def": "Action de munir d'ouvrages défensifs"
         }
     }
 }
