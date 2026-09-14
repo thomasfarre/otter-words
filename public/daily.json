@@ -1,20 +1,20 @@
 {
     "words": {
-        "onze": {
-            "catGram": "déterminant numéral",
-            "def": "Sert à désigner une quantité d'éléments atteignant le nombre correspondant à dix plus un."
-        },
-        "mont": {
-            "catGram": "nom masculin",
-            "def": "Importante élévation naturelle de terrain qui ressort du relief environnant."
-        },
-        "détailler": {
+        "recruter": {
             "catGram": "verbe",
-            "def": "Couper en petites quantités, en morceaux destinés à la vente."
+            "def": "Constituer (une troupe) en levant des recrues"
         },
-        "fortification": {
+        "autonomie": {
             "catGram": "nom féminin",
-            "def": "Action de munir d'ouvrages défensifs"
+            "def": "Fait de se gouverner par ses propres lois, en parlant d'un pays, d'une province, d'un peuple"
+        },
+        "prospecter": {
+            "catGram": "verbe",
+            "def": "Rechercher des richesses naturelles du sol ou du sous-sol en vue de leur exploitation, dans une région déterminée."
+        },
+        "folklore": {
+            "catGram": "nom masculin",
+            "def": "Ensemble des traditions, des rites, des coutumes et des arts populaires d’un pays, d’une région"
         }
     }
 }
