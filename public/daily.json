@@ -1,20 +1,20 @@
 {
     "words": {
-        "recruter": {
+        "jamais": {
+            "catGram": "adverbe",
+            "def": "En un temps quelconque, à quelque moment que ce soit (passé ou futur)."
+        },
+        "racler": {
             "catGram": "verbe",
-            "def": "Constituer (une troupe) en levant des recrues"
+            "def": "Gratter, frotter la surface d'un corps avec un objet dur et tranchant afin de le nettoyer ou de l'égaliser."
         },
-        "autonomie": {
-            "catGram": "nom féminin",
-            "def": "Fait de se gouverner par ses propres lois, en parlant d'un pays, d'une province, d'un peuple"
-        },
-        "prospecter": {
+        "fanfaronner": {
             "catGram": "verbe",
-            "def": "Rechercher des richesses naturelles du sol ou du sous-sol en vue de leur exploitation, dans une région déterminée."
+            "def": "Se comporter en fanfaron."
         },
-        "folklore": {
-            "catGram": "nom masculin",
-            "def": "Ensemble des traditions, des rites, des coutumes et des arts populaires d’un pays, d’une région"
+        "soûlard": {
+            "catGram": "nom",
+            "def": "Ivrogne."
         }
     }
 }
