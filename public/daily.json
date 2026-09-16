@@ -1,20 +1,20 @@
 {
     "words": {
-        "jamais": {
-            "catGram": "adverbe",
-            "def": "En un temps quelconque, à quelque moment que ce soit (passé ou futur)."
+        "inapte": {
+            "catGram": "adjectif",
+            "def": "Qui n'a pas les aptitudes ou les dispositions pour qqch."
         },
-        "racler": {
-            "catGram": "verbe",
-            "def": "Gratter, frotter la surface d'un corps avec un objet dur et tranchant afin de le nettoyer ou de l'égaliser."
+        "reposant": {
+            "catGram": "adjectif",
+            "def": "Qui repose, apaise."
         },
-        "fanfaronner": {
-            "catGram": "verbe",
-            "def": "Se comporter en fanfaron."
+        "tape": {
+            "catGram": "nom féminin",
+            "def": "Coup donné avec la main."
         },
-        "soûlard": {
-            "catGram": "nom",
-            "def": "Ivrogne."
+        "médecin": {
+            "catGram": "nom épicène",
+            "def": "Personne qui a suivi avec succès le programme d'études de médecine reconnu dans le pays où elle se trouve et qui remplit les conditions requises pour exercer légalement la médecine."
         }
     }
 }
