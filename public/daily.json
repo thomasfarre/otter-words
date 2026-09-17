@@ -1,20 +1,20 @@
 {
     "words": {
-        "inapte": {
-            "catGram": "adjectif",
-            "def": "Qui n'a pas les aptitudes ou les dispositions pour qqch."
+        "différemment": {
+            "catGram": "adverbe",
+            "def": "D'une manière différente."
         },
-        "reposant": {
-            "catGram": "adjectif",
-            "def": "Qui repose, apaise."
+        "engloutir": {
+            "catGram": "verbe",
+            "def": "Avaler avec avidité."
         },
-        "tape": {
-            "catGram": "nom féminin",
-            "def": "Coup donné avec la main."
+        "emmerdeur": {
+            "catGram": "nom",
+            "def": "Personne qui ennuie, dérange, agace."
         },
-        "médecin": {
-            "catGram": "nom épicène",
-            "def": "Personne qui a suivi avec succès le programme d'études de médecine reconnu dans le pays où elle se trouve et qui remplit les conditions requises pour exercer légalement la médecine."
+        "potage": {
+            "catGram": "nom masculin",
+            "def": "Préparation plus ou moins liquide d'aliments bouillis (légumes, viande, etc.), en morceaux ou passés, qui se sert habituellement chaude, au début du repas"
         }
     }
 }
