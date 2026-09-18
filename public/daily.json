@@ -1,20 +1,20 @@
 {
     "words": {
-        "différemment": {
-            "catGram": "adverbe",
-            "def": "D'une manière différente."
-        },
-        "engloutir": {
+        "barricader": {
             "catGram": "verbe",
-            "def": "Avaler avec avidité."
+            "def": "Bloquer l'accès à un lieu par une barricade."
         },
-        "emmerdeur": {
-            "catGram": "nom",
-            "def": "Personne qui ennuie, dérange, agace."
+        "séduisant": {
+            "catGram": "adjectif",
+            "def": "Qui séduit."
         },
-        "potage": {
-            "catGram": "nom masculin",
-            "def": "Préparation plus ou moins liquide d'aliments bouillis (légumes, viande, etc.), en morceaux ou passés, qui se sert habituellement chaude, au début du repas"
+        "paginer": {
+            "catGram": "verbe",
+            "def": "Numéroter les pages (d'un ouvrage, d'un document)."
+        },
+        "universel": {
+            "catGram": "adjectif",
+            "def": "Qui concerne tous les humains."
         }
     }
 }
