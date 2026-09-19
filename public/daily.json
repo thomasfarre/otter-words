@@ -1,20 +1,20 @@
 {
     "words": {
-        "barricader": {
-            "catGram": "verbe",
-            "def": "Bloquer l'accès à un lieu par une barricade."
+        "jus": {
+            "catGram": "nom masculin",
+            "def": "Suc d'un fruit ou d'un végétal obtenu par pression, cuisson, décoction, macération"
         },
-        "séduisant": {
+        "lombard": {
             "catGram": "adjectif",
-            "def": "Qui séduit."
+            "def": "De la province italienne de Lombardie."
         },
-        "paginer": {
+        "substitut": {
+            "catGram": "nom masculin",
+            "def": "Celui qui prend la place d'un autre."
+        },
+        "devancer": {
             "catGram": "verbe",
-            "def": "Numéroter les pages (d'un ouvrage, d'un document)."
-        },
-        "universel": {
-            "catGram": "adjectif",
-            "def": "Qui concerne tous les humains."
+            "def": "Prendre de l'avance sur d’autres."
         }
     }
 }
