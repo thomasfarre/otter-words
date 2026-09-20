@@ -1,20 +1,20 @@
 {
     "words": {
-        "jus": {
-            "catGram": "nom masculin",
-            "def": "Suc d'un fruit ou d'un végétal obtenu par pression, cuisson, décoction, macération"
-        },
-        "lombard": {
-            "catGram": "adjectif",
-            "def": "De la province italienne de Lombardie."
-        },
-        "substitut": {
-            "catGram": "nom masculin",
-            "def": "Celui qui prend la place d'un autre."
-        },
-        "devancer": {
+        "diffamer": {
             "catGram": "verbe",
-            "def": "Prendre de l'avance sur d’autres."
+            "def": "Chercher à porter atteinte à la réputation ou à l'honneur de qqn par des écrits ou des paroles."
+        },
+        "courtage": {
+            "catGram": "nom masculin",
+            "def": "Profession du courtier."
+        },
+        "enduit": {
+            "catGram": "nom masculin",
+            "def": "Préparation de consistance fluide ou pâteuse que l'on applique en couche sur certains objets ou certaines surfaces pour les lisser, les protéger, les décorer, etc."
+        },
+        "dormant": {
+            "catGram": "adjectif",
+            "def": "Qui dort."
         }
     }
 }
