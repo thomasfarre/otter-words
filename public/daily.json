@@ -1,20 +1,20 @@
 {
     "words": {
-        "diffamer": {
-            "catGram": "verbe",
-            "def": "Chercher à porter atteinte à la réputation ou à l'honneur de qqn par des écrits ou des paroles."
-        },
-        "courtage": {
+        "dispositif": {
             "catGram": "nom masculin",
-            "def": "Profession du courtier."
+            "def": "Manière dont sont disposées les pièces d'un appareil, les parties d'une machine"
         },
-        "enduit": {
+        "navigation": {
+            "catGram": "nom féminin",
+            "def": "Action, fait de naviguer, de se déplacer sur l'eau ou dans l'eau."
+        },
+        "phototype": {
             "catGram": "nom masculin",
-            "def": "Préparation de consistance fluide ou pâteuse que l'on applique en couche sur certains objets ou certaines surfaces pour les lisser, les protéger, les décorer, etc."
+            "def": "Image, cliché obtenu directement après exposition et traitement d'une couche photosensible."
         },
-        "dormant": {
+        "oblique": {
             "catGram": "adjectif",
-            "def": "Qui dort."
+            "def": "Qui n'est ni perpendiculaire, ni parallèle à l'horizon."
         }
     }
 }
