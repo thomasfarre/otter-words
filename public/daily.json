@@ -1,20 +1,20 @@
 {
     "words": {
-        "sonnerie": {
+        "fringues": {
             "catGram": "nom féminin",
-            "def": "Son produit par une cloche (ou plusieurs) qui tinte ou qui sonne."
+            "def": "Vêtements."
         },
-        "lange": {
-            "catGram": "nom masculin",
-            "def": "Pièce de tissu en coton ou en laine, avec laquelle on emmaillotait un bébé."
-        },
-        "cafeter": {
+        "rééditer": {
             "catGram": "verbe",
-            "def": "Dénoncer."
+            "def": "Éditer de nouveau"
         },
-        "tourbe": {
+        "trentaine": {
             "catGram": "nom féminin",
-            "def": "Matière organique spongieuse et acide composant le sol des tourbières, qui résulte de la décomposition partielle de végétaux (notamment de sphaignes) dans un milieu aquatique pauvre en oxygène et de leur accumulation sur une très longue période"
+            "def": "Nombre de trente ou environ."
+        },
+        "pistolet": {
+            "catGram": "nom masculin",
+            "def": "Arme à feu portative à canon court, qui se tient d'une seule main"
         }
     }
 }
