@@ -1,20 +1,20 @@
 {
     "words": {
-        "fringues": {
-            "catGram": "nom féminin",
-            "def": "Vêtements."
-        },
-        "rééditer": {
-            "catGram": "verbe",
-            "def": "Éditer de nouveau"
-        },
-        "trentaine": {
-            "catGram": "nom féminin",
-            "def": "Nombre de trente ou environ."
-        },
-        "pistolet": {
+        "atelier": {
             "catGram": "nom masculin",
-            "def": "Arme à feu portative à canon court, qui se tient d'une seule main"
+            "def": "Lieu où des ouvriers, des artisans exécutent en commun des travaux similaires ou connexes."
+        },
+        "injustifié": {
+            "catGram": "adjectif",
+            "def": "Qui n'est pas justifié."
+        },
+        "orient": {
+            "catGram": "nom masculin",
+            "def": "Celui des quatre points cardinaux correspondant au lieu où le soleil se lève"
+        },
+        "bureaucratique": {
+            "catGram": "adjectif",
+            "def": "Qui relève de la bureaucratie."
         }
     }
 }
