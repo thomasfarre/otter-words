@@ -1,20 +1,20 @@
 {
     "words": {
-        "atelier": {
+        "bras": {
             "catGram": "nom masculin",
-            "def": "Lieu où des ouvriers, des artisans exécutent en commun des travaux similaires ou connexes."
+            "def": "Partie du membre supérieur de l'être humain, comprise entre l’épaule et le coude."
         },
-        "injustifié": {
-            "catGram": "adjectif",
-            "def": "Qui n'est pas justifié."
+        "courageusement": {
+            "catGram": "adverbe",
+            "def": "De manière courageuse."
         },
-        "orient": {
-            "catGram": "nom masculin",
-            "def": "Celui des quatre points cardinaux correspondant au lieu où le soleil se lève"
+        "quel": {
+            "catGram": "déterminant interrogatif",
+            "def": "Sert à marquer l'interrogation au sujet de l'identité de qqch. ou de qqn."
         },
-        "bureaucratique": {
-            "catGram": "adjectif",
-            "def": "Qui relève de la bureaucratie."
+        "affréteur": {
+            "catGram": "nom",
+            "def": "Personne qui prend en location un véhicule de transport de personnes ou de marchandises."
         }
     }
 }
