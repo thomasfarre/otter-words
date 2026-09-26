@@ -1,20 +1,20 @@
 {
     "words": {
-        "bras": {
+        "ivrogne": {
+            "catGram": "nom épicène",
+            "def": "Personne qui s'enivre régulièrement, qui abuse de l'alcool."
+        },
+        "météo": {
+            "catGram": "nom féminin",
+            "def": "Météorologie."
+        },
+        "inconvenant": {
+            "catGram": "adjectif",
+            "def": "Qui ne respecte pas les convenances"
+        },
+        "murmure": {
             "catGram": "nom masculin",
-            "def": "Partie du membre supérieur de l'être humain, comprise entre l’épaule et le coude."
-        },
-        "courageusement": {
-            "catGram": "adverbe",
-            "def": "De manière courageuse."
-        },
-        "quel": {
-            "catGram": "déterminant interrogatif",
-            "def": "Sert à marquer l'interrogation au sujet de l'identité de qqch. ou de qqn."
-        },
-        "affréteur": {
-            "catGram": "nom",
-            "def": "Personne qui prend en location un véhicule de transport de personnes ou de marchandises."
+            "def": "Bruit sourd, confus de voix humaines"
         }
     }
 }
