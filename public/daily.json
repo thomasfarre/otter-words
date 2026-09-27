@@ -1,20 +1,20 @@
 {
     "words": {
-        "ivrogne": {
-            "catGram": "nom épicène",
-            "def": "Personne qui s'enivre régulièrement, qui abuse de l'alcool."
+        "assécher": {
+            "catGram": "verbe",
+            "def": "Mettre à sec (un réservoir, un cours d’eau)."
         },
-        "météo": {
-            "catGram": "nom féminin",
-            "def": "Météorologie."
+        "conduire": {
+            "catGram": "verbe",
+            "def": "Emmener vers un lieu déterminé."
         },
-        "inconvenant": {
+        "humoriste": {
             "catGram": "adjectif",
-            "def": "Qui ne respecte pas les convenances"
+            "def": "Qui a de l'humour, qui recourt à l’humour dans ses écrits, ses dessins."
         },
-        "murmure": {
-            "catGram": "nom masculin",
-            "def": "Bruit sourd, confus de voix humaines"
+        "séquence": {
+            "catGram": "nom féminin",
+            "def": "Suite ordonnée d'éléments, d'opérations, de phases."
         }
     }
 }
