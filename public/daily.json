@@ -1,20 +1,20 @@
 {
     "words": {
-        "assécher": {
-            "catGram": "verbe",
-            "def": "Mettre à sec (un réservoir, un cours d’eau)."
+        "entraîneur": {
+            "catGram": "nom",
+            "def": "Personne qui entraîne des chevaux de course."
         },
-        "conduire": {
-            "catGram": "verbe",
-            "def": "Emmener vers un lieu déterminé."
-        },
-        "humoriste": {
+        "interrégional": {
             "catGram": "adjectif",
-            "def": "Qui a de l'humour, qui recourt à l’humour dans ses écrits, ses dessins."
+            "def": "Relatif à plusieurs régions."
         },
-        "séquence": {
+        "précéder": {
+            "catGram": "verbe",
+            "def": "Aller, marcher devant."
+        },
+        "aiguillette": {
             "catGram": "nom féminin",
-            "def": "Suite ordonnée d'éléments, d'opérations, de phases."
+            "def": "Cordon ferré aux deux extrémités qui servait à lacer un vêtement."
         }
     }
 }
