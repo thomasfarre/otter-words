@@ -1,20 +1,20 @@
 {
     "words": {
-        "entraîneur": {
-            "catGram": "nom",
-            "def": "Personne qui entraîne des chevaux de course."
-        },
-        "interrégional": {
-            "catGram": "adjectif",
-            "def": "Relatif à plusieurs régions."
-        },
-        "précéder": {
-            "catGram": "verbe",
-            "def": "Aller, marcher devant."
-        },
-        "aiguillette": {
+        "syllabe": {
             "catGram": "nom féminin",
-            "def": "Cordon ferré aux deux extrémités qui servait à lacer un vêtement."
+            "def": "Unité rythmique fondamentale formée d’un noyau vocalique entouré ou non de consonnes satellites et qui constitue le siège de l’accent et du ton."
+        },
+        "démentiel": {
+            "catGram": "adjectif",
+            "def": "Relatif à la démence"
+        },
+        "excellent": {
+            "catGram": "adjectif",
+            "def": "Qui atteint un haut degré de qualité"
+        },
+        "satisfaisant": {
+            "catGram": "adjectif",
+            "def": "Qui donne satisfaction"
         }
     }
 }
