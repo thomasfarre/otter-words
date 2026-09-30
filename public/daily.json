@@ -1,20 +1,20 @@
 {
     "words": {
-        "syllabe": {
+        "germe": {
+            "catGram": "nom masculin",
+            "def": "Œuf fécondé"
+        },
+        "clochette": {
             "catGram": "nom féminin",
-            "def": "Unité rythmique fondamentale formée d’un noyau vocalique entouré ou non de consonnes satellites et qui constitue le siège de l’accent et du ton."
+            "def": "Petite cloche."
         },
-        "démentiel": {
-            "catGram": "adjectif",
-            "def": "Relatif à la démence"
+        "cimetière": {
+            "catGram": "nom masculin",
+            "def": "Terrain où l’on enterre les morts."
         },
-        "excellent": {
-            "catGram": "adjectif",
-            "def": "Qui atteint un haut degré de qualité"
-        },
-        "satisfaisant": {
-            "catGram": "adjectif",
-            "def": "Qui donne satisfaction"
+        "tarin": {
+            "catGram": "nom masculin",
+            "def": "Petit oiseau voisin du chardonneret, qui est commun dans les forêts de conifères de l’hémisphère Nord et dont le plumage, strié de noir, est marqué de taches jaunes sur les ailes."
         }
     }
 }
