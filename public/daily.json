@@ -1,20 +1,20 @@
 {
     "words": {
-        "frégate": {
+        "gourmandise": {
             "catGram": "nom féminin",
-            "def": "Trois-mâts armé en guerre, de taille intermédiaire entre la corvette et le vaisseau de ligne."
+            "def": "Attribut, trait d'une personne gourmande."
         },
-        "bouillant": {
-            "catGram": "adjectif",
-            "def": "Qui bout."
+        "sangsue": {
+            "catGram": "nom féminin",
+            "def": "Ver annelé, commun dans les eaux stagnantes et les fonds vaseux, dont le corps aplati et gluant est pourvu de ventouses lui permettant de se fixer temporairement à la peau des animaux dont il suce le sang."
         },
-        "scrupuleux": {
-            "catGram": "adjectif",
-            "def": "Enclin à avoir des scrupules de conscience."
+        "précision": {
+            "catGram": "nom féminin",
+            "def": "Caractère de ce qui est clair, explicite et ne laisse pas place au doute."
         },
-        "sensiblement": {
-            "catGram": "adverbe",
-            "def": "À peu près, presque."
+        "regagner": {
+            "catGram": "verbe",
+            "def": "Gagner de nouveau ce qui était perdu."
         }
     }
 }
