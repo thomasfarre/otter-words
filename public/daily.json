@@ -1,20 +1,20 @@
 {
     "words": {
-        "gourmandise": {
-            "catGram": "nom féminin",
-            "def": "Attribut, trait d'une personne gourmande."
-        },
-        "sangsue": {
-            "catGram": "nom féminin",
-            "def": "Ver annelé, commun dans les eaux stagnantes et les fonds vaseux, dont le corps aplati et gluant est pourvu de ventouses lui permettant de se fixer temporairement à la peau des animaux dont il suce le sang."
-        },
-        "précision": {
-            "catGram": "nom féminin",
-            "def": "Caractère de ce qui est clair, explicite et ne laisse pas place au doute."
-        },
-        "regagner": {
+        "sangloter": {
             "catGram": "verbe",
-            "def": "Gagner de nouveau ce qui était perdu."
+            "def": "Pleurer avec des sanglots."
+        },
+        "prévention": {
+            "catGram": "nom féminin",
+            "def": "Ensemble de mesures destinées à prévenir les accidents, les risques."
+        },
+        "croyance": {
+            "catGram": "nom féminin",
+            "def": "Certitude par laquelle l'esprit admet la vérité ou la réalité de qqch."
+        },
+        "clapoter": {
+            "catGram": "verbe",
+            "def": "Être agité de petites vagues, de clapotis, en parlant d'une étendue d'eau."
         }
     }
 }
