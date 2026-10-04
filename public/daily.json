@@ -1,20 +1,20 @@
 {
     "words": {
-        "sangloter": {
-            "catGram": "verbe",
-            "def": "Pleurer avec des sanglots."
+        "écureuil": {
+            "catGram": "nom masculin",
+            "def": "Petit rongeur forestier arboricole, diurne, à pelage généralement brun-roux ou grisâtre et à longue queue en panache, qui se nourrit notamment de graines et de fruits secs dont il fait des réserves"
         },
-        "prévention": {
+        "menuisier": {
+            "catGram": "nom",
+            "def": "Ouvrier, artisan qui effectue des travaux de menuiserie."
+        },
+        "oncle": {
+            "catGram": "nom masculin",
+            "def": "Frère du père ou de la mère."
+        },
+        "élaboration": {
             "catGram": "nom féminin",
-            "def": "Ensemble de mesures destinées à prévenir les accidents, les risques."
-        },
-        "croyance": {
-            "catGram": "nom féminin",
-            "def": "Certitude par laquelle l'esprit admet la vérité ou la réalité de qqch."
-        },
-        "clapoter": {
-            "catGram": "verbe",
-            "def": "Être agité de petites vagues, de clapotis, en parlant d'une étendue d'eau."
+            "def": "Production de qqch. par un long travail de réflexion."
         }
     }
 }
