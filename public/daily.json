@@ -1,20 +1,20 @@
 {
     "words": {
-        "écureuil": {
-            "catGram": "nom masculin",
-            "def": "Petit rongeur forestier arboricole, diurne, à pelage généralement brun-roux ou grisâtre et à longue queue en panache, qui se nourrit notamment de graines et de fruits secs dont il fait des réserves"
+        "oeuvrer": {
+            "catGram": "verbe",
+            "def": "Travailler, façonner."
         },
-        "menuisier": {
-            "catGram": "nom",
-            "def": "Ouvrier, artisan qui effectue des travaux de menuiserie."
+        "railler": {
+            "catGram": "verbe",
+            "def": "Tourner en ridicule, en dérision."
         },
-        "oncle": {
-            "catGram": "nom masculin",
-            "def": "Frère du père ou de la mère."
-        },
-        "élaboration": {
+        "machination": {
             "catGram": "nom féminin",
-            "def": "Production de qqch. par un long travail de réflexion."
+            "def": "Ensemble d’intrigues, de manœuvres secrètes et plus ou moins déloyales menées dans le but de nuire."
+        },
+        "renfort": {
+            "catGram": "nom masculin",
+            "def": "Accroissement de l'effectif et du matériel d'un groupe, spécialement dans le domaine militaire."
         }
     }
 }
