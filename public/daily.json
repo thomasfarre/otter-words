@@ -1,20 +1,20 @@
 {
     "words": {
-        "oeuvrer": {
+        "diffamer": {
             "catGram": "verbe",
-            "def": "Travailler, façonner."
+            "def": "Chercher à porter atteinte à la réputation ou à l'honneur de qqn par des écrits ou des paroles."
         },
-        "railler": {
-            "catGram": "verbe",
-            "def": "Tourner en ridicule, en dérision."
+        "sic": {
+            "catGram": "adverbe",
+            "def": "Élément servant à indiquer que l'on cite textuellement un passage malgré les éléments étranges ou les erreurs qu'il contient."
         },
-        "machination": {
-            "catGram": "nom féminin",
-            "def": "Ensemble d’intrigues, de manœuvres secrètes et plus ou moins déloyales menées dans le but de nuire."
-        },
-        "renfort": {
+        "mikado": {
             "catGram": "nom masculin",
-            "def": "Accroissement de l'effectif et du matériel d'un groupe, spécialement dans le domaine militaire."
+            "def": "Titre des empereurs japonais."
+        },
+        "tonne": {
+            "catGram": "nom féminin",
+            "def": "Tonneau de très grande taille"
         }
     }
 }
