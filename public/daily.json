@@ -1,20 +1,20 @@
 {
     "words": {
-        "diffamer": {
+        "groseille": {
+            "catGram": "nom féminin",
+            "def": "Baie comestible que produit le groseillier, de couleur et de taille variables selon les variétés, à peau lisse ou velue, souvent translucide, et dont la chair juteuse et acidulée contient de nombreuses petites graines"
+        },
+        "fiancer": {
             "catGram": "verbe",
-            "def": "Chercher à porter atteinte à la réputation ou à l'honneur de qqn par des écrits ou des paroles."
-        },
-        "sic": {
-            "catGram": "adverbe",
-            "def": "Élément servant à indiquer que l'on cite textuellement un passage malgré les éléments étranges ou les erreurs qu'il contient."
-        },
-        "mikado": {
-            "catGram": "nom masculin",
-            "def": "Titre des empereurs japonais."
+            "def": "Faire s'engager (son fils, sa fille) par une promesse de mariage."
         },
         "tonne": {
             "catGram": "nom féminin",
             "def": "Tonneau de très grande taille"
+        },
+        "légaliser": {
+            "catGram": "verbe",
+            "def": "Attester l'authenticité d'une signature et la qualité du signataire."
         }
     }
 }
