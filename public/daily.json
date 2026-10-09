@@ -1,20 +1,20 @@
 {
     "words": {
-        "ivre": {
-            "catGram": "adjectif",
-            "def": "Qui est physiquement et mentalement troublé par l’absorption excessive d’alcool"
-        },
-        "gars": {
-            "catGram": "nom masculin",
-            "def": "Garçon, jeune homme."
-        },
-        "semailles": {
+        "timidité": {
             "catGram": "nom féminin",
-            "def": "Action de semer (surtout des céréales), d'ensemencer la terre."
+            "def": "Manque d'aisance, d'assurance dans ses relations avec autrui."
         },
-        "pansement": {
+        "dévider": {
+            "catGram": "verbe",
+            "def": "Dérouler."
+        },
+        "violent": {
+            "catGram": "adjectif",
+            "def": "Qui a un comportement brutal, impulsif, agressif"
+        },
+        "prote": {
             "catGram": "nom masculin",
-            "def": "Action de panser."
+            "def": "Chef d'un atelier typographique traditionnel."
         }
     }
 }
