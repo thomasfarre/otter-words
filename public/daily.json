@@ -1,20 +1,20 @@
 {
     "words": {
-        "timidité": {
-            "catGram": "nom féminin",
-            "def": "Manque d'aisance, d'assurance dans ses relations avec autrui."
-        },
-        "dévider": {
-            "catGram": "verbe",
-            "def": "Dérouler."
-        },
-        "violent": {
-            "catGram": "adjectif",
-            "def": "Qui a un comportement brutal, impulsif, agressif"
-        },
-        "prote": {
+        "yacht": {
             "catGram": "nom masculin",
-            "def": "Chef d'un atelier typographique traditionnel."
+            "def": "Bateau de plaisance ponté à voiles ou à moteur."
+        },
+        "disparité": {
+            "catGram": "nom féminin",
+            "def": "Absence d'égalité, disproportion."
+        },
+        "intersection": {
+            "catGram": "nom féminin",
+            "def": "Lieu où se croisent, se rejoignent plusieurs voies de circulation."
+        },
+        "laideron": {
+            "catGram": "nom",
+            "def": "Jeune fille ou jeune femme laide."
         }
     }
 }
