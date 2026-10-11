@@ -1,20 +1,20 @@
 {
     "words": {
-        "yacht": {
-            "catGram": "nom masculin",
-            "def": "Bateau de plaisance ponté à voiles ou à moteur."
-        },
-        "disparité": {
+        "pucelle": {
             "catGram": "nom féminin",
-            "def": "Absence d'égalité, disproportion."
+            "def": "Jeune fille."
         },
-        "intersection": {
+        "composé": {
+            "catGram": "adjectif",
+            "def": "Qui est formé de plusieurs parties ou d'éléments divers."
+        },
+        "incompatibilité": {
             "catGram": "nom féminin",
-            "def": "Lieu où se croisent, se rejoignent plusieurs voies de circulation."
+            "def": "Qualité, état de ce qui est incompatible."
         },
-        "laideron": {
-            "catGram": "nom",
-            "def": "Jeune fille ou jeune femme laide."
+        "soudainement": {
+            "catGram": "adverbe",
+            "def": "De manière soudaine."
         }
     }
 }
