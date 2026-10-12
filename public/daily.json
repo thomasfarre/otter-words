@@ -1,20 +1,20 @@
 {
     "words": {
-        "pucelle": {
+        "centrale": {
             "catGram": "nom féminin",
-            "def": "Jeune fille."
+            "def": "usine qui comprend les installations nécessaires pour générer de l'énergie électrique par conversion d'autres types d'énergies."
         },
-        "composé": {
-            "catGram": "adjectif",
-            "def": "Qui est formé de plusieurs parties ou d'éléments divers."
+        "déraciner": {
+            "catGram": "verbe",
+            "def": "Arracher de terre avec ses racines."
         },
-        "incompatibilité": {
-            "catGram": "nom féminin",
-            "def": "Qualité, état de ce qui est incompatible."
+        "congénère": {
+            "catGram": "nom épicène",
+            "def": "Être vivant qui appartient au même genre, à la même espèce qu'un autre."
         },
-        "soudainement": {
-            "catGram": "adverbe",
-            "def": "De manière soudaine."
+        "épauler": {
+            "catGram": "verbe",
+            "def": "Aider, assister."
         }
     }
 }
