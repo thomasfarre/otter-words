@@ -1,20 +1,20 @@
 {
     "words": {
-        "centrale": {
+        "tournure": {
             "catGram": "nom féminin",
-            "def": "usine qui comprend les installations nécessaires pour générer de l'énergie électrique par conversion d'autres types d'énergies."
+            "def": "Aspect physique d’une personne, manière dont elle se tient."
         },
-        "déraciner": {
+        "combattre": {
             "catGram": "verbe",
-            "def": "Arracher de terre avec ses racines."
+            "def": "Se battre contre (un adversaire) en attaquant ou en se défendant."
         },
-        "congénère": {
-            "catGram": "nom épicène",
-            "def": "Être vivant qui appartient au même genre, à la même espèce qu'un autre."
+        "paperassier": {
+            "catGram": "nom",
+            "def": "Personne qui aime accumuler de la paperasse."
         },
-        "épauler": {
+        "tiédir": {
             "catGram": "verbe",
-            "def": "Aider, assister."
+            "def": "Devenir tiède."
         }
     }
 }
