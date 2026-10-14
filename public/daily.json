@@ -1,20 +1,20 @@
 {
     "words": {
-        "tournure": {
+        "glace": {
             "catGram": "nom féminin",
-            "def": "Aspect physique d’une personne, manière dont elle se tient."
+            "def": "Eau congelée naturellement, solidifiée par l'action du froid."
         },
-        "combattre": {
+        "daigner": {
             "catGram": "verbe",
-            "def": "Se battre contre (un adversaire) en attaquant ou en se défendant."
+            "def": "Consentir avec condescendance à (faire qqch.)"
         },
-        "paperassier": {
-            "catGram": "nom",
-            "def": "Personne qui aime accumuler de la paperasse."
-        },
-        "tiédir": {
+        "tresser": {
             "catGram": "verbe",
-            "def": "Devenir tiède."
+            "def": "Arranger (les cheveux) en tresse."
+        },
+        "brevet": {
+            "catGram": "nom masculin",
+            "def": "Titre, diplôme décerné par l’État, sanctionnant certaines études et conférant au titulaire le droit d’exercer certaines fonctions et certains droits."
         }
     }
 }
