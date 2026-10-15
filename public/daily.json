@@ -1,20 +1,20 @@
 {
     "words": {
-        "glace": {
-            "catGram": "nom féminin",
-            "def": "Eau congelée naturellement, solidifiée par l'action du froid."
+        "lycéen": {
+            "catGram": "nom",
+            "def": "Élève d'un lycée."
         },
-        "daigner": {
-            "catGram": "verbe",
-            "def": "Consentir avec condescendance à (faire qqch.)"
-        },
-        "tresser": {
-            "catGram": "verbe",
-            "def": "Arranger (les cheveux) en tresse."
-        },
-        "brevet": {
+        "garage": {
             "catGram": "nom masculin",
-            "def": "Titre, diplôme décerné par l’État, sanctionnant certaines études et conférant au titulaire le droit d’exercer certaines fonctions et certains droits."
+            "def": "Action de garer un véhicule."
+        },
+        "subconscient": {
+            "catGram": "adjectif",
+            "def": "Dont on n’a pas clairement conscience, qui échappe à la conscience."
+        },
+        "fendiller": {
+            "catGram": "verbe",
+            "def": "Provoquer de petites fentes superficielles."
         }
     }
 }
