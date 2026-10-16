@@ -1,20 +1,20 @@
 {
     "words": {
-        "lycéen": {
-            "catGram": "nom",
-            "def": "Élève d'un lycée."
-        },
-        "garage": {
-            "catGram": "nom masculin",
-            "def": "Action de garer un véhicule."
-        },
-        "subconscient": {
+        "horaire": {
             "catGram": "adjectif",
-            "def": "Dont on n’a pas clairement conscience, qui échappe à la conscience."
+            "def": "Relatif aux heures."
         },
-        "fendiller": {
+        "modifier": {
             "catGram": "verbe",
-            "def": "Provoquer de petites fentes superficielles."
+            "def": "Changer qqch. sans en altérer la nature ou l'essence."
+        },
+        "récit": {
+            "catGram": "nom masculin",
+            "def": "Relation de faits (réels ou non)."
+        },
+        "diurne": {
+            "catGram": "adjectif",
+            "def": "Qui dure un jour."
         }
     }
 }
