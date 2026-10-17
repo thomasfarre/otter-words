@@ -1,20 +1,20 @@
 {
     "words": {
-        "horaire": {
+        "indiscutable": {
             "catGram": "adjectif",
-            "def": "Relatif aux heures."
+            "def": "Qui n'est pas discutable"
         },
-        "modifier": {
-            "catGram": "verbe",
-            "def": "Changer qqch. sans en altérer la nature ou l'essence."
-        },
-        "récit": {
+        "détritus": {
             "catGram": "nom masculin",
-            "def": "Relation de faits (réels ou non)."
+            "def": "Matériau réduit à l'état de petits fragments, rendu souvent inutilisable."
         },
-        "diurne": {
-            "catGram": "adjectif",
-            "def": "Qui dure un jour."
+        "accommodation": {
+            "catGram": "nom féminin",
+            "def": "Action d'accommoder, de s'accommoder."
+        },
+        "carrément": {
+            "catGram": "adverbe",
+            "def": "D'une manière décidée, sans détours."
         }
     }
 }
