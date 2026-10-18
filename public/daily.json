@@ -1,20 +1,20 @@
 {
     "words": {
-        "indiscutable": {
+        "exempter": {
+            "catGram": "verbe",
+            "def": "Rendre qqn exempt d'une charge, d'une obligation."
+        },
+        "plisser": {
+            "catGram": "verbe",
+            "def": "Former des plis sur une matière souple."
+        },
+        "coutumier": {
             "catGram": "adjectif",
-            "def": "Qui n'est pas discutable"
+            "def": "Qui a coutume de faire qqch."
         },
-        "détritus": {
-            "catGram": "nom masculin",
-            "def": "Matériau réduit à l'état de petits fragments, rendu souvent inutilisable."
-        },
-        "accommodation": {
-            "catGram": "nom féminin",
-            "def": "Action d'accommoder, de s'accommoder."
-        },
-        "carrément": {
-            "catGram": "adverbe",
-            "def": "D'une manière décidée, sans détours."
+        "blagueur": {
+            "catGram": "nom",
+            "def": "Personne qui aime à dire, faire des blagues."
         }
     }
 }
