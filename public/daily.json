@@ -1,20 +1,20 @@
 {
     "words": {
-        "vaciller": {
-            "catGram": "verbe",
-            "def": "Être pris d'un mouvement qui dénote un manque d'équilibre, de stabilité, de fermeté."
+        "vitalité": {
+            "catGram": "nom féminin",
+            "def": "Qualité d'un être vivant ou d'une collectivité qui manifeste une importante énergie, un grand dynamisme."
         },
-        "insolvable": {
-            "catGram": "adjectif",
-            "def": "Qui ne peut pas payer ce qu’il doit"
+        "batterie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des pièces d’artillerie disposées en un lieu pour sa défense, ou dans un but tactique."
         },
-        "stupéfiant": {
-            "catGram": "adjectif",
-            "def": "Qui stupéfie."
-        },
-        "juron": {
+        "savon": {
             "catGram": "nom masculin",
-            "def": "Interjection ou exclamation grossière, familière ou blasphématoire qui traduit une réaction vive de colère, de dépit ou de surprise."
+            "def": "Produit provenant de l'action d'une base alcaline sur un corps gras d'origine animale ou végétale, utilisé essentiellement pour fabriquer des produits de nettoyage ou de toilette"
+        },
+        "fusée": {
+            "catGram": "nom féminin",
+            "def": "Pièce de feu d'artifice, propulsée par réaction, qui éclate dans l'air en lançant des jets de parcelles en ignition."
         }
     }
 }
