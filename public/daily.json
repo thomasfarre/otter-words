@@ -1,20 +1,20 @@
 {
     "words": {
-        "vitalité": {
-            "catGram": "nom féminin",
-            "def": "Qualité d'un être vivant ou d'une collectivité qui manifeste une importante énergie, un grand dynamisme."
-        },
-        "batterie": {
-            "catGram": "nom féminin",
-            "def": "Ensemble des pièces d’artillerie disposées en un lieu pour sa défense, ou dans un but tactique."
-        },
-        "savon": {
+        "bahut": {
             "catGram": "nom masculin",
-            "def": "Produit provenant de l'action d'une base alcaline sur un corps gras d'origine animale ou végétale, utilisé essentiellement pour fabriquer des produits de nettoyage ou de toilette"
+            "def": "Coffre de voyage, à couvercle bombé."
         },
-        "fusée": {
+        "expansion": {
             "catGram": "nom féminin",
-            "def": "Pièce de feu d'artifice, propulsée par réaction, qui éclate dans l'air en lançant des jets de parcelles en ignition."
+            "def": "Accroissement du volume ou de la surface d'un corps"
+        },
+        "faiblesse": {
+            "catGram": "nom féminin",
+            "def": "Manque de force, de vigueur physique."
+        },
+        "réformer": {
+            "catGram": "verbe",
+            "def": "Corriger, ramener à la vertu."
         }
     }
 }
