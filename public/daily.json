@@ -1,20 +1,20 @@
 {
     "words": {
-        "bahut": {
+        "merguez": {
+            "catGram": "nom féminin",
+            "def": "Petite saucisse fortement épicée, faite de bœuf, de mouton."
+        },
+        "courtoisie": {
+            "catGram": "nom féminin",
+            "def": "Attitude de politesse raffinée conforme à la tradition et à la bonne éducation, aux usages mondains"
+        },
+        "guet": {
             "catGram": "nom masculin",
-            "def": "Coffre de voyage, à couvercle bombé."
+            "def": "Action de guetter."
         },
-        "expansion": {
-            "catGram": "nom féminin",
-            "def": "Accroissement du volume ou de la surface d'un corps"
-        },
-        "faiblesse": {
-            "catGram": "nom féminin",
-            "def": "Manque de force, de vigueur physique."
-        },
-        "réformer": {
+        "boucler": {
             "catGram": "verbe",
-            "def": "Corriger, ramener à la vertu."
+            "def": "Attacher au moyen d'une boucle"
         }
     }
 }
