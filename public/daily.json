@@ -1,20 +1,20 @@
 {
     "words": {
-        "merguez": {
+        "piscine": {
             "catGram": "nom féminin",
-            "def": "Petite saucisse fortement épicée, faite de bœuf, de mouton."
+            "def": "Bassin où ont lieu des rites purificatoires."
         },
-        "courtoisie": {
+        "eh": {
+            "catGram": "interjection",
+            "def": "Exclamation servant à renforcer, à attirer l'attention."
+        },
+        "orange": {
             "catGram": "nom féminin",
-            "def": "Attitude de politesse raffinée conforme à la tradition et à la bonne éducation, aux usages mondains"
+            "def": "Agrume de forme ronde, dont l'écorce et la pulpe très juteuse sont d'une couleur jaune tirant sur le rouge"
         },
-        "guet": {
-            "catGram": "nom masculin",
-            "def": "Action de guetter."
-        },
-        "boucler": {
-            "catGram": "verbe",
-            "def": "Attacher au moyen d'une boucle"
+        "dépendant": {
+            "catGram": "adjectif",
+            "def": "Qui dépend de"
         }
     }
 }
