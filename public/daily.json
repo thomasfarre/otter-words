@@ -1,20 +1,20 @@
 {
     "words": {
-        "avide": {
-            "catGram": "adjectif",
-            "def": "Qui exprime un désir ardent."
-        },
-        "barbarie": {
+        "exigence": {
             "catGram": "nom féminin",
-            "def": "État de ce qui est barbare, de ce qui n'est pas civilisé."
+            "def": "Ce que l'on exige."
         },
-        "rebelle": {
-            "catGram": "adjectif",
-            "def": "Qui ne reconnaît pas l'autorité établie et se révolte contre elle."
-        },
-        "demoiselle": {
+        "abbaye": {
             "catGram": "nom féminin",
-            "def": "Jeune fille"
+            "def": "Monastère placé sous la direction d'un abbé ou d'une abbesse"
+        },
+        "mécontentement": {
+            "catGram": "nom masculin",
+            "def": "État, sentiment d'une personne mécontente, frustrée dans ses exigences."
+        },
+        "fragilité": {
+            "catGram": "nom féminin",
+            "def": "Facilité à se briser, à se détériorer."
         }
     }
 }
