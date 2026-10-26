@@ -1,20 +1,20 @@
 {
     "words": {
-        "exigence": {
-            "catGram": "nom féminin",
-            "def": "Ce que l'on exige."
+        "raisonnable": {
+            "catGram": "adjectif",
+            "def": "Capable d'activité logique, de raisonnement."
         },
-        "abbaye": {
+        "bombance": {
             "catGram": "nom féminin",
-            "def": "Monastère placé sous la direction d'un abbé ou d'une abbesse"
+            "def": "Repas copieux."
         },
-        "mécontentement": {
-            "catGram": "nom masculin",
-            "def": "État, sentiment d'une personne mécontente, frustrée dans ses exigences."
+        "singulier": {
+            "catGram": "adjectif",
+            "def": "Qui indique l'unité, ne se rapporte qu'à un seul objet, un seul individu."
         },
-        "fragilité": {
+        "amalgamation": {
             "catGram": "nom féminin",
-            "def": "Facilité à se briser, à se détériorer."
+            "def": "Action d'amalgamer"
         }
     }
 }
