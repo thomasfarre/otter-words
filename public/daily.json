@@ -1,20 +1,20 @@
 {
     "words": {
-        "production": {
+        "attaché": {
+            "catGram": "nom",
+            "def": "Personne faisant partie d’une direction ou d’un service, dans une entreprise, un ministère, une ambassade."
+        },
+        "fac": {
             "catGram": "nom féminin",
-            "def": "Action d'engendrer, de faire exister"
+            "def": "Propriété constituante de l’être."
         },
-        "attentat": {
+        "tarif": {
             "catGram": "nom masculin",
-            "def": "Entreprise criminelle perpétrée contre une personne, une communauté, une institution, un bien, notamment dans un contexte politique."
+            "def": "Tableau indiquant le montant des droits à acquitter pour certaines opérations, les prix fixés pour certaines marchandises ou certains services"
         },
-        "sonnerie": {
-            "catGram": "nom féminin",
-            "def": "Son produit par une cloche (ou plusieurs) qui tinte ou qui sonne."
-        },
-        "préjugé": {
-            "catGram": "nom masculin",
-            "def": "Opinion faite a priori en fonction des apparences ou de critères purement personnels."
+        "aérospatiale": {
+            "catGram": "adjectif",
+            "def": "Relatif à l'aéronautique et à l'astronautique."
         }
     }
 }
