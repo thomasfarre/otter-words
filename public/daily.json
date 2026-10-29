@@ -1,20 +1,20 @@
 {
     "words": {
-        "attaché": {
-            "catGram": "nom",
-            "def": "Personne faisant partie d’une direction ou d’un service, dans une entreprise, un ministère, une ambassade."
-        },
-        "fac": {
-            "catGram": "nom féminin",
-            "def": "Propriété constituante de l’être."
-        },
-        "tarif": {
+        "porte-billets": {
             "catGram": "nom masculin",
-            "def": "Tableau indiquant le montant des droits à acquitter pour certaines opérations, les prix fixés pour certaines marchandises ou certains services"
+            "def": "Petit portefeuille dans lequel on range des billets de banque."
         },
-        "aérospatiale": {
-            "catGram": "adjectif",
-            "def": "Relatif à l'aéronautique et à l'astronautique."
+        "tact": {
+            "catGram": "nom masculin",
+            "def": "Sens du toucher."
+        },
+        "lit": {
+            "catGram": "nom masculin",
+            "def": "Meuble supportant une literie sur laquelle on se couche."
+        },
+        "freiner": {
+            "catGram": "verbe",
+            "def": "Ralentir ou immobiliser une machine, un véhicule à l’aide d’un frein."
         }
     }
 }
