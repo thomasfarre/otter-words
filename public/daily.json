@@ -1,20 +1,20 @@
 {
     "words": {
-        "porte-billets": {
-            "catGram": "nom masculin",
-            "def": "Petit portefeuille dans lequel on range des billets de banque."
+        "triple": {
+            "catGram": "adjectif",
+            "def": "Qui est au nombre de trois"
         },
-        "tact": {
-            "catGram": "nom masculin",
-            "def": "Sens du toucher."
+        "utilement": {
+            "catGram": "adverbe",
+            "def": "De manière utile, efficace"
         },
-        "lit": {
-            "catGram": "nom masculin",
-            "def": "Meuble supportant une literie sur laquelle on se couche."
+        "longue-vue": {
+            "catGram": "nom féminin",
+            "def": "Lunette d'approche."
         },
-        "freiner": {
-            "catGram": "verbe",
-            "def": "Ralentir ou immobiliser une machine, un véhicule à l’aide d’un frein."
+        "creux": {
+            "catGram": "adjectif",
+            "def": "Qui a une cavité."
         }
     }
 }
