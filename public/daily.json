@@ -1,20 +1,20 @@
 {
     "words": {
-        "triple": {
-            "catGram": "adjectif",
-            "def": "Qui est au nombre de trois"
-        },
-        "utilement": {
-            "catGram": "adverbe",
-            "def": "De manière utile, efficace"
-        },
-        "longue-vue": {
+        "prédisposition": {
             "catGram": "nom féminin",
-            "def": "Lunette d'approche."
+            "def": "Aptitude naturelle à qqch., à agir dans une circonstance ou un domaine précis."
         },
-        "creux": {
-            "catGram": "adjectif",
-            "def": "Qui a une cavité."
+        "clore": {
+            "catGram": "verbe",
+            "def": "Fermer."
+        },
+        "tradition": {
+            "catGram": "nom féminin",
+            "def": "Transmission, de génération en génération, de doctrines, de pratiques religieuses, spécialement par la parole ou l’exemple"
+        },
+        "citation": {
+            "catGram": "nom féminin",
+            "def": "Sommation de comparaître devant un tribunal en qualité de témoin ou de défendeur."
         }
     }
 }
