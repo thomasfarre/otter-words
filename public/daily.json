@@ -1,20 +1,20 @@
 {
     "words": {
-        "prédisposition": {
-            "catGram": "nom féminin",
-            "def": "Aptitude naturelle à qqch., à agir dans une circonstance ou un domaine précis."
-        },
-        "clore": {
+        "colorer": {
             "catGram": "verbe",
-            "def": "Fermer."
+            "def": "Donner une couleur, une teinte à."
         },
-        "tradition": {
-            "catGram": "nom féminin",
-            "def": "Transmission, de génération en génération, de doctrines, de pratiques religieuses, spécialement par la parole ou l’exemple"
+        "temps": {
+            "catGram": "nom masculin",
+            "def": "Milieu indéfini et homogène dans lequel se situent les êtres et les choses et qui est caractérisé par sa double nature, à la fois continuité et succession."
         },
-        "citation": {
+        "lignée": {
             "catGram": "nom féminin",
-            "def": "Sommation de comparaître devant un tribunal en qualité de témoin ou de défendeur."
+            "def": "Ensemble des descendants d'une personne."
+        },
+        "suspect": {
+            "catGram": "adjectif",
+            "def": "Qui est soupçonné ou éveille le soupçon."
         }
     }
 }
