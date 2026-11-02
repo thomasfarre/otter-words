@@ -1,20 +1,20 @@
 {
     "words": {
-        "colorer": {
-            "catGram": "verbe",
-            "def": "Donner une couleur, une teinte à."
-        },
-        "temps": {
+        "poing": {
             "catGram": "nom masculin",
-            "def": "Milieu indéfini et homogène dans lequel se situent les êtres et les choses et qui est caractérisé par sa double nature, à la fois continuité et succession."
+            "def": "Main fermée."
         },
-        "lignée": {
+        "couenne": {
             "catGram": "nom féminin",
-            "def": "Ensemble des descendants d'une personne."
+            "def": "Peau de porc flambée et raclée."
         },
-        "suspect": {
-            "catGram": "adjectif",
-            "def": "Qui est soupçonné ou éveille le soupçon."
+        "complaisance": {
+            "catGram": "nom féminin",
+            "def": "Désir de faire plaisir, d'être agréable, de rendre service à autrui."
+        },
+        "sanctuaire": {
+            "catGram": "nom masculin",
+            "def": "Lieu le plus saint d'un édifice religieux."
         }
     }
 }
