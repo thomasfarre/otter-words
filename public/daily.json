@@ -1,20 +1,20 @@
 {
     "words": {
-        "poing": {
+        "dangereusement": {
+            "catGram": "adverbe",
+            "def": "De manière dangereuse."
+        },
+        "tel": {
+            "catGram": "adjectif",
+            "def": "De cette nature."
+        },
+        "similaire": {
+            "catGram": "adjectif",
+            "def": "Qui est plus ou moins de même nature."
+        },
+        "tambourinement": {
             "catGram": "nom masculin",
-            "def": "Main fermée."
-        },
-        "couenne": {
-            "catGram": "nom féminin",
-            "def": "Peau de porc flambée et raclée."
-        },
-        "complaisance": {
-            "catGram": "nom féminin",
-            "def": "Désir de faire plaisir, d'être agréable, de rendre service à autrui."
-        },
-        "sanctuaire": {
-            "catGram": "nom masculin",
-            "def": "Lieu le plus saint d'un édifice religieux."
+            "def": "Roulement de tambour."
         }
     }
 }
