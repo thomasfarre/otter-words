@@ -1,20 +1,20 @@
 {
     "words": {
-        "dangereusement": {
-            "catGram": "adverbe",
-            "def": "De manière dangereuse."
+        "clôture": {
+            "catGram": "nom féminin",
+            "def": "Ce qui ferme un passage, enclot un espace ou un bâtiment."
         },
-        "tel": {
+        "détective": {
+            "catGram": "nom épicène",
+            "def": "Personne qui, sans appartenir à la police officielle, se charge d'effectuer des enquêtes contre rémunération."
+        },
+        "enjôler": {
+            "catGram": "verbe",
+            "def": "Séduire par des paroles flatteuses, des manières engageantes, des cajoleries dans le but de duper ou d’en tirer un avantage personnel."
+        },
+        "graphique": {
             "catGram": "adjectif",
-            "def": "De cette nature."
-        },
-        "similaire": {
-            "catGram": "adjectif",
-            "def": "Qui est plus ou moins de même nature."
-        },
-        "tambourinement": {
-            "catGram": "nom masculin",
-            "def": "Roulement de tambour."
+            "def": "Qui représente qqn ou qqch. par des lignes ou des figures sur une surface."
         }
     }
 }
