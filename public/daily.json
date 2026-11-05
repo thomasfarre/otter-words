@@ -1,20 +1,20 @@
 {
     "words": {
-        "clôture": {
-            "catGram": "nom féminin",
-            "def": "Ce qui ferme un passage, enclot un espace ou un bâtiment."
+        "embrouillement": {
+            "catGram": "nom masculin",
+            "def": "État de ce qui est embrouillé, emmêlé, dans un grand désordre."
         },
-        "détective": {
-            "catGram": "nom épicène",
-            "def": "Personne qui, sans appartenir à la police officielle, se charge d'effectuer des enquêtes contre rémunération."
+        "burin": {
+            "catGram": "nom masculin",
+            "def": "Ciseau d'acier utilisé pour graver à la main le bois, le métal, etc."
         },
-        "enjôler": {
+        "farder": {
             "catGram": "verbe",
-            "def": "Séduire par des paroles flatteuses, des manières engageantes, des cajoleries dans le but de duper ou d’en tirer un avantage personnel."
+            "def": "Mettre du fard à."
         },
-        "graphique": {
-            "catGram": "adjectif",
-            "def": "Qui représente qqn ou qqch. par des lignes ou des figures sur une surface."
+        "gaine": {
+            "catGram": "nom féminin",
+            "def": "Enveloppe protectrice dont la forme est adaptée à l'objet qu'elle renferme."
         }
     }
 }
