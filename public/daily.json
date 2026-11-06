@@ -1,20 +1,20 @@
 {
     "words": {
-        "embrouillement": {
-            "catGram": "nom masculin",
-            "def": "État de ce qui est embrouillé, emmêlé, dans un grand désordre."
+        "asthmatique": {
+            "catGram": "adjectif",
+            "def": "Relatif à l'asthme."
         },
-        "burin": {
+        "commandement": {
             "catGram": "nom masculin",
-            "def": "Ciseau d'acier utilisé pour graver à la main le bois, le métal, etc."
+            "def": "Action de commander"
         },
-        "farder": {
+        "trésor": {
+            "catGram": "nom masculin",
+            "def": "Ensemble de choses de valeur (or, argent, objets précieux, pierreries, titres, etc.) accumulées et souvent soigneusement cachées."
+        },
+        "frictionner": {
             "catGram": "verbe",
-            "def": "Mettre du fard à."
-        },
-        "gaine": {
-            "catGram": "nom féminin",
-            "def": "Enveloppe protectrice dont la forme est adaptée à l'objet qu'elle renferme."
+            "def": "Frotter rapidement et énergiquement une partie du corps, généralement à des fins thérapeutiques."
         }
     }
 }
