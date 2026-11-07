@@ -1,20 +1,20 @@
 {
     "words": {
-        "asthmatique": {
-            "catGram": "adjectif",
-            "def": "Relatif à l'asthme."
-        },
-        "commandement": {
-            "catGram": "nom masculin",
-            "def": "Action de commander"
-        },
-        "trésor": {
-            "catGram": "nom masculin",
-            "def": "Ensemble de choses de valeur (or, argent, objets précieux, pierreries, titres, etc.) accumulées et souvent soigneusement cachées."
-        },
-        "frictionner": {
+        "nettoyer": {
             "catGram": "verbe",
-            "def": "Frotter rapidement et énergiquement une partie du corps, généralement à des fins thérapeutiques."
+            "def": "Rendre net, propre en débarrassant de tout ce qui salit, souille, ternit."
+        },
+        "absorber": {
+            "catGram": "verbe",
+            "def": "Faire, laisser pénétrer en soi et retenir, assimiler."
+        },
+        "taillé": {
+            "catGram": "adjectif",
+            "def": "Failed to retrieve the web page"
+        },
+        "bivouac": {
+            "catGram": "nom masculin",
+            "def": "Campement provisoire en plein air d’une troupe en campagne, d'un groupe en déplacement."
         }
     }
 }
