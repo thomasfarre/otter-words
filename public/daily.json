@@ -1,20 +1,20 @@
 {
     "words": {
-        "nettoyer": {
-            "catGram": "verbe",
-            "def": "Rendre net, propre en débarrassant de tout ce qui salit, souille, ternit."
-        },
-        "absorber": {
-            "catGram": "verbe",
-            "def": "Faire, laisser pénétrer en soi et retenir, assimiler."
-        },
-        "taillé": {
-            "catGram": "adjectif",
-            "def": "Failed to retrieve the web page"
-        },
-        "bivouac": {
+        "cabinet": {
             "catGram": "nom masculin",
-            "def": "Campement provisoire en plein air d’une troupe en campagne, d'un groupe en déplacement."
+            "def": "Petite pièce généralement à l'écart."
+        },
+        "abuser": {
+            "catGram": "verbe",
+            "def": "User mal ou avec excès d'un bien."
+        },
+        "aspirine": {
+            "catGram": "nom féminin",
+            "def": "Nom déposé de l’acide acétylsalicylique, notamment utilisée comme médicament analgésique."
+        },
+        "prémonition": {
+            "catGram": "nom féminin",
+            "def": "Avertissement intuitif qui fait pressentir un événement à venir."
         }
     }
 }
