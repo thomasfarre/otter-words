@@ -1,20 +1,20 @@
 {
     "words": {
-        "cabinet": {
+        "épisode": {
             "catGram": "nom masculin",
-            "def": "Petite pièce généralement à l'écart."
+            "def": "Action accessoire d’une œuvre, plus ou moins liée à l’action principale."
         },
-        "abuser": {
-            "catGram": "verbe",
-            "def": "User mal ou avec excès d'un bien."
-        },
-        "aspirine": {
+        "chemisette": {
             "catGram": "nom féminin",
-            "def": "Nom déposé de l’acide acétylsalicylique, notamment utilisée comme médicament analgésique."
+            "def": "Chemise à manches courtes."
         },
-        "prémonition": {
-            "catGram": "nom féminin",
-            "def": "Avertissement intuitif qui fait pressentir un événement à venir."
+        "familial": {
+            "catGram": "adjectif",
+            "def": "Relatif à la famille."
+        },
+        "diminutif": {
+            "catGram": "adjectif",
+            "def": "Qui donne une idée de petitesse, qui atténue, affaiblit le sens d’un mot."
         }
     }
 }
