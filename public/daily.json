@@ -1,20 +1,20 @@
 {
     "words": {
-        "épisode": {
+        "corrélatif": {
+            "catGram": "adjectif",
+            "def": "Qui dépend, qui découle d'autre chose."
+        },
+        "demi": {
             "catGram": "nom masculin",
-            "def": "Action accessoire d’une œuvre, plus ou moins liée à l’action principale."
+            "def": "Moitié d'une unité."
         },
-        "chemisette": {
-            "catGram": "nom féminin",
-            "def": "Chemise à manches courtes."
-        },
-        "familial": {
+        "binaire": {
             "catGram": "adjectif",
-            "def": "Relatif à la famille."
+            "def": "Formé de deux éléments."
         },
-        "diminutif": {
-            "catGram": "adjectif",
-            "def": "Qui donne une idée de petitesse, qui atténue, affaiblit le sens d’un mot."
+        "coudrier": {
+            "catGram": "nom masculin",
+            "def": "Autre nom du noisetier."
         }
     }
 }
