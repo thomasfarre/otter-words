@@ -1,20 +1,20 @@
 {
     "words": {
-        "corrélatif": {
-            "catGram": "adjectif",
-            "def": "Qui dépend, qui découle d'autre chose."
+        "cristallographie": {
+            "catGram": "nom féminin",
+            "def": "Science qui étudie les cristaux, leur formation, leur structure et leurs propriétés."
         },
-        "demi": {
+        "désengagement": {
             "catGram": "nom masculin",
-            "def": "Moitié d'une unité."
+            "def": "Action de désengager, de se désengager"
         },
-        "binaire": {
-            "catGram": "adjectif",
-            "def": "Formé de deux éléments."
-        },
-        "coudrier": {
+        "emballage": {
             "catGram": "nom masculin",
-            "def": "Autre nom du noisetier."
+            "def": "Action d’emballer"
+        },
+        "cerne": {
+            "catGram": "nom masculin",
+            "def": "Cercle de couleur bistre ou bleuâtre autour des yeux."
         }
     }
 }
