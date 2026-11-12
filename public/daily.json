@@ -1,20 +1,20 @@
 {
     "words": {
-        "cristallographie": {
+        "correctionnel": {
+            "catGram": "adjectif",
+            "def": "Qui a rapport à l’application des peines infligées par les tribunaux de droit pénal, notamment la garde des détenus."
+        },
+        "dorer": {
+            "catGram": "verbe",
+            "def": "Garnir, recouvrir d'une fine couche d'or."
+        },
+        "implantation": {
             "catGram": "nom féminin",
-            "def": "Science qui étudie les cristaux, leur formation, leur structure et leurs propriétés."
+            "def": "Action d'implanter, de s'implanter"
         },
-        "désengagement": {
+        "échiquier": {
             "catGram": "nom masculin",
-            "def": "Action de désengager, de se désengager"
-        },
-        "emballage": {
-            "catGram": "nom masculin",
-            "def": "Action d’emballer"
-        },
-        "cerne": {
-            "catGram": "nom masculin",
-            "def": "Cercle de couleur bistre ou bleuâtre autour des yeux."
+            "def": "Plateau divisé en 64 cases alternativement noires et blanches et sur lequel on joue aux échecs."
         }
     }
 }
