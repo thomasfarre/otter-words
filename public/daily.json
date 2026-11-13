@@ -1,20 +1,20 @@
 {
     "words": {
-        "correctionnel": {
-            "catGram": "adjectif",
-            "def": "Qui a rapport à l’application des peines infligées par les tribunaux de droit pénal, notamment la garde des détenus."
+        "poissonnier": {
+            "catGram": "nom",
+            "def": "Personne spécialisée dans la vente au détail du poisson et des fruits de mer."
         },
-        "dorer": {
-            "catGram": "verbe",
-            "def": "Garnir, recouvrir d'une fine couche d'or."
-        },
-        "implantation": {
-            "catGram": "nom féminin",
-            "def": "Action d'implanter, de s'implanter"
-        },
-        "échiquier": {
+        "négoce": {
             "catGram": "nom masculin",
-            "def": "Plateau divisé en 64 cases alternativement noires et blanches et sur lequel on joue aux échecs."
+            "def": "Commerce."
+        },
+        "hélas": {
+            "catGram": "interjection",
+            "def": "Expression signifiant la déception, le désespoir, la tristesse."
+        },
+        "vitalité": {
+            "catGram": "nom féminin",
+            "def": "Qualité d'un être vivant ou d'une collectivité qui manifeste une importante énergie, un grand dynamisme."
         }
     }
 }
