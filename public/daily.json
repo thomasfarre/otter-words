@@ -1,20 +1,20 @@
 {
     "words": {
-        "poissonnier": {
+        "serpenter": {
+            "catGram": "verbe",
+            "def": "Former, décrire une ligne sinueuse."
+        },
+        "renard": {
             "catGram": "nom",
-            "def": "Personne spécialisée dans la vente au détail du poisson et des fruits de mer."
+            "def": "Mammifère carnivore, voisin du loup mais de plus petite taille et à tête plus fine, dont le pelage variable est souvent teinté de roux et dont la ruse est proverbiale"
         },
-        "négoce": {
-            "catGram": "nom masculin",
-            "def": "Commerce."
+        "acteur": {
+            "catGram": "nom",
+            "def": "Artiste dont la profession est de jouer un rôle (au théâtre, au cinéma, à la télévision)."
         },
-        "hélas": {
-            "catGram": "interjection",
-            "def": "Expression signifiant la déception, le désespoir, la tristesse."
-        },
-        "vitalité": {
-            "catGram": "nom féminin",
-            "def": "Qualité d'un être vivant ou d'une collectivité qui manifeste une importante énergie, un grand dynamisme."
+        "oublier": {
+            "catGram": "verbe",
+            "def": "Perdre le souvenir de."
         }
     }
 }
