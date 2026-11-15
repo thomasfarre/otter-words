@@ -1,20 +1,20 @@
 {
     "words": {
-        "serpenter": {
+        "bazarder": {
             "catGram": "verbe",
-            "def": "Former, décrire une ligne sinueuse."
+            "def": "Se débarrasser de, vendre rapidement qqch."
         },
-        "renard": {
-            "catGram": "nom",
-            "def": "Mammifère carnivore, voisin du loup mais de plus petite taille et à tête plus fine, dont le pelage variable est souvent teinté de roux et dont la ruse est proverbiale"
+        "démissionnaire": {
+            "catGram": "adjectif",
+            "def": "Qui a remis sa démission."
         },
-        "acteur": {
-            "catGram": "nom",
-            "def": "Artiste dont la profession est de jouer un rôle (au théâtre, au cinéma, à la télévision)."
-        },
-        "oublier": {
+        "raviner": {
             "catGram": "verbe",
-            "def": "Perdre le souvenir de."
+            "def": "Creuser (un terrain) de sillons plus ou moins profonds."
+        },
+        "glaise": {
+            "catGram": "nom féminin",
+            "def": "Terre argileuse, compacte, imperméable, utilisée notamment en poterie."
         }
     }
 }
