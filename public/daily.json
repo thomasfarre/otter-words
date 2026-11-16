@@ -1,20 +1,20 @@
 {
     "words": {
-        "bazarder": {
-            "catGram": "verbe",
-            "def": "Se débarrasser de, vendre rapidement qqch."
-        },
-        "démissionnaire": {
-            "catGram": "adjectif",
-            "def": "Qui a remis sa démission."
-        },
-        "raviner": {
-            "catGram": "verbe",
-            "def": "Creuser (un terrain) de sillons plus ou moins profonds."
-        },
-        "glaise": {
+        "parution": {
             "catGram": "nom féminin",
-            "def": "Terre argileuse, compacte, imperméable, utilisée notamment en poterie."
+            "def": "Fait d'être publié, mis en vente, accessible au public"
+        },
+        "sonder": {
+            "catGram": "verbe",
+            "def": "Reconnaître, explorer à l'aide d'une sonde"
+        },
+        "étain": {
+            "catGram": "nom masculin",
+            "def": "Métal de numéro atomique 50, gris blanc, ductile, malléable, le plus fusible de tous les métaux usuels"
+        },
+        "jadéite": {
+            "catGram": "nom féminin",
+            "def": "Variété de jade à faible teneur en calcium, en magnésium et en fer, translucide et très fusible, dont la couleur varie du blanc verdâtre au vert foncé."
         }
     }
 }
