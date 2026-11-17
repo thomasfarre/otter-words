@@ -1,20 +1,20 @@
 {
     "words": {
-        "parution": {
+        "collectivement": {
+            "catGram": "adverbe",
+            "def": "De manière collective"
+        },
+        "sucrerie": {
             "catGram": "nom féminin",
-            "def": "Fait d'être publié, mis en vente, accessible au public"
+            "def": "Établissement où l'on extrait le sucre (de la betterave, de la canne à sucre)"
         },
-        "sonder": {
-            "catGram": "verbe",
-            "def": "Reconnaître, explorer à l'aide d'une sonde"
+        "démentiel": {
+            "catGram": "adjectif",
+            "def": "Relatif à la démence"
         },
-        "étain": {
-            "catGram": "nom masculin",
-            "def": "Métal de numéro atomique 50, gris blanc, ductile, malléable, le plus fusible de tous les métaux usuels"
-        },
-        "jadéite": {
+        "remise": {
             "catGram": "nom féminin",
-            "def": "Variété de jade à faible teneur en calcium, en magnésium et en fer, translucide et très fusible, dont la couleur varie du blanc verdâtre au vert foncé."
+            "def": "Action de faire passer à nouveau en un lieu"
         }
     }
 }
