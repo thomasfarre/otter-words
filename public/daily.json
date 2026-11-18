@@ -1,20 +1,20 @@
 {
     "words": {
-        "collectivement": {
+        "raffut": {
+            "catGram": "nom masculin",
+            "def": "Grand bruit fait par des personnes qui parlent fort, s'amusent, crient ou se disputent."
+        },
+        "impersonnellement": {
             "catGram": "adverbe",
-            "def": "De manière collective"
+            "def": "D'une manière impersonnelle."
         },
-        "sucrerie": {
-            "catGram": "nom féminin",
-            "def": "Établissement où l'on extrait le sucre (de la betterave, de la canne à sucre)"
+        "jardin": {
+            "catGram": "nom masculin",
+            "def": "Terrain généralement clos, attenant ou non à une habitation, où l'on cultive des végétaux utiles ou d'agrément."
         },
-        "démentiel": {
-            "catGram": "adjectif",
-            "def": "Relatif à la démence"
-        },
-        "remise": {
-            "catGram": "nom féminin",
-            "def": "Action de faire passer à nouveau en un lieu"
+        "combattant": {
+            "catGram": "nom",
+            "def": "Qui prend part au combat (généralement militaire)"
         }
     }
 }
