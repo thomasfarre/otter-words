@@ -1,20 +1,20 @@
 {
     "words": {
-        "raffut": {
+        "fatigue": {
+            "catGram": "nom féminin",
+            "def": "Diminution des forces de l'organisme, généralement provoquée par un travail excessif ou trop prolongé, ou liée à un état fonctionnel défectueux."
+        },
+        "gouaille": {
+            "catGram": "nom féminin",
+            "def": "Attitude moqueuse et insolente."
+        },
+        "vice": {
             "catGram": "nom masculin",
-            "def": "Grand bruit fait par des personnes qui parlent fort, s'amusent, crient ou se disputent."
+            "def": "Disposition habituelle à faire ce qui est moralement ou socialement considéré comme mal"
         },
-        "impersonnellement": {
-            "catGram": "adverbe",
-            "def": "D'une manière impersonnelle."
-        },
-        "jardin": {
-            "catGram": "nom masculin",
-            "def": "Terrain généralement clos, attenant ou non à une habitation, où l'on cultive des végétaux utiles ou d'agrément."
-        },
-        "combattant": {
-            "catGram": "nom",
-            "def": "Qui prend part au combat (généralement militaire)"
+        "graine": {
+            "catGram": "nom féminin",
+            "def": "Partie de la plante par laquelle elle se reproduit."
         }
     }
 }
