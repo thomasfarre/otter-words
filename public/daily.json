@@ -1,20 +1,20 @@
 {
     "words": {
-        "fatigue": {
+        "soixantaine": {
             "catGram": "nom féminin",
-            "def": "Diminution des forces de l'organisme, généralement provoquée par un travail excessif ou trop prolongé, ou liée à un état fonctionnel défectueux."
+            "def": "Nombre de soixante ou environ."
         },
-        "gouaille": {
-            "catGram": "nom féminin",
-            "def": "Attitude moqueuse et insolente."
-        },
-        "vice": {
+        "triplé": {
             "catGram": "nom masculin",
-            "def": "Disposition habituelle à faire ce qui est moralement ou socialement considéré comme mal"
+            "def": "Triple succès d'un sportif, d'une équipe dans la même compétition, au cours d'une même saison."
         },
-        "graine": {
-            "catGram": "nom féminin",
-            "def": "Partie de la plante par laquelle elle se reproduit."
+        "suinter": {
+            "catGram": "verbe",
+            "def": "S'écouler très lentement, goutte à goutte."
+        },
+        "conseil": {
+            "catGram": "nom masculin",
+            "def": "Avis donné à qqn pour l'aider à diriger sa conduite."
         }
     }
 }
