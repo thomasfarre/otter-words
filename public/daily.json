@@ -1,20 +1,20 @@
 {
     "words": {
-        "soixantaine": {
-            "catGram": "nom féminin",
-            "def": "Nombre de soixante ou environ."
+        "ingénieur": {
+            "catGram": "nom",
+            "def": "Personne qui assure, à un haut niveau technique et scientifique, un travail de création, d’organisation, de direction"
         },
-        "triplé": {
-            "catGram": "nom masculin",
-            "def": "Triple succès d'un sportif, d'une équipe dans la même compétition, au cours d'une même saison."
+        "incollable": {
+            "catGram": "adjectif",
+            "def": "Qui ne colle pas"
         },
-        "suinter": {
+        "documenter": {
             "catGram": "verbe",
-            "def": "S'écouler très lentement, goutte à goutte."
+            "def": "Fournir des documents à"
         },
-        "conseil": {
-            "catGram": "nom masculin",
-            "def": "Avis donné à qqn pour l'aider à diriger sa conduite."
+        "défier": {
+            "catGram": "verbe",
+            "def": "Provoquer qqn à se mesurer à soi comme adversaire lors d'un affrontement quelconque."
         }
     }
 }
