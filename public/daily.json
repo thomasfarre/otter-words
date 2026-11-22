@@ -1,20 +1,20 @@
 {
     "words": {
-        "ingénieur": {
-            "catGram": "nom",
-            "def": "Personne qui assure, à un haut niveau technique et scientifique, un travail de création, d’organisation, de direction"
+        "confiscation": {
+            "catGram": "nom féminin",
+            "def": "Action de confisquer."
         },
-        "incollable": {
+        "non-sens": {
+            "catGram": "nom masculin",
+            "def": "Absence de signification, ce qui est dépourvu de sens (phrase, raisonnement, etc.)."
+        },
+        "livresque": {
             "catGram": "adjectif",
-            "def": "Qui ne colle pas"
+            "def": "Qui se fonde sur les livres et non sur l'expérience."
         },
-        "documenter": {
-            "catGram": "verbe",
-            "def": "Fournir des documents à"
-        },
-        "défier": {
-            "catGram": "verbe",
-            "def": "Provoquer qqn à se mesurer à soi comme adversaire lors d'un affrontement quelconque."
+        "obstétrique": {
+            "catGram": "nom féminin",
+            "def": "Branche de la médecine consacrée aux soins qui doivent être prodigués à la femme pendant la grossesse, l'accouchement et le post-partum."
         }
     }
 }
