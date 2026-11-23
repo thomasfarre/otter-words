@@ -1,20 +1,20 @@
 {
     "words": {
-        "confiscation": {
-            "catGram": "nom féminin",
-            "def": "Action de confisquer."
+        "couper": {
+            "catGram": "verbe",
+            "def": "Diviser un corps avec un instrument tranchant"
         },
-        "non-sens": {
+        "préférence": {
+            "catGram": "nom féminin",
+            "def": "Jugement par lequel on donne à qqch. ou à qqn la place de prédilection"
+        },
+        "vicaire": {
             "catGram": "nom masculin",
-            "def": "Absence de signification, ce qui est dépourvu de sens (phrase, raisonnement, etc.)."
+            "def": "Dans la religion catholique, prêtre qui aide et remplace à l'occasion le curé d'une paroisse."
         },
-        "livresque": {
-            "catGram": "adjectif",
-            "def": "Qui se fonde sur les livres et non sur l'expérience."
-        },
-        "obstétrique": {
+        "ambulance": {
             "catGram": "nom féminin",
-            "def": "Branche de la médecine consacrée aux soins qui doivent être prodigués à la femme pendant la grossesse, l'accouchement et le post-partum."
+            "def": "Service d'hôpital militaire temporaire qui suivait les troupes pour soigner les blessés et les malades"
         }
     }
 }
