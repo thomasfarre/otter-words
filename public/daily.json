@@ -1,20 +1,20 @@
 {
     "words": {
-        "couper": {
-            "catGram": "verbe",
-            "def": "Diviser un corps avec un instrument tranchant"
+        "binaire": {
+            "catGram": "adjectif",
+            "def": "Formé de deux éléments."
         },
-        "préférence": {
-            "catGram": "nom féminin",
-            "def": "Jugement par lequel on donne à qqch. ou à qqn la place de prédilection"
-        },
-        "vicaire": {
+        "abattoir": {
             "catGram": "nom masculin",
-            "def": "Dans la religion catholique, prêtre qui aide et remplace à l'occasion le curé d'une paroisse."
+            "def": "Établissement d'abattage des animaux de boucherie."
         },
-        "ambulance": {
-            "catGram": "nom féminin",
-            "def": "Service d'hôpital militaire temporaire qui suivait les troupes pour soigner les blessés et les malades"
+        "affûtage": {
+            "catGram": "nom masculin",
+            "def": "Action d'affûter"
+        },
+        "reculé": {
+            "catGram": "adjectif",
+            "def": "Qui est loin de tout, d'accès parfois difficile."
         }
     }
 }
