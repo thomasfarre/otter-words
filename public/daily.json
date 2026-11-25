@@ -1,20 +1,20 @@
 {
     "words": {
-        "binaire": {
-            "catGram": "adjectif",
-            "def": "Formé de deux éléments."
-        },
-        "abattoir": {
+        "rebord": {
             "catGram": "nom masculin",
-            "def": "Établissement d'abattage des animaux de boucherie."
+            "def": "Partie relevée en saillie qui forme le bord."
         },
-        "affûtage": {
+        "chantage": {
             "catGram": "nom masculin",
-            "def": "Action d'affûter"
+            "def": "Moyen de pression illicite exercée sur une personne pour lui extorquer de l'argent ou des valeurs, par la menace de révélations scandaleuses ou diffamatoires."
         },
-        "reculé": {
-            "catGram": "adjectif",
-            "def": "Qui est loin de tout, d'accès parfois difficile."
+        "faisceau": {
+            "catGram": "nom masculin",
+            "def": "Assemblage de choses de même nature et de forme allongée, liées ensemble ou qui convergent à une de leur extrémité."
+        },
+        "nu-pieds": {
+            "catGram": "nom masculin",
+            "def": "Sandale qui laisse le pied largement découvert."
         }
     }
 }
