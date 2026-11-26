@@ -1,20 +1,20 @@
 {
     "words": {
-        "rebord": {
-            "catGram": "nom masculin",
-            "def": "Partie relevée en saillie qui forme le bord."
+        "dixième": {
+            "catGram": "adjectif",
+            "def": "Qui occupe le rang marqué par le nombre dix (10eou Xe)."
         },
-        "chantage": {
-            "catGram": "nom masculin",
-            "def": "Moyen de pression illicite exercée sur une personne pour lui extorquer de l'argent ou des valeurs, par la menace de révélations scandaleuses ou diffamatoires."
+        "explosif": {
+            "catGram": "adjectif",
+            "def": "Qui a trait au phénomène de l'explosion."
         },
-        "faisceau": {
-            "catGram": "nom masculin",
-            "def": "Assemblage de choses de même nature et de forme allongée, liées ensemble ou qui convergent à une de leur extrémité."
+        "brûlure": {
+            "catGram": "nom féminin",
+            "def": "Lésion produite sur une partie du corps par le feu, une chaleur intense ou un produit corrosif."
         },
-        "nu-pieds": {
-            "catGram": "nom masculin",
-            "def": "Sandale qui laisse le pied largement découvert."
+        "sciemment": {
+            "catGram": "adverbe",
+            "def": "En sachant ce que l'on fait."
         }
     }
 }
