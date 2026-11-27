@@ -1,20 +1,20 @@
 {
     "words": {
-        "dixième": {
-            "catGram": "adjectif",
-            "def": "Qui occupe le rang marqué par le nombre dix (10eou Xe)."
+        "nuire": {
+            "catGram": "verbe",
+            "def": "Causer du tort, du mal à"
         },
-        "explosif": {
-            "catGram": "adjectif",
-            "def": "Qui a trait au phénomène de l'explosion."
+        "prôner": {
+            "catGram": "verbe",
+            "def": "Vanter publiquement et avec insistance qqn ou qqch. pour convaincre de son excellence, de son utilité."
         },
-        "brûlure": {
-            "catGram": "nom féminin",
-            "def": "Lésion produite sur une partie du corps par le feu, une chaleur intense ou un produit corrosif."
+        "chausson": {
+            "catGram": "nom masculin",
+            "def": "Chaussure d'intérieur, souple, légère et chaude, qui couvre le pied"
         },
-        "sciemment": {
-            "catGram": "adverbe",
-            "def": "En sachant ce que l'on fait."
+        "octobre": {
+            "catGram": "nom masculin",
+            "def": "Dixième mois de l'année, qui compte 31 jours"
         }
     }
 }
