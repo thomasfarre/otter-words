@@ -1,20 +1,20 @@
 {
     "words": {
-        "nuire": {
-            "catGram": "verbe",
-            "def": "Causer du tort, du mal à"
+        "artillerie": {
+            "catGram": "nom féminin",
+            "def": "Ensemble des matériels de guerre (canons, obusiers, mortiers, etc.), de leurs munitions et des engins qui servent à leur déplacement."
         },
-        "prôner": {
-            "catGram": "verbe",
-            "def": "Vanter publiquement et avec insistance qqn ou qqch. pour convaincre de son excellence, de son utilité."
+        "appréhension": {
+            "catGram": "nom féminin",
+            "def": "Opération intellectuelle par laquelle l'esprit saisit un objet de pensée."
         },
-        "chausson": {
-            "catGram": "nom masculin",
-            "def": "Chaussure d'intérieur, souple, légère et chaude, qui couvre le pied"
+        "bijouterie": {
+            "catGram": "nom féminin",
+            "def": "Fabrication, commerce des bijoux."
         },
-        "octobre": {
-            "catGram": "nom masculin",
-            "def": "Dixième mois de l'année, qui compte 31 jours"
+        "acétone": {
+            "catGram": "nom féminin",
+            "def": "Corps organique, premier terme de la série des cétones, incolore et volatile, utilisé comme solvant"
         }
     }
 }
